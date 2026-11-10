@@ -7,12 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - name: Copy all original branches and tags without rewriting commits
+      - name: Transport public history and coordinate owner SSH publication
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          df -h "$RUNNER_TEMP"
           gh auth setup-git
           git clone --bare https://github.com/LeaiFish/ai-news-radar.git "$RUNNER_TEMP/history.git"
           cd "$RUNNER_TEMP/history.git"
@@ -20,17 +19,48 @@ jobs:
           git config pack.windowMemory 256m
           git remote add destination https://github.com/LeaiFish/ai-perspective.git
           git show-ref --heads --tags > "$RUNNER_TEMP/source-refs.txt"
+          echo "History objects: $(du -sh . | cut -f1); commits: $(git rev-list --count --all)" >> "$GITHUB_STEP_SUMMARY"
+          state() {
+            ref="$1" sha="$2" phase="$3"
+            content=$(python3 -c 'import base64,json,sys;print(base64.b64encode(json.dumps(dict(ref=sys.argv[1],sha=sys.argv[2],phase=sys.argv[3],run_id=sys.argv[4])).encode()).decode())' "$ref" "$sha" "$phase" "$GITHUB_RUN_ID")
+            existing=$(gh api repos/LeaiFish/ai-perspective/contents/migration-progress.json?ref=migration-bootstrap --jq .sha 2>/dev/null || true)
+            args=(--method PUT repos/LeaiFish/ai-perspective/contents/migration-progress.json -f branch=migration-bootstrap -f message="ops: history migration $phase" -f content="$content")
+            if [ -n "$existing" ]; then args+=(-f sha="$existing"); fi
+            gh api "${args[@]}" --silent
+          }
+          copy_ref() {
+            sha="$1" ref="$2"
+            current=$(git ls-remote destination "$ref" | awk '{print $1}')
+            if [ "$current" = "$sha" ]; then return; fi
+            if git push destination "$sha:$ref" 2>"$RUNNER_TEMP/push-error.txt"; then
+              return
+            fi
+            cat "$RUNNER_TEMP/push-error.txt"
+            if ! grep -q 'without `workflows` permission' "$RUNNER_TEMP/push-error.txt"; then exit 1; fi
+            # Object transport has finished. Reference publication is performed by the
+            # owner's existing local SSH authentication; no owner credential enters CI.
+            state "$ref" "$sha" awaiting_owner_ssh
+            for attempt in $(seq 1 150); do
+              current=$(git ls-remote destination "$ref" | awk '{print $1}')
+              if [ "$current" = "$sha" ]; then return; fi
+              sleep 2
+            done
+            echo 'Owner SSH reference publication did not complete within five minutes.' >&2
+            exit 1
+          }
+          state refs/heads/master "$(git rev-parse master)" copying
+          current=$(git ls-remote destination refs/heads/master | awk '{print $1}')
           git rev-list --first-parent --reverse master | awk 'NR % 100 == 0' > "$RUNNER_TEMP/chunks.txt"
           while read -r commit; do
-            git push destination "$commit:refs/heads/master"
+            if [ -n "$current" ] && git merge-base --is-ancestor "$commit" "$current"; then continue; fi
+            copy_ref "$commit" refs/heads/master
+            current="$commit"
           done < "$RUNNER_TEMP/chunks.txt"
-          git push destination refs/heads/master:refs/heads/master
-          while read -r ref; do
-            git push destination "$ref:$ref"
-          done < <(git for-each-ref --format='%(refname)' refs/heads/ refs/tags/)
+          copy_ref "$(git rev-parse master)" refs/heads/master
+          while read -r sha ref; do copy_ref "$sha" "$ref"; done < "$RUNNER_TEMP/source-refs.txt"
           git ls-remote --heads --tags destination | awk '$2 !~ /\^\{\}$/ {print $1 " " $2}' | sort > "$RUNNER_TEMP/destination-refs.txt"
           sort "$RUNNER_TEMP/source-refs.txt" > "$RUNNER_TEMP/expected-refs.txt"
           grep -v ' refs/heads/migration-bootstrap$' "$RUNNER_TEMP/destination-refs.txt" > "$RUNNER_TEMP/copied-refs.txt"
           diff -u "$RUNNER_TEMP/expected-refs.txt" "$RUNNER_TEMP/copied-refs.txt"
-          echo "All original branch and tag SHAs match." >> "$GITHUB_STEP_SUMMARY"
-          git rev-list --count --all >> "$GITHUB_STEP_SUMMARY"
+          state refs/heads/master "$(git rev-parse master)" complete
+          echo 'All original branch and tag SHAs match.' >> "$GITHUB_STEP_SUMMARY"
