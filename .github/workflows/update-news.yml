@@ -33,6 +33,7 @@ on:
         type: boolean
         default: false
   schedule:
+    - cron: "59 7 10 11 *" # TEMP_MIGRATION_ACCEPTANCE_20261110
     - cron: "40 2 * * *"           # 公众号：北京时间每天 10:40，由云端采集和核验
     # 保留既有分时段节奏，迁移后由当前维护者更新分钟值（全部 UTC；北京 = UTC+8）：
     # 高峰（北京周一至五 9-12 / 14-18）保持每小时；其余空闲时段 3 小时一轮；深夜 4 小时一轮。
