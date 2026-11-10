@@ -264,7 +264,6 @@ jobs:
           git push
 
       - name: Request Pages build for the generated snapshot
-        if: steps.wechat.outcome == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -275,6 +274,36 @@ jobs:
               *) exit 1 ;;
             esac
           fi
+
+      - name: Verify published news snapshot
+        run: |
+          python - <<'PY'
+          import json, time
+          from pathlib import Path
+          import requests
+          base = "https://leaifish.github.io/ai-perspective/"
+          expected = {
+              "data/source-status.json": ("generated_at", json.loads(Path("data/source-status.json").read_text())["generated_at"]),
+              "public-news.json": ("generatedAt", json.loads(Path("public-news.json").read_text())["generatedAt"]),
+          }
+          assert all(value for _, value in expected.values()), "missing local snapshot timestamp"
+          deadline = time.monotonic() + 600
+          while time.monotonic() < deadline:
+              try:
+                  for path, (key, value) in expected.items():
+                      response = requests.get(base + path, params={"verify": time.time_ns()}, headers={"Cache-Control": "no-cache"}, timeout=(5, 20))
+                      response.raise_for_status()
+                      if response.json().get(key) != value:
+                          break
+                  else:
+                      print("Published news timestamps match the generated snapshot.")
+                      break
+              except (requests.RequestException, ValueError):
+                  pass
+              time.sleep(10)
+          else:
+              raise SystemExit("Pages did not publish the expected news snapshot within 10 minutes")
+          PY
 
       - name: Verify published WeChat snapshot
         id: verify_wechat_pages

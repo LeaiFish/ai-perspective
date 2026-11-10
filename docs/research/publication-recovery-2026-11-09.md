@@ -153,3 +153,17 @@ status is not an outage. It deduplicates unchanged faults and reports recovery. 
 monitor requires the Mac online and Codex available; it cannot provide
 continuous monitoring while the computer is off. Independent repository
 status removes the fork-specific pause, not every possible GitHub restriction.
+
+
+### Every successful refresh must publish Pages
+
+A branch-based Pages site is not automatically rebuilt by commits made with
+GITHUB_TOKEN. The previous workflow requested Pages only after its WeChat
+step, leaving ordinary hourly refreshes without that explicit publication
+request. Request Pages after every successful generated snapshot, then compare
+the actual public `source-status.generated_at` and `public-news.generatedAt`
+with the local output. Allow up to ten minutes for CDN/build propagation and
+fail the news job if the expected version never arrives. WeChat's separate
+discovery timestamp and partial-coverage check remains in place.
+
+Reference: <https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>.
