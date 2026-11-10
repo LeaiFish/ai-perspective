@@ -24,7 +24,7 @@ def test_dispatch_denial_has_actionable_safe_code_without_upstream_output():
  calls=[]
  def run(args,**kwargs):
   calls.append(args);stdout=''
-  if args[:3]==['git','remote','get-url']:stdout='git@github.com:LeaiFish/ai-news-radar.git'
+  if args[:3]==['git','remote','get-url']:stdout='git@github.com:LeaiFish/ai-perspective.git'
   elif args[:2]==['git','show']:stdout=json.dumps({'generated_at':'2026-11-06T22:07:14Z'})
   elif args[:3]==['gh','run','list']:stdout='[]'
   if args[:3]==['gh','workflow','run']:
@@ -39,7 +39,7 @@ def test_other_failure_names_stage_without_raw_diagnostics():
  def run(args,**kwargs):
   if args[:2]==['git','fetch']:
    return SimpleNamespace(returncode=1,stdout='',stderr='sensitive upstream detail')
-  return SimpleNamespace(returncode=0,stdout='git@github.com:LeaiFish/ai-news-radar.git' if args[:3]==['git','remote','get-url'] else '',stderr='')
+  return SimpleNamespace(returncode=0,stdout='git@github.com:LeaiFish/ai-perspective.git' if args[:3]==['git','remote','get-url'] else '',stderr='')
  with pytest.raises(RuntimeError,match='^snapshot_operation_failed:fetch$'):
   ensure(Path('/tmp/repair-test'),run=run,now=lambda:NOW)
 

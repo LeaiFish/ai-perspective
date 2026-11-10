@@ -25,7 +25,7 @@ class SnapshotTests(unittest.TestCase):
             if args[:3] == ['git', 'status', '--porcelain']:
                 output = ' M file' if dirty else ''
             elif args[:3] == ['git', 'remote', 'get-url']:
-                output = 'git@github.com:LeaiFish/ai-news-radar.git'
+                output = 'git@github.com:LeaiFish/ai-perspective.git'
             elif args[:2] == ['git', 'show']:
                 last[0] = next(snapshots, last[0])
                 output = json.dumps({'generated_at': last[0]})
