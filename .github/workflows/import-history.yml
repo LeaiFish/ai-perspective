@@ -1,0 +1,36 @@
+name: Import complete Radar history
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Copy all original branches and tags without rewriting commits
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          df -h "$RUNNER_TEMP"
+          gh auth setup-git
+          git clone --bare https://github.com/LeaiFish/ai-news-radar.git "$RUNNER_TEMP/history.git"
+          cd "$RUNNER_TEMP/history.git"
+          git config pack.threads 2
+          git config pack.windowMemory 256m
+          git remote add destination https://github.com/LeaiFish/ai-perspective.git
+          git show-ref --heads --tags > "$RUNNER_TEMP/source-refs.txt"
+          git rev-list --first-parent --reverse master | awk 'NR % 100 == 0' > "$RUNNER_TEMP/chunks.txt"
+          while read -r commit; do
+            git push destination "$commit:refs/heads/master"
+          done < "$RUNNER_TEMP/chunks.txt"
+          git push destination refs/heads/master:refs/heads/master
+          while read -r ref; do
+            git push destination "$ref:$ref"
+          done < <(git for-each-ref --format='%(refname)' refs/heads/ refs/tags/)
+          git ls-remote --heads --tags destination | awk '$2 !~ /\^\{\}$/ {print $1 " " $2}' | sort > "$RUNNER_TEMP/destination-refs.txt"
+          sort "$RUNNER_TEMP/source-refs.txt" > "$RUNNER_TEMP/expected-refs.txt"
+          grep -v ' refs/heads/migration-bootstrap$' "$RUNNER_TEMP/destination-refs.txt" > "$RUNNER_TEMP/copied-refs.txt"
+          diff -u "$RUNNER_TEMP/expected-refs.txt" "$RUNNER_TEMP/copied-refs.txt"
+          echo "All original branch and tag SHAs match." >> "$GITHUB_STEP_SUMMARY"
+          git rev-list --count --all >> "$GITHUB_STEP_SUMMARY"
