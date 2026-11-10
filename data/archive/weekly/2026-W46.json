@@ -4,49 +4,49 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-10T16:28:10.919230Z",
+  "generated_at": "2026-11-10T18:43:12.648407Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11"
   ],
-  "story_count": 564,
-  "unique_story_count": 349,
+  "story_count": 592,
+  "unique_story_count": 416,
   "counts": {
     "by_company_topic": {
-      "anthropic": 154,
+      "anthropic": 167,
       "apple": 6,
-      "cursor": 4,
+      "cursor": 6,
       "deepseek": 5,
-      "doubao": 12,
-      "google-gemini": 33,
-      "huggingface": 4,
+      "doubao": 11,
+      "google-gemini": 45,
+      "huggingface": 5,
       "hunyuan": 1,
       "kimi": 5,
       "meta-llama": 2,
-      "microsoft": 2,
-      "minimax": 4,
-      "nvidia": 37,
-      "openai": 42,
-      "openrouter": 6,
+      "microsoft": 1,
+      "minimax": 5,
+      "nvidia": 36,
+      "openai": 49,
+      "openrouter": 9,
       "perplexity": 2,
-      "qwen": 4
+      "qwen": 3
     },
     "by_lens_topic": {
-      "agent-ecosystem": 103,
-      "monetization": 25,
-      "product-entry": 5,
-      "workplace": 13
+      "agent-ecosystem": 124,
+      "monetization": 28,
+      "product-entry": 7,
+      "workplace": 15
     },
     "by_importance_label": {
-      "值得关注": 404,
-      "多源热议": 8,
-      "官方更新": 51,
-      "行业动态": 101
+      "值得关注": 417,
+      "多源热议": 7,
+      "官方更新": 57,
+      "行业动态": 111
     },
     "by_source_count_bucket": {
-      "1": 540,
-      "2": 15,
-      "3+": 9
+      "1": 566,
+      "2": 18,
+      "3+": 8
     }
   },
   "top_stories": [
@@ -54,9 +54,9 @@
       "story_id": "story_a9d5a52022ad",
       "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型 / Gemini 4 Carbon is now available",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "importance_score": 0.9259,
+      "importance_score": 0.9452,
       "importance_label": "官方更新",
-      "source_count": 4,
+      "source_count": 5,
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
@@ -77,10 +77,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_1a75130aba91",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "importance_score": 0.849,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_0faab021d272",
       "title": "Google Cloud launches Gemini for healthcare.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
-      "importance_score": 0.8492,
+      "importance_score": 0.8437,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -90,10 +103,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_c9b05eb43caa",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "importance_score": 0.8387,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3a8fb74dc2ec",
       "title": "Workday 如何使用 LangGraph 和 LangSmith 构建企业级 AI 代理平台 / How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
       "url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
-      "importance_score": 0.8428,
+      "importance_score": 0.8371,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -106,7 +132,7 @@
       "story_id": "story_3f106a4856f1",
       "title": "Helping caregivers use AI in everyday life",
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "importance_score": 0.8407,
+      "importance_score": 0.8354,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -116,17 +142,77 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_db56a6febc48",
+      "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_492da326a530",
+      "title": "How Curative is building a national provider network with agents on Claude",
+      "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_3c5df1682633",
+      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_293ba754703a",
+      "title": "Your apps can now open in Claude, and Claude can work in them",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_37612d93c538",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。 / We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
-      "importance_score": 0.8377,
+      "importance_score": 0.8321,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "workplace"
+      ]
     },
     {
       "story_id": "story_2b2972b2424d",
@@ -139,19 +225,6 @@
       "company_topics": [
         "nvidia",
         "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_1a75130aba91",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "openai"
       ],
       "lens_topics": []
     },
@@ -180,6 +253,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_49af9c684130",
+      "title": "Hugging Face Hub 支持用 Google Cloud 账户付费 / Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "importance_score": 0.8234,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_2b2aad2325b1",
       "title": "Claude Fable 5.2 in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
@@ -196,44 +282,6 @@
       ]
     },
     {
-      "story_id": "story_bb4a3375cbda",
-      "title": "Hugging Face 详解决策模型接口及其在 Transformers 和 llama.cpp 中的支持 / Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "importance_score": 0.8219,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "meta-llama",
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_5c94402abb6b",
-      "title": "How we moved our frontend off Firestore and built Lovable Realtime",
-      "url": "https://lovable.dev/blog/lovable-realtime-service",
-      "importance_score": 0.8215,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_401b504fd138",
-      "title": "Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents",
-      "url": "https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756",
-      "importance_score": 0.8199,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_616c01159fe6",
       "title": "Stripe 如何在 1 周内在深度代理上构建 Kai / How Stripe Built Kai on Deep Agents in 1 Week",
       "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
@@ -247,17 +295,42 @@
       ]
     },
     {
-      "story_id": "story_985828f507bf",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-      "importance_score": 0.8177,
+      "story_id": "story_bb4a3375cbda",
+      "title": "Hugging Face 详解决策模型接口及其在 Transformers 和 llama.cpp 中的支持 / Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "importance_score": 0.8174,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "google-gemini"
+        "meta-llama",
+        "huggingface"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_5c94402abb6b",
+      "title": "How we moved our frontend off Firestore and built Lovable Realtime",
+      "url": "https://lovable.dev/blog/lovable-realtime-service",
+      "importance_score": 0.8162,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_401b504fd138",
+      "title": "Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents",
+      "url": "https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756",
+      "importance_score": 0.8154,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_3631798e1948",
@@ -269,6 +342,19 @@
       "archive_date": "2026-11-10",
       "company_topics": [
         "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_985828f507bf",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "importance_score": 0.8134,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -295,6 +381,21 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_a40c4f53c4d7",
+      "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出 / How to Get Structured Output from Any LLM: JSON Schema, Tool Calls, or a Decision Model",
+      "url": "https://openrouter.ai/blog/tutorials/structured-output-llm",
+      "importance_score": 0.8094,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_81c2a687b5a2",
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "url": "https://openai.com/index/control-room",
@@ -308,10 +409,68 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_f5fe6b704dc1",
+      "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高 / Best OCR Model for Scanned Documents, Measured",
+      "url": "https://openrouter.ai/blog/insights/best-ocr-model",
+      "importance_score": 0.8014,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic",
+        "openrouter"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9bbe6542641a",
+      "title": "OpenRouter 教程：用 Python 构建餐厅订位语音 AI 智能体并实测延迟与成本 / How to Build a Voice AI Agent",
+      "url": "https://openrouter.ai/blog/tutorials/build-voice-ai-agent",
+      "importance_score": 0.8014,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_3a827e3b4155",
+      "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU / Jensen's Bizarre Adventure",
+      "url": "https://www.wheresyoured.at/jensens-bizarre-adventure",
+      "importance_score": 0.801,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_36ee8a172741",
+      "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具 / Now, you can use your ChatGPT Business plan in tools like @NotionHQ, @v0, @ampcode, @kilocode, @warpdotdev, Hermes from @NousResearch, @...",
+      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "importance_score": 0.7987,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "product-entry",
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_cf212dd587ab",
       "title": "Anthropic IPO 定价每股 $70.00 至 $78.00，估值最高可达 $1.4 万亿 / Anthropic targets $1.4 trillion IPO",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-      "importance_score": 0.8036,
+      "importance_score": 0.798,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -322,34 +481,6 @@
       "lens_topics": [
         "monetization"
       ]
-    },
-    {
-      "story_id": "story_f39229f420a0",
-      "title": "Google 发布最强前沿模型 Gemini 4 Carbon / Our strongest frontier model, Gemini 4 Carbon, is now available.",
-      "url": "https://x.com/GoogleAI/status/2120187753329791341",
-      "importance_score": 0.7999,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_af155027e496",
-      "title": "Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值 / Just say no to Anthropic’s IPO",
-      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
-      "importance_score": 0.7989,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_447107dfb12b",
@@ -365,23 +496,10 @@
       ]
     },
     {
-      "story_id": "story_df0a32a80c6a",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：同一模型、不同安全限制 / Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-      "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release",
-      "importance_score": 0.7938,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ecae02656733",
-      "title": "Google 面向公众发布 Gemini 4 Carbon，并在 Antigravity 预览 agent swarm 功能 / Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "importance_score": 0.7934,
+      "story_id": "story_f39229f420a0",
+      "title": "Google 发布最强前沿模型 Gemini 4 Carbon / Our strongest frontier model, Gemini 4 Carbon, is now available.",
+      "url": "https://x.com/GoogleAI/status/2120187753329791341",
+      "importance_score": 0.7942,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -391,6 +509,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_af155027e496",
+      "title": "Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值 / Just say no to Anthropic’s IPO",
+      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
+      "importance_score": 0.7933,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_c18d874f4b17",
@@ -419,34 +550,17 @@
       ]
     },
     {
-      "story_id": "story_5059659c0d22",
-      "title": "Anthropic 将 IPO 发行价区间定为 70 至 78 美元，隐含估值达 1.404 万亿美元 / Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion",
-      "importance_score": 0.7914,
+      "story_id": "story_df0a32a80c6a",
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：同一模型、不同安全限制 / Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+      "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release",
+      "importance_score": 0.7882,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
         "anthropic"
       ],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_44ba3d4b0dea",
-      "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务 / Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
-      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago",
-      "importance_score": 0.7886,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
     },
     {
       "story_id": "story_ed4843ed21b9",
@@ -462,50 +576,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c3edcb8060b0",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2 / Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "importance_score": 0.781,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_fb13be804da7",
-      "title": "The Information 报道称与英伟达 CEO 黄仁勋相关人士向中国买家转手 75 亿美元硬件 / According to The Information Jensen Huang’s lover routed $7.5B of Nvidia hardware to Chinese buyers.",
-      "url": "https://x.com/rohanpaul_ai/status/2120162909422780789",
-      "importance_score": 0.7807,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_78f655eb896d",
-      "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌 / Anthropic reportedly plans to move forward with IPO plans",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans",
-      "importance_score": 0.7763,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "openai",
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_79a6f4342fea",
-      "title": "Google 发布 Gemini 4 Carbon，AI Ultra 订阅者与开发者均可使用 / Try Gemini 4 Carbon starting today:",
-      "url": "https://x.com/Google/status/2120186190905090406",
-      "importance_score": 0.7756,
+      "story_id": "story_ecae02656733",
+      "title": "Google 面向公众发布 Gemini 4 Carbon，并在 Antigravity 预览 agent swarm 功能 / Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "importance_score": 0.7877,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -513,75 +587,8 @@
         "google-gemini"
       ],
       "lens_topics": [
-        "monetization"
+        "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_ede0dd4da265",
-      "title": "Claude Fable 5.2 上线 Claude Platform 和 Claude Code，速度提升最高 30% 并降价 / Fable 5.2 is now available in the Claude Platform and Claude Code.",
-      "url": "https://x.com/ClaudeDevs/status/2119868698613956992",
-      "importance_score": 0.7745,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_b87edbec67e5",
-      "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
-      "url": "https://mp.weixin.qq.com/s/sKoVHL_oNsik9vtUjr0lHg",
-      "importance_score": 0.7715,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d3d278744590",
-      "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
-      "url": "https://www.ithome.com/1/024/888.htm",
-      "importance_score": 0.7696,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c94b7c1340c5",
-      "title": "字节跳动 Seedream 5.5 正式登陆豆包：图片设计能力迎全方位升级",
-      "url": "https://www.aibase.com/news/32217",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "doubao"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_72387562b8c9",
-      "title": "谷歌给 Gemini 装\"删除键\"：AI 记住的隐私，现在你能看能改能删",
-      "url": "https://www.aibase.com/news/32215",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     }
   ]
 }
