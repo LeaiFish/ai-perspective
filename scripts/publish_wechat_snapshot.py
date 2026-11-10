@@ -14,7 +14,7 @@ try:
 except ModuleNotFoundError:
     from wechat_sources import SCHEMA, eligible_rows, normalized_name, published_datetime, targets, canonical_url, canonical_evidence_url, retained_account_rows
 
-REPOSITORY = "git@github.com:LeaiFish/ai-news-radar.git"
+REPOSITORY = "git@github.com:LeaiFish/ai-perspective.git"
 SNAPSHOT = Path("data/bridge/wechat-accounts.json")
 ROOT = Path(__file__).resolve().parents[1]
 STATS = ("at", "ok", "searched_accounts", "candidates", "verified", "added", "covered_companies", "covered_accounts")

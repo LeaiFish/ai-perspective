@@ -12,7 +12,7 @@ import subprocess
 import time
 from zoneinfo import ZoneInfo
 
-REPO = 'LeaiFish/ai-news-radar'
+REPO = 'LeaiFish/ai-perspective'
 WORKFLOW = 'update-news.yml'
 UTC = timezone.utc
 

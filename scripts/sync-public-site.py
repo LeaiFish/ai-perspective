@@ -36,7 +36,7 @@ with tempfile.TemporaryDirectory(prefix='radar-public-') as folder:
   print('Public preview written to .local/public-preview; nothing uploaded.')
  else:
   checkout.parent.mkdir(parents=True,exist_ok=True)
-  if not checkout.exists():run('git','clone','--branch','master','--single-branch','https://github.com/LeaiFish/ai-news-radar.git',str(checkout))
+  if not checkout.exists():run('git','clone','--branch','master','--single-branch','https://github.com/LeaiFish/ai-perspective.git',str(checkout))
   if run('git','status','--porcelain',cwd=checkout).strip():raise SystemExit('Dedicated Pages checkout has local changes; inspect before publishing')
   run('git','pull','--rebase',cwd=checkout)
   remote_snapshot=checkout/'public-news.json'

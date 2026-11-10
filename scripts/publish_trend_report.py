@@ -16,8 +16,8 @@ try:
 except ModuleNotFoundError:
     from trend_reports import LATEST, archive_path, bind_input, load, require, validate_report, write_report
 
-REPOSITORY = "git@github.com:LeaiFish/ai-news-radar.git"
-PUBLIC = "https://leaifish.github.io/ai-news-radar/data/trends/latest.json"
+REPOSITORY = "git@github.com:LeaiFish/ai-perspective.git"
+PUBLIC = "https://leaifish.github.io/ai-perspective/data/trends/latest.json"
 
 
 def git(*args, cwd=None, check=True):
@@ -85,9 +85,9 @@ def main():
     # Output only safe ids/status. Never expose Git/HTTP raw diagnostics.
     print(json.dumps(result, ensure_ascii=False), flush=True)
     if args.verify:
-        rebuild = subprocess.run(["gh", "api", "--method", "POST", "repos/LeaiFish/ai-news-radar/pages/builds"], capture_output=True, timeout=40)
+        rebuild = subprocess.run(["gh", "api", "--method", "POST", "repos/LeaiFish/ai-perspective/pages/builds"], capture_output=True, timeout=40)
         if rebuild.returncode:
-            active = subprocess.run(["gh", "api", "repos/LeaiFish/ai-news-radar/pages/builds/latest", "--jq", ".status"], capture_output=True, text=True, timeout=40)
+            active = subprocess.run(["gh", "api", "repos/LeaiFish/ai-perspective/pages/builds/latest", "--jq", ".status"], capture_output=True, text=True, timeout=40)
             require(active.returncode == 0 and active.stdout.strip() in {"queued", "building", "built"}, "pages_build_request_failed")
         require(verify(result["report_id"]), "pages_report_verification_timeout")
         print(json.dumps({"status": "deployed", "report_id": result["report_id"]}))

@@ -1,3 +1,5 @@
+> 本人维护的独立仓库：[LeaiFish/ai-perspective](https://github.com/LeaiFish/ai-perspective)，[在线阅读](https://leaifish.github.io/ai-perspective/)。原 fork 和运行记录保留在 [ai-news-radar](https://github.com/LeaiFish/ai-news-radar)。迁移保留 Git 提交、分支、标签及新闻/研判历史；以下 LearnPrompt 介绍保留上游归属。
+
 > 日报周报趋势：使用本机 Codex 订阅核验与提炼，公开采集继续在云端运行；见 [运行说明](docs/TREND_REPORTS.md)。
 
 > 本仓库已迁移为 AI Perspective：本机完整 AIHOT 架构 + GitHub Pages 公开阅读器，默认阻断付费服务。

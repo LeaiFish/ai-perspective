@@ -62,7 +62,7 @@ GitHub Actions 的 `update-news.yml` 每天北京时间 **10:40** 开始采集�
 勾选 `refresh_wechat`；或运行：
 
 ```bash
-gh workflow run update-news.yml --repo LeaiFish/ai-news-radar --ref master -f refresh_wechat=true
+gh workflow run update-news.yml --repo LeaiFish/ai-perspective --ref master -f refresh_wechat=true
 ```
 
 采集结果、覆盖账号数、新增归档条数（含历史）、近 24 小时入池数、部署状态和版本在该轮 Actions Summary 中查看。
@@ -88,13 +88,13 @@ TITLE_ENHANCE_MAX_PER_RUN=0 REASON_ENHANCE_MAX_PER_RUN=0 \
 ```
 
 此命令先校验并重新构造公开字段白名单，再在独立临时目录克隆
-`LeaiFish/ai-news-radar` 的最新 `master`，合并远端历史记录，每账号保留最新 20 条（近7日有效记录超过20条时全部保留），
+`LeaiFish/ai-perspective` 的最新 `master`，合并远端历史记录，每账号保留最新 20 条（近7日有效记录超过20条时全部保留），
 仅提交 `data/bridge/wechat-accounts.json`。不读取或提交本机 Git 暂存区、其他改动、
 私有 OPML、登录凭据或全文。远端快照更新时拒绝旧采集覆盖，并发推送失败最多重新合并三次。
 需要本机已有 GitHub SSH 推送权限；不要求把凭据复制到仓库或工作流。
 
 推送触发现有 `update-news.yml`：免费更新新闻、生成公开阅读器，然后由现有 GitHub Pages
-从 `master` 根目录发布到 <https://leaifish.github.io/ai-news-radar/>。
+从 `master` 根目录发布到 <https://leaifish.github.io/ai-perspective/>。
 原有其他信源刷新频率保持不变。网页更新时间取决于采集、Actions 和 Pages 部署是否完成。
 若使用本机任务，运行设备需开机并保持网络可用。
 

@@ -24,7 +24,7 @@ except ModuleNotFoundError:
 
 SEARCH_URL = "https://mcp.exa.ai/mcp"
 RECENT_SEARCH_URL = SEARCH_URL + '?tools=web_search_advanced_exa'
-SITE_URL = "https://leaifish.github.io/ai-news-radar/"
+SITE_URL = "https://leaifish.github.io/ai-perspective/"
 URL_PATTERN = re.compile(r'https?://mp\.weixin\.qq\.com/s(?:/[A-Za-z0-9_-]+|\?[^\s<>"\\]+)')
 
 
