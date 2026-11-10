@@ -177,3 +177,20 @@ actual Pages publication, but did not observe a native schedule event at the
 initial regular or temporary acceptance points. The temporary cron was removed;
 regular schedules and the independent stale-update monitor remain enabled.
 Do not report native schedule execution as verified until its actual run exists.
+
+
+If both public news timestamps are older than eight hours and no refresh is
+queued/running, the external local monitor may dispatch the existing free
+workflow once per incident, with `refresh_wechat=false`. Persist the incident
+ID and attempted run before retrying across monitor executions; a rejected
+request stops recovery. Confirm the actual Pages timestamp before reporting
+recovery. This fallback still requires the Mac online and Codex available.
+It never regenerates editorial reports, publishes weekly drafts, changes
+permissions, or modifies timestamps to conceal stale data.
+
+For Git 2.54 converted partial clones, an index-pack/pack-objects assertion
+can be caused by old packs missing their `.promisor` sidecars. Restoring those
+markers and verifying fetch/connectivity repaired this local clone without
+removing data or rewriting history. Preserve promisor configuration; a blobless
+refetch avoids repeated tree downloads. Reference:
+<https://github.com/NousResearch/hermes-agent/blob/main/website/docs/getting-started/updating.md>.
