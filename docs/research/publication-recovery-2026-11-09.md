@@ -123,8 +123,15 @@ source on a GitHub runner and push commits in first-parent batches, then all
 branches/tags. Keep the destination default branch on bootstrap until the
 history matches, so scheduled collectors cannot write during import. The
 Source Imports REST API is retired; do not build a migration on that endpoint.
-Never print or copy credentials; the runner's destination-scoped GITHUB_TOKEN
-is sufficient to write this new repository. GitHub Secrets cannot be read back
+Never print or copy credentials. The runner's destination-scoped GITHUB_TOKEN
+can transport history objects, but GitHub rejects workflow-file changes made
+without workflows permission. Publish those references through the owner's
+existing local SSH authentication, coordinated by a public SHA/ref progress
+file on the isolated bootstrap branch. This keeps owner credentials out of CI.
+For partial local fetches, retain enough commit ancestry to establish each
+fast-forward; commit-only fetching and push negotiation avoid downloading
+historical blobs just to publish an already-transported reference. Do not
+force-push to conceal a missing ancestry check. GitHub Secrets cannot be read back
 for migration. Existing optional X bridge records remain in the archive;
 secret-backed refresh needs separate reconfiguration and is not proved by
 successful public RSS refreshes.
