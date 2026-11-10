@@ -4,48 +4,49 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-10T18:43:12.648407Z",
+  "generated_at": "2026-11-10T22:26:08.834548Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11"
   ],
-  "story_count": 592,
-  "unique_story_count": 416,
+  "story_count": 581,
+  "unique_story_count": 470,
   "counts": {
     "by_company_topic": {
-      "anthropic": 167,
-      "apple": 6,
-      "cursor": 6,
+      "anthropic": 151,
+      "apple": 5,
+      "cursor": 4,
       "deepseek": 5,
-      "doubao": 11,
+      "doubao": 10,
       "google-gemini": 45,
       "huggingface": 5,
       "hunyuan": 1,
       "kimi": 5,
       "meta-llama": 2,
-      "microsoft": 1,
+      "microsoft": 2,
       "minimax": 5,
-      "nvidia": 36,
-      "openai": 49,
+      "nvidia": 37,
+      "openai": 52,
       "openrouter": 9,
-      "perplexity": 2,
-      "qwen": 3
+      "perplexity": 1,
+      "qwen": 3,
+      "xai": 1
     },
     "by_lens_topic": {
-      "agent-ecosystem": 124,
-      "monetization": 28,
-      "product-entry": 7,
-      "workplace": 15
+      "agent-ecosystem": 125,
+      "monetization": 26,
+      "product-entry": 6,
+      "workplace": 14
     },
     "by_importance_label": {
-      "值得关注": 417,
-      "多源热议": 7,
-      "官方更新": 57,
-      "行业动态": 111
+      "值得关注": 406,
+      "多源热议": 6,
+      "官方更新": 56,
+      "行业动态": 113
     },
     "by_source_count_bucket": {
-      "1": 566,
-      "2": 18,
+      "1": 560,
+      "2": 13,
       "3+": 8
     }
   },
@@ -54,7 +55,7 @@
       "story_id": "story_a9d5a52022ad",
       "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型 / Gemini 4 Carbon is now available",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "importance_score": 0.9452,
+      "importance_score": 0.9362,
       "importance_label": "官方更新",
       "source_count": 5,
       "archive_date": "2026-11-11",
@@ -62,6 +63,36 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_db56a6febc48",
+      "title": "Claude白板、Claude表格和Claude数据 / Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "importance_score": 0.8772,
+      "importance_label": "官方更新",
+      "source_count": 4,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_4fe19f6777ba",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "importance_score": 0.8524,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_49d62ed9dc89",
@@ -77,10 +108,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_14497aca7fb0",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "importance_score": 0.8433,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_1a75130aba91",
       "title": "Work at the Frontier: AI’s effect on freelance work",
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "importance_score": 0.849,
+      "importance_score": 0.841,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-11",
@@ -93,20 +137,31 @@
       "story_id": "story_0faab021d272",
       "title": "Google Cloud launches Gemini for healthcare.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
-      "importance_score": 0.8437,
+      "importance_score": 0.8351,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_63fbd8609dbd",
+      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+      "importance_score": 0.8347,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
       "lens_topics": []
     },
     {
       "story_id": "story_c9b05eb43caa",
       "title": "Introducing Businesses in ChatGPT",
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "importance_score": 0.8387,
+      "importance_score": 0.8304,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -116,103 +171,26 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_3a8fb74dc2ec",
-      "title": "Workday 如何使用 LangGraph 和 LangSmith 构建企业级 AI 代理平台 / How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
-      "url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
-      "importance_score": 0.8371,
+      "story_id": "story_1116aea2e922",
+      "title": "Microservices best practices every automation engineer should know",
+      "url": "https://blog.n8n.io/microservices-best-practices",
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3f106a4856f1",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "importance_score": 0.8354,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "openai"
-      ],
       "lens_topics": []
     },
     {
-      "story_id": "story_db56a6febc48",
-      "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
-      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "importance_score": 0.8344,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_492da326a530",
-      "title": "How Curative is building a national provider network with agents on Claude",
-      "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
-      "importance_score": 0.8344,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3c5df1682633",
-      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
-      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
-      "importance_score": 0.8344,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_293ba754703a",
-      "title": "Your apps can now open in Claude, and Claude can work in them",
-      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
-      "importance_score": 0.8344,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_37612d93c538",
-      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。 / We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
-      "importance_score": 0.8321,
+      "story_id": "story_e98d32bf0a63",
+      "title": "Batch processing patterns for workflow automation at scale",
+      "url": "https://blog.n8n.io/batch-processing",
+      "importance_score": 0.8293,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_2b2972b2424d",
@@ -240,6 +218,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_3a8fb74dc2ec",
+      "title": "Workday 如何使用 LangGraph 和 LangSmith 构建企业级 AI 代理平台 / How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
+      "url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+      "importance_score": 0.828,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_90c2f4d19eb5",
       "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供 / ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -253,17 +244,77 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_49af9c684130",
-      "title": "Hugging Face Hub 支持用 Google Cloud 账户付费 / Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "story_id": "story_492da326a530",
+      "title": "How Curative is building a national provider network with agents on Claude",
+      "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+      "importance_score": 0.8272,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_3c5df1682633",
+      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "importance_score": 0.8272,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_293ba754703a",
+      "title": "Your apps can now open in Claude, and Claude can work in them",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "importance_score": 0.8272,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_3f106a4856f1",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "importance_score": 0.8268,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_37612d93c538",
+      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。 / We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
       "importance_score": 0.8234,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "huggingface"
+        "google-gemini"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "workplace"
+      ]
     },
     {
       "story_id": "story_2b2aad2325b1",
@@ -295,42 +346,30 @@
       ]
     },
     {
-      "story_id": "story_bb4a3375cbda",
-      "title": "Hugging Face 详解决策模型接口及其在 Transformers 和 llama.cpp 中的支持 / Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "importance_score": 0.8174,
+      "story_id": "story_49af9c684130",
+      "title": "Hugging Face Hub 支持用 Google Cloud 账户付费 / Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "importance_score": 0.8162,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "meta-llama",
         "huggingface"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_5c94402abb6b",
-      "title": "How we moved our frontend off Firestore and built Lovable Realtime",
-      "url": "https://lovable.dev/blog/lovable-realtime-service",
+      "story_id": "story_3e2e04bf0301",
+      "title": "Codex CLI 0.167.1",
+      "url": "https://developers.openai.com/codex/changelog",
       "importance_score": 0.8162,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
-      "company_topics": [],
+      "company_topics": [
+        "openai"
+      ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_401b504fd138",
-      "title": "Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents",
-      "url": "https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756",
-      "importance_score": 0.8154,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_3631798e1948",
@@ -342,19 +381,6 @@
       "archive_date": "2026-11-10",
       "company_topics": [
         "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_985828f507bf",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-      "importance_score": 0.8134,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -381,19 +407,42 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_a40c4f53c4d7",
-      "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出 / How to Get Structured Output from Any LLM: JSON Schema, Tool Calls, or a Decision Model",
-      "url": "https://openrouter.ai/blog/tutorials/structured-output-llm",
-      "importance_score": 0.8094,
+      "story_id": "story_bb4a3375cbda",
+      "title": "Hugging Face 详解决策模型接口及其在 Transformers 和 llama.cpp 中的支持 / Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "importance_score": 0.8102,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "openrouter"
+        "meta-llama",
+        "huggingface"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_401b504fd138",
+      "title": "Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents",
+      "url": "https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756",
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_5c94402abb6b",
+      "title": "How we moved our frontend off Firestore and built Lovable Realtime",
+      "url": "https://lovable.dev/blog/lovable-realtime-service",
+      "importance_score": 0.8077,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_81c2a687b5a2",
@@ -409,24 +458,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f5fe6b704dc1",
-      "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高 / Best OCR Model for Scanned Documents, Measured",
-      "url": "https://openrouter.ai/blog/insights/best-ocr-model",
-      "importance_score": 0.8014,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic",
-        "openrouter"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9bbe6542641a",
-      "title": "OpenRouter 教程：用 Python 构建餐厅订位语音 AI 智能体并实测延迟与成本 / How to Build a Voice AI Agent",
-      "url": "https://openrouter.ai/blog/tutorials/build-voice-ai-agent",
-      "importance_score": 0.8014,
+      "story_id": "story_a40c4f53c4d7",
+      "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出 / How to Get Structured Output from Any LLM: JSON Schema, Tool Calls, or a Decision Model",
+      "url": "https://openrouter.ai/blog/tutorials/structured-output-llm",
+      "importance_score": 0.8022,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
@@ -438,44 +473,14 @@
       ]
     },
     {
-      "story_id": "story_3a827e3b4155",
-      "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU / Jensen's Bizarre Adventure",
-      "url": "https://www.wheresyoured.at/jensens-bizarre-adventure",
-      "importance_score": 0.801,
+      "story_id": "story_e0b8c7c743ef",
+      "title": "Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78 / Anthropic again amended its S-1 today.",
+      "url": "https://x.com/rohanpaul_ai/status/2120231037569790385",
+      "importance_score": 0.7981,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_36ee8a172741",
-      "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具 / Now, you can use your ChatGPT Business plan in tools like @NotionHQ, @v0, @ampcode, @kilocode, @warpdotdev, Hermes from @NousResearch, @...",
-      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
-      "importance_score": 0.7987,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "product-entry",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_cf212dd587ab",
-      "title": "Anthropic IPO 定价每股 $70.00 至 $78.00，估值最高可达 $1.4 万亿 / Anthropic targets $1.4 trillion IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-      "importance_score": 0.798,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "openai",
         "anthropic"
       ],
       "lens_topics": [
@@ -496,32 +501,33 @@
       ]
     },
     {
-      "story_id": "story_f39229f420a0",
-      "title": "Google 发布最强前沿模型 Gemini 4 Carbon / Our strongest frontier model, Gemini 4 Carbon, is now available.",
-      "url": "https://x.com/GoogleAI/status/2120187753329791341",
+      "story_id": "story_f5fe6b704dc1",
+      "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高 / Best OCR Model for Scanned Documents, Measured",
+      "url": "https://openrouter.ai/blog/insights/best-ocr-model",
       "importance_score": 0.7942,
-      "importance_label": "行业动态",
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "google-gemini"
+        "anthropic",
+        "openrouter"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9bbe6542641a",
+      "title": "OpenRouter 教程：用 Python 构建餐厅订位语音 AI 智能体并实测延迟与成本 / How to Build a Voice AI Agent",
+      "url": "https://openrouter.ai/blog/tutorials/build-voice-ai-agent",
+      "importance_score": 0.7942,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "openrouter"
       ],
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_af155027e496",
-      "title": "Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值 / Just say no to Anthropic’s IPO",
-      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
-      "importance_score": 0.7933,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_c18d874f4b17",
@@ -550,44 +556,32 @@
       ]
     },
     {
-      "story_id": "story_df0a32a80c6a",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：同一模型、不同安全限制 / Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-      "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release",
-      "importance_score": 0.7882,
+      "story_id": "story_3a827e3b4155",
+      "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU / Jensen's Bizarre Adventure",
+      "url": "https://www.wheresyoured.at/jensens-bizarre-adventure",
+      "importance_score": 0.7918,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ed4843ed21b9",
-      "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响 / What could China get from Jensen Huang?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "importance_score": 0.7877,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
       "company_topics": [
         "nvidia"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_ecae02656733",
-      "title": "Google 面向公众发布 Gemini 4 Carbon，并在 Antigravity 预览 agent swarm 功能 / Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "importance_score": 0.7877,
-      "importance_label": "行业动态",
+      "story_id": "story_36ee8a172741",
+      "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具 / Now, you can use your ChatGPT Business plan in tools like @NotionHQ, @v0, @ampcode, @kilocode, @warpdotdev, Hermes from @NousResearch, @...",
+      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "importance_score": 0.7895,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [
-        "google-gemini"
+        "openai"
       ],
       "lens_topics": [
-        "agent-ecosystem"
+        "product-entry",
+        "workplace"
       ]
     }
   ]
