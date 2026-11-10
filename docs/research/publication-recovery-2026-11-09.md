@@ -105,3 +105,41 @@ page. The check now loads older pages before expanding and checking records;
 the existing label, before/after, mobile, and injection checks remain. Trend
 validation run `42754007847` passed. A complete news/WeChat refresh must run on
 the current revision so the reviewed backfill-retention fixes are preserved.
+
+
+## Independent repository migration and stale-update monitoring
+
+The independent destination is `LeaiFish/ai-perspective`, with Pages at
+<https://leaifish.github.io/ai-perspective/>. Preserve the original fork as a
+rollback and metadata archive; do not delete/recreate it to remove fork status.
+Copy original branch and tag SHAs without rebasing, squashing, or filtering Git
+history. Check the entire data tree before allowing a generated refresh;
+immutable editorial report files must remain byte-identical after refresh.
+Issues, PR discussions and Actions logs remain in the original repository.
+
+Large history transfers can exceed a local network's connection timeout.
+A temporary workflow on an isolated bootstrap branch can clone the public
+source on a GitHub runner and push commits in first-parent batches, then all
+branches/tags. Keep the destination default branch on bootstrap until the
+history matches, so scheduled collectors cannot write during import. The
+Source Imports REST API is retired; do not build a migration on that endpoint.
+Never print or copy credentials; the runner's destination-scoped GITHUB_TOKEN
+is sufficient to write this new repository. GitHub Secrets cannot be read back
+for migration. Existing optional X bridge records remain in the archive;
+secret-backed refresh needs separate reconfiguration and is not proved by
+successful public RSS refreshes.
+
+After changing default branch to master, configure Pages, update publication
+scripts and local automation destinations, run the real news refresh, and
+independently read back the site and preserved report IDs. A manual run does
+not prove schedule execution; record the first successful `schedule` event
+separately. Disable the old collector only after destination publication is
+verified. Keep upstream MIT attribution and historical source links.
+
+The external Codex heartbeat checks every two hours: news snapshots older than
+eight hours, unavailable Pages, disabled/failed/stuck workflows, and WeChat
+discovery older than 36 hours. Deployment differences get a 30-minute grace
+period. It deduplicates unchanged faults and reports recovery. This local
+monitor requires the Mac online and Codex available; it cannot provide
+continuous monitoring while the computer is off. Independent repository
+status removes the fork-specific pause, not every possible GitHub restriction.

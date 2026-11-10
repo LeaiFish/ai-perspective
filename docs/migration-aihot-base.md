@@ -5,7 +5,7 @@
 ## 两个出口
 
 - 本机：Node 24、PostgreSQL 17、API、worker、后台与 SSR 网页，默认仅监听 `127.0.0.1:3000`。数据库没有对外端口。
-- `https://leaifish.github.io/ai-news-radar/`：静态阅读器及公开新闻投影。采用 `#/topics/doubao` 等地址，不需要本机持续联网。旧 `?space=research&kind=org&id=doubao` 链接保留跳转。
+- `https://leaifish.github.io/ai-perspective/`：静态阅读器及公开新闻投影。采用 `#/topics/doubao` 等地址，不需要本机持续联网。旧 `?space=research&kind=org&id=doubao` 链接保留跳转。
 - 本机休眠或离线时，公开网页依然能访问，但本机同步会暂停。
 
 保留近30天主题消息、国内/海外分组、20条分页、中文缓存、原文链接、空摘要不显示、免费摘要抓取、48个优先信源，以及旧规则生成的多源合并和日报结果。收藏继续保存在浏览器；不会把收藏上传后台。评分不显示，不把免费规则结果冒充模型评分。
@@ -16,7 +16,7 @@
 
 ```bash
 cd /Users/xujunyi1/AI
-git clone https://github.com/LeaiFish/ai-news-radar.git ai-perspective-local
+git clone https://github.com/LeaiFish/ai-perspective.git ai-perspective-local
 cd ai-perspective-local
 python3 scripts/init-free-env.py
 python3 scripts/export-public-news.py
