@@ -146,7 +146,10 @@ verified. Keep upstream MIT attribution and historical source links.
 The external Codex heartbeat checks every two hours: news snapshots older than
 eight hours, unavailable Pages, disabled/failed/stuck workflows, and WeChat
 discovery older than 36 hours. Deployment differences get a 30-minute grace
-period. It deduplicates unchanged faults and reports recovery. This local
+period. On weekdays after 13:30 Beijing time it also checks that the daily
+editorial report was generated today; unchanged company judgments keep their
+original dates. Weekly reports remain local review drafts and their unpublished
+status is not an outage. It deduplicates unchanged faults and reports recovery. This local
 monitor requires the Mac online and Codex available; it cannot provide
 continuous monitoring while the computer is off. Independent repository
 status removes the fork-specific pause, not every possible GitHub restriction.
