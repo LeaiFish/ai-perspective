@@ -167,3 +167,13 @@ fail the news job if the expected version never arrives. WeChat's separate
 discovery timestamp and partial-coverage check remains in place.
 
 Reference: <https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>.
+
+
+Queued refreshes explicitly check out the event branch at execution time,
+so a long preceding WeChat job's archive updates are included before new
+news is generated. Keep serial concurrency and the existing push guard.
+The November 10 migration observation verified push/manual collection and
+actual Pages publication, but did not observe a native schedule event at the
+initial regular or temporary acceptance points. The temporary cron was removed;
+regular schedules and the independent stale-update monitor remain enabled.
+Do not report native schedule execution as verified until its actual run exists.
