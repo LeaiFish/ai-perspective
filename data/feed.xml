@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Tue, 10 Nov 2026 22:26:08 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 02:51:13 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>Google DeepMind 发布 Gemini 4 Carbon 前沿模型 / Gemini 4 Carbon is now available</title>
@@ -16,20 +16,28 @@
 <pubDate>Tue, 10 Nov 2026 16:49:50 +0000</pubDate>
 </item>
 <item>
-<title>Claude白板、Claude表格和Claude数据 / Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
-<link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
-<guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
-<description>Article Nov 10, 2026 Introducing Claude Whiteboards, Claude Sheets, and Claude Data Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude. Claude apps（Claude Articles）</description>
+<title>OpenRouter 实测教程：三种方法修复 OpenAI 与 Claude 的 429 限流错误 / LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors</title>
+<link>https://openrouter.ai/blog/tutorials/llm-api-rate-limits</link>
+<guid isPermaLink="true">https://openrouter.ai/blog/tutorials/llm-api-rate-limits</guid>
+<description>A 429 Too Many Requests error means you sent more requests or tokens than your limit allows in the current time window. OpenAI, Anthropic and OpenRouter all return it, and it usually shows up the first time an app runs under real load or a batch job fans out across several workers.（OpenRouter Blog）</description>
 <category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 21:21:53 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Gemini 4 Carbon in GitHub Copilot</title>
-<link>https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot</guid>
-<description>Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .（GitHub Changelog）</description>
+<title>Gilbert + Tobin rethinks the business of law with AI</title>
+<link>https://openai.com/index/gilbert-tobin-sam-nickless</link>
+<guid isPermaLink="true">https://openai.com/index/gilbert-tobin-sam-nickless</guid>
+<description>A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.（OpenAI News）</description>
 <category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 19:26:51 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 02:51:13 +0000</pubDate>
+</item>
+<item>
+<title>GitHub App support for Enterprise Copilot seat management</title>
+<link>https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</guid>
+<description>Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Wed, 11 Nov 2026 00:10:31 +0000</pubDate>
 </item>
 <item>
 <title>Gemini Intelligence: New features, on more devices</title>
@@ -40,20 +48,20 @@
 <pubDate>Tue, 10 Nov 2026 19:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Work at the Frontier: AI’s effect on freelance work</title>
-<link>https://openai.com/index/ai-effect-on-freelance-work</link>
-<guid isPermaLink="true">https://openai.com/index/ai-effect-on-freelance-work</guid>
-<description>New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.（OpenAI News）</description>
-<category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 18:02:54 +0000</pubDate>
-</item>
-<item>
 <title>Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI</title>
 <link>https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting</link>
 <guid isPermaLink="true">https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting</guid>
 <description>Organizations want a single, trusted definition of their business semantics. Revenue,...（Databricks Blog）</description>
 <category>官方更新</category>
 <pubDate>Tue, 10 Nov 2026 18:45:00 +0000</pubDate>
+</item>
+<item>
+<title>OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本 / MCP vs CLI vs Skills: What Each Costs in Context</title>
+<link>https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills</link>
+<guid isPermaLink="true">https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills</guid>
+<description>Every tool you give an agent sends its definition to the model on every request, and you pay for it as input tokens. A Model Context Protocol (MCP) server can add tens of thousands of tokens to the context window. The usual alternatives are a command-line tool (CLI) or a skill.（OpenRouter Blog）</description>
+<category>官方更新</category>
+<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Microservices best practices every automation engineer should know</title>
@@ -72,28 +80,28 @@
 <pubDate>Tue, 10 Nov 2026 16:00:01 +0000</pubDate>
 </item>
 <item>
-<title>Codex CLI 0.167.1</title>
-<link>https://developers.openai.com/codex/changelog</link>
-<guid isPermaLink="true">https://developers.openai.com/codex/changelog</guid>
-<description>OpenAI Codex Changelog</description>
+<title>Introducing Businesses in ChatGPT</title>
+<link>https://openai.com/index/introducing-businesses-chatgpt</link>
+<guid isPermaLink="true">https://openai.com/index/introducing-businesses-chatgpt</guid>
+<description>Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.（OpenAI News）</description>
 <category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 18:10:40 +0000</pubDate>
 </item>
 <item>
-<title>Hugging Face Hub 支持用 Google Cloud 账户付费 / Pay for Hugging Face Hub with your Google Cloud Account</title>
-<link>https://huggingface.co/blog/hub-gcp-marketplace</link>
-<guid isPermaLink="true">https://huggingface.co/blog/hub-gcp-marketplace</guid>
-<description>Hugging Face Blog</description>
+<title>Gemini 4 Carbon in GitHub Copilot</title>
+<link>https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot</guid>
+<description>Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .（GitHub Changelog）</description>
 <category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2026 19:26:51 +0000</pubDate>
 </item>
 <item>
-<title>Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents</title>
-<link>https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/using-nacos-3-3-0-ard-to-enable-task-based-tool-and-skill-discovery-for-agents_603756</guid>
-<description>Using Nacos 3.3.0 ARD to Enable Task-Based Tool and Skill Discovery for Agents This article introduces Nacos 3.3.0's Agentic Resource Discovery (ARD), enabling AI agents to dynamically find and use task-specific tools, skills, and prompts. Alibaba Cloud Native Community November 10, 2026 304（Alibaba Cloud Blog）</description>
-<category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+<title>Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高 / FT: Anthropic’s bankers plan to raise its IPO price after heavy investor demand, lifting the target valuation back to $1.5T or more.</title>
+<link>https://x.com/rohanpaul_ai/status/2120320127484969162</link>
+<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120320127484969162</guid>
+<description>FT 报道，因投资者需求旺盛，Anthropic 承销商计划上调 IPO 定价，把目标估值拉回 $1.5T 或更高。周二文件设定 $70-$78 的发行区间，计入员工期权和受限股后对应 $1.26T-$1.41T 估值；若定价超出区间，募资将超过 $100B，其中 Google、Nvidia 和 Microsoft 将按 IPO 价格投资 $26B。（X：Rohan Paul (@rohanpaul_ai)）</description>
+<category>行业动态</category>
+<pubDate>Wed, 11 Nov 2026 00:58:06 +0000</pubDate>
 </item>
 <item>
 <title>How we moved our frontend off Firestore and built Lovable Realtime</title>
@@ -112,44 +120,12 @@
 <pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
 </item>
 <item>
-<title>OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出 / How to Get Structured Output from Any LLM: JSON Schema, Tool Calls, or a Decision Model</title>
-<link>https://openrouter.ai/blog/tutorials/structured-output-llm</link>
-<guid isPermaLink="true">https://openrouter.ai/blog/tutorials/structured-output-llm</guid>
-<description>When your code reads fields from a model's reply, like an order ID or a refund amount, it expects clean JSON every time. Most of the time, it gets it. But now and then the model wraps the JSON in a code fence, adds a field you didn't ask for, or sends a number as text, and your code breaks. If you use several models, one fix won't cover them all, because each model and provider handles structured output in its own way.（OpenRouter Blog）</description>
-<category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Introducing Businesses in ChatGPT</title>
-<link>https://openai.com/index/introducing-businesses-chatgpt</link>
-<guid isPermaLink="true">https://openai.com/index/introducing-businesses-chatgpt</guid>
-<description>Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.（OpenAI News）</description>
-<category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
-</item>
-<item>
 <title>Batch processing patterns for workflow automation at scale</title>
 <link>https://blog.n8n.io/batch-processing</link>
 <guid isPermaLink="true">https://blog.n8n.io/batch-processing</guid>
 <description>Learn batch processing patterns for scalable workflows, including chunking, rate limits, retries. Discover the tools that put these patterns into practice.（n8n Blog）</description>
 <category>官方更新</category>
 <pubDate>Tue, 10 Nov 2026 20:36:22 +0000</pubDate>
-</item>
-<item>
-<title>Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78 / Anthropic again amended its S-1 today.</title>
-<link>https://x.com/rohanpaul_ai/status/2120231037569790385</link>
-<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120231037569790385</guid>
-<description>Anthropic 再次修订 IPO 申请文件 S-1（Amendment No. 2），宣布已越过其 Responsible Scaling Policy 设定的阈值，即 AI 正大幅加快 AI 研究速度、需更强安全检查。这一判断基于其对未来模型的预期而非现有模型的表现，一周前的文件还只说"可能即将"越过。文件同时将 IPO 发行价定为每股 $70 至 $78。（X：Rohan Paul (@rohanpaul_ai)）</description>
-<category>行业动态</category>
-<pubDate>Tue, 10 Nov 2026 19:04:06 +0000</pubDate>
-</item>
-<item>
-<title>How Curative is building a national provider network with agents on Claude</title>
-<link>https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</link>
-<guid isPermaLink="true">https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</guid>
-<description>Article Nov 10, 2026 How Curative is building a national provider network with agents on Claude Curative’s deal-making agent negotiates 2,000+ provider contracts a week. Claude Platform Claude Code（Claude Articles）</description>
-<category>官方更新</category>
-<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU / Jensen's Bizarre Adventure</title>
@@ -160,12 +136,36 @@
 <pubDate>Tue, 10 Nov 2026 17:43:27 +0000</pubDate>
 </item>
 <item>
+<title>Anthropic IPO 定价每股 $70.00 至 $78.00，估值最高可达 $1.4 万亿 / Anthropic targets $1.4 trillion IPO</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion</guid>
+<description>Anthropic 周二确认其 IPO 发行价预计在 $70.00 至 $78.00 每股之间，估值最高 $1.4 万亿，低于此前预期的最高 $2 万亿。据 The Wall Street Journal 报道，股票目标在下周四或周五开始交易，将申请在纳斯达克以代码 "ANT" 上市其 A 类普通股；作为对比，OpenAI 上周估值为 $1.25 万亿。（The Verge：AI（RSS））</description>
+<category>行业动态</category>
+<pubDate>Tue, 10 Nov 2026 14:06:54 +0000</pubDate>
+</item>
+<item>
 <title>OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具 / Now, you can use your ChatGPT Business plan in tools like @NotionHQ, @v0, @ampcode, @kilocode, @warpdotdev, Hermes from @NousResearch, @...</title>
 <link>https://x.com/OpenAIDevs/status/2120212596850663712</link>
 <guid isPermaLink="true">https://x.com/OpenAIDevs/status/2120212596850663712</guid>
 <description>OpenAI 宣布 ChatGPT Business 计划现可在 Notion、v0、ampcode、kilocode、Warp、NousResearch 的 Hermes、openclaw、opencode 等第三方工具中使用，通过 Sign in with ChatGPT 连接即可开始。（X：OpenAI Developers (@OpenAIDevs)）</description>
 <category>官方更新</category>
 <pubDate>Tue, 10 Nov 2026 17:50:49 +0000</pubDate>
+</item>
+<item>
+<title>Google 发布最强前沿模型 Gemini 4 Carbon / Our strongest frontier model, Gemini 4 Carbon, is now available.</title>
+<link>https://x.com/GoogleAI/status/2120187753329791341</link>
+<guid isPermaLink="true">https://x.com/GoogleAI/status/2120187753329791341</guid>
+<description>Google 宣布最强前沿模型 Gemini 4 Carbon 正式可用，定位于复杂长程工作流，覆盖智能体工作、软件工程、网络安全和科学推理。Gemini 4 Argon 仍是多数软件工程和知识工作的理想选择，Carbon 面向多步调试、开放式科研等最难任务。（X：Google AI (@GoogleAI)）</description>
+<category>行业动态</category>
+<pubDate>Tue, 10 Nov 2026 16:12:06 +0000</pubDate>
+</item>
+<item>
+<title>Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值 / Just say no to Anthropic’s IPO</title>
+<link>https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo</link>
+<guid isPermaLink="true">https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo</guid>
+<description>Gary Marcus 评论 Anthropic 拟以最高 1.4 万亿美元估值 IPO，称该公司除一个异常季度外从未盈利，未来负债接近 9000 亿美元。他引用 Q2 环比增长 147% 而 Q3 降至 47% 的数据，认为 tokenmaxxing 退潮与中国竞品崛起使万亿估值失去依据，并援引 S-1 中公司自认成本将上升、收入增速难以为继的表述。（Gary Marcus：The Road to AI We Can Trust（RSS））</description>
+<category>行业动态</category>
+<pubDate>Tue, 10 Nov 2026 14:37:21 +0000</pubDate>
 </item>
 </channel>
 </rss>
