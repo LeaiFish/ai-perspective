@@ -4,30 +4,30 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-11T21:27:54.100366Z",
+  "generated_at": "2026-11-11T23:32:20.718132Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12"
   ],
-  "story_count": 875,
-  "unique_story_count": 725,
+  "story_count": 871,
+  "unique_story_count": 739,
   "counts": {
     "by_company_topic": {
-      "anthropic": 200,
+      "anthropic": 196,
       "apple": 5,
-      "cursor": 8,
+      "cursor": 6,
       "deepseek": 9,
       "doubao": 14,
-      "google-gemini": 77,
+      "google-gemini": 81,
       "huggingface": 9,
       "hunyuan": 3,
       "kimi": 4,
       "meta-llama": 3,
       "microsoft": 6,
       "minimax": 12,
-      "nvidia": 46,
-      "openai": 96,
+      "nvidia": 48,
+      "openai": 97,
       "openrouter": 14,
       "perplexity": 1,
       "qwen": 8,
@@ -35,21 +35,21 @@
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 183,
+      "agent-ecosystem": 185,
       "monetization": 37,
-      "product-entry": 17,
-      "workplace": 34
+      "product-entry": 19,
+      "workplace": 33
     },
     "by_importance_label": {
-      "值得关注": 625,
-      "多源热议": 8,
+      "值得关注": 617,
+      "多源热议": 11,
       "官方更新": 82,
-      "行业动态": 160
+      "行业动态": 161
     },
     "by_source_count_bucket": {
-      "1": 842,
-      "2": 24,
-      "3+": 9
+      "1": 836,
+      "2": 23,
+      "3+": 12
     }
   },
   "top_stories": [
@@ -70,7 +70,7 @@
       "story_id": "story_7cdb17a331c3",
       "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "importance_score": 0.8682,
+      "importance_score": 0.8632,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-12",
@@ -80,22 +80,18 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_e5a94f810129",
-      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
-      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
-      "importance_score": 0.854,
+      "story_id": "story_5808c969be18",
+      "title": "现在可通过 Apple CarPlay 与 Gemini 畅谈 / Talk it through with Gemini, now on Apple CarPlay",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
+      "importance_score": 0.8608,
       "importance_label": "官方更新",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-12",
       "company_topics": [
-        "openai",
-        "anthropic",
-        "xai",
-        "microsoft"
+        "google-gemini"
       ],
       "lens_topics": [
-        "product-entry",
-        "workplace"
+        "product-entry"
       ]
     },
     {
@@ -123,6 +119,25 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_e5a94f810129",
+      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
+      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
+      "importance_score": 0.8491,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai",
+        "anthropic",
+        "xai",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "product-entry",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_3712fd9f7ee1",
@@ -156,19 +171,6 @@
       ]
     },
     {
-      "story_id": "story_5808c969be18",
-      "title": "Talk it through with Gemini, now on Apple CarPlay",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
-      "importance_score": 0.8408,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_637f863ae4eb",
       "title": "OpenRouter 实测教程：三种方法修复 OpenAI 与 Claude 的 429 限流错误 / LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors",
       "url": "https://openrouter.ai/blog/tutorials/llm-api-rate-limits",
@@ -181,41 +183,6 @@
         "anthropic",
         "openrouter"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_cc7c91227540",
-      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
-      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
-      "importance_score": 0.8363,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_55472f9603f4",
-      "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
-      "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
-      "importance_score": 0.8363,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_aa0155763474",
-      "title": "Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
-      "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
-      "importance_score": 0.836,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -232,16 +199,38 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c58cc76086ab",
-      "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "importance_score": 0.8303,
+      "story_id": "story_cc7c91227540",
+      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
+      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
+      "importance_score": 0.8314,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [
-        "google-gemini"
-      ],
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_55472f9603f4",
+      "title": "我们的 GTM 代理如何构建一致、高质量的销售工件 / How our GTM Agent builds consistent, high-quality sales artifacts",
+      "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+      "importance_score": 0.8313,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_aa0155763474",
+      "title": "Databricks 加倍投入人工智能产品，在旧金山开设占地 235,000 平方英尺的新总部 / Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
+      "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
+      "importance_score": 0.831,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -266,17 +255,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-10",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_60004f620ffd",
-      "title": "Genie One：适合每个人的人工智能协同工作之家 / Genie One: The AI cowork home for everyone",
-      "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
-      "importance_score": 0.828,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
       "company_topics": [],
       "lens_topics": []
     },
@@ -317,6 +295,30 @@
       "company_topics": [
         "openai"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_c58cc76086ab",
+      "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "importance_score": 0.8254,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_60004f620ffd",
+      "title": "Genie One：适合每个人的人工智能协同工作之家 / Genie One: The AI cowork home for everyone",
+      "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
+      "importance_score": 0.8231,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -405,6 +407,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_6cd1a42bc049",
+      "title": "Codex CLI 0.167.2",
+      "url": "https://developers.openai.com/codex/changelog",
+      "importance_score": 0.8141,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_14497aca7fb0",
       "title": "Gemini Intelligence: New features, on more devices",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
@@ -466,10 +481,21 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_63fbd8609dbd",
+      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+      "importance_score": 0.8027,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_7757393466bc",
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "importance_score": 0.804,
+      "importance_score": 0.8001,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
@@ -482,7 +508,7 @@
       "story_id": "story_4cd35ad3749f",
       "title": "Grok Bot v1.0.1: Meetings, Microsoft Teams, and shared connectors",
       "url": "https://x.ai/changelog/bot#v1.0.1",
-      "importance_score": 0.804,
+      "importance_score": 0.8001,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
@@ -493,43 +519,6 @@
         "product-entry",
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_63fbd8609dbd",
-      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
-      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
-      "importance_score": 0.8027,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e6da7d7ebb65",
-      "title": "从企业环境到行动：Genie Agents 现在分析更多数据源以改变您的工作 / From enterprise context to action: Genie Agents now analyze more data sources to transform your work",
-      "url": "https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work",
-      "importance_score": 0.798,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_9fee00ec05d7",
-      "title": "Praxis-1 Is Now Available",
-      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
-      "importance_score": 0.798,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_3a8fb74dc2ec",
@@ -578,6 +567,21 @@
       "archive_date": "2026-11-11",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_37612d93c538",
+      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。 / We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "importance_score": 0.7935,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
     }
   ]
 }
