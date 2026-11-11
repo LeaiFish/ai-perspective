@@ -1,0 +1,770 @@
+{
+  "kind": "daily",
+  "period_start": "2026-11-10T02:51:13.876742Z",
+  "period_end": "2026-11-11T02:51:13.876742Z",
+  "source_snapshot_at": "2026-11-11T02:51:13.876742Z",
+  "input_id": "e6d9ae5479f501eb1dc001429a6a3af3271cf84f20346c3a610c38c86f06d41a",
+  "previous_report_id": "40b6821788b87b4afd42fd78fa5359261f2b9353aca905e11b26cfa2dd25b219",
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-11T03:16:56.982545Z",
+  "evidence": [
+    {
+      "id": "doubao-seedream-app-nov09",
+      "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5?view_from=content_recommend",
+      "title": "Seedream 5.5 发布及应用入口",
+      "source": "字节跳动 Seed",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方列出豆包图像生成入口及豆包工作技能入口，称陆续上线。多轮稳定性来自官方说明。"
+    },
+    {
+      "id": "doubao-travel",
+      "url": "https://www.ithome.com/1/008/646.htm",
+      "title": "豆包接入机票、火车票和打车等出行服务",
+      "source": "IT之家",
+      "published_at": "2026-09-30T11:15:05+08:00",
+      "event_at": "2026-09-30",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文列明合作方和相应服务，不能据此推断完成率。"
+    },
+    {
+      "id": "doubao-record-skills",
+      "url": "https://www.ithome.com/1/018/860.htm",
+      "title": "豆包工作功能上新：支持将录制电脑操作保存为技能",
+      "source": "IT之家",
+      "published_at": "2026-10-28T12:00:26+08:00",
+      "event_at": "2026-10-28",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "本轮重读10月28日媒体原文：电脑操作录成技能，锁屏工作需设置允许，手机可向该Mac交办；未直接核验公众号或实测执行可靠性。"
+    },
+    {
+      "id": "doubao-weekly-allowance-nov06",
+      "url": "https://www.ithome.com/1/023/414.htm",
+      "title": "豆包工作个人版取消5小时额度限制",
+      "source": "IT之家",
+      "published_at": "2026-11-06",
+      "event_at": "2026-11-06",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "原文明确11月6日起取消短周期限制，周额度与其他规则仍按套餐；历史补证，不算今日新增。"
+    },
+    {
+      "id": "qwenwork-200",
+      "url": "https://docs.qwenwork.cn/release-notes/desktop#2026-11-09",
+      "title": "千问办公2.0.0官方更新日志",
+      "source": "千问办公",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "核对协作、资料空间、事件触发、跨端与权限条件；仅日精度，保守作为补证。"
+    },
+    {
+      "id": "yuanbao-29200-store",
+      "url": "https://apps.apple.com/cn/app/id6480446430",
+      "title": "元宝2.92.0官方版本记录",
+      "source": "腾讯／App Store",
+      "published_at": "2026-11-06T02:59:07Z",
+      "event_at": "2026-11-06T02:59:07Z",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "原文核对版本说明，绝对发布时间由Apple公开lookup同一版本确认；模型效果描述不作为独立测试结果。"
+    },
+    {
+      "id": "chatgpt-businesses-beta-nov10",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "title": "Introducing Businesses in ChatGPT",
+      "source": "OpenAI",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方确认商家认领、资料与商品信息维护，以及美国符合资格商家的问答入口；只采用官方日精度。"
+    },
+    {
+      "id": "chatgpt-enterprise-aws-nov09",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise进入AWS Marketplace",
+      "source": "OpenAI",
+      "published_at": "2026-11-09T19:00:00Z",
+      "event_at": "2026-11-09T19:00:00Z",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方正文宣布当日可用，精确公告时间取自OpenAI官方RSS pubDate；采购入口不证明企业使用或营收增长。"
+    },
+    {
+      "id": "chatgpt-current-release-review",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT官方更新日志",
+      "source": "OpenAI",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "滚动文档不补造发表时间；本轮复核Dots、Space、Images、短信测试与iCloud范围。"
+    },
+    {
+      "id": "claude-collaborative-artifacts-nov10",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "title": "Claude Whiteboards、Sheets 与 Data",
+      "source": "Anthropic",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "白板和表格处于测试阶段；Data 正式提供，部分共享功能仍在测试；企业默认设置不同。"
+    },
+    {
+      "id": "claude-interactive-connectors-nov10",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "title": "Claude 新协作成果与互动连接器",
+      "source": "Anthropic",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "合作应用可嵌入 Claude，用户可操作，也可交由 Claude 协助；Meetings 尚未上线。"
+    },
+    {
+      "id": "claude-enterprise-unified",
+      "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+      "title": "Claude Cowork and chat come together for Enterprise",
+      "source": "Anthropic",
+      "published_at": "2026-10-23",
+      "event_at": "2026-10-23",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方正文日期10月23日；Enterprise通用开放，继承连接器、技能、项目，云端任务跨设备继续；晚发现补录，不计今日新增。"
+    },
+    {
+      "id": "grok-bot-shared-slack-nov06",
+      "url": "https://x.ai/changelog/bot#v0.79.3",
+      "title": "Grok Bot v0.79.3",
+      "source": "Grok Bot",
+      "published_at": "2026-11-06",
+      "event_at": "2026-11-06",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方日志列出共享 Slack 入口、订单跟踪和通话卡片修正。"
+    },
+    {
+      "id": "grok-current-changelog-nov10",
+      "url": "https://x.ai/changelog/bot",
+      "title": "Grok Bot官方更新日志",
+      "source": "SpaceXSI",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "本轮重读0.78.1至0.79.3；通话转写和实时补充信息已见官方说明，具体外呼预约端点与成功率未核实。"
+    },
+    {
+      "id": "gemini-intelligence-nov10-device-expansion",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "source": "Google",
+      "published_at": "2026-11-10T19:00:00Z",
+      "event_at": "2026-11-10T19:00:00Z",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方原页发布时间；事件为当日公开宣布扩展。机型、地区、语言和服务条件不同。"
+    },
+    {
+      "id": "gemini-inline",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "title": "Gemini将成果修改进一步收回聊天内",
+      "source": "Google",
+      "published_at": "2026-10-29",
+      "event_at": "2026-10-29",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "本轮独立重读原文；与前周及月度基线比较，复用已报道事件，不计日窗新增。"
+    },
+    {
+      "id": "gemini-video-15-evidence",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": "Google 发布 Omni 1.2 Flash 并在 Gemini 应用逐步开放",
+      "source": "Google",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "时间为官方公告；Gemini应用的15秒视频向Google AI Ultra分批开放。Flow、Vids和API的条件不外推给Gemini应用。"
+    },
+    {
+      "id": "muse-spaces-nov06",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "title": "Muse推出自定义Spaces",
+      "source": "Meta",
+      "published_at": "2026-11-06T18:00:58Z",
+      "event_at": "2026-11-06T18:00:58Z",
+      "verified_at": "2026-11-11T03:16:56.982545Z",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方原文及datePublished确认；空间可持续更新，分享仍为探索，不写成多人协作已开放。"
+    }
+  ],
+  "companies": {
+    "doubao": {
+      "state": "updated",
+      "reason": "补入11月9日已公布的应用入口及修改、出素材的环节，维持办事与办公并行判断。",
+      "judgment": {
+        "headline": "豆包保留跨端交办，图像创作补上持续修改和素材交付",
+        "summary": "生活侧继续从出行对话进入票务和用车服务。办公侧仍可把电脑操作录成个人技能，允许锁屏运行后由手机向 Mac 交办；个人版在周额度内安排使用。Seedream 5.5 陆续进入豆包图像生成和豆包工作技能，用户可在同一张图上多轮修改，也可直接生成带透明通道的素材供后续设计。实际修改质量和各端开放范围仍待验证。",
+        "evidence_ids": [
+          "doubao-travel",
+          "doubao-record-skills",
+          "doubao-weekly-allowance-nov06",
+          "doubao-seedream-app-nov09"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "出行需求可从对话发起",
+          "summary": "豆包在出行入口组织查票、叫车等服务，具体供给由合作方承接。",
+          "evidence_ids": [
+            "doubao-travel"
+          ]
+        },
+        {
+          "headline": "电脑操作可复用并跨端交办",
+          "summary": "用户可录制电脑操作形成个人技能；允许锁屏运行后，手机可以向 Mac 交办，个人版继续受周额度约束。",
+          "evidence_ids": [
+            "doubao-record-skills",
+            "doubao-weekly-allowance-nov06"
+          ]
+        },
+        {
+          "headline": "豆包办公增加可反复修改的图像技能",
+          "summary": "Seedream 5.5 陆续进入豆包图像生成和豆包工作技能，可继续修改同一张图并直接生成透明素材；暂未核实不同端的开放一致性。",
+          "evidence_ids": [
+            "doubao-seedream-app-nov09"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "豆包办公增加可反复修改的图像技能",
+        "summary": "Seedream 5.5 陆续进入豆包图像生成和豆包工作技能，可继续修改同一张图并直接生成透明素材；暂未核实不同端的开放一致性。",
+        "evidence_ids": [
+          "doubao-seedream-app-nov09"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "doubao-seedream-app-nov09",
+          "status": "supplement",
+          "headline": "豆包办公增加可反复修改的图像技能",
+          "summary": "Seedream 5.5 陆续进入豆包图像生成和豆包工作技能，可继续修改同一张图并直接生成透明素材；暂未核实不同端的开放一致性。",
+          "evidence_ids": [
+            "doubao-seedream-app-nov09"
+          ]
+        }
+      ]
+    },
+    "qwen": {
+      "state": "unchanged",
+      "reason": "官方2.0日志中的资料空间、触发任务和手机接续均已进入正文。双11线索原文不可读，模型与量化报道没有确认新应用入口。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "hunyuan": {
+      "state": "unchanged",
+      "reason": "商店最新可核实版本仍是2.92.0，视觉理解和历史搜索已覆盖；Hy4模型报道与WorkBuddy消息不证明元宝新增操作入口。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "openai": {
+      "state": "updated",
+      "reason": "吸收从商家资料维护到消费者问答的新入口，保留持续任务与组织采购判断。官方日期无小时，保守列补证。",
+      "judgment": {
+        "headline": "ChatGPT 延续持续任务，并在消费查询中接入商家资料与问答",
+        "summary": "Dots 延续任务跟进，美国 Pro 短信入口仍在测试；图像工具可复用参考图和生成 GIF。企业版保留 AWS 采购渠道。商家侧新设 Business Hub，验证后可更新资料并提供商品信息；符合资格的美国电商与线上服务商家可发布问答助手。消费者可主动进入独立会话询问商品和服务，尚无证据表明它已承接通用交易。",
+        "evidence_ids": [
+          "chatgpt-current-release-review",
+          "chatgpt-enterprise-aws-nov09",
+          "chatgpt-businesses-beta-nov10"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "长期任务和创作成果继续跨会话",
+          "summary": "Dots 补充短信跟进入口；图像工具支持保存参考图供后续会话使用。",
+          "evidence_ids": [
+            "chatgpt-current-release-review"
+          ]
+        },
+        {
+          "headline": "企业采购接入 AWS Marketplace",
+          "summary": "企业可沿原采购和账单关系订阅，功能与直接采购一致。",
+          "evidence_ids": [
+            "chatgpt-enterprise-aws-nov09"
+          ]
+        },
+        {
+          "headline": "ChatGPT 内开放商家认领与问答入口",
+          "summary": "商家验证后可维护资料、提供商品价格和库存。美国符合资格的电商和线上服务商家可发布问答助手，用户从商家资料页主动发起独立会话。",
+          "evidence_ids": [
+            "chatgpt-businesses-beta-nov10"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "ChatGPT 内开放商家认领与问答入口",
+        "summary": "商家验证后可维护资料、提供商品价格和库存。美国符合资格的电商和线上服务商家可发布问答助手，用户从商家资料页主动发起独立会话。",
+        "evidence_ids": [
+          "chatgpt-businesses-beta-nov10"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "chatgpt-businesses-beta-nov10",
+          "status": "supplement",
+          "headline": "ChatGPT 内开放商家认领与问答入口",
+          "summary": "商家验证后可维护资料、提供商品价格和库存。美国符合资格的电商和线上服务商家可发布问答助手，用户从商家资料页主动发起独立会话。",
+          "evidence_ids": [
+            "chatgpt-businesses-beta-nov10"
+          ]
+        }
+      ]
+    },
+    "anthropic": {
+      "state": "updated",
+      "reason": "协作从连接外部文档进一步覆盖 Claude 内共编，且连接器支持同屏操作。官方日期仅到日，列补证。",
+      "judgment": {
+        "headline": "Claude 让白板、表格与外部应用留在同一工作界面",
+        "summary": "企业版继续把聊天与 Cowork 纳入同一工作环境。Claude 现在可与团队共编白板和表格，Claude Data 支持基于连接数据制作和分享看板；认证查询和实时分享仍在测试。互动连接器把合作应用放在对话旁，用户可手动处理，再让 Claude 接着改。企业功能仍受管理员控制，会议助手尚未开放。",
+        "evidence_ids": [
+          "claude-enterprise-unified",
+          "claude-collaborative-artifacts-nov10",
+          "claude-interactive-connectors-nov10"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "企业把聊天和 Cowork 放到同一工作环境",
+          "summary": "企业用户可从对话切到 Cowork，并通过云端接续任务。",
+          "evidence_ids": [
+            "claude-enterprise-unified"
+          ]
+        },
+        {
+          "headline": "Claude 新增可共编的白板和表格",
+          "summary": "付费计划新增白板和表格测试，Claude Data 正式提供；认证查询与实时分享仍在测试，企业版受管理员设置约束。",
+          "evidence_ids": [
+            "claude-collaborative-artifacts-nov10"
+          ]
+        },
+        {
+          "headline": "Claude 内可打开和操作合作应用",
+          "summary": "互动连接器可把合作应用放在对话旁或全屏，用户可亲自操作或让 Claude 协助编辑。",
+          "evidence_ids": [
+            "claude-interactive-connectors-nov10"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Claude 新增可共编的白板和表格",
+        "summary": "付费计划新增白板和表格测试，Claude Data 正式提供；认证查询与实时分享仍在测试，企业版受管理员设置约束。",
+        "evidence_ids": [
+          "claude-collaborative-artifacts-nov10"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "claude-collaborative-artifacts-nov10",
+          "status": "supplement",
+          "headline": "Claude 新增可共编的白板和表格",
+          "summary": "付费计划新增白板和表格测试，Claude Data 正式提供；认证查询与实时分享仍在测试，企业版受管理员设置约束。",
+          "evidence_ids": [
+            "claude-collaborative-artifacts-nov10"
+          ]
+        },
+        {
+          "event_id": "claude-interactive-connectors-nov10",
+          "status": "supplement",
+          "headline": "Claude 内可打开和操作合作应用",
+          "summary": "互动连接器可把合作应用放在对话旁或全屏，用户可亲自操作或让 Claude 协助编辑。",
+          "evidence_ids": [
+            "claude-interactive-connectors-nov10"
+          ]
+        }
+      ]
+    },
+    "xai": {
+      "state": "updated",
+      "reason": "旧正文已吸收通话和订单跟进，补上共享 Slack 工作区可直接交办的团队入口；该版本早于本期。",
+      "judgment": {
+        "headline": "Grok 持续跟进购物和通话，团队可从共享 Slack 交办",
+        "summary": "团队保留 Team Bot 和 Pages 来组织任务与成果；共享 Slack 工作区的成员也能直接发起独立对话。消费侧仍覆盖购物跟踪、补货逐单确认与订阅管理；外呼中可补充信息、查看转写和未接通回执。实际通话预约范围和完成率仍待核实。",
+        "evidence_ids": [
+          "grok-current-changelog-nov10",
+          "grok-bot-shared-slack-nov06"
+        ]
+      },
+      "changes": null,
+      "digest": {
+        "headline": "共享 Slack 工作区可直接联系 Team Bot",
+        "summary": "不同成员可直接发消息给 Team Bot，并分别发起独立对话。",
+        "evidence_ids": [
+          "grok-bot-shared-slack-nov06"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "grok-bot-shared-slack-nov06",
+          "status": "supplement",
+          "headline": "共享 Slack 工作区可直接联系 Team Bot",
+          "summary": "不同成员可直接发消息给 Team Bot，并分别发起独立对话。",
+          "evidence_ids": [
+            "grok-bot-shared-slack-nov06"
+          ]
+        }
+      ]
+    },
+    "google-gemini": {
+      "state": "updated",
+      "reason": "正文补入设备、地区和逐步开放的小组件入口；公告未证明具体可用覆盖或稳定执行，延续原方向。",
+      "judgment": {
+        "headline": "Gemini 延续对话内改文件，设备端代办扩大适用范围",
+        "summary": "在应用里，用户仍可预览并修改生成的文件，PDF 支持网页和移动端，其他格式以网页为主；15 秒视频向 Ultra 分批开放。设备端新增部分 Pixel 10 机型支持，跨应用点餐、叫车和预约扩向英国、印度和日本。可用机型、地区和合作应用不同；自定义小组件仍待分批推出。",
+        "evidence_ids": [
+          "gemini-inline",
+          "gemini-video-15-evidence",
+          "gemini-intelligence-nov10-device-expansion"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "生成后可在原对话里继续返工",
+          "summary": "用户可以直接预览和手改文件，再让 Gemini 按改后的版本处理。",
+          "evidence_ids": [
+            "gemini-inline"
+          ]
+        },
+        {
+          "headline": "应用内 15 秒视频向 Ultra 分批开放",
+          "summary": "可用性以订阅及开放节奏为准。",
+          "evidence_ids": [
+            "gemini-video-15-evidence"
+          ]
+        },
+        {
+          "headline": "Gemini Intelligence 扩展支持机型与代办地区",
+          "summary": "Google 宣布 Pixel 10 的部分机型接入相关功能，跨应用点餐、叫车和预约扩向英国、印度和日本；自定义小组件将在随后数周推出。",
+          "evidence_ids": [
+            "gemini-intelligence-nov10-device-expansion"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Gemini Intelligence 扩展支持机型与代办地区",
+        "summary": "Google 宣布 Pixel 10 的部分机型接入相关功能，跨应用点餐、叫车和预约扩向英国、印度和日本；自定义小组件将在随后数周推出。",
+        "evidence_ids": [
+          "gemini-intelligence-nov10-device-expansion"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "gemini-intelligence-nov10-device-expansion",
+          "status": "new",
+          "headline": "Gemini Intelligence 扩展支持机型与代办地区",
+          "summary": "Google 宣布 Pixel 10 的部分机型接入相关功能，跨应用点餐、叫车和预约扩向英国、印度和日本；自定义小组件将在随后数周推出。",
+          "evidence_ids": [
+            "gemini-intelligence-nov10-device-expansion"
+          ]
+        }
+      ]
+    },
+    "meta-llama": {
+      "state": "unchanged",
+      "reason": "复核 Muse Spaces 仍支持在应用内维护任务和资料。Ember 原文只证实模型 API 和伙伴测试，未证实 Muse 应用新增入口或功能。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    }
+  },
+  "overview": null,
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "continued",
+        "reason": "补入11月9日已公布的应用入口及修改、出素材的环节，维持办事与办公并行判断。",
+        "evidence_ids": [
+          "doubao-seedream-app-nov09"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "豆包办公增加可反复修改的图像技能",
+            "stage": "available",
+            "evidence_ids": [
+              "doubao-seedream-app-nov09"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "补入11月9日已公布的应用入口及修改、出素材的环节，维持办事与办公并行判断。",
+          "event_ids": [
+            "doubao-seedream-app-nov09"
+          ]
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "官方2.0日志中的资料空间、触发任务和手机接续均已进入正文。双11线索原文不可读，模型与量化报道没有确认新应用入口。",
+        "evidence_ids": [
+          "qwenwork-200"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "千问办公2.0已记录事件触发和跨端接续",
+            "stage": "available",
+            "evidence_ids": [
+              "qwenwork-200"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "官方2.0日志中的资料空间、触发任务和手机接续均已进入正文。双11线索原文不可读，模型与量化报道没有确认新应用入口。",
+          "event_ids": []
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "商店最新可核实版本仍是2.92.0，视觉理解和历史搜索已覆盖；Hy4模型报道与WorkBuddy消息不证明元宝新增操作入口。",
+        "evidence_ids": [
+          "yuanbao-29200-store"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "summary": "元宝2.92.0已覆盖历史资料找回",
+            "stage": "available",
+            "evidence_ids": [
+              "yuanbao-29200-store"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "商店最新可核实版本仍是2.92.0，视觉理解和历史搜索已覆盖；Hy4模型报道与WorkBuddy消息不证明元宝新增操作入口。",
+          "event_ids": []
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "吸收从商家资料维护到消费者问答的新入口，保留持续任务与组织采购判断。官方日期无小时，保守列补证。",
+        "evidence_ids": [
+          "chatgpt-businesses-beta-nov10"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "summary": "ChatGPT 内开放商家认领与问答入口",
+            "stage": "preview",
+            "evidence_ids": [
+              "chatgpt-businesses-beta-nov10"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "吸收从商家资料维护到消费者问答的新入口，保留持续任务与组织采购判断。官方日期无小时，保守列补证。",
+          "event_ids": [
+            "chatgpt-businesses-beta-nov10"
+          ]
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "协作从连接外部文档进一步覆盖 Claude 内共编，且连接器支持同屏操作。官方日期仅到日，列补证。",
+        "evidence_ids": [
+          "claude-collaborative-artifacts-nov10",
+          "claude-interactive-connectors-nov10"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "Claude 新增可共编的白板和表格",
+            "stage": "preview",
+            "evidence_ids": [
+              "claude-collaborative-artifacts-nov10",
+              "claude-interactive-connectors-nov10"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "协作从连接外部文档进一步覆盖 Claude 内共编，且连接器支持同屏操作。官方日期仅到日，列补证。",
+          "event_ids": [
+            "claude-collaborative-artifacts-nov10",
+            "claude-interactive-connectors-nov10"
+          ]
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "旧正文已吸收通话和订单跟进，补上共享 Slack 工作区可直接交办的团队入口；该版本早于本期。",
+        "evidence_ids": [
+          "grok-bot-shared-slack-nov06"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "共享 Slack 工作区可直接联系 Team Bot",
+            "stage": "available",
+            "evidence_ids": [
+              "grok-bot-shared-slack-nov06"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "旧正文已吸收通话和订单跟进，补上共享 Slack 工作区可直接交办的团队入口；该版本早于本期。",
+          "event_ids": [
+            "grok-bot-shared-slack-nov06"
+          ]
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "正文补入设备、地区和逐步开放的小组件入口；公告未证明具体可用覆盖或稳定执行，延续原方向。",
+        "evidence_ids": [
+          "gemini-intelligence-nov10-device-expansion"
+        ],
+        "signals": [
+          {
+            "direction_id": "mobile-entry",
+            "type": "continued",
+            "summary": "Gemini Intelligence 扩展支持机型与代办地区",
+            "stage": "announced",
+            "evidence_ids": [
+              "gemini-intelligence-nov10-device-expansion"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "正文补入设备、地区和逐步开放的小组件入口；公告未证明具体可用覆盖或稳定执行，延续原方向。",
+          "event_ids": [
+            "gemini-intelligence-nov10-device-expansion"
+          ]
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "复核 Muse Spaces 仍支持在应用内维护任务和资料。Ember 原文只证实模型 API 和伙伴测试，未证实 Muse 应用新增入口或功能。",
+        "evidence_ids": [
+          "muse-spaces-nov06"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "Muse Spaces 继续承接可反复更新的成果",
+            "stage": "available",
+            "evidence_ids": [
+              "muse-spaces-nov06"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "复核 Muse Spaces 仍支持在应用内维护任务和资料。Ember 原文只证实模型 API 和伙伴测试，未证实 Muse 应用新增入口或功能。",
+          "event_ids": []
+        }
+      }
+    },
+    "overview": []
+  },
+  "report_id": "14c5a6c0aac61000480cb589179ac0bfb42ca02ffbad9de3b7a9743f3a68c95b"
+}
