@@ -4,52 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-11T16:18:43.983881Z",
+  "generated_at": "2026-11-11T21:27:54.100366Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12"
   ],
-  "story_count": 918,
-  "unique_story_count": 655,
+  "story_count": 875,
+  "unique_story_count": 725,
   "counts": {
     "by_company_topic": {
-      "anthropic": 224,
+      "anthropic": 200,
       "apple": 5,
-      "cursor": 10,
-      "deepseek": 10,
-      "doubao": 15,
-      "google-gemini": 78,
-      "huggingface": 8,
+      "cursor": 8,
+      "deepseek": 9,
+      "doubao": 14,
+      "google-gemini": 77,
+      "huggingface": 9,
       "hunyuan": 3,
       "kimi": 4,
       "meta-llama": 3,
       "microsoft": 6,
       "minimax": 12,
-      "nvidia": 51,
-      "openai": 107,
+      "nvidia": 46,
+      "openai": 96,
       "openrouter": 14,
       "perplexity": 1,
       "qwen": 8,
-      "xai": 8,
+      "xai": 11,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 201,
-      "monetization": 39,
-      "product-entry": 16,
-      "workplace": 35
+      "agent-ecosystem": 183,
+      "monetization": 37,
+      "product-entry": 17,
+      "workplace": 34
     },
     "by_importance_label": {
-      "值得关注": 660,
-      "多源热议": 10,
-      "官方更新": 85,
-      "行业动态": 163
+      "值得关注": 625,
+      "多源热议": 8,
+      "官方更新": 82,
+      "行业动态": 160
     },
     "by_source_count_bucket": {
-      "1": 886,
-      "2": 21,
-      "3+": 11
+      "1": 842,
+      "2": 24,
+      "3+": 9
     }
   },
   "top_stories": [
@@ -67,10 +67,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_7cdb17a331c3",
+      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "importance_score": 0.8682,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_e5a94f810129",
       "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
       "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
-      "importance_score": 0.8666,
+      "importance_score": 0.854,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
@@ -112,17 +125,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_cc7c91227540",
-      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
-      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
-      "importance_score": 0.8492,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_3712fd9f7ee1",
       "title": "面向退伍军人和现役军人的 ChatGPT Plus / ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -136,19 +138,6 @@
       "lens_topics": [
         "monetization"
       ]
-    },
-    {
-      "story_id": "story_c58cc76086ab",
-      "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "importance_score": 0.8432,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_3f407db2138d",
@@ -167,14 +156,16 @@
       ]
     },
     {
-      "story_id": "story_60004f620ffd",
-      "title": "Genie One：适合每个人的人工智能协同工作之家 / Genie One: The AI cowork home for everyone",
-      "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
-      "importance_score": 0.8406,
+      "story_id": "story_5808c969be18",
+      "title": "Talk it through with Gemini, now on Apple CarPlay",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
+      "importance_score": 0.8408,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [],
+      "company_topics": [
+        "google-gemini"
+      ],
       "lens_topics": []
     },
     {
@@ -193,6 +184,41 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_cc7c91227540",
+      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
+      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
+      "importance_score": 0.8363,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_55472f9603f4",
+      "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
+      "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+      "importance_score": 0.8363,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_aa0155763474",
+      "title": "Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
+      "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
+      "importance_score": 0.836,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_90b08b2467a3",
       "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -200,6 +226,19 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_c58cc76086ab",
+      "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "importance_score": 0.8303,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
       "company_topics": [
         "google-gemini"
       ],
@@ -227,6 +266,17 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-10",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_60004f620ffd",
+      "title": "Genie One：适合每个人的人工智能协同工作之家 / Genie One: The AI cowork home for everyone",
+      "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
+      "importance_score": 0.828,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
       "company_topics": [],
       "lens_topics": []
     },
@@ -368,19 +418,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_e6da7d7ebb65",
-      "title": "从企业环境到行动：Genie Agents 现在分析更多数据源以改变您的工作 / From enterprise context to action: Genie Agents now analyze more data sources to transform your work",
-      "url": "https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work",
-      "importance_score": 0.8106,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_e65aff894a21",
       "title": "Promptim: an experimental library for prompt optimization",
       "url": "https://www.langchain.com/blog/promptim",
@@ -429,17 +466,33 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ba74d08febca",
-      "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
-      "url": "https://www.ithome.com/1/025/809.htm",
-      "importance_score": 0.8036,
-      "importance_label": "行业动态",
+      "story_id": "story_7757393466bc",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "importance_score": 0.804,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_4cd35ad3749f",
+      "title": "Grok Bot v1.0.1: Meetings, Microsoft Teams, and shared connectors",
+      "url": "https://x.ai/changelog/bot#v1.0.1",
+      "importance_score": 0.804,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
       "company_topics": [
         "xai"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "product-entry",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_63fbd8609dbd",
@@ -450,6 +503,32 @@
       "source_count": 1,
       "archive_date": "2026-11-11",
       "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e6da7d7ebb65",
+      "title": "从企业环境到行动：Genie Agents 现在分析更多数据源以改变您的工作 / From enterprise context to action: Genie Agents now analyze more data sources to transform your work",
+      "url": "https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work",
+      "importance_score": 0.798,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_9fee00ec05d7",
+      "title": "Praxis-1 Is Now Available",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "importance_score": 0.798,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "huggingface"
+      ],
       "lens_topics": []
     },
     {
@@ -499,86 +578,6 @@
       "archive_date": "2026-11-11",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_37612d93c538",
-      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。 / We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
-      "importance_score": 0.7935,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_c18d874f4b17",
-      "title": "可靠地重现 70% 以上的缺陷：实践中从警报到自动修复的代理管道 / Reliably Reproducing Over 70% of Defects: An Agent Pipeline from Alerts to Automated Fixes in Practice",
-      "url": "https://www.alibabacloud.com/blog/reliably-reproducing-over-70%25-of-defects-an-agent-pipeline-from-alerts-to-automated-fixes-in-practice_603754",
-      "importance_score": 0.7924,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_4a1120dde677",
-      "title": "让团队完成复杂任务：阿里云AgentCore多Agent协作架构与实践 / Let Teams Complete Complex Tasks: Alibaba Cloud AgentCore Multi-Agent Collaboration Architecture and Practice",
-      "url": "https://www.alibabacloud.com/blog/let-teams-complete-complex-tasks-alibaba-cloud-agentcore-multi-agent-collaboration-architecture-and-practice_603755",
-      "importance_score": 0.7924,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_ed4843ed21b9",
-      "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响 / What could China get from Jensen Huang?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "importance_score": 0.7877,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_688452b29a97",
-      "title": "从Agent框架到Agent Harness：开源AgentScope项目的新定位 / From Agent Framework to Agent Harness: A New Positioning for the Open-Source AgentScope Project",
-      "url": "https://www.alibabacloud.com/blog/from-agent-framework-to-agent-harness-a-new-positioning-for-the-open-source-agentscope-project_603759",
-      "importance_score": 0.7836,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3a764eede11c",
-      "title": "From 51 Days to 14: The Organizational Restructuring Behind Multi-Agent Collaboration and Product Self-Evolution",
-      "url": "https://www.alibabacloud.com/blog/from-51-days-to-14-the-organizational-restructuring-behind-multi-agent-collaboration-and-product-self-evolution_603764",
-      "importance_score": 0.7836,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }
