@@ -4,51 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-11T12:48:33.441880Z",
+  "generated_at": "2026-11-11T16:18:43.983881Z",
   "daily_dates": [
     "2026-11-10",
-    "2026-11-11"
+    "2026-11-11",
+    "2026-11-12"
   ],
-  "story_count": 594,
-  "unique_story_count": 594,
+  "story_count": 918,
+  "unique_story_count": 655,
   "counts": {
     "by_company_topic": {
-      "anthropic": 149,
-      "apple": 4,
-      "cursor": 6,
-      "deepseek": 6,
-      "doubao": 10,
-      "google-gemini": 50,
-      "huggingface": 5,
-      "hunyuan": 2,
-      "kimi": 3,
-      "meta-llama": 2,
-      "microsoft": 3,
-      "minimax": 7,
-      "nvidia": 34,
-      "openai": 62,
-      "openrouter": 9,
+      "anthropic": 224,
+      "apple": 5,
+      "cursor": 10,
+      "deepseek": 10,
+      "doubao": 15,
+      "google-gemini": 78,
+      "huggingface": 8,
+      "hunyuan": 3,
+      "kimi": 4,
+      "meta-llama": 3,
+      "microsoft": 6,
+      "minimax": 12,
+      "nvidia": 51,
+      "openai": 107,
+      "openrouter": 14,
       "perplexity": 1,
-      "qwen": 5,
-      "xai": 2,
-      "zhipu": 1
+      "qwen": 8,
+      "xai": 8,
+      "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 128,
-      "monetization": 27,
-      "product-entry": 9,
-      "workplace": 21
+      "agent-ecosystem": 201,
+      "monetization": 39,
+      "product-entry": 16,
+      "workplace": 35
     },
     "by_importance_label": {
-      "值得关注": 425,
-      "多源热议": 6,
-      "官方更新": 53,
-      "行业动态": 110
+      "值得关注": 660,
+      "多源热议": 10,
+      "官方更新": 85,
+      "行业动态": 163
     },
     "by_source_count_bucket": {
-      "1": 572,
-      "2": 15,
-      "3+": 7
+      "1": 886,
+      "2": 21,
+      "3+": 11
     }
   },
   "top_stories": [
@@ -64,6 +65,25 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_e5a94f810129",
+      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
+      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
+      "importance_score": 0.8666,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai",
+        "anthropic",
+        "xai",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "product-entry",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_8f1b2af00c00",
@@ -92,6 +112,17 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_cc7c91227540",
+      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
+      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
+      "importance_score": 0.8492,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3712fd9f7ee1",
       "title": "面向退伍军人和现役军人的 ChatGPT Plus / ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -105,6 +136,19 @@
       "lens_topics": [
         "monetization"
       ]
+    },
+    {
+      "story_id": "story_c58cc76086ab",
+      "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "importance_score": 0.8432,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_3f407db2138d",
@@ -121,6 +165,17 @@
         "product-entry",
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_60004f620ffd",
+      "title": "Genie One：适合每个人的人工智能协同工作之家 / Genie One: The AI cowork home for everyone",
+      "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
+      "importance_score": 0.8406,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_637f863ae4eb",
@@ -313,6 +368,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_e6da7d7ebb65",
+      "title": "从企业环境到行动：Genie Agents 现在分析更多数据源以改变您的工作 / From enterprise context to action: Genie Agents now analyze more data sources to transform your work",
+      "url": "https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work",
+      "importance_score": 0.8106,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_e65aff894a21",
       "title": "Promptim: an experimental library for prompt optimization",
       "url": "https://www.langchain.com/blog/promptim",
@@ -357,6 +425,19 @@
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ba74d08febca",
+      "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
+      "url": "https://www.ithome.com/1/025/809.htm",
+      "importance_score": 0.8036,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "xai"
       ],
       "lens_topics": []
     },
@@ -498,91 +579,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_162241517541",
-      "title": "从远景特工到超级特工：解锁更多场景 / From Long-Horizon Agents to Super-agents: Unlocking More Scenarios",
-      "url": "https://www.alibabacloud.com/blog/from-long-horizon-agents-to-super-agents-unlocking-more-scenarios_603762",
-      "importance_score": 0.7836,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "deepseek"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b442a3429608",
-      "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议 / Anthropic reveals in its amended S1 filing today, more than $10 billion in new agreements with Microsoft and Google.",
-      "url": "https://x.com/rohanpaul_ai/status/2120369586096976098",
-      "importance_score": 0.7827,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c3edcb8060b0",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2 / Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "importance_score": 0.781,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b96c62d37887",
-      "title": "Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高 / FT: Anthropic’s bankers plan to raise its IPO price after heavy investor demand, lifting the target valuation back to $1.5T or more.",
-      "url": "https://x.com/rohanpaul_ai/status/2120320127484969162",
-      "importance_score": 0.7783,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "anthropic",
-        "nvidia"
-      ],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_aecc13cea9be",
-      "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic / Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-      "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
-      "importance_score": 0.7781,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "openai",
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_78f655eb896d",
-      "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌 / Anthropic reportedly plans to move forward with IPO plans",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans",
-      "importance_score": 0.7763,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "openai",
-        "anthropic"
-      ],
-      "lens_topics": []
     }
   ]
 }
