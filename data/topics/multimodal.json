@@ -3,13 +3,13 @@
   "name": "多模态",
   "description": "文本之外的能力：视觉理解、图文混合、音视频输入输出。",
   "group": "tech",
-  "item_count": 3,
-  "listed_count": 3,
-  "recent_item_count": 3,
+  "item_count": 2,
+  "listed_count": 2,
+  "recent_item_count": 2,
   "latest_title": "蚂蚁 inclusionAI 开源 SingVL_S1_4B 多模态决策模型",
   "latest_published_at": "2026-11-11T03:58:51Z",
   "items_url": "data/topics/multimodal.json",
-  "generated_at": "2026-11-11T07:49:03.296996Z",
+  "generated_at": "2026-11-11T10:35:24.797659Z",
   "items": [
     {
       "id": "story_5bf672433b4c",
@@ -28,36 +28,20 @@
       "curated": true
     },
     {
-      "id": "story_27c82b0e3db7",
-      "story_id": "story_27c82b0e3db7",
-      "title": "史上最小多模态模型 Muse Ember 发布，1M 超长上下文专攻智能体高频任务",
-      "title_zh": "史上最小多模态模型 Muse Ember 发布，1M 超长上下文专攻智能体高频任务",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32209",
-      "summary": "",
+      "id": "story_4a02cb38117f",
+      "story_id": "story_4a02cb38117f",
+      "title": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+      "title_zh": null,
+      "title_en": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+      "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
+      "summary": "Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote embedding transfer, cross-encoder caching, and lower-overhead EPD routing.",
       "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-10T08:27:50.372022Z",
+      "source": "vLLM Blog",
+      "source_name": "vLLM Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-11T00:00:00Z",
       "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_d5b798fe7c2c",
-      "story_id": "story_d5b798fe7c2c",
-      "title": "苹果 Siri AI 隐藏调度规则曝光：Skimmer 前置拦截，2% 英文高频请求悄悄走本地",
-      "title_zh": "苹果 Siri AI 隐藏调度规则曝光：Skimmer 前置拦截，2% 英文高频请求悄悄走本地",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32211",
-      "summary": "开源人工智能与商业化之间的竞争持续加剧。近日，Meta Superintelligence Labs 正式发布了 Muse Ember，这是 Muse 品牌迄今为止第四个也是最小的高效多模态推理模型。该模型是专门为人工智能代理在日常操作中需要高频处理的重复性子任务而构建的。",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-10T08:27:50.372022Z",
-      "source_count": 1,
-      "curated": false
+      "curated": true
     }
   ]
 }
