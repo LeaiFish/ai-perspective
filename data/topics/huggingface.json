@@ -3,13 +3,13 @@
   "name": "Hugging Face",
   "description": "Hugging Face 开源社区：热门模型与数据集、排行榜、Spaces 与推理服务。",
   "group": "company",
-  "item_count": 1005,
-  "listed_count": 1005,
+  "item_count": 1000,
+  "listed_count": 1000,
   "recent_item_count": 113,
   "latest_title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型",
   "latest_published_at": "2026-11-12T19:07:35Z",
   "items_url": "data/topics/huggingface.json",
-  "generated_at": "2026-11-12T21:30:04.091669Z",
+  "generated_at": "2026-11-12T22:47:19.372750Z",
   "items": [
     {
       "id": "story_b9fa2a337927",
@@ -1868,38 +1868,6 @@
       "curated": true
     },
     {
-      "id": "7e228a15f35b1cb9d06faecfd6ca90c26daf0111",
-      "story_id": null,
-      "title": "JetBrains 发布 Mellum2.1：用于编码代理的 12B MoE 开放模型",
-      "title_zh": "JetBrains 发布 Mellum2.1：用于编码代理的 12B MoE 开放模型",
-      "title_en": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
-      "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents",
-      "summary": "JetBrains 发布了 Mellum2.1，这是一个为编码代理和快速子代理构建的开放模型。 Mellum2.1 是 JetBrains 的 12B 专家混合思维模型，每个令牌激活 2.5B 个参数。它在 Hugging Face 上的 Apache 2.0 下发布。",
-      "recommend_reason_zh": null,
-      "source": "MarkTechPost Research",
-      "source_name": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T16:17:35Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "d800bd1396c6940572b6fad7711159d5d0afbc02",
-      "story_id": null,
-      "title": "当可信模型存储库发生变化时会发生什么？ Unsloth Studio 在运行前重新检查",
-      "title_zh": "当可信模型存储库发生变化时会发生什么？ Unsloth Studio 在运行前重新检查",
-      "title_en": "What Happens When a Trusted Model Repo Changes? Unsloth Studio Re-Checks Before It Runs",
-      "url": "https://www.marktechpost.com/2026/10/07/what-happens-when-a-trusted-model-repo-changes-unsloth-studio-re-checks-before-it-runs",
-      "summary": "Unsloth 的防护措施采用 Hugging Face 扫描判定，并将模型代码批准与代码本身绑定，检查包内容作为验证工具执行的一种方式本地 AI 工作流程严重依赖外部模型平台和代码依赖性，在本地运行未经验证的开源文件时会带来独特的安全挑战。为了解决这些漏洞，Unsloth Studio 等桌面模型管理平台将存储库集成与自动多检查点扫描相结合……",
-      "recommend_reason_zh": null,
-      "source": "MarkTechPost Research",
-      "source_name": "MarkTechPost Research",
-      "site_id": "curated_media",
-      "published_at": "2026-10-08T01:49:11Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
       "id": "dbf6152eca9e6a735ff567731e141deeac103899",
       "story_id": null,
       "title": "模型不存在，所以你自己制作了",
@@ -2012,38 +1980,6 @@
       "curated": true
     },
     {
-      "id": "10c0acb30a92185d2c795c92a2afb3b518845908",
-      "story_id": null,
-      "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.ithome.com/1/009/444.htm",
-      "summary": "据《卫报》报道，OpenAI 披露为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统、Hugging Face 等事件，每天投入超 50 万美元，并动用 AI 协助筛查约 50PB 数据。澳大利亚已有六个政府网站收到 OpenAI 通知，此前旗下智能体还曾入侵新南威尔士州政府网站访问未公开的历史山火数据；OpenAI 警告调查尚未结束，近期可能有更多机构接到通知。",
-      "recommend_reason_zh": null,
-      "source": "IT之家·人工智能",
-      "source_name": "IT之家·人工智能",
-      "site_id": "aihot",
-      "published_at": "2026-10-03T06:18:38Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "48ab6be8be1ae5fa20bc6b26fcfcc2f5fdadf96d",
-      "story_id": null,
-      "title": "开源 AstaBrief，Asta 中的快速报告生成模型",
-      "title_zh": "开源 AstaBrief，Asta 中的快速报告生成模型",
-      "title_en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "summary": "Ai2 关于 Hugging Face 的博客文章",
-      "recommend_reason_zh": null,
-      "source": "Hugging Face Blog",
-      "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-10-02T15:19:50Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
       "id": "f965b0fded7b0c67cd412c42d0d656eb2a5c29bd",
       "story_id": null,
       "title": "AutoSynthData：为企业代理生成训练数据",
@@ -2104,22 +2040,6 @@
       "source_name": "Hugging Face open-r1 Commits",
       "site_id": "official_ai",
       "published_at": "2026-10-02T03:55:22Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "32a5bcd790bccb0e973eaac0deba120191ae705a",
-      "story_id": null,
-      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.ithome.com/1/009/204.htm",
-      "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
-      "recommend_reason_zh": null,
-      "source": "IT之家·人工智能",
-      "source_name": "IT之家·人工智能",
-      "site_id": "aihot",
-      "published_at": "2026-10-02T00:06:15Z",
       "source_count": 1,
       "curated": true
     },
@@ -2396,7 +2316,7 @@
       "curated": true
     },
     {
-      "id": "86953daf6e5df0e685028eb1cba79feb0cdfd5aa",
+      "id": "76f12bd513e3f549008af7b940ee4c18ec0d1f3a",
       "story_id": null,
       "title": "The Open ASR Leaderboard Adds Its First Global South Language",
       "title_zh": null,
@@ -2406,13 +2326,13 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-28T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "2c906b47277a348a417d05657118c6719c7825c2",
+      "id": "02cd8eee66a301cae63204fa7d826014b7a60281",
       "story_id": null,
       "title": "使用 Sentence Transformers 训练和微调多向量嵌入模型",
       "title_zh": "使用 Sentence Transformers 训练和微调多向量嵌入模型",
@@ -2422,29 +2342,29 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-26T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "55e28b48d4eb587146508b2ce96eba902b3ce035",
+      "id": "bd6211f9e1eb79557db1971b76a0a74fd31e784d",
       "story_id": null,
       "title": "Hugging Face 事件与前路",
       "title_zh": "Hugging Face 事件与前路",
       "title_en": "The Hugging Face incident and the road ahead",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "summary": "",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
       "recommend_reason_zh": null,
       "source": "OpenAI News",
       "source_name": "OpenAI News",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-26T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "b343f39bfe6c0fcb583e96ace127b7456d9cc623",
+      "id": "a2f8e607ba11db0410a864b847fc570ee0e53dab",
       "story_id": null,
       "title": "Granite 4.2 LLMs 是如何打造的",
       "title_zh": "Granite 4.2 LLMs 是如何打造的",
@@ -2454,13 +2374,13 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-25T15:14:14Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+      "id": "9d66be28f139838d506f5138ec826c870dca0d3e",
       "story_id": null,
       "title": "量化感知修复：一种超越全精度原版的压缩4位模型",
       "title_zh": "量化感知修复：一种超越全精度原版的压缩4位模型",
@@ -2470,13 +2390,13 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-25T11:39:24Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
+      "id": "094c7515a5d671fee191788cac4ae25e19b23260",
       "story_id": null,
       "title": "连接、运行、部署：用 Gradio 构建 AI 工作流",
       "title_zh": "连接、运行、部署：用 Gradio 构建 AI 工作流",
@@ -2486,10 +2406,10 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-08-25T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "57756fcd64a3314b088ea24b4290a0ee928b0992",

@@ -4,31 +4,31 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-12T21:30:04.091669Z",
+  "generated_at": "2026-11-12T22:47:19.372750Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13"
   ],
-  "story_count": 1121,
-  "unique_story_count": 988,
+  "story_count": 1138,
+  "unique_story_count": 1010,
   "counts": {
     "by_company_topic": {
-      "anthropic": 209,
+      "anthropic": 213,
       "apple": 7,
       "cursor": 8,
-      "deepseek": 16,
+      "deepseek": 18,
       "doubao": 21,
-      "google-gemini": 130,
+      "google-gemini": 134,
       "huggingface": 10,
       "hunyuan": 2,
-      "kimi": 5,
+      "kimi": 6,
       "meta-llama": 2,
       "microsoft": 8,
-      "minimax": 9,
-      "nvidia": 81,
-      "openai": 103,
+      "minimax": 10,
+      "nvidia": 89,
+      "openai": 105,
       "openrouter": 19,
       "perplexity": 2,
       "qwen": 9,
@@ -36,20 +36,20 @@
       "zhipu": 1
     },
     "by_lens_topic": {
-      "agent-ecosystem": 230,
-      "monetization": 45,
+      "agent-ecosystem": 232,
+      "monetization": 47,
       "product-entry": 25,
-      "workplace": 38
+      "workplace": 40
     },
     "by_importance_label": {
-      "值得关注": 787,
+      "值得关注": 799,
       "多源热议": 10,
-      "官方更新": 127,
-      "行业动态": 197
+      "官方更新": 128,
+      "行业动态": 201
     },
     "by_source_count_bucket": {
-      "1": 1076,
-      "2": 34,
+      "1": 1092,
+      "2": 35,
       "3+": 11
     }
   },
@@ -71,7 +71,7 @@
       "story_id": "story_b9fa2a337927",
       "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "importance_score": 0.8619,
+      "importance_score": 0.8587,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -120,21 +120,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_b9265a202fd3",
-      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/index/amplitude",
-      "importance_score": 0.8481,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_3712fd9f7ee1",
       "title": "面向退伍军人和现役军人的 ChatGPT Plus / ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -150,10 +135,25 @@
       ]
     },
     {
+      "story_id": "story_b9265a202fd3",
+      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "importance_score": 0.8449,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_d082cca44d4c",
       "title": "首届非洲运营商云转型峰会在马拉喀什举行，讨论云将如何改变行业 / First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
       "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
-      "importance_score": 0.8471,
+      "importance_score": 0.8438,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -164,37 +164,11 @@
       "story_id": "story_adc3a9c0260a",
       "title": "华为开放云论坛加速网络全云化转型 / Huawei’s Open Cloud Forum Accelerates Network All Cloud Transformation",
       "url": "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016",
-      "importance_score": 0.8471,
+      "importance_score": 0.8438,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b821bfa39311",
-      "title": "Google DeepMind 发布 Gemini 4 Hydrogen / Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "importance_score": 0.8432,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6df6ce89b479",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "importance_score": 0.8431,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "google-gemini"
-      ],
       "lens_topics": []
     },
     {
@@ -214,10 +188,36 @@
       ]
     },
     {
+      "story_id": "story_b821bfa39311",
+      "title": "Google DeepMind 发布 Gemini 4 Hydrogen / Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "importance_score": 0.84,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6df6ce89b479",
+      "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级 / Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "importance_score": 0.84,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_e7570e2bfc0c",
       "title": "在任何网站上从 Gemini 获取快速解答。 / Get quick answers from Gemini on any website.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome",
-      "importance_score": 0.8407,
+      "importance_score": 0.8376,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -242,10 +242,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_90b08b2467a3",
+      "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-11",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_dc5730b76eac",
       "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道 / Now rolling out for:",
       "url": "https://x.com/GoogleDeepMind/status/2120940342505566438",
-      "importance_score": 0.8372,
+      "importance_score": 0.8341,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -260,44 +273,7 @@
       "story_id": "story_df30bd1f7ed7",
       "title": "最佳人工智能卡通生成器：将照片和提示变成卡通，然后将其动画化 / Best AI Cartoon Generators: Turn Photos and Prompts Into Cartoons, Then Animate Them",
       "url": "https://lumalabs.ai/news/ai-cartoon-generators",
-      "importance_score": 0.8361,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_90b08b2467a3",
-      "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-      "importance_score": 0.8344,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d7833180ed26",
-      "title": "Own Your Intelligence: The Key to Lasting AI Advantage",
-      "url": "https://www.langchain.com/blog/own-your-intelligence",
-      "importance_score": 0.8335,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3044d8d4228d",
-      "title": "H6.ai 如何使用 Lakebase Postgres 构建人工智能驱动的财务自动化 / How H6.ai builds AI-powered financial automation with Lakebase Postgres",
-      "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
-      "importance_score": 0.8325,
+      "importance_score": 0.833,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -318,15 +294,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_565e9cd7d19b",
-      "title": "适用于 iPhone 和 Android 的最佳 AI 视频生成应用程序 / Best AI Video Generator Apps for iPhone and Android",
-      "url": "https://lumalabs.ai/news/ai-video-generator-apps-iphone-android",
-      "importance_score": 0.8306,
+      "story_id": "story_d7833180ed26",
+      "title": "拥有你的智慧：持久人工智能优势的关键 / Own Your Intelligence: The Key to Lasting AI Advantage",
+      "url": "https://www.langchain.com/blog/own-your-intelligence",
+      "importance_score": 0.8303,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_5808c969be18",
@@ -344,21 +322,10 @@
       ]
     },
     {
-      "story_id": "story_76c1ee476113",
-      "title": "适合音乐家的最佳 AI 专辑封面和封面艺术生成器 / Best AI Album Cover and Cover Art Generators for Musicians",
-      "url": "https://lumalabs.ai/news/ai-album-cover-art-generators-musicians",
-      "importance_score": 0.83,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_887be38a6b19",
-      "title": "最佳视频转动漫 AI 工具：将真实素材转换为动漫 / Best Video to Anime AI Tools: Convert Real Footage to Anime",
-      "url": "https://lumalabs.ai/news/video-to-anime-ai-tools",
-      "importance_score": 0.8295,
+      "story_id": "story_3044d8d4228d",
+      "title": "H6.ai 如何使用 Lakebase Postgres 构建人工智能驱动的财务自动化 / How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+      "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -380,45 +347,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ea75b863f0d1",
-      "title": "The Claude Tag guide for startups",
-      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_06cce6ee3937",
-      "title": "Operate Claude Managed Agents inside your security perimeter",
-      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_de0aad45c1b7",
-      "title": "最佳人工智能视频转视频工具：重新设计、重新照明和重新拍摄现有素材 / Best AI Video-to-Video Tools: Restyle, Relight and Re-Shoot Existing Footage",
-      "url": "https://lumalabs.ai/news/ai-video-to-video-tools",
-      "importance_score": 0.8288,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_1df7c5e9a681",
       "title": "卡在“正在连接”上？解决 AI Voice WebSocket 与 RUM 的连接问题 / Stuck on 'Connecting'? Troubleshoot AI Voice WebSocket Connection Issues with RUM",
       "url": "https://www.alibabacloud.com/blog/stuck-on-connecting-troubleshoot-ai-voice-websocket-connection-issues-with-rum_603753",
@@ -428,32 +356,6 @@
       "archive_date": "2026-11-10",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_65bc2bb386a2",
-      "title": "Slack 中的 Genie 现已全面推出：受管控的 AI 协同工作，就在工作发生的地方 / Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
-      "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
-      "importance_score": 0.8279,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_6263aaa97a30",
-      "title": "Block 如何通过 Buzz 和 Unity Gateway 为协作式 AI 代理提供支持 / How Block powers collaborative AI agents with Buzz and Unity Gateway",
-      "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
-      "importance_score": 0.8278,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_c255eae19c65",
@@ -482,6 +384,17 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_565e9cd7d19b",
+      "title": "适用于 iPhone 和 Android 的最佳 AI 视频生成应用程序 / Best AI Video Generator Apps for iPhone and Android",
+      "url": "https://lumalabs.ai/news/ai-video-generator-apps-iphone-android",
+      "importance_score": 0.8275,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_90c2f4d19eb5",
       "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供 / ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -495,10 +408,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_46691652f7f0",
-      "title": "适用于活动、电影和品牌的最佳人工智能海报生成器 / Best AI Poster Generators for Events, Films and Brands",
-      "url": "https://lumalabs.ai/news/ai-poster-generators-events",
-      "importance_score": 0.8273,
+      "story_id": "story_76c1ee476113",
+      "title": "适合音乐家的最佳 AI 专辑封面和封面艺术生成器 / Best AI Album Cover and Cover Art Generators for Musicians",
+      "url": "https://lumalabs.ai/news/ai-album-cover-art-generators-musicians",
+      "importance_score": 0.8269,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
@@ -506,16 +419,68 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_6dc2e95142de",
-      "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO / NVIDIA Announces CEO Transition",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "importance_score": 0.8267,
-      "importance_label": "行业动态",
-      "source_count": 1,
+      "story_id": "story_ea75b863f0d1",
+      "title": "The Claude Tag guide for startups",
+      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+      "importance_score": 0.8265,
+      "importance_label": "官方更新",
+      "source_count": 2,
       "archive_date": "2026-11-13",
       "company_topics": [
-        "nvidia"
+        "anthropic"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_b3e7db4df35d",
+      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+      "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+      "importance_score": 0.8265,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_06cce6ee3937",
+      "title": "Operate Claude Managed Agents inside your security perimeter",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "importance_score": 0.8265,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_887be38a6b19",
+      "title": "最佳视频转动漫 AI 工具：将真实素材转换为动漫 / Best Video to Anime AI Tools: Convert Real Footage to Anime",
+      "url": "https://lumalabs.ai/news/video-to-anime-ai-tools",
+      "importance_score": 0.8264,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_de0aad45c1b7",
+      "title": "最佳人工智能视频转视频工具：重新设计、重新照明和重新拍摄现有素材 / Best AI Video-to-Video Tools: Restyle, Relight and Re-Shoot Existing Footage",
+      "url": "https://lumalabs.ai/news/ai-video-to-video-tools",
+      "importance_score": 0.8258,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -549,6 +514,56 @@
       ]
     },
     {
+      "story_id": "story_65bc2bb386a2",
+      "title": "Slack 中的 Genie 现已全面推出：受管控的 AI 协同工作，就在工作发生的地方 / Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+      "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+      "importance_score": 0.8249,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_6263aaa97a30",
+      "title": "Block 如何通过 Buzz 和 Unity Gateway 为协作式 AI 代理提供支持 / How Block powers collaborative AI agents with Buzz and Unity Gateway",
+      "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+      "importance_score": 0.8248,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_46691652f7f0",
+      "title": "适用于活动、电影和品牌的最佳人工智能海报生成器 / Best AI Poster Generators for Events, Films and Brands",
+      "url": "https://lumalabs.ai/news/ai-poster-generators-events",
+      "importance_score": 0.8242,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6dc2e95142de",
+      "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO / NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "importance_score": 0.8237,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_1bbf09c00307",
       "title": "使用阿里云AI网关锁定AI Agent沙箱 / Locking Down AI Agent Sandbox with Alibaba Cloud AI Gateway",
       "url": "https://www.alibabacloud.com/blog/locking-down-ai-agent-sandbox-with-alibaba-cloud-ai-gateway_603772",
@@ -559,22 +574,6 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_2b2aad2325b1",
-      "title": "Claude Fable 5.2 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "importance_score": 0.8227,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "anthropic",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
       ]
     }
   ]
