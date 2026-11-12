@@ -3,13 +3,13 @@
   "name": "Personal Agent 专题",
   "description": "跟踪个人 Agent 的多端接入、持续任务与实际代办，覆盖购物、生活事务和办公协作。",
   "group": "lens",
-  "item_count": 286,
+  "item_count": 281,
   "listed_count": 80,
   "recent_item_count": 80,
   "latest_title": "谷歌宣布 Gemini 接入苹果 CarPlay，iOS 用户可在车内免提语音对话",
   "latest_published_at": "2026-11-11T22:49:11.167000Z",
   "items_url": "data/topics/product-entry.json",
-  "generated_at": "2026-11-11T23:32:20.718132Z",
+  "generated_at": "2026-11-12T03:13:55.424768Z",
   "items": [
     {
       "id": "story_7d177c7fb6a1",
@@ -156,11 +156,11 @@
       "curated": true
     },
     {
-      "id": "story_4cd35ad3749f",
-      "story_id": "story_4cd35ad3749f",
+      "id": "6790bcddb7a597cd20c02a392fe0bd53421f5764",
+      "story_id": null,
       "title": "Grok Bot v1.0.1: Meetings, Microsoft Teams, and shared connectors",
       "title_zh": null,
-      "title_en": "Grok Bot v1.0.1: Meetings, Microsoft Teams, and shared connectors",
+      "title_en": null,
       "url": "https://x.ai/changelog/bot#v1.0.1",
       "summary": "在 Team、Enterprise 和 Ultra 套餐中，机器人可以通过链接加入 Google Meet、Zoom 或 Microsoft Teams 通话，在会议聊天中应答，然后发送摘要。团队机器人可以加入 Microsoft Teams：团队管理员将其打开，所有者或经理连接机器人，并且团队管理员批准它。一旦团队管理员打开“允许共享登录”，团队所有者和经理就可以将自己的应用程序登录信息作为共享连接器共享。",
       "recommend_reason_zh": null,
@@ -428,22 +428,6 @@
       "curated": true
     },
     {
-      "id": "22ec5a20039fa2d57116748143bb909002e44c00",
-      "story_id": null,
-      "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://openclaw.ai/blog/shattering-silos-with-openclaw-multiplayer",
-      "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
-      "recommend_reason_zh": null,
-      "source": "OpenClaw：Blog（网页）",
-      "source_name": "OpenClaw：Blog（网页）",
-      "site_id": "aihot",
-      "published_at": "2026-11-05T00:00:00Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
       "id": "435b77c2daeaa941225fc26b37bef913c751694c",
       "story_id": null,
       "title": "Grok Bot v0.79.2: New app icon and gift requests",
@@ -455,6 +439,22 @@
       "source": "Grok Bot Changelog",
       "source_name": "Grok Bot Changelog",
       "site_id": "official_ai",
+      "published_at": "2026-11-05T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "22ec5a20039fa2d57116748143bb909002e44c00",
+      "story_id": null,
+      "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://openclaw.ai/blog/shattering-silos-with-openclaw-multiplayer",
+      "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
+      "recommend_reason_zh": null,
+      "source": "OpenClaw：Blog（网页）",
+      "source_name": "OpenClaw：Blog（网页）",
+      "site_id": "aihot",
       "published_at": "2026-11-05T00:00:00Z",
       "source_count": 1,
       "curated": true

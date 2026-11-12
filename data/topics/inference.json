@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 4,
-  "listed_count": 4,
-  "recent_item_count": 4,
+  "item_count": 3,
+  "listed_count": 3,
+  "recent_item_count": 3,
   "latest_title": "通过 NVIDIA DSX AI Factory 使用运行时 AI 库存验证 GPU 平台",
   "latest_published_at": "2026-11-11T17:00:00Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-11T23:32:20.718132Z",
+  "generated_at": "2026-11-12T03:13:55.424768Z",
   "items": [
     {
       "id": "story_af7f65269863",
@@ -56,22 +56,6 @@
       "source_name": "Hugging Face Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-11T05:01:16Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_4a02cb38117f",
-      "story_id": "story_4a02cb38117f",
-      "title": "vLLM 中的编码器分解：使用 EPD 扩展多模式服务",
-      "title_zh": "vLLM 中的编码器分解：使用 EPD 扩展多模式服务",
-      "title_en": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
-      "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
-      "summary": "Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote embedding transfer, cross-encoder caching, and lower-overhead EPD routing.",
-      "recommend_reason_zh": null,
-      "source": "vLLM Blog",
-      "source_name": "vLLM Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-11T00:00:00Z",
       "source_count": 1,
       "curated": true
     }

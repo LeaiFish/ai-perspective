@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Wed, 11 Nov 2026 23:32:20 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 03:13:55 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions</title>
@@ -29,7 +29,15 @@
 <guid isPermaLink="true">https://openai.com/index/gilbert-tobin-sam-nickless</guid>
 <description>A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.（OpenAI News）</description>
 <category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 23:32:20 +0000</pubDate>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off</title>
+<link>https://openrouter.ai/blog/insights/self-hosted-llm-vs-api</link>
+<guid isPermaLink="true">https://openrouter.ai/blog/insights/self-hosted-llm-vs-api</guid>
+<description>If you pay an API bill for an open-weight model, you may wonder whether your own GPU would cost less. GPU rent is charged every hour, busy or idle, while an API charges only for the tokens you use.（OpenRouter Blog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot</title>
@@ -56,28 +64,28 @@
 <pubDate>Wed, 11 Nov 2026 05:01:16 +0000</pubDate>
 </item>
 <item>
-<title>OpenRouter 实测教程：三种方法修复 OpenAI 与 Claude 的 429 限流错误 / LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors</title>
-<link>https://openrouter.ai/blog/tutorials/llm-api-rate-limits</link>
-<guid isPermaLink="true">https://openrouter.ai/blog/tutorials/llm-api-rate-limits</guid>
-<description>A 429 Too Many Requests error means you sent more requests or tokens than your limit allows in the current time window. OpenAI, Anthropic and OpenRouter all return it, and it usually shows up the first time an app runs under real load or a batch job fans out across several workers.（OpenRouter Blog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<title>WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋 / WSJ: Nvidia’s board, which publicly backed Jensen Huang on Sunday, is now close to deciding whether to remove its founder CEO.</title>
+<link>https://x.com/rohanpaul_ai/status/2120663635479625930</link>
+<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120663635479625930</guid>
+<description>WSJ 报道，Nvidia 董事会此前公开支持黄仁勋，如今接近决定是否罢免这位创始人 CEO。起因是黄仁勋与一名被指为中国情报人员的女子交往，随后又曝出与一名 Nvidia 员工的第二段婚外情；周日开始独立调查时董事会表示没有理由认为 Nvidia 机密泄露。（X：Rohan Paul (@rohanpaul_ai)）</description>
+<category>行业动态</category>
+<pubDate>Wed, 11 Nov 2026 23:43:05 +0000</pubDate>
 </item>
 <item>
-<title>Codex CLI 0.167.2</title>
-<link>https://developers.openai.com/codex/changelog</link>
-<guid isPermaLink="true">https://developers.openai.com/codex/changelog</guid>
-<description>OpenAI Codex Changelog</description>
+<title>OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题 / How to Stop an AI Agent Stuck in an Infinite Loop</title>
+<link>https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop</link>
+<guid isPermaLink="true">https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop</guid>
+<description>An AI agent gets stuck in an infinite loop when a model keeps calling a tool that fails, usually with the same arguments, because nothing in the agent loop tells it to stop. Each retry resends the whole conversation, so every turn costs more than the last, and a loop left running overnight can cost thousands of dollars.（OpenRouter Blog）</description>
 <category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>LiteLLM半年两次中毒：LLM的“钥匙扣”该放在哪里？ / LiteLLM Poisoned Twice in Half a Year: Where Should an LLM's 'Keychain' Be Kept?</title>
-<link>https://www.alibabacloud.com/blog/litellm-poisoned-twice-in-half-a-year-where-should-an-llms-keychain-be-kept_603763</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/litellm-poisoned-twice-in-half-a-year-where-should-an-llms-keychain-be-kept_603763</guid>
-<description>LiteLLM Poisoned Twice in Half a Year: Where Should an LLM's 'Keychain' Be Kept? This article introduces Higress's Wasm sandbox and immutable releases as a secure LLM proxy solution following recent LiteLLM supply chain attacks. Alibaba Cloud Native Community November 11, 2026 224（Alibaba Cloud Blog）</description>
+<title>Alibaba Cloud Launches Full-stack AgenticOps, Making the Agent the First User in Operations and R&amp;D</title>
+<link>https://www.alibabacloud.com/blog/alibaba-cloud-launches-full-stack-agenticops-making-the-agent-the-first-user-in-operations-and-r%26d_603765</link>
+<guid isPermaLink="true">https://www.alibabacloud.com/blog/alibaba-cloud-launches-full-stack-agenticops-making-the-agent-the-first-user-in-operations-and-r%26d_603765</guid>
+<description>Alibaba Cloud Launches Full-stack AgenticOps, Making the Agent the First User in Operations and R&amp;D This article introduces Alibaba Cloud's full-stack AgenticOps platform, enabling autonomous, closed-loop AI operations and R&amp;D through unified observability, evaluation, and controlled execution. Alibaba Cloud Native Community November 12, 2026 26（Alibaba Cloud Blog）</description>
 <category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work</title>
@@ -86,22 +94,6 @@
 <description>AI assistants can run analyses and summarize meetings, but employees still manage...（Databricks Blog）</description>
 <category>官方更新</category>
 <pubDate>Wed, 11 Nov 2026 16:00:00 +0000</pubDate>
-</item>
-<item>
-<title>GitHub 应用程序支持 Enterprise Copilot 座位管理 / GitHub App support for Enterprise Copilot seat management</title>
-<link>https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management</guid>
-<description>Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .（GitHub Changelog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:10:31 +0000</pubDate>
-</item>
-<item>
-<title>Grok Bot v1.0.1: Meetings, Microsoft Teams, and shared connectors</title>
-<link>https://x.ai/changelog/bot#v1.0.1</link>
-<guid isPermaLink="true">https://x.ai/changelog/bot#v1.0.1</guid>
-<description>On Team, Enterprise, and Ultra plans, a Bot can join a Google Meet, Zoom, or Microsoft Teams call from a link, answer in the meeting chat, and send a summary afterward. Team Bots can join Microsoft Teams: a team admin turns it on, an owner or Manager connects the Bot, and a Teams admin approves it. Teams Owners and Managers can share their own app login as a shared connector, once a team admin turns on Allow Shared Logins. Teams What teammates teach a Team Bot waits under Review learnings until （Grok Bot Changelog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。 / Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.</title>
@@ -136,12 +128,12 @@
 <pubDate>Wed, 11 Nov 2026 13:56:44 +0000</pubDate>
 </item>
 <item>
-<title>OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本 / MCP vs CLI vs Skills: What Each Costs in Context</title>
-<link>https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills</link>
-<guid isPermaLink="true">https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills</guid>
-<description>Every tool you give an agent sends its definition to the model on every request, and you pay for it as input tokens. A Model Context Protocol (MCP) server can add tens of thousands of tokens to the context window. The usual alternatives are a command-line tool (CLI) or a skill.（OpenRouter Blog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<title>AI作弊越来越难查，大学开始重新考虑如何给学生打分</title>
+<link>https://www.aibase.com/news/32266</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32266</guid>
+<description>AIbase</description>
+<category>行业动态</category>
+<pubDate>Thu, 12 Nov 2026 03:13:55 +0000</pubDate>
 </item>
 <item>
 <title>Databricks 加倍投入人工智能产品，在旧金山开设占地 235,000 平方英尺的新总部 / Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters</title>
@@ -152,20 +144,28 @@
 <pubDate>Wed, 11 Nov 2026 18:20:00 +0000</pubDate>
 </item>
 <item>
-<title>阿里云DevOps AI助手更新：DevOps协作各个阶段的AI / Alibaba Cloud DevOps AI Assistant Update: AI at Every Stage of DevOps Collaboration</title>
-<link>https://www.alibabacloud.com/blog/alibaba-cloud-devops-ai-assistant-update-ai-at-every-stage-of-devops-collaboration_603760</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/alibaba-cloud-devops-ai-assistant-update-ai-at-every-stage-of-devops-collaboration_603760</guid>
-<description>Alibaba Cloud DevOps AI Assistant Update: AI at Every Stage of DevOps Collaboration This article introduces the updated Alibaba Cloud DevOps AI Assistant, which provides automated, context-aware support across the entire software development lifecycle. Alibaba Cloud Native Community November 11, 2026 408（Alibaba Cloud Blog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<title>安全公司 Claroc：94.7% 的 Grok 构建应用可被任意访问，含患者数据和 SpaceXSI 内部文件 / Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline</title>
+<link>https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline</link>
+<guid isPermaLink="true">https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline</guid>
+<description>安全公司 Claroc 报告称，在检查的 37,571 个仍在线的 Grok 构建应用中，35,578 个（94.7%）无需登录即可访问，原因是发布对话框默认预选"Anyone with the link"，且每个应用的独立子域名会进入可检索的 passive DNS 数据库。（The Decoder：AI News（RSS））</description>
+<category>行业动态</category>
+<pubDate>Wed, 11 Nov 2026 12:53:07 +0000</pubDate>
 </item>
 <item>
-<title>Anthropic IPO 拟募资最高 90.4B 美元，或成史上最大上市 / Bloomberg: Anthropic’s IPO has drawn orders for several times the shares available, mostly from anchor-size indications of interest (i.e....</title>
-<link>https://x.com/rohanpaul_ai/status/2120526677247939001</link>
-<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120526677247939001</guid>
-<description>Bloomberg 报道 Anthropic IPO 已获数倍于发行份额的订单，主要来自大型机构投资者的锚定级意向。公司通过 IPO 加私募配售寻求最高 $90.4B，将超过 SpaceX 的 $85.7B 纪录成为史上最大上市，完全稀释估值目标约 $1.4T；Goldman Sachs 和 Morgan Stanley 牵头共 22 家银行，股票将以 ANT 在纳斯达克全球精选市场交易。（X：Rohan Paul (@rohanpaul_ai)）</description>
+<title>Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可 / Praxis-1 Is Now Available</title>
+<link>https://runwayml.com/news/company-news/praxis-1-is-now-available</link>
+<guid isPermaLink="true">https://runwayml.com/news/company-news/praxis-1-is-now-available</guid>
+<description>Runway 宣布世界动作模型 Praxis-1 以 Apache 2.0 开放权重面向所有人开放。该模型为 27B 参数 MoE 扩散 Transformer，同时预测视频与动作，在 NVIDIA RoboLab-120 榜单以 46.2% 成功率居首，超过 FLUX 3 Action（42.9%）、Cosmos3 Nano（36.8%）和 π0.5（28.0%）。（Runway：News（网页））</description>
 <category>行业动态</category>
-<pubDate>Wed, 11 Nov 2026 14:38:51 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 23:25:00 +0000</pubDate>
+</item>
+<item>
+<title>体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu</title>
+<link>https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu</link>
+<guid isPermaLink="true">https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu</guid>
+<description>A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand（Google AI Blog）</description>
+<category>官方更新</category>
+<pubDate>Wed, 11 Nov 2026 09:00:00 +0000</pubDate>
 </item>
 </channel>
 </rss>
