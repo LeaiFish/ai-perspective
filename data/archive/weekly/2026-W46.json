@@ -4,52 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-12T13:52:26.348476Z",
+  "generated_at": "2026-11-12T17:38:59.637087Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
   ],
-  "story_count": 837,
-  "unique_story_count": 836,
+  "story_count": 1089,
+  "unique_story_count": 904,
   "counts": {
     "by_company_topic": {
-      "anthropic": 177,
-      "apple": 5,
+      "anthropic": 204,
+      "apple": 6,
       "cursor": 6,
-      "deepseek": 10,
-      "doubao": 16,
-      "google-gemini": 81,
-      "huggingface": 6,
+      "deepseek": 16,
+      "doubao": 22,
+      "google-gemini": 114,
+      "huggingface": 8,
       "hunyuan": 2,
-      "kimi": 4,
+      "kimi": 5,
       "meta-llama": 2,
-      "microsoft": 6,
-      "minimax": 9,
-      "nvidia": 47,
-      "openai": 83,
-      "openrouter": 15,
-      "perplexity": 1,
-      "qwen": 7,
-      "xai": 12,
+      "microsoft": 8,
+      "minimax": 10,
+      "nvidia": 71,
+      "openai": 102,
+      "openrouter": 20,
+      "perplexity": 2,
+      "qwen": 9,
+      "xai": 21,
       "zhipu": 1
     },
     "by_lens_topic": {
-      "agent-ecosystem": 179,
-      "monetization": 36,
-      "product-entry": 17,
-      "workplace": 29
+      "agent-ecosystem": 223,
+      "monetization": 42,
+      "product-entry": 25,
+      "workplace": 39
     },
     "by_importance_label": {
-      "值得关注": 604,
-      "多源热议": 9,
-      "官方更新": 80,
-      "行业动态": 144
+      "值得关注": 781,
+      "多源热议": 11,
+      "官方更新": 115,
+      "行业动态": 182
     },
     "by_source_count_bucket": {
-      "1": 804,
-      "2": 23,
-      "3+": 10
+      "1": 1044,
+      "2": 33,
+      "3+": 12
     }
   },
   "top_stories": [
@@ -93,6 +94,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_e7570e2bfc0c",
+      "title": "在任何网站上从 Gemini 获取快速解答。 / Get quick answers from Gemini on any website.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome",
+      "importance_score": 0.8503,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_8d6545f9d797",
       "title": "Holiday Extras 正在重新思考可以使用 Codex 构建什么 / Holiday Extras is rethinking what it can build with Codex",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -121,6 +135,28 @@
       ]
     },
     {
+      "story_id": "story_df30bd1f7ed7",
+      "title": "Best AI Cartoon Generators: Turn Photos and Prompts Into Cartoons, Then Animate Them",
+      "url": "https://lumalabs.ai/news/ai-cartoon-generators",
+      "importance_score": 0.8454,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_3044d8d4228d",
+      "title": "H6.ai 如何使用 Lakebase Postgres 构建人工智能驱动的财务自动化 / How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+      "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+      "importance_score": 0.8422,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3f407db2138d",
       "title": "Tether AI Research 发布 BotPsy 0.8B 端侧智能体模型 / BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "url": "https://huggingface.co/blog/qvac/botpsy",
@@ -137,6 +173,50 @@
       ]
     },
     {
+      "story_id": "story_565e9cd7d19b",
+      "title": "适用于 iPhone 和 Android 的最佳 AI 视频生成应用程序 / Best AI Video Generator Apps for iPhone and Android",
+      "url": "https://lumalabs.ai/news/ai-video-generator-apps-iphone-android",
+      "importance_score": 0.8401,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_76c1ee476113",
+      "title": "适合音乐家的最佳 AI 专辑封面和封面艺术生成器 / Best AI Album Cover and Cover Art Generators for Musicians",
+      "url": "https://lumalabs.ai/news/ai-album-cover-art-generators-musicians",
+      "importance_score": 0.8395,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_887be38a6b19",
+      "title": "最佳视频转动漫 AI 工具：将真实素材转换为动漫 / Best Video to Anime AI Tools: Convert Real Footage to Anime",
+      "url": "https://lumalabs.ai/news/video-to-anime-ai-tools",
+      "importance_score": 0.839,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_de0aad45c1b7",
+      "title": "最佳人工智能视频转视频工具：重新设计、重新照明和重新拍摄现有素材 / Best AI Video-to-Video Tools: Restyle, Relight and Re-Shoot Existing Footage",
+      "url": "https://lumalabs.ai/news/ai-video-to-video-tools",
+      "importance_score": 0.8383,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_637f863ae4eb",
       "title": "OpenRouter 实测教程：三种方法修复 OpenAI 与 Claude 的 429 限流错误 / LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors",
       "url": "https://openrouter.ai/blog/tutorials/llm-api-rate-limits",
@@ -148,6 +228,84 @@
         "openai",
         "anthropic",
         "openrouter"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_65bc2bb386a2",
+      "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+      "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+      "importance_score": 0.8372,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_6263aaa97a30",
+      "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
+      "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+      "importance_score": 0.8372,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_46691652f7f0",
+      "title": "Best AI Poster Generators for Events, Films and Brands",
+      "url": "https://lumalabs.ai/news/ai-poster-generators-events",
+      "importance_score": 0.8366,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ea75b863f0d1",
+      "title": "The Claude Tag guide for startups",
+      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+      "importance_score": 0.8365,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_06cce6ee3937",
+      "title": "Operate Claude Managed Agents inside your security perimeter",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "importance_score": 0.8365,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_6dc2e95142de",
+      "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO / NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "importance_score": 0.8359,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -425,168 +583,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9b5da9dabd04",
-      "title": "阿里云AI网关智能路由现已上线 / Alibaba Cloud AI Gateway Intelligent Routing Is Now Live",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway-intelligent-routing-is-now-live_603770",
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_296ce5891f47",
-      "title": "使用阿里云AI网关锁定您的AI代理沙箱 / Alibaba Cloud AI Gateway로 AI 에이전트 샌드박스 잠그기",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway%EB%A1%9C-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4-%EC%9E%A0%EA%B7%B8%EA%B8%B0_603773",
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8ebc43ec328d",
-      "title": "Anthropic 官宣首次公开募股（IPO） / Our initial public offering: https://ipo.anthropic.com",
-      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
-      "importance_score": 0.8156,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_3631798e1948",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "importance_score": 0.8143,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e0914bb81d04",
-      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460 / How We Built a Self-Correcting Localization System for OpenRouter",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-in-8-languages",
-      "importance_score": 0.8113,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai",
-        "openrouter"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_bcb1db7630cf",
-      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题 / How to Stop an AI Agent Stuck in an Infinite Loop",
-      "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop",
-      "importance_score": 0.8113,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openrouter"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_14497aca7fb0",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
-      "importance_score": 0.8112,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e65aff894a21",
-      "title": "Promptim: an experimental library for prompt optimization",
-      "url": "https://www.langchain.com/blog/promptim",
-      "importance_score": 0.8103,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_267ab7060623",
-      "title": "LangSmith BYOC on AWS is generally available",
-      "url": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
-      "importance_score": 0.8103,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_81c2a687b5a2",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "importance_score": 0.8071,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-10",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_fd36a6aa5ec0",
-      "title": "豆包工作接入更多模型，并推出限时特惠计划",
-      "url": "https://mp.weixin.qq.com/s/sJ3FeTQoTXWXobzaflIwWQ",
-      "importance_score": 0.8068,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "doubao"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0faab021d272",
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
-      "importance_score": 0.8056,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_63fbd8609dbd",
-      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
-      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
-      "importance_score": 0.8027,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
       "company_topics": [],
       "lens_topics": []
     }
