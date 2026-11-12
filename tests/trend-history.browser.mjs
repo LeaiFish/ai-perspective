@@ -1,6 +1,11 @@
 import assert from 'node:assert/strict';
 const {chromium}=await import(process.env.RADAR_PLAYWRIGHT_MODULE || '@playwright/test');
 const base=process.env.RADAR_TEST_BASE_URL || 'http://127.0.0.1:8097/';
+async function readJson(path) {
+ const response=await fetch(new URL(path,base));
+ assert.ok(response.ok,`${path}: HTTP ${response.status}`);
+ return response.json();
+}
 const browser=await chromium.launch({headless:true,...(process.env.RADAR_BROWSER_CHANNEL?{channel:process.env.RADAR_BROWSER_CHANNEL}:{})});
 try {
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
@@ -12,18 +17,38 @@ try {
  assert.equal(historyRequests,0);assert.equal(await page.locator('.trend-history-panel').count(),0);
  const entry=page.locator('#judgmentGrid .trend-history-entry');assert.match(await entry.getAttribute('href'),/history\.html/);
  await page.unroute('**/data/trends/history.json*');await entry.click();
+ const index=await readJson('data/trends/history.json');
+ const direction='merchant-operations';
  await page.locator('.trend-direction-select').waitFor();
- await page.locator('.trend-direction-select').selectOption('merchant-operations');
- await page.locator('.trend-comparison-card').first().waitFor();
- const comparison=await page.locator('.trend-comparison').innerText();
- for(const text of ['ChatGPT','Gemini','千问','Muse','测试或邀测','使用案例','判断记录'])assert.ok(comparison.includes(text),text);
- for(const href of await page.locator('.trend-comparison-card > a').evaluateAll(nodes=>nodes.map(a=>a.href)))assert.equal(new URL(href).pathname,new URL(base).pathname,'institution links return to company research, not history.html');
+ await page.locator('.trend-direction-select').selectOption(direction);
+ await page.locator('.trend-comparison-slot[aria-busy="false"]').waitFor();
+ // A new report can legitimately replace the latest signal with a different stage.
+ const expectedSignals=Object.entries(index.latest_signals[direction]);
+ assert.ok(expectedSignals.length>0,'archived comparison signals are available');
+ const cards=page.locator('.trend-comparison-card');
+ assert.equal(await cards.count(),expectedSignals.length);
+ for(const [company,reportId] of expectedSignals) {
+  const snapshot=await readJson(`data/trends/history/${reportId}.json`);
+  const signal=snapshot.companies[company].signals.find(row=>row.direction_id===direction);
+  assert.ok(signal,`${company}: missing archived signal`);
+  const card=cards.filter({has:page.locator(`:scope > a[href$="&id=${company}"]`)});
+  assert.equal(await card.count(),1,`${company}: comparison card`);
+  const href=new URL(await card.locator('a').first().getAttribute('href'));
+  assert.equal(href.pathname,new URL(base).pathname,'institution links return to company research');
+  assert.equal(href.searchParams.get('kind'),'org');
+  assert.equal(href.searchParams.get('space'),'research');
+  assert.equal(await card.locator('.history-company-summary').innerText(),signal.summary);
+  const metadata=await card.locator('.brief-meta').first().innerText();
+  assert.match(metadata,/^判断记录 /);
+  assert.ok(metadata.endsWith(` · ${index.stages[signal.stage]}`),`${company}: ${metadata}`);
+ }
+ assert.equal(await page.getByText('线索暂时无法读取：',{exact:false}).count(),0);
  await page.locator('.trend-overview-history').first().waitFor();
  assert.deepEqual(await page.locator('.history-section > h2').allTextContents(),['趋势总览','各趋势下的机构进展','历期判断变化']);
  assert.equal(await page.locator('.history-theme-card').count(),3);
  assert.equal(await page.locator('.trend-overview-history[open]').count(),0);
  assert.equal(await page.locator('.trend-comparison-card details[open]').count(),0);
- assert.equal(await page.locator('.history-comparison-empty').count(),1);
+ assert.equal(await page.locator('.history-comparison-empty').count(),expectedSignals.length<8?1:0);
  await page.locator('.history-theme-link').nth(2).click();
  assert.equal(await page.locator('.trend-direction-select').inputValue(),'merchant-operations');
  await page.locator('.trend-comparison-card').first().waitFor();
@@ -78,7 +103,6 @@ try {
   }
  }
  // Untrusted history prose remains text on the actual independent interface.
- const index=await fetch(new URL('data/trends/history.json',base)).then(r=>r.json());
  await page.route(`**/data/trends/history/${index.latest_report_id}.json`,async route=>{
   const response=await route.fetch();const x=await response.json();x.companies.openai.reason='<img src=x onerror=alert(1)>';
   x.companies.openai.type='continued';x.companies.openai.provenance='review_correction';
