@@ -1,0 +1,1128 @@
+{
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-12T03:31:38.513899+00:00",
+  "companies": {
+    "doubao": {
+      "state": "insufficient",
+      "reason": "多轮改图、透明素材和周额度已写入现有正文。关于字节拟推出新助手的候选没有可核实的豆包上线公告或入口；保留正文与日期。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "qwen": {
+      "state": "updated",
+      "reason": "新增千问 Go! 的应用内预览入口，并补回 10 月已开始的「我的应用」和云端 Pro 邀测；保留办公 2.0 团队协作、资料复用和触发任务的主线。预览接入没有验证新的工作流程或长期采用。",
+      "judgment": {
+        "headline": "千问办公延续团队交办，千问 Go! 提供模型预览入口",
+        "summary": "千问办公 2.0 让团队与数字员工在同一空间交办任务，可按消息、审批或待办触发；资料空间可把已有文件加入新任务，用户改完成果也可让 AI 继续处理。手机、电脑和云端可接续进度，远控仍需同一账号组织和目标电脑授权。AI Office 保留文件端内返工，国行 Apple 智能集成仍处开发者预览。消费侧千问 Go! 已接入 Qwen4-Max 预览版；「我的应用」和可用云设备代办的云端 Pro 仍是邀测，小应用可分享和持续更新，使用个人资料需要授权。实际任务完成表现尚待核实。",
+        "evidence_ids": [
+          "qwen-go-qwen4-preview-nov11",
+          "qwenwork-200",
+          "qwen-apple-beta",
+          "qwen-office-edit-evidence",
+          "qwen-go-my-apps-oct23"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "团队工作进入共享空间与事件触发",
+          "summary": "数字员工可接续团队资料、讨论及成果；消息、审批和待办可以触发任务，远控受目标电脑和组织权限限制。",
+          "evidence_ids": [
+            "qwenwork-200"
+          ]
+        },
+        {
+          "headline": "已有成果能直接返工和复用",
+          "summary": "资料空间归集产物，用户可以修改后让 AI 接续；AI Office 可在应用里调整 Word、Excel 和演示稿。",
+          "evidence_ids": [
+            "qwenwork-200",
+            "qwen-office-edit-evidence"
+          ]
+        },
+        {
+          "headline": "消费侧试做持续更新的小应用",
+          "summary": "千问 Go! 的「我的应用」和云端 Pro 仍属邀测，适用者可生成并分享长期更新的小应用。千问 App 也在 Go! 提供模型预览；国行 Apple 智能集成仍处开发者预览。",
+          "evidence_ids": [
+            "qwen-go-my-apps-oct23",
+            "qwen-apple-beta",
+            "qwen-go-qwen4-preview-nov11"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "千问官宣 Go! 可体验 Qwen4-Max 预览版",
+        "summary": "预览版进入千问 App 的 Go! 入口；该公告没有改变千问办公现有的团队和任务权限。",
+        "evidence_ids": [
+          "qwen-go-qwen4-preview-nov11"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "qwen-go-qwen4-max-preview-nov11",
+          "status": "new",
+          "headline": "千问官宣 Go! 可体验 Qwen4-Max 预览版",
+          "summary": "预览版进入千问 App 的 Go! 入口；该公告没有改变千问办公现有的团队和任务权限。",
+          "evidence_ids": [
+            "qwen-go-qwen4-preview-nov11"
+          ]
+        },
+        {
+          "event_id": "qwen-go-my-apps-invite-preview-oct23",
+          "status": "supplement",
+          "headline": "补录千问 Go! 可分享小应用的邀测",
+          "summary": "「我的应用」可生成可分享、可持续更新的小应用；云端 Pro 和该入口仍在邀测，个人数据访问需授权。",
+          "evidence_ids": [
+            "qwen-go-my-apps-oct23"
+          ]
+        }
+      ]
+    },
+    "hunyuan": {
+      "state": "updated",
+      "reason": "在录音纪要与历史资料整理之外补上元宝搜索的独立网页和浏览器入口。发布日已确认，具体上线时间不明，保守列补证；没有把网页版上线归为 App 功能改版。",
+      "judgment": {
+        "headline": "元宝整理已有资料，腾讯另开网页搜索入口",
+        "summary": "元宝 App 可在录音后生成结构化图文纪要，历史搜索能找文件、链接和聊天记录；2.92.0 也接入支持视觉理解的 Hy4。独立的元宝搜索通过网页与新版 QQ 浏览器面向公众，检索范围含网页、公众号、视频号和学术内容，并支持根据总结继续追问。这两个入口服务不同任务；尚未验证跨入口资料同步或长程任务完成率。",
+        "evidence_ids": [
+          "yuanbao-search-nov11-tencent-reprint",
+          "yuanbao-search-nov11-jiemian",
+          "yuanbao-29200-store"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "录音和对话资料可以再次查找和整理",
+          "summary": "结构化纪要保留图文，历史搜索扩至文件、链接和聊天记录；版本同时接入 Hy4。",
+          "evidence_ids": [
+            "yuanbao-29200-store"
+          ]
+        },
+        {
+          "headline": "腾讯生态内容进入公开网页搜索",
+          "summary": "元宝搜索作为独立站点及 QQ 浏览器可选引擎，将腾讯生态内容和网页搜索结果纳入同一查询入口。",
+          "evidence_ids": [
+            "yuanbao-search-nov11-tencent-reprint",
+            "yuanbao-search-nov11-jiemian"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "元宝搜索开放独立网页与 QQ 浏览器入口",
+        "summary": "公开入口可查询网页、公众号、视频号和学术内容，并在搜索总结上继续追问。此次发布是网页搜索产品开放。",
+        "evidence_ids": [
+          "yuanbao-search-nov11-tencent-reprint",
+          "yuanbao-search-nov11-jiemian"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "yuanbao-search-public-web-nov11",
+          "status": "supplement",
+          "headline": "元宝搜索开放独立网页与 QQ 浏览器入口",
+          "summary": "公开入口可查询网页、公众号、视频号和学术内容，并在搜索总结上继续追问。此次发布是网页搜索产品开放。",
+          "evidence_ids": [
+            "yuanbao-search-nov11-tencent-reprint",
+            "yuanbao-search-nov11-jiemian"
+          ]
+        }
+      ]
+    },
+    "openai": {
+      "state": "updated",
+      "reason": "补入 Mac 财务入口和语音入口的过渡条件；持续任务、商家认领及企业采购路径继续保留。桌面入口依据媒体原文核对，未推断跨地区开放。",
+      "judgment": {
+        "headline": "ChatGPT 延续任务跟进和商家问答，语音入口计划收敛",
+        "summary": "Dots 继续跟进委托，美国 Pro 短信入口仍处测试；参考图和 GIF 延续图像创作路径。Business Hub 支持核验后的商家更新资料，符合资格的美国电商及在线服务商家可发布问答助手；消费者可另开会话咨询。企业仍可从 AWS 采购。Mac 版增加 Finances 入口，美国符合条件的用户可在桌面查看已连接的财务资料。普通语音计划于 12 月 11 日停用旧的两种模式，转向 GPT-Live；视频和共享屏幕暂保留原语音支持。",
+        "evidence_ids": [
+          "chatgpt-voice-retirement-nov10",
+          "chatgpt-businesses-beta-nov10",
+          "chatgpt-enterprise-aws-nov09",
+          "chatgpt-finances-mac-nov11"
+        ]
+      },
+      "changes": null,
+      "digest": {
+        "headline": "ChatGPT Finances 扩至 Mac 应用",
+        "summary": "更新后可从 Mac 客户端侧栏进入；媒体所引官方公告限定美国 Free、Go、Plus 和 Pro 用户。没有证据表明能代付或交易。",
+        "evidence_ids": [
+          "chatgpt-finances-mac-nov11"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "chatgpt-finances-mac-entry-nov11",
+          "status": "supplement",
+          "headline": "ChatGPT Finances 扩至 Mac 应用",
+          "summary": "更新后可从 Mac 客户端侧栏进入；媒体所引官方公告限定美国 Free、Go、Plus 和 Pro 用户。没有证据表明能代付或交易。",
+          "evidence_ids": [
+            "chatgpt-finances-mac-nov11"
+          ]
+        },
+        {
+          "event_id": "chatgpt-old-voice-retirement-announced-nov10",
+          "status": "supplement",
+          "headline": "ChatGPT 公告旧语音模式的停用计划",
+          "summary": "Advanced 和 Standard 语音拟于 12 月 11 日停用；在 GPT-Live 支持前，视频和屏幕共享仍由 Advanced 语音处理。",
+          "evidence_ids": [
+            "chatgpt-voice-retirement-nov10"
+          ]
+        }
+      ]
+    },
+    "anthropic": {
+      "state": "updated",
+      "reason": "正文补入企业默认启用安排和条件，明确表格、白板仍为测试版。已有组织配置仍有效，未把预告写成实际部署扩大。",
+      "judgment": {
+        "headline": "Claude 延续共编和互动连接器，企业统一入口明确启用安排",
+        "summary": "团队可在 Claude 共编测试版白板和表格，用 Data 制作可分享的看板；互动连接器让用户在对话旁操作外部应用，再交给 Claude 处理。已有 Enterprise 组织若满足聊天与云端执行等条件，且管理员未主动设置，聊天与 Cowork 计划在 11 月 16 日默认合并；Data 模板另有 11 月 19 日的默认启用安排。组织与角色权限仍适用，官方说明仍将会议助手列为即将推出，实际开放范围待核实。",
+        "evidence_ids": [
+          "claude-unified-enterprise-rollout-guide",
+          "claude-artifacts-plans-guide",
+          "claude-interactive-connectors-nov10"
+        ]
+      },
+      "changes": null,
+      "digest": {
+        "headline": "Claude 补齐企业统一入口的默认启用条件",
+        "summary": "满足条件且未明确选择的现有 Enterprise 组织，计划于 11 月 16 日默认启用聊天与 Cowork 的统一体验；管理员可保持关闭。",
+        "evidence_ids": [
+          "claude-unified-enterprise-rollout-guide"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "claude-unified-enterprise-default-rollout-conditions",
+          "status": "supplement",
+          "headline": "Claude 补齐企业统一入口的默认启用条件",
+          "summary": "满足条件且未明确选择的现有 Enterprise 组织，计划于 11 月 16 日默认启用聊天与 Cowork 的统一体验；管理员可保持关闭。",
+          "evidence_ids": [
+            "claude-unified-enterprise-rollout-guide"
+          ]
+        }
+      ]
+    },
+    "xai": {
+      "state": "updated",
+      "reason": "在 Slack、Pages 与消费跟进之外补入会议聊天、会后总结和团队管理条件。1.0 已宣布会议方向，1.0.1 的版本细节作为补证；不推断会议普及率。",
+      "judgment": {
+        "headline": "Grok 从共享 Slack 延伸到参会，保留购物与通话跟进",
+        "summary": "Team Bot 继续在共享 Slack 接受任务，团队可在 Pages 整理成果。Team、Enterprise 和 Ultra 计划支持 Bot 通过链接加入 Google Meet、Zoom 或 Teams，在会议聊天答复并会后发总结；团队接入 Teams 还需组织启用和管理员批准。消费侧保留补货逐单确认、购物跟踪和外呼转写回执；实际预约范围与完成率仍待核实。",
+        "evidence_ids": [
+          "grok-bot-101-nov11",
+          "grok-bot-10-nov02",
+          "grok-bot-shared-slack-nov06",
+          "grok-bot-nov04-order-approval"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "团队可从 Slack 交办并在会议中接续",
+          "summary": "共享 Slack 可按成员分开对话，适用套餐下可从会议链接请 Bot 参会并收取总结，Teams 接入受管理员审批。",
+          "evidence_ids": [
+            "grok-bot-shared-slack-nov06",
+            "grok-bot-101-nov11"
+          ]
+        },
+        {
+          "headline": "消费任务包含审批和后续跟踪",
+          "summary": "补货按单确认，关联商店订单可跟踪至送达；通话提供转写和未接回执。",
+          "evidence_ids": [
+            "grok-bot-shared-slack-nov06",
+            "grok-bot-nov04-order-approval"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Grok Bot 日志补齐参会流程与团队审批",
+        "summary": "1.0.1 列出支持的会议平台与套餐，Bot 可参与文字聊天并会后发摘要；Team Bot 接入 Teams 要经过管理员批准。",
+        "evidence_ids": [
+          "grok-bot-101-nov11",
+          "grok-bot-10-nov02"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "grok-bot-1-0-meeting-workflow",
+          "status": "supplement",
+          "headline": "Grok Bot 日志补齐参会流程与团队审批",
+          "summary": "1.0.1 列出支持的会议平台与套餐，Bot 可参与文字聊天并会后发摘要；Team Bot 接入 Teams 要经过管理员批准。",
+          "evidence_ids": [
+            "grok-bot-101-nov11",
+            "grok-bot-10-nov02"
+          ]
+        }
+      ]
+    },
+    "google-gemini": {
+      "state": "updated",
+      "reason": "补入 CarPlay 的独立语音入口、Gemini App 的 Ultra 模型入口，以及 Antigravity 的多代理预览和办公布局；继续保留文件编辑与设备代办边界。",
+      "judgment": {
+        "headline": "Gemini 把免提对话带进 CarPlay，Antigravity 增加多代理预览",
+        "summary": "Gemini App 仍可预览和修改生成文件；PDF 支持网页及移动端，其他格式以网页为主。15 秒视频和 Carbon 各自向 Ultra 分批开放。设备代办扩向部分 Pixel 10 及英国、印度、日本等市场，实际功能取决于机型与合作应用；自定义小组件仍待分批推出。CarPlay 通过更新后的 iPhone Gemini App 和麦克风权限提供免提对话，车内会话可回到手机继续。独立的 Antigravity 新增知识工作布局，多代理任务编排仍在其应用和命令行预览。",
+        "evidence_ids": [
+          "gemini-carbon-app-ultra-nov10",
+          "antigravity-carbon-swarm-nov10",
+          "antigravity-knowledge-work-nov09",
+          "gemini-intelligence-nov10-device-expansion",
+          "gemini-inline",
+          "gemini-video-15-evidence",
+          "gemini-carplay-live-nov11"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "对话内编辑文件，付费入口分批增加",
+          "summary": "Gemini 支持直接编辑生成文件；视频延长和 Carbon 分批面向 Ultra。",
+          "evidence_ids": [
+            "gemini-inline",
+            "gemini-video-15-evidence",
+            "gemini-carbon-app-ultra-nov10"
+          ]
+        },
+        {
+          "headline": "设备代办扩大覆盖，免提对话进入 CarPlay",
+          "summary": "部分 Pixel 10 支持 Gemini Intelligence，跨应用代办仍受地区和合作应用限制；CarPlay 新增的是语音对话入口，可回到 iPhone 继续。",
+          "evidence_ids": [
+            "gemini-intelligence-nov10-device-expansion",
+            "gemini-carplay-live-nov11"
+          ]
+        },
+        {
+          "headline": "Antigravity 同时改造工作界面与任务组织方式",
+          "summary": "知识工作布局继续使用同一代理；多代理编排在 Antigravity 应用和命令行预览。",
+          "evidence_ids": [
+            "antigravity-knowledge-work-nov09",
+            "antigravity-carbon-swarm-nov10"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Gemini Live 进入 Apple CarPlay",
+        "summary": "更新 iPhone 的 Gemini App 并授予麦克风权限后，可从车机开启或继续免提对话；聊天同步回手机。",
+        "evidence_ids": [
+          "gemini-carplay-live-nov11"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "gemini-live-apple-carplay-nov11",
+          "status": "new",
+          "headline": "Gemini Live 进入 Apple CarPlay",
+          "summary": "更新 iPhone 的 Gemini App 并授予麦克风权限后，可从车机开启或继续免提对话；聊天同步回手机。",
+          "evidence_ids": [
+            "gemini-carplay-live-nov11"
+          ]
+        },
+        {
+          "event_id": "gemini-carbon-ultra-app-rollout-nov10",
+          "status": "supplement",
+          "headline": "Carbon 向 Gemini App 的 Ultra 用户分批开放",
+          "summary": "本期只记录应用可用条件；没有把模型评测或先前有限准入算作本期应用变化。",
+          "evidence_ids": [
+            "gemini-carbon-app-ultra-nov10"
+          ]
+        },
+        {
+          "event_id": "antigravity-swarm-preview-nov10",
+          "status": "supplement",
+          "headline": "Antigravity 预览多代理任务编排",
+          "summary": "在其应用及命令行预览，可从同一任务组织多个代理并查看进度。该入口独立于 Gemini App。",
+          "evidence_ids": [
+            "antigravity-carbon-swarm-nov10"
+          ]
+        },
+        {
+          "event_id": "antigravity-knowledge-work-layout-nov09",
+          "status": "supplement",
+          "headline": "Antigravity 增加知识工作布局",
+          "summary": "可切换到更侧重对话、文件与成果的布局，使用同一代理，未宣称新增执行权限。",
+          "evidence_ids": [
+            "antigravity-knowledge-work-nov09"
+          ]
+        }
+      ]
+    },
+    "meta-llama": {
+      "state": "updated",
+      "reason": "吸收 Apple Watch 配套入口和墨西哥西语落地，保留可维护空间、美国语音分批和生活任务方向。手表新增入口不等同于端侧独立执行；Wear OS 细节仍待核验。",
+      "judgment": {
+        "headline": "Muse 把生活任务接到手表入口，扩展墨西哥本地服务",
+        "summary": "Muse 的 Spaces 仍可保存和修改计划、订单或客户资料，连接应用后可后台更新，空间共享仍在探索。美国先行分批提供实时语音与动态形象；Apple Watch 配套应用增加腕上对话入口，Wear OS 覆盖条件尚未独立确认。墨西哥已可从 App、网页及 WhatsApp 使用西语 Muse，并接入当地零售、出行和娱乐服务；不把地区上线写成持续使用。",
+        "evidence_ids": [
+          "muse-spaces-nov06",
+          "muse-voice-evidence",
+          "muse-watch-appstore",
+          "muse-watch-techcrunch-nov10",
+          "muse-mexico-nov05"
+        ]
+      },
+      "changes": null,
+      "digest": {
+        "headline": "Muse 增加 Apple Watch 配套应用",
+        "summary": "App Store 版本说明确认 Apple Watch 入口；媒体引述官方称同时支持 Wear OS，具体机型和地区尚待核实。",
+        "evidence_ids": [
+          "muse-watch-appstore",
+          "muse-watch-techcrunch-nov10"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "muse-smartwatch-entry-nov09",
+          "status": "supplement",
+          "headline": "Muse 增加 Apple Watch 配套应用",
+          "summary": "App Store 版本说明确认 Apple Watch 入口；媒体引述官方称同时支持 Wear OS，具体机型和地区尚待核实。",
+          "evidence_ids": [
+            "muse-watch-appstore",
+            "muse-watch-techcrunch-nov10"
+          ]
+        },
+        {
+          "event_id": "muse-mexico-launch-nov05",
+          "status": "supplement",
+          "headline": "补录 Muse 在墨西哥开放西语服务",
+          "summary": "墨西哥用户可从 App、网页及 WhatsApp 使用 Muse，并连接当地购物、出行和娱乐服务。",
+          "evidence_ids": [
+            "muse-mexico-nov05"
+          ]
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "doubao-seedream-app-nov09",
+      "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5?view_from=content_recommend",
+      "title": "Seedream 5.5 的应用入口",
+      "source": "字节跳动 Seed",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "产品说明列出豆包图像生成与豆包工作技能入口，仍在陆续上线。"
+    },
+    {
+      "id": "doubao-weekly-allowance-nov06",
+      "url": "https://www.ithome.com/1/023/414.htm",
+      "title": "豆包工作个人版取消短周期限制",
+      "source": "IT之家",
+      "published_at": "2026-11-06T16:57:38+08:00",
+      "event_at": "2026-11-06",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "正文确认周额度及套餐规则保留。"
+    },
+    {
+      "id": "qwen-go-qwen4-preview-nov11",
+      "url": "https://sina.cn/news/detail/5364043280026413.html",
+      "title": "千问官微：千问 Go! 接入 Qwen4-Max 预览版",
+      "source": "千问官方微博",
+      "published_at": "2026-11-11T12:24:00+08:00",
+      "event_at": "2026-11-11T12:24:00+08:00",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "时间指官微公开确认时点，实际接入小时未披露；原帖没有宣布正式版或新的任务执行范围。"
+    },
+    {
+      "id": "qwenwork-200",
+      "url": "https://docs.qwenwork.cn/release-notes/desktop#2026-11-09",
+      "title": "千问办公 2.0.0 桌面版更新",
+      "source": "千问办公",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "确认团队协作、事件触发、远程控制及资料空间；这是与千问 Go! 不同的入口。"
+    },
+    {
+      "id": "qwen-apple-beta",
+      "url": "https://www.ithome.com/1/021/861.htm",
+      "title": "国行 Apple 智能开发者预览",
+      "source": "IT之家",
+      "published_at": "2026-11-04T03:08:12+08:00",
+      "event_at": "2026-11-04",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "千问接入部分系统体验；开发者预览不等于一般用户可用。"
+    },
+    {
+      "id": "qwen-office-edit-evidence",
+      "url": "https://www.aibase.com/news/32115",
+      "title": "千问 AI Office 端内编辑与自定义模板",
+      "source": "AIbase",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文确认 Word、Excel、PPT 端内编辑和模板能力，功能逐步开放。"
+    },
+    {
+      "id": "qwen-go-my-apps-oct23",
+      "url": "https://www.ithome.com/1/016/852.htm",
+      "title": "千问 Go! 的「我的应用」与云端 Pro 邀测",
+      "source": "IT之家",
+      "published_at": "2026-10-23T10:53:08+08:00",
+      "event_at": "2026-10-23",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "补核 10 月旧进展。小应用可分享和持续更新；个人数据调用需要授权。"
+    },
+    {
+      "id": "yuanbao-search-nov11-tencent-reprint",
+      "url": "https://cloud.tencent.com/developer/article/2781917",
+      "title": "元宝搜索正式上线",
+      "source": "腾讯云开发者社区",
+      "published_at": "2026-11-11T22:01:10+08:00",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "页面注明转载。可交叉核对网页版和 QQ 浏览器入口，不以转载时点替代上线时间。"
+    },
+    {
+      "id": "yuanbao-search-nov11-jiemian",
+      "url": "https://www.jiemian.com/article/15321028.html",
+      "title": "腾讯全新搜索产品元宝搜索正式上线",
+      "source": "界面新闻",
+      "published_at": "2026-11-11",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文确认公开入口和覆盖范围；上线时间仅记日期。"
+    },
+    {
+      "id": "yuanbao-29200-store",
+      "url": "https://apps.apple.com/cn/app/id6480446430",
+      "title": "元宝 iOS 版本记录",
+      "source": "腾讯科技／App Store",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "版本说明确认历史搜索范围与 Hy4；未用相对日期换算小时。"
+    },
+    {
+      "id": "chatgpt-voice-retirement-nov10",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT 更新日志：旧语音模式调整",
+      "source": "OpenAI",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "日志确认宣布日期；12 月 11 日为计划停用日，视频和屏幕共享仍有过渡安排。"
+    },
+    {
+      "id": "chatgpt-businesses-beta-nov10",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "title": "ChatGPT 商家入口与问答助手",
+      "source": "OpenAI",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "商家认领、身份核验及美国符合条件的商家问答入口。"
+    },
+    {
+      "id": "chatgpt-enterprise-aws-nov09",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise 进入 AWS Marketplace",
+      "source": "OpenAI",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "已开放采购；没有另行扩展产品功能。"
+    },
+    {
+      "id": "chatgpt-finances-mac-nov11",
+      "url": "https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/",
+      "title": "ChatGPT Finances 扩至 Mac 应用",
+      "source": "9to5Mac",
+      "published_at": "2026-11-11T11:58:00-08:00",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文引用官方账号并列出更新入口；原社交帖受限，未将报道时点当作功能开放时点。"
+    },
+    {
+      "id": "claude-unified-enterprise-rollout-guide",
+      "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+      "title": "统一 Claude 的企业部署说明",
+      "source": "Anthropic",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "帮助页仅给出计划生效日，没有可核实的首次发布时间；组织设置和角色仍可限制访问。"
+    },
+    {
+      "id": "claude-artifacts-plans-guide",
+      "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "title": "Claude 成果类型、权限和部署条件",
+      "source": "Anthropic",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "帮助页确认 Sheets 和 Whiteboards 为测试版，Data 企业默认安排另有日期；未把相对更新时间当作发表日。"
+    },
+    {
+      "id": "claude-interactive-connectors-nov10",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "title": "Claude 白板、表格与互动连接器",
+      "source": "Anthropic",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "互动应用位于对话旁，可人工操作后让 Claude 接续。"
+    },
+    {
+      "id": "grok-bot-101-nov11",
+      "url": "https://x.ai/changelog/bot#v1.0.1",
+      "title": "Grok Bot 1.0.1 版本日志",
+      "source": "SpaceXSI",
+      "published_at": "2026-11-11",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "仅有版本日期。会议与 Teams 入口已有 1.0 早期官宣，此次补核具体套餐、审批及参会动作。"
+    },
+    {
+      "id": "grok-bot-10-nov02",
+      "url": "https://x.ai/news/grok-bot-1-0",
+      "title": "Grok Bot 1.0 官方发布说明",
+      "source": "SpaceXSI",
+      "published_at": "2026-11-02",
+      "event_at": "2026-11-02",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "此前已宣布团队成员可从 Slack、Teams 和视频会议与 Bot 协作。"
+    },
+    {
+      "id": "grok-bot-shared-slack-nov06",
+      "url": "https://x.ai/changelog/bot#v0.79.3",
+      "title": "Grok Bot 0.79.3 版本日志",
+      "source": "SpaceXSI",
+      "published_at": "2026-11-06",
+      "event_at": "2026-11-06",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "共享 Slack 工作区成员可单独对话；同版说明关联店铺订单跟踪。"
+    },
+    {
+      "id": "grok-bot-nov04-order-approval",
+      "url": "https://x.ai/changelog/bot",
+      "title": "Grok Bot 版本日志：补货和通话",
+      "source": "SpaceXSI",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "滚动日志重核定时补货逐单确认、通话转写与未接回执，不作为新事件。"
+    },
+    {
+      "id": "gemini-carbon-app-ultra-nov10",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "title": "Gemini 4 Carbon 扩展可用范围",
+      "source": "Google",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "取应用端 Ultra 分批开放事实，不据榜单推断用户成效。"
+    },
+    {
+      "id": "antigravity-carbon-swarm-nov10",
+      "url": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
+      "title": "Antigravity 中的 Carbon 与多代理预览",
+      "source": "Google Antigravity",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "多代理预览范围为 Antigravity 应用和命令行，不是 Gemini App 普遍能力。"
+    },
+    {
+      "id": "antigravity-knowledge-work-nov09",
+      "url": "https://antigravity.google/blog/antigravity-for-knowledge-work/",
+      "title": "Antigravity 增加知识工作布局",
+      "source": "Google Antigravity",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "同一代理支持不同布局；官方没有将布局改变描述为新的执行权限。"
+    },
+    {
+      "id": "gemini-intelligence-nov10-device-expansion",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "title": "Gemini Intelligence 增加设备与地区",
+      "source": "Google",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "设备、地区和功能边界分开，旧日已纳入。"
+    },
+    {
+      "id": "gemini-inline",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "title": "Gemini 内预览与编辑文件",
+      "source": "Google",
+      "published_at": "2026-10-29",
+      "event_at": "2026-10-29",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "支持范围随文件类型与客户端变化。"
+    },
+    {
+      "id": "gemini-video-15-evidence",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": "Gemini 视频生成增加 15 秒选项",
+      "source": "Google",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "应用内 15 秒视频面向 Ultra 分批开放。"
+    },
+    {
+      "id": "gemini-carplay-live-nov11",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+      "title": "Gemini Live 进入 Apple CarPlay",
+      "source": "Google",
+      "published_at": "2026-11-11T17:00:00Z",
+      "event_at": "2026-11-11T17:00:00Z",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "原文结构化发布时间；事件是公告并开始提供入口，不是所有设备完成推送的时间。"
+    },
+    {
+      "id": "muse-spaces-nov06",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "title": "Muse Spaces 自定义应用空间",
+      "source": "Meta",
+      "published_at": "2026-11-06",
+      "event_at": "2026-11-06",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "原文确认可持续修改和后台更新；空间共享仍在探索。"
+    },
+    {
+      "id": "muse-voice-evidence",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+      "title": "Muse 实时语音与动态形象",
+      "source": "Meta",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国先行分批；眼镜和挂件在原文仍属计划。"
+    },
+    {
+      "id": "muse-watch-appstore",
+      "url": "https://apps.apple.com/us/app/muse-from-meta/id6760173601",
+      "title": "Muse 15.0 增加 Apple Watch 配套应用",
+      "source": "Meta Platforms／App Store",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "15.0 和 15.1 同列手表功能，不把版本重述算两次。watchOS 9 或更高。"
+    },
+    {
+      "id": "muse-watch-techcrunch-nov10",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "title": "Muse 的 Apple Watch 和 Wear OS 入口",
+      "source": "TechCrunch",
+      "published_at": "2026-11-10T07:29:00-08:00",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体引用官方账号；未独立核实 Wear OS 的覆盖机型和地区。"
+    },
+    {
+      "id": "muse-mexico-nov05",
+      "url": "https://about.fb.com/ltam/news/2026/09/presentamos-muse-el-primer-agente-de-ia-personal-del-mundo-creado-para-todos/",
+      "title": "Meta 西语公告 11 月 5 日附记：Muse 在墨西哥上线",
+      "source": "Meta",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-12T03:31:38.512413+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "日期对应同页明确标出的地区发布附记，而非 9 月首发；原文说明当地渠道和连接服务。"
+    }
+  ],
+  "overview": null,
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "insufficient",
+        "reason": "多轮改图、透明素材和周额度已写入现有正文。关于字节拟推出新助手的候选没有可核实的豆包上线公告或入口；保留正文与日期。",
+        "evidence_ids": [],
+        "signals": [],
+        "content_review": {
+          "decision": "insufficient",
+          "reason": "多轮改图、透明素材和周额度已写入现有正文。关于字节拟推出新助手的候选没有可核实的豆包上线公告或入口；保留正文与日期。",
+          "event_ids": []
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "新增千问 Go! 的应用内预览入口，并补回 10 月已开始的「我的应用」和云端 Pro 邀测；保留办公 2.0 团队协作、资料复用和触发任务的主线。预览接入没有验证新的工作流程或长期采用。",
+        "evidence_ids": [
+          "qwen-go-qwen4-preview-nov11",
+          "qwenwork-200",
+          "qwen-apple-beta",
+          "qwen-office-edit-evidence",
+          "qwen-go-my-apps-oct23"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "stage": "available",
+            "summary": "千问办公 2.0 支持团队交办与按消息、审批或待办触发。",
+            "evidence_ids": [
+              "qwenwork-200"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "新增千问 Go! 的应用内预览入口，并补回 10 月已开始的「我的应用」和云端 Pro 邀测；保留办公 2.0 团队协作、资料复用和触发任务的主线。预览接入没有验证新的工作流程或长期采用。",
+          "event_ids": [
+            "qwen-go-qwen4-max-preview-nov11",
+            "qwen-go-my-apps-invite-preview-oct23"
+          ]
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "在录音纪要与历史资料整理之外补上元宝搜索的独立网页和浏览器入口。发布日已确认，具体上线时间不明，保守列补证；没有把网页版上线归为 App 功能改版。",
+        "evidence_ids": [
+          "yuanbao-search-nov11-tencent-reprint",
+          "yuanbao-search-nov11-jiemian",
+          "yuanbao-29200-store"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "stage": "available",
+            "summary": "元宝 App 历史搜索覆盖文件、链接和聊天记录；网页搜索是独立入口。",
+            "evidence_ids": [
+              "yuanbao-29200-store",
+              "yuanbao-search-nov11-tencent-reprint"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "在录音纪要与历史资料整理之外补上元宝搜索的独立网页和浏览器入口。发布日已确认，具体上线时间不明，保守列补证；没有把网页版上线归为 App 功能改版。",
+          "event_ids": [
+            "yuanbao-search-public-web-nov11"
+          ]
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "补入 Mac 财务入口和语音入口的过渡条件；持续任务、商家认领及企业采购路径继续保留。桌面入口依据媒体原文核对，未推断跨地区开放。",
+        "evidence_ids": [
+          "chatgpt-voice-retirement-nov10",
+          "chatgpt-businesses-beta-nov10",
+          "chatgpt-enterprise-aws-nov09",
+          "chatgpt-finances-mac-nov11"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "stage": "preview",
+            "summary": "Business Hub 支持认领与资料管理，符合条件的美国商家可发布问答助手。",
+            "evidence_ids": [
+              "chatgpt-businesses-beta-nov10"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "补入 Mac 财务入口和语音入口的过渡条件；持续任务、商家认领及企业采购路径继续保留。桌面入口依据媒体原文核对，未推断跨地区开放。",
+          "event_ids": [
+            "chatgpt-finances-mac-entry-nov11",
+            "chatgpt-old-voice-retirement-announced-nov10"
+          ]
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "正文补入企业默认启用安排和条件，明确表格、白板仍为测试版。已有组织配置仍有效，未把预告写成实际部署扩大。",
+        "evidence_ids": [
+          "claude-unified-enterprise-rollout-guide",
+          "claude-artifacts-plans-guide",
+          "claude-interactive-connectors-nov10"
+        ],
+        "signals": [
+          {
+            "direction_id": "enterprise-rollout",
+            "type": "continued",
+            "stage": "announced",
+            "summary": "已有 Enterprise 组织的默认启用仍取决于能力开关和管理员既有选择。",
+            "evidence_ids": [
+              "claude-unified-enterprise-rollout-guide"
+            ]
+          },
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "stage": "preview",
+            "summary": "白板和表格可共编，仍为测试版。",
+            "evidence_ids": [
+              "claude-artifacts-plans-guide"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "正文补入企业默认启用安排和条件，明确表格、白板仍为测试版。已有组织配置仍有效，未把预告写成实际部署扩大。",
+          "event_ids": [
+            "claude-unified-enterprise-default-rollout-conditions"
+          ]
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "在 Slack、Pages 与消费跟进之外补入会议聊天、会后总结和团队管理条件。1.0 已宣布会议方向，1.0.1 的版本细节作为补证；不推断会议普及率。",
+        "evidence_ids": [
+          "grok-bot-101-nov11",
+          "grok-bot-10-nov02",
+          "grok-bot-shared-slack-nov06",
+          "grok-bot-nov04-order-approval"
+        ],
+        "signals": [
+          {
+            "direction_id": "enterprise-rollout",
+            "type": "continued",
+            "stage": "available",
+            "summary": "适用套餐的 Bot 可参会、在会议聊天答复并发会后总结；Teams 接入受管理员控制。",
+            "evidence_ids": [
+              "grok-bot-101-nov11"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "在 Slack、Pages 与消费跟进之外补入会议聊天、会后总结和团队管理条件。1.0 已宣布会议方向，1.0.1 的版本细节作为补证；不推断会议普及率。",
+          "event_ids": [
+            "grok-bot-1-0-meeting-workflow"
+          ]
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "补入 CarPlay 的独立语音入口、Gemini App 的 Ultra 模型入口，以及 Antigravity 的多代理预览和办公布局；继续保留文件编辑与设备代办边界。",
+        "evidence_ids": [
+          "gemini-carbon-app-ultra-nov10",
+          "antigravity-carbon-swarm-nov10",
+          "antigravity-knowledge-work-nov09",
+          "gemini-intelligence-nov10-device-expansion",
+          "gemini-inline",
+          "gemini-video-15-evidence",
+          "gemini-carplay-live-nov11"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "stage": "preview",
+            "summary": "独立的 Antigravity 应用和命令行提供多代理任务编排预览。",
+            "evidence_ids": [
+              "antigravity-carbon-swarm-nov10"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "补入 CarPlay 的独立语音入口、Gemini App 的 Ultra 模型入口，以及 Antigravity 的多代理预览和办公布局；继续保留文件编辑与设备代办边界。",
+          "event_ids": [
+            "gemini-live-apple-carplay-nov11",
+            "gemini-carbon-ultra-app-rollout-nov10",
+            "antigravity-swarm-preview-nov10",
+            "antigravity-knowledge-work-layout-nov09"
+          ]
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "吸收 Apple Watch 配套入口和墨西哥西语落地，保留可维护空间、美国语音分批和生活任务方向。手表新增入口不等同于端侧独立执行；Wear OS 细节仍待核验。",
+        "evidence_ids": [
+          "muse-spaces-nov06",
+          "muse-voice-evidence",
+          "muse-watch-appstore",
+          "muse-watch-techcrunch-nov10",
+          "muse-mexico-nov05"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "stage": "available",
+            "summary": "Muse Spaces 可保存、调整，连接应用后可随相关资料更新。",
+            "evidence_ids": [
+              "muse-spaces-nov06"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "吸收 Apple Watch 配套入口和墨西哥西语落地，保留可维护空间、美国语音分批和生活任务方向。手表新增入口不等同于端侧独立执行；Wear OS 细节仍待核验。",
+          "event_ids": [
+            "muse-smartwatch-entry-nov09",
+            "muse-mexico-launch-nov05"
+          ]
+        }
+      }
+    },
+    "overview": []
+  },
+  "kind": "daily",
+  "period_start": "2026-11-11T03:13:55.424768Z",
+  "period_end": "2026-11-12T03:13:55.424768Z",
+  "source_snapshot_at": "2026-11-12T03:13:55.424768Z",
+  "input_id": "3beaa4fe9244c1023df3e63e5c73c4a38947785b508802fdf4397b917024fb6e",
+  "previous_report_id": "14c5a6c0aac61000480cb589179ac0bfb42ca02ffbad9de3b7a9743f3a68c95b",
+  "report_id": "ff98d2874c02d74573216e2d9b7fbf4842a2ffd0f32ecec730a9e3558d13ca7b"
+}
