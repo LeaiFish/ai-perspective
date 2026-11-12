@@ -4,30 +4,30 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-12T11:06:35.321295Z",
+  "generated_at": "2026-11-12T13:52:26.348476Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12"
   ],
-  "story_count": 856,
-  "unique_story_count": 831,
+  "story_count": 837,
+  "unique_story_count": 836,
   "counts": {
     "by_company_topic": {
-      "anthropic": 182,
+      "anthropic": 177,
       "apple": 5,
       "cursor": 6,
       "deepseek": 10,
-      "doubao": 18,
-      "google-gemini": 79,
+      "doubao": 16,
+      "google-gemini": 81,
       "huggingface": 6,
       "hunyuan": 2,
       "kimi": 4,
       "meta-llama": 2,
       "microsoft": 6,
       "minimax": 9,
-      "nvidia": 48,
-      "openai": 87,
+      "nvidia": 47,
+      "openai": 83,
       "openrouter": 15,
       "perplexity": 1,
       "qwen": 7,
@@ -35,21 +35,21 @@
       "zhipu": 1
     },
     "by_lens_topic": {
-      "agent-ecosystem": 183,
+      "agent-ecosystem": 179,
       "monetization": 36,
       "product-entry": 17,
-      "workplace": 31
+      "workplace": 29
     },
     "by_importance_label": {
-      "值得关注": 618,
-      "多源热议": 10,
+      "值得关注": 604,
+      "多源热议": 9,
       "官方更新": 80,
-      "行业动态": 148
+      "行业动态": 144
     },
     "by_source_count_bucket": {
-      "1": 823,
-      "2": 22,
-      "3+": 11
+      "1": 804,
+      "2": 23,
+      "3+": 10
     }
   },
   "top_stories": [
@@ -63,19 +63,6 @@
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8d6545f9d797",
-      "title": "Holiday Extras 正在重新思考可以使用 Codex 构建什么 / Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "importance_score": 0.8559,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai"
       ],
       "lens_topics": []
     },
@@ -100,6 +87,19 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-10",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_8d6545f9d797",
+      "title": "Holiday Extras 正在重新思考可以使用 Codex 构建什么 / Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "importance_score": 0.849,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
       "company_topics": [
         "openai"
       ],
@@ -137,19 +137,6 @@
       ]
     },
     {
-      "story_id": "story_7cdb17a331c3",
-      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "importance_score": 0.8376,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_637f863ae4eb",
       "title": "OpenRouter 实测教程：三种方法修复 OpenAI 与 Claude 的 429 限流错误 / LLM API Rate Limits: How to Fix OpenAI and Claude 429 Errors",
       "url": "https://openrouter.ai/blog/tutorials/llm-api-rate-limits",
@@ -165,21 +152,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_5808c969be18",
-      "title": "现在可通过 Apple CarPlay 与 Gemini 畅谈 / Talk it through with Gemini, now on Apple CarPlay",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
-      "importance_score": 0.8356,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": [
-        "product-entry"
-      ]
-    },
-    {
       "story_id": "story_90b08b2467a3",
       "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -193,33 +165,31 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_a8a9a02c4a75",
-      "title": "DeepSeek's SuperAgent and Our Practice",
-      "url": "https://www.alibabacloud.com/blog/deepseeks-superagent-and-our-practice_603766",
-      "importance_score": 0.8313,
+      "story_id": "story_7cdb17a331c3",
+      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "importance_score": 0.8321,
       "importance_label": "官方更新",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-12",
       "company_topics": [
-        "deepseek"
+        "google-gemini"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
     },
     {
-      "story_id": "story_4075c0109883",
-      "title": "AgentScope Service: Open-Source Agent Control Plane with DeepSeek Harness Support",
-      "url": "https://www.alibabacloud.com/blog/agentscope-service-open-source-agent-control-plane-with-deepseek-harness-support_603768",
-      "importance_score": 0.8313,
+      "story_id": "story_5808c969be18",
+      "title": "现在可通过 Apple CarPlay 与 Gemini 畅谈 / Talk it through with Gemini, now on Apple CarPlay",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
+      "importance_score": 0.8302,
       "importance_label": "官方更新",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-12",
       "company_topics": [
-        "deepseek"
+        "google-gemini"
       ],
       "lens_topics": [
-        "agent-ecosystem"
+        "product-entry"
       ]
     },
     {
@@ -235,19 +205,6 @@
         "huggingface"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_1bbf09c00307",
-      "title": "Locking Down AI Agent Sandbox with Alibaba Cloud AI Gateway",
-      "url": "https://www.alibabacloud.com/blog/locking-down-ai-agent-sandbox-with-alibaba-cloud-ai-gateway_603772",
-      "importance_score": 0.8293,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_1df7c5e9a681",
@@ -300,83 +257,47 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_44f4f8e1b980",
-      "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off",
-      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
+      "story_id": "story_a8a9a02c4a75",
+      "title": "DeepSeek的SuperAgent及我们的实践 / DeepSeek's SuperAgent and Our Practice",
+      "url": "https://www.alibabacloud.com/blog/deepseeks-superagent-and-our-practice_603766",
       "importance_score": 0.8253,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
       "company_topics": [
-        "qwen",
-        "openrouter"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_26772b93fcab",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "importance_score": 0.8253,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e5a94f810129",
-      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
-      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
-      "importance_score": 0.8246,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai",
-        "anthropic",
-        "xai",
-        "microsoft"
+        "deepseek"
       ],
       "lens_topics": [
-        "product-entry",
-        "workplace"
+        "agent-ecosystem"
       ]
     },
     {
-      "story_id": "story_f855ab956354",
-      "title": "Seamless AI Safety: Integrating Qwen3Guard into Higress with Zero Code Changes",
-      "url": "https://www.alibabacloud.com/blog/seamless-ai-safety-integrating-qwen3guard-into-higress-with-zero-code-changes_603767",
-      "importance_score": 0.8233,
+      "story_id": "story_4075c0109883",
+      "title": "AgentScope 服务：具有 DeepSeek Harness 支持的开源代理控制平面 / AgentScope Service: Open-Source Agent Control Plane with DeepSeek Harness Support",
+      "url": "https://www.alibabacloud.com/blog/agentscope-service-open-source-agent-control-plane-with-deepseek-harness-support_603768",
+      "importance_score": 0.8253,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
+      "company_topics": [
+        "deepseek"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
-      "story_id": "story_9b5da9dabd04",
-      "title": "Alibaba Cloud AI Gateway Intelligent Routing Is Now Live",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway-intelligent-routing-is-now-live_603770",
+      "story_id": "story_1bbf09c00307",
+      "title": "使用阿里云AI网关锁定AI Agent沙箱 / Locking Down AI Agent Sandbox with Alibaba Cloud AI Gateway",
+      "url": "https://www.alibabacloud.com/blog/locking-down-ai-agent-sandbox-with-alibaba-cloud-ai-gateway_603772",
       "importance_score": 0.8233,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_296ce5891f47",
-      "title": "Alibaba Cloud AI Gateway로 AI 에이전트 샌드박스 잠그기",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway%EB%A1%9C-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4-%EC%9E%A0%EA%B7%B8%EA%B8%B0_603773",
-      "importance_score": 0.8233,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_2b2aad2325b1",
@@ -438,6 +359,52 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_e5a94f810129",
+      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
+      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
+      "importance_score": 0.8194,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai",
+        "anthropic",
+        "xai",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "product-entry",
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_44f4f8e1b980",
+      "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off",
+      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
+      "importance_score": 0.8193,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "qwen",
+        "openrouter"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_26772b93fcab",
+      "title": "支持人工智能和儿童安全研究 / Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "importance_score": 0.8193,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_616c01159fe6",
       "title": "Stripe 如何在 1 周内在深度代理上构建 Kai / How Stripe Built Kai on Deep Agents in 1 Week",
       "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
@@ -451,33 +418,50 @@
       ]
     },
     {
-      "story_id": "story_e0914bb81d04",
-      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460 / How We Built a Self-Correcting Localization System for OpenRouter",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-in-8-languages",
+      "story_id": "story_f855ab956354",
+      "title": "无缝 AI 安全：通过零代码更改将 Qwen3Guard 集成到 Higress / Seamless AI Safety: Integrating Qwen3Guard into Higress with Zero Code Changes",
+      "url": "https://www.alibabacloud.com/blog/seamless-ai-safety-integrating-qwen3guard-into-higress-with-zero-code-changes_603767",
       "importance_score": 0.8173,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai",
-        "openrouter"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
-      "story_id": "story_bcb1db7630cf",
-      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题 / How to Stop an AI Agent Stuck in an Infinite Loop",
-      "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop",
+      "story_id": "story_9b5da9dabd04",
+      "title": "阿里云AI网关智能路由现已上线 / Alibaba Cloud AI Gateway Intelligent Routing Is Now Live",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway-intelligent-routing-is-now-live_603770",
       "importance_score": 0.8173,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_296ce5891f47",
+      "title": "使用阿里云AI网关锁定您的AI代理沙箱 / Alibaba Cloud AI Gateway로 AI 에이전트 샌드박스 잠그기",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway%EB%A1%9C-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4-%EC%9E%A0%EA%B7%B8%EA%B8%B0_603773",
+      "importance_score": 0.8173,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_8ebc43ec328d",
+      "title": "Anthropic 官宣首次公开募股（IPO） / Our initial public offering: https://ipo.anthropic.com",
+      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "importance_score": 0.8156,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
       "company_topics": [
-        "openrouter"
+        "anthropic"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
     },
     {
       "story_id": "story_3631798e1948",
@@ -493,17 +477,33 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_fd36a6aa5ec0",
-      "title": "豆包工作接入更多模型，并推出限时特惠计划",
-      "url": "https://mp.weixin.qq.com/s/sJ3FeTQoTXWXobzaflIwWQ",
-      "importance_score": 0.813,
+      "story_id": "story_e0914bb81d04",
+      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460 / How We Built a Self-Correcting Localization System for OpenRouter",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-in-8-languages",
+      "importance_score": 0.8113,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
       "company_topics": [
-        "doubao"
+        "openai",
+        "openrouter"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_bcb1db7630cf",
+      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题 / How to Stop an AI Agent Stuck in an Infinite Loop",
+      "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop",
+      "importance_score": 0.8113,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_14497aca7fb0",
@@ -554,14 +554,16 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_cc7c91227540",
-      "title": "新精灵：用于复杂企业工作的自主人工智能 / The new Genie: autonomous AI for complex enterprise work",
-      "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
-      "importance_score": 0.8066,
+      "story_id": "story_fd36a6aa5ec0",
+      "title": "豆包工作接入更多模型，并推出限时特惠计划",
+      "url": "https://mp.weixin.qq.com/s/sJ3FeTQoTXWXobzaflIwWQ",
+      "importance_score": 0.8068,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-12",
-      "company_topics": [],
+      "company_topics": [
+        "doubao"
+      ],
       "lens_topics": []
     },
     {
@@ -578,17 +580,15 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_55472f9603f4",
-      "title": "我们的 GTM 代理如何构建一致、高质量的销售工件 / How our GTM Agent builds consistent, high-quality sales artifacts",
-      "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
-      "importance_score": 0.8055,
+      "story_id": "story_63fbd8609dbd",
+      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+      "importance_score": 0.8027,
       "importance_label": "官方更新",
       "source_count": 1,
-      "archive_date": "2026-11-12",
+      "archive_date": "2026-11-11",
       "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
     }
   ]
 }
