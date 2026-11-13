@@ -4,53 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-13T03:27:45.052727Z",
+  "generated_at": "2026-11-13T08:08:22.998073Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13"
   ],
-  "story_count": 1120,
-  "unique_story_count": 1044,
+  "story_count": 1148,
+  "unique_story_count": 1085,
   "counts": {
     "by_company_topic": {
-      "anthropic": 207,
+      "anthropic": 215,
       "apple": 7,
       "cursor": 8,
       "deepseek": 15,
-      "doubao": 19,
-      "google-gemini": 130,
-      "huggingface": 10,
+      "doubao": 18,
+      "google-gemini": 137,
+      "huggingface": 11,
       "hunyuan": 3,
-      "kimi": 7,
+      "kimi": 6,
       "meta-llama": 3,
       "microsoft": 8,
       "minimax": 11,
-      "nvidia": 88,
-      "openai": 103,
+      "nvidia": 92,
+      "openai": 106,
       "openrouter": 16,
       "perplexity": 2,
       "qwen": 8,
-      "xai": 22,
+      "xai": 20,
       "zhipu": 1
     },
     "by_lens_topic": {
       "agent-ecosystem": 225,
-      "monetization": 51,
-      "product-entry": 27,
-      "workplace": 41
+      "monetization": 49,
+      "product-entry": 26,
+      "workplace": 42
     },
     "by_importance_label": {
-      "值得关注": 799,
-      "多源热议": 12,
-      "官方更新": 107,
-      "行业动态": 202
+      "值得关注": 826,
+      "多源热议": 13,
+      "官方更新": 109,
+      "行业动态": 200
     },
     "by_source_count_bucket": {
-      "1": 1074,
-      "2": 33,
-      "3+": 13
+      "1": 1103,
+      "2": 31,
+      "3+": 14
     }
   },
   "top_stories": [
@@ -122,45 +122,17 @@
       ]
     },
     {
-      "story_id": "story_b9fa2a337927",
-      "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "importance_score": 0.8476,
+      "story_id": "story_c0e4bca0c953",
+      "title": "Codex CLI 0.168.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "importance_score": 0.846,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [
-        "huggingface"
+        "openai"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_16ea0c072ea5",
-      "title": "元宝 2.93.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
-      "importance_score": 0.8425,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_7b025f7e40fb",
-      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
-      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
-      "importance_score": 0.8412,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openrouter"
-      ],
-      "lens_topics": [
-        "monetization"
-      ]
     },
     {
       "story_id": "story_3f407db2138d",
@@ -175,19 +147,6 @@
       ],
       "lens_topics": [
         "product-entry",
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_ad1ef7aac19f",
-      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "importance_score": 0.8406,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
         "agent-ecosystem"
       ]
     },
@@ -207,6 +166,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_b9fa2a337927",
+      "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "importance_score": 0.8372,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_90b08b2467a3",
       "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -220,43 +192,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_58db6e6cc441",
-      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "importance_score": 0.8336,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_d082cca44d4c",
-      "title": "首届非洲运营商云转型峰会在马拉喀什举行，讨论云将如何改变行业 / First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
-      "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
-      "importance_score": 0.8325,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_adc3a9c0260a",
-      "title": "华为开放云论坛加速网络全云化转型 / Huawei’s Open Cloud Forum Accelerates Network All Cloud Transformation",
-      "url": "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016",
-      "importance_score": 0.8325,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_7cdb17a331c3",
       "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
@@ -266,6 +201,19 @@
       "archive_date": "2026-11-12",
       "company_topics": [
         "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_16ea0c072ea5",
+      "title": "元宝 2.93.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
+      "importance_score": 0.8309,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "hunyuan"
       ],
       "lens_topics": []
     },
@@ -285,6 +233,47 @@
       ]
     },
     {
+      "story_id": "story_7b025f7e40fb",
+      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
+      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
+      "importance_score": 0.83,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_2f35e509d321",
+      "title": "阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars",
+      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777",
+      "importance_score": 0.83,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_ad1ef7aac19f",
+      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "importance_score": 0.8295,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_2b2972b2424d",
       "title": "Elith 与 NVIDIA 发布 Nemotron-Personas-Finance-Japan 合成金融人物数据集 / Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
@@ -295,32 +284,6 @@
       "company_topics": [
         "nvidia",
         "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b821bfa39311",
-      "title": "Google DeepMind 发布 Gemini 4 Hydrogen / Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6df6ce89b479",
-      "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级 / Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -375,19 +338,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_e7570e2bfc0c",
-      "title": "在任何网站上从 Gemini 获取快速解答。 / Get quick answers from Gemini on any website.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome",
-      "importance_score": 0.8268,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_a8a9a02c4a75",
       "title": "DeepSeek的SuperAgent及我们的实践 / DeepSeek's SuperAgent and Our Practice",
       "url": "https://www.alibabacloud.com/blog/deepseeks-superagent-and-our-practice_603766",
@@ -418,19 +368,6 @@
       ]
     },
     {
-      "story_id": "story_6759601e393f",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "importance_score": 0.824,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_1bbf09c00307",
       "title": "使用阿里云AI网关锁定AI Agent沙箱 / Locking Down AI Agent Sandbox with Alibaba Cloud AI Gateway",
       "url": "https://www.alibabacloud.com/blog/locking-down-ai-agent-sandbox-with-alibaba-cloud-ai-gateway_603772",
@@ -444,18 +381,18 @@
       ]
     },
     {
-      "story_id": "story_dc5730b76eac",
-      "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道 / Now rolling out for:",
-      "url": "https://x.com/GoogleDeepMind/status/2120940342505566438",
+      "story_id": "story_58db6e6cc441",
+      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
       "importance_score": 0.8231,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [
-        "google-gemini"
+        "openai"
       ],
       "lens_topics": [
-        "monetization"
+        "agent-ecosystem"
       ]
     },
     {
@@ -475,17 +412,6 @@
       ]
     },
     {
-      "story_id": "story_df30bd1f7ed7",
-      "title": "最佳人工智能卡通生成器：将照片和提示变成卡通，然后将其动画化 / Best AI Cartoon Generators: Turn Photos and Prompts Into Cartoons, Then Animate Them",
-      "url": "https://lumalabs.ai/news/ai-cartoon-generators",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_5a2a32fd903d",
       "title": "GitHub 应用程序支持 Enterprise Copilot 座位管理 / GitHub App support for Enterprise Copilot seat management",
       "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
@@ -499,6 +425,28 @@
       "lens_topics": [
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_d082cca44d4c",
+      "title": "首届非洲运营商云转型峰会在马拉喀什举行，讨论云将如何改变行业 / First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
+      "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
+      "importance_score": 0.8219,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_adc3a9c0260a",
+      "title": "华为开放云论坛加速网络全云化转型 / Huawei’s Open Cloud Forum Accelerates Network All Cloud Transformation",
+      "url": "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016",
+      "importance_score": 0.8219,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_4fe19f6777ba",
@@ -527,19 +475,6 @@
       "archive_date": "2026-11-11",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_d7833180ed26",
-      "title": "拥有你的智慧：持久人工智能优势的关键 / Own Your Intelligence: The Key to Lasting AI Advantage",
-      "url": "https://www.langchain.com/blog/own-your-intelligence",
-      "importance_score": 0.8195,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_e5a94f810129",
@@ -588,16 +523,75 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_0c88d6c5a281",
-      "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
-      "url": "https://mp.weixin.qq.com/s/ToplAo9NHP356Fu-hbYlsg",
-      "importance_score": 0.8187,
-      "importance_label": "行业动态",
+      "story_id": "story_b821bfa39311",
+      "title": "Google DeepMind 发布 Gemini 4 Hydrogen / Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "importance_score": 0.8188,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [
-        "nvidia"
+        "google-gemini"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6df6ce89b479",
+      "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级 / Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "importance_score": 0.8188,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_616c01159fe6",
+      "title": "Stripe 如何在 1 周内在深度代理上构建 Kai / How Stripe Built Kai on Deep Agents in 1 Week",
+      "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+      "importance_score": 0.8181,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-10",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_f855ab956354",
+      "title": "无缝 AI 安全：通过零代码更改将 Qwen3Guard 集成到 Higress / Seamless AI Safety: Integrating Qwen3Guard into Higress with Zero Code Changes",
+      "url": "https://www.alibabacloud.com/blog/seamless-ai-safety-integrating-qwen3guard-into-higress-with-zero-code-changes_603767",
+      "importance_score": 0.8173,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9b5da9dabd04",
+      "title": "阿里云AI网关智能路由现已上线 / Alibaba Cloud AI Gateway Intelligent Routing Is Now Live",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway-intelligent-routing-is-now-live_603770",
+      "importance_score": 0.8173,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_296ce5891f47",
+      "title": "使用阿里云AI网关锁定您的AI代理沙箱 / Alibaba Cloud AI Gateway로 AI 에이전트 샌드박스 잠그기",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway%EB%A1%9C-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4-%EC%9E%A0%EA%B7%B8%EA%B8%B0_603773",
+      "importance_score": 0.8173,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-12",
+      "company_topics": [],
       "lens_topics": []
     }
   ]
