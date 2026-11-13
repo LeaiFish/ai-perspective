@@ -4,31 +4,31 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-13T10:45:03.503985Z",
+  "generated_at": "2026-11-13T13:13:59.985505Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13"
   ],
-  "story_count": 1148,
-  "unique_story_count": 1120,
+  "story_count": 1149,
+  "unique_story_count": 1141,
   "counts": {
     "by_company_topic": {
-      "anthropic": 220,
+      "anthropic": 218,
       "apple": 7,
       "cursor": 8,
       "deepseek": 16,
-      "doubao": 16,
+      "doubao": 17,
       "google-gemini": 137,
       "huggingface": 11,
       "hunyuan": 5,
       "kimi": 6,
-      "meta-llama": 3,
+      "meta-llama": 5,
       "microsoft": 7,
       "minimax": 11,
-      "nvidia": 98,
-      "openai": 104,
+      "nvidia": 102,
+      "openai": 101,
       "openrouter": 16,
       "perplexity": 2,
       "qwen": 7,
@@ -37,20 +37,20 @@
     },
     "by_lens_topic": {
       "agent-ecosystem": 227,
-      "monetization": 49,
-      "product-entry": 27,
-      "workplace": 38
+      "monetization": 50,
+      "product-entry": 28,
+      "workplace": 39
     },
     "by_importance_label": {
-      "值得关注": 824,
-      "多源热议": 13,
+      "值得关注": 825,
+      "多源热议": 14,
       "官方更新": 110,
-      "行业动态": 201
+      "行业动态": 200
     },
     "by_source_count_bucket": {
-      "1": 1103,
-      "2": 31,
-      "3+": 14
+      "1": 1102,
+      "2": 32,
+      "3+": 15
     }
   },
   "top_stories": [
@@ -71,7 +71,7 @@
       "story_id": "story_c0e4bca0c953",
       "title": "Codex CLI 0.168.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8651,
+      "importance_score": 0.8597,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-13",
@@ -135,6 +135,17 @@
       ]
     },
     {
+      "story_id": "story_83023b0bea9d",
+      "title": "使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "importance_score": 0.8418,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3f407db2138d",
       "title": "Tether AI Research 发布 BotPsy 0.8B 端侧智能体模型 / BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "url": "https://huggingface.co/blog/qvac/botpsy",
@@ -192,30 +203,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_b9fa2a337927",
-      "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "importance_score": 0.8316,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_18fdcdbf4115",
-      "title": "n8n 中的新增功能：公共 API 速率限制可让实例上的每个团队保持运行 / New in n8n: Public API rate limits that keep every team on your instance running",
-      "url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running",
-      "importance_score": 0.8308,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_5808c969be18",
       "title": "现在可通过 Apple CarPlay 与 Gemini 畅谈 / Talk it through with Gemini, now on Apple CarPlay",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
@@ -229,19 +216,6 @@
       "lens_topics": [
         "product-entry"
       ]
-    },
-    {
-      "story_id": "story_333fffdeeae5",
-      "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO / [AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia",
-      "importance_score": 0.8293,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_2b2972b2424d",
@@ -308,6 +282,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_b9fa2a337927",
+      "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "importance_score": 0.8266,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_a8a9a02c4a75",
       "title": "DeepSeek的SuperAgent及我们的实践 / DeepSeek's SuperAgent and Our Practice",
       "url": "https://www.alibabacloud.com/blog/deepseeks-superagent-and-our-practice_603766",
@@ -338,69 +325,15 @@
       ]
     },
     {
-      "story_id": "story_16ea0c072ea5",
-      "title": "元宝 2.93.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
-      "importance_score": 0.8247,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_7b025f7e40fb",
-      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
-      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
-      "importance_score": 0.8241,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openrouter"
-      ],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_2f35e509d321",
-      "title": "阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars",
-      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777",
-      "importance_score": 0.8241,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_112a9d324124",
-      "title": "97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition",
-      "url": "https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780",
-      "importance_score": 0.8241,
+      "story_id": "story_18fdcdbf4115",
+      "title": "n8n 中的新增功能：公共 API 速率限制可让实例上的每个团队保持运行 / New in n8n: Public API rate limits that keep every team on your instance running",
+      "url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running",
+      "importance_score": 0.8245,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_ad1ef7aac19f",
-      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "importance_score": 0.8237,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_1bbf09c00307",
@@ -414,6 +347,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_333fffdeeae5",
+      "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO / [AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia",
+      "importance_score": 0.8231,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_2b2aad2325b1",
@@ -521,6 +467,73 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_16ea0c072ea5",
+      "title": "元宝 2.93.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
+      "importance_score": 0.819,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7b025f7e40fb",
+      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
+      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_2f35e509d321",
+      "title": "阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars",
+      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_112a9d324124",
+      "title": "网关延迟降低97.1%：开源Higress vs 阿里云AI网关无服务器企业版 / 97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition",
+      "url": "https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_ad1ef7aac19f",
+      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "importance_score": 0.8184,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_616c01159fe6",
       "title": "Stripe 如何在 1 周内在深度代理上构建 Kai / How Stripe Built Kai on Deep Agents in 1 Week",
       "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
@@ -529,21 +542,6 @@
       "source_count": 1,
       "archive_date": "2026-11-10",
       "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_58db6e6cc441",
-      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "importance_score": 0.8175,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "openai"
-      ],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -582,14 +580,16 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d082cca44d4c",
-      "title": "首届非洲运营商云转型峰会在马拉喀什举行，讨论云将如何改变行业 / First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
-      "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
-      "importance_score": 0.8162,
-      "importance_label": "官方更新",
+      "story_id": "story_8ebc43ec328d",
+      "title": "Anthropic 官宣首次公开募股（IPO） / Our initial public offering: https://ipo.anthropic.com",
+      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "importance_score": 0.8156,
+      "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
+      "archive_date": "2026-11-12",
+      "company_topics": [
+        "anthropic"
+      ],
       "lens_topics": []
     }
   ]

@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Fri, 13 Nov 2026 10:45:03 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 13:13:59 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>Codex CLI 0.168.0</title>
@@ -14,6 +14,14 @@
 <description>OpenAI Codex Changelog</description>
 <category>官方更新</category>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API</title>
+<link>https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api</guid>
+<description>You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog .（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Fri, 13 Nov 2026 12:22:41 +0000</pubDate>
 </item>
 <item>
 <title>IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</title>
@@ -48,18 +56,18 @@
 <pubDate>Fri, 13 Nov 2026 02:54:02 +0000</pubDate>
 </item>
 <item>
-<title>97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition</title>
-<link>https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780</guid>
-<description>97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition This article compares Alibaba Cloud AI Gateway Serverless Enterprise Edition with open-source Higress, demonstrating up to a 97. Alibaba Cloud Native Community November 13, 2026 26（Alibaba Cloud Blog）</description>
-<category>官方更新</category>
-<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
 <title>OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker</title>
 <link>https://openrouter.ai/blog/tutorials/reranking-rag</link>
 <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/reranking-rag</guid>
 <description>When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause. Vector search is great at finding chunks on the right topic, but it often falls for near misses, like pulling the bucket limit for the Enterprise plan when the user asked about the Growth plan. Reranking in RAG fixes this by taking your vector search’s top 30 candidates and passing them through a dedicated cross-encoder model that re-scores eac（OpenRouter Blog）</description>
+<category>官方更新</category>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>网关延迟降低97.1%：开源Higress vs 阿里云AI网关无服务器企业版 / 97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition</title>
+<link>https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780</link>
+<guid isPermaLink="true">https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780</guid>
+<description>97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition This article compares Alibaba Cloud AI Gateway Serverless Enterprise Edition with open-source Higress, demonstrating up to a 97. Alibaba Cloud Native Community November 13, 2026 74（Alibaba Cloud Blog）</description>
 <category>官方更新</category>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
 </item>
@@ -158,14 +166,6 @@
 <description>NVIDIA 董事会宣布 Jensen Huang 即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 被任命为临时 CEO，直至选定永久继任者，董事会已启动内外部人选遴选。（NVIDIA：Newsroom（RSS））</description>
 <category>行业动态</category>
 <pubDate>Thu, 12 Nov 2026 13:48:00 +0000</pubDate>
-</item>
-<item>
-<title>阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars</title>
-<link>https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777</guid>
-<description>Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars This article introduces Alibaba Cloud's open-source AI Agent Handbook, a practical guide for reliably deploying, governing, and integrating AI agents into real-world enterprise workflows. Alibaba Cloud Native Community November 13, 2026 115（Alibaba Cloud Blog）</description>
-<category>官方更新</category>
-<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 </channel>
 </rss>
