@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-13T20:55:53.421614Z",
+  "generated_at": "2026-11-13T22:43:11.943474Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
@@ -12,45 +12,45 @@
     "2026-11-13",
     "2026-11-14"
   ],
-  "story_count": 1427,
-  "unique_story_count": 1252,
+  "story_count": 1412,
+  "unique_story_count": 1264,
   "counts": {
     "by_company_topic": {
-      "anthropic": 267,
+      "anthropic": 263,
       "apple": 11,
       "cursor": 8,
-      "deepseek": 25,
+      "deepseek": 24,
       "doubao": 17,
-      "google-gemini": 164,
+      "google-gemini": 160,
       "huggingface": 17,
       "hunyuan": 8,
-      "kimi": 10,
-      "meta-llama": 11,
-      "microsoft": 9,
-      "minimax": 15,
-      "nvidia": 141,
-      "openai": 135,
+      "kimi": 9,
+      "meta-llama": 10,
+      "microsoft": 10,
+      "minimax": 14,
+      "nvidia": 137,
+      "openai": 131,
       "openrouter": 18,
       "perplexity": 6,
       "qwen": 7,
-      "xai": 27,
+      "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 276,
-      "monetization": 69,
-      "product-entry": 45,
-      "workplace": 49
+      "agent-ecosystem": 275,
+      "monetization": 68,
+      "product-entry": 47,
+      "workplace": 48
     },
     "by_importance_label": {
-      "值得关注": 1018,
+      "值得关注": 1002,
       "多源热议": 21,
-      "官方更新": 131,
-      "行业动态": 257
+      "官方更新": 133,
+      "行业动态": 256
     },
     "by_source_count_bucket": {
-      "1": 1361,
-      "2": 44,
+      "1": 1348,
+      "2": 42,
       "3+": 22
     }
   },
@@ -83,9 +83,9 @@
     },
     {
       "story_id": "story_010ac45cd0c9",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "importance_score": 0.8586,
+      "importance_score": 0.8542,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
@@ -93,23 +93,6 @@
         "huggingface"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_e0ce3fdbb288",
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "importance_score": 0.8535,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
     },
     {
       "story_id": "story_8f1b2af00c00",
@@ -138,17 +121,21 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_65948bc08832",
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "importance_score": 0.8502,
+      "story_id": "story_e0ce3fdbb288",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "importance_score": 0.8491,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
       "company_topics": [
-        "huggingface"
+        "google-gemini",
+        "microsoft"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_8d6545f9d797",
@@ -179,10 +166,50 @@
       ]
     },
     {
+      "story_id": "story_6462d932fa5b",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "importance_score": 0.8467,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_65948bc08832",
+      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "importance_score": 0.8458,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_83023b0bea9d",
+      "title": "使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "importance_score": 0.8418,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_ce1046eebd38",
-      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "importance_score": 0.8457,
+      "importance_score": 0.8412,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
@@ -197,7 +224,7 @@
       "story_id": "story_a9f8b4a664f6",
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "importance_score": 0.8452,
+      "importance_score": 0.841,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
@@ -207,44 +234,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_9113026e72af",
-      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "importance_score": 0.8431,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "meta-llama",
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_a734d725262c",
-      "title": "Connect Google Wallet to Gemini for personal finance insights",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
-      "importance_score": 0.8421,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_83023b0bea9d",
-      "title": "使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API",
-      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "importance_score": 0.8418,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": []
     },
     {
       "story_id": "story_3f407db2138d",
@@ -263,15 +252,29 @@
       ]
     },
     {
-      "story_id": "story_55a2042c2ded",
-      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
-      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-      "importance_score": 0.8384,
+      "story_id": "story_9113026e72af",
+      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "importance_score": 0.8389,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
       "company_topics": [
-        "openai"
+        "meta-llama",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_a734d725262c",
+      "title": "将 Google 钱包连接到 Gemini 以获得个人财务见解 / Connect Google Wallet to Gemini for personal finance insights",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
+      "importance_score": 0.8377,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -304,6 +307,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_55a2042c2ded",
+      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+      "importance_score": 0.8342,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_7cdb17a331c3",
       "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策 / Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
@@ -315,19 +331,6 @@
         "google-gemini"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_0aada73bf4cf",
-      "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
-      "url": "https://www.langchain.com/blog/series-c",
-      "importance_score": 0.8319,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_5808c969be18",
@@ -394,6 +397,19 @@
       "archive_date": "2026-11-11",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_0aada73bf4cf",
+      "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
+      "url": "https://www.langchain.com/blog/series-c",
+      "importance_score": 0.8276,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_90c2f4d19eb5",
@@ -590,19 +606,6 @@
       "archive_date": "2026-11-12",
       "company_topics": [
         "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_16ea0c072ea5",
-      "title": "元宝 2.93.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
-      "importance_score": 0.819,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [
-        "hunyuan"
       ],
       "lens_topics": []
     }
