@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 12 Nov 2026 22:47:19 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 03:11:02 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</title>
@@ -14,6 +14,30 @@
 <description>Hugging Face Blog</description>
 <category>官方更新</category>
 <pubDate>Thu, 12 Nov 2026 19:07:35 +0000</pubDate>
+</item>
+<item>
+<title>元宝 2.93.0 官方版本更新</title>
+<link>https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0</link>
+<guid isPermaLink="true">https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0</guid>
+<description>首页体验优化，界面更简洁，操作更高效 商品推荐展示升级，多款商品集中呈现，浏览对比更方便，点击即可直达商品列表页（元宝官方版本更新）</description>
+<category>官方更新</category>
+<pubDate>Fri, 13 Nov 2026 02:54:02 +0000</pubDate>
+</item>
+<item>
+<title>OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker</title>
+<link>https://openrouter.ai/blog/tutorials/reranking-rag</link>
+<guid isPermaLink="true">https://openrouter.ai/blog/tutorials/reranking-rag</guid>
+<description>When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause. Vector search is great at finding chunks on the right topic, but it often falls for near misses, like pulling the bucket limit for the Enterprise plan when the user asked about the Growth plan. Reranking in RAG fixes this by taking your vector search’s top 30 candidates and passing them through a dedicated cross-encoder model that re-scores eac（OpenRouter Blog）</description>
+<category>官方更新</category>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills</title>
+<link>https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills</link>
+<guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills</guid>
+<description>Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .（GitHub AI &amp; ML）</description>
+<category>官方更新</category>
+<pubDate>Thu, 12 Nov 2026 22:54:52 +0000</pubDate>
 </item>
 <item>
 <title>Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI</title>
@@ -88,12 +112,12 @@
 <pubDate>Thu, 12 Nov 2026 16:56:52 +0000</pubDate>
 </item>
 <item>
-<title>Operate Claude Managed Agents inside your security perimeter</title>
-<link>https://claude.com/resources/articles/self-hosted-claude-managed-agents</link>
-<guid isPermaLink="true">https://claude.com/resources/articles/self-hosted-claude-managed-agents</guid>
-<description>Article Nov 12, 2026 Operate Claude Managed Agents inside your security perimeter Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent. Claude Platform Claude Managed Agents（Claude Articles）</description>
-<category>官方更新</category>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<title>黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末</title>
+<link>https://mp.weixin.qq.com/s/ToplAo9NHP356Fu-hbYlsg</link>
+<guid isPermaLink="true">https://mp.weixin.qq.com/s/ToplAo9NHP356Fu-hbYlsg</guid>
+<description>英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。（公众号：数字生命卡兹克）</description>
+<category>行业动态</category>
+<pubDate>Thu, 12 Nov 2026 23:56:00 +0000</pubDate>
 </item>
 <item>
 <title>NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO / NVIDIA Announces CEO Transition</title>
@@ -112,12 +136,20 @@
 <pubDate>Thu, 12 Nov 2026 20:22:05 +0000</pubDate>
 </item>
 <item>
-<title>AgentScope 服务：具有 DeepSeek Harness 支持的开源代理控制平面 / AgentScope Service: Open-Source Agent Control Plane with DeepSeek Harness Support</title>
-<link>https://www.alibabacloud.com/blog/agentscope-service-open-source-agent-control-plane-with-deepseek-harness-support_603768</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/agentscope-service-open-source-agent-control-plane-with-deepseek-harness-support_603768</guid>
-<description>AgentScope Service: Open-Source Agent Control Plane with DeepSeek Harness Support This article introduces AgentScope Service, an open-source control plane for managing and orchestrating diverse enterprise AI agents. Alibaba Cloud Native Community November 12, 2026 420（Alibaba Cloud Blog）</description>
+<title>SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈 / Nvidia and the World Without Jensen</title>
+<link>https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen</link>
+<guid isPermaLink="true">https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen</guid>
+<description>SemiAnalysis 发表长文分析黄仁勋不再担任 Nvidia CEO 一事，认为其去职与美国情报界推动、针对中国远程访问 GPU 的 RASA 法案推进有关。（SemiAnalysis 长文 RSS（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 12 Nov 2026 18:06:26 +0000</pubDate>
+</item>
+<item>
+<title>Gondola doubles revenue as its team builds more with Codex</title>
+<link>https://openai.com/business/customer-stories/gondola</link>
+<guid isPermaLink="true">https://openai.com/business/customer-stories/gondola</guid>
+<description>Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.（OpenAI News）</description>
 <category>官方更新</category>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
 <title>谷歌发布 Gemini 4 Hydrogen 模型，主打日常编程与智能体工作流</title>
@@ -128,44 +160,12 @@
 <pubDate>Thu, 12 Nov 2026 18:50:00 +0000</pubDate>
 </item>
 <item>
-<title>OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off</title>
-<link>https://openrouter.ai/blog/insights/self-hosted-llm-vs-api</link>
-<guid isPermaLink="true">https://openrouter.ai/blog/insights/self-hosted-llm-vs-api</guid>
-<description>If you pay an API bill for an open-weight model, you may wonder whether your own GPU would cost less. GPU rent is charged every hour, busy or idle, while an API charges only for the tokens you use.（OpenRouter Blog）</description>
-<category>官方更新</category>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Holiday Extras 正在重新思考可以使用 Codex 构建什么 / Holiday Extras is rethinking what it can build with Codex</title>
-<link>https://openai.com/business/customer-stories/holidays-extras-codex</link>
-<guid isPermaLink="true">https://openai.com/business/customer-stories/holidays-extras-codex</guid>
-<description>With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.（OpenAI News）</description>
-<category>官方更新</category>
-<pubDate>Thu, 12 Nov 2026 09:30:00 +0000</pubDate>
-</item>
-<item>
 <title>适用于 iPhone 和 Android 的最佳 AI 视频生成应用程序 / Best AI Video Generator Apps for iPhone and Android</title>
 <link>https://lumalabs.ai/news/ai-video-generator-apps-iphone-android</link>
 <guid isPermaLink="true">https://lumalabs.ai/news/ai-video-generator-apps-iphone-android</guid>
 <description>Luma News</description>
 <category>官方更新</category>
 <pubDate>Thu, 12 Nov 2026 16:07:30 +0000</pubDate>
-</item>
-<item>
-<title>The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云 / The Jensen Huang scandal is hardly over</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling</guid>
-<description>The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。（The Verge：AI（RSS））</description>
-<category>行业动态</category>
-<pubDate>Thu, 12 Nov 2026 17:44:33 +0000</pubDate>
-</item>
-<item>
-<title>The Claude Tag guide for startups</title>
-<link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
-<guid isPermaLink="true">https://claude.com/resources/articles/claude-tag-guide-for-startups</guid>
-<description>Article Nov 12, 2026 The Claude Tag guide for startups How leading startups use Claude Tag to ship faster and scale operations Claude Tag（Claude Articles）</description>
-<category>官方更新</category>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 </channel>
 </rss>
