@@ -4,53 +4,54 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-13T13:13:59.985505Z",
+  "generated_at": "2026-11-13T16:32:35.835701Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
-  "story_count": 1149,
-  "unique_story_count": 1141,
+  "story_count": 1461,
+  "unique_story_count": 1185,
   "counts": {
     "by_company_topic": {
-      "anthropic": 218,
-      "apple": 7,
-      "cursor": 8,
-      "deepseek": 16,
+      "anthropic": 265,
+      "apple": 9,
+      "cursor": 10,
+      "deepseek": 24,
       "doubao": 17,
-      "google-gemini": 137,
-      "huggingface": 11,
-      "hunyuan": 5,
-      "kimi": 6,
-      "meta-llama": 5,
-      "microsoft": 7,
-      "minimax": 11,
-      "nvidia": 102,
-      "openai": 101,
-      "openrouter": 16,
-      "perplexity": 2,
+      "google-gemini": 194,
+      "huggingface": 19,
+      "hunyuan": 8,
+      "kimi": 9,
+      "meta-llama": 10,
+      "microsoft": 8,
+      "minimax": 14,
+      "nvidia": 147,
+      "openai": 127,
+      "openrouter": 18,
+      "perplexity": 4,
       "qwen": 7,
-      "xai": 21,
+      "xai": 29,
       "zhipu": 1
     },
     "by_lens_topic": {
-      "agent-ecosystem": 227,
-      "monetization": 50,
-      "product-entry": 28,
-      "workplace": 39
+      "agent-ecosystem": 280,
+      "monetization": 66,
+      "product-entry": 41,
+      "workplace": 48
     },
     "by_importance_label": {
-      "值得关注": 825,
-      "多源热议": 14,
-      "官方更新": 110,
-      "行业动态": 200
+      "值得关注": 1049,
+      "多源热议": 19,
+      "官方更新": 137,
+      "行业动态": 256
     },
     "by_source_count_bucket": {
-      "1": 1102,
-      "2": 32,
-      "3+": 15
+      "1": 1400,
+      "2": 41,
+      "3+": 20
     }
   },
   "top_stories": [
@@ -81,6 +82,35 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_a9f8b4a664f6",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "importance_score": 0.856,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_9113026e72af",
+      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "importance_score": 0.8537,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "meta-llama",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_8f1b2af00c00",
       "title": "Gilbert + Tobin 用人工智能重新思考法律业务 / Gilbert + Tobin rethinks the business of law with AI",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -101,6 +131,19 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-10",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_55a2042c2ded",
+      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+      "importance_score": 0.8493,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
       "company_topics": [
         "openai"
       ],
@@ -132,6 +175,19 @@
       ],
       "lens_topics": [
         "monetization"
+      ]
+    },
+    {
+      "story_id": "story_0aada73bf4cf",
+      "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
+      "url": "https://www.langchain.com/blog/series-c",
+      "importance_score": 0.8429,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
       ]
     },
     {
@@ -545,52 +601,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f855ab956354",
-      "title": "无缝 AI 安全：通过零代码更改将 Qwen3Guard 集成到 Higress / Seamless AI Safety: Integrating Qwen3Guard into Higress with Zero Code Changes",
-      "url": "https://www.alibabacloud.com/blog/seamless-ai-safety-integrating-qwen3guard-into-higress-with-zero-code-changes_603767",
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9b5da9dabd04",
-      "title": "阿里云AI网关智能路由现已上线 / Alibaba Cloud AI Gateway Intelligent Routing Is Now Live",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway-intelligent-routing-is-now-live_603770",
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_296ce5891f47",
-      "title": "使用阿里云AI网关锁定您的AI代理沙箱 / Alibaba Cloud AI Gateway로 AI 에이전트 샌드박스 잠그기",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-ai-gateway%EB%A1%9C-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4-%EC%9E%A0%EA%B7%B8%EA%B8%B0_603773",
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8ebc43ec328d",
-      "title": "Anthropic 官宣首次公开募股（IPO） / Our initial public offering: https://ipo.anthropic.com",
-      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
-      "importance_score": 0.8156,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
     }
   ]
 }
