@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-14T19:14:42.973761Z",
+  "generated_at": "2026-11-14T21:36:28.860018Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
@@ -13,46 +13,46 @@
     "2026-11-14",
     "2026-11-15"
   ],
-  "story_count": 1488,
-  "unique_story_count": 1374,
+  "story_count": 1462,
+  "unique_story_count": 1378,
   "counts": {
     "by_company_topic": {
-      "anthropic": 278,
-      "apple": 11,
+      "anthropic": 271,
+      "apple": 9,
       "cursor": 10,
-      "deepseek": 29,
+      "deepseek": 28,
       "doubao": 17,
-      "google-gemini": 165,
+      "google-gemini": 163,
       "huggingface": 16,
       "hunyuan": 5,
       "kimi": 10,
       "meta-llama": 10,
-      "microsoft": 11,
+      "microsoft": 10,
       "minimax": 13,
-      "nvidia": 139,
-      "openai": 143,
+      "nvidia": 135,
+      "openai": 139,
       "openrouter": 17,
       "perplexity": 9,
       "qwen": 13,
-      "xai": 29,
+      "xai": 28,
       "zhipu": 3
     },
     "by_lens_topic": {
-      "agent-ecosystem": 286,
-      "monetization": 71,
-      "product-entry": 47,
-      "workplace": 49
+      "agent-ecosystem": 281,
+      "monetization": 68,
+      "product-entry": 43,
+      "workplace": 47
     },
     "by_importance_label": {
-      "值得关注": 1093,
-      "多源热议": 24,
-      "官方更新": 147,
-      "行业动态": 224
+      "值得关注": 1069,
+      "多源热议": 25,
+      "官方更新": 146,
+      "行业动态": 222
     },
     "by_source_count_bucket": {
-      "1": 1407,
-      "2": 56,
-      "3+": 25
+      "1": 1384,
+      "2": 52,
+      "3+": 26
     }
   },
   "top_stories": [
@@ -179,19 +179,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_71bab5aec66c",
-      "title": "Goal Engineering",
-      "url": "https://www.langchain.com/blog/goal-engineering",
-      "importance_score": 0.8358,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-15",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_9113026e72af",
       "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
@@ -244,6 +231,19 @@
       ],
       "lens_topics": [
         "product-entry"
+      ]
+    },
+    {
+      "story_id": "story_71bab5aec66c",
+      "title": "Goal Engineering",
+      "url": "https://www.langchain.com/blog/goal-engineering",
+      "importance_score": 0.83,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-15",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
       ]
     },
     {
