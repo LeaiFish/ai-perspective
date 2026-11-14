@@ -6,11 +6,27 @@
   "item_count": 8,
   "listed_count": 8,
   "recent_item_count": 8,
-  "latest_title": "Runway 的开源 Praxis-1 将视频 AI 转变为机器人控制器",
-  "latest_published_at": "2026-11-14T09:45:45Z",
+  "latest_title": "斯坦福大学研究开源 Memorilla，用于冻结LLM的潜在内存模块",
+  "latest_published_at": "2026-11-14T10:21:21Z",
   "items_url": "data/topics/open-source.json",
-  "generated_at": "2026-11-14T10:15:23.923507Z",
+  "generated_at": "2026-11-14T12:17:57.870140Z",
   "items": [
+    {
+      "id": "story_3c9d2fbd58a0",
+      "story_id": "story_3c9d2fbd58a0",
+      "title": "斯坦福大学研究开源 Memorilla，用于冻结LLM的潜在内存模块",
+      "title_zh": "斯坦福大学研究开源 Memorilla，用于冻结LLM的潜在内存模块",
+      "title_en": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens",
+      "summary": "斯坦福大学的研究人员发布了 Memorilla，这是一个开源存储系统，可将文档集合压缩为冻结的 Qwen3-8B 的 16 个存储令牌。使用比完整上下文少 108 倍的文档标记，在 FactKG 上达到 84.33%。斯坦福大学研究开源备忘录（一种用于 Frozen LLM 的潜在内存模块）首先出现在 MarkTechPost 上。",
+      "recommend_reason_zh": null,
+      "source": "MarkTechPost Research",
+      "source_name": "Curated Media",
+      "site_id": "curated_media",
+      "published_at": "2026-11-14T10:21:21Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_d34ee996f9b6",
       "story_id": "story_d34ee996f9b6",
@@ -120,22 +136,6 @@
       "source_name": "AI HOT",
       "site_id": "aihot",
       "published_at": "2026-11-13T16:10:02Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_b882e8dc5d56",
-      "story_id": "story_b882e8dc5d56",
-      "title": "谷歌发布TPU Sync：用于TPU的开源KV缓存传输",
-      "title_zh": "谷歌发布TPU Sync：用于TPU的开源KV缓存传输",
-      "title_en": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-      "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library",
-      "summary": "Google 发布了 TPU Sync，这是一个开源 C++ 库，可在 TPU HBM、主机 DRAM、存储和网络之间移动 KV 缓存和权重。 Google 报告称，235B 至 480B MoE 型号的 KV 传输延迟降低了 90% 以上。 Google 发布 TPU Sync：TPU 的开源 KV 缓存传输一文首先出现在 MarkTechPost 上。",
-      "recommend_reason_zh": null,
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "site_id": "curated_media",
-      "published_at": "2026-11-13T10:32:26Z",
       "source_count": 1,
       "curated": true
     }

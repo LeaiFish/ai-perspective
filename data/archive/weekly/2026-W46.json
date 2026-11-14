@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-14T10:15:23.923507Z",
+  "generated_at": "2026-11-14T12:17:57.870140Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
@@ -12,46 +12,46 @@
     "2026-11-13",
     "2026-11-14"
   ],
-  "story_count": 1373,
-  "unique_story_count": 1323,
+  "story_count": 1349,
+  "unique_story_count": 1332,
   "counts": {
     "by_company_topic": {
-      "anthropic": 257,
+      "anthropic": 251,
       "apple": 9,
-      "cursor": 10,
+      "cursor": 9,
       "deepseek": 24,
       "doubao": 17,
-      "google-gemini": 154,
+      "google-gemini": 153,
       "huggingface": 16,
-      "hunyuan": 6,
+      "hunyuan": 5,
       "kimi": 9,
-      "meta-llama": 10,
+      "meta-llama": 8,
       "microsoft": 10,
       "minimax": 13,
-      "nvidia": 125,
-      "openai": 126,
+      "nvidia": 123,
+      "openai": 129,
       "openrouter": 17,
       "perplexity": 7,
-      "qwen": 9,
+      "qwen": 10,
       "xai": 27,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 268,
+      "agent-ecosystem": 265,
       "monetization": 65,
-      "product-entry": 42,
-      "workplace": 47
+      "product-entry": 41,
+      "workplace": 46
     },
     "by_importance_label": {
-      "值得关注": 998,
-      "多源热议": 23,
+      "值得关注": 981,
+      "多源热议": 21,
       "官方更新": 134,
-      "行业动态": 218
+      "行业动态": 213
     },
     "by_source_count_bucket": {
-      "1": 1308,
-      "2": 41,
-      "3+": 24
+      "1": 1284,
+      "2": 43,
+      "3+": 22
     }
   },
   "top_stories": [
@@ -178,6 +178,20 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_9113026e72af",
+      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "importance_score": 0.8356,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "meta-llama",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_90b08b2467a3",
       "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -244,19 +258,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_010ac45cd0c9",
-      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "importance_score": 0.8284,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_c255eae19c65",
       "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本 / MCP vs CLI vs Skills: What Each Costs in Context",
       "url": "https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills",
@@ -309,17 +310,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_105ebb2b03f0",
-      "title": "角色动作和舞蹈视频的最佳 Viggle AI 替代方案 / Best Viggle AI Alternatives for Character Motion and Dance Videos",
-      "url": "https://lumalabs.ai/news/viggle-ai-alternatives",
-      "importance_score": 0.8262,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_a8a9a02c4a75",
       "title": "DeepSeek的SuperAgent及我们的实践 / DeepSeek's SuperAgent and Our Practice",
       "url": "https://www.alibabacloud.com/blog/deepseeks-superagent-and-our-practice_603766",
@@ -350,17 +340,6 @@
       ]
     },
     {
-      "story_id": "story_7b66bf26f50a",
-      "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
-      "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
-      "importance_score": 0.8248,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_18fdcdbf4115",
       "title": "n8n 中的新增功能：公共 API 速率限制可让实例上的每个团队保持运行 / New in n8n: Public API rate limits that keep every team on your instance running",
       "url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running",
@@ -369,6 +348,19 @@
       "source_count": 1,
       "archive_date": "2026-11-13",
       "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_010ac45cd0c9",
+      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "importance_score": 0.8242,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "huggingface"
+      ],
       "lens_topics": []
     },
     {
@@ -382,23 +374,6 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_e0ce3fdbb288",
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "importance_score": 0.8232,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
       ]
     },
     {
@@ -446,10 +421,10 @@
       ]
     },
     {
-      "story_id": "story_5f7a91e06b11",
-      "title": "Luma 画布的智能整理器 / A smart organizer for your Luma canvas",
-      "url": "https://lumalabs.ai/news/ai-board-manager",
-      "importance_score": 0.8211,
+      "story_id": "story_105ebb2b03f0",
+      "title": "角色动作和舞蹈视频的最佳 Viggle AI 替代方案 / Best Viggle AI Alternatives for Character Motion and Dance Videos",
+      "url": "https://lumalabs.ai/news/viggle-ai-alternatives",
+      "importance_score": 0.8215,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
@@ -457,23 +432,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_65948bc08832",
-      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "importance_score": 0.8204,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_331799f5600b",
-      "title": "用于品牌介绍的最佳 AI 徽标动画工具 / Best AI Logo Animation Tools for Brand Intros",
-      "url": "https://lumalabs.ai/news/ai-logo-animation-tools-brand-intros",
-      "importance_score": 0.8204,
+      "story_id": "story_7b66bf26f50a",
+      "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
+      "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
+      "importance_score": 0.8202,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
@@ -490,22 +452,6 @@
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_6462d932fa5b",
-      "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
-      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "importance_score": 0.8199,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
         "microsoft"
       ],
       "lens_topics": [
@@ -544,17 +490,6 @@
       ]
     },
     {
-      "story_id": "story_99ebfa334cb7",
-      "title": "具有原生音频和声音的最佳人工智能视频生成器 / Best AI Video Generators With Native Audio and Sound",
-      "url": "https://lumalabs.ai/news/ai-video-generators-native-audio-sound",
-      "importance_score": 0.8194,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_44f4f8e1b980",
       "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off",
       "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
@@ -582,6 +517,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_e0ce3fdbb288",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "importance_score": 0.819,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "google-gemini",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_16ea0c072ea5",
       "title": "元宝 2.93.0 官方版本更新",
       "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
@@ -593,6 +545,60 @@
         "hunyuan"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_7b025f7e40fb",
+      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
+      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_2f35e509d321",
+      "title": "阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars",
+      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_112a9d324124",
+      "title": "网关延迟降低97.1%：开源Higress vs 阿里云AI网关无服务器企业版 / 97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition",
+      "url": "https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780",
+      "importance_score": 0.8187,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_ad1ef7aac19f",
+      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "importance_score": 0.8184,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     }
   ]
 }
