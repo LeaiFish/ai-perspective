@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-13T22:43:11.943474Z",
+  "generated_at": "2026-11-14T03:13:27.747022Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
@@ -12,45 +12,45 @@
     "2026-11-13",
     "2026-11-14"
   ],
-  "story_count": 1412,
-  "unique_story_count": 1264,
+  "story_count": 1387,
+  "unique_story_count": 1295,
   "counts": {
     "by_company_topic": {
-      "anthropic": 263,
-      "apple": 11,
-      "cursor": 8,
+      "anthropic": 262,
+      "apple": 9,
+      "cursor": 10,
       "deepseek": 24,
       "doubao": 17,
-      "google-gemini": 160,
-      "huggingface": 17,
-      "hunyuan": 8,
+      "google-gemini": 155,
+      "huggingface": 16,
+      "hunyuan": 7,
       "kimi": 9,
       "meta-llama": 10,
       "microsoft": 10,
-      "minimax": 14,
-      "nvidia": 137,
-      "openai": 131,
-      "openrouter": 18,
-      "perplexity": 6,
-      "qwen": 7,
+      "minimax": 13,
+      "nvidia": 130,
+      "openai": 129,
+      "openrouter": 17,
+      "perplexity": 7,
+      "qwen": 8,
       "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 275,
-      "monetization": 68,
-      "product-entry": 47,
+      "agent-ecosystem": 268,
+      "monetization": 65,
+      "product-entry": 44,
       "workplace": 48
     },
     "by_importance_label": {
-      "值得关注": 1002,
+      "值得关注": 992,
       "多源热议": 21,
-      "官方更新": 133,
-      "行业动态": 256
+      "官方更新": 134,
+      "行业动态": 240
     },
     "by_source_count_bucket": {
-      "1": 1348,
-      "2": 42,
+      "1": 1324,
+      "2": 41,
       "3+": 22
     }
   },
@@ -82,19 +82,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_010ac45cd0c9",
-      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "importance_score": 0.8542,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_8f1b2af00c00",
       "title": "Gilbert + Tobin 用人工智能重新思考法律业务 / Gilbert + Tobin rethinks the business of law with AI",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -119,23 +106,6 @@
         "openai"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_e0ce3fdbb288",
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "importance_score": 0.8491,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
     },
     {
       "story_id": "story_8d6545f9d797",
@@ -166,32 +136,27 @@
       ]
     },
     {
-      "story_id": "story_6462d932fa5b",
-      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "importance_score": 0.8467,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_65948bc08832",
-      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "importance_score": 0.8458,
+      "story_id": "story_010ac45cd0c9",
+      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "importance_score": 0.8436,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
       "company_topics": [
         "huggingface"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7b66bf26f50a",
+      "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
+      "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
+      "importance_score": 0.842,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -204,36 +169,6 @@
       "archive_date": "2026-11-13",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_ce1046eebd38",
-      "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "importance_score": 0.8412,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_a9f8b4a664f6",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "importance_score": 0.841,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_3f407db2138d",
@@ -252,30 +187,31 @@
       ]
     },
     {
-      "story_id": "story_9113026e72af",
-      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "importance_score": 0.8389,
+      "story_id": "story_e0ce3fdbb288",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "importance_score": 0.8385,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
       "company_topics": [
-        "meta-llama",
-        "huggingface"
+        "google-gemini",
+        "microsoft"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
-      "story_id": "story_a734d725262c",
-      "title": "将 Google 钱包连接到 Gemini 以获得个人财务见解 / Connect Google Wallet to Gemini for personal finance insights",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
-      "importance_score": 0.8377,
+      "story_id": "story_5f7a91e06b11",
+      "title": "Luma 画布的智能整理器 / A smart organizer for your Luma canvas",
+      "url": "https://lumalabs.ai/news/ai-board-manager",
+      "importance_score": 0.8378,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-14",
-      "company_topics": [
-        "google-gemini"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -294,6 +230,79 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_331799f5600b",
+      "title": "用于品牌介绍的最佳 AI 徽标动画工具 / Best AI Logo Animation Tools for Brand Intros",
+      "url": "https://lumalabs.ai/news/ai-logo-animation-tools-brand-intros",
+      "importance_score": 0.8371,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_99ebfa334cb7",
+      "title": "具有原生音频和声音的最佳人工智能视频生成器 / Best AI Video Generators With Native Audio and Sound",
+      "url": "https://lumalabs.ai/news/ai-video-generators-native-audio-sound",
+      "importance_score": 0.836,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6462d932fa5b",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "importance_score": 0.8357,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_65948bc08832",
+      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "importance_score": 0.8354,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_1c05846eb405",
+      "title": "适合电影制作人和剪辑师的最佳人工智能视觉特效工具 / Best AI VFX Tools for Filmmakers and Editors",
+      "url": "https://lumalabs.ai/news/ai-vfx-tools-filmmakers-editors",
+      "importance_score": 0.8352,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_4e7f3fab4ff1",
+      "title": "用于产品和包装镜头的最佳 AI 模型生成器 / Best AI Mockup Generators for Product and Packaging Shots",
+      "url": "https://lumalabs.ai/news/ai-mockup-generators-product-packaging-shots",
+      "importance_score": 0.8345,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_90b08b2467a3",
       "title": "体验 Esther Mahlangu 博士的艺术和遗产 / Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -303,19 +312,6 @@
       "archive_date": "2026-11-11",
       "company_topics": [
         "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_55a2042c2ded",
-      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
-      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-      "importance_score": 0.8342,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [
-        "openai"
       ],
       "lens_topics": []
     },
@@ -331,6 +327,36 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_a9f8b4a664f6",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "importance_score": 0.8309,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_ce1046eebd38",
+      "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "importance_score": 0.8306,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
     },
     {
       "story_id": "story_5808c969be18",
@@ -357,6 +383,20 @@
       "archive_date": "2026-11-10",
       "company_topics": [
         "nvidia",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9113026e72af",
+      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "importance_score": 0.8289,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "meta-llama",
         "huggingface"
       ],
       "lens_topics": []
@@ -399,19 +439,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_0aada73bf4cf",
-      "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
-      "url": "https://www.langchain.com/blog/series-c",
-      "importance_score": 0.8276,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-14",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_90c2f4d19eb5",
       "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供 / ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -421,6 +448,19 @@
       "archive_date": "2026-11-10",
       "company_topics": [
         "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_a734d725262c",
+      "title": "将 Google 钱包连接到 Gemini 以获得个人财务见解 / Connect Google Wallet to Gemini for personal finance insights",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
+      "importance_score": 0.8273,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -479,6 +519,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_55a2042c2ded",
+      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+      "importance_score": 0.824,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-14",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_1bbf09c00307",
       "title": "使用阿里云AI网关锁定AI Agent沙箱 / Locking Down AI Agent Sandbox with Alibaba Cloud AI Gateway",
       "url": "https://www.alibabacloud.com/blog/locking-down-ai-agent-sandbox-with-alibaba-cloud-ai-gateway_603772",
@@ -534,80 +587,6 @@
       "lens_topics": [
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_4fe19f6777ba",
-      "title": "Gemini 4 Carbon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
-      "importance_score": 0.8201,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [
-        "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_2596fc24f82e",
-      "title": "阿里云DevOps AI助手更新：DevOps协作各个阶段的AI / Alibaba Cloud DevOps AI Assistant Update: AI at Every Stage of DevOps Collaboration",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-devops-ai-assistant-update-ai-at-every-stage-of-devops-collaboration_603760",
-      "importance_score": 0.8196,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-11",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e5a94f810129",
-      "title": "将您的业务环境引入 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot / Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
-      "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
-      "importance_score": 0.8194,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai",
-        "anthropic",
-        "xai",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "product-entry",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_44f4f8e1b980",
-      "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本 / Self-Hosted LLM vs API: When Does Self-Hosting Pay Off",
-      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
-      "importance_score": 0.8193,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "qwen",
-        "openrouter"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_26772b93fcab",
-      "title": "支持人工智能和儿童安全研究 / Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "importance_score": 0.8193,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-12",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
     }
   ]
 }
