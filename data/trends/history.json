@@ -1,6 +1,6 @@
 {
   "schema": "radar_trend_history_v1",
-  "latest_report_id": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82",
+  "latest_report_id": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
   "directions": {
     "ongoing-assistance": "持续任务与主动跟进",
     "shared-deliverables": "成果修改、分享与维护",
@@ -1323,12 +1323,76 @@
         }
       },
       "overview": []
+    },
+    {
+      "report_id": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
+      "kind": "daily",
+      "generated_at": "2026-11-14T03:21:47.502699+00:00",
+      "period_start": "2026-11-13T03:13:27.747022Z",
+      "period_end": "2026-11-14T03:13:27.747022Z",
+      "path": "trends/daily/2026-11-14.json",
+      "companies": {
+        "doubao": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "qwen": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "enterprise-rollout"
+          ]
+        },
+        "hunyuan": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "mobile-entry"
+          ]
+        },
+        "openai": {
+          "type": "strengthened",
+          "changed": true,
+          "direction_ids": [
+            "ongoing-assistance",
+            "enterprise-rollout"
+          ]
+        },
+        "anthropic": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "ongoing-assistance"
+          ]
+        },
+        "xai": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "enterprise-rollout"
+          ]
+        },
+        "google-gemini": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "personal-context"
+          ]
+        },
+        "meta-llama": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        }
+      },
+      "overview": []
     }
   ],
   "latest_signals": {
     "ongoing-assistance": {
-      "openai": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82",
-      "anthropic": "7322ef2d24d8893959c23ae2d7830fb0f2922c293e95508751627c8820f62d26",
+      "openai": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
+      "anthropic": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
       "xai": "14c5a6c0aac61000480cb589179ac0bfb42ca02ffbad9de3b7a9743f3a68c95b",
       "doubao": "40b6821788b87b4afd42fd78fa5359261f2b9353aca905e11b26cfa2dd25b219",
       "qwen": "ff98d2874c02d74573216e2d9b7fbf4842a2ffd0f32ecec730a9e3558d13ca7b",
@@ -1352,7 +1416,7 @@
       "google-gemini": "77aaf274648ca22da198ee09bd7b5851f10398d5089e770c70997bf1ccfc609e"
     },
     "personal-context": {
-      "google-gemini": "7322ef2d24d8893959c23ae2d7830fb0f2922c293e95508751627c8820f62d26",
+      "google-gemini": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
       "qwen": "7a85ac17f6642148131d2729a59817355edcfb3d98c5dc44c13a227767a0838f",
       "openai": "a607b7bea9bed9fc720632f633291ceeae9e1906114898547375a04e2211b0ce",
       "hunyuan": "ff98d2874c02d74573216e2d9b7fbf4842a2ffd0f32ecec730a9e3558d13ca7b",
@@ -1365,14 +1429,14 @@
       "meta-llama": "a607b7bea9bed9fc720632f633291ceeae9e1906114898547375a04e2211b0ce",
       "openai": "a607b7bea9bed9fc720632f633291ceeae9e1906114898547375a04e2211b0ce",
       "google-gemini": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82",
-      "hunyuan": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82"
+      "hunyuan": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7"
     },
     "enterprise-rollout": {
-      "xai": "ff98d2874c02d74573216e2d9b7fbf4842a2ffd0f32ecec730a9e3558d13ca7b",
-      "openai": "40b6821788b87b4afd42fd78fa5359261f2b9353aca905e11b26cfa2dd25b219",
+      "xai": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
+      "openai": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
       "anthropic": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82",
       "doubao": "397df726bb8e3f35235e9d563928eb18435eacf8512b65aee7eb19f579c53844",
-      "qwen": "08644344d3cc9b02cb12f83590a7260035721597cf1d98957d55c50c11128d82"
+      "qwen": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7"
     },
     "commercialization": {
       "openai": "7a85ac17f6642148131d2729a59817355edcfb3d98c5dc44c13a227767a0838f",
