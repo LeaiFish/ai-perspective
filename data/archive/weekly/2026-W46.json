@@ -4,54 +4,55 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-14T12:17:57.870140Z",
+  "generated_at": "2026-11-14T19:14:42.973761Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
-  "story_count": 1349,
-  "unique_story_count": 1332,
+  "story_count": 1488,
+  "unique_story_count": 1374,
   "counts": {
     "by_company_topic": {
-      "anthropic": 251,
-      "apple": 9,
-      "cursor": 9,
-      "deepseek": 24,
+      "anthropic": 278,
+      "apple": 11,
+      "cursor": 10,
+      "deepseek": 29,
       "doubao": 17,
-      "google-gemini": 153,
+      "google-gemini": 165,
       "huggingface": 16,
       "hunyuan": 5,
-      "kimi": 9,
-      "meta-llama": 8,
-      "microsoft": 10,
+      "kimi": 10,
+      "meta-llama": 10,
+      "microsoft": 11,
       "minimax": 13,
-      "nvidia": 123,
-      "openai": 129,
+      "nvidia": 139,
+      "openai": 143,
       "openrouter": 17,
-      "perplexity": 7,
-      "qwen": 10,
-      "xai": 27,
-      "zhipu": 2
+      "perplexity": 9,
+      "qwen": 13,
+      "xai": 29,
+      "zhipu": 3
     },
     "by_lens_topic": {
-      "agent-ecosystem": 265,
-      "monetization": 65,
-      "product-entry": 41,
-      "workplace": 46
+      "agent-ecosystem": 286,
+      "monetization": 71,
+      "product-entry": 47,
+      "workplace": 49
     },
     "by_importance_label": {
-      "值得关注": 981,
-      "多源热议": 21,
-      "官方更新": 134,
-      "行业动态": 213
+      "值得关注": 1093,
+      "多源热议": 24,
+      "官方更新": 147,
+      "行业动态": 224
     },
     "by_source_count_bucket": {
-      "1": 1284,
-      "2": 43,
-      "3+": 22
+      "1": 1407,
+      "2": 56,
+      "3+": 25
     }
   },
   "top_stories": [
@@ -176,6 +177,19 @@
         "openrouter"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_71bab5aec66c",
+      "title": "Goal Engineering",
+      "url": "https://www.langchain.com/blog/goal-engineering",
+      "importance_score": 0.8358,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-15",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_9113026e72af",
@@ -585,19 +599,6 @@
       "company_topics": [],
       "lens_topics": [
         "monetization"
-      ]
-    },
-    {
-      "story_id": "story_ad1ef7aac19f",
-      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "importance_score": 0.8184,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-13",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
       ]
     }
   ]
