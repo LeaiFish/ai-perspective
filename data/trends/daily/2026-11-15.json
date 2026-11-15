@@ -1,0 +1,671 @@
+{
+  "kind": "daily",
+  "period_start": "2026-11-14T02:48:20.538347Z",
+  "period_end": "2026-11-15T02:48:20.538347Z",
+  "source_snapshot_at": "2026-11-15T02:48:20.538347Z",
+  "input_id": "0ac2d6a4bf9c153247149bbbc97c42631440d4bceff46e2778ac6c79e730f79c",
+  "previous_report_id": "31e40ae29840064d723817595250addec1d031c76609f64445e629ae65552ef7",
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-15T03:14:28.670651+00:00",
+  "companies": {
+    "doubao": {
+      "state": "unchanged",
+      "reason": "第三方模型和额度倍率已进入正文。新候选中的 Seedance 2.5 Flash 指向火山引擎视频模型，未核实豆包应用入口变化；应用教程未提供可核验的新发布。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "复核豆包工作的模型与额度菜单",
+        "summary": "第三方模型与额度倍率属于已记录的工作台更新。",
+        "evidence_ids": [
+          "doubao-work-models-confirm-nov15"
+        ]
+      },
+      "events": []
+    },
+    "qwen": {
+      "state": "updated",
+      "reason": "健康档案增加经授权持续同步的设备数据，扩充千问 App 可用的个人资料。办公的组织交办和授权路径延续，健康入口的设备与开放范围仍待核对。",
+      "judgment": {
+        "headline": "千问办公按组织权限交办，个人健康档案接入连续读数",
+        "summary": "千问办公可按消息、审批或待办触发任务，共用资料并接续人已修改的成果。手机可访问同组织内已授权电脑，协作空间使用钉钉须单独同意，企业后台可同步成员和管理应用授权。AI Office 分批提供端内编辑，国行 Apple 智能集成仍属开发者预览。千问 Go! 接入 Qwen4-Max 预览，专属应用和云端 Pro 仍属邀测。据 AIbase，千问 App 健康档案经用户授权可同步动态血糖仪读数，并结合饮食、运动和作息记录回答变化相关问题。",
+        "evidence_ids": [
+          "qwen-work-20-recheck-nov15",
+          "qwen-work-consent-recheck-nov15",
+          "qwen-work-scim-recheck-nov15",
+          "qwen-office-edit-recheck-nov15",
+          "qwen-apple-cn-recheck-nov15",
+          "qwen-go-preview-recheck-nov15",
+          "qwen-go-invite-recheck-nov15",
+          "qwen-health-cgm-nov14"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "团队可按事件交办并接续产物",
+          "summary": "消息、审批或待办可触发任务，团队可把已有资料加入新任务，手机可连接同组织的授权电脑。",
+          "evidence_ids": [
+            "qwen-work-20-recheck-nov15"
+          ]
+        },
+        {
+          "headline": "空间授权和企业成员管理各有入口",
+          "summary": "钉钉连接后仍需同意空间授权，企业后台可同步成员和管理应用授权。",
+          "evidence_ids": [
+            "qwen-work-consent-recheck-nov15",
+            "qwen-work-scim-recheck-nov15"
+          ]
+        },
+        {
+          "headline": "端内文件编辑和专属应用按条件开放",
+          "summary": "AI Office 分批提供端内编辑，千问 Go! 的专属应用和云设备代办仍按邀测记录。",
+          "evidence_ids": [
+            "qwen-office-edit-recheck-nov15",
+            "qwen-go-invite-recheck-nov15"
+          ]
+        },
+        {
+          "headline": "个人健康档案接入连续设备读数",
+          "summary": "据媒体报道，授权后可查看血糖曲线与每日概览，并结合个人记录询问变化。",
+          "evidence_ids": [
+            "qwen-health-cgm-nov14"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "千问健康档案可接入动态血糖仪",
+        "summary": "据 AIbase，用户授权连接后，可在千问 App 查看同步读数、曲线和每日概览，并询问血糖变化。支持设备与开放范围仍待核对。",
+        "evidence_ids": [
+          "qwen-health-cgm-nov14"
+        ]
+      },
+      "events": [
+        {
+          "headline": "千问健康档案可接入动态血糖仪",
+          "summary": "据 AIbase，用户授权连接后，可在千问 App 查看同步读数、曲线和每日概览，并询问血糖变化。支持设备与开放范围仍待核对。",
+          "evidence_ids": [
+            "qwen-health-cgm-nov14"
+          ],
+          "event_id": "qwen-health-profile-cgm-nov14",
+          "status": "supplement"
+        }
+      ]
+    },
+    "hunyuan": {
+      "state": "unchanged",
+      "reason": "元宝 2.93.0 首页和商品列表入口、元宝通话接入新语音均已写入正文。模型能力报道仍未给出通话工具的应用开放边界。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "复核元宝的商品入口与语音范围",
+        "summary": "版本记录仍列有商品卡直达列表。实时语音的模型能力与元宝通话实际可用范围仍需核对。",
+        "evidence_ids": [
+          "yuanbao-2930-recheck-nov15",
+          "yuanbao-voice-recheck-nov15"
+        ]
+      },
+      "events": []
+    },
+    "openai": {
+      "state": "unchanged",
+      "reason": "钱包报道回到已记录的同一开放事件。官方更新日志已覆盖逐笔确认、用户资格及以商家确认为准的边界，第三方工具或案例未显示 App 新入口。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "复核 Dot 钱包的开放与确认条件",
+        "summary": "符合条件的美国成年 Pro 用户分批获得 Wallet；Dot 结账前由用户逐笔确认，订单以商家确认为准。",
+        "evidence_ids": [
+          "chatgpt-wallet-recheck-nov15"
+        ]
+      },
+      "events": []
+    },
+    "anthropic": {
+      "state": "unchanged",
+      "reason": "Claude Meetings 的会中产物已进入正文。新架构指南说明事件、定时与记忆设计，未公告新的终端应用能力。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "Claude 会议公测仍以会中成果为主",
+        "summary": "官方更新日志确认可在 Google Meet 会中记要、答问并起草文档等成果。持续运行架构指南属于开发资料。",
+        "evidence_ids": [
+          "claude-meetings-recheck-nov15",
+          "claude-always-on-guide-nov13"
+        ]
+      },
+      "events": []
+    },
+    "xai": {
+      "state": "unchanged",
+      "reason": "会中答问、会后摘要和团队套餐已写入正文。第三方称 Super 也可参会，官方帮助页仍列较窄范围，社交原帖未能回读，暂缓确认实际套餐扩展。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "Grok Bot 参会套餐范围待核",
+        "summary": "官方帮助页仍列 Team、Enterprise 和 Ultra。关于 Super 的说法待官方说明或可核验开放记录。",
+        "evidence_ids": [
+          "grok-meetings-doc-recheck-nov15",
+          "grok-super-meetings-report-nov14"
+        ]
+      },
+      "events": []
+    },
+    "google-gemini": {
+      "state": "unchanged",
+      "reason": "消费资料授权与可编辑记忆摘要均已纳入正文。后续报道回到同一官方发布，个人体验文章未显示新的开放范围或入口。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "Gemini 复核支出查询与记忆摘要",
+        "summary": "美国用户可在分批开放后连接 Wallet，Personal Intelligence 用户可查看并调整记忆摘要。",
+        "evidence_ids": [
+          "gemini-wallet-recheck-nov15"
+        ]
+      },
+      "events": []
+    },
+    "meta-llama": {
+      "state": "unchanged",
+      "reason": "美国付费外呼已纳入正文，并保留实际完成情况待核。后续报道的接听个案补充同一事件的执行限制，未证实新的开放范围或改变现有判断。",
+      "judgment": null,
+      "changes": null,
+      "digest": {
+        "headline": "Muse 商家外呼补充接听限制",
+        "summary": "媒体补充了联系服务商和预约等用途，也报道了个别接听方在识别到 AI 语音后挂断。任务完成率仍缺可比较数据。",
+        "evidence_ids": [
+          "muse-business-calls-ithome-nov14"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Muse 商家外呼补充接听限制",
+          "summary": "媒体补充了联系服务商和预约等用途，也报道了个别接听方在识别到 AI 语音后挂断。任务完成率仍缺可比较数据。",
+          "evidence_ids": [
+            "muse-business-calls-ithome-nov14"
+          ],
+          "event_id": "muse-us-paid-business-calls-nov12",
+          "status": "supplement"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "doubao-work-models-confirm-nov15",
+      "url": "https://www.ithome.com/1/025/926.htm",
+      "title": "豆包工作扩充模型选项和额度倍率显示",
+      "source": "IT之家",
+      "published_at": "2026-11-12T11:34:02+08:00",
+      "event_at": "2026-11-12",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体转述产品更新，支持模型菜单和额度倍率的判断。"
+    },
+    {
+      "id": "qwen-health-cgm-nov14",
+      "url": "https://news.aibase.cn/news/32323",
+      "title": "千问健康档案接入动态血糖仪",
+      "source": "AIbase",
+      "published_at": "2026-11-14T14:43:00+08:00",
+      "event_at": "2026-11-14",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文有产品截图和流程描述。上线时点仅到日，公众号正文和支持的设备范围未核实。"
+    },
+    {
+      "id": "qwen-work-20-recheck-nov15",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+      "title": "千问办公 2.0 协作与跨端任务",
+      "source": "千问办公更新日志",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方日志说明资料空间沿用权限、手机远程控制和接续任务。"
+    },
+    {
+      "id": "qwen-work-consent-recheck-nov15",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-11",
+      "title": "千问办公钉钉空间授权",
+      "source": "千问办公更新日志",
+      "published_at": "2026-11-11",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "钉钉连接和协作空间授权分开，可另行撤回。"
+    },
+    {
+      "id": "qwen-work-scim-recheck-nov15",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-10",
+      "title": "企业成员同步与应用授权",
+      "source": "千问办公更新日志",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方日志列有 SCIM 2.0、撤销阿里云授权和合资格员工授权安装。"
+    },
+    {
+      "id": "qwen-go-preview-recheck-nov15",
+      "url": "https://sina.cn/news/detail/5364043280026413.html",
+      "title": "千问 Go! 接入 Qwen4-Max 预览",
+      "source": "千问官方微博",
+      "published_at": "2026-11-11T12:24:00+08:00",
+      "event_at": "2026-11-11",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "认证账号确认模型在千问 App 内的千问 Go! 预览入口。"
+    },
+    {
+      "id": "qwen-go-invite-recheck-nov15",
+      "url": "https://www.ithome.com/1/025/610.htm",
+      "title": "千问 Go! 邀测入口与会员权益",
+      "source": "IT之家",
+      "published_at": "2026-11-11T17:09:18+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体描述我的应用与云端 Pro 的邀测条件。"
+    },
+    {
+      "id": "qwen-office-edit-recheck-nov15",
+      "url": "https://www.aibase.com/news/32115",
+      "title": "千问 AI Office 提供端内编辑和模板",
+      "source": "AIbase",
+      "published_at": "2026-11-05",
+      "event_at": "2026-11-05",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体描述文档、表格和演示文稿编辑分批开放。"
+    },
+    {
+      "id": "qwen-apple-cn-recheck-nov15",
+      "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+      "title": "Apple 公布国行智能开发者预览及千问集成",
+      "source": "Apple 新闻中心",
+      "published_at": "2026-10-31",
+      "event_at": "2026-10-31",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方公告列明 11 月 4 日起测试和千问在系统写作工具的用途。"
+    },
+    {
+      "id": "yuanbao-2930-recheck-nov15",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
+      "title": "元宝 2.93.0 版本说明",
+      "source": "腾讯 App Store 版本说明",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "页面只有相对发布时间，保留日期未知。"
+    },
+    {
+      "id": "yuanbao-voice-recheck-nov15",
+      "url": "https://www.aibase.com/news/32320",
+      "title": "混元实时语音在元宝通话中的接入",
+      "source": "AIbase",
+      "published_at": "2026-11-13",
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体确认元宝通话接入，未给新语音工具在 App 中的覆盖范围。"
+    },
+    {
+      "id": "chatgpt-wallet-recheck-nov15",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Wallet 分批开放条件",
+      "source": "OpenAI 更新日志",
+      "published_at": "2026-11-13",
+      "event_at": "2026-11-13",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方更新记录说明逐笔审核和生物验证，以及美国成年 Pro 用户的条件。"
+    },
+    {
+      "id": "claude-meetings-recheck-nov15",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "title": "Claude Meetings 公测开放条件",
+      "source": "Anthropic 帮助中心",
+      "published_at": "2026-11-12",
+      "event_at": "2026-11-12",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方日志给出 Team 和 Enterprise 测试，以及 Google Meet 会中产物。"
+    },
+    {
+      "id": "claude-always-on-guide-nov13",
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "title": "Anthropic 持续运行智能体架构指南",
+      "source": "Anthropic",
+      "published_at": "2026-11-13",
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "开发架构指南，没有宣布 Claude App 新增对用户开放的功能。"
+    },
+    {
+      "id": "grok-meetings-doc-recheck-nov15",
+      "url": "https://docs.x.ai/grok-bot/meetings",
+      "title": "Grok Bot 参会帮助与套餐范围",
+      "source": "SpaceXSI 帮助文档",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "当前官方文档仍列 Team、Enterprise 和 Ultra。"
+    },
+    {
+      "id": "grok-super-meetings-report-nov14",
+      "url": "https://grokbot.guru/grok-bot-meetings-super-plan/",
+      "title": "第三方报道 Grok Bot 会议可能覆盖 Super",
+      "source": "grokbot.guru",
+      "published_at": "2026-11-14",
+      "event_at": null,
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "转述社交发帖，与官方帮助页套餐列表有出入，社交原帖不可访问。"
+    },
+    {
+      "id": "gemini-wallet-recheck-nov15",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "title": "Gemini 接入 Google Wallet 并提供记忆摘要",
+      "source": "Google 官方博客",
+      "published_at": "2026-11-13T17:00:00Z",
+      "event_at": "2026-11-13",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方文章说明美国分批开放和记忆摘要编辑范围。"
+    },
+    {
+      "id": "muse-business-calls-ithome-nov14",
+      "url": "https://www.ithome.com/1/027/238.htm",
+      "title": "Muse 商家外呼与接听限制的报道",
+      "source": "IT之家",
+      "published_at": "2026-11-14T21:46:56+08:00",
+      "event_at": "2026-11-12",
+      "verified_at": "2026-11-15T03:14:28.670651+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "后续报道对应已归档的美国付费外呼，提及拒接个案，无代表性样本。"
+    }
+  ],
+  "overview": null,
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "continued",
+        "reason": "第三方模型和额度倍率已进入正文。新候选中的 Seedance 2.5 Flash 指向火山引擎视频模型，未核实豆包应用入口变化；应用教程未提供可核验的新发布。",
+        "evidence_ids": [
+          "doubao-work-models-confirm-nov15"
+        ],
+        "signals": [
+          {
+            "direction_id": "commercialization",
+            "type": "continued",
+            "summary": "豆包工作把手动选模和用量倍率放进同一菜单。",
+            "stage": "available",
+            "evidence_ids": [
+              "doubao-work-models-confirm-nov15"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "第三方模型和额度倍率已进入正文。新候选中的 Seedance 2.5 Flash 指向火山引擎视频模型，未核实豆包应用入口变化；应用教程未提供可核验的新发布。",
+          "event_ids": []
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "健康档案增加经授权持续同步的设备数据，扩充千问 App 可用的个人资料。办公的组织交办和授权路径延续，健康入口的设备与开放范围仍待核对。",
+        "evidence_ids": [
+          "qwen-health-cgm-nov14",
+          "qwen-work-20-recheck-nov15",
+          "qwen-work-consent-recheck-nov15",
+          "qwen-work-scim-recheck-nov15",
+          "qwen-office-edit-recheck-nov15",
+          "qwen-apple-cn-recheck-nov15",
+          "qwen-go-preview-recheck-nov15",
+          "qwen-go-invite-recheck-nov15"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "summary": "据媒体公开流程，千问 App 健康档案可引入经授权连续同步的设备读数。",
+            "stage": "available",
+            "evidence_ids": [
+              "qwen-health-cgm-nov14"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "健康档案增加经授权持续同步的设备数据，扩充千问 App 可用的个人资料。办公的组织交办和授权路径延续，健康入口的设备与开放范围仍待核对。",
+          "event_ids": [
+            "qwen-health-profile-cgm-nov14"
+          ]
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "元宝 2.93.0 首页和商品列表入口、元宝通话接入新语音均已写入正文。模型能力报道仍未给出通话工具的应用开放边界。",
+        "evidence_ids": [
+          "yuanbao-2930-recheck-nov15",
+          "yuanbao-voice-recheck-nov15"
+        ],
+        "signals": [
+          {
+            "direction_id": "mobile-entry",
+            "type": "continued",
+            "summary": "元宝 iOS 首页商品展示可直接进入列表。",
+            "stage": "available",
+            "evidence_ids": [
+              "yuanbao-2930-recheck-nov15",
+              "yuanbao-voice-recheck-nov15"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "元宝 2.93.0 首页和商品列表入口、元宝通话接入新语音均已写入正文。模型能力报道仍未给出通话工具的应用开放边界。",
+          "event_ids": []
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "钱包报道回到已记录的同一开放事件。官方更新日志已覆盖逐笔确认、用户资格及以商家确认为准的边界，第三方工具或案例未显示 App 新入口。",
+        "evidence_ids": [
+          "chatgpt-wallet-recheck-nov15"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "Dot 在支持的商家可接续用户已确认的结账。",
+            "stage": "available",
+            "evidence_ids": [
+              "chatgpt-wallet-recheck-nov15"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "钱包报道回到已记录的同一开放事件。官方更新日志已覆盖逐笔确认、用户资格及以商家确认为准的边界，第三方工具或案例未显示 App 新入口。",
+          "event_ids": []
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "Claude Meetings 的会中产物已进入正文。新架构指南说明事件、定时与记忆设计，未公告新的终端应用能力。",
+        "evidence_ids": [
+          "claude-meetings-recheck-nov15",
+          "claude-always-on-guide-nov13"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "Claude Meetings 在测试中可边开会边起草团队成果。",
+            "stage": "preview",
+            "evidence_ids": [
+              "claude-meetings-recheck-nov15",
+              "claude-always-on-guide-nov13"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "Claude Meetings 的会中产物已进入正文。新架构指南说明事件、定时与记忆设计，未公告新的终端应用能力。",
+          "event_ids": []
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "会中答问、会后摘要和团队套餐已写入正文。第三方称 Super 也可参会，官方帮助页仍列较窄范围，社交原帖未能回读，暂缓确认实际套餐扩展。",
+        "evidence_ids": [
+          "grok-meetings-doc-recheck-nov15",
+          "grok-super-meetings-report-nov14"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "Grok Bot 在官方文档所列套餐上可参会和发出会后摘要。",
+            "stage": "available",
+            "evidence_ids": [
+              "grok-meetings-doc-recheck-nov15",
+              "grok-super-meetings-report-nov14"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "会中答问、会后摘要和团队套餐已写入正文。第三方称 Super 也可参会，官方帮助页仍列较窄范围，社交原帖未能回读，暂缓确认实际套餐扩展。",
+          "event_ids": []
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "消费资料授权与可编辑记忆摘要均已纳入正文。后续报道回到同一官方发布，个人体验文章未显示新的开放范围或入口。",
+        "evidence_ids": [
+          "gemini-wallet-recheck-nov15"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "summary": "Gemini 可调用经授权的消费资料，记忆摘要可由用户调整。",
+            "stage": "available",
+            "evidence_ids": [
+              "gemini-wallet-recheck-nov15"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "消费资料授权与可编辑记忆摘要均已纳入正文。后续报道回到同一官方发布，个人体验文章未显示新的开放范围或入口。",
+          "event_ids": []
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "美国付费外呼已纳入正文，并保留实际完成情况待核。后续报道的接听个案补充同一事件的执行限制，未证实新的开放范围或改变现有判断。",
+        "evidence_ids": [
+          "muse-business-calls-ithome-nov14"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "美国付费用户可委托 Muse 向商家拨号，完成情况仍需观察。",
+            "stage": "available",
+            "evidence_ids": [
+              "muse-business-calls-ithome-nov14"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "美国付费外呼已纳入正文，并保留实际完成情况待核。后续报道的接听个案补充同一事件的执行限制，未证实新的开放范围或改变现有判断。",
+          "event_ids": [
+            "muse-us-paid-business-calls-nov12"
+          ]
+        }
+      }
+    },
+    "overview": []
+  },
+  "report_id": "8baf69b512b8fadf814432f2cfce902b053995c246d26fcbc3f77d0d2444a966"
+}
