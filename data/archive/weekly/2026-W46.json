@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "generated_at": "2026-11-14T21:36:28.860018Z",
+  "generated_at": "2026-11-15T02:48:20.538347Z",
   "daily_dates": [
     "2026-11-10",
     "2026-11-11",
@@ -13,46 +13,46 @@
     "2026-11-14",
     "2026-11-15"
   ],
-  "story_count": 1462,
-  "unique_story_count": 1378,
+  "story_count": 1442,
+  "unique_story_count": 1392,
   "counts": {
     "by_company_topic": {
-      "anthropic": 271,
+      "anthropic": 265,
       "apple": 9,
-      "cursor": 10,
-      "deepseek": 28,
+      "cursor": 9,
+      "deepseek": 27,
       "doubao": 17,
-      "google-gemini": 163,
+      "google-gemini": 167,
       "huggingface": 16,
       "hunyuan": 5,
-      "kimi": 10,
+      "kimi": 9,
       "meta-llama": 10,
       "microsoft": 10,
       "minimax": 13,
       "nvidia": 135,
       "openai": 139,
       "openrouter": 17,
-      "perplexity": 9,
+      "perplexity": 7,
       "qwen": 13,
       "xai": 28,
       "zhipu": 3
     },
     "by_lens_topic": {
       "agent-ecosystem": 281,
-      "monetization": 68,
+      "monetization": 66,
       "product-entry": 43,
-      "workplace": 47
+      "workplace": 46
     },
     "by_importance_label": {
-      "值得关注": 1069,
-      "多源热议": 25,
-      "官方更新": 146,
-      "行业动态": 222
+      "值得关注": 1063,
+      "多源热议": 24,
+      "官方更新": 136,
+      "行业动态": 219
     },
     "by_source_count_bucket": {
-      "1": 1384,
-      "2": 52,
-      "3+": 26
+      "1": 1369,
+      "2": 48,
+      "3+": 25
     }
   },
   "top_stories": [
@@ -231,19 +231,6 @@
       ],
       "lens_topics": [
         "product-entry"
-      ]
-    },
-    {
-      "story_id": "story_71bab5aec66c",
-      "title": "Goal Engineering",
-      "url": "https://www.langchain.com/blog/goal-engineering",
-      "importance_score": 0.83,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-15",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
       ]
     },
     {
@@ -599,6 +586,19 @@
       "company_topics": [],
       "lens_topics": [
         "monetization"
+      ]
+    },
+    {
+      "story_id": "story_ad1ef7aac19f",
+      "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "importance_score": 0.8184,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-13",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
       ]
     }
   ]
