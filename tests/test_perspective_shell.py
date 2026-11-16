@@ -54,20 +54,28 @@ def test_legacy_perspective_home_keeps_relative_links():
     assert "color-scheme: light" not in css
 
 
-def test_competition_overview_matches_mock_structure_and_marks_placeholders():
+def test_competition_overview_omits_product_tracking_tables():
+    js = read("assets/perspective.js")
+
+    for path in ("legacy-radar.html", "index.html"):
+        page = read(path)
+        assert 'id="monthSelect"' in page
+        assert "本月核心判断" in page
+        assert "关联研究" in page
+        assert "国内产品追踪" not in page
+        assert "海外产品追踪" not in page
+        assert 'id="domesticHeading"' not in page
+        assert 'id="overseasHeading"' not in page
+        assert "内部信息，待接入" not in page
+
+    assert "内部信息，待接入" not in js
+
+
+def test_competition_overview_keeps_research_status_and_data_sources():
     page = read("legacy-radar.html")
     js = read("assets/perspective.js")
 
     assert "月度：先看全局变化" not in page
-    assert 'id="monthSelect"' in page
-    assert "本月核心判断" in page
-    assert ">国内<" in page
-    assert ">海外<" in page
-    for column in ("产品", "核心指标", "本月值", "环比", "追踪备注"):
-        assert column in page
-    assert "关联研究" in page
-    assert "内部信息，待接入" not in page
-    assert "内部信息，待接入" in js
     assert "示例产品" not in page
     assert "示例行" not in page
     assert "近窗相关故事" not in js
