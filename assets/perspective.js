@@ -66,21 +66,6 @@
     { id: "minimax", name: "MiniMax", aliases: ["MiniMax", "海螺"] },
     { id: "zhipu", name: "智谱", aliases: ["智谱", "ChatGLM", "GLM-"] },
   ];
-  const OVERSEAS = [
-    { id: "openai", name: "ChatGPT", aliases: ["OpenAI", "ChatGPT", "GPT-5", "Sora"] },
-    { id: "anthropic", name: "Claude", aliases: ["Anthropic", "Claude"] },
-    { id: "google-gemini", name: "Gemini", aliases: ["Gemini", "DeepMind"] },
-    { id: "meta-llama", name: "Meta / Muse", aliases: ["Llama", "Meta AI", "Meta Muse", "Muse for Small Business", "muse.ai"] },
-    { id: "xai", name: "Grok", aliases: ["Grok", "xAI"] },
-    { id: "perplexity", name: "Perplexity", aliases: ["Perplexity"] },
-    { id: "apple", name: "Apple Intelligence", aliases: ["Apple Intelligence"] },
-    { id: "microsoft", name: "Copilot", aliases: ["Copilot"] },
-    { id: "nvidia", name: "NVIDIA", aliases: ["NVIDIA", "英伟达", "Nemotron"] },
-    { id: "huggingface", name: "Hugging Face", aliases: ["Hugging Face", "HuggingFace"] },
-    { id: "cursor", name: "Cursor", aliases: ["Cursor"] },
-    { id: "openrouter", name: "OpenRouter", aliases: ["OpenRouter"] },
-  ];
-
   const dataBaseUrl = resolveDataBaseUrl();
   const state = {
     space: document.documentElement.dataset.space || "overview",
@@ -103,8 +88,6 @@
   const monthSelect = document.getElementById("monthSelect");
   const windowNote = document.getElementById("windowNote");
   const judgmentGrid = document.getElementById("judgmentGrid");
-  const domesticBody = document.getElementById("domesticBody");
-  const overseasBody = document.getElementById("overseasBody");
   const relatedList = document.getElementById("relatedList");
   const overviewLive = document.getElementById("overviewLive");
   const overviewEmpty = document.getElementById("overviewEmpty");
@@ -235,44 +218,9 @@
     return "";
   }
 
-  function storyBlob(story) {
-    const primary = story.primary_item || {};
-    return [
-      story.title,
-      primary.title,
-      primary.title_zh,
-      primary.title_en,
-      primary.title_original,
-      primary.summary,
-    ].filter(Boolean).join(" ");
-  }
-
   function storyUrl(story) {
     const primary = story.primary_item || {};
     return safeHttpUrl(primary.url || story.primary_url || story.url);
-  }
-
-  function matchesAlias(blob, alias) {
-    if (!alias) return false;
-    return blob.toLowerCase().includes(String(alias).toLowerCase());
-  }
-
-  function collectRows(products) {
-    return products.map((product) => {
-      const hits = state.stories.filter((story) => (
-        product.aliases.some((alias) => matchesAlias(storyBlob(story), alias))
-      ));
-      hits.sort((a, b) => String(b.latest_at || "").localeCompare(String(a.latest_at || "")));
-      const latest = hits[0];
-      return {
-        ...product,
-        count: hits.length,
-        note: latest ? preferZh(latest.title) : "",
-        url: latest ? storyUrl(latest) : "",
-      };
-    }).filter((row) => row.count > 0)
-      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh"))
-      .slice(0, 6);
   }
 
   function judgmentScore(item) {
@@ -294,46 +242,6 @@
     if (className) node.className = className;
     if (text != null) node.textContent = text;
     return node;
-  }
-
-  const INTERNAL_METRIC = "内部信息，待接入";
-
-  function renderMetricRow(row) {
-    const tr = document.createElement("tr");
-    const product = el("td");
-    product.append(el("span", "product-name", row.name));
-    const noteCell = el("td");
-    const note = shortText(row.note, 42);
-    if (row.url) {
-      const link = el("a", "note-link", note);
-      link.href = row.url;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      noteCell.append(link);
-    } else {
-      noteCell.textContent = note || "本窗口有相关故事";
-    }
-    tr.append(
-      product,
-      el("td", "metric-pending", INTERNAL_METRIC),
-      el("td", "metric-pending", INTERNAL_METRIC),
-      el("td", "metric-pending", INTERNAL_METRIC),
-      noteCell,
-    );
-    return tr;
-  }
-
-  function renderTable(body, rows) {
-    clear(body);
-    if (!rows.length) {
-      const tr = document.createElement("tr");
-      const td = el("td", "empty-copy", "当前窗口没有匹配到这类产品的故事。");
-      td.colSpan = 5;
-      tr.append(td);
-      body.append(tr);
-      return;
-    }
-    rows.forEach((row) => body.append(renderMetricRow(row)));
   }
 
   function renderJudgments() {
@@ -417,12 +325,6 @@
     applyMonth();
     if (state.month !== state.currentMonth) return;
     renderJudgments();
-    const firstDomestic = state.topicConfig.filter(topic => topic.group === "company" && DOMESTIC.some(product => product.id === topic.id)).slice(0, 4);
-    renderTable(domesticBody, firstDomestic.map(topic => {
-      const latest = state.topics.find(row => row.id === topic.id);
-      return {name: topic.name, note: latest?.latest_title || "近30天暂无相关消息", url: `./?space=research&kind=org&id=${encodeURIComponent(topic.id)}`};
-    }));
-    renderTable(overseasBody, collectRows(OVERSEAS));
     renderRelated();
   }
 
