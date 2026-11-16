@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 8,
-  "listed_count": 8,
-  "recent_item_count": 8,
+  "item_count": 9,
+  "listed_count": 9,
+  "recent_item_count": 9,
   "latest_title": "被问爆的 AI 自媒体工作台，我直接开源了：一个人管 7 个平台的发布 + 监控系统｜麦田",
   "latest_published_at": "2026-11-16T18:40:06.205448Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-16T18:40:06.205448Z",
+  "generated_at": "2026-11-16T23:26:10.472953Z",
   "items": [
     {
       "id": "story_49f2e9f3b36c",
@@ -28,10 +28,26 @@
       "curated": false
     },
     {
+      "id": "story_c22ae092957f",
+      "story_id": "story_c22ae092957f",
+      "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+      "title_zh": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+      "title_en": "Gemini 4 safety reports don’t demonstrate low loss-of-control risk",
+      "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate",
+      "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
+      "recommend_reason_zh": null,
+      "source": "Redwood Research：Blog（RSS）",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-16T17:21:38Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
       "id": "story_d401625c832b",
       "story_id": "story_d401625c832b",
-      "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
-      "title_zh": null,
+      "title": "NVIDIA Vera Rubin NVL72 在 MLPerf 端点 v1.0 上引领代理推理性能",
+      "title_zh": "NVIDIA Vera Rubin NVL72 在 MLPerf 端点 v1.0 上引领代理推理性能",
       "title_en": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
       "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0",
       "summary": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool...",
@@ -110,8 +126,8 @@
     {
       "id": "story_ce30545b7b90",
       "story_id": "story_ce30545b7b90",
-      "title": "OpenRouter Now Powers Inference on Hugging Face",
-      "title_zh": null,
+      "title": "OpenRouter 为 Hugging Face Inference Providers 提供模型路由",
+      "title_zh": "OpenRouter 为 Hugging Face Inference Providers 提供模型路由",
       "title_en": "OpenRouter Now Powers Inference on Hugging Face",
       "url": "https://openrouter.ai/blog/announcements/hugging-face-inference-providers",
       "summary": "Hugging Face Inference Provider 上的聊天模型现在通过 OpenRouter 的路由运行，并且 OpenRouter 可以将您的踪迹发送到 Hugging Face Storage Bucket。",
@@ -120,7 +136,7 @@
       "source_name": "OpenRouter Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-16T00:00:00Z",
-      "source_count": 1,
+      "source_count": 2,
       "curated": true
     },
     {
