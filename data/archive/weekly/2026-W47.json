@@ -4,58 +4,99 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-15T21:54:45.188143Z",
+  "generated_at": "2026-11-16T02:51:05.949851Z",
   "daily_dates": [
     "2026-11-16"
   ],
-  "story_count": 619,
-  "unique_story_count": 619,
+  "story_count": 651,
+  "unique_story_count": 651,
   "counts": {
     "by_company_topic": {
-      "anthropic": 99,
-      "apple": 6,
+      "anthropic": 103,
+      "apple": 9,
       "cursor": 4,
       "deepseek": 19,
-      "doubao": 1,
-      "google-gemini": 88,
+      "doubao": 2,
+      "google-gemini": 91,
       "huggingface": 11,
       "hunyuan": 3,
       "kimi": 5,
       "meta-llama": 8,
       "microsoft": 4,
       "minimax": 4,
-      "nvidia": 77,
-      "openai": 59,
+      "nvidia": 79,
+      "openai": 65,
       "openrouter": 2,
       "perplexity": 6,
-      "qwen": 3,
-      "xai": 15,
+      "qwen": 4,
+      "xai": 16,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 111,
+      "agent-ecosystem": 116,
       "monetization": 32,
       "product-entry": 28,
       "workplace": 15
     },
     "by_importance_label": {
-      "值得关注": 541,
+      "值得关注": 563,
       "多源热议": 17,
-      "官方更新": 51,
-      "行业动态": 10
+      "官方更新": 54,
+      "行业动态": 17
     },
     "by_source_count_bucket": {
-      "1": 574,
-      "2": 28,
+      "1": 604,
+      "2": 30,
       "3+": 17
     }
   },
   "top_stories": [
     {
+      "story_id": "story_44ba65aea0d8",
+      "title": "Qwen4-Max：新同事，已就位",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "importance_score": 0.8617,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "qwen"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_fe0b74d30c87",
+      "title": "我们的新科学博客 / Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "importance_score": 0.8398,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_8072575c42c3",
+      "title": "在晶格上定义标准模型的一步 / A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "importance_score": 0.8398,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_d6ec744b20fe",
       "title": "美国国会寻求收紧AI芯片出口规则",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "importance_score": 0.7918,
+      "importance_score": 0.7799,
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -68,7 +109,7 @@
       "story_id": "story_9113026e72af",
       "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "importance_score": 0.7854,
+      "importance_score": 0.7799,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -82,7 +123,7 @@
       "story_id": "story_71bab5aec66c",
       "title": "Goal Engineering",
       "url": "https://www.langchain.com/blog/goal-engineering",
-      "importance_score": 0.7809,
+      "importance_score": 0.7728,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -95,7 +136,7 @@
       "story_id": "story_c0e4bca0c953",
       "title": "Codex CLI 0.168.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.7766,
+      "importance_score": 0.7721,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -105,10 +146,110 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_ef6fd453e755",
+      "title": "华为云将发布首款昇腾原生具身世界模型 CloudRoboWM1.2",
+      "url": "https://www.aibase.com/news/32326",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_c973a27c571e",
+      "title": "马斯克等科技高管联名请愿，要求英伟达恢复黄仁勋CEO职务",
+      "url": "https://www.aibase.com/news/32324",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7ea6c57f4129",
+      "title": "谷歌 Gemini4Carbon 入驻 WorkBuddy，百万 Token 上下文向 Pro 用户开放",
+      "url": "https://www.aibase.com/news/32327",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7bf98050313d",
+      "title": "不调用图像模型，Claude Fable5.2用70万次笔触画出一辆购物车",
+      "url": "https://www.aibase.com/news/32331",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_71168e1027a5",
+      "title": "8个月成为中国提供最多 token 的单一 AI 产品，腾讯总办却称 AI 应用开发才刚起步",
+      "url": "https://www.aibase.com/news/32330",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6a787d47eba7",
+      "title": "谷歌Gemini接入Google Wallet，美国用户可使用AI分析个人财务",
+      "url": "https://www.aibase.com/news/32329",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_68e4a54d5691",
+      "title": "豆包 App 上线“找店”:商家批量标注地图，团购下单与一键导航在对话内闭环",
+      "url": "https://www.aibase.com/news/32325",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_0342d8efa5ed",
+      "title": "苹果首款AI眼镜计划2027年WWDC亮相，年底前上市",
+      "url": "https://www.aibase.com/news/32328",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "apple"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_010ac45cd0c9",
       "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "importance_score": 0.7711,
+      "importance_score": 0.7652,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -118,10 +259,21 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_5dcbc72f1fd6",
+      "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+      "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
+      "importance_score": 0.7602,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_e0ce3fdbb288",
       "title": "Gemini 4 Hydrogen in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "importance_score": 0.7655,
+      "importance_score": 0.7597,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -135,23 +287,10 @@
       ]
     },
     {
-      "story_id": "story_65948bc08832",
-      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "importance_score": 0.7639,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_ddb208cbc775",
       "title": "发布全家桶应用 API",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "importance_score": 0.7626,
+      "importance_score": 0.7581,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -163,10 +302,23 @@
       ]
     },
     {
+      "story_id": "story_65948bc08832",
+      "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "importance_score": 0.7581,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_a9f8b4a664f6",
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "importance_score": 0.7614,
+      "importance_score": 0.7558,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -178,21 +330,10 @@
       ]
     },
     {
-      "story_id": "story_105ebb2b03f0",
-      "title": "角色动作和舞蹈视频的最佳 Viggle AI 替代方案 / Best Viggle AI Alternatives for Character Motion and Dance Videos",
-      "url": "https://lumalabs.ai/news/viggle-ai-alternatives",
-      "importance_score": 0.7609,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_6462d932fa5b",
       "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
       "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "importance_score": 0.7604,
+      "importance_score": 0.7543,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -205,10 +346,10 @@
       ]
     },
     {
-      "story_id": "story_7b66bf26f50a",
-      "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
-      "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
-      "importance_score": 0.7601,
+      "story_id": "story_105ebb2b03f0",
+      "title": "角色动作和舞蹈视频的最佳 Viggle AI 替代方案 / Best Viggle AI Alternatives for Character Motion and Dance Videos",
+      "url": "https://lumalabs.ai/news/viggle-ai-alternatives",
+      "importance_score": 0.7543,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -216,10 +357,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_5f7a91e06b11",
-      "title": "Luma 画布的智能整理器 / A smart organizer for your Luma canvas",
-      "url": "https://lumalabs.ai/news/ai-board-manager",
-      "importance_score": 0.7579,
+      "story_id": "story_7b66bf26f50a",
+      "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
+      "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
+      "importance_score": 0.7535,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -230,7 +371,7 @@
       "story_id": "story_ce1046eebd38",
       "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "importance_score": 0.7576,
+      "importance_score": 0.7517,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -242,10 +383,21 @@
       ]
     },
     {
+      "story_id": "story_5f7a91e06b11",
+      "title": "Luma 画布的智能整理器 / A smart organizer for your Luma canvas",
+      "url": "https://lumalabs.ai/news/ai-board-manager",
+      "importance_score": 0.7514,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_331799f5600b",
       "title": "用于品牌介绍的最佳 AI 徽标动画工具 / Best AI Logo Animation Tools for Brand Intros",
       "url": "https://lumalabs.ai/news/ai-logo-animation-tools-brand-intros",
-      "importance_score": 0.7574,
+      "importance_score": 0.751,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -256,29 +408,7 @@
       "story_id": "story_99ebfa334cb7",
       "title": "具有原生音频和声音的最佳人工智能视频生成器 / Best AI Video Generators With Native Audio and Sound",
       "url": "https://lumalabs.ai/news/ai-video-generators-native-audio-sound",
-      "importance_score": 0.7568,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_1c05846eb405",
-      "title": "适合电影制作人和剪辑师的最佳人工智能视觉特效工具 / Best AI VFX Tools for Filmmakers and Editors",
-      "url": "https://lumalabs.ai/news/ai-vfx-tools-filmmakers-editors",
-      "importance_score": 0.7564,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_4e7f3fab4ff1",
-      "title": "用于产品和包装镜头的最佳 AI 模型生成器 / Best AI Mockup Generators for Product and Packaging Shots",
-      "url": "https://lumalabs.ai/news/ai-mockup-generators-product-packaging-shots",
-      "importance_score": 0.756,
+      "importance_score": 0.7504,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -289,7 +419,7 @@
       "story_id": "story_a734d725262c",
       "title": "将 Google 钱包连接到 Gemini 以获得个人财务见解 / Connect Google Wallet to Gemini for personal finance insights",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
-      "importance_score": 0.7558,
+      "importance_score": 0.7501,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -299,10 +429,32 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_1c05846eb405",
+      "title": "适合电影制作人和剪辑师的最佳人工智能视觉特效工具 / Best AI VFX Tools for Filmmakers and Editors",
+      "url": "https://lumalabs.ai/news/ai-vfx-tools-filmmakers-editors",
+      "importance_score": 0.7501,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_4e7f3fab4ff1",
+      "title": "用于产品和包装镜头的最佳 AI 模型生成器 / Best AI Mockup Generators for Product and Packaging Shots",
+      "url": "https://lumalabs.ai/news/ai-mockup-generators-product-packaging-shots",
+      "importance_score": 0.7497,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_55a2042c2ded",
       "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
       "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-      "importance_score": 0.754,
+      "importance_score": 0.7484,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -312,23 +464,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_74a1a9b25cac",
-      "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务 / Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
-      "importance_score": 0.7505,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_b9fa2a337927",
       "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "importance_score": 0.7491,
+      "importance_score": 0.7449,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -338,10 +477,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_74a1a9b25cac",
+      "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务 / Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "importance_score": 0.7417,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_0aada73bf4cf",
       "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
       "url": "https://www.langchain.com/blog/series-c",
-      "importance_score": 0.7468,
+      "importance_score": 0.7411,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -354,7 +506,7 @@
       "story_id": "story_9a507b7582fa",
       "title": "Shield helps technicians hand off legacy portal work with OpenAI",
       "url": "https://openai.com/business/customer-stories/shield",
-      "importance_score": 0.7456,
+      "importance_score": 0.7406,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -369,7 +521,7 @@
       "story_id": "story_83023b0bea9d",
       "title": "使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API",
       "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "importance_score": 0.7424,
+      "importance_score": 0.737,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -380,7 +532,7 @@
       "story_id": "story_73d193149b1a",
       "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应 / Asian governments react to Nvidia CEO Jensen Huang’s exit",
       "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
-      "importance_score": 0.7414,
+      "importance_score": 0.7333,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -393,7 +545,7 @@
       "story_id": "story_9fa3c6c3a57a",
       "title": "Building always-on agents",
       "url": "https://claude.com/resources/articles/building-always-on-agents",
-      "importance_score": 0.7376,
+      "importance_score": 0.7331,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -408,170 +560,14 @@
       "story_id": "story_ad1ef7aac19f",
       "title": "构建一次，在任何代理上运行：代理技能实用指南 / Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "importance_score": 0.7366,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_7b025f7e40fb",
-      "title": "OpenRouter 实测 RAG 重排序：274 题基准中 precision@1 从 81% 提升到 97% / Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
-      "url": "https://openrouter.ai/blog/tutorials/reranking-rag",
-      "importance_score": 0.7356,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "openrouter"
-      ],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_2f35e509d321",
-      "title": "阿里云开源AI代理手册，3K+ GitHub Stars / Alibaba Cloud's Open-Source AI Agent Handbook, 3K+ GitHub Stars",
-      "url": "https://www.alibabacloud.com/blog/alibaba-clouds-open-source-ai-agent-handbook-3k%2B-github-stars_603777",
-      "importance_score": 0.7356,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_112a9d324124",
-      "title": "网关延迟降低97.1%：开源Higress vs 阿里云AI网关无服务器企业版 / 97.1% Lower Gateway Latency: Open-Source Higress vs. Alibaba Cloud AI Gateway Serverless Enterprise Edition",
-      "url": "https://www.alibabacloud.com/blog/97-1%25-lower-gateway-latency-open-source-higress-vs--alibaba-cloud-ai-gateway-serverless-enterprise-edition_603780",
-      "importance_score": 0.7356,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_58db6e6cc441",
-      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品 / How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "importance_score": 0.7339,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_4611c9f2b4fc",
-      "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕 / Jensen Huang and the decline of the visionary showman founder CEO",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "importance_score": 0.7339,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_29f998113d27",
-      "title": "黄仁勋离开Nvidia：远见型创始人CEO时代落幕",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "importance_score": 0.7339,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_16ea0c072ea5",
-      "title": "元宝 2.93.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.93.0",
-      "importance_score": 0.7324,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d082cca44d4c",
-      "title": "首届非洲运营商云转型峰会在马拉喀什举行，讨论云将如何改变行业 / First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
-      "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
-      "importance_score": 0.7322,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b821bfa39311",
-      "title": "Google DeepMind 发布 Gemini 4 Hydrogen / Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "importance_score": 0.7322,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_adc3a9c0260a",
-      "title": "华为开放云论坛加速网络全云化转型 / Huawei’s Open Cloud Forum Accelerates Network All Cloud Transformation",
-      "url": "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016",
-      "importance_score": 0.7322,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6df6ce89b479",
-      "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级 / Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
       "importance_score": 0.7321,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e7570e2bfc0c",
-      "title": "在任何网站上从 Gemini 获取快速解答。 / Get quick answers from Gemini on any website.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome",
-      "importance_score": 0.7313,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     }
   ]
 }
