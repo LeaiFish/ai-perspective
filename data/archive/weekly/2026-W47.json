@@ -4,49 +4,49 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-16T03:21:02.495525Z",
+  "generated_at": "2026-11-16T08:03:48.183044Z",
   "daily_dates": [
     "2026-11-16"
   ],
-  "story_count": 658,
-  "unique_story_count": 658,
+  "story_count": 701,
+  "unique_story_count": 701,
   "counts": {
     "by_company_topic": {
-      "anthropic": 104,
+      "anthropic": 109,
       "apple": 9,
       "cursor": 4,
-      "deepseek": 19,
-      "doubao": 3,
+      "deepseek": 22,
+      "doubao": 7,
       "google-gemini": 91,
       "huggingface": 11,
-      "hunyuan": 3,
-      "kimi": 5,
+      "hunyuan": 6,
+      "kimi": 7,
       "meta-llama": 8,
       "microsoft": 4,
       "minimax": 4,
-      "nvidia": 80,
-      "openai": 66,
+      "nvidia": 82,
+      "openai": 68,
       "openrouter": 2,
       "perplexity": 6,
-      "qwen": 6,
-      "xai": 16,
+      "qwen": 8,
+      "xai": 17,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 118,
-      "monetization": 32,
+      "agent-ecosystem": 122,
+      "monetization": 33,
       "product-entry": 28,
       "workplace": 15
     },
     "by_importance_label": {
-      "值得关注": 568,
+      "值得关注": 601,
       "多源热议": 17,
-      "官方更新": 55,
-      "行业动态": 18
+      "官方更新": 57,
+      "行业动态": 26
     },
     "by_source_count_bucket": {
-      "1": 611,
-      "2": 29,
+      "1": 652,
+      "2": 31,
       "3+": 18
     }
   },
@@ -55,7 +55,7 @@
       "story_id": "story_44ba65aea0d8",
       "title": "Qwen4-Max：新同事，已就位",
       "url": "https://qwen.ai/blog?id=qwen4-max",
-      "importance_score": 0.8855,
+      "importance_score": 0.8742,
       "importance_label": "官方更新",
       "source_count": 3,
       "archive_date": "2026-11-16",
@@ -67,10 +67,21 @@
       ]
     },
     {
+      "story_id": "story_871ec456c87a",
+      "title": "阿里巴巴推出 Qwen4-Max：工作、创造力和发现的新 AI 队友 / Alibaba Unveils Qwen4-Max: New AI Teammate for Work, Creativity, and Discovery",
+      "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+      "importance_score": 0.8302,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_fe0b74d30c87",
       "title": "我们的新科学博客 / Our new blog for science",
       "url": "https://openai.com/index/our-new-blog-for-science",
-      "importance_score": 0.8386,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -83,7 +94,7 @@
       "story_id": "story_8072575c42c3",
       "title": "在晶格上定义标准模型的一步 / A step toward defining the Standard Model on a lattice",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "importance_score": 0.8386,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -93,10 +104,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_b71fafe62d73",
+      "title": "Introducing Hy4 flash: Ultimate cost-efficiency for everyday productivity",
+      "url": "https://hunyuan.tencent.com/blog/hy4-flash",
+      "importance_score": 0.8067,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_5e0061a4545b",
       "title": "Seed STEM 计划｜分子逆合成挑战赛启动",
       "url": "https://seed.bytedance.com/zh/blog/seed-stem-%E8%AE%A1%E5%88%92-%E5%88%86%E5%AD%90%E9%80%86%E5%90%88%E6%88%90%E6%8C%91%E6%88%98%E8%B5%9B%E5%90%AF%E5%8A%A8",
-      "importance_score": 0.8168,
+      "importance_score": 0.8067,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -109,7 +133,7 @@
       "story_id": "story_9113026e72af",
       "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "importance_score": 0.7793,
+      "importance_score": 0.7744,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -123,7 +147,7 @@
       "story_id": "story_d6ec744b20fe",
       "title": "美国国会寻求收紧AI芯片出口规则",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "importance_score": 0.7788,
+      "importance_score": 0.7682,
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -133,23 +157,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_71bab5aec66c",
-      "title": "Goal Engineering",
-      "url": "https://www.langchain.com/blog/goal-engineering",
-      "importance_score": 0.772,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_c0e4bca0c953",
       "title": "Codex CLI 0.168.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.7716,
+      "importance_score": 0.7676,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -159,10 +170,165 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_fba4fba29609",
+      "title": "苹果联合OpenEvidence推出健康AI研究应用，计划招募20万名用户",
+      "url": "https://www.aibase.com/news/32338",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e221675cf870",
+      "title": "豆包工作上线「工作台」:首批21款覆盖金融、医疗、教育等场景",
+      "url": "https://www.aibase.com/news/32336",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_a31c0ac5bb28",
+      "title": "腾讯混元发布 Hy4flash:224B 参数、1M 上下文，解码超150tps，单任务成本仅 Hy4preview 的1/13",
+      "url": "https://www.aibase.com/news/32335",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_5d696b66d3b4",
+      "title": "出道30天吸粉40万，AI演员“方桃子”首条商单引发6.82万元罚单",
+      "url": "https://www.aibase.com/news/32339",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_50e3d85bb840",
+      "title": "千问 AI 平台首发 Qwen4-Max: 以 Token 用量减半、得分升近28% 切入开发者市场",
+      "url": "https://www.aibase.com/news/32334",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "qwen"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_258dc25f78db",
+      "title": "火山引擎宣布Seedance2.54K API全面开放，支持10-bit色深与样片模式",
+      "url": "https://www.aibase.com/news/32340",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_0e831c449068",
+      "title": "DeepSeek收紧使用限制:7天历史对话、4万字输入及每日额度调整",
+      "url": "https://www.aibase.com/news/32337",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "deepseek"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_71bab5aec66c",
+      "title": "Goal Engineering",
+      "url": "https://www.langchain.com/blog/goal-engineering",
+      "importance_score": 0.7649,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_d654aa8673b9",
+      "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
+      "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+      "importance_score": 0.7616,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9487eb1c53fe",
+      "title": "通义千问发布 Qwen4 Max，Intelligence Index 较 Qwen3.8 Max 高 9 分且成本更低 / +9 points over Qwen3.8-Max with lower costs. Give it a try! @ArtificialAnlys",
+      "url": "https://x.com/Alibaba_Qwen/status/2122174463479542126",
+      "importance_score": 0.7598,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "qwen",
+        "kimi"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_010ac45cd0c9",
+      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "importance_score": 0.7595,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6c104aeb8d76",
+      "title": "字节跳动火山引擎全面开放 Seedance 2.5 4K 视频生成模型 API",
+      "url": "https://www.ithome.com/1/027/736.htm",
+      "importance_score": 0.7579,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_e53ab459a193",
       "title": "阿里千问发布 Qwen4-Max: 以架构升级压低 token 消耗，单任务费用降58%",
       "url": "https://www.aibase.com/news/32332",
-      "importance_score": 0.7676,
+      "importance_score": 0.7558,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -175,7 +341,7 @@
       "story_id": "story_02406b3bc67c",
       "title": "因黄仁勋突然离任 英伟达机器人学习工程师戴士钦宣布离职",
       "url": "https://www.aibase.com/news/32333",
-      "importance_score": 0.7676,
+      "importance_score": 0.7558,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -188,7 +354,7 @@
       "story_id": "story_ef6fd453e755",
       "title": "华为云将发布首款昇腾原生具身世界模型 CloudRoboWM1.2",
       "url": "https://www.aibase.com/news/32326",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -199,7 +365,7 @@
       "story_id": "story_c973a27c571e",
       "title": "马斯克等科技高管联名请愿，要求英伟达恢复黄仁勋CEO职务",
       "url": "https://www.aibase.com/news/32324",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -212,7 +378,7 @@
       "story_id": "story_7ea6c57f4129",
       "title": "谷歌 Gemini4Carbon 入驻 WorkBuddy，百万 Token 上下文向 Pro 用户开放",
       "url": "https://www.aibase.com/news/32327",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -225,7 +391,7 @@
       "story_id": "story_7bf98050313d",
       "title": "不调用图像模型，Claude Fable5.2用70万次笔触画出一辆购物车",
       "url": "https://www.aibase.com/news/32331",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -238,7 +404,7 @@
       "story_id": "story_71168e1027a5",
       "title": "8个月成为中国提供最多 token 的单一 AI 产品，腾讯总办却称 AI 应用开发才刚起步",
       "url": "https://www.aibase.com/news/32330",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -249,7 +415,7 @@
       "story_id": "story_6a787d47eba7",
       "title": "谷歌Gemini接入Google Wallet，美国用户可使用AI分析个人财务",
       "url": "https://www.aibase.com/news/32329",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -262,7 +428,7 @@
       "story_id": "story_68e4a54d5691",
       "title": "豆包 App 上线“找店”:商家批量标注地图，团购下单与一键导航在对话内闭环",
       "url": "https://www.aibase.com/news/32325",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -275,7 +441,7 @@
       "story_id": "story_0342d8efa5ed",
       "title": "苹果首款AI眼镜计划2027年WWDC亮相，年底前上市",
       "url": "https://www.aibase.com/news/32328",
-      "importance_score": 0.7663,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -285,23 +451,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_010ac45cd0c9",
-      "title": "使用 SimReady Assets 构建机器人拾放模拟 / Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "importance_score": 0.7646,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_e0ce3fdbb288",
       "title": "Gemini 4 Hydrogen in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "importance_score": 0.7591,
+      "importance_score": 0.7539,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -315,21 +468,10 @@
       ]
     },
     {
-      "story_id": "story_5dcbc72f1fd6",
-      "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
-      "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
-      "importance_score": 0.7589,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_ddb208cbc775",
       "title": "发布全家桶应用 API",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "importance_score": 0.7576,
+      "importance_score": 0.7536,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-16",
@@ -344,7 +486,7 @@
       "story_id": "story_65948bc08832",
       "title": "XYBench：帮助解决问题背后的问题 / XYBench: Helping with the problem behind the question",
       "url": "https://huggingface.co/blog/allenai/xybench",
-      "importance_score": 0.7576,
+      "importance_score": 0.7525,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -357,7 +499,7 @@
       "story_id": "story_a9f8b4a664f6",
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "importance_score": 0.7553,
+      "importance_score": 0.7503,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -372,7 +514,7 @@
       "story_id": "story_6462d932fa5b",
       "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
       "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "importance_score": 0.7537,
+      "importance_score": 0.7483,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -385,10 +527,21 @@
       ]
     },
     {
+      "story_id": "story_5dcbc72f1fd6",
+      "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+      "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
+      "importance_score": 0.7477,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_105ebb2b03f0",
       "title": "角色动作和舞蹈视频的最佳 Viggle AI 替代方案 / Best Viggle AI Alternatives for Character Motion and Dance Videos",
       "url": "https://lumalabs.ai/news/viggle-ai-alternatives",
-      "importance_score": 0.7536,
+      "importance_score": 0.7477,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -399,7 +552,7 @@
       "story_id": "story_7b66bf26f50a",
       "title": "适用于 YouTube 和广告的最佳 AI B-Roll 生成器 / Best AI B-Roll Generators for YouTube and Ads",
       "url": "https://lumalabs.ai/news/ai-b-roll-generators-youtube-and-ads",
-      "importance_score": 0.7529,
+      "importance_score": 0.747,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -410,7 +563,7 @@
       "story_id": "story_ce1046eebd38",
       "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "importance_score": 0.7511,
+      "importance_score": 0.7459,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
@@ -420,152 +573,6 @@
       "lens_topics": [
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_5f7a91e06b11",
-      "title": "Luma 画布的智能整理器 / A smart organizer for your Luma canvas",
-      "url": "https://lumalabs.ai/news/ai-board-manager",
-      "importance_score": 0.7508,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_331799f5600b",
-      "title": "用于品牌介绍的最佳 AI 徽标动画工具 / Best AI Logo Animation Tools for Brand Intros",
-      "url": "https://lumalabs.ai/news/ai-logo-animation-tools-brand-intros",
-      "importance_score": 0.7504,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_99ebfa334cb7",
-      "title": "具有原生音频和声音的最佳人工智能视频生成器 / Best AI Video Generators With Native Audio and Sound",
-      "url": "https://lumalabs.ai/news/ai-video-generators-native-audio-sound",
-      "importance_score": 0.7498,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_a734d725262c",
-      "title": "将 Google 钱包连接到 Gemini 以获得个人财务见解 / Connect Google Wallet to Gemini for personal finance insights",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
-      "importance_score": 0.7495,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_1c05846eb405",
-      "title": "适合电影制作人和剪辑师的最佳人工智能视觉特效工具 / Best AI VFX Tools for Filmmakers and Editors",
-      "url": "https://lumalabs.ai/news/ai-vfx-tools-filmmakers-editors",
-      "importance_score": 0.7495,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_4e7f3fab4ff1",
-      "title": "用于产品和包装镜头的最佳 AI 模型生成器 / Best AI Mockup Generators for Product and Packaging Shots",
-      "url": "https://lumalabs.ai/news/ai-mockup-generators-product-packaging-shots",
-      "importance_score": 0.7491,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_55a2042c2ded",
-      "title": "OpenAI 和 Databricks：受管数据的企业 AI / OpenAI and Databricks: Enterprise AI on your governed data",
-      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-      "importance_score": 0.7478,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b9fa2a337927",
-      "title": "IBM 发布 LLMON 标记语言及 granite-4.1-3b/8b-LLMON-preview 预览模型 / LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "importance_score": 0.7445,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_74a1a9b25cac",
-      "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务 / Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
-      "importance_score": 0.7409,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0aada73bf4cf",
-      "title": "LangChain 以 3B 美元估值筹集 3 亿美元 C 轮融资 / LangChain Raises $300M Series C at $3B Valuation",
-      "url": "https://www.langchain.com/blog/series-c",
-      "importance_score": 0.7405,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_9a507b7582fa",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "importance_score": 0.7401,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_83023b0bea9d",
-      "title": "使用 REST API 管理代码仓库的 AI Scan / Manage AI Scan for repositories using the REST API",
-      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "importance_score": 0.7365,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
     }
   ]
 }
