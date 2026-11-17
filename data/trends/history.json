@@ -1,6 +1,6 @@
 {
   "schema": "radar_trend_history_v1",
-  "latest_report_id": "a54e31e453a14760b28249aec29e86df2f0c249305170824d6f514fce84b24a0",
+  "latest_report_id": "505f9ac1875d410e5b9acc6bf6f9454825f206a84b9d1930b4fe85430d101bf0",
   "directions": {
     "ongoing-assistance": "持续任务与主动跟进",
     "shared-deliverables": "成果修改、分享与维护",
@@ -1583,6 +1583,71 @@
         }
       },
       "overview": []
+    },
+    {
+      "report_id": "505f9ac1875d410e5b9acc6bf6f9454825f206a84b9d1930b4fe85430d101bf0",
+      "kind": "daily",
+      "generated_at": "2026-11-17T09:46:29.241182+00:00",
+      "period_start": "2026-11-16T03:14:48.945009Z",
+      "period_end": "2026-11-17T03:14:48.945009Z",
+      "path": "trends/revisions/505f9ac1875d410e5b9acc6bf6f9454825f206a84b9d1930b4fe85430d101bf0.json",
+      "companies": {
+        "doubao": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "qwen": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "hunyuan": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "openai": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "anthropic": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "xai": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "google-gemini": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "meta-llama": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        }
+      },
+      "overview": [
+        {
+          "direction_id": "ongoing-assistance",
+          "type": "strengthened"
+        },
+        {
+          "direction_id": "shared-deliverables",
+          "type": "continued"
+        },
+        {
+          "direction_id": "merchant-operations",
+          "type": "continued"
+        }
+      ],
+      "revision_of": "a54e31e453a14760b28249aec29e86df2f0c249305170824d6f514fce84b24a0"
     }
   ],
   "latest_signals": {
