@@ -4,54 +4,70 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-17T14:38:30.723829Z",
+  "generated_at": "2026-11-17T18:39:44.228563Z",
   "daily_dates": [
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-17",
+    "2026-11-18"
   ],
-  "story_count": 1026,
-  "unique_story_count": 1026,
+  "story_count": 1318,
+  "unique_story_count": 1125,
   "counts": {
     "by_company_topic": {
-      "anthropic": 148,
-      "apple": 18,
+      "anthropic": 188,
+      "apple": 25,
       "cursor": 4,
-      "deepseek": 25,
+      "deepseek": 30,
       "doubao": 8,
-      "google-gemini": 115,
-      "huggingface": 21,
+      "google-gemini": 137,
+      "huggingface": 31,
       "hunyuan": 6,
-      "kimi": 10,
-      "meta-llama": 9,
-      "microsoft": 10,
+      "kimi": 12,
+      "meta-llama": 11,
+      "microsoft": 16,
       "minimax": 4,
-      "nvidia": 116,
-      "openai": 119,
-      "openrouter": 4,
+      "nvidia": 139,
+      "openai": 174,
+      "openrouter": 6,
       "perplexity": 6,
-      "qwen": 9,
-      "xai": 17,
+      "qwen": 11,
+      "xai": 19,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 177,
-      "monetization": 35,
-      "product-entry": 35,
-      "workplace": 29
+      "agent-ecosystem": 233,
+      "monetization": 44,
+      "product-entry": 43,
+      "workplace": 40
     },
     "by_importance_label": {
-      "值得关注": 866,
-      "多源热议": 18,
-      "官方更新": 84,
-      "行业动态": 58
+      "值得关注": 1084,
+      "多源热议": 19,
+      "官方更新": 115,
+      "行业动态": 100
     },
     "by_source_count_bucket": {
-      "1": 963,
-      "2": 43,
-      "3+": 20
+      "1": 1239,
+      "2": 57,
+      "3+": 22
     }
   },
   "top_stories": [
+    {
+      "story_id": "story_67ad34c820c2",
+      "title": "GPT‑6.2 Astra 和 Sol / Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "importance_score": 0.9076,
+      "importance_label": "官方更新",
+      "source_count": 3,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
     {
       "story_id": "story_d5f5193d70dc",
       "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预 / Strengthening the fight against online child sexual abuse with new tools and support",
@@ -81,6 +97,19 @@
       ]
     },
     {
+      "story_id": "story_3941edd1fffa",
+      "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用 / Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "importance_score": 0.8477,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -107,6 +136,45 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_a234d9d627d1",
+      "title": "保护痕迹中的敏感数据：LangSmith 中的新控件 / Protect sensitive data in your traces: new controls in LangSmith",
+      "url": "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith",
+      "importance_score": 0.8423,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_65a0910a1349",
+      "title": "Muse 现已在澳大利亚上市：世界上第一个为所有人打造的个人人工智能代理 / Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
+      "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia",
+      "importance_score": 0.8423,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "meta-llama"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_2bb6d30b48cc",
+      "title": "我们在构建主动代理方面学到了什么 / What We’ve Learned Building Proactive Agents",
+      "url": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+      "importance_score": 0.8393,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_06c4b1df4e91",
       "title": "人工智能使集成成为供应商的问题 / AI made integrations the vendor’s problem",
       "url": "https://blog.n8n.io/ai-made-integrations-the-vendors-problem",
@@ -116,6 +184,65 @@
       "archive_date": "2026-11-16",
       "company_topics": [],
       "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_0941c26a82b2",
+      "title": "Linked billing on the Claude Platform",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+      "importance_score": 0.8345,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_fe87d15342d1",
+      "title": "GPT-6.2 Astra and GPT-6.2 Sol in Work and Codex",
+      "url": "https://developers.openai.com/codex/changelog",
+      "importance_score": 0.8275,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f0126af5ea79",
+      "title": "OpenAI 发布 gpt-6.2-astra 与 gpt-6.2-sol，Ultrafast 降价 50% / In the API, use gpt-6.2-astra and gpt-6.2-sol. Both models also support Fast and Ultrafast modes.",
+      "url": "https://x.com/OpenAIDevs/status/2122752500877144461",
+      "importance_score": 0.8264,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_da25284c7028",
+      "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
+      "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
+      "importance_score": 0.8234,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "monetization",
         "agent-ecosystem"
       ]
     },
@@ -253,6 +380,32 @@
       ]
     },
     {
+      "story_id": "story_9146cfe6e060",
+      "title": "Gemini 应用更新：Find Ways to Save Time and Money with Tasks in Gemini, now available free of charge；Checkout with Google Pay in Tasks in Gemini；Hand off tasks and steer them on the go by texting Gemini；Forward an email, get the task done；Ask Gemini to call",
+      "url": "https://gemini.google/release-notes/#:~:text=2026.11.17",
+      "importance_score": 0.8095,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_8cd56831ef3a",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "importance_score": 0.8095,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_65fe65af7919",
       "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
       "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
@@ -277,6 +430,19 @@
       "archive_date": "2026-11-17",
       "company_topics": [
         "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7f6766463b99",
+      "title": "Jensen Huang 发声明回应离职风波并表态愿在董事会决定下回归 NVIDIA CEO",
+      "url": "https://x.com/DrJimFan/status/2122727208754254245",
+      "importance_score": 0.8068,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -418,159 +584,6 @@
       "archive_date": "2026-11-17",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_d51a3c5e115d",
-      "title": "FBI 警告开源 AI 渗透测试工具 Artex 被用于三小时内攻破企业网络",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
-      "importance_score": 0.7915,
-      "importance_label": "多源热议",
-      "source_count": 3,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_771eb8ca40dc",
-      "title": "教 Genie One 您的工作流程：Genie One 技能终极指南 / Teach Genie One your workflows: The ultimate guide for skills in Genie One",
-      "url": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
-      "importance_score": 0.7857,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_4322b27bcefb",
-      "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
-      "importance_score": 0.7813,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_29b103fb9189",
-      "title": "ChinaTalk 播客解读美国商务部132页出口管制新规",
-      "url": "https://www.chinatalk.media/p/bis-finally-takes-a-stand",
-      "importance_score": 0.7765,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0f34661998cd",
-      "title": "千亿欧元的AI基建怎么投？苏黎世联邦理工学生用千问算清这笔账",
-      "url": "https://mp.weixin.qq.com/s/VIU-UXk6P11oGK1XQnf6nA",
-      "importance_score": 0.7745,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "qwen"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e9309831f176",
-      "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "importance_score": 0.7738,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b0f6e6b97de8",
-      "title": "科技界人士质疑英伟达CEO辞职背后存在针对其的阴谋",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "importance_score": 0.7738,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9c62ecdb4967",
-      "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
-      "url": "https://www.ithome.com/1/027/861.htm",
-      "importance_score": 0.7719,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9113026e72af",
-      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "importance_score": 0.7689,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "meta-llama",
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0ff7a5b311dd",
-      "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
-      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c0e4bca0c953",
-      "title": "Codex CLI 0.168.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.7632,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-16",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_93170cb3bffc",
-      "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face / California sues OpenAI over rogue AI hacking incidents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "importance_score": 0.7626,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai",
-        "huggingface"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
     }
   ]
 }
