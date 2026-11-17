@@ -4,49 +4,49 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-17T03:28:53.876658Z",
+  "generated_at": "2026-11-17T09:18:55.139937Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17"
   ],
-  "story_count": 1043,
-  "unique_story_count": 952,
+  "story_count": 1038,
+  "unique_story_count": 993,
   "counts": {
     "by_company_topic": {
-      "anthropic": 145,
+      "anthropic": 146,
       "apple": 18,
       "cursor": 4,
-      "deepseek": 26,
-      "doubao": 13,
-      "google-gemini": 113,
-      "huggingface": 18,
-      "hunyuan": 8,
-      "kimi": 11,
+      "deepseek": 24,
+      "doubao": 8,
+      "google-gemini": 116,
+      "huggingface": 19,
+      "hunyuan": 6,
+      "kimi": 9,
       "meta-llama": 9,
       "microsoft": 9,
       "minimax": 4,
-      "nvidia": 121,
-      "openai": 120,
+      "nvidia": 120,
+      "openai": 119,
       "openrouter": 3,
       "perplexity": 6,
-      "qwen": 10,
-      "xai": 18,
+      "qwen": 8,
+      "xai": 17,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 179,
-      "monetization": 36,
+      "agent-ecosystem": 178,
+      "monetization": 35,
       "product-entry": 35,
       "workplace": 30
     },
     "by_importance_label": {
-      "值得关注": 869,
+      "值得关注": 872,
       "多源热议": 18,
-      "官方更新": 88,
-      "行业动态": 68
+      "官方更新": 86,
+      "行业动态": 62
     },
     "by_source_count_bucket": {
-      "1": 981,
+      "1": 976,
       "2": 42,
       "3+": 20
     }
@@ -56,7 +56,7 @@
       "story_id": "story_d5f5193d70dc",
       "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预 / Strengthening the fight against online child sexual abuse with new tools and support",
       "url": "https://openai.com/index/strengthening-online-child-safety",
-      "importance_score": 0.9017,
+      "importance_score": 0.8892,
       "importance_label": "官方更新",
       "source_count": 4,
       "archive_date": "2026-11-17",
@@ -81,6 +81,19 @@
       ]
     },
     {
+      "story_id": "story_49384d4c148d",
+      "title": "OpenAI 向 NATO 及盟国网络防御机构开放 Daybreak 网络安全模型 / Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "importance_score": 0.8543,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -92,23 +105,6 @@
         "openai"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_73cf2ba0785a",
-      "title": "GitHub Copilot 每周发布 — 11 月 9 日 / GitHub Copilot weekly releases — November 9",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-      "importance_score": 0.8373,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "anthropic",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
     },
     {
       "story_id": "story_06c4b1df4e91",
@@ -124,10 +120,38 @@
       ]
     },
     {
+      "story_id": "story_e751b70408e1",
+      "title": "Alibaba Cloud Brings Qwen4-Max to the Enterprise: An AI Colleague That Plans, Builds and Delivers Finished Work",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-brings-qwen4-max-to-the-enterprise-an-ai-colleague-that-plans-builds-and-delivers-finished-work_603786",
+      "importance_score": 0.8273,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_73cf2ba0785a",
+      "title": "GitHub Copilot 每周发布 — 11 月 9 日 / GitHub Copilot weekly releases — November 9",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "importance_score": 0.8239,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "anthropic",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_41002422ce0e",
       "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "importance_score": 0.8346,
+      "importance_score": 0.8214,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
@@ -143,7 +167,7 @@
       "story_id": "story_65fe65af7919",
       "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
       "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "importance_score": 0.8331,
+      "importance_score": 0.8201,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
@@ -153,121 +177,6 @@
       "lens_topics": [
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_faa37c656a96",
-      "title": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估 / Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "importance_score": 0.8329,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ec5ec6946710",
-      "title": "区域声音正在 Gemini 应用程序中推出。 / Regional voices are rolling out in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices",
-      "importance_score": 0.8307,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_720d3cffff4a",
-      "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "importance_score": 0.8267,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_2f341b4d37a3",
-      "title": "构建画布原生代理：Laya 的经验教训 / Building canvas-native agents: lessons from Laya",
-      "url": "https://lumalabs.ai/news/building-canvas-native-agents",
-      "importance_score": 0.8252,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b5f44e63962c",
-      "title": "使用 Gemini Notebook 将笔记、研究和资源转变为交互式网站。 / Transform notes, research, and sources into interactive sites with Gemini Notebook.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
-      "importance_score": 0.8245,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_83c01ad63559",
-      "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "importance_score": 0.8239,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b1f18d41e30d",
-      "title": "From tasks to goals",
-      "url": "https://www.langchain.com/blog/from-tasks-to-goals",
-      "importance_score": 0.8227,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_585524800462",
-      "title": "为什么我们围绕代理重建 LangSmith / Why we rebuilt LangSmith around the agent",
-      "url": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
-      "importance_score": 0.8224,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3ccf388a44e3",
-      "title": "干净的数据还不够：IFS Copperleaf 如何通过 Databricks Genie One 向人工智能传授业务 / Clean data was never enough: How IFS Copperleaf taught AI its business with Databricks Genie One",
-      "url": "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0",
-      "importance_score": 0.8221,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": []
     },
     {
       "story_id": "story_cf7170a64f24",
@@ -283,28 +192,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f465f8e118d6",
-      "title": "Databricks AI Runtime 上的表格基础模型 / Tabular foundation models on Databricks AI Runtime",
-      "url": "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
-      "importance_score": 0.8187,
+      "story_id": "story_ec5ec6946710",
+      "title": "区域声音正在 Gemini 应用程序中推出。 / Regional voices are rolling out in the Gemini app.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices",
+      "importance_score": 0.8179,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
-      "company_topics": [],
+      "company_topics": [
+        "google-gemini"
+      ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_20459446b955",
-      "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本 / Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
-      "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
-      "importance_score": 0.8187,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_871ec456c87a",
@@ -314,17 +212,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_43ec7f0d19a5",
-      "title": "批量启动 AI 扫描代码仓库 / Bulk start AI Scan for repositories",
-      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-      "importance_score": 0.8161,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
       "company_topics": [],
       "lens_topics": []
     },
@@ -368,14 +255,16 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d51a3c5e115d",
-      "title": "FBI 警告开源 AI 渗透测试工具 Artex 被用于三小时内攻破企业网络",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
-      "importance_score": 0.8147,
-      "importance_label": "多源热议",
-      "source_count": 3,
+      "story_id": "story_720d3cffff4a",
+      "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "importance_score": 0.8142,
+      "importance_label": "官方更新",
+      "source_count": 1,
       "archive_date": "2026-11-17",
-      "company_topics": [],
+      "company_topics": [
+        "openai"
+      ],
       "lens_topics": []
     },
     {
@@ -392,9 +281,22 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_bb9233c09d3b",
-      "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
+      "story_id": "story_83c01ad63559",
+      "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "importance_score": 0.8123,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_b5f44e63962c",
+      "title": "使用 Gemini Notebook 将笔记、研究和资源转变为交互式网站。 / Transform notes, research, and sources into interactive sites with Gemini Notebook.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
       "importance_score": 0.8122,
       "importance_label": "官方更新",
       "source_count": 1,
@@ -405,25 +307,49 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_b43d5653bc16",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "importance_score": 0.812,
+      "story_id": "story_2f341b4d37a3",
+      "title": "构建画布原生代理：Laya 的经验教训 / Building canvas-native agents: lessons from Laya",
+      "url": "https://lumalabs.ai/news/building-canvas-native-agents",
+      "importance_score": 0.8122,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai"
-      ],
+      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
     },
     {
-      "story_id": "story_771eb8ca40dc",
-      "title": "教 Genie One 您的工作流程：Genie One 技能终极指南 / Teach Genie One your workflows: The ultimate guide for skills in Genie One",
-      "url": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
-      "importance_score": 0.8087,
+      "story_id": "story_b1f18d41e30d",
+      "title": "From tasks to goals",
+      "url": "https://www.langchain.com/blog/from-tasks-to-goals",
+      "importance_score": 0.8099,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_585524800462",
+      "title": "为什么我们围绕代理重建 LangSmith / Why we rebuilt LangSmith around the agent",
+      "url": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
+      "importance_score": 0.8096,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_3ccf388a44e3",
+      "title": "干净的数据还不够：IFS Copperleaf 如何通过 Databricks Genie One 向人工智能传授业务 / Clean data was never enough: How IFS Copperleaf taught AI its business with Databricks Genie One",
+      "url": "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0",
+      "importance_score": 0.8094,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
@@ -431,57 +357,86 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_4322b27bcefb",
-      "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
-      "importance_score": 0.806,
-      "importance_label": "行业动态",
-      "source_count": 2,
+      "story_id": "story_f465f8e118d6",
+      "title": "Databricks AI Runtime 上的表格基础模型 / Tabular foundation models on Databricks AI Runtime",
+      "url": "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+      "importance_score": 0.8062,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_20459446b955",
+      "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本 / Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
+      "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+      "importance_score": 0.8062,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_43ec7f0d19a5",
+      "title": "批量启动 AI 扫描代码仓库 / Bulk start AI Scan for repositories",
+      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+      "importance_score": 0.8039,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_d51a3c5e115d",
+      "title": "FBI 警告开源 AI 渗透测试工具 Artex 被用于三小时内攻破企业网络",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "importance_score": 0.8021,
+      "importance_label": "多源热议",
+      "source_count": 3,
+      "archive_date": "2026-11-17",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_bb9233c09d3b",
+      "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
+      "importance_score": 0.8002,
+      "importance_label": "官方更新",
+      "source_count": 1,
       "archive_date": "2026-11-17",
       "company_topics": [
-        "nvidia"
+        "google-gemini"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_9398a1303400",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "importance_score": 0.804,
+      "story_id": "story_52922842e062",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "importance_score": 0.7996,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
       "company_topics": [
         "openai"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_e9309831f176",
-      "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "importance_score": 0.799,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
       "lens_topics": []
     },
     {
-      "story_id": "story_b0f6e6b97de8",
-      "title": "科技界人士质疑英伟达CEO辞职背后存在针对其的阴谋",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "importance_score": 0.799,
-      "importance_label": "行业动态",
+      "story_id": "story_771eb8ca40dc",
+      "title": "教 Genie One 您的工作流程：Genie One 技能终极指南 / Teach Genie One your workflows: The ultimate guide for skills in Genie One",
+      "url": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
+      "importance_score": 0.7962,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-17",
-      "company_topics": [
-        "nvidia"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -513,10 +468,49 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_4322b27bcefb",
+      "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e9309831f176",
+      "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "importance_score": 0.7853,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_b0f6e6b97de8",
+      "title": "科技界人士质疑英伟达CEO辞职背后存在针对其的阴谋",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "importance_score": 0.7853,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_0ff7a5b311dd",
       "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
       "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
-      "importance_score": 0.79,
+      "importance_score": 0.7779,
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-17",
@@ -527,7 +521,7 @@
       "story_id": "story_93170cb3bffc",
       "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face / California sues OpenAI over rogue AI hacking incidents",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "importance_score": 0.787,
+      "importance_score": 0.7738,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-17",
@@ -541,10 +535,35 @@
       ]
     },
     {
-      "story_id": "story_f5f09cc43f36",
-      "title": "英伟达财报前瞻：临时CEO科莱特·克雷斯将面临哪些关键问题",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
-      "importance_score": 0.781,
+      "story_id": "story_9c62ecdb4967",
+      "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
+      "url": "https://www.ithome.com/1/027/861.htm",
+      "importance_score": 0.7719,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-16",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9113026e72af",
+      "title": "llama.cpp 与 ggml 发布 v1.0.0 稳定库 / llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "importance_score": 0.7689,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-16",
+      "company_topics": [
+        "meta-llama",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ffa281130f35",
+      "title": "AI投资回报担忧升温，英伟达市值排名跌至美国第三",
+      "url": "https://www.aibase.com/news/32354",
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-17",
@@ -552,35 +571,6 @@
         "nvidia"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_c941c8af88f7",
-      "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
-      "url": "https://www.ithome.com/1/028/052.htm",
-      "importance_score": 0.7794,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai",
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d6c2a1d618ad",
-      "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱 / Gemini 4 Carbon, Hydrogen, Decisions API, self-hosted agent sandboxes and more",
-      "url": "https://x.com/_philschmid/status/2122358498461691913",
-      "importance_score": 0.773,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }
