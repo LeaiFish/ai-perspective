@@ -4,20 +4,20 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-18T03:26:28.006652Z",
+  "generated_at": "2026-11-18T03:52:45.846239Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18"
   ],
-  "story_count": 1351,
-  "unique_story_count": 1269,
+  "story_count": 1353,
+  "unique_story_count": 1274,
   "counts": {
     "by_company_topic": {
-      "anthropic": 202,
+      "anthropic": 201,
       "apple": 20,
       "cursor": 4,
-      "deepseek": 29,
+      "deepseek": 30,
       "doubao": 8,
       "google-gemini": 144,
       "huggingface": 26,
@@ -27,27 +27,27 @@
       "microsoft": 25,
       "minimax": 5,
       "nvidia": 145,
-      "openai": 186,
+      "openai": 185,
       "openrouter": 7,
       "perplexity": 9,
       "qwen": 11,
-      "xai": 22,
+      "xai": 23,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 233,
-      "monetization": 48,
-      "product-entry": 45,
+      "agent-ecosystem": 232,
+      "monetization": 49,
+      "product-entry": 46,
       "workplace": 51
     },
     "by_importance_label": {
-      "值得关注": 1104,
+      "值得关注": 1105,
       "多源热议": 22,
       "官方更新": 114,
-      "行业动态": 111
+      "行业动态": 112
     },
     "by_source_count_bucket": {
-      "1": 1275,
+      "1": 1277,
       "2": 51,
       "3+": 25
     }
@@ -57,7 +57,7 @@
       "story_id": "story_67ad34c820c2",
       "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol / Introducing GPT-6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "importance_score": 0.8865,
+      "importance_score": 0.8855,
       "importance_label": "官方更新",
       "source_count": 3,
       "archive_date": "2026-11-18",
@@ -126,7 +126,7 @@
       "story_id": "story_cfb0a416a80c",
       "title": "OpenAI 的 GPT-6.2 Astra 和 GPT-6.2 Sol 现已上市 / OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
       "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "importance_score": 0.8425,
+      "importance_score": 0.8414,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -143,7 +143,7 @@
       "story_id": "story_32d671c0a66e",
       "title": "如何为人工智能代理选择合适的沙箱 / How to Choose the Right Sandbox for AI Agents",
       "url": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
-      "importance_score": 0.8372,
+      "importance_score": 0.8361,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -151,19 +151,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_ec9df5195595",
-      "title": "了解 5 位建筑商使用 Gemini 4 Carbon 制作了什么 / See what 5 builders are making with Gemini 4 Carbon",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders",
-      "importance_score": 0.836,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_06c4b1df4e91",
@@ -179,10 +166,23 @@
       ]
     },
     {
+      "story_id": "story_ec9df5195595",
+      "title": "了解 5 位建筑商使用 Gemini 4 Carbon 制作了什么 / See what 5 builders are making with Gemini 4 Carbon",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders",
+      "importance_score": 0.835,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_19ad988d9abd",
       "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
       "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "importance_score": 0.8292,
+      "importance_score": 0.8282,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -197,7 +197,7 @@
       "story_id": "story_9c01c6018d4d",
       "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -212,7 +212,7 @@
       "story_id": "story_656e809f1ddf",
       "title": "GitHub Copilot CLI 添加了 Microsoft Entra 登录预览 / GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
       "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -227,7 +227,7 @@
       "story_id": "story_3b115a9684d2",
       "title": "通过 Microsoft Agent 365 监控 GitHub Copilot 活动 / Monitor GitHub Copilot activity through Microsoft Agent 365",
       "url": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -243,7 +243,7 @@
       "story_id": "story_308e6b02f235",
       "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
       "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -258,7 +258,7 @@
       "story_id": "story_2d4e74257161",
       "title": "JetBrains 中的 GitHub Copilot、Ignite 版本 / GitHub Copilot in JetBrains, Ignite releases",
       "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -273,7 +273,7 @@
       "story_id": "story_238adc092859",
       "title": "在 Repository Insights 中跟踪 Copilot 代码审查结果 / Track Copilot code review outcomes in Repository insights",
       "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
-      "importance_score": 0.8291,
+      "importance_score": 0.8281,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -288,7 +288,7 @@
       "story_id": "story_3941edd1fffa",
       "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用 / Put Gemini to work for you",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-      "importance_score": 0.8268,
+      "importance_score": 0.8258,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -301,7 +301,7 @@
       "story_id": "story_a234d9d627d1",
       "title": "保护痕迹中的敏感数据：LangSmith 中的新控件 / Protect sensitive data in your traces: new controls in LangSmith",
       "url": "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith",
-      "importance_score": 0.8211,
+      "importance_score": 0.8201,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -312,7 +312,7 @@
       "story_id": "story_65a0910a1349",
       "title": "Muse 现已在澳大利亚上市：世界上第一个为所有人打造的个人人工智能代理 / Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
       "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia",
-      "importance_score": 0.8211,
+      "importance_score": 0.8201,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -335,19 +335,6 @@
         "openai"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_2bb6d30b48cc",
-      "title": "我们在构建主动代理方面学到了什么 / What We’ve Learned Building Proactive Agents",
-      "url": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
-      "importance_score": 0.8184,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_e05c122d19a4",
@@ -374,17 +361,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_e6d6b9315c6a",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "importance_score": 0.8159,
+      "story_id": "story_2bb6d30b48cc",
+      "title": "我们在构建主动代理方面学到了什么 / What We’ve Learned Building Proactive Agents",
+      "url": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+      "importance_score": 0.8174,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_e751b70408e1",
@@ -418,6 +405,19 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-16",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e6d6b9315c6a",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "importance_score": 0.8151,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
       "company_topics": [
         "openai"
       ],
@@ -514,7 +514,7 @@
       "story_id": "story_f0126af5ea79",
       "title": "OpenAI 发布 gpt-6.2-astra 与 gpt-6.2-sol，Ultrafast 降价 50% / In the API, use gpt-6.2-astra and gpt-6.2-sol. Both models also support Fast and Ultrafast modes.",
       "url": "https://x.com/OpenAIDevs/status/2122752500877144461",
-      "importance_score": 0.8052,
+      "importance_score": 0.8042,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
@@ -539,22 +539,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_da25284c7028",
-      "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-      "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-      "importance_score": 0.8022,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": [
-        "monetization",
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_b5f44e63962c",
       "title": "使用 Gemini Notebook 将笔记、研究和资源转变为交互式网站。 / Transform notes, research, and sources into interactive sites with Gemini Notebook.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
@@ -566,6 +550,22 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_da25284c7028",
+      "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
+      "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
+      "importance_score": 0.8012,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "monetization",
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_2f341b4d37a3",
