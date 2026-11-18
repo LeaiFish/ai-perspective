@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:31:13.451605Z",
+  "generated_at": "2026-11-18T08:38:09.702214Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -73,16 +73,204 @@
       "select_tier": "T1",
       "source_heat": 1.0,
       "other_source_count": 2,
-      "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
-      "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
-        "reason": "shared_entity",
-        "similarity": 0.7794
-      },
-      "follow_up_count": 0,
-      "follow_ups": [],
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 24,
+      "follow_ups": [
+        {
+          "story_id": "story_48161470bf21",
+          "title": "OpenAI 发布 GPT-6.2 Astra 前沿模型 / GPT-6.2 Astra—a frontier model built for your hardest projects. It sets new highs on evals across professional work and scientific resear...",
+          "url": "https://x.com/OpenAI/status/2122750126297161811",
+          "latest_at": "2026-11-17T17:54:03Z",
+          "reason": "shared_entity",
+          "similarity": 0.377
+        },
+        {
+          "story_id": "story_82a8aec97b14",
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol / Some of you have been asking very politely. Some of you have just been asking.",
+          "url": "https://x.com/OpenAI/status/2122750124543926515",
+          "latest_at": "2026-11-17T17:54:03Z",
+          "reason": "shared_entity",
+          "similarity": 0.4809
+        },
+        {
+          "story_id": "story_65fa6b7c5d74",
+          "title": "OpenAI 发布 GPT-6.2 Astra，提升工程准确性 and 网站视觉推理 / Take GPT-6.2 Astra for a test drive.",
+          "url": "https://x.com/OpenAI/status/2122750131519037617",
+          "latest_at": "2026-11-17T17:54:04Z",
+          "reason": "shared_entity",
+          "similarity": 0.5974
+        },
+        {
+          "story_id": "story_08d45a2a9b23",
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol，上线 ChatGPT Work、Codex 和 API / Starting today, GPT-6.2 Astra and Sol are available in ChatGPT Work and Codex for Plus, Pro, Enterprise, and Edu users.",
+          "url": "https://x.com/OpenAI/status/2122750135608528984",
+          "latest_at": "2026-11-17T17:54:05Z",
+          "reason": "shared_entity",
+          "similarity": 0.4841
+        },
+        {
+          "story_id": "story_9577be3c0719",
+          "title": "OpenAI 发布 GPT-6.2 Astra，ExploitBench Internal Port 较 GPT-6 Astra 提升 22 分 / GPT-6.2 Astra is our most capable model ever for cyber. It jumps 22 points over GPT-6 Astra on ExploitBench Internal Port.",
+          "url": "https://x.com/OpenAI/status/2122750133133791592",
+          "latest_at": "2026-11-17T17:54:05Z",
+          "reason": "shared_entity",
+          "similarity": 0.462
+        },
+        {
+          "story_id": "story_1458fea27f1b",
+          "title": "[OpenAI] GPT-6.2 Astra & Sol 发布了",
+          "url": "https://www.v2ex.com/t/1257856",
+          "latest_at": "2026-11-17T17:57:05Z",
+          "reason": "shared_entity",
+          "similarity": 0.5638
+        },
+        {
+          "story_id": "story_fb2ad3752f55",
+          "title": "[OpenAI] 这就突然端出来了？GPT-6.2 Astra 和 Sol 现已可用",
+          "url": "https://www.v2ex.com/t/1257857",
+          "latest_at": "2026-11-17T17:57:12Z",
+          "reason": "shared_entity",
+          "similarity": 0.7568
+        },
+        {
+          "story_id": "story_fb276e078833",
+          "title": "OpenAI 发布 GPT-6.2 Astra 和 GPT-6.2 Sol / And here we go…GPT-6.2 Astra and GPT-6.2 Sol are yours to make more games with.",
+          "url": "https://x.com/ChatGPT/status/2122751009156210841",
+          "latest_at": "2026-11-17T17:57:34Z",
+          "reason": "shared_entity",
+          "similarity": 0.6562
+        },
+        {
+          "story_id": "story_da25284c7028",
+          "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
+          "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
+          "latest_at": "2026-11-17T18:03:04Z",
+          "reason": "shared_entity",
+          "similarity": 0.4509
+        },
+        {
+          "story_id": "story_f0126af5ea79",
+          "title": "OpenAI 发布 gpt-6.2-astra 与 gpt-6.2-sol，Ultrafast 降价 50% / In the API, use gpt-6.2-astra and gpt-6.2-sol. Both models also support Fast and Ultrafast modes.",
+          "url": "https://x.com/OpenAIDevs/status/2122752500877144461",
+          "latest_at": "2026-11-17T18:03:29Z",
+          "reason": "shared_entity",
+          "similarity": 0.6081
+        },
+        {
+          "story_id": "story_2847c642476f",
+          "title": "OpenAI 发布 GPT-6.2 Sol 与 Astra，Sol 的 ultrafast 扩展至 Pro 200 套餐 / GPT-6.2 Sol & Astra are *finally* here. We've also expanded ultrafast to Pro 200 plans for GPT-6.2 Sol, it's my go-to model for most day ...",
+          "url": "https://x.com/thsottiaux/status/2122753991000133943",
+          "latest_at": "2026-11-17T18:09:24Z",
+          "reason": "shared_entity",
+          "similarity": 0.3416
+        },
+        {
+          "story_id": "story_51170a7cf022",
+          "title": "OpenAI GPT-6.2 Astra 和 GPT-6.2 Sol 上线 OpenRouter / GPT-6.2 Astra and GPT-6.2 Sol from @OpenAI are live on OpenRouter!",
+          "url": "https://x.com/OpenRouter/status/2122754139533066653",
+          "latest_at": "2026-11-17T18:10:00Z",
+          "reason": "shared_entity",
+          "similarity": 0.6421
+        },
+        {
+          "story_id": "story_13fa5f7f667f",
+          "title": "OpenAI 在 ChatGPT 和 API 上推出 GPT-6.2 Astra 和 Sol / OpenAI launches GPT-6.2 Astra and Sol on ChatGPT and APIs",
+          "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis",
+          "latest_at": "2026-11-17T18:55:50Z",
+          "reason": "shared_entity",
+          "similarity": 0.6034
+        },
+        {
+          "story_id": "story_360e57faa433",
+          "title": "I hate GPT-6.2 Astra",
+          "url": "https://twitter.com/theo/status/2122760447103484410",
+          "latest_at": "2026-11-17T18:57:57Z",
+          "reason": "title_and_model",
+          "similarity": 0.5769
+        },
+        {
+          "story_id": "story_d03450d1666b",
+          "title": "[OpenAI] 6.2 Astra 和 6.2 Sol 的使用体验让我事后更加偏爱 Claude 的模型",
+          "url": "https://www.v2ex.com/t/1257861",
+          "latest_at": "2026-11-17T19:17:06Z",
+          "reason": "title_and_vendor",
+          "similarity": 0.5647
+        },
+        {
+          "story_id": "story_36e9a9a820c1",
+          "title": "OpenClaw 上线 OpenAI GPT-6.2 Astra 和 Sol 模型 / GPT-6.2 Astra and Sol from @OpenAI are now available in OpenClaw! 🦞",
+          "url": "https://x.com/openclaw/status/2122778563829174468",
+          "latest_at": "2026-11-17T19:47:03Z",
+          "reason": "shared_entity",
+          "similarity": 0.693
+        },
+        {
+          "story_id": "story_867929bebecd",
+          "title": "OpenAI 刚刚推出了 GPT-6.2 Astra 和 Sol / OpenAI just unveiled GPT-6.2 Astra and Sol",
+          "url": "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser",
+          "latest_at": "2026-11-17T20:02:39Z",
+          "reason": "shared_entity",
+          "similarity": 0.72
+        },
+        {
+          "story_id": "story_cfb0a416a80c",
+          "title": "OpenAI 的 GPT-6.2 Astra 和 GPT-6.2 Sol 现已上市 / OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+          "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+          "latest_at": "2026-11-17T20:20:29Z",
+          "reason": "shared_entity",
+          "similarity": 0.7324
+        },
+        {
+          "story_id": "story_a6992ed968ea",
+          "title": "OpenAI 推出 GPT-6.2 Astra 和 Sol，API 价格更低，基准有所提升 / OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+          "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains",
+          "latest_at": "2026-11-17T20:30:50Z",
+          "reason": "shared_entity",
+          "similarity": 0.6807
+        },
+        {
+          "story_id": "story_561d68d5b9c2",
+          "title": "OpenClaw 的 Sign in with ChatGPT 结束测试，支持 ChatGPT Business 及 GPT-6.2 Astra 与 Sol / Sign in with ChatGPT is out of beta! 🦞",
+          "url": "https://x.com/openclaw/status/2122809472271958517",
+          "latest_at": "2026-11-17T21:49:52Z",
+          "reason": "title_and_model",
+          "similarity": 0.5156
+        },
+        {
+          "story_id": "story_e93335aacca4",
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol，Astra API 降价 20% / OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
+          "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release",
+          "latest_at": "2026-11-17T22:07:30Z",
+          "reason": "shared_entity",
+          "similarity": 0.6697
+        },
+        {
+          "story_id": "story_47ba1b147029",
+          "title": "Perplexity 上线 GPT-6.2 Astra 和 GPT-6.2 Sol，并公布 WANDR 基准成绩 / GPT-6.2 Astra and GPT-6.2 Sol are now available in Perplexity Search and Computer.",
+          "url": "https://x.com/perplexity_ai/status/2122814545639223348",
+          "latest_at": "2026-11-17T22:10:02Z",
+          "reason": "title_and_model",
+          "similarity": 0.6667
+        },
+        {
+          "story_id": "story_a1c23c39b6ac",
+          "title": "OpenAI 推出 GPT-6.2 Astra 和 Sol，遭到 AI 高级用户的负面评价 / OpenAI launches GPT-6.2 Astra and Sol to negative reception from AI power users",
+          "url": "https://2tinteractive.com/watch/episodes/5726",
+          "latest_at": "2026-11-17T23:38:43Z",
+          "reason": "shared_entity",
+          "similarity": 0.6695
+        },
+        {
+          "story_id": "story_0e3f299a3d0c",
+          "title": "OpenAI 官宣 GPT-6.2 Astra 与 Sol：API 成本暴降 60%，全面赋能专业研究与日常办公",
+          "url": "https://www.aibase.com/news/32367",
+          "latest_at": "2026-11-18T03:07:14.520698Z",
+          "reason": "shared_entity",
+          "similarity": 0.5909
+        }
+      ],
       "items": [
         {
           "id": "4f7164559ca979667b0041db879eb508af07704a",
@@ -138,16 +326,16 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8841,
-      "importance": 0.8841,
-      "importance_score": 0.8841,
+      "score": 0.8752,
+      "importance": 0.8752,
+      "importance_score": 0.8752,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.856,
+        "recency": 0.8066,
         "story_heat": 0.5
       },
       "category": "official",
@@ -233,16 +421,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8546,
-      "importance": 0.8546,
-      "importance_score": 0.8546,
+      "score": 0.8449,
+      "importance": 0.8449,
+      "importance_score": 0.8449,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.9368,
+        "recency": 0.8828,
         "story_heat": 0.0
       },
       "category": "official",
@@ -302,10 +490,10 @@
       "source_heat": 1.0,
       "other_source_count": 0,
       "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
+      "parent_story_id": "story_67ad34c820c2",
       "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
+        "story_id": "story_67ad34c820c2",
+        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol / Introducing GPT-6.2 Astra and Sol",
         "reason": "shared_entity",
         "similarity": 0.7324
       },
@@ -332,16 +520,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8399,
-      "importance": 0.8399,
-      "importance_score": 0.8399,
+      "score": 0.8307,
+      "importance": 0.8307,
+      "importance_score": 0.8307,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8886,
+        "recency": 0.8373,
         "story_heat": 0.0
       },
       "category": "official",
@@ -426,16 +614,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8345,
-      "importance": 0.8345,
-      "importance_score": 0.8345,
+      "score": 0.8247,
+      "importance": 0.8247,
+      "importance_score": 0.8247,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9473,
+        "recency": 0.8926,
         "story_heat": 0.0
       },
       "category": "official",
@@ -497,7 +685,7 @@
       "relation": "primary",
       "parent_story_id": null,
       "follow_up_of": null,
-      "follow_up_count": 1,
+      "follow_up_count": 2,
       "follow_ups": [
         {
           "story_id": "story_e9ab2308fb1b",
@@ -506,6 +694,14 @@
           "latest_at": "2026-11-17T23:05:00Z",
           "reason": "shared_entity",
           "similarity": 0.3429
+        },
+        {
+          "story_id": "story_a5fd9a13ad20",
+          "title": "为什么 Gemini 4 Carbon 需要这么长时间？ / Why is Gemini 4 Carbon taking so long?",
+          "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+          "latest_at": "2026-11-18T04:14:04Z",
+          "reason": "shared_entity",
+          "similarity": 0.5385
         }
       ],
       "items": [
@@ -529,16 +725,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8335,
-      "importance": 0.8335,
-      "importance_score": 0.8335,
+      "score": 0.8242,
+      "importance": 0.8242,
+      "importance_score": 0.8242,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8971,
+        "recency": 0.8453,
         "story_heat": 0.0
       },
       "category": "official",
@@ -623,16 +819,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8244,
-      "importance": 0.8244,
-      "importance_score": 0.8244,
+      "score": 0.8156,
+      "importance": 0.8156,
+      "importance_score": 0.8156,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8467,
+        "recency": 0.7979,
         "story_heat": 0.0
       },
       "category": "official",
@@ -655,6 +851,99 @@
         "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
         "source": "Google AI Blog",
         "source_name": "Google AI Blog"
+      }
+    },
+    {
+      "story_id": "story_be042eff1bf2",
+      "editorial_focus": "general",
+      "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+      "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:30:49Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "select_tier": "T2",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:30:49Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8107,
+      "importance": 0.8107,
+      "importance_score": 0.8107,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.89,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9559,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T05:30:49Z",
+      "latest_at": "2026-11-18T05:30:49Z",
+      "primary_item": {
+        "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+        "site_id": "aihot",
+        "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+        "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -717,16 +1006,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8186,
-      "importance": 0.8186,
-      "importance_score": 0.8186,
+      "score": 0.8097,
+      "importance": 0.8097,
+      "importance_score": 0.8097,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8592,
+        "recency": 0.8096,
         "story_heat": 0.0
       },
       "category": "official",
@@ -786,10 +1075,10 @@
       "source_heat": 1.0,
       "other_source_count": 0,
       "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
+      "parent_story_id": "story_67ad34c820c2",
       "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
+        "story_id": "story_67ad34c820c2",
+        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol / Introducing GPT-6.2 Astra and Sol",
         "reason": "shared_entity",
         "similarity": 0.6081
       },
@@ -816,16 +1105,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8028,
-      "importance": 0.8028,
-      "importance_score": 0.8028,
+      "score": 0.7938,
+      "importance": 0.7938,
+      "importance_score": 0.7938,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.76,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8598,
+        "recency": 0.8102,
         "story_heat": 0.0
       },
       "category": "official",
@@ -850,30 +1139,30 @@
       }
     },
     {
-      "story_id": "story_19ad988d9abd",
+      "story_id": "story_308e6b02f235",
       "editorial_focus": "general",
-      "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "primary_url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "primary_url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
       "source": "GitHub Changelog",
       "source_name": "GitHub Changelog",
       "sources": [
         {
-          "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
-          "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
-          "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
-          "title_en": "GitHub Copilot app, Microsoft Ignite releases",
-          "title_original": "GitHub Copilot app, Microsoft Ignite releases",
-          "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+          "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
+          "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
+          "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
+          "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
+          "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
+          "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
           "source": "GitHub Changelog",
           "source_name": "GitHub Changelog",
           "site_id": "official_ai",
           "select_tier": "T1",
           "editorial_focus": "general",
           "editorial_tags": [],
-          "published_at": "2026-11-17T18:03:42Z"
+          "published_at": "2026-11-17T18:02:05Z"
         }
       ],
       "source_count": 1,
@@ -883,47 +1172,42 @@
       "select_tier": "T1",
       "source_heat": 1.0,
       "other_source_count": 0,
-      "relation": "follow_up",
-      "parent_story_id": "story_2d4e74257161",
-      "follow_up_of": {
-        "story_id": "story_2d4e74257161",
-        "title": "JetBrains 中的 GitHub Copilot、Ignite 版本 / GitHub Copilot in JetBrains, Ignite releases",
-        "reason": "title_and_vendor",
-        "similarity": 0.6784
-      },
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
       "follow_up_count": 0,
       "follow_ups": [],
       "items": [
         {
-          "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
-          "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
-          "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
-          "title_en": "GitHub Copilot app, Microsoft Ignite releases",
-          "title_original": "GitHub Copilot app, Microsoft Ignite releases",
-          "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+          "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
+          "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
+          "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
+          "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
+          "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
+          "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
           "source": "GitHub Changelog",
           "source_name": "GitHub Changelog",
           "site_id": "official_ai",
           "select_tier": "T1",
           "editorial_focus": "general",
           "editorial_tags": [],
-          "published_at": "2026-11-17T18:03:42Z"
+          "published_at": "2026-11-17T18:02:05Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8268,
-      "importance": 0.8268,
-      "importance_score": 0.8268,
+      "score": 0.8178,
+      "importance": 0.8178,
+      "importance_score": 0.8178,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8598,
+        "recency": 0.8099,
         "story_heat": 0.0
       },
       "category": "official",
@@ -932,18 +1216,18 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-17T18:03:42Z",
-      "latest_at": "2026-11-17T18:03:42Z",
+      "earliest_at": "2026-11-17T18:02:05Z",
+      "latest_at": "2026-11-17T18:02:05Z",
       "primary_item": {
-        "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
+        "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
         "site_id": "official_ai",
-        "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
-        "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
-        "title_en": "GitHub Copilot app, Microsoft Ignite releases",
-        "title_original": "GitHub Copilot app, Microsoft Ignite releases",
-        "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+        "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
+        "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
+        "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
+        "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
+        "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+        "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
         "source": "GitHub Changelog",
         "source_name": "GitHub Changelog"
       }
@@ -1017,16 +1301,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7927,
-      "importance": 0.7927,
-      "importance_score": 0.7927,
+      "score": 0.783,
+      "importance": 0.783,
+      "importance_score": 0.783,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9396,
+        "recency": 0.8853,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1087,10 +1371,10 @@
       "source_heat": 1.0,
       "other_source_count": 0,
       "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
+      "parent_story_id": "story_67ad34c820c2",
       "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
+        "story_id": "story_67ad34c820c2",
+        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol / Introducing GPT-6.2 Astra and Sol",
         "reason": "shared_entity",
         "similarity": 0.6697
       },
@@ -1119,16 +1403,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7907,
-      "importance": 0.7907,
-      "importance_score": 0.7907,
+      "score": 0.7813,
+      "importance": 0.7813,
+      "importance_score": 0.7813,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9118,
+        "recency": 0.8592,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1149,99 +1433,6 @@
         "recommend_reason_zh": null,
         "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release",
         "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ff11c2378a0d",
-      "editorial_focus": "general",
-      "title": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93% / Nvidia quarterly results beat estimates",
-      "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "335fd478b49c6905df95a4eeb014181c01ef3404",
-          "title": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93% / Nvidia quarterly results beat estimates",
-          "title_zh": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93%",
-          "title_en": "Nvidia quarterly results beat estimates",
-          "title_original": "Nvidia quarterly results beat estimates",
-          "summary": "Nvidia 第三财季营收 $115.8B，同比增长 103%，其中数据中心收入 $107.6B 占 93%，季度利润 $65.3B 翻倍。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T22:02:23Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "select_tier": "T2",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "335fd478b49c6905df95a4eeb014181c01ef3404",
-          "title": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93% / Nvidia quarterly results beat estimates",
-          "title_zh": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93%",
-          "title_en": "Nvidia quarterly results beat estimates",
-          "title_original": "Nvidia quarterly results beat estimates",
-          "summary": "Nvidia 第三财季营收 $115.8B，同比增长 103%，其中数据中心收入 $107.6B 占 93%，季度利润 $65.3B 翻倍。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T22:02:23Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7905,
-      "importance": 0.7905,
-      "importance_score": 0.7905,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.85,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9107,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T22:02:23Z",
-      "latest_at": "2026-11-17T22:02:23Z",
-      "primary_item": {
-        "id": "335fd478b49c6905df95a4eeb014181c01ef3404",
-        "site_id": "aihot",
-        "title": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93% / Nvidia quarterly results beat estimates",
-        "title_zh": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93%",
-        "title_en": "Nvidia quarterly results beat estimates",
-        "title_original": "Nvidia quarterly results beat estimates",
-        "summary": "Nvidia 第三财季营收 $115.8B，同比增长 103%，其中数据中心收入 $107.6B 占 93%，季度利润 $65.3B 翻倍。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -1305,16 +1496,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8186,
-      "importance": 0.8186,
-      "importance_score": 0.8186,
+      "score": 0.8097,
+      "importance": 0.8097,
+      "importance_score": 0.8097,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8591,
+        "recency": 0.8095,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1399,16 +1590,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7862,
-      "importance": 0.7862,
-      "importance_score": 0.7862,
+      "score": 0.7769,
+      "importance": 0.7769,
+      "importance_score": 0.7769,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.68,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9012,
+        "recency": 0.8492,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1430,100 +1621,6 @@
         "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e6d6b9315c6a",
-      "editorial_focus": "general",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "primary_url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "source": "OpenAI News",
-      "source_name": "OpenAI News",
-      "sources": [
-        {
-          "id": "d1e6370b23b24cbc4cffc01b82f4787a8ecbf5c4",
-          "title": "Introducing ChatGPT for Sales",
-          "title_zh": null,
-          "title_en": "Introducing ChatGPT for Sales",
-          "title_original": "Introducing ChatGPT for Sales",
-          "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-          "source": "OpenAI News",
-          "source_name": "OpenAI News",
-          "site_id": "official_ai",
-          "select_tier": "T1",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T08:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "select_tier": "T1",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "d1e6370b23b24cbc4cffc01b82f4787a8ecbf5c4",
-          "title": "Introducing ChatGPT for Sales",
-          "title_zh": null,
-          "title_en": "Introducing ChatGPT for Sales",
-          "title_original": "Introducing ChatGPT for Sales",
-          "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-          "source": "OpenAI News",
-          "source_name": "OpenAI News",
-          "site_id": "official_ai",
-          "select_tier": "T1",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T08:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8138,
-      "importance": 0.8138,
-      "importance_score": 0.8138,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7435,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T08:00:00Z",
-      "latest_at": "2026-11-17T08:00:00Z",
-      "primary_item": {
-        "id": "d1e6370b23b24cbc4cffc01b82f4787a8ecbf5c4",
-        "site_id": "official_ai",
-        "title": "Introducing ChatGPT for Sales",
-        "title_zh": null,
-        "title_en": "Introducing ChatGPT for Sales",
-        "title_original": "Introducing ChatGPT for Sales",
-        "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-        "source": "OpenAI News",
-        "source_name": "OpenAI News"
       }
     },
     {
@@ -1586,16 +1683,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7837,
-      "importance": 0.7837,
-      "importance_score": 0.7837,
+      "score": 0.7749,
+      "importance": 0.7749,
+      "importance_score": 0.7749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8392,
+        "recency": 0.7908,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1654,10 +1751,10 @@
       "source_heat": 1.0,
       "other_source_count": 0,
       "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
+      "parent_story_id": "story_67ad34c820c2",
       "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
+        "story_id": "story_67ad34c820c2",
+        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol / Introducing GPT-6.2 Astra and Sol",
         "reason": "title_and_model",
         "similarity": 0.6667
       },
@@ -1684,16 +1781,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7822,
-      "importance": 0.7822,
-      "importance_score": 0.7822,
+      "score": 0.7727,
+      "importance": 0.7727,
+      "importance_score": 0.7727,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.66,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9123,
+        "recency": 0.8597,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1715,6 +1812,103 @@
         "url": "https://x.com/perplexity_ai/status/2122814545639223348",
         "source": "X：Perplexity (@perplexity_ai)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c1c5a37b0566",
+      "editorial_focus": "product",
+      "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+      "url": "https://www.aibase.com/news/32379",
+      "primary_url": "https://www.aibase.com/news/32379",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
+          "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "title_en": null,
+          "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32379",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "select_tier": "T2",
+          "editorial_focus": "product",
+          "editorial_tags": [
+            "product_update"
+          ],
+          "published_at": "2026-11-18T08:38:09.702214Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "select_tier": "T2",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
+          "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "title_en": null,
+          "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32379",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "select_tier": "T2",
+          "editorial_focus": "product",
+          "editorial_tags": [
+            "product_update"
+          ],
+          "published_at": "2026-11-18T08:38:09.702214Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T08:38:09.702214Z",
+      "latest_at": "2026-11-18T08:38:09.702214Z",
+      "primary_item": {
+        "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
+        "site_id": "aibase",
+        "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+        "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+        "title_en": null,
+        "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/32379",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1777,16 +1971,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7763,
-      "importance": 0.7763,
-      "importance_score": 0.7763,
+      "score": 0.7666,
+      "importance": 0.7666,
+      "importance_score": 0.7666,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9318,
+        "recency": 0.878,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1855,8 +2049,8 @@
         },
         {
           "id": "03b755b3c3300bf89dab84ef94f9c3d1c8985cff",
-          "title": "Microsoft AI 发布编码模型 MAI Code 2 与 MAI Code 2 Flash / MAI Code 2 and Code 2 Flash",
-          "title_zh": "Microsoft AI 发布编码模型 MAI Code 2 与 MAI Code 2 Flash",
+          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash",
+          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
           "title_en": "MAI Code 2 and Code 2 Flash",
           "title_original": "MAI Code 2 and Code 2 Flash",
           "summary": null,
@@ -1922,8 +2116,8 @@
         },
         {
           "id": "03b755b3c3300bf89dab84ef94f9c3d1c8985cff",
-          "title": "Microsoft AI 发布编码模型 MAI Code 2 与 MAI Code 2 Flash / MAI Code 2 and Code 2 Flash",
-          "title_zh": "Microsoft AI 发布编码模型 MAI Code 2 与 MAI Code 2 Flash",
+          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash",
+          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
           "title_en": "MAI Code 2 and Code 2 Flash",
           "title_original": "MAI Code 2 and Code 2 Flash",
           "summary": null,
@@ -1940,16 +2134,16 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7718,
-      "importance": 0.7718,
-      "importance_score": 0.7718,
+      "score": 0.7628,
+      "importance": 0.7628,
+      "importance_score": 0.7628,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8622,
+        "recency": 0.8125,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1975,112 +2169,103 @@
       }
     },
     {
-      "story_id": "story_da25284c7028",
-      "editorial_focus": "product",
-      "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-      "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-      "primary_url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "story_id": "story_1bfadfbcd025",
+      "editorial_focus": "general",
+      "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+      "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ac8217d931d74bc908cbb3a119dabd88eb4d9681",
-          "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "title_zh": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20%",
-          "title_en": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "title_original": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "summary": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，带来代码更干净、前端与 3D 模型能力提升以及更高效的工具调用。Astra 和 Sol 在高难度任务上能用更少输出 token 取得更好结果；API 中 Astra 标准输入输出 token 价格比 GPT-6 Astra 低 20%，Sol 在与 GPT-6.1 Sol 相同的每 token API 成本下能力更强。",
+          "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
+          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+          "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
           "recommend_reason_zh": null,
-          "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
+          "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "select_tier": "T1_5",
-          "editorial_focus": "product",
-          "editorial_tags": [
-            "product_update"
-          ],
-          "published_at": "2026-11-17T18:03:04Z"
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:19:46Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：OpenAI Developers (@OpenAIDevs)"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
-      "select_tier": "T1_5",
+      "select_tier": "T2",
       "source_heat": 1.0,
       "other_source_count": 0,
-      "relation": "follow_up",
-      "parent_story_id": "story_dd6e387f0b06",
-      "follow_up_of": {
-        "story_id": "story_dd6e387f0b06",
-        "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡 / GPT-6.2 System Card",
-        "reason": "shared_entity",
-        "similarity": 0.4509
-      },
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
       "follow_up_count": 0,
       "follow_ups": [],
       "items": [
         {
-          "id": "ac8217d931d74bc908cbb3a119dabd88eb4d9681",
-          "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "title_zh": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20%",
-          "title_en": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "title_original": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-          "summary": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，带来代码更干净、前端与 3D 模型能力提升以及更高效的工具调用。Astra 和 Sol 在高难度任务上能用更少输出 token 取得更好结果；API 中 Astra 标准输入输出 token 价格比 GPT-6 Astra 低 20%，Sol 在与 GPT-6.1 Sol 相同的每 token API 成本下能力更强。",
+          "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
+          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+          "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+          "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
           "recommend_reason_zh": null,
-          "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
+          "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "select_tier": "T1_5",
-          "editorial_focus": "product",
-          "editorial_tags": [
-            "product_update"
-          ],
-          "published_at": "2026-11-17T18:03:04Z"
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:19:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7997,
-      "importance": 0.7997,
-      "importance_score": 0.7997,
-      "importance_label": "官方更新",
+      "score": 0.7922,
+      "importance": 0.7922,
+      "importance_score": 0.7922,
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
-        "editorial": 0.75,
-        "source_tier": 1.0,
+        "editorial": 0.83,
+        "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8597,
+        "recency": 0.9534,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-17T18:03:04Z",
-      "latest_at": "2026-11-17T18:03:04Z",
+      "earliest_at": "2026-11-18T05:19:46Z",
+      "latest_at": "2026-11-18T05:19:46Z",
       "primary_item": {
-        "id": "ac8217d931d74bc908cbb3a119dabd88eb4d9681",
+        "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
         "site_id": "aihot",
-        "title": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20% / GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-        "title_zh": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，API 价格较 GPT-6 Astra 降低 20%",
-        "title_en": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-        "title_original": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more e...",
-        "summary": "OpenAI 发布 GPT-6.2 Astra 旗舰模型，带来代码更干净、前端与 3D 模型能力提升以及更高效的工具调用。Astra 和 Sol 在高难度任务上能用更少输出 token 取得更好结果；API 中 Astra 标准输入输出 token 价格比 GPT-6 Astra 低 20%，Sol 在与 GPT-6.1 Sol 相同的每 token API 成本下能力更强。",
+        "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+        "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+        "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+        "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
+        "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
         "recommend_reason_zh": null,
-        "url": "https://x.com/OpenAIDevs/status/2122752394002071717",
-        "source": "X：OpenAI Developers (@OpenAIDevs)",
+        "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     }
   ],
   "processing_window": {
     "window_hours": 24,
-    "start": "2026-11-17T04:31:13.451605Z",
-    "end": "2026-11-18T04:31:13.451605Z",
+    "start": "2026-11-17T08:38:09.702214Z",
+    "end": "2026-11-18T08:38:09.702214Z",
     "reasons": [],
     "truncated_to_archive_retention": false
   }
