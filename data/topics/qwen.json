@@ -3,13 +3,13 @@
   "name": "通义千问 / Qwen",
   "description": "阿里通义千问 Qwen 系列：旗舰模型、开源权重、端侧与多模态迭代。",
   "group": "company",
-  "item_count": 210,
-  "listed_count": 210,
+  "item_count": 208,
+  "listed_count": 208,
   "recent_item_count": 145,
   "latest_title": "论文：低基准分可被精确制造，难证模型能力",
   "latest_published_at": "2026-11-17T17:23:58Z",
   "items_url": "data/topics/qwen.json",
-  "generated_at": "2026-11-17T18:39:44.228563Z",
+  "generated_at": "2026-11-17T23:53:41.309904Z",
   "items": [
     {
       "id": "story_e4a6a9f97303",
@@ -348,22 +348,6 @@
       "curated": false
     },
     {
-      "id": "3a402594c6dea3bd63a0e1b4d403868fb760ef2f",
-      "story_id": null,
-      "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
-      "summary": "OpenRouter 用盈亏平衡负载法比较自托管 LLM 与 API 成本：盈亏平衡点等于 GPU 每小时租金除以同一小时 token 的 API 费用。",
-      "recommend_reason_zh": null,
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "OpenRouter：Announcements（RSS）",
-      "site_id": "aihot",
-      "published_at": "2026-11-12T00:00:00Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
       "id": "38bcb8179ab9a9b9e74da9524a7ac63530319872",
       "story_id": null,
       "title": "Reinforcement Learning: Optimizing 0.6B Dense Models on TPU v7 via vLLM",
@@ -375,6 +359,22 @@
       "source": "vLLM Blog",
       "source_name": "vLLM Blog",
       "site_id": "official_ai",
+      "published_at": "2026-11-12T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "3a402594c6dea3bd63a0e1b4d403868fb760ef2f",
+      "story_id": null,
+      "title": "OpenRouter 分析自托管 LLM 与 API 何时划算：Qwen3.8 27B 单卡约 6-12% 负载即回本",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://openrouter.ai/blog/insights/self-hosted-llm-vs-api",
+      "summary": "OpenRouter 用盈亏平衡负载法比较自托管 LLM 与 API 成本：盈亏平衡点等于 GPU 每小时租金除以同一小时 token 的 API 费用。",
+      "recommend_reason_zh": null,
+      "source": "OpenRouter：Announcements（RSS）",
+      "source_name": "OpenRouter：Announcements（RSS）",
+      "site_id": "aihot",
       "published_at": "2026-11-12T00:00:00Z",
       "source_count": 1,
       "curated": true
@@ -2716,22 +2716,6 @@
       "curated": true
     },
     {
-      "id": "992e25367f6a1df53b9d5dfdfe51c980b0c0e4f3",
-      "story_id": null,
-      "title": "千问回应\"千问 Go！\"传闻：非独立 App，体验资格已开放申请",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.aibase.com/news/31597",
-      "summary": "对于有关《Qwen Go!》的各种猜测，Qwen团队当天通过官方微信进行了官方澄清：这款名为Personal Agent的产品并不是一个可供下载的独立应用程序，而是直接嵌入在Qwen APP中的个人AI代理。 APP内已经设置了专门的体验申请入口，允许用户提交申请。官方将逐步开放更多访问权限……",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-13T06:01:45.957393Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
       "id": "711f40afff1664e565a9ec8aaf1aeb928d96c374",
       "story_id": null,
       "title": "Interesting result for local VLMs. MiniCPM-V 4.7 35B-A3B not only used fewer tokens, but also produced a better voxel pagoda than Qwen 3.6 35B-A3. Efficiency + quality is becoming the real battleground for multimodal mo…",
@@ -2842,22 +2826,6 @@
       "published_at": "2026-10-07T16:21:14Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "37a5a69a1c89a9c1898b52bbe713c612d71d8092",
-      "story_id": null,
-      "title": "Qwen3.8 27B 文字加法",
-      "title_zh": "Qwen3.8 27B 文字加法",
-      "title_en": "Qwen3.8 27B addition in words",
-      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
-      "summary": "研究：Qwen3.8 27B 添加文字 Colin Frasier 在 Bluesky 上发布了他两年前使用 GPT-4o 进行的一项实验，以了解它在越来越大的数字中“计算总和但以文字返回答案”的效果如何。以下是他分享的这些结果的图表：我相信 GPT-4o 没有作弊并使用计算器，特别是因为它有很多计算错误，但我受到启发，在本地硬件（DGX Spark）上再次运行实验以探索效果",
-      "recommend_reason_zh": null,
-      "source": "Simon Willison",
-      "source_name": "Simon Willison",
-      "site_id": "opmlrss",
-      "published_at": "2026-10-04T23:34:00Z",
-      "source_count": 1,
-      "curated": false
     },
     {
       "id": "f36d0f8b434030805459ca7167e255738e79b221",
