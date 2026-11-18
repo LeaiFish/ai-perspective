@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:38:09.702214Z",
+  "generated_at": "2026-11-18T11:19:30.369827Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,7 +76,7 @@
       "relation": "primary",
       "parent_story_id": null,
       "follow_up_of": null,
-      "follow_up_count": 24,
+      "follow_up_count": 25,
       "follow_ups": [
         {
           "story_id": "story_48161470bf21",
@@ -269,6 +269,14 @@
           "latest_at": "2026-11-18T03:07:14.520698Z",
           "reason": "shared_entity",
           "similarity": 0.5909
+        },
+        {
+          "story_id": "story_231034ac447b",
+          "title": "[OpenAI] gpt 6.2 astra 说检查到我的 T14：CPU 暴露了 Intel Processor Trace，Ubuntu 也看到了两个遥测设备",
+          "url": "https://www.v2ex.com/t/1258080",
+          "latest_at": "2026-11-18T10:14:24Z",
+          "reason": "shared_entity",
+          "similarity": 0.4779
         }
       ],
       "items": [
@@ -326,16 +334,16 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8752,
-      "importance": 0.8752,
-      "importance_score": 0.8752,
+      "score": 0.8697,
+      "importance": 0.8697,
+      "importance_score": 0.8697,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8066,
+        "recency": 0.7759,
         "story_heat": 0.5
       },
       "category": "official",
@@ -421,16 +429,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8449,
-      "importance": 0.8449,
-      "importance_score": 0.8449,
+      "score": 0.8388,
+      "importance": 0.8388,
+      "importance_score": 0.8388,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8828,
+        "recency": 0.8491,
         "story_heat": 0.0
       },
       "category": "official",
@@ -453,6 +461,104 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_0adf69af2f6c",
+      "editorial_focus": "product",
+      "title": "可爱两年：更多有想法的人，更有能力付诸行动 / Two years of Lovable: more people with ideas, more power to act on them",
+      "url": "https://lovable.dev/blog/two-years-of-lovable",
+      "primary_url": "https://lovable.dev/blog/two-years-of-lovable",
+      "source": "Lovable Blog",
+      "source_name": "Lovable Blog",
+      "sources": [
+        {
+          "id": "6af415c98bcf60add3e97db64fa090874e809b9e",
+          "title": "可爱两年：更多有想法的人，更有能力付诸行动 / Two years of Lovable: more people with ideas, more power to act on them",
+          "title_zh": "可爱两年：更多有想法的人，更有能力付诸行动",
+          "title_en": "Two years of Lovable: more people with ideas, more power to act on them",
+          "title_original": "Two years of Lovable: more people with ideas, more power to act on them",
+          "summary": "New research, customer stories, and perspectives on how people are creating businesses, changing companies, and shaping the future with Lovable.",
+          "recommend_reason_zh": null,
+          "url": "https://lovable.dev/blog/two-years-of-lovable",
+          "source": "Lovable Blog",
+          "source_name": "Lovable Blog",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "product",
+          "editorial_tags": [
+            "product_update"
+          ],
+          "published_at": "2026-11-18T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Lovable Blog"
+      ],
+      "select_tier": "T1",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "6af415c98bcf60add3e97db64fa090874e809b9e",
+          "title": "可爱两年：更多有想法的人，更有能力付诸行动 / Two years of Lovable: more people with ideas, more power to act on them",
+          "title_zh": "可爱两年：更多有想法的人，更有能力付诸行动",
+          "title_en": "Two years of Lovable: more people with ideas, more power to act on them",
+          "title_original": "Two years of Lovable: more people with ideas, more power to act on them",
+          "summary": "New research, customer stories, and perspectives on how people are creating businesses, changing companies, and shaping the future with Lovable.",
+          "recommend_reason_zh": null,
+          "url": "https://lovable.dev/blog/two-years-of-lovable",
+          "source": "Lovable Blog",
+          "source_name": "Lovable Blog",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "product",
+          "editorial_tags": [
+            "product_update"
+          ],
+          "published_at": "2026-11-18T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8306,
+      "importance": 0.8306,
+      "importance_score": 0.8306,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.82,
+        "recency": 0.981,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T10:00:00Z",
+      "latest_at": "2026-11-18T10:00:00Z",
+      "primary_item": {
+        "id": "6af415c98bcf60add3e97db64fa090874e809b9e",
+        "site_id": "official_ai",
+        "title": "可爱两年：更多有想法的人，更有能力付诸行动 / Two years of Lovable: more people with ideas, more power to act on them",
+        "title_zh": "可爱两年：更多有想法的人，更有能力付诸行动",
+        "title_en": "Two years of Lovable: more people with ideas, more power to act on them",
+        "title_original": "Two years of Lovable: more people with ideas, more power to act on them",
+        "summary": "New research, customer stories, and perspectives on how people are creating businesses, changing companies, and shaping the future with Lovable.",
+        "recommend_reason_zh": null,
+        "url": "https://lovable.dev/blog/two-years-of-lovable",
+        "source": "Lovable Blog",
+        "source_name": "Lovable Blog"
       }
     },
     {
@@ -520,16 +626,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8307,
-      "importance": 0.8307,
-      "importance_score": 0.8307,
+      "score": 0.825,
+      "importance": 0.825,
+      "importance_score": 0.825,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8373,
+        "recency": 0.8054,
         "story_heat": 0.0
       },
       "category": "official",
@@ -614,16 +720,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8247,
-      "importance": 0.8247,
-      "importance_score": 0.8247,
+      "score": 0.8186,
+      "importance": 0.8186,
+      "importance_score": 0.8186,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8926,
+        "recency": 0.8586,
         "story_heat": 0.0
       },
       "category": "official",
@@ -696,12 +802,12 @@
           "similarity": 0.3429
         },
         {
-          "story_id": "story_a5fd9a13ad20",
-          "title": "为什么 Gemini 4 Carbon 需要这么长时间？ / Why is Gemini 4 Carbon taking so long?",
-          "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
-          "latest_at": "2026-11-18T04:14:04Z",
+          "story_id": "story_a056656af1c7",
+          "title": "谷歌准备在 API 上发布 Gemini 4 Neon 模型 / Google prepares to release Gemini 4 Neon model on APIs",
+          "url": "https://www.testingcatalog.com/google-prepares-to-release-gemini-4-neon-model-on-apis",
+          "latest_at": "2026-11-18T10:11:52Z",
           "reason": "shared_entity",
-          "similarity": 0.5385
+          "similarity": 0.4368
         }
       ],
       "items": [
@@ -725,16 +831,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.8184,
+      "importance": 0.8184,
+      "importance_score": 0.8184,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8453,
+        "recency": 0.8131,
         "story_heat": 0.0
       },
       "category": "official",
@@ -819,16 +925,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8156,
-      "importance": 0.8156,
-      "importance_score": 0.8156,
+      "score": 0.8101,
+      "importance": 0.8101,
+      "importance_score": 0.8101,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7979,
+        "recency": 0.7675,
         "story_heat": 0.0
       },
       "category": "official",
@@ -851,99 +957,6 @@
         "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
         "source": "Google AI Blog",
         "source_name": "Google AI Blog"
-      }
-    },
-    {
-      "story_id": "story_be042eff1bf2",
-      "editorial_focus": "general",
-      "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-      "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
-          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
-          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-18T05:30:49Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "select_tier": "T2",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
-          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
-          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-18T05:30:49Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8107,
-      "importance": 0.8107,
-      "importance_score": 0.8107,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.89,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9559,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-18T05:30:49Z",
-      "latest_at": "2026-11-18T05:30:49Z",
-      "primary_item": {
-        "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
-        "site_id": "aihot",
-        "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-        "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
-        "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-        "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
-        "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -1006,16 +1019,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
+      "score": 0.8042,
+      "importance": 0.8042,
+      "importance_score": 0.8042,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8096,
+        "recency": 0.7788,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1038,6 +1051,193 @@
         "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia",
         "source": "Meta AI / Muse Newsroom",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_be042eff1bf2",
+      "editorial_focus": "general",
+      "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+      "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:30:49Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "select_tier": "T2",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+          "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+          "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+          "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T05:30:49Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8041,
+      "importance": 0.8041,
+      "importance_score": 0.8041,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.89,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9195,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T05:30:49Z",
+      "latest_at": "2026-11-18T05:30:49Z",
+      "primary_item": {
+        "id": "babb3f4076aef96d945e18c4bc86139decf40d95",
+        "site_id": "aihot",
+        "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务 / Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "title_zh": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+        "title_en": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "title_original": "Nvidia Interim CEO Colette Kress: \"The board has determined that they will not reinstate Jensen, and that is our statement and what the b...",
+        "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/rohanpaul_ai/status/2122925474485870983",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8b20cb44e693",
+      "editorial_focus": "general",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "primary_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI News",
+      "source_name": "OpenAI News",
+      "sources": [
+        {
+          "id": "806ec6838e0a5c9033d6008ec4d2459bc0ea282c",
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_zh": null,
+          "title_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "source": "OpenAI News",
+          "source_name": "OpenAI News",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "select_tier": "T1",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "806ec6838e0a5c9033d6008ec4d2459bc0ea282c",
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_zh": null,
+          "title_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "source": "OpenAI News",
+          "source_name": "OpenAI News",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8328,
+      "importance": 0.8328,
+      "importance_score": 0.8328,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8491,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T00:00:00Z",
+      "latest_at": "2026-11-18T00:00:00Z",
+      "primary_item": {
+        "id": "806ec6838e0a5c9033d6008ec4d2459bc0ea282c",
+        "site_id": "official_ai",
+        "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "title_zh": null,
+        "title_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+        "source": "OpenAI News",
+        "source_name": "OpenAI News"
       }
     },
     {
@@ -1105,16 +1305,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7938,
-      "importance": 0.7938,
-      "importance_score": 0.7938,
+      "score": 0.7883,
+      "importance": 0.7883,
+      "importance_score": 0.7883,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.76,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8102,
+        "recency": 0.7793,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1139,124 +1339,30 @@
       }
     },
     {
-      "story_id": "story_308e6b02f235",
+      "story_id": "story_5af002716c46",
       "editorial_focus": "general",
-      "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
-      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "primary_url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "source": "GitHub Changelog",
-      "source_name": "GitHub Changelog",
-      "sources": [
-        {
-          "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
-          "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
-          "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
-          "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
-          "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
-          "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-          "source": "GitHub Changelog",
-          "source_name": "GitHub Changelog",
-          "site_id": "official_ai",
-          "select_tier": "T1",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:02:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "select_tier": "T1",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
-          "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
-          "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
-          "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
-          "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
-          "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-          "source": "GitHub Changelog",
-          "source_name": "GitHub Changelog",
-          "site_id": "official_ai",
-          "select_tier": "T1",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:02:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8178,
-      "importance": 0.8178,
-      "importance_score": 0.8178,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8099,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T18:02:05Z",
-      "latest_at": "2026-11-17T18:02:05Z",
-      "primary_item": {
-        "id": "b62d1f82e8a2fb03cf839ed4289ca6912491a30a",
-        "site_id": "official_ai",
-        "title": "Copilot代码审查：自适应工作、秘密检测等 / Copilot code review: Adaptive effort, secret detection, and more",
-        "title_zh": "Copilot代码审查：自适应工作、秘密检测等",
-        "title_en": "Copilot code review: Adaptive effort, secret detection, and more",
-        "title_original": "Copilot code review: Adaptive effort, secret detection, and more",
-        "summary": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitHub Blog .",
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-        "source": "GitHub Changelog",
-        "source_name": "GitHub Changelog"
-      }
-    },
-    {
-      "story_id": "story_3a3dfde3d51d",
-      "editorial_focus": "general",
-      "title": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-      "url": "https://www.ithome.com/1/028/599.htm",
-      "primary_url": "https://www.ithome.com/1/028/599.htm",
+      "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+      "url": "https://www.ithome.com/1/029/015.htm",
+      "primary_url": "https://www.ithome.com/1/029/015.htm",
       "source": "IT之家·人工智能",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d104bba9a6503b873f7f38ea7f6826c8671c1bdd",
-          "title": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-          "title_zh": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
+          "id": "83ecc7a0f00498563d4df5998c59078c9b2ed54f",
+          "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+          "title_zh": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
           "title_en": null,
-          "title_original": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-          "summary": "根据 SEC 11 月 17 日公示的文件，Anthropic 的 A 类普通股获准在纳斯达克全球精选市场上市，代码 ANT，发行价区间维持每股 70 至 78 美元。",
+          "title_original": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+          "summary": "据路透社报道，Anthropic 预计于当地时间 11 月 19 日登陆公开市场，IPO 估值最高可能达到 1.4 万亿美元。金融机构已推出 2 倍做多与做空 ETF 等挂钩产品，Vanda Research 预计上市将吸引约 2.5 亿美元散户净买入，为 SpaceX IPO 期间 1.18 亿美元纪录的两倍。",
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/028/599.htm",
+          "url": "https://www.ithome.com/1/029/015.htm",
           "source": "IT之家·人工智能",
           "source_name": "AI HOT",
           "site_id": "aihot",
           "select_tier": "T2",
           "editorial_focus": "general",
           "editorial_tags": [],
-          "published_at": "2026-11-18T00:12:10.273000Z"
+          "published_at": "2026-11-18T10:45:07.760000Z"
         }
       ],
       "source_count": 1,
@@ -1269,48 +1375,39 @@
       "relation": "primary",
       "parent_story_id": null,
       "follow_up_of": null,
-      "follow_up_count": 1,
-      "follow_ups": [
-        {
-          "story_id": "story_1b4b20491033",
-          "title": "代码\"ANT\"锁定纳斯达克：Anthropic 拿到上市通行证，发行价 70至78 美元",
-          "url": "https://www.aibase.com/news/32362",
-          "latest_at": "2026-11-18T03:07:14.520698Z",
-          "reason": "title_and_vendor",
-          "similarity": 0.5647
-        }
-      ],
+      "follow_up_count": 0,
+      "follow_ups": [],
       "items": [
         {
-          "id": "d104bba9a6503b873f7f38ea7f6826c8671c1bdd",
-          "title": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-          "title_zh": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
+          "id": "83ecc7a0f00498563d4df5998c59078c9b2ed54f",
+          "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+          "title_zh": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
           "title_en": null,
-          "title_original": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-          "summary": "根据 SEC 11 月 17 日公示的文件，Anthropic 的 A 类普通股获准在纳斯达克全球精选市场上市，代码 ANT，发行价区间维持每股 70 至 78 美元。",
+          "title_original": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+          "summary": "据路透社报道，Anthropic 预计于当地时间 11 月 19 日登陆公开市场，IPO 估值最高可能达到 1.4 万亿美元。金融机构已推出 2 倍做多与做空 ETF 等挂钩产品，Vanda Research 预计上市将吸引约 2.5 亿美元散户净买入，为 SpaceX IPO 期间 1.18 亿美元纪录的两倍。",
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/028/599.htm",
+          "url": "https://www.ithome.com/1/029/015.htm",
           "source": "IT之家·人工智能",
           "source_name": "AI HOT",
           "site_id": "aihot",
           "select_tier": "T2",
           "editorial_focus": "general",
           "editorial_tags": [],
-          "published_at": "2026-11-18T00:12:10.273000Z"
+          "published_at": "2026-11-18T10:45:07.760000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.783,
-      "importance": 0.783,
-      "importance_score": 0.783,
+      "score": 0.7871,
+      "importance": 0.7871,
+      "importance_score": 0.7871,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
-        "editorial": 0.84,
+        "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8853,
+        "recency": 0.9918,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1318,20 +1415,119 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-18T00:12:10.273000Z",
-      "latest_at": "2026-11-18T00:12:10.273000Z",
+      "earliest_at": "2026-11-18T10:45:07.760000Z",
+      "latest_at": "2026-11-18T10:45:07.760000Z",
       "primary_item": {
-        "id": "d104bba9a6503b873f7f38ea7f6826c8671c1bdd",
+        "id": "83ecc7a0f00498563d4df5998c59078c9b2ed54f",
         "site_id": "aihot",
-        "title": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-        "title_zh": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
+        "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+        "title_zh": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
         "title_en": null,
-        "title_original": "Anthropic 获准在纳斯达克上市，代码 ANT，发行价每股 70~78 美元",
-        "summary": "根据 SEC 11 月 17 日公示的文件，Anthropic 的 A 类普通股获准在纳斯达克全球精选市场上市，代码 ANT，发行价区间维持每股 70 至 78 美元。",
+        "title_original": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+        "summary": "据路透社报道，Anthropic 预计于当地时间 11 月 19 日登陆公开市场，IPO 估值最高可能达到 1.4 万亿美元。金融机构已推出 2 倍做多与做空 ETF 等挂钩产品，Vanda Research 预计上市将吸引约 2.5 亿美元散户净买入，为 SpaceX IPO 期间 1.18 亿美元纪录的两倍。",
         "recommend_reason_zh": null,
-        "url": "https://www.ithome.com/1/028/599.htm",
+        "url": "https://www.ithome.com/1/029/015.htm",
         "source": "IT之家·人工智能",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_19ad988d9abd",
+      "editorial_focus": "general",
+      "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "primary_url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "source": "GitHub Changelog",
+      "source_name": "GitHub Changelog",
+      "sources": [
+        {
+          "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
+          "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
+          "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
+          "title_en": "GitHub Copilot app, Microsoft Ignite releases",
+          "title_original": "GitHub Copilot app, Microsoft Ignite releases",
+          "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+          "source": "GitHub Changelog",
+          "source_name": "GitHub Changelog",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-17T18:03:42Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "select_tier": "T1",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "follow_up",
+      "parent_story_id": "story_2d4e74257161",
+      "follow_up_of": {
+        "story_id": "story_2d4e74257161",
+        "title": "JetBrains 中的 GitHub Copilot、Ignite 版本 / GitHub Copilot in JetBrains, Ignite releases",
+        "reason": "title_and_vendor",
+        "similarity": 0.6784
+      },
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
+          "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
+          "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
+          "title_en": "GitHub Copilot app, Microsoft Ignite releases",
+          "title_original": "GitHub Copilot app, Microsoft Ignite releases",
+          "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+          "source": "GitHub Changelog",
+          "source_name": "GitHub Changelog",
+          "site_id": "official_ai",
+          "select_tier": "T1",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-17T18:03:42Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8123,
+      "importance": 0.8123,
+      "importance_score": 0.8123,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7794,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T18:03:42Z",
+      "latest_at": "2026-11-17T18:03:42Z",
+      "primary_item": {
+        "id": "5ec5aefa235f8c35a0a08eb9a2397ebbdca960e5",
+        "site_id": "official_ai",
+        "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
+        "title_zh": "GitHub Copilot 应用程序、Microsoft Ignite 发布",
+        "title_en": "GitHub Copilot app, Microsoft Ignite releases",
+        "title_original": "GitHub Copilot app, Microsoft Ignite releases",
+        "summary": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+        "source": "GitHub Changelog",
+        "source_name": "GitHub Changelog"
       }
     },
     {
@@ -1403,16 +1599,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7813,
-      "importance": 0.7813,
-      "importance_score": 0.7813,
+      "score": 0.7754,
+      "importance": 0.7754,
+      "importance_score": 0.7754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8592,
+        "recency": 0.8264,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1496,16 +1692,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
+      "score": 0.8042,
+      "importance": 0.8042,
+      "importance_score": 0.8042,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8095,
+        "recency": 0.7787,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1590,16 +1786,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7769,
-      "importance": 0.7769,
-      "importance_score": 0.7769,
+      "score": 0.771,
+      "importance": 0.771,
+      "importance_score": 0.771,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.68,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8492,
+        "recency": 0.8168,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1683,16 +1879,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7749,
-      "importance": 0.7749,
-      "importance_score": 0.7749,
+      "score": 0.7695,
+      "importance": 0.7695,
+      "importance_score": 0.7695,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7908,
+        "recency": 0.7607,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1714,6 +1910,99 @@
         "url": "https://x.com/DrJimFan/status/2122727208754254245",
         "source": "X：Jim Fan (@DrJimFan)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ef532b23d5fe",
+      "editorial_focus": "general",
+      "title": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+      "url": "https://www.aibase.com/news/32388",
+      "primary_url": "https://www.aibase.com/news/32388",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "006158d3518680cfb804fb149139db30d7b30ddc",
+          "title": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "title_zh": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "title_en": null,
+          "title_original": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32388",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T11:19:30.369827Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "select_tier": "T2",
+      "source_heat": 1.0,
+      "other_source_count": 0,
+      "relation": "primary",
+      "parent_story_id": null,
+      "follow_up_of": null,
+      "follow_up_count": 0,
+      "follow_ups": [],
+      "items": [
+        {
+          "id": "006158d3518680cfb804fb149139db30d7b30ddc",
+          "title": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "title_zh": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "title_en": null,
+          "title_original": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/32388",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "select_tier": "T2",
+          "editorial_focus": "general",
+          "editorial_tags": [],
+          "published_at": "2026-11-18T11:19:30.369827Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "technical_penalty": 0.0,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-18T11:19:30.369827Z",
+      "latest_at": "2026-11-18T11:19:30.369827Z",
+      "primary_item": {
+        "id": "006158d3518680cfb804fb149139db30d7b30ddc",
+        "site_id": "aibase",
+        "title": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+        "title_zh": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+        "title_en": null,
+        "title_original": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/32388",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1781,16 +2070,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7727,
-      "importance": 0.7727,
-      "importance_score": 0.7727,
+      "score": 0.7669,
+      "importance": 0.7669,
+      "importance_score": 0.7669,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.66,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8597,
+        "recency": 0.827,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1812,103 +2101,6 @@
         "url": "https://x.com/perplexity_ai/status/2122814545639223348",
         "source": "X：Perplexity (@perplexity_ai)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c1c5a37b0566",
-      "editorial_focus": "product",
-      "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-      "url": "https://www.aibase.com/news/32379",
-      "primary_url": "https://www.aibase.com/news/32379",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
-          "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "title_en": null,
-          "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32379",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "select_tier": "T2",
-          "editorial_focus": "product",
-          "editorial_tags": [
-            "product_update"
-          ],
-          "published_at": "2026-11-18T08:38:09.702214Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "select_tier": "T2",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
-          "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "title_en": null,
-          "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/32379",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "select_tier": "T2",
-          "editorial_focus": "product",
-          "editorial_tags": [
-            "product_update"
-          ],
-          "published_at": "2026-11-18T08:38:09.702214Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-18T08:38:09.702214Z",
-      "latest_at": "2026-11-18T08:38:09.702214Z",
-      "primary_item": {
-        "id": "6638f595b2f53a07d1a5af6f3dba0eecf9bc729b",
-        "site_id": "aibase",
-        "title": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-        "title_zh": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-        "title_en": null,
-        "title_original": "Anthropic 在 Claude 平台推出测试版关联账单功能：打通生态闭环，为第三方应用开启 OAuth 计费测试",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/32379",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1971,16 +2163,16 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7666,
-      "importance": 0.7666,
-      "importance_score": 0.7666,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "technical_penalty": 0.0,
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.878,
+        "recency": 0.8446,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -2003,269 +2195,12 @@
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
-    },
-    {
-      "story_id": "story_ac14b1f69b0d",
-      "editorial_focus": "general",
-      "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-      "primary_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-      "source": "Microsoft AI：官方博客（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d7e8425e4eff747d374a8f9020fd08bace48c60b",
-          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-          "title_en": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "title_original": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "summary": "Microsoft AI 发布 MAI Code 2 和 MAI Code 2 Flash 两款编码模型，面向日常企业编码任务，定价远低于竞品。MAI Code 2 在四项基准平均下达到 GPT 6.1 Sol 98% 的性能但成本仅 40%，达到 Claude Opus 5.5 96% 的性能而成本仅 5%；盲测前端评审中 64% 的情况下胜过 GPT-6 Sol。",
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "Microsoft AI：官方博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:15:16Z"
-        },
-        {
-          "id": "ccf53952dbc9b57c7d80d7d36e7d23eba92dd51b",
-          "title": "MAI Code 2 和 Code 2 Flash",
-          "title_zh": "MAI Code 2 和 Code 2 Flash",
-          "title_en": null,
-          "title_original": "MAI Code 2 和 Code 2 Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "microsoft.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T20:09:13.144000Z"
-        },
-        {
-          "id": "03b755b3c3300bf89dab84ef94f9c3d1c8985cff",
-          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash",
-          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-          "title_en": "MAI Code 2 and Code 2 Flash",
-          "title_original": "MAI Code 2 and Code 2 Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:25:13Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Microsoft AI：官方博客（RSS）",
-        "microsoft.ai"
-      ],
-      "select_tier": "T2",
-      "source_heat": 1.0,
-      "other_source_count": 2,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "d7e8425e4eff747d374a8f9020fd08bace48c60b",
-          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-          "title_en": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "title_original": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-          "summary": "Microsoft AI 发布 MAI Code 2 和 MAI Code 2 Flash 两款编码模型，面向日常企业编码任务，定价远低于竞品。MAI Code 2 在四项基准平均下达到 GPT 6.1 Sol 98% 的性能但成本仅 40%，达到 Claude Opus 5.5 96% 的性能而成本仅 5%；盲测前端评审中 64% 的情况下胜过 GPT-6 Sol。",
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "Microsoft AI：官方博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:15:16Z"
-        },
-        {
-          "id": "ccf53952dbc9b57c7d80d7d36e7d23eba92dd51b",
-          "title": "MAI Code 2 和 Code 2 Flash",
-          "title_zh": "MAI Code 2 和 Code 2 Flash",
-          "title_en": null,
-          "title_original": "MAI Code 2 和 Code 2 Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "microsoft.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T20:09:13.144000Z"
-        },
-        {
-          "id": "03b755b3c3300bf89dab84ef94f9c3d1c8985cff",
-          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash",
-          "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-          "title_en": "MAI Code 2 and Code 2 Flash",
-          "title_original": "MAI Code 2 and Code 2 Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-17T18:25:13Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7628,
-      "importance": 0.7628,
-      "importance_score": 0.7628,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8125,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T18:15:16Z",
-      "latest_at": "2026-11-17T20:09:13.144000Z",
-      "primary_item": {
-        "id": "d7e8425e4eff747d374a8f9020fd08bace48c60b",
-        "site_id": "aihot",
-        "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型 / MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-        "title_zh": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-        "title_en": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-        "title_original": "MAI Code 2 and Code 2 Flash: Everyday coding at scalable prices",
-        "summary": "Microsoft AI 发布 MAI Code 2 和 MAI Code 2 Flash 两款编码模型，面向日常企业编码任务，定价远低于竞品。MAI Code 2 在四项基准平均下达到 GPT 6.1 Sol 98% 的性能但成本仅 40%，达到 Claude Opus 5.5 96% 的性能而成本仅 5%；盲测前端评审中 64% 的情况下胜过 GPT-6 Sol。",
-        "recommend_reason_zh": null,
-        "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
-        "source": "Microsoft AI：官方博客（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1bfadfbcd025",
-      "editorial_focus": "general",
-      "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-      "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
-          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
-          "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-18T05:19:46Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "select_tier": "T2",
-      "source_heat": 1.0,
-      "other_source_count": 0,
-      "relation": "primary",
-      "parent_story_id": null,
-      "follow_up_of": null,
-      "follow_up_count": 0,
-      "follow_ups": [],
-      "items": [
-        {
-          "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
-          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
-          "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-          "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "select_tier": "T2",
-          "editorial_focus": "general",
-          "editorial_tags": [],
-          "published_at": "2026-11-18T05:19:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7922,
-      "importance": 0.7922,
-      "importance_score": 0.7922,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "technical_penalty": 0.0,
-        "editorial": 0.83,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9534,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-18T05:19:46Z",
-      "latest_at": "2026-11-18T05:19:46Z",
-      "primary_item": {
-        "id": "f2c95f8fb2de2af4f9fbd670d7e3bdec74f274f7",
-        "site_id": "aihot",
-        "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认 / Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-        "title_zh": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
-        "title_en": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-        "title_original": "Semafor: Some Nvidia directors are still pushing to bring back Jensen Huang despite the chair’s denial.",
-        "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/rohanpaul_ai/status/2122922693662245298",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "source_name": "AI HOT"
-      }
     }
   ],
   "processing_window": {
     "window_hours": 24,
-    "start": "2026-11-17T08:38:09.702214Z",
-    "end": "2026-11-18T08:38:09.702214Z",
+    "start": "2026-11-17T11:19:30.369827Z",
+    "end": "2026-11-18T11:19:30.369827Z",
     "reasons": [],
     "truncated_to_archive_retention": false
   }
