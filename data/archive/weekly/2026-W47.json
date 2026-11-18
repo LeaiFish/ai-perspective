@@ -4,52 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-18T14:14:43.458779Z",
+  "generated_at": "2026-11-18T18:11:07.573817Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
   ],
-  "story_count": 1401,
-  "unique_story_count": 1400,
+  "story_count": 1761,
+  "unique_story_count": 1483,
   "counts": {
     "by_company_topic": {
-      "anthropic": 209,
+      "anthropic": 269,
       "apple": 19,
       "cursor": 4,
-      "deepseek": 31,
-      "doubao": 8,
-      "google-gemini": 152,
-      "huggingface": 24,
-      "hunyuan": 10,
+      "deepseek": 37,
+      "doubao": 9,
+      "google-gemini": 185,
+      "huggingface": 31,
+      "hunyuan": 15,
       "kimi": 10,
-      "meta-llama": 11,
-      "microsoft": 27,
-      "minimax": 5,
-      "nvidia": 142,
-      "openai": 194,
-      "openrouter": 6,
-      "perplexity": 9,
-      "qwen": 10,
-      "xai": 23,
+      "meta-llama": 12,
+      "microsoft": 37,
+      "minimax": 6,
+      "nvidia": 166,
+      "openai": 260,
+      "openrouter": 8,
+      "perplexity": 12,
+      "qwen": 11,
+      "xai": 29,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 239,
-      "monetization": 53,
-      "product-entry": 46,
-      "workplace": 53
+      "agent-ecosystem": 300,
+      "monetization": 66,
+      "product-entry": 54,
+      "workplace": 71
     },
     "by_importance_label": {
-      "值得关注": 1140,
-      "多源热议": 25,
-      "官方更新": 118,
-      "行业动态": 118
+      "值得关注": 1419,
+      "多源热议": 33,
+      "官方更新": 141,
+      "行业动态": 168
     },
     "by_source_count_bucket": {
-      "1": 1322,
-      "2": 51,
-      "3+": 28
+      "1": 1663,
+      "2": 62,
+      "3+": 36
     }
   },
   "top_stories": [
@@ -97,6 +98,47 @@
       ]
     },
     {
+      "story_id": "story_0f2a2904d331",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "importance_score": 0.8519,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f81fe699314d",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+      "importance_score": 0.8489,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ba015afe81ba",
+      "title": "What's new for Genie in Microsoft: Copilot Cowork and Chat, Microsoft Teams, and Excel.",
+      "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel",
+      "importance_score": 0.8464,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -136,6 +178,32 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_aca705309e9e",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "importance_score": 0.8414,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_dd59db02db75",
+      "title": "LangSmith for Coding Agents: Now track spend by outcome",
+      "url": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+      "importance_score": 0.8395,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_06c4b1df4e91",
       "title": "人工智能使集成成为供应商的问题 / AI made integrations the vendor’s problem",
       "url": "https://blog.n8n.io/ai-made-integrations-the-vendors-problem",
@@ -147,6 +215,17 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_06eb47622f37",
+      "title": "How AUMOVIO centralized AI access with Databricks Unity Gateway",
+      "url": "https://www.databricks.com/blog/how-aumovio-centralized-ai-access-databricks-unity-gateway",
+      "importance_score": 0.8336,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_916b3373dca3",
@@ -216,6 +295,19 @@
       ]
     },
     {
+      "story_id": "story_3a3e9fb28354",
+      "title": "Hugging Face 开源 0.5B 语音识别模型 Rumble-2-Flash，支持 40+ 语言 / Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "importance_score": 0.8184,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_e05c122d19a4",
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
@@ -249,6 +341,19 @@
       "archive_date": "2026-11-18",
       "company_topics": [
         "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9205b5475a74",
+      "title": "OpenAI 详解模型在 Jalapeño 芯片与 AMD 产线设计中的应用及 RISC-V 评测 / Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "importance_score": 0.8164,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "openai"
       ],
       "lens_topics": []
     },
@@ -357,6 +462,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_eb9465533a9e",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "importance_score": 0.8104,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_41002422ce0e",
@@ -477,125 +595,6 @@
       "lens_topics": [
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_2d4e74257161",
-      "title": "JetBrains 中的 GitHub Copilot、Ignite 版本 / GitHub Copilot in JetBrains, Ignite releases",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
-      "importance_score": 0.8064,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_238adc092859",
-      "title": "在 Repository Insights 中跟踪 Copilot 代码审查结果 / Track Copilot code review outcomes in Repository insights",
-      "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
-      "importance_score": 0.8064,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_3941edd1fffa",
-      "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用 / Put Gemini to work for you",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-      "importance_score": 0.8044,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_720d3cffff4a",
-      "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "importance_score": 0.8037,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b5f44e63962c",
-      "title": "使用 Gemini Notebook 将笔记、研究和资源转变为交互式网站。 / Transform notes, research, and sources into interactive sites with Gemini Notebook.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
-      "importance_score": 0.8018,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_2f341b4d37a3",
-      "title": "构建画布原生代理：Laya 的经验教训 / Building canvas-native agents: lessons from Laya",
-      "url": "https://lumalabs.ai/news/building-canvas-native-agents",
-      "importance_score": 0.8012,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b1f18d41e30d",
-      "title": "From tasks to goals",
-      "url": "https://www.langchain.com/blog/from-tasks-to-goals",
-      "importance_score": 0.7991,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_585524800462",
-      "title": "为什么我们围绕代理重建 LangSmith / Why we rebuilt LangSmith around the agent",
-      "url": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
-      "importance_score": 0.7988,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_3ccf388a44e3",
-      "title": "干净的数据还不够：IFS Copperleaf 如何通过 Databricks Genie One 向人工智能传授业务 / Clean data was never enough: How IFS Copperleaf taught AI its business with Databricks Genie One",
-      "url": "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0",
-      "importance_score": 0.7986,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [],
-      "lens_topics": []
     }
   ]
 }
