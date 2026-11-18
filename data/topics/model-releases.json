@@ -9,7 +9,7 @@
   "latest_title": "Perplexity 发布 Orchestrator API，按任务自动选择模型与提供商",
   "latest_published_at": "2026-11-17T20:13:20Z",
   "items_url": "data/topics/model-releases.json",
-  "generated_at": "2026-11-17T23:53:41.309904Z",
+  "generated_at": "2026-11-18T03:07:14.520698Z",
   "items": [
     {
       "id": "story_b2b8af1a37dd",
@@ -24,6 +24,22 @@
       "source_name": "AI HOT",
       "site_id": "aihot",
       "published_at": "2026-11-17T20:13:20Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_703585ff019c",
+      "story_id": "story_703585ff019c",
+      "title": "微软在 Ignite 2026 上推出七款 MAI 模型",
+      "title_zh": "微软在 Ignite 2026 上推出七款 MAI 模型",
+      "title_en": "Microsoft launches seven MAI models at Ignite 2026",
+      "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026",
+      "summary": "Microsoft launches seven MAI models at Ignite, including Code 2 for GitHub Copilot, Cyber 2 Flash, Image 2.7, Realtime 1 and Decision 1.1.",
+      "recommend_reason_zh": null,
+      "source": "Testing Catalog",
+      "source_name": "Curated Media",
+      "site_id": "curated_media",
+      "published_at": "2026-11-17T19:16:22Z",
       "source_count": 1,
       "curated": true
     },
@@ -168,22 +184,6 @@
       "source_name": "AI HOT",
       "site_id": "aihot",
       "published_at": "2026-11-17T09:20:57Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_cef8c019e283",
-      "story_id": "story_cef8c019e283",
-      "title": "实测演示 MiniCPM5-2B 在本地完成多步智能体调查任务",
-      "title_zh": "实测演示 MiniCPM5-2B 在本地完成多步智能体调查任务",
-      "title_en": "Amazing demo! 🚀 Love seeing MiniCPM5-2B handle real-world, multi-step agent tasks entirely locally. Thanks for showcasing what small mod...",
-      "url": "https://x.com/OpenBMB/status/2122505763428155689",
-      "summary": "@DailyDoseOfDS_ 分享了 100% 本地运行 OpenBMB 的 MiniCPM5-2B（2B 参数稠密模型）的实测，让它驱动一个调查智能体排查收入下滑原因。 模型自行检查文件、编写查询、分析中间结果并决定下一步，最终产出量化的诊断和事件报告，数据、工具执行和模型推理全部留在本地。 作者称其编码与工具调用能力来自 Agentic Pre-training、SFT 和大规模 RL，模型支持 SGLang、vLLM、llama.cpp、Ollama 及 iOS、Android、HarmonyOS，OpenBMB 已开源权重及部分训练配方和数据…",
-      "recommend_reason_zh": null,
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-17T01:43:02Z",
       "source_count": 1,
       "curated": true
     }
