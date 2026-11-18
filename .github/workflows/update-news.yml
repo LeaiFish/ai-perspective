@@ -202,6 +202,9 @@ jobs:
             python scripts/update_news.py --output-dir data --window-hours 24 --catch-up --archive-days 35 --translate-max-new 20
           fi
 
+      - name: Archive newly collected news by Beijing day
+        run: python scripts/news_library.py archive
+
       - name: Generate RSS feed
         run: python scripts/generate_feed.py --data-dir data
 
