@@ -4,23 +4,23 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-19T08:52:56.449335Z",
+  "generated_at": "2026-11-19T10:54:35.193634Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19"
   ],
-  "story_count": 1751,
-  "unique_story_count": 1676,
+  "story_count": 1743,
+  "unique_story_count": 1696,
   "counts": {
     "by_company_topic": {
-      "anthropic": 268,
+      "anthropic": 267,
       "apple": 19,
       "cursor": 8,
       "deepseek": 35,
-      "doubao": 12,
-      "google-gemini": 198,
+      "doubao": 13,
+      "google-gemini": 194,
       "huggingface": 30,
       "hunyuan": 12,
       "kimi": 11,
@@ -28,7 +28,7 @@
       "microsoft": 38,
       "minimax": 5,
       "nvidia": 161,
-      "openai": 252,
+      "openai": 248,
       "openrouter": 8,
       "perplexity": 10,
       "qwen": 12,
@@ -36,19 +36,19 @@
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 295,
+      "agent-ecosystem": 293,
       "monetization": 81,
       "product-entry": 49,
-      "workplace": 66
+      "workplace": 67
     },
     "by_importance_label": {
-      "值得关注": 1409,
+      "值得关注": 1402,
       "多源热议": 32,
       "官方更新": 145,
-      "行业动态": 165
+      "行业动态": 164
     },
     "by_source_count_bucket": {
-      "1": 1647,
+      "1": 1639,
       "2": 69,
       "3+": 35
     }
@@ -150,23 +150,6 @@
       ]
     },
     {
-      "story_id": "story_a2f60c2240b8",
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "importance_score": 0.8334,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "google-gemini",
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_916b3373dca3",
       "title": "Codex CLI 0.170.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -180,21 +163,27 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c481dd7085b2",
-      "title": "Databricks 荣获资本市场人工智能 A 团队奖 / Databricks Wins A-Team Award for AI in Capital Markets",
-      "url": "https://www.databricks.com/blog/databricks-wins-team-award-ai-capital-markets-0",
-      "importance_score": 0.8315,
+      "story_id": "story_a2f60c2240b8",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "importance_score": 0.829,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
+      "company_topics": [
+        "google-gemini",
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
-      "story_id": "story_9fc2f95b5505",
-      "title": "Alibaba Cloud Unveils New AI Initiatives at Hong Kong Summit to Advance the City’s AI Ecosystem",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-new-ai-initiatives-at-hong-kong-summit-to-advance-the-city%E2%80%99s-ai-ecosystem_603792",
-      "importance_score": 0.8283,
+      "story_id": "story_c481dd7085b2",
+      "title": "Databricks 荣获资本市场人工智能 A 团队奖 / Databricks Wins A-Team Award for AI in Capital Markets",
+      "url": "https://www.databricks.com/blog/databricks-wins-team-award-ai-capital-markets-0",
+      "importance_score": 0.8267,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-19",
@@ -215,38 +204,9 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f7f395a19123",
-      "title": "将 Supabase、Box、Calendly 等连接到 Copilot / Connect Supabase, Box, Calendly, and more to Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
-      "importance_score": 0.826,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_e0cc6809540e",
-      "title": "Google DeepMind 发布 Gemini 4 Neon / Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
-      "importance_score": 0.8249,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6097fc085d7c",
-      "title": "更新后的 Clairic 和 Clairic-flash 现已开放，由新的 Workers AI Superintelligence 团队提供 / An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-      "url": "https://blog.cloudflare.com/open-clairic",
+      "story_id": "story_9fc2f95b5505",
+      "title": "阿里云在香港峰会上推出人工智能新举措，推动香港人工智能生态系统发展 / Alibaba Cloud Unveils New AI Initiatives at Hong Kong Summit to Advance the City’s AI Ecosystem",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-new-ai-initiatives-at-hong-kong-summit-to-advance-the-city%E2%80%99s-ai-ecosystem_603792",
       "importance_score": 0.8238,
       "importance_label": "官方更新",
       "source_count": 1,
@@ -266,6 +226,48 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_5a8b97e7e126",
+      "title": "豆包实时音视频通话模型1.0 API全量上线",
+      "url": "https://mp.weixin.qq.com/s/fyNH7Y6o32kxc4GeK8Qb3A",
+      "importance_score": 0.8231,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f7f395a19123",
+      "title": "将 Supabase、Box、Calendly 等连接到 Copilot / Connect Supabase, Box, Calendly, and more to Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "importance_score": 0.8216,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_e0cc6809540e",
+      "title": "Google DeepMind 发布 Gemini 4 Neon / Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "importance_score": 0.8205,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_cf7170a64f24",
       "title": "The King’s Trust and OpenAI launch £1m partnership",
       "url": "https://openai.com/index/the-kings-trust-and-openai",
@@ -276,6 +278,17 @@
       "company_topics": [
         "openai"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6097fc085d7c",
+      "title": "更新后的 Clairic 和 Clairic-flash 现已开放，由新的 Workers AI Superintelligence 团队提供 / An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "url": "https://blog.cloudflare.com/open-clairic",
+      "importance_score": 0.8194,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -294,19 +307,6 @@
         "agent-ecosystem",
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_0f2a2904d331",
-      "title": "Streamhouse 中的时间序列模型：新领域和用例 / Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "importance_score": 0.819,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_e05c122d19a4",
@@ -383,19 +383,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f81fe699314d",
-      "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。 / The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
-      "importance_score": 0.8151,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_1dc564efc02d",
       "title": "Seedance 2.5 4K，API全面开放",
       "url": "https://mp.weixin.qq.com/s/c6pWJXD6YXf8lcwLdNu5zA",
@@ -405,6 +392,19 @@
       "archive_date": "2026-11-16",
       "company_topics": [
         "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_0f2a2904d331",
+      "title": "Streamhouse 中的时间序列模型：新领域和用例 / Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "importance_score": 0.815,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "huggingface"
       ],
       "lens_topics": []
     },
@@ -422,36 +422,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ba015afe81ba",
-      "title": "Microsoft Genie 的新增功能：Copilot Cowork 和聊天、Microsoft Teams 和 Excel。 / What's new for Genie in Microsoft: Copilot Cowork and Chat, Microsoft Teams, and Excel.",
-      "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel",
-      "importance_score": 0.8131,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_1adbaab223fb",
-      "title": "为您的团队定制 GitHub Copilot / Customize GitHub Copilot for your team",
-      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "importance_score": 0.8131,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_73cf2ba0785a",
       "title": "GitHub Copilot 每周发布 — 11 月 9 日 / GitHub Copilot weekly releases — November 9",
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
@@ -462,46 +432,6 @@
       "company_topics": [
         "anthropic",
         "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_f51e0fcf3522",
-      "title": "Catch production failures early with LangSmith Alerts",
-      "url": "https://www.langchain.com/blog/langsmith-alerts",
-      "importance_score": 0.8125,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b087d293fc34",
-      "title": "Announcing Data Annotation Queues",
-      "url": "https://www.langchain.com/blog/announcing-data-annotation-queue",
-      "importance_score": 0.8125,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_40e05de35166",
-      "title": "Your coding agent bill doubled. Here’s how to fix it.",
-      "url": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
-      "importance_score": 0.8125,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "anthropic",
-        "microsoft",
-        "cursor"
       ],
       "lens_topics": [
         "agent-ecosystem",
@@ -535,6 +465,19 @@
       ]
     },
     {
+      "story_id": "story_f81fe699314d",
+      "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。 / The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+      "importance_score": 0.811,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_41002422ce0e",
       "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
@@ -566,6 +509,76 @@
       ]
     },
     {
+      "story_id": "story_ba015afe81ba",
+      "title": "Microsoft Genie 的新增功能：Copilot Cowork 和聊天、Microsoft Teams 和 Excel。 / What's new for Genie in Microsoft: Copilot Cowork and Chat, Microsoft Teams, and Excel.",
+      "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel",
+      "importance_score": 0.809,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_1adbaab223fb",
+      "title": "为您的团队定制 GitHub Copilot / Customize GitHub Copilot for your team",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "importance_score": 0.809,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_f51e0fcf3522",
+      "title": "Catch production failures early with LangSmith Alerts",
+      "url": "https://www.langchain.com/blog/langsmith-alerts",
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_b087d293fc34",
+      "title": "Announcing Data Annotation Queues",
+      "url": "https://www.langchain.com/blog/announcing-data-annotation-queue",
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_40e05de35166",
+      "title": "Your coding agent bill doubled. Here’s how to fix it.",
+      "url": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [
+        "anthropic",
+        "microsoft",
+        "cursor"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_ec5ec6946710",
       "title": "区域声音正在 Gemini 应用程序中推出。 / Regional voices are rolling out in the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices",
@@ -577,21 +590,6 @@
         "google-gemini"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_19ad988d9abd",
-      "title": "GitHub Copilot 应用程序、Microsoft Ignite 发布 / GitHub Copilot app, Microsoft Ignite releases",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "importance_score": 0.8065,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
     }
   ]
 }

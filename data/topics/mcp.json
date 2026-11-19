@@ -9,7 +9,7 @@
   "latest_title": "v2.1.328",
   "latest_published_at": "2026-11-19T01:14:04Z",
   "items_url": "data/topics/mcp.json",
-  "generated_at": "2026-11-19T08:52:56.449335Z",
+  "generated_at": "2026-11-19T10:54:35.193634Z",
   "items": [
     {
       "id": "story_2dd0f06bc0fb",
@@ -18,7 +18,7 @@
       "title_zh": null,
       "title_en": null,
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
-      "summary": "What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added \"onFailure\": \"block\" for mcp_tool hooks, as for command a…",
+      "summary": "更改内容 在 Amazon Bedrock、Google Cloud 代理平台、Microsoft Foundry 和 Claude 应用程序网关上添加了 Claude Opus 4.6 和 Sonnet 4.6 的自动模式；没有权限模式启动的交互式会话 为 mcp_tool 钩子添加了“onFailure”：“block”，对于命令和 HTTP 钩子：调用失败的钩子会阻止操作 当来自跳过权限提示的会话的消息可能被云会话保留和删除时添加了警告 在 /status 和 claude doctor w 中添加了通知",
       "recommend_reason_zh": null,
       "source": "Claude Code Releases",
       "source_name": "Curated Media",
