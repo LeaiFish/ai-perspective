@@ -260,8 +260,10 @@ def test_daily_overview_review_requires_evidence_and_preserves_content(report):
     report["overview"] = {"reason": "办公方向", "lead": "办公助手支持分享",
                           "themes": [{**card(), "company_ids": ["doubao", "openai"],
                                       "evidence_ids": ["doubao-1", "openai-1"]}]}
+    report["companies"]["doubao"].update(state="updated", judgment=card(), digest=card())
     original = merge_report(None, validate_report(report))
     review = deepcopy(report)
+    review["companies"]["doubao"].update(state="unchanged", judgment=None, digest=None)
     review.update(overview=None, previous_report_id=original["report_id"],
                   generated_at=iso(datetime.now(timezone.utc)))
     bundle = {k: review[k] for k in ("kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id")}
@@ -277,6 +279,11 @@ def test_daily_overview_review_requires_evidence_and_preserves_content(report):
     bind_input(review, bundle)
     latest = validate_latest(merge_report(original, validate_report(review)))
     assert latest["overview"] == {**original["overview"], "last_reviewed_at": review["generated_at"]}
+    before = original["companies"]["doubao"]
+    after = latest["companies"]["doubao"]
+    assert after["last_checked_at"] == review["generated_at"]
+    assert after["judgment"] == before["judgment"]
+    assert after["daily"] == before["daily"]
     review.update(previous_report_id=latest["report_id"], generated_at=iso(datetime.now(timezone.utc)))
     review["overview_review"].update(decision="insufficient", reason="本轮材料不足", evidence_ids=[])
     assert merge_report(latest, validate_report(review))["overview"] == latest["overview"]

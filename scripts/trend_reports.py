@@ -384,8 +384,11 @@ def merge_report(previous, report):
         if row["changes"] is not None:
             require(row["changes"], "empty_changes_would_erase_history")
             target["changes"] = dated(row["changes"])
-        # A checked day with no evidence must not be displayed as a fresh old digest.
-        target[report["kind"]] = dated(row["digest"]) if row["digest"] else None
+        # Keep the last published issue, including its original period, on a date-only review.
+        if row["digest"] is not None:
+            target[report["kind"]] = dated(row["digest"])
+        elif row["state"] != "unchanged":
+            target[report["kind"]] = None
         target.update(last_checked_at=report["generated_at"], state=row["state"], reason=row["reason"])
     if report["overview"]:
         refs = {k for t in report["overview"]["themes"] for k in t["evidence_ids"]}
