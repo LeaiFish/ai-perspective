@@ -3,13 +3,13 @@
   "name": "多模态",
   "description": "文本之外的能力：视觉理解、图文混合、音视频输入输出。",
   "group": "tech",
-  "item_count": 5,
-  "listed_count": 5,
-  "recent_item_count": 5,
+  "item_count": 4,
+  "listed_count": 4,
+  "recent_item_count": 4,
   "latest_title": "牛津 MemeEconomy 论文：生存压力使 AI Agent 更多选择有害内容且更少承认危害",
   "latest_published_at": "2026-11-18T22:31:00Z",
   "items_url": "data/topics/multimodal.json",
-  "generated_at": "2026-11-18T23:26:33.763592Z",
+  "generated_at": "2026-11-19T02:51:48.787499Z",
   "items": [
     {
       "id": "story_cdf41a71f175",
@@ -74,22 +74,6 @@
       "published_at": "2026-11-18T04:30:05Z",
       "source_count": 1,
       "curated": false
-    },
-    {
-      "id": "story_dc95b990051d",
-      "story_id": "story_dc95b990051d",
-      "title": "Gemini API 支持直传 Office 文件并新增多模态内容切片",
-      "title_zh": "Gemini API 支持直传 Office 文件并新增多模态内容切片",
-      "title_en": "November 18, 2026",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "summary": "Gemini API 于 11 月 18 日更新，支持直接传入 Word、PowerPoint、Excel 等 Microsoft Office 和 OpenDocument 文件，并可在提示词和函数响应中切片文档、表格、视频和音频。 可按页码区间、工作表标签、单元格范围、时间区间或内容层（如页面图片、提取文本、公式或视频转录）选取所需内容，只处理和支付需要的部分。",
-      "recommend_reason_zh": null,
-      "source": "Gemini API：更新日志（网页）",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-18T00:00:00Z",
-      "source_count": 1,
-      "curated": true
     }
   ]
 }
