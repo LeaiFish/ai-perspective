@@ -4,53 +4,54 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-19T10:54:35.193634Z",
+  "generated_at": "2026-11-19T18:38:47.001785Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
-  "story_count": 1743,
-  "unique_story_count": 1696,
+  "story_count": 2058,
+  "unique_story_count": 1816,
   "counts": {
     "by_company_topic": {
-      "anthropic": 267,
+      "anthropic": 333,
       "apple": 19,
-      "cursor": 8,
-      "deepseek": 35,
-      "doubao": 13,
-      "google-gemini": 194,
-      "huggingface": 30,
-      "hunyuan": 12,
-      "kimi": 11,
-      "meta-llama": 12,
-      "microsoft": 38,
-      "minimax": 5,
-      "nvidia": 161,
-      "openai": 248,
-      "openrouter": 8,
-      "perplexity": 10,
-      "qwen": 12,
-      "xai": 25,
+      "cursor": 14,
+      "deepseek": 41,
+      "doubao": 19,
+      "google-gemini": 243,
+      "huggingface": 35,
+      "hunyuan": 13,
+      "kimi": 14,
+      "meta-llama": 13,
+      "microsoft": 46,
+      "minimax": 6,
+      "nvidia": 175,
+      "openai": 293,
+      "openrouter": 9,
+      "perplexity": 15,
+      "qwen": 15,
+      "xai": 27,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 293,
-      "monetization": 81,
-      "product-entry": 49,
-      "workplace": 67
+      "agent-ecosystem": 345,
+      "monetization": 107,
+      "product-entry": 53,
+      "workplace": 77
     },
     "by_importance_label": {
-      "值得关注": 1402,
-      "多源热议": 32,
-      "官方更新": 145,
-      "行业动态": 164
+      "值得关注": 1626,
+      "多源热议": 40,
+      "官方更新": 176,
+      "行业动态": 216
     },
     "by_source_count_bucket": {
-      "1": 1639,
-      "2": 69,
-      "3+": 35
+      "1": 1931,
+      "2": 84,
+      "3+": 43
     }
   },
   "top_stories": [
@@ -98,6 +99,49 @@
       ]
     },
     {
+      "story_id": "story_282ab6eeb971",
+      "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能 / How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "importance_score": 0.8593,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_f4a0bde39164",
+      "title": "在 Gemini API 中引入工具检索 / Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "importance_score": 0.8563,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_cae7bbc770ea",
+      "title": "Let Gemini tackle repetitive chores on your Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "importance_score": 0.8478,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -137,6 +181,56 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_d6102855438b",
+      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33% / Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+      "importance_score": 0.8423,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_c2ba68bd6600",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "importance_score": 0.8398,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_380f9d8a02a0",
+      "title": "Bulk migrate your dashboards to AI/BI with Genie Code",
+      "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
+      "importance_score": 0.8373,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6e05b81d385f",
+      "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+      "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
+      "importance_score": 0.8369,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_06c4b1df4e91",
       "title": "人工智能使集成成为供应商的问题 / AI made integrations the vendor’s problem",
       "url": "https://blog.n8n.io/ai-made-integrations-the-vendors-problem",
@@ -161,6 +255,19 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_27aac291532a",
+      "title": "合作伙伴如何在 Azure Databricks 上使用 Genie 的免费套餐 / How partners use Genie's free tier on Azure Databricks",
+      "url": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+      "importance_score": 0.8323,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
+      ]
     },
     {
       "story_id": "story_a2f60c2240b8",
@@ -307,6 +414,21 @@
         "agent-ecosystem",
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_6cdeaf1717ef",
+      "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+      "importance_score": 0.8185,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "doubao",
+        "kimi",
+        "nvidia"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_e05c122d19a4",
@@ -463,133 +585,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f81fe699314d",
-      "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。 / The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
-      "importance_score": 0.811,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_41002422ce0e",
-      "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "importance_score": 0.8104,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_65fe65af7919",
-      "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
-      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "importance_score": 0.8091,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_ba015afe81ba",
-      "title": "Microsoft Genie 的新增功能：Copilot Cowork 和聊天、Microsoft Teams 和 Excel。 / What's new for Genie in Microsoft: Copilot Cowork and Chat, Microsoft Teams, and Excel.",
-      "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel",
-      "importance_score": 0.809,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_1adbaab223fb",
-      "title": "为您的团队定制 GitHub Copilot / Customize GitHub Copilot for your team",
-      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "importance_score": 0.809,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_f51e0fcf3522",
-      "title": "Catch production failures early with LangSmith Alerts",
-      "url": "https://www.langchain.com/blog/langsmith-alerts",
-      "importance_score": 0.8082,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b087d293fc34",
-      "title": "Announcing Data Annotation Queues",
-      "url": "https://www.langchain.com/blog/announcing-data-annotation-queue",
-      "importance_score": 0.8082,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_40e05de35166",
-      "title": "Your coding agent bill doubled. Here’s how to fix it.",
-      "url": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
-      "importance_score": 0.8082,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [
-        "anthropic",
-        "microsoft",
-        "cursor"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_ec5ec6946710",
-      "title": "区域声音正在 Gemini 应用程序中推出。 / Regional voices are rolling out in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices",
-      "importance_score": 0.8071,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     }
   ]
 }
