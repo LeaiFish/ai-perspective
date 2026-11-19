@@ -252,3 +252,31 @@ def test_publisher_only_commits_current_public_issue_and_history(tmp_path, repor
     paths = set(run("show", "--format=", "--name-only", revised["commit"], cwd=remote).splitlines())
     assert paths == {str(Path("data") / LATEST), str(Path("data") / archive_path(validate_report(report))), "data/trends/history.json", f"data/trends/history/{revised['report_id']}.json"}
     assert run("show", f"master:data/{issue}", cwd=remote) == original
+
+
+def test_daily_overview_review_requires_evidence_and_preserves_content(report):
+    from scripts.trend_reports import merge_report
+    report["evidence"] = [evidence(report), evidence(report, "openai-1", "openai")]
+    report["overview"] = {"reason": "办公方向", "lead": "办公助手支持分享",
+                          "themes": [{**card(), "company_ids": ["doubao", "openai"],
+                                      "evidence_ids": ["doubao-1", "openai-1"]}]}
+    original = merge_report(None, validate_report(report))
+    review = deepcopy(report)
+    review.update(overview=None, previous_report_id=original["report_id"],
+                  generated_at=iso(datetime.now(timezone.utc)))
+    bundle = {k: review[k] for k in ("kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id")}
+    bundle.update(schema="radar_trend_input_v1", overview_review_required=True)
+    review["input_id"] = bundle["input_id"] = digest(bundle)
+    with pytest.raises(ValueError, match="daily_overview_review_required"):
+        bind_input(review, bundle)
+    review["overview_review"] = {"decision": "retained", "reason": "两家产品的分享动作均已覆盖",
+                                 "evidence_ids": ["doubao-1"]}
+    with pytest.raises(ValueError, match="domestic_and_overseas"):
+        validate_report(review)
+    review["overview_review"]["evidence_ids"].append("openai-1")
+    bind_input(review, bundle)
+    latest = validate_latest(merge_report(original, validate_report(review)))
+    assert latest["overview"] == {**original["overview"], "last_reviewed_at": review["generated_at"]}
+    review.update(previous_report_id=latest["report_id"], generated_at=iso(datetime.now(timezone.utc)))
+    review["overview_review"].update(decision="insufficient", reason="本轮材料不足", evidence_ids=[])
+    assert merge_report(latest, validate_report(review))["overview"] == latest["overview"]

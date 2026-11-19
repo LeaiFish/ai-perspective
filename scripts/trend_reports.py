@@ -183,6 +183,8 @@ def prepare(data_dir, kind, now=None, *, revision=False):
                                      "strengthening_policy": history_module().STRENGTHENING_POLICY,
                                      "judgment_content_policy": JUDGMENT_CONTENT_POLICY},
               "warning": "候选时间、标题、摘要未经本轮原文核验；原文失败是覆盖缺口。既有判断不是新证据；同一事件多家报道只算一次。"}
+    if kind == "daily":
+        bundle["overview_review_required"] = True
     if revision:
         original = load(data_dir / issue_path({"kind": kind, "period_end": iso(end)}))
         require(original is not None, "revision_requires_published_issue")
@@ -217,7 +219,11 @@ def daily_event_index(data_dir, as_of):
 
 def validate_report(raw, *, now=None):
     now = now or datetime.now(UTC)
-    keys(raw, "schema kind period_start period_end source_snapshot_at generated_at input_id previous_report_id companies evidence overview" + (" evolution" if "evolution" in raw else "") + (" revision_of" if "revision_of" in raw else ""), "invalid_report_fields")
+    fields = "schema kind period_start period_end source_snapshot_at generated_at input_id previous_report_id companies evidence overview"
+    for optional in ("evolution", "revision_of", "overview_review"):
+        if optional in raw:
+            fields += " " + optional
+    keys(raw, fields, "invalid_report_fields")
     require(raw["schema"] == REPORT_SCHEMA and raw["kind"] in {"daily", "weekly"}, "invalid_report_schema")
     start, end, source, generated = (stamp(raw[k]) for k in ("period_start", "period_end", "source_snapshot_at", "generated_at"))
     require(start < end <= source <= generated <= now + timedelta(minutes=5), "invalid_report_window")
@@ -282,6 +288,17 @@ def validate_report(raw, *, now=None):
             require(company["judgment"] is None and company["changes"] is None, "unchanged_company_cannot_rewrite")
         if company["state"] == "insufficient":
             require(company["digest"] is None and not company["events"], "insufficient_company_cannot_assert")
+    if "overview_review" in raw:
+        review = raw["overview_review"]
+        require(raw["kind"] == "daily" and raw["overview"] is None, "unexpected_overview_review")
+        keys(review, "decision reason evidence_ids", "invalid_overview_review")
+        clean(review["reason"], 600)
+        require(review["decision"] in ("retained", "insufficient"), "invalid_overview_decision")
+        refs = review["evidence_ids"]
+        require(isinstance(refs, list) and all(isinstance(k, str) and k in evidence for k in refs), "invalid_overview_review_refs")
+        if review["decision"] == "retained":
+            covered = {slug for k in refs for slug in evidence[k]["company_ids"]}
+            require(covered & DOMESTIC and covered - DOMESTIC, "overview_review_needs_domestic_and_overseas_evidence")
     if raw["overview"] is not None:
         overview = raw["overview"]
         keys(overview, "reason lead themes", "invalid_overview_fields")
@@ -319,7 +336,12 @@ def validate_latest(value):
             keys(wrapper, "generated_at source_snapshot_at period_start period_end content evidence", "invalid_persisted_wrapper")
             check_wrapper(wrapper, company=slug, field=field)
     if value["overview"] is not None:
-        keys(value["overview"], "generated_at source_snapshot_at kind period_start period_end content evidence", "invalid_persisted_overview")
+        overview = value["overview"]
+        fields = "generated_at source_snapshot_at kind period_start period_end content evidence"
+        if "last_reviewed_at" in overview:
+            fields += " last_reviewed_at"
+            require(stamp(overview["generated_at"]) <= stamp(overview["last_reviewed_at"]) <= stamp(value["updated_at"]), "invalid_overview_review_date")
+        keys(overview, fields, "invalid_persisted_overview")
         check_wrapper(value["overview"])
     for k in ("daily", "weekly"):
         if value[k]:
@@ -370,6 +392,9 @@ def merge_report(previous, report):
         state["overview"] = {"generated_at": report["generated_at"], "source_snapshot_at": report["source_snapshot_at"], "kind": report["kind"],
                              "period_start": report["period_start"], "period_end": report["period_end"], "content": report["overview"],
                              "evidence": [e for e in report["evidence"] if e["id"] in refs]}
+    elif (report.get("overview_review") or {}).get("decision") == "retained":
+        require(state["overview"] is not None, "no_overview_to_retain")
+        state["overview"]["last_reviewed_at"] = report["generated_at"]
     state[report["kind"]] = report
     state.update(report_id=report["report_id"], updated_at=report["generated_at"], source_snapshot_at=report["source_snapshot_at"])
     return state
@@ -402,6 +427,8 @@ def bind_input(raw, bundle):
             previous_card = (previous.get("judgment") or {}).get("content")
             if card and previous_card:
                 require(any(card[k] != previous_card[k] for k in ("headline", "summary")), "judgment_text_unchanged")
+    if bundle.get("overview_review_required") and raw.get("overview") is None:
+        require("overview_review" in raw, "daily_overview_review_required")
     require(raw.get("revision_of") == bundle.get("revision_of"), "report_revision_mismatch")
     for key in ("input_id", "kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id"):
         require(raw.get(key) == bundle.get(key), "report_input_mismatch")

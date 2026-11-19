@@ -73,7 +73,6 @@
     month: "",
     currentMonth: "",
     generatedAt: "",
-    windowHours: 24,
     briefItems: [],
     stories: [],
     storiesLoaded: false,
@@ -267,9 +266,9 @@
   }
 
   function renderWindowNote() {
-    const stamp = formatStamp(state.generatedAt);
-    const when = stamp ? `更新于 ${stamp}` : "更新时间待接入";
-    windowNote.textContent = `${when} · 数据窗 ${state.windowHours} 小时`;
+    const reviewed = globalThis.radarTrendUI?.overviewReviewDate();
+    windowNote.hidden = !reviewed || state.month !== state.currentMonth;
+    windowNote.textContent = reviewed ? `最近复核 ${reviewed}` : "";
   }
 
   function renderMonthSelect() {
@@ -285,6 +284,7 @@
   }
 
   function applyMonth() {
+    renderWindowNote();
     const live = state.month === state.currentMonth;
     overviewLive.hidden = !live;
     overviewEmpty.hidden = live;
@@ -321,7 +321,6 @@
   }
 
   function renderOverview() {
-    renderWindowNote();
     applyMonth();
     if (state.month !== state.currentMonth) return;
     renderJudgments();
@@ -1203,6 +1202,10 @@
     document.querySelector("#pack-delta h2").textContent = deltaLabel;
     document.querySelector('.pack-toc > a[href="#pack-delta"]').textContent = deltaLabel;
     const title = document.getElementById("packTitle");
+    const reviewNote = document.getElementById("packReviewNote");
+    const review = kind === "org" ? globalThis.radarTrendUI?.companyReviewNote(id) : "";
+    reviewNote.textContent = review || "";
+    reviewNote.hidden = !review;
     const back = document.getElementById("packBack");
     if (back) back.href = researchHref({ tab: currentTab() });
     if (!state.researchReady) {
@@ -1382,13 +1385,11 @@
     if (briefResult.status === "fulfilled") {
       state.briefItems = briefResult.value.items || [];
       state.generatedAt = briefResult.value.generated_at || state.generatedAt;
-      state.windowHours = briefResult.value.window_hours || state.windowHours;
     }
     state.storiesLoaded = storiesResult.status === "fulfilled";
     if (storiesResult.status === "fulfilled") {
       state.stories = storiesResult.value.stories || [];
       state.generatedAt = state.generatedAt || storiesResult.value.generated_at || "";
-      state.windowHours = storiesResult.value.window_hours || state.windowHours;
     }
     if (topicsResult.status === "fulfilled") {
       state.topics = topicsResult.value.topics || [];

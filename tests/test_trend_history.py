@@ -19,6 +19,8 @@ def evolution(raw):
 
 
 def content_reviews(raw):
+    if raw['overview'] is None:
+        raw['overview_review'] = {'decision': 'insufficient', 'reason': '仅核到单一地区材料', 'evidence_ids': []}
     for slug,company in raw['companies'].items():
         raw['evolution']['companies'][slug]['content_review']={
             'decision':'insufficient' if company['state']=='insufficient' else 'revised' if company['judgment'] else 'retained',

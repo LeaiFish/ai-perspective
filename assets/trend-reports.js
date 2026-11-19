@@ -65,6 +65,16 @@
     set(value) {
       snapshot = value?.schema === "radar_trends_v1" && value.companies && Object.keys(value.companies).length === 8 && Object.keys(value.companies).every(id => ids.has(id)) ? value : null;
     },
+    overviewReviewDate() {
+      const report = snapshot?.overview;
+      return report ? day(report.last_reviewed_at || report.generated_at) : "";
+    },
+    companyReviewNote(id) {
+      const row = snapshot?.companies?.[id];
+      if (!row?.last_checked_at) return "";
+      const label = row.state === "insufficient" ? "最近检查" : "最近复核";
+      return `${label} ${day(row.last_checked_at)}${row.state === "insufficient" ? " · 材料不足" : ""}`;
+    },
     overview(slot, month, currentMonth = month) {
       const report = snapshot?.overview;
       if (!report?.content?.themes?.length) return false;
