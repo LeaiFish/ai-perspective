@@ -1203,9 +1203,11 @@
     document.querySelector('.pack-toc > a[href="#pack-delta"]').textContent = deltaLabel;
     const title = document.getElementById("packTitle");
     const reviewNote = document.getElementById("packReviewNote");
-    const review = kind === "org" ? globalThis.radarTrendUI?.companyReviewNote(id) : "";
-    reviewNote.textContent = review || "";
-    reviewNote.hidden = !review;
+    if (reviewNote) {
+      const review = kind === "org" ? globalThis.radarTrendUI?.companyReviewNote(id) : "";
+      reviewNote.textContent = review || "";
+      reviewNote.hidden = !review;
+    }
     const back = document.getElementById("packBack");
     if (back) back.href = researchHref({ tab: currentTab() });
     if (!state.researchReady) {
