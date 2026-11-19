@@ -1,0 +1,2887 @@
+{
+  "schema": "radar_trend_history_snapshot_v1",
+  "report_id": "9e9a94cf403da005e871a6ea264520c90c22c5f4670e2661f48163093e4d5a5d",
+  "previous_report_id": "a4134d730e353e8de52f9ad632c0f75697f9cf0dbe2f40d6115ebc0e2b8161b9",
+  "kind": "daily",
+  "generated_at": "2026-11-19T03:20:00.128128+00:00",
+  "period_start": "2026-11-18T02:51:48.787499Z",
+  "period_end": "2026-11-19T02:51:48.787499Z",
+  "companies": {
+    "doubao": {
+      "before": {
+        "content": {
+          "headline": "豆包工作用专业工作台组织任务，豆包找店接入地图",
+          "summary": "豆包工作可把电脑操作录成技能，经授权由手机向锁屏 Mac 交办。模型菜单显示额度倍率，个人版按周额度使用。据 IT 之家，专业工作台预配技能与工具，首批覆盖 21 个场景，用户能自建并分享。创作侧分批加入同图多轮编辑和透明素材，豆包 App 可把推荐门店标在地图上并接到团购下单或导航。",
+          "evidence_ids": [
+            "doubao-work-workbench-nov16",
+            "doubao-record-skills",
+            "doubao-work-model-picker-nov12",
+            "doubao-weekly-allowance-nov06",
+            "doubao-seedream-app-nov09",
+            "doubao-find-store-donews-nov16"
+          ]
+        },
+        "generated_at": "2026-11-17T03:29:08.288015+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "doubao-work-workbench-nov16",
+            "url": "https://www.ithome.com/1/027/608.htm",
+            "title": "豆包工作上线专业工作台",
+            "source": "IT之家",
+            "published_at": "2026-11-16T12:27:33+08:00",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述当日宣布并展示入口，具体生效时刻及账号覆盖未披露。"
+          },
+          {
+            "id": "doubao-record-skills",
+            "url": "https://www.ithome.com/1/018/860.htm",
+            "title": "豆包工作将录制的电脑操作保存为技能",
+            "source": "IT之家",
+            "published_at": "2026-10-28T12:00:26+08:00",
+            "event_at": "2026-10-28",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "报道列明 Mac 锁屏运行的设置和手机交办流程。"
+          },
+          {
+            "id": "doubao-work-model-picker-nov12",
+            "url": "https://www.ithome.com/1/025/926.htm",
+            "title": "豆包工作扩展模型选择并显示额度倍率",
+            "source": "IT之家",
+            "published_at": "2026-11-12T11:34:02+08:00",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述官方更新并展示选型界面。此前团队和企业先行，报道日确认扩围，具体生效时刻未披露。"
+          },
+          {
+            "id": "doubao-weekly-allowance-nov06",
+            "url": "https://www.ithome.com/1/023/414.htm",
+            "title": "豆包工作个人版取消短周期额度限制",
+            "source": "IT之家",
+            "published_at": "2026-11-06",
+            "event_at": "2026-11-06",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "原文称 11 月 6 日起取消 5 小时限制，周额度依套餐。"
+          },
+          {
+            "id": "doubao-seedream-app-nov09",
+            "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5?view_from=content_recommend",
+            "title": "Seedream 5.5 应用入口",
+            "source": "字节跳动 Seed",
+            "published_at": "2026-11-09",
+            "event_at": "2026-11-09",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文列出豆包图像生成和豆包工作技能入口，仍为陆续上线。"
+          },
+          {
+            "id": "doubao-find-store-donews-nov16",
+            "url": "https://www.donews.com/news/detail/8/6772262.html",
+            "title": "豆包找店支持地图选店、团购和导航",
+            "source": "DoNews",
+            "published_at": "2026-11-16T08:58:20+08:00",
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述读佳，称近日上线，未披露具体生效日及地域覆盖。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "豆包工作用专业工作台组织任务，豆包找店接入地图",
+          "summary": "豆包工作可把电脑操作录成技能，经授权由手机向锁屏 Mac 交办。模型菜单显示额度倍率，个人版按周额度使用。据 IT 之家，专业工作台预配技能与工具，首批覆盖 21 个场景，用户能自建并分享。创作侧分批加入同图多轮编辑和透明素材，豆包 App 可把推荐门店标在地图上并接到团购下单或导航。",
+          "evidence_ids": [
+            "doubao-work-workbench-nov16",
+            "doubao-record-skills",
+            "doubao-work-model-picker-nov12",
+            "doubao-weekly-allowance-nov06",
+            "doubao-seedream-app-nov09",
+            "doubao-find-store-donews-nov16"
+          ]
+        },
+        "generated_at": "2026-11-17T03:29:08.288015+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "doubao-work-workbench-nov16",
+            "url": "https://www.ithome.com/1/027/608.htm",
+            "title": "豆包工作上线专业工作台",
+            "source": "IT之家",
+            "published_at": "2026-11-16T12:27:33+08:00",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述当日宣布并展示入口，具体生效时刻及账号覆盖未披露。"
+          },
+          {
+            "id": "doubao-record-skills",
+            "url": "https://www.ithome.com/1/018/860.htm",
+            "title": "豆包工作将录制的电脑操作保存为技能",
+            "source": "IT之家",
+            "published_at": "2026-10-28T12:00:26+08:00",
+            "event_at": "2026-10-28",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "报道列明 Mac 锁屏运行的设置和手机交办流程。"
+          },
+          {
+            "id": "doubao-work-model-picker-nov12",
+            "url": "https://www.ithome.com/1/025/926.htm",
+            "title": "豆包工作扩展模型选择并显示额度倍率",
+            "source": "IT之家",
+            "published_at": "2026-11-12T11:34:02+08:00",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述官方更新并展示选型界面。此前团队和企业先行，报道日确认扩围，具体生效时刻未披露。"
+          },
+          {
+            "id": "doubao-weekly-allowance-nov06",
+            "url": "https://www.ithome.com/1/023/414.htm",
+            "title": "豆包工作个人版取消短周期额度限制",
+            "source": "IT之家",
+            "published_at": "2026-11-06",
+            "event_at": "2026-11-06",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "原文称 11 月 6 日起取消 5 小时限制，周额度依套餐。"
+          },
+          {
+            "id": "doubao-seedream-app-nov09",
+            "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5?view_from=content_recommend",
+            "title": "Seedream 5.5 应用入口",
+            "source": "字节跳动 Seed",
+            "published_at": "2026-11-09",
+            "event_at": "2026-11-09",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文列出豆包图像生成和豆包工作技能入口，仍为陆续上线。"
+          },
+          {
+            "id": "doubao-find-store-donews-nov16",
+            "url": "https://www.donews.com/news/detail/8/6772262.html",
+            "title": "豆包找店支持地图选店、团购和导航",
+            "source": "DoNews",
+            "published_at": "2026-11-16T08:58:20+08:00",
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "doubao"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文转述读佳，称近日上线，未披露具体生效日及地域覆盖。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "专业工作台的模板、插件和分享，以及地图找店流程已进入现有判断和近30天变化。日活与收入线索未取得可核口径，创作模型 API 不能证明豆包应用入口变化。",
+      "signals": [],
+      "evidence": [
+        {
+          "id": "doubao-map",
+          "company_ids": [
+            "doubao"
+          ],
+          "url": "https://www.donews.com/news/detail/8/6772262.html",
+          "title": "豆包 App 找店地图",
+          "source": "DoNews",
+          "published_at": "2026-11-16T08:58:20+08:00",
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "转引产品进展，首次上线时间待核。"
+        },
+        {
+          "id": "doubao-workbench",
+          "company_ids": [
+            "doubao"
+          ],
+          "url": "https://www.ithome.com/1/027/608.htm",
+          "title": "豆包工作上线专业工作台",
+          "source": "IT之家",
+          "published_at": "2026-11-16T12:27:33+08:00",
+          "event_at": "2026-11-16",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "首批 21 个场景，可自建和分享。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "unchanged",
+      "checked_reason": "专业工作台的模板、插件和分享，以及地图找店流程已进入现有判断和近30天变化。日活与收入线索未取得可核口径，创作模型 API 不能证明豆包应用入口变化。"
+    },
+    "qwen": {
+      "before": {
+        "content": {
+          "headline": "千问办公补齐任务选模与资料发布入口",
+          "summary": "团队可按消息、审批或待办触发任务，共用资料并接续成员修改的成果，手机可访问经授权的同组织电脑。钉钉空间授权单独确认，企业可同步成员。办公端增加 Qwen4-Max 等十款模型并支持绑定用量，资料空间可把 HTML 直接发布为可访问网页。端内 Office 编辑仍分批开放。千问 App 会员据报道可限时体验 Qwen4-Max 正式版，健康档案可经授权同步血糖设备数据，国行 Apple 智能的千问入口仍按开发者测试安排推进。 协作空间的外链资料被拒绝授权后不再反复读取，权限恢复后可单独续学，不影响其他来源。",
+          "evidence_ids": [
+            "qwenwork-model-menu-nov15",
+            "qwenwork-html-publish-nov13",
+            "qwen-app-qwen4-max-nov16",
+            "qwen-token-plan-nov05",
+            "qwen-work-20-recheck-nov15",
+            "qwen-work-consent-recheck-nov15",
+            "qwen-work-scim-recheck-nov15",
+            "qwen-office-edit-recheck-nov15",
+            "qwen-health-cgm-nov14",
+            "qwen-apple-cn-recheck-nov15",
+            "qwenwork-denied-source-resume-nov15"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "qwenwork-model-menu-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-15",
+            "title": "千问办公新增十款可选模型",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-15",
+            "event_at": "2026-11-15",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志条目列为 11 月 15 日，公告和报道时间不能替代每个账号的生效时间。"
+          },
+          {
+            "id": "qwenwork-html-publish-nov13",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+            "title": "资料空间可将 HTML 直接发布为网页",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-13",
+            "event_at": "2026-11-13",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志列出发布动作，链接访问权限、可见范围和可用套餐未在条目披露。"
+          },
+          {
+            "id": "qwen-app-qwen4-max-nov16",
+            "url": "https://finance.sina.com.cn/tech/it/2026-11-16/doc-iniyxiqz1146007.shtml",
+            "title": "千问 App 会员可限时体验 Qwen4-Max 正式版",
+            "source": "新浪科技",
+            "published_at": "2026-11-16T14:30:00+08:00",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体转述千问的会员体验条件。官方公众号原文访问受阻，未核到 App 各账户生效时刻或优惠截止。"
+          },
+          {
+            "id": "qwen-token-plan-nov05",
+            "url": "https://help.aliyun.cn/zh/model-studio/qwenwork-token-plan",
+            "title": "千问办公客户端绑定模型用量",
+            "source": "阿里云帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "当前帮助正文确认个人分批、企业未全面上线，页面未显示可直接核实的时间。"
+          },
+          {
+            "id": "qwen-work-20-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+            "title": "千问办公 2.0 协作与跨端任务",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-09",
+            "event_at": "2026-11-09",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志说明资料空间沿用权限、手机远程控制和接续任务。"
+          },
+          {
+            "id": "qwen-work-consent-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-11",
+            "title": "千问办公钉钉空间授权",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-11",
+            "event_at": "2026-11-11",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "钉钉连接和协作空间授权分开，可另行撤回。"
+          },
+          {
+            "id": "qwen-work-scim-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-10",
+            "title": "企业成员同步与应用授权",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志列有 SCIM 2.0、撤销阿里云授权和合资格员工授权安装。"
+          },
+          {
+            "id": "qwen-office-edit-recheck-nov15",
+            "url": "https://www.aibase.com/news/32115",
+            "title": "千问 AI Office 提供端内编辑和模板",
+            "source": "AIbase",
+            "published_at": "2026-11-05",
+            "event_at": "2026-11-05",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体描述文档、表格和演示文稿编辑分批开放。"
+          },
+          {
+            "id": "qwen-health-cgm-nov14",
+            "url": "https://news.aibase.cn/news/32323",
+            "title": "千问健康档案接入动态血糖仪",
+            "source": "AIbase",
+            "published_at": "2026-11-14T14:43:00+08:00",
+            "event_at": "2026-11-14",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文有产品截图和流程描述。上线时点仅到日，公众号正文和支持的设备范围未核实。"
+          },
+          {
+            "id": "qwen-apple-cn-recheck-nov15",
+            "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+            "title": "Apple 公布国行智能开发者预览及千问集成",
+            "source": "Apple 新闻中心",
+            "published_at": "2026-10-31",
+            "event_at": "2026-10-31",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方公告列明 11 月 4 日起测试和千问在系统写作工具的用途。"
+          },
+          {
+            "id": "qwenwork-denied-source-resume-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-15",
+            "title": "协作空间外链授权拒绝及恢复处理",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-15",
+            "event_at": "2026-11-15",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "同日十模型菜单已报道；本轮补录外链拒绝后不重试、恢复权限后单条续学。仅日精度。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "千问办公补齐任务选模与资料发布入口",
+          "summary": "团队可按消息、审批或待办触发任务，共用资料并接续成员修改的成果，手机可访问经授权的同组织电脑。钉钉空间授权单独确认，企业可同步成员。办公端增加 Qwen4-Max 等十款模型并支持绑定用量，资料空间可把 HTML 直接发布为可访问网页。端内 Office 编辑仍分批开放。千问 App 会员据报道可限时体验 Qwen4-Max 正式版，健康档案可经授权同步血糖设备数据，国行 Apple 智能的千问入口仍按开发者测试安排推进。 协作空间的外链资料被拒绝授权后不再反复读取，权限恢复后可单独续学，不影响其他来源。",
+          "evidence_ids": [
+            "qwenwork-model-menu-nov15",
+            "qwenwork-html-publish-nov13",
+            "qwen-app-qwen4-max-nov16",
+            "qwen-token-plan-nov05",
+            "qwen-work-20-recheck-nov15",
+            "qwen-work-consent-recheck-nov15",
+            "qwen-work-scim-recheck-nov15",
+            "qwen-office-edit-recheck-nov15",
+            "qwen-health-cgm-nov14",
+            "qwen-apple-cn-recheck-nov15",
+            "qwenwork-denied-source-resume-nov15"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "qwenwork-model-menu-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-15",
+            "title": "千问办公新增十款可选模型",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-15",
+            "event_at": "2026-11-15",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志条目列为 11 月 15 日，公告和报道时间不能替代每个账号的生效时间。"
+          },
+          {
+            "id": "qwenwork-html-publish-nov13",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+            "title": "资料空间可将 HTML 直接发布为网页",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-13",
+            "event_at": "2026-11-13",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志列出发布动作，链接访问权限、可见范围和可用套餐未在条目披露。"
+          },
+          {
+            "id": "qwen-app-qwen4-max-nov16",
+            "url": "https://finance.sina.com.cn/tech/it/2026-11-16/doc-iniyxiqz1146007.shtml",
+            "title": "千问 App 会员可限时体验 Qwen4-Max 正式版",
+            "source": "新浪科技",
+            "published_at": "2026-11-16T14:30:00+08:00",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体转述千问的会员体验条件。官方公众号原文访问受阻，未核到 App 各账户生效时刻或优惠截止。"
+          },
+          {
+            "id": "qwen-token-plan-nov05",
+            "url": "https://help.aliyun.cn/zh/model-studio/qwenwork-token-plan",
+            "title": "千问办公客户端绑定模型用量",
+            "source": "阿里云帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "当前帮助正文确认个人分批、企业未全面上线，页面未显示可直接核实的时间。"
+          },
+          {
+            "id": "qwen-work-20-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+            "title": "千问办公 2.0 协作与跨端任务",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-09",
+            "event_at": "2026-11-09",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志说明资料空间沿用权限、手机远程控制和接续任务。"
+          },
+          {
+            "id": "qwen-work-consent-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-11",
+            "title": "千问办公钉钉空间授权",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-11",
+            "event_at": "2026-11-11",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "钉钉连接和协作空间授权分开，可另行撤回。"
+          },
+          {
+            "id": "qwen-work-scim-recheck-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-10",
+            "title": "企业成员同步与应用授权",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方日志列有 SCIM 2.0、撤销阿里云授权和合资格员工授权安装。"
+          },
+          {
+            "id": "qwen-office-edit-recheck-nov15",
+            "url": "https://www.aibase.com/news/32115",
+            "title": "千问 AI Office 提供端内编辑和模板",
+            "source": "AIbase",
+            "published_at": "2026-11-05",
+            "event_at": "2026-11-05",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体描述文档、表格和演示文稿编辑分批开放。"
+          },
+          {
+            "id": "qwen-health-cgm-nov14",
+            "url": "https://news.aibase.cn/news/32323",
+            "title": "千问健康档案接入动态血糖仪",
+            "source": "AIbase",
+            "published_at": "2026-11-14T14:43:00+08:00",
+            "event_at": "2026-11-14",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文有产品截图和流程描述。上线时点仅到日，公众号正文和支持的设备范围未核实。"
+          },
+          {
+            "id": "qwen-apple-cn-recheck-nov15",
+            "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+            "title": "Apple 公布国行智能开发者预览及千问集成",
+            "source": "Apple 新闻中心",
+            "published_at": "2026-10-31",
+            "event_at": "2026-10-31",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方公告列明 11 月 4 日起测试和千问在系统写作工具的用途。"
+          },
+          {
+            "id": "qwenwork-denied-source-resume-nov15",
+            "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-15",
+            "title": "协作空间外链授权拒绝及恢复处理",
+            "source": "千问办公更新日志",
+            "published_at": "2026-11-15",
+            "event_at": "2026-11-15",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "qwen"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "同日十模型菜单已报道；本轮补录外链拒绝后不重试、恢复权限后单条续学。仅日精度。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "网页日志复核了消息、审批与待办触发、资料空间发布和外链权限恢复，近期正文已覆盖。考研技能的公众号正文未能核实，第三方模型改造不构成千问应用变化。",
+      "signals": [],
+      "evidence": [
+        {
+          "id": "qwen-access",
+          "company_ids": [
+            "qwen"
+          ],
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-15",
+          "title": "千问办公选模和外链授权",
+          "source": "千问办公",
+          "published_at": "2026-11-15",
+          "event_at": "2026-11-15",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "外链被拒后停止重复读取，授权恢复后该链接可续学。"
+        },
+        {
+          "id": "qwen-html",
+          "company_ids": [
+            "qwen"
+          ],
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+          "title": "千问办公资料空间直接发布 HTML",
+          "source": "千问办公",
+          "published_at": "2026-11-13",
+          "event_at": "2026-11-13",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "适用于资料空间的 HTML 文件。"
+        },
+        {
+          "id": "qwen-trigger",
+          "company_ids": [
+            "qwen"
+          ],
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+          "title": "千问办公 2.0 网页端更新",
+          "source": "千问办公",
+          "published_at": "2026-11-09",
+          "event_at": "2026-11-09",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "触发任务覆盖消息、审批和待办。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "unchanged",
+      "checked_reason": "网页日志复核了消息、审批与待办触发、资料空间发布和外链权限恢复，近期正文已覆盖。考研技能的公众号正文未能核实，第三方模型改造不构成千问应用变化。"
+    },
+    "hunyuan": {
+      "before": {
+        "content": {
+          "headline": "元宝把检索接到资料整理和语音通话",
+          "summary": "元宝 App 可在录音后生成结构化图文纪要，历史可查文件、链接和聊天记录，并已接入 Hy4。媒体报道实时语音模型已接入元宝通话，联网搜索等新能力的覆盖范围待核对。iOS 2.93.0 简化首页并支持从商品卡直达列表。独立元宝搜索通过网页及新版 QQ 浏览器查询网页、公众号、视频号和学术内容，可围绕结果继续追问。",
+          "evidence_ids": [
+            "yuanbao-29200-store",
+            "yuanbao-hy-realtime-nov13",
+            "yuanbao-search-nov11-tencent-reprint"
+          ]
+        },
+        "generated_at": "2026-11-14T03:21:47.502699+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "yuanbao-29200-store",
+            "url": "https://apps.apple.com/cn/app/id6480446430",
+            "title": "元宝 iOS 版本历史列出录音、搜索与首页变化",
+            "source": "腾讯科技／App Store",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "2.92.0 条目下列出 Hy4 与历史搜索，2.93.0 条目下列出首页和商品推荐改动；2.93.0 仅呈现相对时间。"
+          },
+          {
+            "id": "yuanbao-hy-realtime-nov13",
+            "url": "https://www.iimedia.cn/c1040/120132.html",
+            "title": "媒体报道 Hy Realtime 已接入元宝语音通话",
+            "source": "艾媒网",
+            "published_at": "2026-11-13",
+            "event_at": null,
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "原文转述混元公告，确认元宝语音是上线场景；公众号原文未能打开，接入日期、覆盖比例及各模型能力在 App 内的适用范围未确认。"
+          },
+          {
+            "id": "yuanbao-search-nov11-tencent-reprint",
+            "url": "https://cloud.tencent.com/developer/article/2781917",
+            "title": "元宝搜索正式上线",
+            "source": "腾讯云开发者社区",
+            "published_at": "2026-11-11T22:01:10+08:00",
+            "event_at": "2026-11-11",
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "页面注明转载。可交叉核对网页版和 QQ 浏览器入口，不以转载时点替代上线时间。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "元宝把检索接到资料整理和语音通话",
+          "summary": "元宝 App 可在录音后生成结构化图文纪要，历史可查文件、链接和聊天记录，并已接入 Hy4。媒体报道实时语音模型已接入元宝通话，联网搜索等新能力的覆盖范围待核对。iOS 2.93.0 简化首页并支持从商品卡直达列表。独立元宝搜索通过网页及新版 QQ 浏览器查询网页、公众号、视频号和学术内容，可围绕结果继续追问。",
+          "evidence_ids": [
+            "yuanbao-29200-store",
+            "yuanbao-hy-realtime-nov13",
+            "yuanbao-search-nov11-tencent-reprint"
+          ]
+        },
+        "generated_at": "2026-11-14T03:21:47.502699+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "yuanbao-29200-store",
+            "url": "https://apps.apple.com/cn/app/id6480446430",
+            "title": "元宝 iOS 版本历史列出录音、搜索与首页变化",
+            "source": "腾讯科技／App Store",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "2.92.0 条目下列出 Hy4 与历史搜索，2.93.0 条目下列出首页和商品推荐改动；2.93.0 仅呈现相对时间。"
+          },
+          {
+            "id": "yuanbao-hy-realtime-nov13",
+            "url": "https://www.iimedia.cn/c1040/120132.html",
+            "title": "媒体报道 Hy Realtime 已接入元宝语音通话",
+            "source": "艾媒网",
+            "published_at": "2026-11-13",
+            "event_at": null,
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "原文转述混元公告，确认元宝语音是上线场景；公众号原文未能打开，接入日期、覆盖比例及各模型能力在 App 内的适用范围未确认。"
+          },
+          {
+            "id": "yuanbao-search-nov11-tencent-reprint",
+            "url": "https://cloud.tencent.com/developer/article/2781917",
+            "title": "元宝搜索正式上线",
+            "source": "腾讯云开发者社区",
+            "published_at": "2026-11-11T22:01:10+08:00",
+            "event_at": "2026-11-11",
+            "verified_at": "2026-11-14T03:21:47.502699+00:00",
+            "company_ids": [
+              "hunyuan"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "页面注明转载。可交叉核对网页版和 QQ 浏览器入口，不以转载时点替代上线时间。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "应用官方记录确认原版本和改动，并补齐发布时点。Hy4 flash 候选未核实元宝端入口或实际使用范围。",
+      "signals": [],
+      "evidence": [
+        {
+          "id": "yuanbao-version",
+          "company_ids": [
+            "hunyuan"
+          ],
+          "url": "https://itunes.apple.com/lookup?id=6480446430&country=cn",
+          "title": "元宝 2.93.0 中国区商店发布元数据",
+          "source": "Apple App Store 中腾讯开发者记录",
+          "published_at": "2026-11-13T02:54:02Z",
+          "event_at": "2026-11-13T02:54:02Z",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "开发者提交的版本记录说明简化首页和商品列表跳转，时间为中国区 iOS 版本发布时间。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "unchanged",
+      "checked_reason": "应用官方记录确认原版本和改动，并补齐发布时点。Hy4 flash 候选未核实元宝端入口或实际使用范围。"
+    },
+    "openai": {
+      "before": {
+        "content": {
+          "headline": "ChatGPT 将可交办任务带入受控医疗工作空间",
+          "summary": "Dot 可以在对话之间推进委托，消息入口在美加墨向少量 Pro 用户测试，使用 iMessage 或 RCS。Wallet 向符合条件的美国 Pro 用户逐步开放，用户核对并授权后才继续支付。医疗客户则可经工作空间设置使用 Work 与 Codex 的电脑操作及改进的临床检索，新插件由管理员启用，应用访问和人工审阅步骤可按流程配置。Business Hub 继续让已核验商家维护资料并试用问答助手。科研人员项目计划于 11 月 23 日开放新一轮 Plus 申请。ChatGPT 新增儿童安全干预，对涉嫌寻找儿童性虐待材料的行为提供警示、限制使用并引导求助。 Work 的模型选择器提供 GPT-6.2 Astra 和 Sol；官方强调模板跟随、文稿风格匹配及混合工具任务，本次未向常规 Chat 加入这两款模型。Dot 帮助说明安排 11 月 18 日起向合资格企业、教育和医疗工作空间默认开放，管理员可退出，仍受工作空间及驻留条件限制，未核实逐账户生效。",
+          "evidence_ids": [
+            "chatgpt-healthcare-computer-use-nov16",
+            "chatgpt-child-safety-interventions-nov16",
+            "chatgpt-academic-researchers-grants-round-nov16",
+            "chatgpt-dot-texting-availability-help",
+            "chatgpt-dot-enterprise-admin-preview-nov04",
+            "chatgpt-wallet-help",
+            "chatgpt-businesses-beta-nov10",
+            "chatgpt-work-astra-sol-model-picker",
+            "chatgpt-dot-default-nov18-recheck"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "chatgpt-healthcare-computer-use-nov16",
+            "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+            "title": "ChatGPT 医疗版接入电脑操作与新插件",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方公告说明医疗工作空间、独立临床人员的适用条件及人审配置，未给出精确生效时刻。"
+          },
+          {
+            "id": "chatgpt-child-safety-interventions-nov16",
+            "url": "https://openai.com/index/strengthening-online-child-safety/",
+            "title": "ChatGPT 新增儿童安全干预提示",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原公告描述 ChatGPT 内的提示和访问限制，另发的机构检测工具不计入本应用事件。"
+          },
+          {
+            "id": "chatgpt-academic-researchers-grants-round-nov16",
+            "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+            "title": "ChatGPT 公布科研人员项目下一轮申请",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "事件日期为公告日，本轮申请计划 11 月 23 日开放。五万个是拟授予份数。"
+          },
+          {
+            "id": "chatgpt-dot-texting-availability-help",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "Dot 消息测试的地区与协议",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "现行说明列出美加墨及 iMessage 或 RCS，页面更新时间为相对时间，无法映射到测试生效时间。"
+          },
+          {
+            "id": "chatgpt-dot-enterprise-admin-preview-nov04",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "合资格工作区可开启 Dot",
+            "source": "OpenAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页明确 11 月 4 日至 18 日管理员预览，页面发表日期未核实。"
+          },
+          {
+            "id": "chatgpt-wallet-help",
+            "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet",
+            "title": "Wallet 的逐笔批准与商家订单确认",
+            "source": "OpenAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页确认购买审批可在支持的设备生物验证，支付后仍以商家订单确认为准。"
+          },
+          {
+            "id": "chatgpt-businesses-beta-nov10",
+            "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+            "title": "ChatGPT 商家资料与问答助手入口",
+            "source": "OpenAI",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文区分核验商家资料与符合资格的美国商家发布问答助手。"
+          },
+          {
+            "id": "chatgpt-work-astra-sol-model-picker",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "title": "Work 新增两款可选模型",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动日志无独立发表日期；当前正文确认 Work 选模入口，常规 Chat 不在本次范围。"
+          },
+          {
+            "id": "chatgpt-dot-default-nov18-recheck",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "Dot 企业默认开放与资格条件",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动帮助正文安排 11 月 18 日起默认可用；管理员可退出，受工作空间及驻留条件限制，未验证逐账户生效。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "ChatGPT 将可交办任务带入受控医疗工作空间",
+          "summary": "Dot 可以在对话之间推进委托，消息入口在美加墨向少量 Pro 用户测试，使用 iMessage 或 RCS。Wallet 向符合条件的美国 Pro 用户逐步开放，用户核对并授权后才继续支付。医疗客户则可经工作空间设置使用 Work 与 Codex 的电脑操作及改进的临床检索，新插件由管理员启用，应用访问和人工审阅步骤可按流程配置。Business Hub 继续让已核验商家维护资料并试用问答助手。科研人员项目计划于 11 月 23 日开放新一轮 Plus 申请。ChatGPT 新增儿童安全干预，对涉嫌寻找儿童性虐待材料的行为提供警示、限制使用并引导求助。 Work 的模型选择器提供 GPT-6.2 Astra 和 Sol；官方强调模板跟随、文稿风格匹配及混合工具任务，本次未向常规 Chat 加入这两款模型。Dot 帮助说明安排 11 月 18 日起向合资格企业、教育和医疗工作空间默认开放，管理员可退出，仍受工作空间及驻留条件限制，未核实逐账户生效。",
+          "evidence_ids": [
+            "chatgpt-healthcare-computer-use-nov16",
+            "chatgpt-child-safety-interventions-nov16",
+            "chatgpt-academic-researchers-grants-round-nov16",
+            "chatgpt-dot-texting-availability-help",
+            "chatgpt-dot-enterprise-admin-preview-nov04",
+            "chatgpt-wallet-help",
+            "chatgpt-businesses-beta-nov10",
+            "chatgpt-work-astra-sol-model-picker",
+            "chatgpt-dot-default-nov18-recheck"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "chatgpt-healthcare-computer-use-nov16",
+            "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+            "title": "ChatGPT 医疗版接入电脑操作与新插件",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方公告说明医疗工作空间、独立临床人员的适用条件及人审配置，未给出精确生效时刻。"
+          },
+          {
+            "id": "chatgpt-child-safety-interventions-nov16",
+            "url": "https://openai.com/index/strengthening-online-child-safety/",
+            "title": "ChatGPT 新增儿童安全干预提示",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原公告描述 ChatGPT 内的提示和访问限制，另发的机构检测工具不计入本应用事件。"
+          },
+          {
+            "id": "chatgpt-academic-researchers-grants-round-nov16",
+            "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+            "title": "ChatGPT 公布科研人员项目下一轮申请",
+            "source": "OpenAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "事件日期为公告日，本轮申请计划 11 月 23 日开放。五万个是拟授予份数。"
+          },
+          {
+            "id": "chatgpt-dot-texting-availability-help",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "Dot 消息测试的地区与协议",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "现行说明列出美加墨及 iMessage 或 RCS，页面更新时间为相对时间，无法映射到测试生效时间。"
+          },
+          {
+            "id": "chatgpt-dot-enterprise-admin-preview-nov04",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "合资格工作区可开启 Dot",
+            "source": "OpenAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页明确 11 月 4 日至 18 日管理员预览，页面发表日期未核实。"
+          },
+          {
+            "id": "chatgpt-wallet-help",
+            "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet",
+            "title": "Wallet 的逐笔批准与商家订单确认",
+            "source": "OpenAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页确认购买审批可在支持的设备生物验证，支付后仍以商家订单确认为准。"
+          },
+          {
+            "id": "chatgpt-businesses-beta-nov10",
+            "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+            "title": "ChatGPT 商家资料与问答助手入口",
+            "source": "OpenAI",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文区分核验商家资料与符合资格的美国商家发布问答助手。"
+          },
+          {
+            "id": "chatgpt-work-astra-sol-model-picker",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+            "title": "Work 新增两款可选模型",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动日志无独立发表日期；当前正文确认 Work 选模入口，常规 Chat 不在本次范围。"
+          },
+          {
+            "id": "chatgpt-dot-default-nov18-recheck",
+            "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+            "title": "Dot 企业默认开放与资格条件",
+            "source": "OpenAI 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "openai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动帮助正文安排 11 月 18 日起默认可用；管理员可退出，受工作空间及驻留条件限制，未验证逐账户生效。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "住友生命案例补充历史部署过程和部门用法，保留在日报。企业部署、Dot 及医疗权限主线无已证实的重要新产品条件。内部研究统计和硬件传闻未作为应用发版。",
+      "signals": [
+        {
+          "direction_id": "enterprise-rollout",
+          "type": "continued",
+          "summary": "住友生命披露从小规模试点到企业版的部署路径。",
+          "stage": "observed",
+          "evidence_ids": [
+            "chatgpt-insurer"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "chatgpt-business",
+          "company_ids": [
+            "openai"
+          ],
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "title": "ChatGPT 商家资料与问答助手测试",
+          "source": "OpenAI",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "问答助手从美国符合条件的电商和线上服务商家开始。"
+        },
+        {
+          "id": "chatgpt-insurer",
+          "company_ids": [
+            "openai"
+          ],
+          "url": "https://openai.com/business/customer-stories/sumitomo-life/",
+          "title": "住友生命的 ChatGPT Enterprise 使用案例",
+          "source": "OpenAI",
+          "published_at": "2026-11-18",
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "厂商案例称 2026 年 6 月转用 Enterprise，未披露日级切换时点。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "unchanged",
+      "checked_reason": "住友生命案例补充历史部署过程和部门用法，保留在日报。企业部署、Dot 及医疗权限主线无已证实的重要新产品条件。内部研究统计和硬件传闻未作为应用发版。"
+    },
+    "anthropic": {
+      "before": {
+        "content": {
+          "headline": "Claude 将团队成果和执行纳入同一工作流程",
+          "summary": "团队可用 Sheets 和 Whiteboards 共编，用 Data 做看板。Meetings 在 Google Meet 测试会中起草、会后续做。Anthropic 管理说明列明，11 月 16 日起，已启用聊天和云端代码执行、管理员还未选择统一设置的合资格企业默认启用 Chat 与 Cowork 统一入口，既有管理员选择继续生效。新版 Projects 可用并行云线程推进任务，Claude Code 也开始支持团队会话与 Code Mode 并用。Duet 仍在美国预览，制造插件的交付流保留人员审阅。 Claude Code 2.1.327 在 GitHub 应用安装改仓库前增加确认，并修复停止后迟到批准仍执行、导出覆盖未询问及远控停止时误删忽略文件的问题。",
+          "evidence_ids": [
+            "claude-unified-enterprise-rollout-guide",
+            "claude-code-team-code-mode-21326",
+            "claude-projects-beta-official",
+            "claude-meetings-beta-nov12",
+            "claude-interactive-connectors-nov10",
+            "claude-duet-eligibility-help",
+            "claude-manufacturing-nov12",
+            "claude-code-21327-confirm-stop"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "claude-unified-enterprise-rollout-guide",
+            "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+            "title": "企业 Chat 与 Cowork 合并的启用条件",
+            "source": "Anthropic",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "文档明确 11 月 16 日默认启用安排及管理员既有选择和必要前置设置。"
+          },
+          {
+            "id": "claude-code-team-code-mode-21326",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+            "title": "Claude Code v2.1.326 支持团队与 Code Mode 并用",
+            "source": "Anthropic／GitHub",
+            "published_at": "2026-11-16T22:11:05Z",
+            "event_at": "2026-11-16T22:11:05Z",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方版本页结构化发布时间，版本说明明确组合可用。"
+          },
+          {
+            "id": "claude-projects-beta-official",
+            "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+            "title": "Claude 官方帮助列明新版 Projects 的云线程和开放对象",
+            "source": "Anthropic",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动帮助页列明部分 Pro、Max、Ultra 用户，未给各套餐起始时间。"
+          },
+          {
+            "id": "claude-meetings-beta-nov12",
+            "url": "https://claude.com/resources/articles/claude-meetings",
+            "title": "Claude Meetings 开始面向团队和企业测试",
+            "source": "Anthropic",
+            "published_at": "2026-11-12",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方确认 Google Meet 先行，Team 默认可邀请，Enterprise 管理员开启，部分合规配置暂不支持。未披露启用时刻。"
+          },
+          {
+            "id": "claude-interactive-connectors-nov10",
+            "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+            "title": "Claude 增加白板、表格和交互式连接器",
+            "source": "Anthropic",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文列出协作产物及交互式连接器，并将会议助手列为后续计划。"
+          },
+          {
+            "id": "claude-duet-eligibility-help",
+            "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+            "title": "Claude Duet 研究预览可通过等候名单或用户邀请加入",
+            "source": "Anthropic",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页确认美国 Pro、Max 和 Ultra 用户均需邀请，也可由现有用户邀请。社交原帖受限，未确认等候名单整体发放进度。"
+          },
+          {
+            "id": "claude-manufacturing-nov12",
+            "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+            "title": "Claude 发布制造业插件",
+            "source": "Anthropic",
+            "published_at": "2026-11-12",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "Team 和 Enterprise 可安装，技能调用依赖系统连接与使用者权限。例子来自厂商。"
+          },
+          {
+            "id": "claude-code-21327-confirm-stop",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+            "title": "Claude Code 2.1.327 确认与停止行为更新",
+            "source": "Anthropic GitHub",
+            "published_at": "2026-11-17T23:17:45Z",
+            "event_at": "2026-11-17T23:17:45Z",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "anthropic"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方发布 API 核实发表时刻；常规保护与恢复修复，不推断采用成效。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "Claude 扩展团队共编，并细化代码工具的执行边界",
+          "summary": "团队用 Sheets 和 Whiteboards 共编，用 Data 做看板。Claude Meetings 在 Google Meet 测试中可提前起草并在会后继续。符合条件的企业按管理设置启用 Chat 和 Cowork 统一入口，新 Projects 的并行云线程仍分批测试。Claude Code 2.1.328 新增 MCP 工具钩子失败时可阻断动作、宿主可阻止恢复已延期的工具调用，并把自动模式扩到指定云平台的 Opus 4.6 和 Sonnet 4.6。",
+          "evidence_ids": [
+            "claude-collab",
+            "claude-meet",
+            "claude-unified",
+            "claude-project",
+            "claude-328"
+          ]
+        },
+        "generated_at": "2026-11-19T03:20:00.128128+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "claude-collab",
+            "company_ids": [
+              "anthropic"
+            ],
+            "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+            "title": "Claude 表格、白板、看板与交互式连接器",
+            "source": "Anthropic",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "公告列出应用能力及企业管理边界。"
+          },
+          {
+            "id": "claude-meet",
+            "company_ids": [
+              "anthropic"
+            ],
+            "url": "https://claude.com/resources/articles/claude-meetings",
+            "title": "Claude Meetings 工作流进入测试",
+            "source": "Anthropic",
+            "published_at": "2026-11-12",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "会中开始工作，会后续做，初期从 Google Meet 开始。"
+          },
+          {
+            "id": "claude-unified",
+            "company_ids": [
+              "anthropic"
+            ],
+            "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+            "title": "企业统一 Claude 启用说明",
+            "source": "Anthropic",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "滚动文档说明合资格组织的默认规则和管理开关。"
+          },
+          {
+            "id": "claude-project",
+            "company_ids": [
+              "anthropic"
+            ],
+            "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+            "title": "Claude 项目云线程的试用条件",
+            "source": "Anthropic",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "新 Projects 分批测试，有资格和迁移条件。"
+          },
+          {
+            "id": "claude-328",
+            "company_ids": [
+              "anthropic"
+            ],
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+            "title": "Claude Code 2.1.328 发版说明",
+            "source": "Anthropic",
+            "published_at": "2026-11-19T01:14:04Z",
+            "event_at": "2026-11-19T01:14:04Z",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "GitHub Release API 的发布时间与发版正文交叉核对。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "把钩子失败处理、宿主控制和指定平台自动模式补入执行治理正文。团队共编、会议和分批云端执行主线延续。",
+      "signals": [
+        {
+          "direction_id": "enterprise-rollout",
+          "type": "continued",
+          "summary": "代码工具为管理员和宿主增加执行控制。",
+          "stage": "available",
+          "evidence_ids": [
+            "claude-328"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "claude-328",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+          "title": "Claude Code 2.1.328 发版说明",
+          "source": "Anthropic",
+          "published_at": "2026-11-19T01:14:04Z",
+          "event_at": "2026-11-19T01:14:04Z",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "GitHub Release API 的发布时间与发版正文交叉核对。"
+        },
+        {
+          "id": "claude-collab",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "title": "Claude 表格、白板、看板与交互式连接器",
+          "source": "Anthropic",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "公告列出应用能力及企业管理边界。"
+        },
+        {
+          "id": "claude-meet",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "title": "Claude Meetings 工作流进入测试",
+          "source": "Anthropic",
+          "published_at": "2026-11-12",
+          "event_at": "2026-11-12",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "会中开始工作，会后续做，初期从 Google Meet 开始。"
+        },
+        {
+          "id": "claude-project",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+          "title": "Claude 项目云线程的试用条件",
+          "source": "Anthropic",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "新 Projects 分批测试，有资格和迁移条件。"
+        },
+        {
+          "id": "claude-unified",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+          "title": "企业统一 Claude 启用说明",
+          "source": "Anthropic",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "滚动文档说明合资格组织的默认规则和管理开关。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "updated",
+      "checked_reason": "把钩子失败处理、宿主控制和指定平台自动模式补入执行治理正文。团队共编、会议和分批云端执行主线延续。"
+    },
+    "xai": {
+      "before": {
+        "content": {
+          "headline": "Grok Bot 的参会流程接上日历与会后总结",
+          "summary": "Mac 把信息、邮件、备忘录和日历等本机应用按项接入，手机可接续任务、处理审批或接管。团队可在共享 Slack 交办并用 Pages 维护产物。Team、Enterprise 和 Ultra 可让 Bot 加入 Google Meet、Zoom 或 Teams 后发总结，Teams 团队接入需批准。共享应用连接须由管理员启用，队友教给 Bot 的内容需负责人或经理审核。消费侧支持订单跟踪和过期订单卡重新询价。官方帮助还确认，跟随日历的 Bot 可自行加入已排期会议，用户可查看和取消待加入的会议。 1.2.0 让航班结果显示行李与退改条件，酒店地图可缩放，团队管理员可关闭主动消息。NewCore 报告两账户五天出现 31 次非当次交办的后台读取请求，均被其网关拦截；不能据此推断发生数据泄露。",
+          "evidence_ids": [
+            "grok-bot-mac-apple-apps-nov12",
+            "grok-bot-mobile-doc-nov11",
+            "grok-bot-101-nov11",
+            "grok-bot-shared-slack-nov06",
+            "grok-bot-meetings-calendar-help",
+            "grok-bot-120-controls-travel",
+            "grok-bot-newcore-background-reads"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "grok-bot-mac-apple-apps-nov12",
+            "url": "https://9to5mac.com/2026/11/12/grok-bot-for-mac-adds-integration-with-apple-mail-messages-notes-and-more/",
+            "title": "Grok Bot Mac 版接入 Apple 本机应用",
+            "source": "9to5Mac",
+            "published_at": "2026-11-12T18:40:00Z",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-16T03:18:03.090392+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文引用 Grok Bot 账号并展示连接入口。社交原帖受限，权限与分批范围未实测。"
+          },
+          {
+            "id": "grok-bot-mobile-doc-nov11",
+            "url": "https://docs.x.ai/grok-bot/mobile",
+            "title": "Grok Bot 手机端同步任务与审批",
+            "source": "SpaceXSI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-16T03:18:03.090392+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助页可确认手机上同步任务、接管与审批，更新日期无法用于推断功能首次推出。"
+          },
+          {
+            "id": "grok-bot-101-nov11",
+            "url": "https://x.ai/changelog/bot#v1.0.1",
+            "title": "Grok Bot 参会与 Teams 审批",
+            "source": "SpaceXSI",
+            "published_at": "2026-11-11",
+            "event_at": "2026-11-11",
+            "verified_at": "2026-11-16T03:18:03.090392+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "版本日志列出套餐、会议平台与 Teams 管理员审批。"
+          },
+          {
+            "id": "grok-bot-shared-slack-nov06",
+            "url": "https://x.ai/changelog/bot#v0.79.3",
+            "title": "Grok Bot 共享 Slack 和订单跟踪",
+            "source": "SpaceXSI",
+            "published_at": "2026-11-06",
+            "event_at": "2026-11-06",
+            "verified_at": "2026-11-16T03:18:03.090392+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "日志包含共享 Slack、Pages、订单跟踪和通话卡片。"
+          },
+          {
+            "id": "grok-bot-meetings-calendar-help",
+            "url": "https://docs.x.ai/grok-bot/meetings",
+            "title": "Grok Bot 支持跟随日历加入会议",
+            "source": "SpaceXSI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-16T03:18:03.090392+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "当前官方文档列 Team、Enterprise 和 Ultra，未披露自动参会首次开放日期。手动加入需要批准并由主持人放行。"
+          },
+          {
+            "id": "grok-bot-120-controls-travel",
+            "url": "https://x.ai/changelog/bot#v1.2.0",
+            "title": "Grok Bot 1.2.0 旅行结果与团队控制",
+            "source": "xAI 更新日志",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方版本日志日精度；后台主动消息开关当前可用，不能把版本记录日当首次全量生效。"
+          },
+          {
+            "id": "grok-bot-newcore-background-reads",
+            "url": "https://newcore.com/blog/grok-bot-unattended-agent-access",
+            "title": "Grok Bot 后台读取调查",
+            "source": "NewCore",
+            "published_at": "2026-11-17",
+            "event_at": "2026-11-17",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "xai"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "研究方自身两账户、五天 31 次读取请求，全部被网关拦截；不代表数据已被读取或普遍发生。开关说明是研究方转述支持回复。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "Grok Bot 将连接器权限细化到单个工具",
+          "summary": "手机可接续任务和处理批准。支持的计划允许 Bot 按日历加入会议并发会后总结。1.2.3 的合并日志显示，每项连接器工具可设允许、自动审查、需批准或阻止。失去连接的定时任务暂停排期，重连提醒可到通知或团队消息。厂商内部会计案例用五个 Bot 按岗位交接，退款等操作由指定人员审批。旅行侧可在航班卡对照行李与退改条件。",
+          "evidence_ids": [
+            "grok-123",
+            "grok-accounts",
+            "grok-meet",
+            "grok-mobile",
+            "grok-travel"
+          ]
+        },
+        "generated_at": "2026-11-19T03:20:00.128128+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "grok-123",
+            "company_ids": [
+              "xai"
+            ],
+            "url": "https://x.ai/changelog/bot#v1.2.3",
+            "title": "Grok Bot 1.2.3 合并发版记录",
+            "source": "xAI",
+            "published_at": "2026-11-18",
+            "event_at": "2026-11-18",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "合并了 1.2.1 和 1.2.2 的变动，个别能力另标最低客户端版本。官方页面仅显示日期。"
+          },
+          {
+            "id": "grok-accounts",
+            "company_ids": [
+              "xai"
+            ],
+            "url": "https://x.ai/news/grok-bot-accounting",
+            "title": "五个 Grok Bot 分工处理厂商内部会计流程",
+            "source": "xAI",
+            "published_at": "2026-11-16",
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "单个厂商内部部署案例，未披露实际部署日期或外部成效。"
+          },
+          {
+            "id": "grok-meet",
+            "company_ids": [
+              "xai"
+            ],
+            "url": "https://docs.x.ai/grok-bot/meetings",
+            "title": "Grok Bot 参会条件和日历自动加入",
+            "source": "xAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "支持的计划和使用方式见帮助，日历功能首次启用日期未披露。"
+          },
+          {
+            "id": "grok-mobile",
+            "company_ids": [
+              "xai"
+            ],
+            "url": "https://docs.x.ai/grok-bot/mobile",
+            "title": "Grok Bot 手机使用说明",
+            "source": "xAI",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "移动端连接桌面 Bot、发消息并响应批准请求。"
+          },
+          {
+            "id": "grok-travel",
+            "company_ids": [
+              "xai"
+            ],
+            "url": "https://x.ai/changelog/bot#v1.2.0",
+            "title": "Grok Bot 旅行选择和团队开关",
+            "source": "xAI",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "航班卡可查看行李和退改，团队能关闭主动消息。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "逐工具授权、失联暂停与重连通知明确了后台任务如何继续。内部会计分工补充实际部署方式，单个案例的成效不外推。参会、移动交接和旅行仍按原路径推进。",
+      "signals": [
+        {
+          "direction_id": "ongoing-assistance",
+          "type": "continued",
+          "summary": "定时任务在连接失效时跳过排期并提示重新连接。",
+          "stage": "available",
+          "evidence_ids": [
+            "grok-123"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "grok-123",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://x.ai/changelog/bot#v1.2.3",
+          "title": "Grok Bot 1.2.3 合并发版记录",
+          "source": "xAI",
+          "published_at": "2026-11-18",
+          "event_at": "2026-11-18",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "合并了 1.2.1 和 1.2.2 的变动，个别能力另标最低客户端版本。官方页面仅显示日期。"
+        },
+        {
+          "id": "grok-accounts",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://x.ai/news/grok-bot-accounting",
+          "title": "五个 Grok Bot 分工处理厂商内部会计流程",
+          "source": "xAI",
+          "published_at": "2026-11-16",
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "单个厂商内部部署案例，未披露实际部署日期或外部成效。"
+        },
+        {
+          "id": "grok-meet",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://docs.x.ai/grok-bot/meetings",
+          "title": "Grok Bot 参会条件和日历自动加入",
+          "source": "xAI",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "支持的计划和使用方式见帮助，日历功能首次启用日期未披露。"
+        },
+        {
+          "id": "grok-mobile",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://docs.x.ai/grok-bot/mobile",
+          "title": "Grok Bot 手机使用说明",
+          "source": "xAI",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "移动端连接桌面 Bot、发消息并响应批准请求。"
+        },
+        {
+          "id": "grok-travel",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://x.ai/changelog/bot#v1.2.0",
+          "title": "Grok Bot 旅行选择和团队开关",
+          "source": "xAI",
+          "published_at": "2026-11-16",
+          "event_at": "2026-11-16",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "航班卡可查看行李和退改，团队能关闭主动消息。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "updated",
+      "checked_reason": "逐工具授权、失联暂停与重连通知明确了后台任务如何继续。内部会计分工补充实际部署方式，单个案例的成效不外推。参会、移动交接和旅行仍按原路径推进。"
+    },
+    "google-gemini": {
+      "before": {
+        "content": {
+          "headline": "Gemini Notebook 把资料做成可分享网站，App 扩充语音入口",
+          "summary": "Gemini Notebook 网页端向年满 18 岁的用户分批提供交互网站，可用资料生成仪表盘或任务跟踪页。公开分享限个人账号的笔记本所有者或编辑者，查看者须有笔记本访问权。Gemini App 支持直接编辑文件，PDF 可在移动端使用。Android 和 iOS 开始补充地区声音，同一选音适用于 Live 和朗读，Live 也可经 CarPlay 使用。Google Wallet 仍按美国用户资格提供可撤销的只读查询，Hydrogen 按应用套餐逐步接入，独立 Antigravity 提供多代理预览。 Google 11 月 16 日公告将历史保存与训练选择拆开，未来数周全球分批推出；关闭新 History 后，后续聊天仍会为回复、反馈和安全目的保存约两个月。",
+          "evidence_ids": [
+            "gemini-notebook-interactive-sites-nov16",
+            "gemini-notebook-sites-sharing-help",
+            "gemini-app-regional-voices-nov16",
+            "gemini-inline",
+            "gemini-carplay-live-nov11",
+            "gemini-wallet-nov13",
+            "gemini-hydrogen-app-nov12",
+            "antigravity-carbon-swarm-nov10",
+            "gemini-history-training-controls-nov16"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "gemini-notebook-interactive-sites-nov16",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+            "title": "Gemini Notebook 从资料生成交互网站",
+            "source": "Google",
+            "published_at": "2026-11-16T16:00:00Z",
+            "event_at": "2026-11-16T16:00:00Z",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "结构化时刻对应公告和开始开放，逐账号开通时间未披露。移动端仍待上线。"
+          },
+          {
+            "id": "gemini-notebook-sites-sharing-help",
+            "url": "https://support.google.com/gemininotebook/answer/18945748?hl=en",
+            "title": "Gemini Notebook 网站的公开分享权限",
+            "source": "Google 帮助中心",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "帮助正文确认公开分享限个人账号的笔记本所有者或编辑者，查看者须有整份笔记本访问权。"
+          },
+          {
+            "id": "gemini-app-regional-voices-nov16",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+            "title": "Gemini App 开始增加 66 种地区声音",
+            "source": "Google",
+            "published_at": "2026-11-16T18:45:00Z",
+            "event_at": "2026-11-16T18:45:00Z",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "结构化时间对应上线公告。文章确认 Android 和 iOS 分批提供，同一设置用于 Gemini Live 和对话朗读。"
+          },
+          {
+            "id": "gemini-inline",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+            "title": "Gemini 内预览和编辑文件",
+            "source": "Google",
+            "published_at": "2026-10-29",
+            "event_at": "2026-10-29",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "PDF 可在网页和移动端编辑，其他格式仅网页。"
+          },
+          {
+            "id": "gemini-carplay-live-nov11",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+            "title": "Gemini Live 进入 Apple CarPlay",
+            "source": "Google",
+            "published_at": "2026-11-11T17:00:00Z",
+            "event_at": "2026-11-11T17:00:00Z",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "需更新 iPhone Gemini App 并允许麦克风。时刻为公告。"
+          },
+          {
+            "id": "gemini-wallet-nov13",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+            "title": "Gemini 在美国分批接入 Google Wallet 并公布记忆摘要",
+            "source": "Google",
+            "published_at": "2026-11-13T17:00:00+00:00",
+            "event_at": "2026-11-13T17:00:00+00:00",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文结构化时间为公告发布时间，同文说明当日启动上线。未核到每个账号生效时间。钱包连接只读并可随时关闭。"
+          },
+          {
+            "id": "gemini-hydrogen-app-nov12",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+            "title": "Gemini App 开始接入 Hydrogen",
+            "source": "Google",
+            "published_at": "2026-11-12T18:00:00Z",
+            "event_at": "2026-11-12T18:00:00Z",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "结构化发布时间对应官方公布开始分批接入。免费用户经自动选模；未实测覆盖或工具成功率。"
+          },
+          {
+            "id": "antigravity-carbon-swarm-nov10",
+            "url": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+            "title": "Antigravity 独立客户端增加多代理预览",
+            "source": "Google",
+            "published_at": "2026-11-10",
+            "event_at": "2026-11-10",
+            "verified_at": "2026-11-17T03:29:08.288015+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "多代理属于独立产品的预览。"
+          },
+          {
+            "id": "gemini-history-training-controls-nov16",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+            "title": "Gemini 历史记录与训练控制拆分",
+            "source": "Google 官方博客",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原文早于媒体报道；未来数周全球分批推出，不能写成所有账号已可用。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "Gemini Tasks 增加 Neon 选择，Notebook 站点保留个人输入",
+          "summary": "Gemini App 开始向 Pro 和 Ultra 用户提供 Neon，Tasks 也可选它运行多步任务。Notebook 可把资料生成互动站点，站点为每位访客单独保存输入，公开分享仍要求查看者取得完整笔记本访问权。移动端 Live 与朗读分批加入地区声音，聊天历史与训练选择也在分批拆开。",
+          "evidence_ids": [
+            "gemini-neon",
+            "gemini-sites",
+            "gemini-history",
+            "gemini-voice"
+          ]
+        },
+        "generated_at": "2026-11-19T03:20:00.128128+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "gemini-neon",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+            "title": "Gemini 4 Neon 进入 Gemini App 与 Tasks",
+            "source": "Google",
+            "published_at": "2026-11-18T21:00:00Z",
+            "event_at": "2026-11-18T21:00:00Z",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "原始发布元数据与当天开始推出的公告一致，个人入口限 Pro 和 Ultra。"
+          },
+          {
+            "id": "gemini-sites",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "url": "https://support.google.com/gemininotebook/answer/18945748?hl=en",
+            "title": "Gemini Notebook 站点共享权限和输入可见性",
+            "source": "Google",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "站点保存用户自己的输入。共享站点上的输入对其他访客和站点所有者不可见。"
+          },
+          {
+            "id": "gemini-history",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+            "title": "Gemini App 历史和训练控制分开",
+            "source": "Google",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "公告称未来数周分批提供新控制。"
+          },
+          {
+            "id": "gemini-voice",
+            "company_ids": [
+              "google-gemini"
+            ],
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+            "title": "Gemini 增加地区声音",
+            "source": "Google",
+            "published_at": "2026-11-16",
+            "event_at": "2026-11-16",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "移动端分批，选音适用于 Live 和聊天朗读等。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "补入 Neon 在应用选模和 Tasks 的实际入口，以及 Notebook 站点保存个人操作的机制。开通范围受套餐和分享权限限制，沿用资料转成果和交办任务两条路径。",
+      "signals": [
+        {
+          "direction_id": "ongoing-assistance",
+          "type": "continued",
+          "summary": "个人付费入口增加 Tasks 选模。",
+          "stage": "announced",
+          "evidence_ids": [
+            "gemini-neon"
+          ]
+        },
+        {
+          "direction_id": "shared-deliverables",
+          "type": "continued",
+          "summary": "Notebook 共享站点保留每个用户自己的操作。",
+          "stage": "available",
+          "evidence_ids": [
+            "gemini-sites"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "gemini-history",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+          "title": "Gemini App 历史和训练控制分开",
+          "source": "Google",
+          "published_at": "2026-11-16",
+          "event_at": "2026-11-16",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "公告称未来数周分批提供新控制。"
+        },
+        {
+          "id": "gemini-neon",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "title": "Gemini 4 Neon 进入 Gemini App 与 Tasks",
+          "source": "Google",
+          "published_at": "2026-11-18T21:00:00Z",
+          "event_at": "2026-11-18T21:00:00Z",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "原始发布元数据与当天开始推出的公告一致，个人入口限 Pro 和 Ultra。"
+        },
+        {
+          "id": "gemini-sites",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "url": "https://support.google.com/gemininotebook/answer/18945748?hl=en",
+          "title": "Gemini Notebook 站点共享权限和输入可见性",
+          "source": "Google",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "站点保存用户自己的输入。共享站点上的输入对其他访客和站点所有者不可见。"
+        },
+        {
+          "id": "gemini-voice",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+          "title": "Gemini 增加地区声音",
+          "source": "Google",
+          "published_at": "2026-11-16",
+          "event_at": "2026-11-16",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "移动端分批，选音适用于 Live 和聊天朗读等。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "updated",
+      "checked_reason": "补入 Neon 在应用选模和 Tasks 的实际入口，以及 Notebook 站点保存个人操作的机制。开通范围受套餐和分享权限限制，沿用资料转成果和交办任务两条路径。"
+    },
+    "meta-llama": {
+      "before": {
+        "content": {
+          "headline": "Muse 把代打商家电话扩到美国付费用户，生活任务仍按入口分开",
+          "summary": "Muse 的 Spaces 可以保存和修改计划、订单等资料，连接应用后可后台更新。美国先行分批提供实时语音与动态形象，Apple Watch 配套应用提供腕上入口。美国付费订阅用户现可委托 Muse 拨打商家电话，实际预约完成情况待验证。墨西哥西语服务继续通过 App、网页和 WhatsApp 提供，并接入当地生活服务。 Muse 11 月 17 日在澳大利亚开放 iOS、Android、网页及 Mac 入口；Canva、房产、购物、健身和票务等本地连接体验分批推出，不能把合作名单写成全部可用。",
+          "evidence_ids": [
+            "muse-spaces-nov06",
+            "muse-watch-appstore",
+            "muse-voice-evidence",
+            "muse-us-paid-business-calls-nov12",
+            "muse-mexico-nov05",
+            "muse-australia-launch-nov17"
+          ]
+        },
+        "generated_at": "2026-11-18T03:14:16.172623+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "muse-spaces-nov06",
+            "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+            "title": "Muse Spaces 可保存并后台更新",
+            "source": "Meta",
+            "published_at": "2026-11-06",
+            "event_at": "2026-11-06",
+            "verified_at": "2026-11-13T03:20:04.109228+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "官方例子说明可持续更新和编辑，空间共享仍属探索。"
+          },
+          {
+            "id": "muse-watch-appstore",
+            "url": "https://apps.apple.com/us/app/muse-from-meta/id6760173601",
+            "title": "Muse 提供 Apple Watch 配套应用",
+            "source": "Meta Platforms／App Store",
+            "published_at": null,
+            "event_at": null,
+            "verified_at": "2026-11-13T03:20:04.109228+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "official",
+            "date_basis": "undated_document",
+            "note": "商店列出 Apple Watch 配套版本，无法据此确认 Wear OS 覆盖。"
+          },
+          {
+            "id": "muse-voice-evidence",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+            "title": "Muse 实时语音与动态形象",
+            "source": "Meta",
+            "published_at": "2026-11-05",
+            "event_at": "2026-11-05",
+            "verified_at": "2026-11-13T03:20:04.109228+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "美国先行分批；眼镜语音仍属计划。"
+          },
+          {
+            "id": "muse-us-paid-business-calls-nov12",
+            "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+            "title": "Muse 美国付费用户可委托拨打商家电话",
+            "source": "TechCrunch",
+            "published_at": "2026-11-12T14:22:00-08:00",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-13T03:20:04.109228+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "媒体原文刊载 Meta 负责人公告。此前小范围测试；社交原帖访问受限，未确认开放小时。"
+          },
+          {
+            "id": "muse-mexico-nov05",
+            "url": "https://about.fb.com/ltam/news/2026/09/presentamos-muse-el-primer-agente-de-ia-personal-del-mundo-creado-para-todos/",
+            "title": "Muse 在墨西哥上线",
+            "source": "Meta",
+            "published_at": "2026-11-05",
+            "event_at": "2026-11-05",
+            "verified_at": "2026-11-13T03:20:04.109228+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "该日期为同页地区上线附记，确认西语服务和当地连接。"
+          },
+          {
+            "id": "muse-australia-launch-nov17",
+            "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+            "title": "Muse 在澳大利亚开放",
+            "source": "Meta 官方新闻室",
+            "published_at": "2026-11-17",
+            "event_at": "2026-11-17",
+            "verified_at": "2026-11-18T03:14:16.172623+00:00",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "澳大利亚 iOS、Android、网页及 Mac 入口；本地连接器分批推出。只有日精度，保守计补证。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "after": {
+        "content": {
+          "headline": "Muse 在加拿大接通杂货结账，本地服务仍按市场开放",
+          "summary": "加拿大用户可在参与合作的 Loblaw 品牌选店、组篮并在 Muse 内结账，购买前需确认。加拿大开放自定义 Spaces，并在手机、网页和 Mac 分批推出实时语音。美国付费订阅者可委托商家外呼。澳大利亚已开放应用，本地连接器分批加入。",
+          "evidence_ids": [
+            "muse-canada",
+            "muse-loblaw",
+            "muse-australia",
+            "muse-us-calls"
+          ]
+        },
+        "generated_at": "2026-11-19T03:20:00.128128+00:00",
+        "as_of": null,
+        "sources": [],
+        "evidence": [
+          {
+            "id": "muse-canada",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+            "title": "Muse 接入加拿大 Loblaw 并扩展语音和 Spaces",
+            "source": "Meta",
+            "published_at": "2026-11-18T14:07:00Z",
+            "event_at": "2026-11-18T14:07:00Z",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "公告发布当日提供参与品牌的组篮和结账。购买前需确认。实时语音分批推送。"
+          },
+          {
+            "id": "muse-loblaw",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "url": "https://www.loblaw.ca/en/loblaw-becomes-first-canadian-retailer-to-bring-ai-powered-shopping-to-metas-muse/",
+            "title": "Loblaw 公告确认 Muse 支持从选店到结账",
+            "source": "Loblaw",
+            "published_at": "2026-11-18",
+            "event_at": "2026-11-18",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "适用于参加合作的 Loblaw 旗下品牌。"
+          },
+          {
+            "id": "muse-australia",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+            "title": "Muse 在澳大利亚开放及合作入口范围",
+            "source": "Meta",
+            "published_at": "2026-11-17",
+            "event_at": "2026-11-17",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "official",
+            "date_basis": "original_page",
+            "note": "本地连接器分批推出。"
+          },
+          {
+            "id": "muse-us-calls",
+            "company_ids": [
+              "meta-llama"
+            ],
+            "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+            "title": "Muse 美国付费订阅者可委托拨打商家电话",
+            "source": "TechCrunch",
+            "published_at": "2026-11-12",
+            "event_at": "2026-11-12",
+            "verified_at": "2026-11-19T03:20:00.128128+00:00",
+            "level": "media",
+            "date_basis": "original_page",
+            "note": "报道转述 Meta 的用户范围和商家通话用途。"
+          }
+        ],
+        "review_state": "assistant_draft"
+      },
+      "type": "continued",
+      "reason": "将加拿大实际可用的杂货采购步骤与合作品牌范围补入正文，并区分加拿大语音推送、美国付费外呼与澳洲连接器的阶段。当地服务接入继续按市场和合作方推进。",
+      "signals": [
+        {
+          "direction_id": "merchant-operations",
+          "type": "continued",
+          "summary": "加拿大参与合作的 Loblaw 品牌把组篮和结账接入 Muse。",
+          "stage": "available",
+          "evidence_ids": [
+            "muse-canada",
+            "muse-loblaw"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "muse-australia",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+          "title": "Muse 在澳大利亚开放及合作入口范围",
+          "source": "Meta",
+          "published_at": "2026-11-17",
+          "event_at": "2026-11-17",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "本地连接器分批推出。"
+        },
+        {
+          "id": "muse-canada",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+          "title": "Muse 接入加拿大 Loblaw 并扩展语音和 Spaces",
+          "source": "Meta",
+          "published_at": "2026-11-18T14:07:00Z",
+          "event_at": "2026-11-18T14:07:00Z",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "公告发布当日提供参与品牌的组篮和结账。购买前需确认。实时语音分批推送。"
+        },
+        {
+          "id": "muse-loblaw",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://www.loblaw.ca/en/loblaw-becomes-first-canadian-retailer-to-bring-ai-powered-shopping-to-metas-muse/",
+          "title": "Loblaw 公告确认 Muse 支持从选店到结账",
+          "source": "Loblaw",
+          "published_at": "2026-11-18",
+          "event_at": "2026-11-18",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "适用于参加合作的 Loblaw 旗下品牌。"
+        },
+        {
+          "id": "muse-us-calls",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "title": "Muse 美国付费订阅者可委托拨打商家电话",
+          "source": "TechCrunch",
+          "published_at": "2026-11-12",
+          "event_at": "2026-11-12",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "报道转述 Meta 的用户范围和商家通话用途。"
+        }
+      ],
+      "provenance": "report",
+      "classified_at": "2026-11-19T03:20:00.128128+00:00",
+      "state": "updated",
+      "checked_reason": "将加拿大实际可用的杂货采购步骤与合作品牌范围补入正文，并区分加拿大语音推送、美国付费外呼与澳洲连接器的阶段。当地服务接入继续按市场和合作方推进。"
+    }
+  },
+  "overview": {
+    "before": {
+      "lead": "11 月 1 日至 17 日，办公助手把自动任务接入消息、审批和日历，并让团队能继续使用 AI 生成的表格和网页。消费助手把商家推荐推进到咨询、联系和下单。",
+      "themes": [
+        {
+          "content": {
+            "headline": "团队 AI 开始按工作事件和日历排期接手任务",
+            "summary": "千问办公可在收到指定消息、审批或待办时执行预设任务。Grok Bot 在支持的套餐里可加入会议、会后发纪要，也能在接入日历后按排期参会。",
+            "evidence_ids": [
+              "overview-qwen-work-20-recheck-nov15",
+              "overview-grok-bot-101-nov11",
+              "overview-grok-bot-meetings-calendar-help"
+            ],
+            "company_ids": [
+              "qwen",
+              "xai"
+            ]
+          },
+          "direction_id": "ongoing-assistance",
+          "type": "strengthened",
+          "reason": "既有判断已覆盖主动提醒与后台推进。千问办公新增按消息、审批和待办触发任务，Grok Bot 把参会和发送纪要接进会议流程，扩大了可交办范围。"
+        },
+        {
+          "content": {
+            "headline": "办公助手继续补齐表格共编和网页分享",
+            "summary": "Claude 新增可供团队协作的表格和白板。千问办公的资料空间可直接发布 HTML 网页，Gemini Notebook 开始在网页端把笔记和资料生成可分享的交互页面，例如数据看板和项目进度页。",
+            "evidence_ids": [
+              "overview-claude-interactive-connectors-nov10",
+              "overview-qwenwork-html-publish-nov13",
+              "overview-gemini-notebook-interactive-sites-nov16"
+            ],
+            "company_ids": [
+              "anthropic",
+              "qwen",
+              "google-gemini"
+            ]
+          },
+          "direction_id": "shared-deliverables",
+          "type": "continued",
+          "reason": "已有报告、演示稿与网页的共享和维护。本期新增表格、白板与资料转交互网页的例子，延续成果可修改和共享的方向。"
+        },
+        {
+          "content": {
+            "headline": "AI 助手把商家推荐接到咨询、联系和下单",
+            "summary": "据报道，豆包可在地图上展示推荐门店并接到团购下单或导航，Muse 向美国付费用户开放代打商家电话。ChatGPT 让商家认领并更新资料，并在美国向符合条件的线上商家试开放问答助手。",
+            "evidence_ids": [
+              "overview-doubao-find-store-donews-nov16",
+              "overview-muse-us-paid-business-calls-nov12",
+              "overview-chatgpt-businesses-beta-nov10"
+            ],
+            "company_ids": [
+              "doubao",
+              "meta-llama",
+              "openai"
+            ]
+          },
+          "direction_id": "merchant-operations",
+          "type": "continued",
+          "reason": "既有阶段已记录 AI 接入商家与本地服务。本期补入面向用户的地图团购和商家代拨电话，以及供商家试用的资料维护和问答入口。"
+        }
+      ],
+      "generated_at": "2026-11-17T09:46:29.241182+00:00",
+      "evidence": [
+        {
+          "id": "overview-chatgpt-businesses-beta-nov10",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "title": "ChatGPT 商家资料与问答助手入口",
+          "source": "OpenAI",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "openai"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "原文区分核验商家资料与符合资格的美国商家发布问答助手。"
+        },
+        {
+          "id": "overview-claude-interactive-connectors-nov10",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "title": "Claude 增加白板、表格和交互式连接器",
+          "source": "Anthropic",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "anthropic"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "原文列出协作产物及交互式连接器，并将会议助手列为后续计划。"
+        },
+        {
+          "id": "overview-doubao-find-store-donews-nov16",
+          "url": "https://www.donews.com/news/detail/8/6772262.html",
+          "title": "豆包找店支持地图选店、团购和导航",
+          "source": "DoNews",
+          "published_at": "2026-11-16T08:58:20+08:00",
+          "event_at": null,
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "doubao"
+          ],
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "媒体原文转述读佳，称近日上线，未披露具体生效日及地域覆盖。"
+        },
+        {
+          "id": "overview-gemini-notebook-interactive-sites-nov16",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+          "title": "Gemini Notebook 从资料生成交互网站",
+          "source": "Google",
+          "published_at": "2026-11-16T16:00:00Z",
+          "event_at": "2026-11-16T16:00:00Z",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "结构化时刻对应公告和开始开放，逐账号开通时间未披露。移动端仍待上线。"
+        },
+        {
+          "id": "overview-grok-bot-101-nov11",
+          "url": "https://x.ai/changelog/bot#v1.0.1",
+          "title": "Grok Bot 参会与 Teams 审批",
+          "source": "SpaceXSI",
+          "published_at": "2026-11-11",
+          "event_at": "2026-11-11",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "xai"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "版本日志列出套餐、会议平台与 Teams 管理员审批。"
+        },
+        {
+          "id": "overview-grok-bot-meetings-calendar-help",
+          "url": "https://docs.x.ai/grok-bot/meetings",
+          "title": "Grok Bot 支持跟随日历加入会议",
+          "source": "SpaceXSI",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "xai"
+          ],
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "官方帮助称跟随日历的 Bot 可按排期加入会议。自动参会的首次开放日期未披露。"
+        },
+        {
+          "id": "overview-muse-us-paid-business-calls-nov12",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "title": "Muse 美国付费用户可委托拨打商家电话",
+          "source": "TechCrunch",
+          "published_at": "2026-11-12T14:22:00-08:00",
+          "event_at": "2026-11-12",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "媒体原文刊载 Meta 负责人公告。此前小范围测试；社交原帖访问受限，未确认开放小时。"
+        },
+        {
+          "id": "overview-qwen-work-20-recheck-nov15",
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+          "title": "千问办公 2.0 协作与跨端任务",
+          "source": "千问办公更新日志",
+          "published_at": "2026-11-09",
+          "event_at": "2026-11-09",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "qwen"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "11 月 9 日官方日志记录消息、审批、待办触发预设处理，也列出任务接续和协作产物权限。"
+        },
+        {
+          "id": "overview-qwenwork-html-publish-nov13",
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+          "title": "资料空间可将 HTML 直接发布为网页",
+          "source": "千问办公更新日志",
+          "published_at": "2026-11-13",
+          "event_at": "2026-11-13",
+          "verified_at": "2026-11-17T09:46:29.241182+00:00",
+          "company_ids": [
+            "qwen"
+          ],
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "官方日志列出发布动作，链接访问权限、可见范围和可用套餐未在条目披露。"
+        }
+      ]
+    },
+    "after": {
+      "lead": "办公助手可按工作消息或会议排期接手任务，并把表格、站点留给团队继续使用。消费助手把门店筛选接到团购、杂货组篮和结账。",
+      "themes": [
+        {
+          "content": {
+            "company_ids": [
+              "qwen",
+              "xai"
+            ],
+            "headline": "团队助手开始按工作事件和日历接手任务",
+            "summary": "千问办公可在收到指定消息、审批或待办时执行预设任务。Grok Bot 可按日历参会和发总结，定时任务遇到连接失效时暂停排期并提示重连。",
+            "evidence_ids": [
+              "qwen-trigger",
+              "grok-meet",
+              "grok-123"
+            ]
+          },
+          "direction_id": "ongoing-assistance",
+          "type": "continued",
+          "reason": "既有触发和参会机制仍成立，新增连接失效后跳过排期和提示恢复的具体环节。"
+        },
+        {
+          "content": {
+            "company_ids": [
+              "anthropic",
+              "qwen",
+              "google-gemini"
+            ],
+            "headline": "表格共编和网页发布开始进入办公助手",
+            "summary": "Claude 可和团队共编表格、白板。千问办公可从资料空间直接发布 HTML。Gemini Notebook 可把资料做成项目进度页并分享，站点保存每个人自己的输入。",
+            "evidence_ids": [
+              "claude-collab",
+              "qwen-html",
+              "gemini-sites"
+            ]
+          },
+          "direction_id": "shared-deliverables",
+          "type": "continued",
+          "reason": "复核共编和网页发布，补充 Notebook 的个人输入持久化。"
+        },
+        {
+          "content": {
+            "company_ids": [
+              "doubao",
+              "meta-llama",
+              "openai"
+            ],
+            "headline": "消费助手把门店和商品发现接到下单",
+            "summary": "据报道，豆包在地图上展示推荐门店并接到团购或导航。加拿大 Muse 可在参与合作的 Loblaw 品牌组篮和结账。ChatGPT 继续让商家认领资料，并向符合条件的美国线上商家试开放问答助手。",
+            "evidence_ids": [
+              "doubao-map",
+              "muse-canada",
+              "muse-loblaw",
+              "chatgpt-business"
+            ]
+          },
+          "direction_id": "merchant-operations",
+          "type": "continued",
+          "reason": "原有推荐、联系和下单方向延续，加拿大增加有明确零售方和结账终点的实例。"
+        }
+      ],
+      "generated_at": "2026-11-19T03:20:00.128128+00:00",
+      "evidence": [
+        {
+          "id": "chatgpt-business",
+          "company_ids": [
+            "openai"
+          ],
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "title": "ChatGPT 商家资料与问答助手测试",
+          "source": "OpenAI",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "问答助手从美国符合条件的电商和线上服务商家开始。"
+        },
+        {
+          "id": "claude-collab",
+          "company_ids": [
+            "anthropic"
+          ],
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "title": "Claude 表格、白板、看板与交互式连接器",
+          "source": "Anthropic",
+          "published_at": "2026-11-10",
+          "event_at": "2026-11-10",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "公告列出应用能力及企业管理边界。"
+        },
+        {
+          "id": "doubao-map",
+          "company_ids": [
+            "doubao"
+          ],
+          "url": "https://www.donews.com/news/detail/8/6772262.html",
+          "title": "豆包 App 找店地图",
+          "source": "DoNews",
+          "published_at": "2026-11-16T08:58:20+08:00",
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "media",
+          "date_basis": "original_page",
+          "note": "转引产品进展，首次上线时间待核。"
+        },
+        {
+          "id": "gemini-sites",
+          "company_ids": [
+            "google-gemini"
+          ],
+          "url": "https://support.google.com/gemininotebook/answer/18945748?hl=en",
+          "title": "Gemini Notebook 站点共享权限和输入可见性",
+          "source": "Google",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "站点保存用户自己的输入。共享站点上的输入对其他访客和站点所有者不可见。"
+        },
+        {
+          "id": "grok-123",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://x.ai/changelog/bot#v1.2.3",
+          "title": "Grok Bot 1.2.3 合并发版记录",
+          "source": "xAI",
+          "published_at": "2026-11-18",
+          "event_at": "2026-11-18",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "合并了 1.2.1 和 1.2.2 的变动，个别能力另标最低客户端版本。官方页面仅显示日期。"
+        },
+        {
+          "id": "grok-meet",
+          "company_ids": [
+            "xai"
+          ],
+          "url": "https://docs.x.ai/grok-bot/meetings",
+          "title": "Grok Bot 参会条件和日历自动加入",
+          "source": "xAI",
+          "published_at": null,
+          "event_at": null,
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "undated_document",
+          "note": "支持的计划和使用方式见帮助，日历功能首次启用日期未披露。"
+        },
+        {
+          "id": "muse-canada",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+          "title": "Muse 接入加拿大 Loblaw 并扩展语音和 Spaces",
+          "source": "Meta",
+          "published_at": "2026-11-18T14:07:00Z",
+          "event_at": "2026-11-18T14:07:00Z",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "公告发布当日提供参与品牌的组篮和结账。购买前需确认。实时语音分批推送。"
+        },
+        {
+          "id": "muse-loblaw",
+          "company_ids": [
+            "meta-llama"
+          ],
+          "url": "https://www.loblaw.ca/en/loblaw-becomes-first-canadian-retailer-to-bring-ai-powered-shopping-to-metas-muse/",
+          "title": "Loblaw 公告确认 Muse 支持从选店到结账",
+          "source": "Loblaw",
+          "published_at": "2026-11-18",
+          "event_at": "2026-11-18",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "适用于参加合作的 Loblaw 旗下品牌。"
+        },
+        {
+          "id": "qwen-html",
+          "company_ids": [
+            "qwen"
+          ],
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+          "title": "千问办公资料空间直接发布 HTML",
+          "source": "千问办公",
+          "published_at": "2026-11-13",
+          "event_at": "2026-11-13",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "适用于资料空间的 HTML 文件。"
+        },
+        {
+          "id": "qwen-trigger",
+          "company_ids": [
+            "qwen"
+          ],
+          "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+          "title": "千问办公 2.0 网页端更新",
+          "source": "千问办公",
+          "published_at": "2026-11-09",
+          "event_at": "2026-11-09",
+          "verified_at": "2026-11-19T03:20:00.128128+00:00",
+          "level": "official",
+          "date_basis": "original_page",
+          "note": "触发任务覆盖消息、审批和待办。"
+        }
+      ]
+    },
+    "provenance": "report",
+    "classified_at": "2026-11-19T03:20:00.128128+00:00"
+  }
+}
