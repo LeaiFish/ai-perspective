@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-19T19:32:13.263371Z",
+  "generated_at": "2026-11-19T23:40:17.242424Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -12,46 +12,46 @@
     "2026-11-19",
     "2026-11-20"
   ],
-  "story_count": 2054,
-  "unique_story_count": 1828,
+  "story_count": 2052,
+  "unique_story_count": 1896,
   "counts": {
     "by_company_topic": {
-      "anthropic": 336,
-      "apple": 19,
-      "cursor": 14,
+      "anthropic": 341,
+      "apple": 22,
+      "cursor": 11,
       "deepseek": 41,
       "doubao": 19,
-      "google-gemini": 244,
-      "huggingface": 33,
-      "hunyuan": 13,
+      "google-gemini": 232,
+      "huggingface": 32,
+      "hunyuan": 14,
       "kimi": 14,
       "meta-llama": 13,
-      "microsoft": 46,
+      "microsoft": 41,
       "minimax": 6,
       "nvidia": 175,
-      "openai": 288,
-      "openrouter": 10,
+      "openai": 285,
+      "openrouter": 9,
       "perplexity": 15,
       "qwen": 15,
-      "xai": 27,
+      "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 343,
-      "monetization": 107,
+      "agent-ecosystem": 349,
+      "monetization": 97,
       "product-entry": 53,
-      "workplace": 78
+      "workplace": 75
     },
     "by_importance_label": {
-      "值得关注": 1626,
-      "多源热议": 41,
+      "值得关注": 1625,
+      "多源热议": 40,
       "官方更新": 172,
       "行业动态": 215
     },
     "by_source_count_bucket": {
-      "1": 1925,
-      "2": 85,
-      "3+": 44
+      "1": 1928,
+      "2": 81,
+      "3+": 43
     }
   },
   "top_stories": [
@@ -102,7 +102,7 @@
       "story_id": "story_282ab6eeb971",
       "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能 / How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "importance_score": 0.8574,
+      "importance_score": 0.8485,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-20",
@@ -112,19 +112,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f4a0bde39164",
-      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "importance_score": 0.854,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_36b60329478e",
@@ -140,19 +127,43 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_cae7bbc770ea",
-      "title": "让 Gemini 在 Mac 上处理重复性的琐事 / Let Gemini tackle repetitive chores on your Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "importance_score": 0.8455,
+      "story_id": "story_06268bf63f2d",
+      "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
+      "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+      "importance_score": 0.8444,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_66a7c61c7fbc",
+      "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
+      "importance_score": 0.8439,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
       "company_topics": [
         "google-gemini"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f4a0bde39164",
+      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "importance_score": 0.8438,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_00d0c660b62d",
@@ -181,30 +192,19 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d6102855438b",
-      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33% / Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-      "importance_score": 0.8401,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c2ba68bd6600",
-      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。 / Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
-      "importance_score": 0.8375,
+      "story_id": "story_cae7bbc770ea",
+      "title": "让 Gemini 在 Mac 上处理重复性的琐事 / Let Gemini tackle repetitive chores on your Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "importance_score": 0.8355,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
       "company_topics": [
         "google-gemini"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_06c4b1df4e91",
@@ -220,28 +220,15 @@
       ]
     },
     {
-      "story_id": "story_380f9d8a02a0",
-      "title": "使用 Genie Code 将仪表板批量迁移到 AI/BI / Bulk migrate your dashboards to AI/BI with Genie Code",
-      "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
-      "importance_score": 0.835,
+      "story_id": "story_cef82a861ab1",
+      "title": "Four AI Architecture Patterns for Regulated Industries",
+      "url": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
+      "importance_score": 0.8335,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_6e05b81d385f",
-      "title": "LangSmith Tool Gateway：为代理提供安全、受管控的工具使用 / LangSmith Tool Gateway: Secure, governed tool use for agents",
-      "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
-      "importance_score": 0.8347,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_916b3373dca3",
@@ -257,17 +244,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_27aac291532a",
-      "title": "合作伙伴如何在 Azure Databricks 上使用 Genie 的免费套餐 / How partners use Genie's free tier on Azure Databricks",
-      "url": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+      "story_id": "story_d6102855438b",
+      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33% / Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
       "importance_score": 0.83,
-      "importance_label": "官方更新",
-      "source_count": 1,
+      "importance_label": "行业动态",
+      "source_count": 2,
       "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "monetization"
-      ]
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_a2f60c2240b8",
@@ -285,6 +272,19 @@
         "agent-ecosystem",
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_c2ba68bd6600",
+      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。 / Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "importance_score": 0.8275,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_c481dd7085b2",
@@ -309,6 +309,30 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_380f9d8a02a0",
+      "title": "使用 Genie Code 将仪表板批量迁移到 AI/BI / Bulk migrate your dashboards to AI/BI with Genie Code",
+      "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
+      "importance_score": 0.8251,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6e05b81d385f",
+      "title": "LangSmith Tool Gateway：为代理提供安全、受管控的工具使用 / LangSmith Tool Gateway: Secure, governed tool use for agents",
+      "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
+      "importance_score": 0.8248,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_9fc2f95b5505",
@@ -373,6 +397,19 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_27aac291532a",
+      "title": "合作伙伴如何在 Azure Databricks 上使用 Genie 的免费套餐 / How partners use Genie's free tier on Azure Databricks",
+      "url": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+      "importance_score": 0.8198,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
+      ]
     },
     {
       "story_id": "story_cf7170a64f24",
@@ -448,21 +485,6 @@
       "source_count": 2,
       "archive_date": "2026-11-18",
       "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6cdeaf1717ef",
-      "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
-      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
-      "importance_score": 0.8162,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "doubao",
-        "kimi",
         "nvidia"
       ],
       "lens_topics": []
@@ -558,32 +580,6 @@
       "lens_topics": [
         "agent-ecosystem",
         "workplace"
-      ]
-    },
-    {
-      "story_id": "story_ec9df5195595",
-      "title": "了解 5 位建筑商使用 Gemini 4 Carbon 制作了什么 / See what 5 builders are making with Gemini 4 Carbon",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders",
-      "importance_score": 0.8123,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_32d671c0a66e",
-      "title": "如何为人工智能代理选择合适的沙箱 / How to Choose the Right Sandbox for AI Agents",
-      "url": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
-      "importance_score": 0.8122,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-18",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
       ]
     }
   ]
