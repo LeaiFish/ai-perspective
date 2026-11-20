@@ -4,54 +4,55 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T15:44:26.878671Z",
+  "generated_at": "2026-11-20T19:10:27.625843Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
-  "story_count": 2068,
-  "unique_story_count": 2020,
+  "story_count": 2360,
+  "unique_story_count": 2078,
   "counts": {
     "by_company_topic": {
-      "anthropic": 341,
-      "apple": 26,
+      "anthropic": 404,
+      "apple": 34,
       "cursor": 8,
-      "deepseek": 38,
-      "doubao": 18,
-      "google-gemini": 238,
-      "huggingface": 33,
-      "hunyuan": 16,
+      "deepseek": 41,
+      "doubao": 21,
+      "google-gemini": 274,
+      "huggingface": 36,
+      "hunyuan": 20,
       "kimi": 13,
-      "meta-llama": 16,
-      "microsoft": 39,
-      "minimax": 6,
-      "nvidia": 174,
-      "openai": 285,
-      "openrouter": 9,
+      "meta-llama": 18,
+      "microsoft": 40,
+      "minimax": 7,
+      "nvidia": 186,
+      "openai": 321,
+      "openrouter": 10,
       "perplexity": 15,
-      "qwen": 16,
-      "xai": 27,
+      "qwen": 21,
+      "xai": 29,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 372,
-      "monetization": 98,
-      "product-entry": 63,
-      "workplace": 77
+      "agent-ecosystem": 437,
+      "monetization": 112,
+      "product-entry": 77,
+      "workplace": 85
     },
     "by_importance_label": {
-      "值得关注": 1646,
-      "多源热议": 41,
-      "官方更新": 171,
-      "行业动态": 210
+      "值得关注": 1871,
+      "多源热议": 45,
+      "官方更新": 189,
+      "行业动态": 255
     },
     "by_source_count_bucket": {
-      "1": 1947,
-      "2": 77,
-      "3+": 44
+      "1": 2228,
+      "2": 84,
+      "3+": 48
     }
   },
   "top_stories": [
@@ -97,6 +98,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.8534,
+      "importance_label": "多源热议",
+      "source_count": 4,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_36b60329478e",
@@ -571,21 +585,6 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_65fe65af7919",
-      "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
-      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "importance_score": 0.8091,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
       ]
     }
   ]
