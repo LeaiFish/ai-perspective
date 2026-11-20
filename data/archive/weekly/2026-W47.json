@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T19:10:27.625843Z",
+  "generated_at": "2026-11-20T23:13:16.208903Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -13,46 +13,46 @@
     "2026-11-20",
     "2026-11-21"
   ],
-  "story_count": 2360,
-  "unique_story_count": 2078,
+  "story_count": 2341,
+  "unique_story_count": 2124,
   "counts": {
     "by_company_topic": {
-      "anthropic": 404,
-      "apple": 34,
-      "cursor": 8,
+      "anthropic": 394,
+      "apple": 35,
+      "cursor": 9,
       "deepseek": 41,
       "doubao": 21,
-      "google-gemini": 274,
-      "huggingface": 36,
+      "google-gemini": 264,
+      "huggingface": 37,
       "hunyuan": 20,
-      "kimi": 13,
-      "meta-llama": 18,
-      "microsoft": 40,
+      "kimi": 14,
+      "meta-llama": 20,
+      "microsoft": 39,
       "minimax": 7,
-      "nvidia": 186,
-      "openai": 321,
+      "nvidia": 181,
+      "openai": 322,
       "openrouter": 10,
       "perplexity": 15,
-      "qwen": 21,
-      "xai": 29,
+      "qwen": 20,
+      "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 437,
-      "monetization": 112,
-      "product-entry": 77,
-      "workplace": 85
+      "agent-ecosystem": 433,
+      "monetization": 114,
+      "product-entry": 79,
+      "workplace": 82
     },
     "by_importance_label": {
-      "值得关注": 1871,
-      "多源热议": 45,
-      "官方更新": 189,
-      "行业动态": 255
+      "值得关注": 1853,
+      "多源热议": 47,
+      "官方更新": 187,
+      "行业动态": 254
     },
     "by_source_count_bucket": {
-      "1": 2228,
-      "2": 84,
-      "3+": 48
+      "1": 2208,
+      "2": 83,
+      "3+": 50
     }
   },
   "top_stories": [
@@ -100,19 +100,6 @@
       ]
     },
     {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.8534,
-      "importance_label": "多源热议",
-      "source_count": 4,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -122,6 +109,19 @@
       "archive_date": "2026-11-16",
       "company_topics": [
         "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.8439,
+      "importance_label": "多源热议",
+      "source_count": 4,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "anthropic"
       ],
       "lens_topics": []
     },
@@ -297,6 +297,19 @@
         "agent-ecosystem",
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_070a320473bf",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "importance_score": 0.8207,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_e0cc6809540e",
@@ -573,19 +586,6 @@
         "google-gemini"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_6a9c07f77f11",
-      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
-      "url": "https://www.langchain.com/blog/agent-governance-observability",
-      "importance_score": 0.8094,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }

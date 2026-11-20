@@ -9,7 +9,7 @@
   "latest_title": "70B 权重开放前，腾讯先给 Hy4 做了次“安全体检”",
   "latest_published_at": "2026-11-20T08:39:22.185006Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-20T19:10:27.625843Z",
+  "generated_at": "2026-11-20T23:13:16.208903Z",
   "items": [
     {
       "id": "story_15c006960724",
@@ -60,20 +60,20 @@
       "curated": true
     },
     {
-      "id": "story_9de45b6eeaae",
-      "story_id": "story_9de45b6eeaae",
-      "title": "使用 NVIDIA Dynamo 减少强化学习中的部署瓶颈",
-      "title_zh": "使用 NVIDIA Dynamo 减少强化学习中的部署瓶颈",
-      "title_en": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
-      "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo",
-      "summary": "强化学习 (RL) 使用奖励来训练模型以更成功地解决问题和完成任务。推理驱动这个过程。工人们产生...",
+      "id": "story_76e44fc44451",
+      "story_id": "story_76e44fc44451",
+      "title": "Inkling 2 Mini on vLLM: Day-0 Support for a Looped Model",
+      "title_zh": null,
+      "title_en": "Inkling 2 Mini on vLLM: Day-0 Support for a Looped Model",
+      "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini",
+      "summary": "vLLM supports Thinking Machines' Inkling 2 Mini from day 0: a looped MoE that runs its middle layers three times, with per-pass KV caches, gated messages between passes, fused kernels and DSpark speculative decoding.",
       "recommend_reason_zh": null,
-      "source": "NVIDIA Generative AI Blog",
-      "source_name": "OPML RSS",
-      "site_id": "opmlrss",
-      "published_at": "2026-11-19T20:28:13Z",
+      "source": "vLLM Blog",
+      "source_name": "vLLM Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-20T00:00:00Z",
       "source_count": 1,
-      "curated": false
+      "curated": true
     }
   ]
 }

@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Fri, 20 Nov 2026 19:10:27 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 23:13:16 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫</title>
@@ -14,6 +14,14 @@
 <description>Anthropic 上市第二天股价跌逾 9% 至 $88.17，接近 $83 发行价，其破纪录 IPO 未能止住 AI 相关公司抛售。周五 Nasdaq 跌 2%，SanDisk 跌 14%、Micron 跌 10%；亚洲股市创 2020 年以来最差一周，台湾加权指数跌 6.7%、日经跌 5%、Kospi 跌 5.5%，SoftBank 单日跌 14.5%。（Hacker News：AI 热帖）</description>
 <category>多源热议</category>
 <pubDate>Fri, 20 Nov 2026 16:08:55 +0000</pubDate>
+</item>
+<item>
+<title>Combatting adversarial distillation</title>
+<link>https://openai.com/index/combatting-adversarial-distillation</link>
+<guid isPermaLink="true">https://openai.com/index/combatting-adversarial-distillation</guid>
+<description>OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.（OpenAI News）</description>
+<category>官方更新</category>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Codex CLI 0.171.0</title>
@@ -32,18 +40,10 @@
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Can AI help scientists identify promising drug candidates?</title>
-<link>https://openai.com/index/introducing-medchembench</link>
-<guid isPermaLink="true">https://openai.com/index/introducing-medchembench</guid>
-<description>MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.（OpenAI News）</description>
-<category>官方更新</category>
-<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
 <title>PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command</title>
 <link>https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794</link>
 <guid isPermaLink="true">https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794</guid>
-<description>PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command This article introduces PolarDB-X Zero, an instant, zero-configuration, MySQL-compatible database service designed to seamlessly empower AI Agent workflows. ApsaraDB November 20, 2026 369（Alibaba Cloud Blog）</description>
+<description>PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command This article introduces PolarDB-X Zero, an instant, zero-configuration, MySQL-compatible database service designed to seamlessly empower AI Agent workflows. ApsaraDB November 20, 2026 440（Alibaba Cloud Blog）</description>
 <category>官方更新</category>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 </item>
@@ -56,20 +56,12 @@
 <pubDate>Fri, 20 Nov 2026 00:57:43 +0000</pubDate>
 </item>
 <item>
-<title>ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.</title>
-<link>https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history</link>
-<guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history</guid>
-<description>Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.（Google Gemini）</description>
+<title>Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</title>
+<link>https://machinelearning.apple.com/research/depth-pro-2-monocular</link>
+<guid isPermaLink="true">https://machinelearning.apple.com/research/depth-pro-2-monocular</guid>
+<description>We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces dept（Apple Machine Learning Research）</description>
 <category>官方更新</category>
-<pubDate>Thu, 19 Nov 2026 20:30:00 +0000</pubDate>
-</item>
-<item>
-<title>Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues</title>
-<link>https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer</link>
-<guid isPermaLink="true">https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer</guid>
-<description>In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...（Databricks Blog）</description>
-<category>官方更新</category>
-<pubDate>Thu, 19 Nov 2026 21:30:00 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Kling AI 发布 Kling Image 4.0：原生 8K 图像生成与高级文字渲染 / Native 8K. Stunning realism. Consistent image sets. Advanced text rendering.</title>
@@ -80,28 +72,60 @@
 <pubDate>Fri, 20 Nov 2026 16:40:57 +0000</pubDate>
 </item>
 <item>
-<title>一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3</title>
-<link>https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798</link>
-<guid isPermaLink="true">https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798</guid>
-<description>一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3 本文介紹阿里雲 Token Plan 統一訂閱服務，讓開發者透過單一 API 與可預測的計費方式，輕鬆試用多款主流 AI 模型，首月低至 $3。 Alibaba Cloud Community November 20, 2026 138（Alibaba Cloud Blog）</description>
+<title>Hebbia sees improvements in financial research with GPT-6 Astra</title>
+<link>https://openai.com/business/customer-stories/hebbia</link>
+<guid isPermaLink="true">https://openai.com/business/customer-stories/hebbia</guid>
+<description>Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>受监管行业的四种人工智能架构模式 / Four AI Architecture Patterns for Regulated Industries</title>
-<link>https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries</link>
-<guid isPermaLink="true">https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries</guid>
-<description>Enterprise AI cannot replace every deterministic control. These four patterns help...（Databricks Blog）</description>
+<title>Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini / Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup</title>
+<link>https://huggingface.co/blog/inkling2mini</link>
+<guid isPermaLink="true">https://huggingface.co/blog/inkling2mini</guid>
+<description>Hugging Face Blog</description>
 <category>官方更新</category>
-<pubDate>Thu, 19 Nov 2026 19:30:00 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings</link>
-<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings</guid>
-<description>The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；但受芯片股整体抛售、前 CEO 黄仁勋辞职及公司治理调查等因素影响，股价一度报约 150 美元，较 10 月 6 日历史高点跌近 40%，周四收于 145.98 美元，创 52 周新低。（The Verge：AI（RSS））</description>
+<title>Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini / Introducing Inkling 2 Mini</title>
+<link>https://thinkingmachines.ai/news/inkling-2-mini</link>
+<guid isPermaLink="true">https://thinkingmachines.ai/news/inkling-2-mini</guid>
+<description>Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构，将中间 12 层每 token 运行三次，总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 本地运行。（Thinking Machines Lab：News（网页））</description>
 <category>行业动态</category>
-<pubDate>Thu, 19 Nov 2026 21:59:35 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 20:56:44 +0000</pubDate>
+</item>
+<item>
+<title>一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3</title>
+<link>https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798</link>
+<guid isPermaLink="true">https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798</guid>
+<description>一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3 本文介紹阿里雲 Token Plan 統一訂閱服務，讓開發者透過單一 API 與可預測的計費方式，輕鬆試用多款主流 AI 模型，首月低至 $3。 Alibaba Cloud Community November 20, 2026 173（Alibaba Cloud Blog）</description>
+<category>官方更新</category>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>OpenAI 向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑</title>
+<link>https://www.ithome.com/1/030/288.htm</link>
+<guid isPermaLink="true">https://www.ithome.com/1/030/288.htm</guid>
+<description>OpenAI 宣布向每月 20 美元的 ChatGPT Plus 订阅用户开放 Spaces 协作空间，此前仅限 Pro、Business 和 Enterprise 方案。（IT之家·人工智能）</description>
+<category>行业动态</category>
+<pubDate>Fri, 20 Nov 2026 22:57:39 +0000</pubDate>
+</item>
+<item>
+<title>Can AI help scientists identify promising drug candidates?</title>
+<link>https://openai.com/index/introducing-medchembench</link>
+<guid isPermaLink="true">https://openai.com/index/introducing-medchembench</guid>
+<description>MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.（OpenAI News）</description>
+<category>官方更新</category>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Google 发布 Gemini 4 Hydrogen，已上线 Gemini 应用和 Search / Gemini 4 Hydrogen is built for for speed and everyday work — and is live in the @GeminiApp and Search right now🏃💨.</title>
+<link>https://x.com/Google/status/2123825847815561261</link>
+<guid isPermaLink="true">https://x.com/Google/status/2123825847815561261</guid>
+<description>Google 宣布 Gemini 4 Hydrogen 正式上线，主打速度和日常任务，现已可在 Gemini 应用和 Search 中使用。该模型面向多样化的智能体工作流设计，强调快速高效执行；官方称其能更紧密地遵循指令、更准确地调用工具，用更少的来回沟通产出可靠结果。（X：Google (@Google)）</description>
+<category>行业动态</category>
+<pubDate>Fri, 20 Nov 2026 17:08:35 +0000</pubDate>
 </item>
 <item>
 <title>腾讯混元开放 Hy4 权重 / Today, we’re releasing the open weights for Hy4.</title>
@@ -120,52 +144,28 @@
 <pubDate>Fri, 20 Nov 2026 10:32:50 +0000</pubDate>
 </item>
 <item>
-<title>OpenAI 开放 GPT-Live-1.1 API：支持实时双向语音对话，智能体可边聊天边处理复杂任务</title>
-<link>https://www.ithome.com/1/029/776.htm</link>
-<guid isPermaLink="true">https://www.ithome.com/1/029/776.htm</guid>
-<description>OpenAI 向开发者开放 GPT-Live-1.1 API，第三方可集成该语音模型构建能实时聆听、回应并执行复杂任务的智能体。（IT之家·人工智能）</description>
+<title>ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件 / In the ChatGPT sidebar, Space is the new home for pages, slides, images, files, and uploads.</title>
+<link>https://x.com/ChatGPT/status/2123850915061104735</link>
+<guid isPermaLink="true">https://x.com/ChatGPT/status/2123850915061104735</guid>
+<description>ChatGPT 官方宣布侧边栏中的 Space 成为 pages、slides、images、files 和 uploads 的新家。用 ChatGPT 可写页面、做研究、生成图片并创建交互式图表，把想法变成带图片和图形的幻灯片并邀请他人协作；页面和幻灯片还可从已连接的工具自动更新。（X：ChatGPT (@ChatGPT)）</description>
 <category>行业动态</category>
-<pubDate>Fri, 20 Nov 2026 00:50:30 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 18:48:12 +0000</pubDate>
 </item>
 <item>
-<title>Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务 / Gemini app on Mac can now do tasks on your computer, a top feature request!</title>
-<link>https://x.com/joshwoodward/status/2123534862569324703</link>
-<guid isPermaLink="true">https://x.com/joshwoodward/status/2123534862569324703</guid>
-<description>Google Labs VP Josh Woodward 宣布 Mac 版 Gemini 应用新增 computer use 功能，可跨文件夹、应用和网页代用户执行任务，屏幕和光标控制权仍归用户。官方演示显示 Gemini 能在后台窗口中点击、滚动和输入，把草图变成 Blender 里的绑定的 3D 模型。（X：Josh Woodward (@joshwoodward, Google Labs VP)）</description>
+<title>Meta Muse 智能体上线邮件收发功能并开放 handle 认领 / I've got mail</title>
+<link>https://x.com/Muse/status/2123906912186216642</link>
+<guid isPermaLink="true">https://x.com/Muse/status/2123906912186216642</guid>
+<description>Muse 宣布智能体获得独立邮箱地址，可代表用户收发邮件，功能正向所有支持市场的用户推出。用户可认领 muse.ai 句柄，通过点击头像进入 mail 标签或直接向 Muse 提出请求来启用。（X：Muse（Meta 个人智能体官方号） (@Muse)）</description>
 <category>行业动态</category>
-<pubDate>Thu, 19 Nov 2026 21:52:19 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 22:30:42 +0000</pubDate>
 </item>
 <item>
-<title>Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO / One of the best parts of building Claude was the friendships we made along the way. I still remember talking through model evals and post...</title>
-<link>https://x.com/karinanguyen/status/2123509936475001310</link>
-<guid isPermaLink="true">https://x.com/karinanguyen/status/2123509936475001310</guid>
-<description>Karina Nguyen 发文感谢投资人 Sol，回忆早期在办公室一起讨论模型评测和后训练难题的经历，并称赞他是唯一理解 scaling laws 的 VC。引用内容为 Sol 祝贺 Anthropic IPO 的推文，感谢 LP 及 GM 养老金、ICONIQ、Coatue、Lightspeed 等合作伙伴在增长投资最差时期押注 Anthropic。（X：Karina Nguyen（@karinanguyen））</description>
+<title>Signal 在 iOS 27 和 Android 上拦截 Siri、Gemini 等 AI 读取屏幕内容 / Signal is blocking Gemini and Siri AI from reading your screen</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app</link>
+<guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app</guid>
+<description>Signal 宣布在 iOS 27 和 Android 上限制应用内截图，以阻止 Siri、Gemini 等系统级 AI 智能体读取用户消息。（The Verge：AI（RSS））</description>
 <category>行业动态</category>
-<pubDate>Thu, 19 Nov 2026 20:13:16 +0000</pubDate>
-</item>
-<item>
-<title>NVIDIA 发布连续扩散语言模型 Nemotron-Labs-Sigma，含 3B/8B 共 14 个开放检查点 / NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B</title>
-<link>https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model</link>
-<guid isPermaLink="true">https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model</guid>
-<description>NVIDIA 发布 Nemotron-Labs-Sigma，一组在 16 维连续嵌入空间去噪的扩散语言模型，包含 3B 和 8B 的 base、instruct、蒸馏和自推测解码共 14 个开放检查点。（MarkTechPost（RSS））</description>
-<category>行业动态</category>
-<pubDate>Fri, 20 Nov 2026 14:44:52 +0000</pubDate>
-</item>
-<item>
-<title>DeepSeek Harness 发布100天，作者分享13个实用插件玩法</title>
-<link>https://x.com/Khazix0918/status/2123627885730951241</link>
-<guid isPermaLink="true">https://x.com/Khazix0918/status/2123627885730951241</guid>
-<description>卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。（X：卡兹克 (@Khazix0918)）</description>
-<category>行业动态</category>
-<pubDate>Fri, 20 Nov 2026 04:01:57 +0000</pubDate>
-</item>
-<item>
-<title>OpenAI 开放 GPT-Live-1.1，可将 ChatGPT 同款语音能力接入开发者应用 / Sound familiar? GPT-Live-1.1 has powered voice in ChatGPT Plus and Pro since October 15th. Now it can power your apps.</title>
-<link>https://x.com/OpenAIDevs/status/2123506775077077489</link>
-<guid isPermaLink="true">https://x.com/OpenAIDevs/status/2123506775077077489</guid>
-<description>OpenAI 宣布 GPT-Live-1.1 现已开放给开发者应用，该模型自 10 月 15 日起已为 ChatGPT Plus 和 Pro 的语音功能提供支持。开发者可用它构建语音智能体，可靠识别字母和数字等精确细节、遵循指令，并可将复杂工作流委托给自选的后端模型而不打断对话流程。文档见 https://developers.openai.com/api/docs/models/gpt-live-1.1（X：OpenAI Developers (@OpenAIDevs)）</description>
-<category>官方更新</category>
-<pubDate>Thu, 19 Nov 2026 20:00:42 +0000</pubDate>
+<pubDate>Fri, 20 Nov 2026 12:30:47 +0000</pubDate>
 </item>
 </channel>
 </rss>

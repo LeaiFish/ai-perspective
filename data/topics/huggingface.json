@@ -3,13 +3,13 @@
   "name": "Hugging Face",
   "description": "Hugging Face 开源社区：热门模型与数据集、排行榜、Spaces 与推理服务。",
   "group": "company",
-  "item_count": 1039,
-  "listed_count": 1039,
-  "recent_item_count": 123,
+  "item_count": 1040,
+  "listed_count": 1040,
+  "recent_item_count": 124,
   "latest_title": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0",
   "latest_published_at": "2026-11-20T08:39:35Z",
   "items_url": "data/topics/huggingface.json",
-  "generated_at": "2026-11-20T19:10:27.625843Z",
+  "generated_at": "2026-11-20T23:13:16.208903Z",
   "items": [
     {
       "id": "story_7fbec4d3dabf",
@@ -83,6 +83,22 @@
       "title_en": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
       "summary": "Hugging Face 发布 harness adapters，为 Qwen3.8-27B 分别针对 pi、OpenCode 和 Hermes Agent 训练 LoRA 适配器，在各自 harness 下同时提升性能与效率。",
+      "recommend_reason_zh": null,
+      "source": "Hugging Face Blog",
+      "source_name": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-20T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_4cb47a4337cf",
+      "story_id": "story_4cb47a4337cf",
+      "title": "Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini",
+      "title_zh": "Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini",
+      "title_en": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "summary": "我们正在通过开源和开放科学推进人工智能并使之民主化。",
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
@@ -284,22 +300,6 @@
       "curated": true
     },
     {
-      "id": "69a8d5dc6e1e3ce8e978adb9ac27fc1a893ee8df",
-      "story_id": null,
-      "title": "Hugging Face 开源 0.5B 语音识别模型 Rumble-2-Flash，支持 40+ 语言",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "summary": "Hugging Face 以 Apache 2.0 许可开源 0.5B 参数语音识别模型 Rumble-2-Flash，支持 40+ 语言自动检测，在 Transformers 和 vLLM 中原生可用。",
-      "recommend_reason_zh": null,
-      "source": "Hugging Face 社区博客（混合发现）",
-      "source_name": "Hugging Face 社区博客（混合发现）",
-      "site_id": "aihot",
-      "published_at": "2026-11-18T00:00:00Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
       "id": "758d49ba76feff704029a7be746de3cf962ce1f3",
       "story_id": null,
       "title": "180B 参数、32GB RAM：利用 Transformer 将 MoE 推理推向极限",
@@ -307,6 +307,22 @@
       "title_en": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "url": "https://huggingface.co/blog/moe-expert-streaming",
       "summary": "作者在 Transformers 中实现 MoE 专家权重流式加载，让 Qwen3.8-Flash-Next（121GB FP8 专家权重）能在 32GB 内存 MacBook 上运行，方法是将专家量化到 3bit 存盘、用槽位池缓存配合 grouped_mm，并通过预取和 Metal 内核优化。",
+      "recommend_reason_zh": null,
+      "source": "Hugging Face Blog",
+      "source_name": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-18T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "5e0dafb3a74526ff2bf6d42919ecdde2a053e537",
+      "story_id": null,
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "summary": "Hugging Face 以 Apache 2.0 许可开源 0.5B 参数语音识别模型 Rumble-2-Flash，支持 40+ 语言自动检测，在 Transformers 和 vLLM 中原生可用。",
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
@@ -2908,7 +2924,7 @@
       "curated": true
     },
     {
-      "id": "5809e369bec3fc7f3e3b41703ff07040bdd5bbe0",
+      "id": "de1ce7192ad20fed3e5e56712a3742bcac26e7fd",
       "story_id": null,
       "title": "BenchMIRT：LLM基准测试到底在衡量什么？",
       "title_zh": "BenchMIRT：LLM基准测试到底在衡量什么？",
@@ -2918,10 +2934,10 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-09-01T21:39:07Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "28845d90c22b557e08cf126a6b9062e2f749bf2b",
