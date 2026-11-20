@@ -6,11 +6,27 @@
   "item_count": 7,
   "listed_count": 7,
   "recent_item_count": 7,
-  "latest_title": "Overmind 推出通过手机上与 Grok 聊天微调自有 AI 模型的功能",
-  "latest_published_at": "2026-11-19T22:45:11Z",
+  "latest_title": "OpenAI 开放 GPT-Live-1.1 API：支持实时双向语音对话，智能体可边聊天边处理复杂任务",
+  "latest_published_at": "2026-11-20T00:50:30.513000Z",
   "items_url": "data/topics/mcp.json",
-  "generated_at": "2026-11-19T23:40:17.242424Z",
+  "generated_at": "2026-11-20T03:13:45.365024Z",
   "items": [
+    {
+      "id": "story_0290286e157c",
+      "story_id": "story_0290286e157c",
+      "title": "OpenAI 开放 GPT-Live-1.1 API：支持实时双向语音对话，智能体可边聊天边处理复杂任务",
+      "title_zh": "OpenAI 开放 GPT-Live-1.1 API：支持实时双向语音对话，智能体可边聊天边处理复杂任务",
+      "title_en": null,
+      "url": "https://www.ithome.com/1/029/776.htm",
+      "summary": "IT之家 11 月 20 日消息，OpenAI 今日宣布向开发者开放 GPT-Live-1.1 API 语音模型，允许第三方开发者将其集成到自己的应用程序中，构建能够实时聆听、回应并执行复杂任务的 AI 语音智能体。 据 OpenAI 介绍，GPT-Live-1.1 是 GPT-Live-1 的升级版本，具备全双工语音交互能力，可以同时聆听和说话，不必等待用户完整说完一句话才开始处理。 该模型能够识别用户说话过程中的停顿、打断和语速变化，并实时判断应该继续聆听还是作出回应。",
+      "recommend_reason_zh": null,
+      "source": "IT之家·人工智能",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-20T00:50:30.513000Z",
+      "source_count": 2,
+      "curated": true
+    },
     {
       "id": "story_79998ed5b7cd",
       "story_id": "story_79998ed5b7cd",
@@ -104,22 +120,6 @@
       "source_name": "LangChain Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-19T15:51:28Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_2dd0f06bc0fb",
-      "story_id": "story_2dd0f06bc0fb",
-      "title": "v2.1.328",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
-      "summary": "更改内容 在 Amazon Bedrock、Google Cloud 代理平台、Microsoft Foundry 和 Claude 应用程序网关上添加了 Claude Opus 4.6 和 Sonnet 4.6 的自动模式；没有权限模式启动的交互式会话 为 mcp_tool 钩子添加了“onFailure”：“block”，对于命令和 HTTP 钩子：调用失败的钩子会阻止操作 当来自跳过权限提示的会话的消息可能被云会话保留和删除时添加了警告 在 /status 和 claude doctor w 中添加了通知",
-      "recommend_reason_zh": null,
-      "source": "Claude Code Releases",
-      "source_name": "Curated Media",
-      "site_id": "curated_media",
-      "published_at": "2026-11-19T01:14:04Z",
       "source_count": 1,
       "curated": true
     }
