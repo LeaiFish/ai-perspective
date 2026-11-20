@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T14:18:23.944719Z",
+  "generated_at": "2026-11-20T15:44:26.878671Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -12,14 +12,14 @@
     "2026-11-19",
     "2026-11-20"
   ],
-  "story_count": 2082,
-  "unique_story_count": 2034,
+  "story_count": 2068,
+  "unique_story_count": 2020,
   "counts": {
     "by_company_topic": {
-      "anthropic": 348,
-      "apple": 24,
+      "anthropic": 341,
+      "apple": 26,
       "cursor": 8,
-      "deepseek": 39,
+      "deepseek": 38,
       "doubao": 18,
       "google-gemini": 238,
       "huggingface": 33,
@@ -27,9 +27,9 @@
       "kimi": 13,
       "meta-llama": 16,
       "microsoft": 39,
-      "minimax": 7,
-      "nvidia": 172,
-      "openai": 289,
+      "minimax": 6,
+      "nvidia": 174,
+      "openai": 285,
       "openrouter": 9,
       "perplexity": 15,
       "qwen": 16,
@@ -37,19 +37,19 @@
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 369,
-      "monetization": 100,
+      "agent-ecosystem": 372,
+      "monetization": 98,
       "product-entry": 63,
       "workplace": 77
     },
     "by_importance_label": {
-      "值得关注": 1659,
+      "值得关注": 1646,
       "多源热议": 41,
       "官方更新": 171,
-      "行业动态": 211
+      "行业动态": 210
     },
     "by_source_count_bucket": {
-      "1": 1961,
+      "1": 1947,
       "2": 77,
       "3+": 44
     }
@@ -167,7 +167,7 @@
       "story_id": "story_ef0476de7328",
       "title": "Codex CLI 0.171.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8324,
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -218,10 +218,21 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_9fc2f95b5505",
+      "title": "阿里云在香港峰会上推出人工智能新举措，推动香港人工智能生态系统发展 / Alibaba Cloud Unveils New AI Initiatives at Hong Kong Summit to Advance the City’s AI Ecosystem",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-new-ai-initiatives-at-hong-kong-summit-to-advance-the-city%E2%80%99s-ai-ecosystem_603792",
+      "importance_score": 0.8238,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-19",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_a7210f7c64d5",
       "title": "Hugging Face 推出 harness adapters：用 RL 让 Qwen3.8-27B 适配 pi、OpenCode 与 Hermes Agent / Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "importance_score": 0.8264,
+      "importance_score": 0.8234,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -232,17 +243,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_9fc2f95b5505",
-      "title": "阿里云在香港峰会上推出人工智能新举措，推动香港人工智能生态系统发展 / Alibaba Cloud Unveils New AI Initiatives at Hong Kong Summit to Advance the City’s AI Ecosystem",
-      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-new-ai-initiatives-at-hong-kong-summit-to-advance-the-city%E2%80%99s-ai-ecosystem_603792",
-      "importance_score": 0.8238,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-19",
-      "company_topics": [],
-      "lens_topics": []
     },
     {
       "story_id": "story_0adf69af2f6c",
@@ -376,30 +376,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f273af454087",
-      "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
-      "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
-      "importance_score": 0.8164,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_78277ec8086f",
-      "title": "一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3",
-      "url": "https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798",
-      "importance_score": 0.8164,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_e751b70408e1",
       "title": "阿里云为企业带来 Qwen4-Max：规划、构建和交付成品的 AI 同事 / Alibaba Cloud Brings Qwen4-Max to the Enterprise: An AI Colleague That Plans, Builds and Delivers Finished Work",
       "url": "https://www.alibabacloud.com/blog/alibaba-cloud-brings-qwen4-max-to-the-enterprise-an-ai-colleague-that-plans-builds-and-delivers-finished-work_603786",
@@ -476,6 +452,30 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_f273af454087",
+      "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
+      "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
+      "importance_score": 0.8134,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_78277ec8086f",
+      "title": "一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3",
+      "url": "https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798",
+      "importance_score": 0.8134,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_73cf2ba0785a",
       "title": "GitHub Copilot 每周发布 — 11 月 9 日 / GitHub Copilot weekly releases — November 9",
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
@@ -491,32 +491,6 @@
         "agent-ecosystem",
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_6a9c07f77f11",
-      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
-      "url": "https://www.langchain.com/blog/agent-governance-observability",
-      "importance_score": 0.8125,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_f4a0bde39164",
-      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "importance_score": 0.8123,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_ec9df5195595",
@@ -545,32 +519,6 @@
       ]
     },
     {
-      "story_id": "story_66a7c61c7fbc",
-      "title": "ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
-      "importance_score": 0.8112,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_06268bf63f2d",
-      "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
-      "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-      "importance_score": 0.8112,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_f81fe699314d",
       "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。 / The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
@@ -582,6 +530,63 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_41002422ce0e",
+      "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "importance_score": 0.8104,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_f4a0bde39164",
+      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "importance_score": 0.8095,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6a9c07f77f11",
+      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
+      "url": "https://www.langchain.com/blog/agent-governance-observability",
+      "importance_score": 0.8094,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_65fe65af7919",
+      "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "importance_score": 0.8091,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-17",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
     }
   ]
 }
