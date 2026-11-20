@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T03:13:45.365024Z",
+  "generated_at": "2026-11-20T03:24:31.338025Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -13,22 +13,22 @@
     "2026-11-20"
   ],
   "story_count": 2055,
-  "unique_story_count": 1942,
+  "unique_story_count": 1944,
   "counts": {
     "by_company_topic": {
       "anthropic": 345,
       "apple": 22,
       "cursor": 9,
-      "deepseek": 41,
+      "deepseek": 40,
       "doubao": 19,
       "google-gemini": 236,
       "huggingface": 32,
       "hunyuan": 14,
-      "kimi": 14,
+      "kimi": 13,
       "meta-llama": 16,
       "microsoft": 39,
       "minimax": 6,
-      "nvidia": 175,
+      "nvidia": 174,
       "openai": 283,
       "openrouter": 9,
       "perplexity": 15,
@@ -43,10 +43,10 @@
       "workplace": 76
     },
     "by_importance_label": {
-      "值得关注": 1640,
+      "值得关注": 1639,
       "多源热议": 39,
       "官方更新": 170,
-      "行业动态": 206
+      "行业动态": 207
     },
     "by_source_count_bucket": {
       "1": 1934,
@@ -102,7 +102,7 @@
       "story_id": "story_ef0476de7328",
       "title": "Codex CLI 0.171.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8578,
+      "importance_score": 0.8574,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -154,7 +154,7 @@
       "story_id": "story_f273af454087",
       "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
       "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
-      "importance_score": 0.8418,
+      "importance_score": 0.8414,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -167,7 +167,7 @@
       "story_id": "story_282ab6eeb971",
       "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能 / How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "importance_score": 0.8414,
+      "importance_score": 0.841,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-20",
@@ -182,7 +182,7 @@
       "story_id": "story_6a9c07f77f11",
       "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
       "url": "https://www.langchain.com/blog/agent-governance-observability",
-      "importance_score": 0.8382,
+      "importance_score": 0.8378,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -195,7 +195,7 @@
       "story_id": "story_06268bf63f2d",
       "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
       "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-      "importance_score": 0.8357,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -203,32 +203,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f4a0bde39164",
-      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "importance_score": 0.8355,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_66a7c61c7fbc",
-      "title": "ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
-      "importance_score": 0.8353,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_06c4b1df4e91",
@@ -242,6 +216,32 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_f4a0bde39164",
+      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "importance_score": 0.8351,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_66a7c61c7fbc",
+      "title": "ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
+      "importance_score": 0.8349,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_916b3373dca3",
@@ -277,7 +277,7 @@
       "story_id": "story_cae7bbc770ea",
       "title": "让 Gemini 在 Mac 上处理重复性的琐事 / Let Gemini tackle repetitive chores on your Mac",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "importance_score": 0.8273,
+      "importance_score": 0.8269,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -316,7 +316,7 @@
       "story_id": "story_cef82a861ab1",
       "title": "受监管行业的四种人工智能架构模式 / Four AI Architecture Patterns for Regulated Industries",
       "url": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
-      "importance_score": 0.825,
+      "importance_score": 0.8246,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
@@ -359,19 +359,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d6102855438b",
-      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33% / Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-      "importance_score": 0.8219,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_f7f395a19123",
       "title": "将 Supabase、Box、Calendly 等连接到 Copilot / Connect Supabase, Box, Calendly, and more to Copilot",
       "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
@@ -386,6 +373,19 @@
         "agent-ecosystem",
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_d6102855438b",
+      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33% / Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+      "importance_score": 0.8215,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_e0cc6809540e",
@@ -425,19 +425,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c2ba68bd6600",
-      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。 / Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
-      "importance_score": 0.8193,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_cfb0a416a80c",
       "title": "OpenAI 的 GPT-6.2 Astra 和 GPT-6.2 Sol 现已上市 / OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
       "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
@@ -453,6 +440,19 @@
         "agent-ecosystem",
         "workplace"
       ]
+    },
+    {
+      "story_id": "story_c2ba68bd6600",
+      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。 / Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "importance_score": 0.8189,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_e05c122d19a4",
@@ -482,25 +482,12 @@
       "story_id": "story_380f9d8a02a0",
       "title": "使用 Genie Code 将仪表板批量迁移到 AI/BI / Bulk migrate your dashboards to AI/BI with Genie Code",
       "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
-      "importance_score": 0.8171,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6e05b81d385f",
-      "title": "LangSmith Tool Gateway：为代理提供安全、受管控的工具使用 / LangSmith Tool Gateway: Secure, governed tool use for agents",
-      "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
       "importance_score": 0.8167,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
       "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "lens_topics": []
     },
     {
       "story_id": "story_2f6cc17499a9",
@@ -514,6 +501,19 @@
         "nvidia"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_6e05b81d385f",
+      "title": "LangSmith Tool Gateway：为代理提供安全、受管控的工具使用 / LangSmith Tool Gateway: Secure, governed tool use for agents",
+      "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
+      "importance_score": 0.8163,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_e751b70408e1",
