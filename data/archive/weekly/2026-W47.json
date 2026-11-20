@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T10:32:50.094925Z",
+  "generated_at": "2026-11-20T14:18:23.944719Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -12,46 +12,46 @@
     "2026-11-19",
     "2026-11-20"
   ],
-  "story_count": 2066,
-  "unique_story_count": 2012,
+  "story_count": 2082,
+  "unique_story_count": 2034,
   "counts": {
     "by_company_topic": {
-      "anthropic": 341,
-      "apple": 23,
-      "cursor": 9,
-      "deepseek": 40,
-      "doubao": 17,
-      "google-gemini": 235,
-      "huggingface": 34,
+      "anthropic": 348,
+      "apple": 24,
+      "cursor": 8,
+      "deepseek": 39,
+      "doubao": 18,
+      "google-gemini": 238,
+      "huggingface": 33,
       "hunyuan": 16,
       "kimi": 13,
       "meta-llama": 16,
       "microsoft": 39,
-      "minimax": 6,
-      "nvidia": 171,
-      "openai": 288,
+      "minimax": 7,
+      "nvidia": 172,
+      "openai": 289,
       "openrouter": 9,
       "perplexity": 15,
-      "qwen": 14,
-      "xai": 28,
+      "qwen": 16,
+      "xai": 27,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 364,
-      "monetization": 96,
-      "product-entry": 61,
+      "agent-ecosystem": 369,
+      "monetization": 100,
+      "product-entry": 63,
       "workplace": 77
     },
     "by_importance_label": {
-      "值得关注": 1645,
-      "多源热议": 40,
-      "官方更新": 170,
+      "值得关注": 1659,
+      "多源热议": 41,
+      "官方更新": 171,
       "行业动态": 211
     },
     "by_source_count_bucket": {
-      "1": 1946,
+      "1": 1961,
       "2": 77,
-      "3+": 43
+      "3+": 44
     }
   },
   "top_stories": [
@@ -138,19 +138,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ef0476de7328",
-      "title": "Codex CLI 0.171.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8406,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_06c4b1df4e91",
       "title": "人工智能使集成成为供应商的问题 / AI made integrations the vendor’s problem",
       "url": "https://blog.n8n.io/ai-made-integrations-the-vendors-problem",
@@ -171,6 +158,19 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-18",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ef0476de7328",
+      "title": "Codex CLI 0.171.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "importance_score": 0.8324,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
       "company_topics": [
         "openai"
       ],
@@ -218,28 +218,20 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f273af454087",
-      "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
-      "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
-      "importance_score": 0.8246,
+      "story_id": "story_a7210f7c64d5",
+      "title": "Hugging Face 推出 harness adapters：用 RL 让 Qwen3.8-27B 适配 pi、OpenCode 与 Hermes Agent / Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "importance_score": 0.8264,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
-      "company_topics": [],
+      "company_topics": [
+        "qwen",
+        "huggingface"
+      ],
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_78277ec8086f",
-      "title": "一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3",
-      "url": "https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798",
-      "importance_score": 0.8246,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": []
     },
     {
       "story_id": "story_9fc2f95b5505",
@@ -293,19 +285,6 @@
       ]
     },
     {
-      "story_id": "story_6a9c07f77f11",
-      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
-      "url": "https://www.langchain.com/blog/agent-governance-observability",
-      "importance_score": 0.8207,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_e0cc6809540e",
       "title": "Google DeepMind 发布 Gemini 4 Neon / Introducing Gemini 4 Neon",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
@@ -313,19 +292,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-19",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f4a0bde39164",
-      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "importance_score": 0.8197,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
       "company_topics": [
         "google-gemini"
       ],
@@ -356,19 +322,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_06268bf63f2d",
-      "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
-      "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-      "importance_score": 0.8191,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_cfb0a416a80c",
       "title": "OpenAI 的 GPT-6.2 Astra 和 GPT-6.2 Sol 现已上市 / OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
       "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
@@ -384,19 +337,6 @@
         "agent-ecosystem",
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_66a7c61c7fbc",
-      "title": "ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
-      "importance_score": 0.819,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-20",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_e05c122d19a4",
@@ -433,6 +373,30 @@
       "company_topics": [
         "nvidia"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f273af454087",
+      "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
+      "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
+      "importance_score": 0.8164,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_78277ec8086f",
+      "title": "一個平台輕鬆試用最新 AI 模型：Token Plan 首月低至 $3",
+      "url": "https://www.alibabacloud.com/blog/%E4%B8%80%E5%80%8B%E5%B9%B3%E5%8F%B0%E8%BC%95%E9%AC%86%E8%A9%A6%E7%94%A8%E6%9C%80%E6%96%B0-ai-%E6%A8%A1%E5%9E%8B%EF%BC%9Atoken-plan-%E9%A6%96%E6%9C%88%E4%BD%8E%E8%87%B3-%243_603798",
+      "importance_score": 0.8164,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -529,6 +493,32 @@
       ]
     },
     {
+      "story_id": "story_6a9c07f77f11",
+      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
+      "url": "https://www.langchain.com/blog/agent-governance-observability",
+      "importance_score": 0.8125,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_f4a0bde39164",
+      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "importance_score": 0.8123,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_ec9df5195595",
       "title": "了解 5 位建筑商使用 Gemini 4 Carbon 制作了什么 / See what 5 builders are making with Gemini 4 Carbon",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders",
@@ -555,16 +545,27 @@
       ]
     },
     {
-      "story_id": "story_cae7bbc770ea",
-      "title": "让 Gemini 在 Mac 上处理重复性的琐事 / Let Gemini tackle repetitive chores on your Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "importance_score": 0.8117,
+      "story_id": "story_66a7c61c7fbc",
+      "title": "ICYMI：将您的历史记录从其他 AI 应用程序转移到 Gemini。 / ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
+      "importance_score": 0.8112,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-20",
       "company_topics": [
         "google-gemini"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_06268bf63f2d",
+      "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
+      "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+      "importance_score": 0.8112,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
