@@ -3,14 +3,30 @@
   "name": "Hugging Face",
   "description": "Hugging Face 开源社区：热门模型与数据集、排行榜、Spaces 与推理服务。",
   "group": "company",
-  "item_count": 1037,
-  "listed_count": 1037,
-  "recent_item_count": 127,
-  "latest_title": "70B 权重开放前，腾讯先给 Hy4 做了次“安全体检”",
-  "latest_published_at": "2026-11-20T08:39:22.185006Z",
+  "item_count": 1038,
+  "listed_count": 1038,
+  "recent_item_count": 128,
+  "latest_title": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0",
+  "latest_published_at": "2026-11-20T08:39:35Z",
   "items_url": "data/topics/huggingface.json",
-  "generated_at": "2026-11-20T08:39:22.185006Z",
+  "generated_at": "2026-11-20T10:32:50.094925Z",
   "items": [
+    {
+      "id": "story_7fbec4d3dabf",
+      "story_id": "story_7fbec4d3dabf",
+      "title": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0",
+      "title_zh": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0",
+      "title_en": "inclusionAI/LingSante-Pulse-1.0",
+      "url": "https://huggingface.co/inclusionAI/LingSante-Pulse-1.0",
+      "summary": "蚂蚁 inclusionAI 在 HuggingFace 发布生理信号编码器 LingSante-Pulse-1.0，采用 MIT 许可，需先安装独立的推理代码包。 模型输入支持 [T]、[C,T]、[B,C,T] 或对齐的通道字典，代码包负责固定 128-Hz 预处理与存储填充掩码，输出 CLS 与观测有效的 PatchMean 为 [B,C*256]。 该模型仅提供信号表征，不含任务专用预测头。",
+      "recommend_reason_zh": null,
+      "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-20T08:39:35Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_15c006960724",
       "story_id": "story_15c006960724",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-20T08:39:22.185006Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_f11f4a87deef",
