@@ -6,11 +6,27 @@
   "item_count": 4,
   "listed_count": 4,
   "recent_item_count": 4,
-  "latest_title": "OpenAI 分享 GPT-6.2 Astra 和 Sol 的新提示技巧，以修复简短的答案和不必要的问题",
-  "latest_published_at": "2026-11-21T13:32:35Z",
+  "latest_title": "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍",
+  "latest_published_at": "2026-11-21T16:24:26Z",
   "items_url": "data/topics/reasoning.json",
-  "generated_at": "2026-11-21T13:40:33.858189Z",
+  "generated_at": "2026-11-21T18:06:08.567691Z",
   "items": [
+    {
+      "id": "story_1b3773697ee1",
+      "story_id": "story_1b3773697ee1",
+      "title": "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍",
+      "title_zh": "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍",
+      "title_en": "New NVIDIA paper finds that once an LLM has reasoned through a problem, the solution can run as CPU code for rephrased and re-numbered ve...",
+      "url": "https://x.com/rohanpaul_ai/status/2124177125247013266",
+      "summary": "NVIDIA 论文提出 Agentic Reasoning Caching（CPU-ARC），让 LLM 把推理轨迹转成可执行代码，改写措辞或更换数字的变体问题可直接在 CPU 上复用，类似问题成本降低 16 到 291 倍。",
+      "recommend_reason_zh": null,
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-21T16:24:26Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_e6df992e7f2f",
       "story_id": "story_e6df992e7f2f",
@@ -56,22 +72,6 @@
       "source_name": "Curated Media",
       "site_id": "curated_media",
       "published_at": "2026-11-20T20:31:50Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_04750961f8c9",
-      "story_id": "story_04750961f8c9",
-      "title": "Stanford 等机构论文：27B 开源模型可无训练自行改写权重",
-      "title_zh": "Stanford 等机构论文：27B 开源模型可无训练自行改写权重",
-      "title_en": "New Stanford+other top labs paper finds that a 27B open model can improve itself by editing its own weights through reasoning, with no tr...",
-      "url": "https://x.com/rohanpaul_ai/status/2123828039276773655",
-      "summary": "Stanford、UIUC 等机构的论文提出自改写方法，Qwen3.5-27B 在梯度被封锁的条件下，比较答完题与耗尽 token 答案的隐藏状态并削弱分离两者的方向，自行改写权重。 该改动使 490 道未见题目的准确率从 57.2% 升至 63.8%，测试提前固定；2B 模型未做改动，4B 和 9B 模型则改坏了自身。",
-      "recommend_reason_zh": null,
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-20T17:17:18Z",
       "source_count": 1,
       "curated": true
     }

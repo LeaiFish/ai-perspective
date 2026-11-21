@@ -4,55 +4,56 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-21T13:40:33.858189Z",
+  "generated_at": "2026-11-21T18:06:08.567691Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
-  "story_count": 2274,
-  "unique_story_count": 2199,
+  "story_count": 2453,
+  "unique_story_count": 2238,
   "counts": {
     "by_company_topic": {
-      "anthropic": 387,
-      "apple": 30,
-      "cursor": 9,
-      "deepseek": 42,
-      "doubao": 20,
-      "google-gemini": 261,
+      "anthropic": 421,
+      "apple": 33,
+      "cursor": 11,
+      "deepseek": 45,
+      "doubao": 22,
+      "google-gemini": 279,
       "huggingface": 33,
       "hunyuan": 16,
-      "kimi": 14,
-      "meta-llama": 18,
+      "kimi": 15,
+      "meta-llama": 20,
       "microsoft": 39,
       "minimax": 6,
-      "nvidia": 181,
-      "openai": 308,
-      "openrouter": 10,
+      "nvidia": 186,
+      "openai": 327,
+      "openrouter": 11,
       "perplexity": 15,
-      "qwen": 19,
+      "qwen": 20,
       "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 410,
-      "monetization": 107,
-      "product-entry": 73,
-      "workplace": 79
+      "agent-ecosystem": 445,
+      "monetization": 115,
+      "product-entry": 81,
+      "workplace": 81
     },
     "by_importance_label": {
-      "值得关注": 1844,
-      "多源热议": 45,
-      "官方更新": 172,
-      "行业动态": 213
+      "值得关注": 2017,
+      "多源热议": 46,
+      "官方更新": 173,
+      "行业动态": 217
     },
     "by_source_count_bucket": {
-      "1": 2143,
-      "2": 83,
-      "3+": 48
+      "1": 2315,
+      "2": 89,
+      "3+": 49
     }
   },
   "top_stories": [
@@ -137,6 +138,19 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_7a6f884107f4",
+      "title": "如何为人工智能代理构建知识工厂 / How to build a knowledge factory for AI agents",
+      "url": "https://www.langchain.com/blog/knowledge-factory",
+      "importance_score": 0.8405,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-22",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_06c4b1df4e91",
@@ -572,21 +586,6 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_65fe65af7919",
-      "title": "控制 GitHub Copilot 自定义项的来源 / Control where GitHub Copilot customizations come from",
-      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "importance_score": 0.8091,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-17",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
       ]
     }
   ]
