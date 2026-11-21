@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-21T09:58:27.290522Z",
+  "generated_at": "2026-11-21T10:15:23.637686Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -13,15 +13,15 @@
     "2026-11-20",
     "2026-11-21"
   ],
-  "story_count": 2287,
-  "unique_story_count": 2175,
+  "story_count": 2289,
+  "unique_story_count": 2182,
   "counts": {
     "by_company_topic": {
-      "anthropic": 388,
+      "anthropic": 387,
       "apple": 33,
       "cursor": 9,
       "deepseek": 41,
-      "doubao": 21,
+      "doubao": 20,
       "google-gemini": 262,
       "huggingface": 33,
       "hunyuan": 16,
@@ -30,7 +30,7 @@
       "microsoft": 39,
       "minimax": 6,
       "nvidia": 180,
-      "openai": 310,
+      "openai": 309,
       "openrouter": 10,
       "perplexity": 15,
       "qwen": 19,
@@ -38,21 +38,21 @@
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 414,
+      "agent-ecosystem": 412,
       "monetization": 110,
       "product-entry": 76,
-      "workplace": 80
+      "workplace": 79
     },
     "by_importance_label": {
-      "值得关注": 1856,
-      "多源热议": 46,
-      "官方更新": 173,
+      "值得关注": 1860,
+      "多源热议": 45,
+      "官方更新": 172,
       "行业动态": 212
     },
     "by_source_count_bucket": {
-      "1": 2154,
+      "1": 2157,
       "2": 84,
-      "3+": 49
+      "3+": 48
     }
   },
   "top_stories": [
@@ -100,19 +100,6 @@
       ]
     },
     {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.8463,
-      "importance_label": "多源热议",
-      "source_count": 6,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_36b60329478e",
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系 / LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -122,6 +109,19 @@
       "archive_date": "2026-11-16",
       "company_topics": [
         "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.8457,
+      "importance_label": "多源热议",
+      "source_count": 6,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "anthropic"
       ],
       "lens_topics": []
     },
