@@ -3,13 +3,13 @@
   "name": "推理能力",
   "description": "模型推理与思维链：推理模型、数学/逻辑基准、test-time compute。",
   "group": "tech",
-  "item_count": 4,
-  "listed_count": 4,
-  "recent_item_count": 4,
+  "item_count": 3,
+  "listed_count": 3,
+  "recent_item_count": 3,
   "latest_title": "TML releases Inkling 2 Mini, an open-weights 26.4B-parameter transformer that loops middle layers three times per token for better reasoning with fewer tokens (Thinking Machines Lab)",
   "latest_published_at": "2026-11-20T21:15:02Z",
   "items_url": "data/topics/reasoning.json",
-  "generated_at": "2026-11-20T23:13:16.208903Z",
+  "generated_at": "2026-11-21T04:04:27.616577Z",
   "items": [
     {
       "id": "story_37737bf2c177",
@@ -56,22 +56,6 @@
       "source_name": "AI HOT",
       "site_id": "aihot",
       "published_at": "2026-11-20T17:17:18Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_ea14f48765da",
-      "story_id": "story_ea14f48765da",
-      "title": "OpenAI 说明 Responses API 中 GPT-6.2 推理项与对话历史绑定的新机制",
-      "title_zh": "OpenAI 说明 Responses API 中 GPT-6.2 推理项与对话历史绑定的新机制",
-      "title_en": "Agents using GPT-6.2 in the Responses API can build on earlier reasoning to deliver better results with fewer tokens and more cache hits.",
-      "url": "https://x.com/OpenAIDevs/status/2123566018866151579",
-      "summary": "OpenAI 介绍使用 GPT-6.2 的 Agent 在 Responses API 中可复用先前推理，以更少 token 和更多缓存命中获得更好结果。 从最新前沿模型开始，每个推理项与此前对话历史绑定，编辑较早消息会导致 API 丢弃该变更之后的推理。",
-      "recommend_reason_zh": null,
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-19T23:56:07Z",
       "source_count": 1,
       "curated": true
     }

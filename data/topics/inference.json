@@ -3,14 +3,30 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 4,
-  "listed_count": 4,
-  "recent_item_count": 4,
-  "latest_title": "70B 权重开放前，腾讯先给 Hy4 做了次“安全体检”",
-  "latest_published_at": "2026-11-20T08:39:22.185006Z",
+  "item_count": 3,
+  "listed_count": 3,
+  "recent_item_count": 3,
+  "latest_title": "[推广] Claude 官方订阅全套代开与本地部署服务（Pro / Max / Ultra，可选包封号方案）",
+  "latest_published_at": "2026-11-21T03:51:12Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-20T23:13:16.208903Z",
+  "generated_at": "2026-11-21T04:04:27.616577Z",
   "items": [
+    {
+      "id": "story_866756657708",
+      "story_id": "story_866756657708",
+      "title": "[推广] Claude 官方订阅全套代开与本地部署服务（Pro / Max / Ultra，可选包封号方案）",
+      "title_zh": "[推广] Claude 官方订阅全套代开与本地部署服务（Pro / Max / Ultra，可选包封号方案）",
+      "title_en": null,
+      "url": "https://www.v2ex.com/t/1258719",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "site_id": "iris",
+      "published_at": "2026-11-21T03:51:12Z",
+      "source_count": 1,
+      "curated": false
+    },
     {
       "id": "story_15c006960724",
       "story_id": "story_15c006960724",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-20T08:39:22.185006Z",
       "source_count": 1,
-      "curated": false
+      "curated": true
     },
     {
       "id": "story_f11f4a87deef",
@@ -42,38 +58,6 @@
       "published_at": "2026-11-20T08:39:22.185006Z",
       "source_count": 1,
       "curated": false
-    },
-    {
-      "id": "story_ceefbdd26362",
-      "story_id": "story_ceefbdd26362",
-      "title": "Apple 被曝开发可操作 Mac 的 AI 智能体，同时收紧第三方智能体权限",
-      "title_zh": "Apple 被曝开发可操作 Mac 的 AI 智能体，同时收紧第三方智能体权限",
-      "title_en": "Apple may be developing its own AI agent that runs your Mac",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
-      "summary": "这家 iPhone 制造商似乎正在打造能够与 Meta Muse、Instinct、Claude 和 OpenAI Dots 等公司竞争的代理。",
-      "recommend_reason_zh": null,
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-20T00:56:01Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_76e44fc44451",
-      "story_id": "story_76e44fc44451",
-      "title": "Inkling 2 Mini on vLLM: Day-0 Support for a Looped Model",
-      "title_zh": null,
-      "title_en": "Inkling 2 Mini on vLLM: Day-0 Support for a Looped Model",
-      "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini",
-      "summary": "vLLM supports Thinking Machines' Inkling 2 Mini from day 0: a looped MoE that runs its middle layers three times, with per-pass KV caches, gated messages between passes, fused kernels and DSpark speculative decoding.",
-      "recommend_reason_zh": null,
-      "source": "vLLM Blog",
-      "source_name": "vLLM Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-20T00:00:00Z",
-      "source_count": 1,
-      "curated": true
     }
   ]
 }

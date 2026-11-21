@@ -3,13 +3,13 @@
   "name": "开源生态",
   "description": "开源模型、框架与仓库：权重开放、社区爆火、开源与闭源消长。",
   "group": "tech",
-  "item_count": 20,
-  "listed_count": 20,
-  "recent_item_count": 20,
+  "item_count": 17,
+  "listed_count": 17,
+  "recent_item_count": 17,
   "latest_title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
   "latest_published_at": "2026-11-20T20:56:44.042000Z",
   "items_url": "data/topics/open-source.json",
-  "generated_at": "2026-11-20T23:13:16.208903Z",
+  "generated_at": "2026-11-21T04:04:27.616577Z",
   "items": [
     {
       "id": "story_f28d3a2845c6",
@@ -56,22 +56,6 @@
       "source_name": "NewsNow",
       "site_id": "newsnow",
       "published_at": "2026-11-20T19:01:40.617000Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_96c536788eac",
-      "story_id": "story_96c536788eac",
-      "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "title_zh": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "title_en": null,
-      "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "InfoQ CN",
-      "source_name": "OPML RSS",
-      "site_id": "opmlrss",
-      "published_at": "2026-11-20T18:19:11Z",
       "source_count": 1,
       "curated": false
     },
@@ -153,6 +137,22 @@
       "site_id": "aibase",
       "published_at": "2026-11-20T10:32:50.094925Z",
       "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_96c536788eac",
+      "story_id": "story_96c536788eac",
+      "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
+      "title_zh": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
+      "title_en": null,
+      "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "InfoQ CN",
+      "source_name": "OPML RSS",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-20T10:19:11Z",
+      "source_count": 1,
       "curated": false
     },
     {
@@ -233,7 +233,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-20T08:39:22.185006Z",
       "source_count": 1,
-      "curated": false
+      "curated": true
     },
     {
       "id": "story_f11f4a87deef",
@@ -280,54 +280,6 @@
       "source_name": "AI HOT",
       "site_id": "aihot",
       "published_at": "2026-11-20T06:41:45.466000Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_b636922a3055",
-      "story_id": "story_b636922a3055",
-      "title": "腾讯混元开放 Hy4 权重",
-      "title_zh": "腾讯混元开放 Hy4 权重",
-      "title_en": "Today, we’re releasing the open weights for Hy4.",
-      "url": "https://x.com/TencentHunyuan/status/2123625549147070538",
-      "summary": "腾讯混元发布 Hy4 开放权重，定位原生多模态旗舰 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。 同步发布含安全评估报告的 Hy4 System Card，并提供 GitHub、Hugging Face 权重与 GGUF 下载链接，团队将于本周五 8–10 AM PT 在 r/LocalLLaMA 举行 AMA。",
-      "recommend_reason_zh": null,
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-20T03:52:40Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_70a8c3e2036f",
-      "story_id": "story_70a8c3e2036f",
-      "title": "人类竞争对手表示，公司（大部分）可以跳过昂贵的型号",
-      "title_zh": "人类竞争对手表示，公司（大部分）可以跳过昂贵的型号",
-      "title_en": "Anthropic rival says companies can (mostly) skip the pricey models",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
-      "summary": "在 Anthropic 进行有记录以来最大规模 IPO 的同一天，远在赫尔辛基举行的 Slush 初创公司会议上，投资者对人工智能实验室的热情达到了顶峰，当日的主题是开源一切。这是 Fireworks AI 等公司正在追逐的巨大机遇，因为企业正在寻求避免为其人工智能需求支付前沿价格的方法。 Fireworks 为其他企业运行人工智能模型。",
-      "recommend_reason_zh": null,
-      "source": "TechCrunch",
-      "source_name": "TechURLs",
-      "site_id": "techurls",
-      "published_at": "2026-11-20T00:26:03Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_4cb47a4337cf",
-      "story_id": "story_4cb47a4337cf",
-      "title": "Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini",
-      "title_zh": "Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini",
-      "title_en": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "summary": "我们正在通过开源和开放科学推进人工智能并使之民主化。",
-      "recommend_reason_zh": null,
-      "source": "Hugging Face Blog",
-      "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-20T00:00:00Z",
       "source_count": 1,
       "curated": true
     }

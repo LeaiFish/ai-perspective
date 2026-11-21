@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-20T23:13:16.208903Z",
+  "generated_at": "2026-11-21T04:04:27.616577Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -13,46 +13,46 @@
     "2026-11-20",
     "2026-11-21"
   ],
-  "story_count": 2341,
-  "unique_story_count": 2124,
+  "story_count": 2296,
+  "unique_story_count": 2147,
   "counts": {
     "by_company_topic": {
-      "anthropic": 394,
-      "apple": 35,
+      "anthropic": 388,
+      "apple": 33,
       "cursor": 9,
       "deepseek": 41,
-      "doubao": 21,
-      "google-gemini": 264,
-      "huggingface": 37,
-      "hunyuan": 20,
+      "doubao": 20,
+      "google-gemini": 255,
+      "huggingface": 34,
+      "hunyuan": 18,
       "kimi": 14,
-      "meta-llama": 20,
+      "meta-llama": 18,
       "microsoft": 39,
       "minimax": 7,
-      "nvidia": 181,
-      "openai": 322,
+      "nvidia": 180,
+      "openai": 311,
       "openrouter": 10,
       "perplexity": 15,
-      "qwen": 20,
+      "qwen": 19,
       "xai": 28,
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 433,
-      "monetization": 114,
-      "product-entry": 79,
-      "workplace": 82
+      "agent-ecosystem": 421,
+      "monetization": 111,
+      "product-entry": 75,
+      "workplace": 80
     },
     "by_importance_label": {
-      "值得关注": 1853,
-      "多源热议": 47,
-      "官方更新": 187,
-      "行业动态": 254
+      "值得关注": 1844,
+      "多源热议": 46,
+      "官方更新": 173,
+      "行业动态": 233
     },
     "by_source_count_bucket": {
-      "1": 2208,
+      "1": 2164,
       "2": 83,
-      "3+": 50
+      "3+": 49
     }
   },
   "top_stories": [
@@ -113,19 +113,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.8439,
-      "importance_label": "多源热议",
-      "source_count": 4,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_00d0c660b62d",
       "title": "Meta 欢迎 Loblaw 成为 Muse 首家加拿大零售合作伙伴 / Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
       "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse",
@@ -163,6 +150,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.8333,
+      "importance_label": "多源热议",
+      "source_count": 4,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_916b3373dca3",
@@ -297,19 +297,6 @@
         "agent-ecosystem",
         "workplace"
       ]
-    },
-    {
-      "story_id": "story_070a320473bf",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "importance_score": 0.8207,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_e0cc6809540e",
@@ -555,6 +542,19 @@
       "archive_date": "2026-11-19",
       "company_topics": [
         "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_070a320473bf",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "importance_score": 0.8107,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "openai"
       ],
       "lens_topics": []
     },
