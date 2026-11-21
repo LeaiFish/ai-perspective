@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "generated_at": "2026-11-21T04:04:27.616577Z",
+  "generated_at": "2026-11-21T09:58:27.290522Z",
   "daily_dates": [
     "2026-11-16",
     "2026-11-17",
@@ -13,24 +13,24 @@
     "2026-11-20",
     "2026-11-21"
   ],
-  "story_count": 2296,
-  "unique_story_count": 2147,
+  "story_count": 2287,
+  "unique_story_count": 2175,
   "counts": {
     "by_company_topic": {
       "anthropic": 388,
       "apple": 33,
       "cursor": 9,
       "deepseek": 41,
-      "doubao": 20,
-      "google-gemini": 255,
-      "huggingface": 34,
-      "hunyuan": 18,
+      "doubao": 21,
+      "google-gemini": 262,
+      "huggingface": 33,
+      "hunyuan": 16,
       "kimi": 14,
       "meta-llama": 18,
       "microsoft": 39,
-      "minimax": 7,
+      "minimax": 6,
       "nvidia": 180,
-      "openai": 311,
+      "openai": 310,
       "openrouter": 10,
       "perplexity": 15,
       "qwen": 19,
@@ -38,20 +38,20 @@
       "zhipu": 2
     },
     "by_lens_topic": {
-      "agent-ecosystem": 421,
-      "monetization": 111,
-      "product-entry": 75,
+      "agent-ecosystem": 414,
+      "monetization": 110,
+      "product-entry": 76,
       "workplace": 80
     },
     "by_importance_label": {
-      "值得关注": 1844,
+      "值得关注": 1856,
       "多源热议": 46,
       "官方更新": 173,
-      "行业动态": 233
+      "行业动态": 212
     },
     "by_source_count_bucket": {
-      "1": 2164,
-      "2": 83,
+      "1": 2154,
+      "2": 84,
       "3+": 49
     }
   },
@@ -98,6 +98,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.8463,
+      "importance_label": "多源热议",
+      "source_count": 6,
+      "archive_date": "2026-11-21",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_36b60329478e",
@@ -150,19 +163,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.8333,
-      "importance_label": "多源热议",
-      "source_count": 4,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_916b3373dca3",
@@ -546,19 +546,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_070a320473bf",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "importance_score": 0.8107,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-21",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_41002422ce0e",
       "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
       "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
@@ -586,6 +573,19 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_6a9c07f77f11",
+      "title": "为什么代理治理从可观察性开始 / Why agent governance starts with observability",
+      "url": "https://www.langchain.com/blog/agent-governance-observability",
+      "importance_score": 0.8094,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-20",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     }
   ]
 }
