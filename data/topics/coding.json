@@ -3,13 +3,13 @@
   "name": "AI 编码",
   "description": "AI 写代码的一切：编码助手、代码模型、Vibe Coding 与开发工作流。",
   "group": "tech",
-  "item_count": 37,
-  "listed_count": 37,
-  "recent_item_count": 37,
+  "item_count": 38,
+  "listed_count": 38,
+  "recent_item_count": 38,
   "latest_title": "[程序员] 请问 cursor 套餐用完后，是充钱买 token 好，还是新开一个账户买套餐好",
   "latest_published_at": "2026-11-22T15:47:02Z",
   "items_url": "data/topics/coding.json",
-  "generated_at": "2026-11-22T18:35:38.146379Z",
+  "generated_at": "2026-11-22T22:37:17.401722Z",
   "items": [
     {
       "id": "story_29cbd48f7d99",
@@ -46,8 +46,8 @@
     {
       "id": "story_dafe4856e37c",
       "story_id": "story_dafe4856e37c",
-      "title": "Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
-      "title_zh": null,
+      "title": "显示 HN：NestDaddy Memory，ChatGPT、Claude 和 Cursor 共享的一条内存",
+      "title_zh": "显示 HN：NestDaddy Memory，ChatGPT、Claude 和 Cursor 共享的一条内存",
       "title_en": "Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
       "url": "https://nestdaddy.com/memory",
       "summary": "",
@@ -58,6 +58,22 @@
       "published_at": "2026-11-22T12:37:28Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_e4793b19a154",
+      "story_id": "story_e4793b19a154",
+      "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
+      "title_zh": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
+      "title_en": "Thanks for the detailed hands-on review! 💙 Great to see MiniCPM5-2B being used in a local-first workflow. We really appreciate you shari...",
+      "url": "https://x.com/OpenBMB/status/2124461770043785636",
+      "summary": "用户@cxjwin 分享在 Mac（M4 Pro、48GB）上用 Homebrew 装 llama.cpp 跑 minicpm5-2b、colima 起 Docker 本地运行开源项目 Mirobody 的实测：14 页 PDF 首次处理漏掉 3 页扫描版化验单，截图单独上传后 58 行化验数值逐项与原件对上，其中 20 行成功映射到 LOINC 标准编码，肌酐因名称歧义留空未猜。 问超标指标时 2B 模型走 11 步找到全部 5 项箭头指标，但把一项在范围内的血糖误判为超标。 接 Claude Code 时改用演示账号避免数据上传。",
+      "recommend_reason_zh": null,
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-22T11:15:31Z",
+      "source_count": 1,
+      "curated": true
     },
     {
       "id": "story_c26d8281b5c9",
