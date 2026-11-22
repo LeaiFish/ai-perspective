@@ -3,14 +3,30 @@
   "name": "Hugging Face",
   "description": "Hugging Face 开源社区：热门模型与数据集、排行榜、Spaces 与推理服务。",
   "group": "company",
-  "item_count": 1037,
-  "listed_count": 1037,
-  "recent_item_count": 118,
-  "latest_title": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0",
-  "latest_published_at": "2026-11-20T08:39:35Z",
+  "item_count": 1038,
+  "listed_count": 1038,
+  "recent_item_count": 116,
+  "latest_title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
+  "latest_published_at": "2026-11-21T00:00:00Z",
   "items_url": "data/topics/huggingface.json",
-  "generated_at": "2026-11-21T22:14:32.061733Z",
+  "generated_at": "2026-11-22T03:17:42.146078Z",
   "items": [
+    {
+      "id": "6904c49fef11e39abd825495a602705e3d6acf39",
+      "story_id": null,
+      "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。",
+      "recommend_reason_zh": null,
+      "source": "Together AI 研究与产品博客（RSS）",
+      "source_name": "Together AI 研究与产品博客（RSS）",
+      "site_id": "aihot",
+      "published_at": "2026-11-21T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "6e522dbaac342be94987e2ab16a8e4b2d5beee96",
       "story_id": null,
@@ -2828,7 +2844,7 @@
       "curated": true
     },
     {
-      "id": "f2c2884c9619edcc261613b03c59b425878d0bda",
+      "id": "579d4de4f855143f072f5190ef26fed3ed342f40",
       "story_id": null,
       "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
       "title_zh": null,
@@ -2838,13 +2854,13 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-09-03T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "e80bb63911575b4bdfc0cecd7003ec089331352b",
+      "id": "9c972251e6308db40304e7a09a94c8d7733e3efe",
       "story_id": null,
       "title": "给你的 Coding Agents 添上你说了算的记忆",
       "title_zh": "给你的 Coding Agents 添上你说了算的记忆",
@@ -2854,13 +2870,13 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-09-03T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
-      "id": "1d46fee4f597d8725792eef4fe9221191a315dd5",
+      "id": "3ff4882cdf7896dfa2f95ceec71413f52434f3e6",
       "story_id": null,
       "title": "通过100步GRPO微调350M模型，实现更好的结构化输出",
       "title_zh": "通过100步GRPO微调350M模型，实现更好的结构化输出",
@@ -2870,10 +2886,10 @@
       "recommend_reason_zh": null,
       "source": "Hugging Face Blog",
       "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "site_id": "opmlrss",
       "published_at": "2026-09-03T00:00:00Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "de1ce7192ad20fed3e5e56712a3742bcac26e7fd",
