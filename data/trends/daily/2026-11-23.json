@@ -1,0 +1,1082 @@
+{
+  "kind": "daily",
+  "period_start": "2026-11-22T03:14:02.091420Z",
+  "period_end": "2026-11-23T03:14:02.091420Z",
+  "source_snapshot_at": "2026-11-23T03:14:02.091420Z",
+  "input_id": "7f6f15553919013424afd862ac153ad3c735cb658a7809a92409a8cfbc362836",
+  "previous_report_id": "9194d60527f41fb5ac4df3b51430373a9b54cea7fbb4c56ddad88ce00b2907e5",
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-23T03:22:47.183115+00:00",
+  "companies": {
+    "doubao": {
+      "state": "updated",
+      "reason": "工作台、飞书组织入口和地图找店均已有记录。补入 iOS 版本所列的工作任务和购物助手入口，版本时间只用于定位说明。飞书会议更新日志的最新正文未能独立读取。",
+      "judgment": {
+        "headline": "豆包工作在个人与飞书入口接续，消费端承接找店和购物咨询",
+        "summary": "豆包 App 版本说明列出工作任务模式和买前问豆包。个人工作台可预配工具和技能，录制的电脑步骤可存为技能。飞书工作按组织与用户权限使用资料并协作。媒体报道地图找店可连接团购与导航。",
+        "evidence_ids": [
+          "doubao-workbench",
+          "doubao-map",
+          "doubao-ios-158",
+          "doubao-feishu-product",
+          "doubao-record-skills"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "个人任务可在不同设备发起和续办",
+          "summary": "豆包工作支持跨端接续，专业工作台可预配技能并分享配置。录制的电脑步骤可保存供下次复用。",
+          "evidence_ids": [
+            "doubao-workbench",
+            "doubao-feishu-product",
+            "doubao-record-skills"
+          ]
+        },
+        {
+          "headline": "飞书入口支持按权限使用资料并共编",
+          "summary": "企业管理员和原有资料权限决定可用范围，生成的文档与表格可继续协作编辑。",
+          "evidence_ids": [
+            "doubao-feishu-product"
+          ]
+        },
+        {
+          "headline": "购物咨询与找店各有入口",
+          "summary": "iOS 版本说明列出买前问豆包。媒体报道地图找店可连接团购或导航。",
+          "evidence_ids": [
+            "doubao-ios-158",
+            "doubao-map"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "豆包 App 的工作与购物入口取得 iOS 版本佐证",
+        "summary": "中国区 iOS 15.8.0 的开发者说明列出工作任务模式和买前问豆包购物助手，功能首次出现时间未确认。",
+        "evidence_ids": [
+          "doubao-ios-158"
+        ]
+      },
+      "events": [
+        {
+          "headline": "豆包 App 的工作与购物入口取得 iOS 版本佐证",
+          "summary": "中国区 iOS 15.8.0 的开发者说明列出工作任务模式和买前问豆包购物助手，功能首次出现时间未确认。",
+          "evidence_ids": [
+            "doubao-ios-158"
+          ],
+          "event_id": "doubao-ios-158-work-shopping-entries",
+          "status": "supplement"
+        }
+      ]
+    },
+    "qwen": {
+      "state": "unchanged",
+      "reason": "网页日志最新条目中的移动端项目和桌面任务详情、资料空间发布及事件触发均已覆盖。桌面日志的选模和移动交办亦已进入判断。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "hunyuan": {
+      "state": "updated",
+      "reason": "此前录音只写到生成图文纪要。本轮补入回放时定位和提问，以及同版的人像编辑入口。既有搜索与通话方向继续保留。",
+      "judgment": {
+        "headline": "元宝把录音纪要接到定位回放和内容追问",
+        "summary": "中国区 iOS 2.94.0 补上录音后精细定位进度和随时提问，同版可用模板编辑人像。独立元宝搜索通过网页与新版 QQ 浏览器覆盖网页、公众号、视频号与学术内容。",
+        "evidence_ids": [
+          "yuanbao-ios-294",
+          "yuanbao-search-nov11"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "元宝录音支持精细定位并随时追问",
+          "summary": "中国区 iOS 2.94.0 可在录音回放时更细地拖动进度，并对录音内容提问。该版同时增加基于风格模板的人像编辑。",
+          "evidence_ids": [
+            "yuanbao-ios-294"
+          ]
+        },
+        {
+          "headline": "独立元宝搜索支持追问",
+          "summary": "通过网页和新版 QQ 浏览器查询网页、公众号、视频号及学术资料。",
+          "evidence_ids": [
+            "yuanbao-search-nov11"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "元宝录音支持精细定位并随时追问",
+        "summary": "中国区 iOS 2.94.0 可在录音回放时更细地拖动进度，并对录音内容提问。该版同时增加基于风格模板的人像编辑。",
+        "evidence_ids": [
+          "yuanbao-ios-294"
+        ]
+      },
+      "events": [
+        {
+          "headline": "元宝录音支持精细定位并随时追问",
+          "summary": "中国区 iOS 2.94.0 可在录音回放时更细地拖动进度，并对录音内容提问。该版同时增加基于风格模板的人像编辑。",
+          "evidence_ids": [
+            "yuanbao-ios-294"
+          ],
+          "event_id": "yuanbao-2940-recording-qa-portrait",
+          "status": "new"
+        }
+      ]
+    },
+    "openai": {
+      "state": "updated",
+      "reason": "当前正文已覆盖 Dot 移动入口和 Health 扩展，本轮加入 Space 对成年 Plus 的分批开放及共享权限。该事件发生在本期24小时窗之前。",
+      "judgment": {
+        "headline": "ChatGPT 把随身助手与可共同维护的成果分别放进 Dot 和 Space",
+        "summary": "手机端分批推出 Dot 独立入口，Health 延伸至 Android、桌面、Dot 和 Sites。Space 向成年 Plus 用户分批开放，获授权且有资格的用户能共编页面与演示，连接工具后可设为自动更新。Wallet 仍按美国合资格账户分批提供确认后付款，Codex CLI 默认开启终端工作区。",
+        "evidence_ids": [
+          "chatgpt-space-plus",
+          "chatgpt-dot-health",
+          "chatgpt-wallet",
+          "codex-cli-0171"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "移动端和 Android Health 继续分批开放",
+          "summary": "新版手机界面可见 Dot 标签和固定入口，合资格账户可授权 Health Connect。",
+          "evidence_ids": [
+            "chatgpt-dot-health"
+          ]
+        },
+        {
+          "headline": "Space 向成年 Plus 用户分批开放",
+          "summary": "Space 支持邀请有访问资格的人继续编辑互动页面和演示，成果可依托已连接应用自动更新。查看也要求账号及权限。",
+          "evidence_ids": [
+            "chatgpt-space-plus"
+          ]
+        },
+        {
+          "headline": "支付与开发仍有专门入口",
+          "summary": "Wallet 按美国合资格账户分批提供确认后付款，Codex CLI 默认提供终端工作区。",
+          "evidence_ids": [
+            "chatgpt-wallet",
+            "codex-cli-0171"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Space 向成年 Plus 用户分批开放",
+        "summary": "Space 支持邀请有访问资格的人继续编辑互动页面和演示，成果可依托已连接应用自动更新。查看也要求账号及权限。",
+        "evidence_ids": [
+          "chatgpt-space-plus"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Space 向成年 Plus 用户分批开放",
+          "summary": "Space 支持邀请有访问资格的人继续编辑互动页面和演示，成果可依托已连接应用自动更新。查看也要求账号及权限。",
+          "evidence_ids": [
+            "chatgpt-space-plus"
+          ],
+          "event_id": "chatgpt-space-plus-rollout-nov20",
+          "status": "supplement"
+        }
+      ]
+    },
+    "anthropic": {
+      "state": "updated",
+      "reason": "表格及白板共编仍成立。上版正文已记录 Claude Code 任务查看和停止，本轮加入组织配置接入和自托管执行器工作目录。",
+      "judgment": {
+        "headline": "Claude 扩展成果共编和受组织设置约束的执行",
+        "summary": "团队可在表格和白板中共编，新版 Projects 分批测试并行云线程。Claude Code 2.1.330 支持应用企业组织设置和指定网关，自托管执行器可在指定仓库子目录开始。",
+        "evidence_ids": [
+          "claude-collab",
+          "claude-projects",
+          "claude-code-2330"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "共编与项目执行继续展开",
+          "summary": "表格和白板可共编，新版项目可将任务拆成并行云线程，目前分批测试。",
+          "evidence_ids": [
+            "claude-collab",
+            "claude-projects"
+          ]
+        },
+        {
+          "headline": "Claude Code 可沿用企业管理设置与网关",
+          "summary": "2.1.330 支持由 Anthropic 企业控制台管理的组织登录并采用组织设置和云提供方或网关，自托管执行器可指定仓库内起始目录。",
+          "evidence_ids": [
+            "claude-code-2330"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Claude Code 可沿用企业管理设置与网关",
+        "summary": "2.1.330 支持由 Anthropic 企业控制台管理的组织登录并采用组织设置和云提供方或网关，自托管执行器可指定仓库内起始目录。",
+        "evidence_ids": [
+          "claude-code-2330"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Claude Code 可沿用企业管理设置与网关",
+          "summary": "2.1.330 支持由 Anthropic 企业控制台管理的组织登录并采用组织设置和云提供方或网关，自托管执行器可指定仓库内起始目录。",
+          "evidence_ids": [
+            "claude-code-2330"
+          ],
+          "event_id": "claude-code-21330-enterprise-runner",
+          "status": "supplement"
+        }
+      ]
+    },
+    "xai": {
+      "state": "updated",
+      "reason": "重连前停跑、逐项审批和购票交接已写入。补入 X 公开帖和回复中的交办入口，官方帮助未给准确上线日。本地电脑操作与跨应用听写仍缺官方发布确认。",
+      "judgment": {
+        "headline": "Grok Bot 可从团队会话及 X 公开帖接手任务",
+        "summary": "团队可共享 Bot 并带进会话和会议。符合条件的 X 账号可在帖子或回复提及 @bot，将请求交给自己的主 Bot。连接中断时相关定时任务暂停，购票无法确认时交回链接。",
+        "evidence_ids": [
+          "grok-teams",
+          "grok-x-tag-help",
+          "grok-123"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "X 帖子可通过 @bot 交给自己的 Grok Bot",
+          "summary": "用户在帖子或回复中提及 @bot，请求转给自己的主 Bot，后续在 Grok Bot 内跟进。需已关联 X 账号并满足地区和账户条件。",
+          "evidence_ids": [
+            "grok-x-tag-help"
+          ]
+        },
+        {
+          "headline": "团队协作与失联后恢复",
+          "summary": "Bot 可进入团队会话和会议。逐工具设定权限，连接失效时暂停有关定时任务。",
+          "evidence_ids": [
+            "grok-teams",
+            "grok-123"
+          ]
+        },
+        {
+          "headline": "购票失败可交回链接",
+          "summary": "无法确认航司是否完成购买时交回链接供用户继续。",
+          "evidence_ids": [
+            "grok-123"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "X 帖子可通过 @bot 交给自己的 Grok Bot",
+        "summary": "用户在帖子或回复中提及 @bot，请求转给自己的主 Bot，后续在 Grok Bot 内跟进。需已关联 X 账号并满足地区和账户条件。",
+        "evidence_ids": [
+          "grok-x-tag-help"
+        ]
+      },
+      "events": [
+        {
+          "headline": "X 帖子可通过 @bot 交给自己的 Grok Bot",
+          "summary": "用户在帖子或回复中提及 @bot，请求转给自己的主 Bot，后续在 Grok Bot 内跟进。需已关联 X 账号并满足地区和账户条件。",
+          "evidence_ids": [
+            "grok-x-tag-help"
+          ],
+          "event_id": "grok-bot-x-tag-handoff",
+          "status": "supplement"
+        }
+      ]
+    },
+    "google-gemini": {
+      "state": "updated",
+      "reason": "后台电脑操作已入正文，新增可直接分享的短 GIF 产物及地区限制。帮助页无首发日期，列为补证。",
+      "judgment": {
+        "headline": "Gemini 同时扩大桌面执行与可分享的生成成果",
+        "summary": "Mac 应用在独立窗口操作经授权的文件、应用和网页，美国英语向合资格 AI Plus、Pro 和 Ultra 成年用户分批开放。Gemini Apps 另在八个市场向符合条件的账户分批提供约三秒的循环 GIF，可复制或下载分享。Notebook 站点仍按个人保存输入。",
+        "evidence_ids": [
+          "gemini-mac-computer-use",
+          "gemini-gif-help",
+          "gemini-notebook"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "Gemini Mac 可在后台代操作",
+          "summary": "美国英语向合资格成年个人账号分批开放，可在独立窗口操作经授权的文件、应用和网页。",
+          "evidence_ids": [
+            "gemini-mac-computer-use"
+          ]
+        },
+        {
+          "headline": "Notebook 将资料转成互动站点",
+          "summary": "具有编辑权限的用户可生成站点，访客只看到各自输入。",
+          "evidence_ids": [
+            "gemini-notebook"
+          ]
+        },
+        {
+          "headline": "Gemini Apps 在八个市场分批开放短 GIF",
+          "summary": "可用文字、图片或视频生成约三秒的循环 GIF，再复制、下载或分享。符合条件的账户分批获得。",
+          "evidence_ids": [
+            "gemini-gif-help"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Gemini Apps 在八个市场分批开放短 GIF",
+        "summary": "可用文字、图片或视频生成约三秒的循环 GIF，再复制、下载或分享。符合条件的账户分批获得。",
+        "evidence_ids": [
+          "gemini-gif-help"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Gemini Apps 在八个市场分批开放短 GIF",
+          "summary": "可用文字、图片或视频生成约三秒的循环 GIF，再复制、下载或分享。符合条件的账户分批获得。",
+          "evidence_ids": [
+            "gemini-gif-help"
+          ],
+          "event_id": "gemini-apps-short-gif-rollout",
+          "status": "supplement"
+        }
+      ]
+    },
+    "meta-llama": {
+      "state": "updated",
+      "reason": "此前判断已有邮件和地区门店交易，本轮纳入个人 Chrome 侧栏及标签组、接管和审批条件。商店更新日仅用于佐证上架版本。Marketplace 新拍照上架流程原帖未能读取，保留为后续核验线索。",
+      "judgment": {
+        "headline": "Muse 接到独立邮箱、个人 Chrome 和地区交易",
+        "summary": "用户可将选中的邮件转发给 Muse 的独立地址并审核外发，也可从 Chrome 侧栏让 Muse 在独立标签组操作，在关键步骤确认或接管。加拿大合作商家可选店、组篮并在确认后结账。",
+        "evidence_ids": [
+          "muse-mail-help",
+          "muse-chrome-store",
+          "muse-browser-help",
+          "muse-loblaw"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "Muse 可从个人 Chrome 侧栏交办网页任务",
+          "summary": "Muse 通过单独的标签组浏览。用户可观察、暂停接管或终止任务，并为购买等关键步骤确认。",
+          "evidence_ids": [
+            "muse-chrome-store",
+            "muse-browser-help"
+          ]
+        },
+        {
+          "headline": "独立邮箱可接收选定邮件",
+          "summary": "用户可转发选中的邮件交办并审核外发。",
+          "evidence_ids": [
+            "muse-mail-help"
+          ]
+        },
+        {
+          "headline": "加拿大合作零售商可在 Muse 结账",
+          "summary": "参与品牌支持组篮及确认后结账。",
+          "evidence_ids": [
+            "muse-loblaw"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Muse 可从个人 Chrome 侧栏交办网页任务",
+        "summary": "Muse 通过单独的标签组浏览。用户可观察、暂停接管或终止任务，并为购买等关键步骤确认。",
+        "evidence_ids": [
+          "muse-chrome-store",
+          "muse-browser-help"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Muse 可从个人 Chrome 侧栏交办网页任务",
+          "summary": "Muse 通过单独的标签组浏览。用户可观察、暂停接管或终止任务，并为购买等关键步骤确认。",
+          "evidence_ids": [
+            "muse-chrome-store",
+            "muse-browser-help"
+          ],
+          "event_id": "muse-chrome-sidebar-browser-control",
+          "status": "supplement"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "doubao-workbench",
+      "url": "https://www.ithome.com/1/027/608.htm",
+      "title": "豆包工作专业工作台",
+      "source": "IT之家",
+      "published_at": "2026-11-16T12:27:33+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "报道列出首批预设工具、可自建和分享的工作台。"
+    },
+    {
+      "id": "doubao-map",
+      "url": "https://www.donews.com/news/detail/8/6772262.html",
+      "title": "豆包找店接入地图和团购",
+      "source": "DoNews",
+      "published_at": "2026-11-16T08:58:20+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "转述读佳，首次生效日期和地区未明确。"
+    },
+    {
+      "id": "doubao-ios-158",
+      "url": "https://itunes.apple.com/lookup?id=6459478672&country=cn",
+      "title": "豆包中国区 iOS 15.8.0 版本说明",
+      "source": "豆包（App Store）",
+      "published_at": "2026-11-16T07:51:13Z",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "开发者列出工作任务模式和买前问豆包；UTC 时间为当前 iOS 版本发布时刻，功能首次上线时间未核。"
+    },
+    {
+      "id": "doubao-feishu-product",
+      "url": "https://www.feishu.cn/content/article/7677519271848610746",
+      "title": "飞书说明豆包工作与工作伙伴的入口与条件",
+      "source": "飞书",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "业务任务和文件可跨端接续，企业资料和入口受账号、管理员和资源权限控制。"
+    },
+    {
+      "id": "doubao-record-skills",
+      "url": "https://www.ithome.com/1/018/860.htm",
+      "title": "豆包工作将录制的电脑操作保存为技能",
+      "source": "IT之家",
+      "published_at": "2026-10-28T12:00:26+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体原文描述录制、保存和复用，以及开启设置后手机向锁屏 Mac 交办。"
+    },
+    {
+      "id": "qwen-project-mobile",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-19",
+      "title": "千问办公手机首页选建项目",
+      "source": "千问办公",
+      "published_at": "2026-11-19",
+      "event_at": "2026-11-19",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "同时列出未完成同步的桌面任务详情与鸿蒙钉钉产物打开修复。"
+    },
+    {
+      "id": "qwen-html",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-13",
+      "title": "资料空间可发布 HTML",
+      "source": "千问办公",
+      "published_at": "2026-11-13",
+      "event_at": "2026-11-13",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "网页端日志列出由资料空间直接发布流程。"
+    },
+    {
+      "id": "qwen-task-trigger",
+      "url": "https://docs.qwenwork.cn/release-notes/web#2026-11-09",
+      "title": "千问办公事件触发与手机远程交办",
+      "source": "千问办公",
+      "published_at": "2026-11-09",
+      "event_at": "2026-11-09",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "可按消息、审批或待办触发。手机远控需目标电脑和管理员策略允许。"
+    },
+    {
+      "id": "yuanbao-ios-294",
+      "url": "https://itunes.apple.com/lookup?id=6480446430&country=cn",
+      "title": "元宝中国区 iOS 2.94.0 版本说明",
+      "source": "腾讯元宝（App Store）",
+      "published_at": "2026-11-22T11:05:20Z",
+      "event_at": "2026-11-22T11:05:20Z",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "开发者版本说明和 Apple 当前版本 UTC 时间，仅核中国区 iOS。"
+    },
+    {
+      "id": "yuanbao-search-nov11",
+      "url": "https://cloud.tencent.com/developer/article/2781917",
+      "title": "元宝搜索的网页和 QQ 浏览器入口",
+      "source": "腾讯云开发者社区",
+      "published_at": "2026-11-11T22:01:10+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "社区转载发布说明，列出独立网页和新版 QQ 浏览器入口。"
+    },
+    {
+      "id": "chatgpt-space-plus",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Space 开始面向成年 Plus 分批推出",
+      "source": "OpenAI",
+      "published_at": "2026-11-20",
+      "event_at": "2026-11-20",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "发布日志条目日期。共享页和演示要求查看权限、账号登录及 Space 访问资格，暂不提供公开链接。"
+    },
+    {
+      "id": "chatgpt-dot-health",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT 手机端入口和 Health 扩展",
+      "source": "OpenAI",
+      "published_at": "2026-11-19",
+      "event_at": "2026-11-19",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "新版导航先从符合条件的 Pro 和小范围 Plus 用户推出，Health 按计划和地区分批。"
+    },
+    {
+      "id": "chatgpt-wallet",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Wallet 开放条件",
+      "source": "OpenAI",
+      "published_at": "2026-11-13",
+      "event_at": "2026-11-13",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国成年 Pro、合资格美国支付卡和账单地址，支付前须确认。"
+    },
+    {
+      "id": "codex-cli-0171",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "title": "Codex CLI 0.171.0 终端工作区",
+      "source": "OpenAI",
+      "published_at": "2026-11-20T00:44:47Z",
+      "event_at": "2026-11-20T00:44:47Z",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "发布说明列出默认终端工作区及预览等功能。"
+    },
+    {
+      "id": "claude-code-2330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "title": "Claude Code 2.1.330 版本说明",
+      "source": "Anthropic",
+      "published_at": "2026-11-20T22:32:56Z",
+      "event_at": "2026-11-20T22:32:56Z",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "发布记录及 GitHub API 时间。企业登录沿用组织设置与网关，自托管执行器可指定仓库内工作位置。"
+    },
+    {
+      "id": "claude-collab",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "title": "Claude 表格、白板及交互式连接器",
+      "source": "Anthropic",
+      "published_at": "2026-11-10",
+      "event_at": "2026-11-10",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "表格和白板支持协作，具体外部连接器有各自开放条件。"
+    },
+    {
+      "id": "claude-projects",
+      "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+      "title": "Claude 项目并行云线程帮助",
+      "source": "Anthropic",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "新版项目从 Claude Code 分批测试，符合条件的部分账户可用。"
+    },
+    {
+      "id": "grok-123",
+      "url": "https://x.ai/changelog/bot#v1.2.3",
+      "title": "Grok Bot 1.2.3 权限、重连及订票",
+      "source": "SpaceXSI",
+      "published_at": "2026-11-18",
+      "event_at": "2026-11-18",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "合并日志包含 1.2.1 和 1.2.2，公开条目仅有日期。"
+    },
+    {
+      "id": "grok-x-tag-help",
+      "url": "https://docs.x.ai/grok-bot/tag-on-x",
+      "title": "Grok Bot 通过 X 提及接单",
+      "source": "SpaceXSI",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "需连接同一 Grok/X 账号、拥有自己的 Bot 并位于支持地区。帮助页未注明首发日期。"
+    },
+    {
+      "id": "grok-teams",
+      "url": "https://x.ai/news/grok-bot-1-0",
+      "title": "Grok Bot 1.0 扩展团队协作与会议",
+      "source": "SpaceXSI",
+      "published_at": "2026-11-02",
+      "event_at": "2026-11-02",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "团队可共享 Bot 并带入 Slack、Teams 和视频会议。"
+    },
+    {
+      "id": "gemini-mac-computer-use",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "title": "Gemini Mac 后台电脑操作",
+      "source": "Google",
+      "published_at": "2026-11-19T17:00:00Z",
+      "event_at": "2026-11-19T17:00:00Z",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国英语分批，面向合资格成年个人账户与 Apple 芯片 Mac。"
+    },
+    {
+      "id": "gemini-gif-help",
+      "url": "https://support.google.com/gemini/answer/16126339",
+      "title": "Gemini Apps GIF 生成帮助",
+      "source": "Google",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "帮助页列出八个地区与分批开放条件，无首发日期。"
+    },
+    {
+      "id": "gemini-notebook",
+      "url": "https://support.google.com/gemininotebook/answer/18945748?hl=en",
+      "title": "Gemini Notebook 站点访问与输入",
+      "source": "Google",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "生成需编辑权限；读者只能查看自己的站点输入。"
+    },
+    {
+      "id": "muse-chrome-store",
+      "url": "https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd",
+      "title": "Muse Chrome 商店页面",
+      "source": "Meta（Chrome 应用商店）",
+      "published_at": "2026-11-21",
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "日期为商店所示 2.1.12 更新日，不能定位侧栏首次上线。"
+    },
+    {
+      "id": "muse-browser-help",
+      "url": "https://www.meta.com/en-gb/help/superintelligence/2124746764949121/",
+      "title": "Muse 浏览器操作帮助",
+      "source": "Meta",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "帮助页确认侧栏通过独立标签组浏览，可观察、接管及审批关键动作。"
+    },
+    {
+      "id": "muse-loblaw",
+      "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+      "title": "加拿大 Muse 和 Loblaw 零售合作",
+      "source": "Meta",
+      "published_at": "2026-11-18T14:07:00Z",
+      "event_at": "2026-11-18T14:07:00Z",
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "适用加拿大合作品牌，购买需确认。"
+    },
+    {
+      "id": "muse-mail-help",
+      "url": "https://www.meta.com/help/superintelligence/1149305437517250/",
+      "title": "Muse Mail 独立地址",
+      "source": "Meta",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-23T03:22:47.183115+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "选定邮件可转发至独立地址，外发可审核。"
+    }
+  ],
+  "overview": {
+    "reason": "保留工作触发、成果维护和消费交易三条方向，补入 Muse 的浏览器接管与 ChatGPT Space 的共编开放范围。",
+    "lead": "工作助手从任务触发走到桌面和浏览器，用户可以确认关键操作。交付的页面、演示和表格可以由获准的人一起维护。",
+    "themes": [
+      {
+        "headline": "助手可按工作事件接活，也能代操作电脑或浏览器",
+        "summary": "千问办公可按消息、审批或待办触发任务，也支持从手机交办。Gemini Mac 能在后台窗口操作应用，Muse 可在个人 Chrome 的独立标签组行动。关键环节由使用者确认或接管。",
+        "evidence_ids": [
+          "qwen-task-trigger",
+          "gemini-mac-computer-use",
+          "muse-browser-help"
+        ],
+        "company_ids": [
+          "qwen",
+          "google-gemini",
+          "meta-llama"
+        ]
+      },
+      {
+        "headline": "成果可以交给他人续编，也可以定期更新",
+        "summary": "千问办公可将资料空间里的 HTML 发布成网页，Claude 的表格和白板可共编，ChatGPT Space 分批向成年 Plus 用户开放，获准的人可续编页面与演示。Gemini Notebook 的互动站点分别保存各人的输入。",
+        "evidence_ids": [
+          "qwen-html",
+          "claude-collab",
+          "chatgpt-space-plus",
+          "gemini-notebook"
+        ],
+        "company_ids": [
+          "qwen",
+          "anthropic",
+          "openai",
+          "google-gemini"
+        ]
+      },
+      {
+        "headline": "消费助手把搜索结果接到交易确认",
+        "summary": "据报道，豆包地图找店连接团购或导航。加拿大 Muse 对合作品牌提供组篮和结账，Grok Bot 无法确认购票结果时会交回链接，ChatGPT Wallet 在美国向合资格用户分批提供确认后付款。",
+        "evidence_ids": [
+          "doubao-map",
+          "muse-loblaw",
+          "grok-123",
+          "chatgpt-wallet"
+        ],
+        "company_ids": [
+          "doubao",
+          "meta-llama",
+          "xai",
+          "openai"
+        ]
+      }
+    ]
+  },
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "continued",
+        "reason": "工作台、飞书组织入口和地图找店均已有记录。补入 iOS 版本所列的工作任务和购物助手入口，版本时间只用于定位说明。飞书会议更新日志的最新正文未能独立读取。",
+        "evidence_ids": [
+          "doubao-workbench",
+          "doubao-map",
+          "doubao-ios-158",
+          "doubao-feishu-product",
+          "doubao-record-skills"
+        ],
+        "signals": [],
+        "content_review": {
+          "decision": "revised",
+          "reason": "工作台、飞书组织入口和地图找店均已有记录。补入 iOS 版本所列的工作任务和购物助手入口，版本时间只用于定位说明。飞书会议更新日志的最新正文未能独立读取。",
+          "event_ids": [
+            "doubao-ios-158-work-shopping-entries"
+          ]
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "网页日志最新条目中的移动端项目和桌面任务详情、资料空间发布及事件触发均已覆盖。桌面日志的选模和移动交办亦已进入判断。",
+        "evidence_ids": [
+          "qwen-project-mobile",
+          "qwen-html",
+          "qwen-task-trigger"
+        ],
+        "signals": [],
+        "content_review": {
+          "decision": "retained",
+          "reason": "网页日志最新条目中的移动端项目和桌面任务详情、资料空间发布及事件触发均已覆盖。桌面日志的选模和移动交办亦已进入判断。",
+          "event_ids": []
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "此前录音只写到生成图文纪要。本轮补入回放时定位和提问，以及同版的人像编辑入口。既有搜索与通话方向继续保留。",
+        "evidence_ids": [
+          "yuanbao-ios-294",
+          "yuanbao-search-nov11"
+        ],
+        "signals": [
+          {
+            "direction_id": "personal-context",
+            "type": "continued",
+            "summary": "中国区 iOS 2.94.0 可在录音回放时更细地拖动进度，并对录音内容提问。该版同时增加基于风格模板的人像编辑。",
+            "stage": "available",
+            "evidence_ids": [
+              "yuanbao-ios-294"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "此前录音只写到生成图文纪要。本轮补入回放时定位和提问，以及同版的人像编辑入口。既有搜索与通话方向继续保留。",
+          "event_ids": [
+            "yuanbao-2940-recording-qa-portrait"
+          ]
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "当前正文已覆盖 Dot 移动入口和 Health 扩展，本轮加入 Space 对成年 Plus 的分批开放及共享权限。该事件发生在本期24小时窗之前。",
+        "evidence_ids": [
+          "chatgpt-space-plus",
+          "chatgpt-dot-health",
+          "chatgpt-wallet",
+          "codex-cli-0171"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "Space 支持邀请有访问资格的人继续编辑互动页面和演示，成果可依托已连接应用自动更新。查看也要求账号及权限。",
+            "stage": "available",
+            "evidence_ids": [
+              "chatgpt-space-plus"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "当前正文已覆盖 Dot 移动入口和 Health 扩展，本轮加入 Space 对成年 Plus 的分批开放及共享权限。该事件发生在本期24小时窗之前。",
+          "event_ids": [
+            "chatgpt-space-plus-rollout-nov20"
+          ]
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "表格及白板共编仍成立。上版正文已记录 Claude Code 任务查看和停止，本轮加入组织配置接入和自托管执行器工作目录。",
+        "evidence_ids": [
+          "claude-code-2330",
+          "claude-collab",
+          "claude-projects"
+        ],
+        "signals": [
+          {
+            "direction_id": "enterprise-rollout",
+            "type": "continued",
+            "summary": "2.1.330 支持由 Anthropic 企业控制台管理的组织登录并采用组织设置和云提供方或网关，自托管执行器可指定仓库内起始目录。",
+            "stage": "available",
+            "evidence_ids": [
+              "claude-code-2330"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "表格及白板共编仍成立。上版正文已记录 Claude Code 任务查看和停止，本轮加入组织配置接入和自托管执行器工作目录。",
+          "event_ids": [
+            "claude-code-21330-enterprise-runner"
+          ]
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "重连前停跑、逐项审批和购票交接已写入。补入 X 公开帖和回复中的交办入口，官方帮助未给准确上线日。本地电脑操作与跨应用听写仍缺官方发布确认。",
+        "evidence_ids": [
+          "grok-123",
+          "grok-x-tag-help",
+          "grok-teams"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "用户在帖子或回复中提及 @bot，请求转给自己的主 Bot，后续在 Grok Bot 内跟进。需已关联 X 账号并满足地区和账户条件。",
+            "stage": "available",
+            "evidence_ids": [
+              "grok-x-tag-help"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "重连前停跑、逐项审批和购票交接已写入。补入 X 公开帖和回复中的交办入口，官方帮助未给准确上线日。本地电脑操作与跨应用听写仍缺官方发布确认。",
+          "event_ids": [
+            "grok-bot-x-tag-handoff"
+          ]
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "后台电脑操作已入正文，新增可直接分享的短 GIF 产物及地区限制。帮助页无首发日期，列为补证。",
+        "evidence_ids": [
+          "gemini-mac-computer-use",
+          "gemini-gif-help",
+          "gemini-notebook"
+        ],
+        "signals": [],
+        "content_review": {
+          "decision": "revised",
+          "reason": "后台电脑操作已入正文，新增可直接分享的短 GIF 产物及地区限制。帮助页无首发日期，列为补证。",
+          "event_ids": [
+            "gemini-apps-short-gif-rollout"
+          ]
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "此前判断已有邮件和地区门店交易，本轮纳入个人 Chrome 侧栏及标签组、接管和审批条件。商店更新日仅用于佐证上架版本。Marketplace 新拍照上架流程原帖未能读取，保留为后续核验线索。",
+        "evidence_ids": [
+          "muse-chrome-store",
+          "muse-browser-help",
+          "muse-loblaw",
+          "muse-mail-help"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "Muse 通过单独的标签组浏览。用户可观察、暂停接管或终止任务，并为购买等关键步骤确认。",
+            "stage": "available",
+            "evidence_ids": [
+              "muse-chrome-store",
+              "muse-browser-help"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "此前判断已有邮件和地区门店交易，本轮纳入个人 Chrome 侧栏及标签组、接管和审批条件。商店更新日仅用于佐证上架版本。Marketplace 新拍照上架流程原帖未能读取，保留为后续核验线索。",
+          "event_ids": [
+            "muse-chrome-sidebar-browser-control"
+          ]
+        }
+      }
+    },
+    "overview": [
+      {
+        "direction_id": "ongoing-assistance",
+        "type": "continued",
+        "reason": "持续任务和后台操作方向延续，补入个人浏览器侧栏与接管入口。",
+        "evidence_ids": [
+          "qwen-task-trigger",
+          "gemini-mac-computer-use",
+          "muse-browser-help"
+        ]
+      },
+      {
+        "direction_id": "shared-deliverables",
+        "type": "continued",
+        "reason": "Space 扩大可创建和共同维护页面的账户范围，共享仍有账号和权限条件。",
+        "evidence_ids": [
+          "qwen-html",
+          "claude-collab",
+          "chatgpt-space-plus",
+          "gemini-notebook"
+        ]
+      },
+      {
+        "direction_id": "commercialization",
+        "type": "continued",
+        "reason": "门店、商品或航班通向交易的既有判断仍成立，本轮未核到新的交易覆盖范围。",
+        "evidence_ids": [
+          "doubao-map",
+          "muse-loblaw",
+          "grok-123",
+          "chatgpt-wallet"
+        ]
+      }
+    ]
+  },
+  "report_id": "fc7053bd67cbcc4af4b9799ff89263cd9698db4d533848b29b61d6ee62c06dec"
+}
