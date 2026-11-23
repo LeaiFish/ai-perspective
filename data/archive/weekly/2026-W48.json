@@ -4,50 +4,51 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-23T11:21:51.538705Z",
+  "generated_at": "2026-11-23T16:24:42.686851Z",
   "daily_dates": [
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
-  "story_count": 857,
-  "unique_story_count": 857,
+  "story_count": 1083,
+  "unique_story_count": 921,
   "counts": {
     "by_company_topic": {
-      "anthropic": 157,
-      "apple": 14,
-      "cursor": 7,
-      "deepseek": 14,
-      "doubao": 12,
-      "google-gemini": 90,
-      "huggingface": 7,
-      "hunyuan": 6,
-      "kimi": 6,
+      "anthropic": 183,
+      "apple": 16,
+      "cursor": 9,
+      "deepseek": 18,
+      "doubao": 17,
+      "google-gemini": 106,
+      "huggingface": 10,
+      "hunyuan": 7,
+      "kimi": 8,
       "meta-llama": 8,
-      "microsoft": 4,
-      "minimax": 3,
-      "nvidia": 23,
-      "openai": 98,
-      "openrouter": 7,
-      "perplexity": 11,
-      "qwen": 9,
-      "xai": 8,
-      "zhipu": 7
+      "microsoft": 6,
+      "minimax": 4,
+      "nvidia": 35,
+      "openai": 126,
+      "openrouter": 8,
+      "perplexity": 15,
+      "qwen": 10,
+      "xai": 17,
+      "zhipu": 14
     },
     "by_lens_topic": {
-      "agent-ecosystem": 165,
-      "monetization": 37,
-      "product-entry": 29,
-      "workplace": 19
+      "agent-ecosystem": 192,
+      "monetization": 44,
+      "product-entry": 33,
+      "workplace": 24
     },
     "by_importance_label": {
-      "值得关注": 755,
-      "多源热议": 18,
-      "官方更新": 50,
-      "行业动态": 34
+      "值得关注": 934,
+      "多源热议": 20,
+      "官方更新": 59,
+      "行业动态": 70
     },
     "by_source_count_bucket": {
-      "1": 810,
-      "2": 29,
-      "3+": 18
+      "1": 1028,
+      "2": 35,
+      "3+": 20
     }
   },
   "top_stories": [
@@ -59,6 +60,17 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ee56d0d1afc0",
+      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
+      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
+      "importance_score": 0.8279,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
     },
@@ -100,6 +112,19 @@
       ]
     },
     {
+      "story_id": "story_c325da9360d8",
+      "title": "特朗普支持黄仁勋重返英伟达CEO岗位，称美方无不当行为证据",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "importance_score": 0.8221,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_f01a23e8f275",
       "title": "GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜",
       "url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
@@ -109,6 +134,19 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "zhipu"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_547773407e45",
+      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
+      "url": "https://x.com/thexpin/status/2124866686025400819",
+      "importance_score": 0.8156,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -125,6 +163,19 @@
         "perplexity"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_e07a0a4e3ebe",
+      "title": "ARTEX 开源 AI 黑客框架遭滥用，FBI 发出警告但代码已广泛扩散",
+      "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github",
+      "importance_score": 0.7951,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_c283e192d280",
@@ -245,6 +296,22 @@
         "anthropic"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_4aeda982fbe6",
+      "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
+      "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+      "importance_score": 0.7702,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "xai"
+      ],
+      "lens_topics": [
+        "product-entry",
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_aac0fa1eb929",
@@ -475,73 +542,6 @@
       "source_count": 1,
       "archive_date": "2026-11-23",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ff19657ce2f3",
-      "title": "AI 与人各交一份千禧难题答卷：一边靠 Claude 写完 79 页证明，一边掏出 12 年手写的 940 页草稿",
-      "url": "https://www.aibase.com/news/32450",
-      "importance_score": 0.7477,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e6a8d8e62878",
-      "title": "靠 Kimi K2.5 起家的 Cursor 向国会表态：有意逐步淘汰中国大模型",
-      "url": "https://www.aibase.com/news/32461",
-      "importance_score": 0.7477,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "kimi",
-        "cursor"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d475c0b0efac",
-      "title": "腾讯混元团队 Reddit 答问 120 分钟：不刻意刷榜，下一代模型规模将“显著扩大”",
-      "url": "https://www.aibase.com/news/32460",
-      "importance_score": 0.7477,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c6941be779ba",
-      "title": "微软 AI 掌门人罕见“交底”：公开 MAI-2 模型关键指标，响应 OpenAI 透明度倡议",
-      "url": "https://www.aibase.com/news/32452",
-      "importance_score": 0.7477,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai",
-        "microsoft"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_98f481a607da",
-      "title": "MiniMax 拿内部模型开刀密码学：把纸面攻击变成秒级实战，NIST 竞赛算法首次被真攻破",
-      "url": "https://www.aibase.com/news/32456",
-      "importance_score": 0.7477,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "minimax"
-      ],
       "lens_topics": []
     }
   ]
