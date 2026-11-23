@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 1,
-  "listed_count": 1,
-  "recent_item_count": 1,
+  "item_count": 2,
+  "listed_count": 2,
+  "recent_item_count": 2,
   "latest_title": "跳过 DRAM 层：MoRI UMBP 在 NVMe 上运行代理 KV 缓存",
   "latest_published_at": "2026-11-23T00:00:00Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-23T16:24:42.686851Z",
+  "generated_at": "2026-11-23T18:43:42.765600Z",
   "items": [
     {
       "id": "story_40459b739707",
@@ -24,6 +24,22 @@
       "source_name": "vLLM Blog",
       "site_id": "official_ai",
       "published_at": "2026-11-23T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_c7a071bf00b3",
+      "story_id": "story_c7a071bf00b3",
+      "title": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
+      "title_zh": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
+      "title_en": "Attack policy selection can make monitor evaluations misleading",
+      "url": "https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading",
+      "summary": "英国 AI Security Institute 发布论文，测试合成攻击生成方式对监视器评估的影响。 评估一个 OpenAI 前生产监视器时，同一监视器对不同攻击策略的漏报率从 0.2%（基础提示）到 23%（转录编辑）不等，优化程度也会显著改变结果。 作者指出合成转录只是真实有害行为代理，其代表性难以证明，仅凭监视器评估不足以保证部署安全，需辅以能力限制、人工在环和沙箱等分层防护。",
+      "recommend_reason_zh": null,
+      "source": "英国 AI Security Institute：Blog（网页）",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-22T23:00:00Z",
       "source_count": 1,
       "curated": true
     }
