@@ -3,13 +3,13 @@
   "name": "Kimi / 月之暗面",
   "description": "月之暗面 Kimi 系列：长上下文、K 系列开源模型与产品演进。",
   "group": "company",
-  "item_count": 104,
-  "listed_count": 104,
+  "item_count": 105,
+  "listed_count": 105,
   "recent_item_count": 66,
   "latest_title": "靠 Kimi K2.5 起家的 Cursor 向国会表态：有意逐步淘汰中国大模型",
   "latest_published_at": "2026-11-23T03:14:02.091420Z",
   "items_url": "data/topics/kimi.json",
-  "generated_at": "2026-11-23T03:49:58.531779Z",
+  "generated_at": "2026-11-23T09:12:28.090608Z",
   "items": [
     {
       "id": "story_e6a8d8e62878",
@@ -26,6 +26,22 @@
       "published_at": "2026-11-23T03:14:02.091420Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_40459b739707",
+      "story_id": "story_40459b739707",
+      "title": "跳过 DRAM 层：MoRI UMBP 在 NVMe 上运行代理 KV 缓存",
+      "title_zh": "跳过 DRAM 层：MoRI UMBP 在 NVMe 上运行代理 KV 缓存",
+      "title_en": "Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe",
+      "url": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "summary": "在 AMD Instinct™ MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池与 vLLM 上的 Kimi-K3 相同大小的 DRAM 池的匹配误差在 1% 以内，并且容纳一天代理 KV 的驱动器的成本低于容纳 31 分钟的 DRAM。",
+      "recommend_reason_zh": null,
+      "source": "vLLM Blog",
+      "source_name": "vLLM Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-23T00:00:00Z",
+      "source_count": 1,
+      "curated": true
     },
     {
       "id": "story_d8389cbfe1bb",

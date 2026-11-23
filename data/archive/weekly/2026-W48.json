@@ -4,48 +4,48 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-23T03:49:58.531779Z",
+  "generated_at": "2026-11-23T09:12:28.090608Z",
   "daily_dates": [
     "2026-11-23"
   ],
-  "story_count": 769,
-  "unique_story_count": 769,
+  "story_count": 816,
+  "unique_story_count": 816,
   "counts": {
     "by_company_topic": {
-      "anthropic": 149,
+      "anthropic": 156,
       "apple": 14,
-      "cursor": 6,
-      "deepseek": 12,
-      "doubao": 7,
-      "google-gemini": 83,
-      "huggingface": 6,
+      "cursor": 7,
+      "deepseek": 13,
+      "doubao": 9,
+      "google-gemini": 87,
+      "huggingface": 7,
       "hunyuan": 6,
-      "kimi": 5,
+      "kimi": 6,
       "meta-llama": 8,
-      "microsoft": 3,
+      "microsoft": 4,
       "minimax": 3,
       "nvidia": 23,
-      "openai": 86,
+      "openai": 93,
       "openrouter": 6,
-      "perplexity": 10,
+      "perplexity": 11,
       "qwen": 9,
-      "xai": 5,
-      "zhipu": 2
+      "xai": 7,
+      "zhipu": 3
     },
     "by_lens_topic": {
-      "agent-ecosystem": 154,
-      "monetization": 34,
-      "product-entry": 28,
-      "workplace": 16
+      "agent-ecosystem": 161,
+      "monetization": 35,
+      "product-entry": 29,
+      "workplace": 19
     },
     "by_importance_label": {
-      "值得关注": 683,
+      "值得关注": 719,
       "多源热议": 18,
-      "官方更新": 45,
-      "行业动态": 23
+      "官方更新": 48,
+      "行业动态": 31
     },
     "by_source_count_bucket": {
-      "1": 724,
+      "1": 771,
       "2": 27,
       "3+": 18
     }
@@ -55,7 +55,7 @@
       "story_id": "story_8746a9d8916b",
       "title": "AI 编码环境变得越来越昂贵 - Tair 为此构建了功能，我们希望您对其进行测试 / AI Coding Context Keeps Getting More Expensive — Tair Built a Capability for That, and We Want You to Test It",
       "url": "https://www.alibabacloud.com/blog/ai-coding-context-keeps-getting-more-expensive-%E2%80%94-tair-built-a-capability-for-that-and-we-want-you-to-test-it_603800",
-      "importance_score": 0.8463,
+      "importance_score": 0.8336,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -63,10 +63,36 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_7f182f8f1a77",
+      "title": "AI时代的高级数据分析：阿里云AIDBS如何将专业模型变为现实 / Advanced Data Analytics in the AI Era: How Alibaba Cloud AIDBS Brings Specialized Models to Life",
+      "url": "https://www.alibabacloud.com/blog/advanced-data-analytics-in-the-ai-era-how-alibaba-cloud-aidbs-brings-specialized-models-to-life_603803",
+      "importance_score": 0.8276,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_6088bb7fb322",
+      "title": "从云原生到Agentic Native：PolarDB for PostgreSQL为AI Agent重建数据基础 / From Cloud Native to Agentic Native: PolarDB for PostgreSQL Rebuilds the Data Foundation for AI Agents",
+      "url": "https://www.alibabacloud.com/blog/from-cloud-native-to-agentic-native-polardb-for-postgresql-rebuilds-the-data-foundation-for-ai-agents_603804",
+      "importance_score": 0.8276,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_91d25aa0bb33",
       "title": "OpenAI 提议以Perplexity度作为行业共享指标并公开内部预训练测量数据 / Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence",
-      "importance_score": 0.8174,
+      "importance_score": 0.8084,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-23",
@@ -80,7 +106,7 @@
       "story_id": "story_c283e192d280",
       "title": "元宝 2.94.0 官方版本更新",
       "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.94.0",
-      "importance_score": 0.8053,
+      "importance_score": 0.7948,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -93,7 +119,7 @@
       "story_id": "story_9cb645b9e1d7",
       "title": "适用于您的数据库的 Git：PolarDB 让代理安全地进行实验 / Git for Your Database: PolarDB Lets Agents Experiment Safely",
       "url": "https://www.alibabacloud.com/blog/git-for-your-database-polardb-lets-agents-experiment-safely_603801",
-      "importance_score": 0.8043,
+      "importance_score": 0.7916,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -106,7 +132,7 @@
       "story_id": "story_5f800b4bb689",
       "title": "人工智能圣诞广告：可口可乐人工智能假日广告的正确之处以及如何制作广告 / AI Christmas Ads: What Coca-Cola's AI Holiday Spots Got Right, and How to Make One",
       "url": "https://lumalabs.ai/news/ai-christmas-ads",
-      "importance_score": 0.8012,
+      "importance_score": 0.7909,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -117,7 +143,7 @@
       "story_id": "story_6079ead7e1e5",
       "title": "什么是混合生产？真人实景和人工智能视频如何协同工作 / What Is Hybrid Production? How Live Action and AI Video Work Together",
       "url": "https://lumalabs.ai/news/hybrid-production",
-      "importance_score": 0.8004,
+      "importance_score": 0.7902,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -128,7 +154,7 @@
       "story_id": "story_b8159a3d45f9",
       "title": "如何使用 AI 制作角色表：周转和参考 / How to Make a Character Sheet with AI: Turnarounds and References",
       "url": "https://lumalabs.ai/news/make-character-sheet-with-ai",
-      "importance_score": 0.7999,
+      "importance_score": 0.7897,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -139,7 +165,7 @@
       "story_id": "story_e6e9126a937c",
       "title": "AI 换衣器：在任何模特照片上交换服装 / AI Clothes Changer: Swap Outfits on Any Model Photo",
       "url": "https://lumalabs.ai/news/ai-clothes-changer",
-      "importance_score": 0.7997,
+      "importance_score": 0.7896,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -150,7 +176,7 @@
       "story_id": "story_b508602b217c",
       "title": "Flora AI 评论 2027：基于节点的画布，经过测试 / Flora AI Review 2027: The Node-Based Canvas, Tested",
       "url": "https://lumalabs.ai/news/flora-ai-review",
-      "importance_score": 0.7987,
+      "importance_score": 0.7886,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -161,7 +187,7 @@
       "story_id": "story_c60c87170c1a",
       "title": "2027 年中途定价：计划、成本以及是否有免费试用 / Midjourney Pricing 2027: Plans, Costs, and Whether There Is a Free Trial",
       "url": "https://lumalabs.ai/news/midjourney-pricing",
-      "importance_score": 0.7981,
+      "importance_score": 0.7881,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -174,7 +200,7 @@
       "story_id": "story_d3edd489e35a",
       "title": "Anthropic IPO 前三家机构如何重注押注 / How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
       "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
-      "importance_score": 0.7945,
+      "importance_score": 0.7815,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -187,7 +213,7 @@
       "story_id": "story_f4a132de0520",
       "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.7852,
+      "importance_score": 0.7797,
       "importance_label": "多源热议",
       "source_count": 6,
       "archive_date": "2026-11-23",
@@ -197,10 +223,147 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_ef12dbc5c60d",
+      "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+      "url": "https://www.aibase.com/news/32471",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_eaadccb9623c",
+      "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+      "url": "https://www.aibase.com/news/32475",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e3b3d999fb3a",
+      "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+      "url": "https://www.aibase.com/news/32477",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e0cb8f87e562",
+      "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
+      "url": "https://www.aibase.com/news/32474",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_cb7f2cad8d3c",
+      "title": "蚂蚁百灵医疗健康大模型家族全面开源：四款模型各守一关，从看懂体检报告到拦住医疗风险",
+      "url": "https://www.aibase.com/news/32469",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_7f9a2385a2b1",
+      "title": "谷歌给 Gemini 补上 GIF 生成功能，Omni 1.2 Flash 掌勺、八国免费用户先用上",
+      "url": "https://www.aibase.com/news/32465",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6d816443b9c7",
+      "title": "万亿市值换不来投资级：Anthropic 发债大概率是垃圾级",
+      "url": "https://www.aibase.com/news/32470",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_35dc260f3536",
+      "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
+      "url": "https://www.aibase.com/news/32468",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_154cc945f3ae",
+      "title": "GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍",
+      "url": "https://www.aibase.com/news/32472",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "zhipu"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_120dec32d12d",
+      "title": "说不清的症状，拍给 AI 看：蚂蚁阿福升级实时视频问诊",
+      "url": "https://www.aibase.com/news/32473",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_084357c79a37",
+      "title": "一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器",
+      "url": "https://www.aibase.com/news/32466",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_7a6f884107f4",
       "title": "如何为人工智能代理构建知识工厂 / How to build a knowledge factory for AI agents",
       "url": "https://www.langchain.com/blog/knowledge-factory",
-      "importance_score": 0.7725,
+      "importance_score": 0.7644,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -213,7 +376,7 @@
       "story_id": "story_e5e463ad85d6",
       "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确 / Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
       "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
-      "importance_score": 0.768,
+      "importance_score": 0.7575,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -221,10 +384,23 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_1ed1480a3f5a",
+      "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+      "url": "https://www.ithome.com/1/030/677.htm",
+      "importance_score": 0.7546,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3ad5ae20f0b5",
       "title": "和 AI 视频通话问诊：蚂蚁阿福用户破 1.5 亿，还要往手上戴",
       "url": "https://www.aibase.com/news/32464",
-      "importance_score": 0.7676,
+      "importance_score": 0.7542,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -235,7 +411,7 @@
       "story_id": "story_ca8b236ff4c2",
       "title": "只给一下午写代码，交 PPT 反而能拿奖：AI 黑客松正在变味",
       "url": "https://www.aibase.com/news/32463",
-      "importance_score": 0.7664,
+      "importance_score": 0.7531,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -246,7 +422,7 @@
       "story_id": "story_ff19657ce2f3",
       "title": "AI 与人各交一份千禧难题答卷：一边靠 Claude 写完 79 页证明，一边掏出 12 年手写的 940 页草稿",
       "url": "https://www.aibase.com/news/32450",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -259,7 +435,7 @@
       "story_id": "story_e6a8d8e62878",
       "title": "靠 Kimi K2.5 起家的 Cursor 向国会表态：有意逐步淘汰中国大模型",
       "url": "https://www.aibase.com/news/32461",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -273,7 +449,7 @@
       "story_id": "story_d475c0b0efac",
       "title": "腾讯混元团队 Reddit 答问 120 分钟：不刻意刷榜，下一代模型规模将“显著扩大”",
       "url": "https://www.aibase.com/news/32460",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -286,7 +462,7 @@
       "story_id": "story_c6941be779ba",
       "title": "微软 AI 掌门人罕见“交底”：公开 MAI-2 模型关键指标，响应 OpenAI 透明度倡议",
       "url": "https://www.aibase.com/news/32452",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -300,7 +476,7 @@
       "story_id": "story_98f481a607da",
       "title": "MiniMax 拿内部模型开刀密码学：把纸面攻击变成秒级实战，NIST 竞赛算法首次被真攻破",
       "url": "https://www.aibase.com/news/32456",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -313,7 +489,7 @@
       "story_id": "story_7cb23de0350f",
       "title": "OpenAI 首席科学家提议给全行业模型开发“画线”：能力涨到哪儿算停，先得看人类能不能看住它",
       "url": "https://www.aibase.com/news/32454",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -326,7 +502,7 @@
       "story_id": "story_7c55f9be9655",
       "title": "AI 账号互相捧场刷屏评论区：B 站发问卷，给“大肥鱼”们立规矩",
       "url": "https://www.aibase.com/news/32462",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -337,7 +513,7 @@
       "story_id": "story_4bf8fc25d044",
       "title": "沉寂百日后先上前菜：智谱下周发 GLM-5.4，3 万亿旗舰 12 月见",
       "url": "https://www.aibase.com/news/32458",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -350,7 +526,7 @@
       "story_id": "story_3e837f71b5a3",
       "title": "写代码从输入变输出：纳德拉承认 VS Code 半年内被改写地位",
       "url": "https://www.aibase.com/news/32451",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
@@ -361,204 +537,12 @@
       "story_id": "story_228aad7b21a6",
       "title": "38 万参数的 Transformer 塞进一张软盘：三十年前的 486 老电脑，如今也能“跑 AI”",
       "url": "https://www.aibase.com/news/32459",
-      "importance_score": 0.766,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-23",
       "company_topics": [],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_090df2968dcb",
-      "title": "宣传先行、功能迟到：苹果 2.5 亿美元和解 Siri 诉讼",
-      "url": "https://www.aibase.com/news/32453",
-      "importance_score": 0.766,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "apple"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_070125ded0b3",
-      "title": "为 OpenAI 的巨额订单备好钱：甲骨文称融资已就位",
-      "url": "https://www.aibase.com/news/32457",
-      "importance_score": 0.766,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_04182757800e",
-      "title": "给 AI 发展划一条“困惑度”红线：OpenAI 首席科学家提议设行业门槛",
-      "url": "https://www.aibase.com/news/32455",
-      "importance_score": 0.766,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_1ed1480a3f5a",
-      "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
-      "url": "https://www.ithome.com/1/030/677.htm",
-      "importance_score": 0.7649,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0cf31d635d3b",
-      "title": "卡兹克分享 Claude、GPT、Gemini 三模型协同调度方法",
-      "url": "https://mp.weixin.qq.com/s/gwj0xLNHPfToQnQJN7IkMA",
-      "importance_score": 0.7577,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic",
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ef0476de7328",
-      "title": "Codex CLI 0.171.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.7462,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_070a320473bf",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "importance_score": 0.7416,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_cf02b813d300",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "importance_score": 0.7402,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_a7210f7c64d5",
-      "title": "Hugging Face 推出 harness adapters：用 RL 让 Qwen3.8-27B 适配 pi、OpenCode 与 Hermes Agent / Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "importance_score": 0.7402,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "qwen",
-        "huggingface"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_4cb47a4337cf",
-      "title": "Hugging Face 联合 Thinking Machines Lab 发布本地多模态模型 Inkling 2 Mini / Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "importance_score": 0.7402,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_de3ffadfc6c8",
-      "title": "2026 个人 AI 智能体横评：Hermes Agent、OpenClaw、Gemini Spark 等 7 款在记忆、安全与成本上的对比 / Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
-      "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026",
-      "importance_score": 0.737,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai",
-        "google-gemini",
-        "meta-llama",
-        "perplexity"
-      ],
-      "lens_topics": [
-        "product-entry",
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_f4a0bde39164",
-      "title": "Google 在 Gemini API 推出 Tool Retrieval 预览 / Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "importance_score": 0.7332,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_feb750f07c00",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "importance_score": 0.7322,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f273af454087",
-      "title": "PolarDB-X Zero：一条命令30秒打造AI友好数据库 / PolarDB-X Zero: Get an AI-Friendly Database in 30 Seconds with a Single Command",
-      "url": "https://www.alibabacloud.com/blog/polardb-x-zero-get-an-ai-friendly-database-in-30-seconds-with-a-single-command_603794",
-      "importance_score": 0.7302,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }
