@@ -3,13 +3,13 @@
   "name": "NVIDIA",
   "description": "英伟达的 AI 芯片与生态：GPU 新品、CUDA、NIM、机器人与算力市场。",
   "group": "company",
-  "item_count": 1142,
-  "listed_count": 1142,
+  "item_count": 1139,
+  "listed_count": 1139,
   "recent_item_count": 910,
   "latest_title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers (Alan Rappeport/New York Times)",
   "latest_published_at": "2026-11-22T19:50:01Z",
   "items_url": "data/topics/nvidia.json",
-  "generated_at": "2026-11-22T22:37:17.401722Z",
+  "generated_at": "2026-11-23T03:14:02.091420Z",
   "items": [
     {
       "id": "c64d6ab2a8adf9f3afeaae2cc80f4bd666679648",
@@ -492,22 +492,6 @@
       "curated": false
     },
     {
-      "id": "dfee780a196b5bd8d7a3429bd556bb3e5292d064",
-      "story_id": null,
-      "title": "财报再亮眼也没用！黄仁勋想回去，英伟达董事会偏不让",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.infoq.cn/article/3xzCDJBbDREm4EJFJWrH",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "InfoQ CN",
-      "source_name": "InfoQ CN",
-      "site_id": "opmlrss",
-      "published_at": "2026-11-20T18:48:14Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
       "id": "d173a82665c02a9422bf46ef288fad46ba378fa8",
       "story_id": null,
       "title": "Filings: Jensen Huang's charity committed $350M to rent compute from CoreWeave for its Computing Initiative for Open Science, and has already spent $108.3M (Bloomberg)",
@@ -712,6 +696,22 @@
       "source_name": "OPML RSS",
       "site_id": "opmlrss",
       "published_at": "2026-11-20T11:00:00Z",
+      "source_count": 1,
+      "curated": false
+    },
+    {
+      "id": "dfee780a196b5bd8d7a3429bd556bb3e5292d064",
+      "story_id": null,
+      "title": "财报再亮眼也没用！黄仁勋想回去，英伟达董事会偏不让",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://www.infoq.cn/article/3xzCDJBbDREm4EJFJWrH",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "InfoQ CN",
+      "source_name": "InfoQ CN",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-20T10:48:14Z",
       "source_count": 1,
       "curated": false
     },
@@ -15868,22 +15868,6 @@
       "curated": false
     },
     {
-      "id": "705f65ed174269efbdf266241ac282c0164f4d02",
-      "story_id": null,
-      "title": "Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK (James Titcomb/Telegraph)",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.techmeme.com/261018/p4",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "Techmeme",
-      "source_name": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-18T06:05:00Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
       "id": "9f93b949ddf0be95bb92a1f42b39ed1a2128b4eb",
       "story_id": null,
       "title": "如何使用 NVIDIA 结构化数据模型进行零训练表格预测",
@@ -15914,22 +15898,6 @@
       "published_at": "2026-10-18T02:04:38Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "01b32ac278f1b53adee29461ab9b05c14b845b44",
-      "story_id": null,
-      "title": "An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more (Joanna Stern/The New Things)",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.techmeme.com/261017/p20",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "Techmeme",
-      "source_name": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-18T01:20:02Z",
-      "source_count": 1,
-      "curated": false
     },
     {
       "id": "b8c7212a80113c6096d715f24a314b532b084e6c",
@@ -16010,22 +15978,6 @@
       "published_at": "2026-10-16T12:00:00Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "0cbddb953ad5fc1a24257d639f0d66b1e531afe8",
-      "story_id": null,
-      "title": "微软完成 MAI-Base-2 预训练：2.8T 参数碾压开源对手，算力效率超 DeepSeek 数倍",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.aibase.com/news/31691",
-      "summary": "微软当地时间昨天宣布，其新一代 SOTA 基础模型 MAI-Base-2 已完成预训练，该公司表示其性能强于评估中包含的所有开放权重模型。这些数字非常令人印象深刻：MAI-Base-2 的总参数规模为 2.8T 和 80B 活动参数，并在 6,000 个 Nvidia GB200 GPU 上进行了 38 天的训练。在整个训练过程中，该模型实现了平均浮点计算……",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-10-16T05:54:25.458840Z",
-      "source_count": 1,
-      "curated": false
     },
     {
       "id": "b52dd80c7de1b122a45016c0a987a40272dbe73f",
