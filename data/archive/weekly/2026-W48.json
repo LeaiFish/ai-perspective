@@ -4,72 +4,72 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-23T22:45:28.013261Z",
+  "generated_at": "2026-11-24T03:15:00.507927Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24"
   ],
-  "story_count": 1141,
-  "unique_story_count": 1009,
+  "story_count": 1132,
+  "unique_story_count": 1047,
   "counts": {
     "by_company_topic": {
-      "anthropic": 204,
-      "apple": 15,
-      "cursor": 9,
+      "anthropic": 197,
+      "apple": 14,
+      "cursor": 8,
       "deepseek": 16,
       "doubao": 17,
-      "google-gemini": 115,
+      "google-gemini": 118,
       "huggingface": 11,
-      "hunyuan": 7,
-      "kimi": 8,
-      "meta-llama": 8,
-      "microsoft": 6,
+      "hunyuan": 6,
+      "kimi": 6,
+      "meta-llama": 9,
+      "microsoft": 4,
       "minimax": 4,
-      "nvidia": 46,
-      "openai": 135,
+      "nvidia": 48,
+      "openai": 140,
       "openrouter": 9,
       "perplexity": 12,
-      "qwen": 12,
-      "xai": 20,
+      "qwen": 11,
+      "xai": 18,
       "zhipu": 15
     },
     "by_lens_topic": {
-      "agent-ecosystem": 207,
-      "monetization": 45,
-      "product-entry": 35,
-      "workplace": 24
+      "agent-ecosystem": 202,
+      "monetization": 44,
+      "product-entry": 34,
+      "workplace": 25
     },
     "by_importance_label": {
-      "值得关注": 963,
+      "值得关注": 970,
       "多源热议": 19,
-      "官方更新": 77,
-      "行业动态": 82
+      "官方更新": 67,
+      "行业动态": 76
     },
     "by_source_count_bucket": {
-      "1": 1087,
-      "2": 35,
+      "1": 1076,
+      "2": 37,
       "3+": 19
     }
   },
   "top_stories": [
     {
-      "story_id": "story_b483870af4d7",
-      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "importance_score": 0.8525,
+      "story_id": "story_50849ba4d70a",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "importance_score": 0.8623,
       "importance_label": "官方更新",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "huggingface"
+        "openai"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_50849ba4d70a",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "importance_score": 0.8483,
+      "story_id": "story_163fbb440649",
+      "title": "Codex CLI 0.172.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "importance_score": 0.8577,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -79,23 +79,23 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_cd7204045cb4",
-      "title": "以下是您不知道可以使用 Gemini Canvas 做的 4 件事。 / Here are 4 things you didn’t know you could do with Gemini Canvas.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
-      "importance_score": 0.84,
+      "story_id": "story_b483870af4d7",
+      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "importance_score": 0.842,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "google-gemini"
+        "huggingface"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_f0c49f3f943b",
-      "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-      "importance_score": 0.8296,
+      "story_id": "story_cd7204045cb4",
+      "title": "以下是您不知道可以使用 Gemini Canvas 做的 4 件事。 / Here are 4 things you didn’t know you could do with Gemini Canvas.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
+      "importance_score": 0.8295,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -113,19 +113,6 @@
       "source_count": 1,
       "archive_date": "2026-11-23",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8559ab72fe90",
-      "title": "Zero data retention with Enterprise Frontier Safeguards is now in beta",
-      "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
-      "importance_score": 0.8266,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
-      ],
       "lens_topics": []
     },
     {
@@ -179,10 +166,36 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_f0c49f3f943b",
+      "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "importance_score": 0.8192,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_981e876e74e1",
+      "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
+      "url": "https://www.chinatalk.media/p/jensen-returns",
+      "importance_score": 0.8116,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_a8a3c187bbb6",
-      "title": "Connected intelligence for in-house legal",
+      "title": "内部法律的互联智能 / Connected intelligence for in-house legal",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-      "importance_score": 0.8175,
+      "importance_score": 0.8083,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -193,9 +206,9 @@
     },
     {
       "story_id": "story_43302055074e",
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "title": "Richpanel 帮助公司在 30 天内自动化实现 50% 的支持 / Richpanel helps companies automate 50% of support in 30 days",
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "importance_score": 0.8175,
+      "importance_score": 0.8083,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -205,30 +218,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_ee56d0d1afc0",
-      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
-      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
-      "importance_score": 0.8127,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6406d9100e2b",
-      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.8067,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
     },
     {
       "story_id": "story_91d25aa0bb33",
@@ -245,69 +234,26 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_5fa81218b6bb",
-      "title": "The enterprise guide to securing coding agents",
-      "url": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
-      "importance_score": 0.8016,
+      "story_id": "story_ee56d0d1afc0",
+      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
+      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
+      "importance_score": 0.8027,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_5a714738b4d5",
-      "title": "Introducing Claude Ship",
-      "url": "https://claude.com/resources/articles/introducing-claude-ship",
-      "importance_score": 0.8016,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
-      "story_id": "story_2725b3c26310",
-      "title": "KPMG's Todd Lohr on AI when your data is also your clients' data",
-      "url": "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
-      "importance_score": 0.8016,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_547773407e45",
-      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
-      "url": "https://x.com/thexpin/status/2124866686025400819",
-      "importance_score": 0.8004,
+      "story_id": "story_6406d9100e2b",
+      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "importance_score": 0.7966,
       "importance_label": "行业动态",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_38518a4a42b0",
-      "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
-      "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
-      "importance_score": 0.7945,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
       ],
       "lens_topics": []
     },
@@ -321,6 +267,19 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_547773407e45",
+      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
+      "url": "https://x.com/thexpin/status/2124866686025400819",
+      "importance_score": 0.7904,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -406,30 +365,17 @@
       ]
     },
     {
-      "story_id": "story_c325da9360d8",
-      "title": "特朗普支持黄仁勋重返英伟达CEO岗位，称美方无不当行为证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.7817,
-      "importance_label": "行业动态",
+      "story_id": "story_38518a4a42b0",
+      "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
+      "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
+      "importance_score": 0.7836,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "nvidia"
+        "anthropic"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_e07a0a4e3ebe",
-      "title": "ARTEX 开源 AI 黑客框架遭滥用，FBI 发出警告但代码已广泛扩散",
-      "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github",
-      "importance_score": 0.7799,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     },
     {
       "story_id": "story_f4a132de0520",
@@ -458,15 +404,56 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_a37605998708",
-      "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
-      "importance_score": 0.7717,
+      "story_id": "story_c325da9360d8",
+      "title": "特朗普支持黄仁勋重返英伟达CEO岗位，称美方无不当行为证据",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "xai"
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e07a0a4e3ebe",
+      "title": "ARTEX 开源 AI 黑客框架遭滥用，FBI 发出警告但代码已广泛扩散",
+      "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github",
+      "importance_score": 0.7699,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_bc6aadb50411",
+      "title": "GPT-6.2 Sol 全量登陆 ChatGPT：看得清停车标志，还会主动提醒你“该降价了”",
+      "url": "https://www.aibase.com/news/32482",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "monetization"
+      ]
+    },
+    {
+      "story_id": "story_b8395a7f507b",
+      "title": "Anthropic 推出 Claude Ship 测试版：代码审查、修复、批准，AI 一条龙全包了",
+      "url": "https://www.aibase.com/news/32483",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "anthropic"
       ],
       "lens_topics": []
     },
@@ -495,65 +482,84 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_03c1988edf68",
-      "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
-      "url": "https://www.aibase.com/news/32479",
+      "story_id": "story_a69a6b9189fb",
+      "title": "OpenAI 携手思科开源 Shirudo：给 AI 智能体系统装上“不打烊的防弹衣”",
+      "url": "https://www.aibase.com/news/32489",
       "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_94fa4d629e2e",
+      "title": "AI 连代码合入权都接走了：Anthropic 上线 Claude Ship",
+      "url": "https://www.aibase.com/news/32485",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "anthropic"
+      ],
       "lens_topics": []
     },
     {
-      "story_id": "story_ef12dbc5c60d",
-      "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
-      "url": "https://www.aibase.com/news/32471",
-      "importance_score": 0.7621,
+      "story_id": "story_90df56f7b235",
+      "title": "补丁要等数周，防护今晚就能上线：OpenAI 携手思科开源 Shirudo",
+      "url": "https://www.aibase.com/news/32487",
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
+      "archive_date": "2026-11-24",
       "company_topics": [
         "openai"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_eaadccb9623c",
-      "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
-      "url": "https://www.aibase.com/news/32475",
-      "importance_score": 0.7621,
+      "story_id": "story_852b9844d4de",
+      "title": "没等股价起飞就落袋：Anthropic CEO 上市当天套现 2.8 亿美元",
+      "url": "https://www.aibase.com/news/32486",
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
+      "archive_date": "2026-11-24",
       "company_topics": [
-        "huggingface"
+        "anthropic"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_e3b3d999fb3a",
-      "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
-      "url": "https://www.aibase.com/news/32477",
-      "importance_score": 0.7621,
+      "story_id": "story_7e98ac698550",
+      "title": "骗子从邮件打到电话：微软给 Teams 配了位 AI 反诈员",
+      "url": "https://www.aibase.com/news/32488",
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
+      "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
     },
     {
-      "story_id": "story_e0cb8f87e562",
-      "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
-      "url": "https://www.aibase.com/news/32474",
-      "importance_score": 0.7621,
+      "story_id": "story_683829515245",
+      "title": "谷歌让 Gemini 4 智能体“开会”改造量子算法：最高提速 290 倍，还附带数学正确性证明",
+      "url": "https://www.aibase.com/news/32481",
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
+      "archive_date": "2026-11-24",
       "company_topics": [
-        "openai"
+        "google-gemini"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     }
   ]
 }
