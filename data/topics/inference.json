@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 2,
-  "listed_count": 2,
-  "recent_item_count": 2,
+  "item_count": 3,
+  "listed_count": 3,
+  "recent_item_count": 3,
   "latest_title": "补丁要等数周，防护今晚就能上线：OpenAI 携手思科开源 Shirudo",
   "latest_published_at": "2026-11-24T03:15:00.507927Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-24T03:34:07.043260Z",
+  "generated_at": "2026-11-24T06:59:12.680046Z",
   "items": [
     {
       "id": "story_90df56f7b235",
@@ -26,6 +26,22 @@
       "published_at": "2026-11-24T03:15:00.507927Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_ef756067e020",
+      "story_id": "story_ef756067e020",
+      "title": "vLLM Day-0 支持 ERNIE 5.5 Flash 预览版：插件部署和 E2E 推理加速",
+      "title_zh": "vLLM Day-0 支持 ERNIE 5.5 Flash 预览版：插件部署和 E2E 推理加速",
+      "title_en": "vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration",
+      "url": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
+      "summary": "vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel, with structure-aware kernel fusion, FlashIndexer, W4A8 QAT and DSpark speculative decoding.",
+      "recommend_reason_zh": null,
+      "source": "vLLM Blog",
+      "source_name": "vLLM Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-24T00:00:00Z",
+      "source_count": 1,
+      "curated": true
     },
     {
       "id": "story_c2635c19c1ff",
