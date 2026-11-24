@@ -9,8 +9,8 @@ from scripts.build_topics import is_curated_record
 from scripts.editorial_focus import editorial_focus
 from scripts.source_tiers import attach_select_tier
 from scripts.update_news import (
-    OFFICIAL_AI_FEEDS, apply_public_raw_meta, build_story_record,
-    fetch_feed_as_official_items, merge_story_items, normalize_url,
+    CURATED_AI_MEDIA_FEEDS, OFFICIAL_AI_FEEDS, apply_public_raw_meta, build_story_record,
+    fetch_feed_as_official_items, merge_story_items, normalize_url, parse_curated_ai_media_feed_items,
 )
 
 NOW = datetime(2026, 10, 28, 3, tzinfo=timezone.utc)
@@ -137,3 +137,18 @@ def test_product_feed_reaches_existing_topic_and_public_curated_projection(name,
     assert rows[0]['source']['name'] == name
     assert rows[0]['publishedAt'].startswith('2026-10-27')
     assert rows[0]['summary'] == summary
+
+
+def test_ithome_keeps_invite_only_personal_assistant_beta_before_the_feed_cap():
+    feed = next(f for f in CURATED_AI_MEDIA_FEEDS if f['title'] == 'IT之家')
+    title = '豆包旗下 AI 个人助理“小豆”开启公测，能够帮你处理日常事务'
+    url = 'https://www.ithome.com/1/031/329.htm'
+    entries = [
+        item('豆包发布 AI 助手评测榜单', 'https://www.ithome.com/1/031/330.htm'),
+        item('豆包个人助理抽奖送优惠券', 'https://www.ithome.com/1/031/331.htm'),
+        item(title, url),
+    ]
+    xml = ('<rss><channel>' + ''.join(entries) + '</channel></rss>').encode()
+    rows = parse_curated_ai_media_feed_items(xml, {**feed, 'max_entries': 1}, NOW)
+    assert [row.url for row in rows] == [url]
+    assert editorial_focus(record(rows[0])) == 'product'

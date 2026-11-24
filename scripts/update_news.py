@@ -228,6 +228,40 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, Any], ...] = (
         "select_tier": "T1",
     },
     {
+        "title": "ComfyUI Official Blog",
+        "xml_url": "https://blog.comfy.org/feed",
+        "html_url": "https://blog.comfy.org/",
+        "status_id": "official_feed_comfyui",
+        "product_priority": True,
+        "published_only": True,
+        "max_entries": 6,
+        "max_technical_entries": 2,
+        "select_tier": "T1",
+        "article_context": {
+            "https://blog.comfy.org/p/comfy-desktop-becomes-your-front": {
+                "title_zh": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流",
+                "summary": "Comfy Desktop 1.2 将应用放进桌面端，首批六款可直接去背景、扩图、制作商品广告或替换角色与商品。应用可在本地 GPU 或 Comfy Cloud 运行，使用开放模型的应用可在本地免费运行，合作模型会消耗点数。",
+            },
+        },
+    },
+    {
+        "title": "Perplexity API Announcements",
+        "xml_url": "https://community.perplexity.ai/c/announcements/9.rss",
+        "html_url": "https://community.perplexity.ai/c/announcements/9",
+        "status_id": "official_feed_perplexity_announcements",
+        "product_priority": True,
+        "published_only": True,
+        "max_entries": 4,
+        "max_technical_entries": 2,
+        "select_tier": "T1",
+        "article_context": {
+            "https://community.perplexity.ai/t/weve-added-agent-monitors-to-the-monitor-api/6785": {
+                "title_zh": "Perplexity Monitor API 新增 Agent monitors，可定时运行自然语言任务",
+                "summary": "用户可以用自然语言设定任务，由 Monitor API 定时运行 Agent API，答案发生变化时发送附带来源的通知。监控可在代码或 API 控制台创建和管理。这次更新扩展了已有 Monitor API。",
+            },
+        },
+    },
+    {
         "title": "Databricks Blog",
         "xml_url": "https://www.databricks.com/feed",
         "html_url": "https://www.databricks.com/blog",
