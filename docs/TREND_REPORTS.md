@@ -6,6 +6,14 @@
 
 Codex 自己完成研判；Python 只准备候选、校验结构并发布。没有模型 API，也不读取、复制或导出 Codex auth/OAuth 文件。没有 Hi、邮件或向其他聊天发送消息。此授权只允许发布公开新闻元数据和趋势结论。
 
+## “我关注的”每日更新
+
+每次 daily prepare 在 focus_review 中提供上一版及当日新闻库文件（相对 data 目录）。在本次快照的 24 小时窗口按 first_seen_at 检索这些文件，配合公司候选、原始发布页、第一手试用和有统计口径的使用报告复核技术、产品、用户三条线。收录时间只用于找线索。技术观察补充模型以外的变化，产品包括功能、开放范围和商业化，用户观察写清谁在做什么及样本边界。优先保留有独立证据支持的方向，不能从厂商公告推导用户采用。
+
+在同一份日报 report.json 增加完整 focus 对象。沿用 prepare 给出的 previous 结构和仍有效的条目。date 是内容最近变更的北京时间日。leads 是一到三个首页判断 ID，stories 中每条含稳定 id、track（tech/product/people）、title、summary、analysis 和非空 evidence。每条依据含原文日期 date（YYYY-MM-DD）、source、title、detail、label、公开原文 url 和 kind（official/firsthand/usage/reporting）。没有可核的原文日期就继续找可定期的证据。用户判断须有 firsthand 或 usage；同一作者转述和同一次发布的多份材料都要写明。确认维持或材料不足时保留原判断、原依据及原日期；出现新材料修改具体条目，本期内容日期才更新。保留时仍提交完整 focus。
+
+原有 apply/check/publish 同时校验并归档，首页从已发布的 latest.daily.focus 读取。本期固定链接分别指向 daily 日期或修订 report_id，历史归档不随下一次更新替换。接入前的 11 月 24 日首版固定在 focus-seed.json。仅采集刷新不会修改判断时间。周报流程沿用既有约定。
+
 ## 每轮步骤（本机 Codex 自动任务执行）
 
 1. 先读 `AGENTS.md`、本文和 `skills/ai-news-radar/SKILL.md`。在 `/tmp` 新建唯一隔离克隆，拉取 `git@github.com:LeaiFish/ai-perspective.git` 的最新 master。不要在用户主工作区执行 add/commit/reset，不查看任何登录文件、环境变量值或凭据目录。

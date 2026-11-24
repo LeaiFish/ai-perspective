@@ -287,3 +287,28 @@ def test_daily_overview_review_requires_evidence_and_preserves_content(report):
     review.update(previous_report_id=latest["report_id"], generated_at=iso(datetime.now(timezone.utc)))
     review["overview_review"].update(decision="insufficient", reason="本轮材料不足", evidence_ids=[])
     assert merge_report(latest, validate_report(review))["overview"] == latest["overview"]
+
+
+def test_focus_daily_roundtrip_and_evidence_guards(tmp_path, report):
+    seed = load(Path(__file__).resolve().parents[1] / "data/trends/focus-seed.json")
+    snapshot = "2026-11-25T04:00:00Z"
+    report.update(period_start="2026-11-24T04:00:00Z", period_end=snapshot,
+                  source_snapshot_at=snapshot, generated_at=snapshot, focus=deepcopy(seed))
+    now = datetime.fromisoformat(snapshot.replace("Z", "+00:00"))
+    bundle = {k: report[k] for k in ("kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id")}
+    bundle.update(schema="radar_trend_input_v1", focus_review={"previous": seed})
+    bundle["input_id"] = report["input_id"] = digest(bundle)
+    bind_input(report, bundle)
+    write_report(tmp_path, report, now=now)
+    assert load(tmp_path / LATEST)["daily"]["focus"] == load(tmp_path / archive_path(report))["focus"] == seed
+    report["focus"]["date"] = "2026-11-25"
+    with pytest.raises(ValueError, match="unchanged_focus_date"):
+        bind_input(report, bundle)
+    story = next(s for s in report["focus"]["stories"] if s["track"] == "people")
+    for e in story["evidence"]:
+        e["kind"] = "official"
+    with pytest.raises(ValueError, match="focus_user_evidence_required"):
+        validate_report(report, now=now)
+    del report["focus"]
+    with pytest.raises(ValueError, match="daily_focus_review_required"):
+        bind_input(report, bundle)

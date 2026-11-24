@@ -21,6 +21,7 @@ env['RADAR_PUBLIC_OUTPUT']=str(public/'public-news.json')
 run('node','scripts/export-public-db.ts')
 built=ROOT/'.public-export/site'
 if built.exists():
+ shutil.copyfile(built/'focus.html',public/'focus.html')
  shutil.copyfile(built/'index.html',public/'index.html')
  shutil.copytree(built/'assets',public/'assets',dirs_exist_ok=True)
  shutil.copytree(built/'config',public/'config',dirs_exist_ok=True)

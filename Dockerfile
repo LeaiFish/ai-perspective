@@ -22,8 +22,8 @@ COPY scripts/ scripts/
 COPY licenses/ licenses/
 COPY NOTICE LICENSE ./
 COPY assets/og-fonts/ assets/og-fonts/
-COPY legacy-radar.html history.html ./
-COPY assets/logo.svg assets/styles.css assets/sidebar.css assets/topics.css assets/perspective.css assets/perspective.js assets/public-projection.js assets/aihot-skin.css assets/research-analysis.js assets/trend-reports.js assets/trend-history.js assets/history.css assets/
+COPY legacy-radar.html history.html focus.html ./
+COPY assets/logo.svg assets/styles.css assets/sidebar.css assets/topics.css assets/perspective.css assets/perspective.js assets/public-projection.js assets/aihot-skin.css assets/research-analysis.js assets/trend-reports.js assets/trend-history.js assets/history.css assets/focus.js assets/focus.css assets/
 COPY config/topics.json config/source_tiers.json config/focus_sources.json config/trend_baseline.json config/trend_directions.json config/
 COPY data/trends/ data/trends/
 COPY feeds/follow.example.opml feeds/

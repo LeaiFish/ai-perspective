@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-24",
+  "leads": [
+    "desktop",
+    "voice",
+    "household"
+  ],
+  "stories": [
+    {
+      "id": "desktop",
+      "track": "product",
+      "title": "Gemini 和 Claude 把桌面操作开放给更多付费用户",
+      "summary": "Gemini 可以在 Mac 后台操作应用，Claude 把同类能力逐步开放给团队。用户能指定哪些应用可以交给助手。",
+      "analysis": "两家的交集是让助手进入用户已经在用的软件。Gemini 用独立窗口把人工操作和后台任务分开，Claude 则把开放范围扩到组织。对涉及跨应用执行的产品，值得参考的是用户能在哪一步限定范围、查看进度和收回控制。",
+      "evidence": [
+        {
+          "date": "2026-11-20",
+          "source": "Anthropic",
+          "title": "Claude 把电脑操作扩展到团队套餐",
+          "detail": "Team 和 Enterprise 开始分批测试。Claude 可查看屏幕并操作用户允许的桌面应用，组织需先启用相关能力。此次新增的是团队开放范围。",
+          "label": "Claude 发布记录",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "kind": "official"
+        },
+        {
+          "date": "2026-11-19",
+          "source": "Google",
+          "title": "Gemini for Mac 可在独立窗口操作应用",
+          "detail": "用户可以让 Gemini 从本地文件提取信息，再去网页填表。任务在独立窗口运行，用户可以继续使用电脑、查看进度或停止。首批面向美国符合条件的付费用户。",
+          "label": "Google 发布公告",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "track": "tech",
+      "title": "语音助手处理任务时，也能继续和人说话",
+      "summary": "千问把实时对话和后台执行分开。查资料需要时间时，前台仍能回应用户，拿到结果后再播报。",
+      "analysis": "对旅行规划这类需要一边说、一边查的任务，产品可以先接住下一句话，再决定如何把新条件交给后台。例如用户等路线时补充“还要带孩子”，应用有机会当场更新行程要求。修改已在运行的任务仍需要应用自己处理。",
+      "evidence": [
+        {
+          "date": "2026-11-23",
+          "source": "千问 AI 平台",
+          "title": "Qwen-Audio-3.1-Live 上架",
+          "detail": "更新日志列出实时对话与任务播报能力。应用或后台模型处理任务期间，前台语音模型可持续交谈。",
+          "label": "模型更新记录",
+          "url": "https://platform.qianwenai.com/docs/changelog/models",
+          "kind": "official"
+        },
+        {
+          "date": "2026-11-23",
+          "source": "同次发布的模型文档",
+          "title": "应用可以自己执行任务，也可以交给后台模型",
+          "detail": "开发者可选择由应用处理任务，或指定平台上的后台模型。前台负责对话，并可播报进度和结果。以上两份材料来自同一次发布。",
+          "label": "千问模型说明",
+          "url": "https://platform.qianwenai.com/docs/models/qwen-audio-3-1-live",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "household",
+      "track": "people",
+      "title": "有人用 AI 做了保修台账，家人装好就能用",
+      "summary": "为了省去翻邮件找发票的麻烦，一位作者用 Gemini 做了款 Android 应用。家人装好后，能自己录入家电、附上票据。",
+      "analysis": "这个案例把“小应用生成”的价值落到了第二个人身上。作者生成应用，真正试用的人可以直接装好、录入自己的资料。对面向亲友分享的小工具，观察接收者能否独立完成第一次使用，比只看创建者生成了多少页面更贴近实际用途。作者记录了家庭试用，持续使用频率和付费意愿仍未知。",
+      "evidence": [
+        {
+          "date": "2026-11-22",
+          "source": "Parth Shah · 作者实测",
+          "title": "从翻邮件找发票，到给家人做保修台账",
+          "detail": "作者回顾，以前做的多是网站和样例面板，后来往往搁置。这次他在 Antigravity 里让 Gemini 生成 Home Vault 的 Android 安装包，并装到自己的手机上。",
+          "label": "作者全文 · Yahoo Tech 转载 Android Police",
+          "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+          "kind": "firsthand"
+        },
+        {
+          "date": "2026-11-22",
+          "source": "同一作者记录的家庭试用",
+          "title": "家人能自行录入家电、附上发票",
+          "detail": "作者把安装包分享给家人。据他记录，家人能独立添加物品、发票和购买信息。反馈来自作者转述，文章没有给出家人原话或长期使用数据。",
+          "label": "同文的家庭试用经过",
+          "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+          "kind": "firsthand"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "track": "tech",
+      "title": "助手接入多种工具后，可以按任务取用参数说明",
+      "summary": "Gemini API 新增工具检索预览。模型先看工具名和用途，选中某个工具后再加载完整参数。",
+      "analysis": "当助手同时连接日历、文档和业务系统，按需加载可以减少每次请求携带的工具说明。对多工具产品，这给扩展连接数量留出了空间。实际能节省多少等待时间，取决于工具数量和调用方式。",
+      "evidence": [
+        {
+          "date": "2026-11-19",
+          "source": "Google",
+          "title": "Gemini API 推出按需加载工具参数",
+          "detail": "Interactions API 的预览功能允许延后加载部分工具的完整参数。模型可以在同一次请求中找到并调用所需工具。",
+          "label": "Google 开发者公告",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "track": "people",
+      "title": "两位开发者分别用任务耗时和返工次数评价 GPT-6.2",
+      "summary": "一位逐题比较耗时和估算成本，另一位把模型放回原来的项目，看它需要几轮才能发现问题。",
+      "analysis": "两条帖子展示了具体的选用标准。模型在一道题上更快，成本优势仍可能随题目变化；对另一位用户，能否少来回几轮更直观。这是同一开发者社区中的两个样本，适合用来理解评价维度。",
+      "evidence": [
+        {
+          "date": "2026-11-18",
+          "source": "merefield · 用户实测",
+          "title": "两道任务全部完成，更省钱的型号随题目变化",
+          "detail": "在发布者的 Digbench 记录中，Astra 两题都更快。第一题 Sol 的估算 API 成本较低，第二题 Astra 较低。费用是作者折算，不能直接当作账单。",
+          "label": "开发者社区原帖 · #32",
+          "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/32",
+          "kind": "firsthand"
+        },
+        {
+          "date": "2026-11-18",
+          "source": "Mb · 用户反馈",
+          "title": "旧项目少了几轮排查，人物建模仍要反复调整",
+          "detail": "Mb 说，6.2 Sol 较容易一次找出项目里的问题。人物建模比此前更有进展，但自己仍需多轮迭代。",
+          "label": "开发者社区原帖 · #34",
+          "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/34",
+          "kind": "firsthand"
+        }
+      ]
+    }
+  ]
+}

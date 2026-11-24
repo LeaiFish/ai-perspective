@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 p=argparse.ArgumentParser();p.add_argument('--publish',action='store_true');args=p.parse_args()
 checkout=ROOT/'.local/pages-checkout'
-ASSETS=['logo.svg','styles.css','sidebar.css','topics.css','perspective.css','perspective.js','public-projection.js','aihot-skin.css','research-analysis.js','trend-reports.js','trend-history.js']
+ASSETS=['logo.svg','styles.css','sidebar.css','topics.css','perspective.css','perspective.js','public-projection.js','aihot-skin.css','research-analysis.js','trend-reports.js','trend-history.js','focus.css','focus.js']
 def copy_reader(stage,out):
  (out/'assets').mkdir(parents=True,exist_ok=True)
  (out/'config').mkdir(parents=True,exist_ok=True)
@@ -24,10 +24,10 @@ with tempfile.TemporaryDirectory(prefix='radar-public-') as folder:
  if not (stage/'index.html').exists():raise SystemExit('Run the free refresh once before syncing')
  if not args.publish:
   out=ROOT/'.local/public-preview/ai-news-radar';out.mkdir(parents=True,exist_ok=True)
-  for name in ['index.html','history.html','public-news.json']:shutil.copyfile(stage/name,out/name)
+  for name in ['index.html','history.html','focus.html','public-news.json']:shutil.copyfile(stage/name,out/name)
   copy_reader(stage,out)
   # Preview includes sanitized editorial history. Publishing keeps the newer remote editorial files.
-  for folder,pattern in [('',r'(latest|history|corrections)\.json'),('daily',r'\d{4}-\d{2}-\d{2}\.json'),('weekly',r'\d{4}-W\d{2}\.json'),('history',r'[a-f0-9]{64}\.json')]:
+  for folder,pattern in [('',r'(latest|history|corrections|focus-seed)\.json'),('daily',r'\d{4}-\d{2}-\d{2}\.json'),('weekly',r'\d{4}-W\d{2}\.json'),('revisions',r'[a-f0-9]{64}\.json'),('history',r'[a-f0-9]{64}\.json')]:
    src=stage/'data/trends'/folder;dst=out/'data/trends'/folder
    if src.exists():
     dst.mkdir(parents=True,exist_ok=True)
@@ -45,9 +45,9 @@ with tempfile.TemporaryDirectory(prefix='radar-public-') as folder:
    if current.get('generatedAt','') > data.get('generatedAt',''):
     print('The public site already has a newer news snapshot; skipped stale local export.')
     raise SystemExit(0)
-  for name in ['index.html','history.html','public-news.json']:shutil.copyfile(stage/name,checkout/name)
+  for name in ['index.html','history.html','focus.html','public-news.json']:shutil.copyfile(stage/name,checkout/name)
   copy_reader(stage,checkout)
-  run('git','add','--','index.html','history.html','public-news.json','assets/logo.svg','assets/styles.css','assets/sidebar.css','assets/topics.css','assets/perspective.css','assets/perspective.js','assets/public-projection.js','assets/aihot-skin.css','assets/research-analysis.js','assets/trend-reports.js','assets/trend-history.js','config/topics.json',cwd=checkout)
+  run('git','add','--','index.html','history.html','focus.html','public-news.json','assets/logo.svg','assets/styles.css','assets/sidebar.css','assets/topics.css','assets/perspective.css','assets/perspective.js','assets/public-projection.js','assets/aihot-skin.css','assets/research-analysis.js','assets/trend-reports.js','assets/trend-history.js','assets/focus.js','assets/focus.css','config/topics.json',cwd=checkout)
   if (checkout/'data/case-leads.json').exists():run('git','add','--','data/case-leads.json',cwd=checkout)
   if subprocess.run(['git','diff','--cached','--quiet'],cwd=checkout).returncode==0:print('No public changes')
   else:

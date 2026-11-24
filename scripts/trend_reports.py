@@ -185,6 +185,18 @@ def prepare(data_dir, kind, now=None, *, revision=False):
               "warning": "候选时间、标题、摘要未经本轮原文核验；原文失败是覆盖缺口。既有判断不是新证据；同一事件多家报道只算一次。"}
     if kind == "daily":
         bundle["overview_review_required"] = True
+        seed = load(data_dir / "trends/focus-seed.json")
+        if seed is not None:
+            day_files = []
+            for day in (start.astimezone(SH).date(), end.astimezone(SH).date()):
+                path = Path("news-library") / str(day.year) / f"{day}.jsonl"
+                if (data_dir / path).is_file():
+                    day_files.append(str(path))
+            bundle["focus_review"] = {
+                "previous": (previous.get("daily") or {}).get("focus") or seed,
+                "news_library_files": day_files,
+                "rule": "按日报窗口在这些北京时间首次收录档案中检索三条线，原文日期和反馈另核。按 docs/TREND_REPORTS.md 提交完整 focus；证据不足时逐字保留对应判断。"
+            }
     if revision:
         original = load(data_dir / issue_path({"kind": kind, "period_end": iso(end)}))
         require(original is not None, "revision_requires_published_issue")
@@ -217,10 +229,45 @@ def daily_event_index(data_dir, as_of):
     return result
 
 
+def validate_focus(board, snapshot):
+    keys(board, "date leads stories", "invalid_focus_board")
+    day = snapshot.astimezone(SH).date().isoformat()
+    def valid_day(value):
+        require(isinstance(value, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", value)
+                and value <= day, "invalid_focus_date")
+        datetime.fromisoformat(value)
+    valid_day(board["date"])
+    require(isinstance(board["stories"], list) and 1 <= len(board["stories"]) <= 12, "invalid_focus_stories")
+    ids = set()
+    for story in board["stories"]:
+        keys(story, "id track title summary analysis evidence", "invalid_focus_story")
+        key = clean(story["id"], 80)
+        require(re.fullmatch(r"[a-z][a-z0-9-]*", key) and key != "home" and key not in ids, "invalid_focus_id")
+        ids.add(key)
+        require(story["track"] in ("tech", "product", "people"), "invalid_focus_track")
+        for field, limit in (("title", 120), ("summary", 350), ("analysis", 1000)):
+            clean(story[field], limit)
+        facts = story["evidence"]
+        require(isinstance(facts, list) and 1 <= len(facts) <= 8, "focus_needs_evidence")
+        for fact in facts:
+            keys(fact, "date source title detail label url kind", "invalid_focus_evidence")
+            valid_day(fact["date"])
+            require(fact["date"] <= board["date"], "focus_fact_after_edition")
+            public_url(fact["url"])
+            for field, limit in (("source", 150), ("title", 220), ("detail", 850), ("label", 180)):
+                clean(fact[field], limit)
+            require(fact["kind"] in ("official", "firsthand", "usage", "reporting"), "invalid_focus_source_kind")
+        if story["track"] == "people":
+            require(any(f["kind"] in ("firsthand", "usage") for f in facts), "focus_user_evidence_required")
+    leads = board["leads"]
+    require(isinstance(leads, list) and 1 <= len(leads) <= 3 and len(set(leads)) == len(leads)
+            and set(leads) <= ids, "invalid_focus_leads")
+
+
 def validate_report(raw, *, now=None):
     now = now or datetime.now(UTC)
     fields = "schema kind period_start period_end source_snapshot_at generated_at input_id previous_report_id companies evidence overview"
-    for optional in ("evolution", "revision_of", "overview_review"):
+    for optional in ("evolution", "revision_of", "overview_review", "focus"):
         if optional in raw:
             fields += " " + optional
     keys(raw, fields, "invalid_report_fields")
@@ -233,6 +280,9 @@ def validate_report(raw, *, now=None):
     require(raw["previous_report_id"] is None or re.fullmatch(r"[a-f0-9]{64}", str(raw["previous_report_id"])), "invalid_parent_id")
     if "revision_of" in raw:
         require(isinstance(raw["revision_of"], str) and re.fullmatch(r"[a-f0-9]{64}", raw["revision_of"]), "invalid_revision_id")
+    if "focus" in raw:
+        require(raw["kind"] == "daily", "focus_requires_daily")
+        validate_focus(raw["focus"], source)
     evidence = {}
     require(isinstance(raw["evidence"], list) and len(raw["evidence"]) <= 100, "invalid_evidence")
     for item in raw["evidence"]:
@@ -432,6 +482,16 @@ def bind_input(raw, bundle):
                 require(any(card[k] != previous_card[k] for k in ("headline", "summary")), "judgment_text_unchanged")
     if bundle.get("overview_review_required") and raw.get("overview") is None:
         require("overview_review" in raw, "daily_overview_review_required")
+    if "focus_review" in bundle:
+        require("focus" in raw, "daily_focus_review_required")
+        previous = bundle["focus_review"]["previous"]
+        board = raw["focus"]
+        validate_focus(board, stamp(bundle["source_snapshot_at"]))
+        if board["stories"] == previous["stories"] and board["leads"] == previous["leads"]:
+            require(board["date"] == previous["date"], "unchanged_focus_date")
+        else:
+            require(board["date"] == stamp(bundle["source_snapshot_at"]).astimezone(SH).date().isoformat(),
+                    "incorrect_focus_update_date")
     require(raw.get("revision_of") == bundle.get("revision_of"), "report_revision_mismatch")
     for key in ("input_id", "kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id"):
         require(raw.get(key) == bundle.get(key), "report_input_mismatch")
