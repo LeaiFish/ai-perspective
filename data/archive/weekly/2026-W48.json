@@ -4,52 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-24T18:16:45.989195Z",
+  "generated_at": "2026-11-24T21:23:30.970182Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
   ],
-  "story_count": 1432,
-  "unique_story_count": 1221,
+  "story_count": 1449,
+  "unique_story_count": 1279,
   "counts": {
     "by_company_topic": {
-      "anthropic": 265,
+      "anthropic": 271,
       "apple": 14,
       "cursor": 7,
-      "deepseek": 14,
+      "deepseek": 15,
       "doubao": 19,
-      "google-gemini": 147,
-      "huggingface": 12,
+      "google-gemini": 142,
+      "huggingface": 13,
       "hunyuan": 8,
-      "kimi": 6,
+      "kimi": 7,
       "meta-llama": 14,
       "microsoft": 4,
       "minimax": 9,
-      "nvidia": 67,
-      "openai": 183,
-      "openrouter": 10,
-      "perplexity": 15,
-      "qwen": 15,
-      "xai": 18,
-      "zhipu": 12
+      "nvidia": 66,
+      "openai": 194,
+      "openrouter": 11,
+      "perplexity": 14,
+      "qwen": 16,
+      "xai": 19,
+      "zhipu": 11
     },
     "by_lens_topic": {
-      "agent-ecosystem": 277,
-      "monetization": 49,
-      "product-entry": 45,
+      "agent-ecosystem": 282,
+      "monetization": 48,
+      "product-entry": 46,
       "workplace": 32
     },
     "by_importance_label": {
-      "值得关注": 1207,
-      "多源热议": 21,
-      "官方更新": 96,
-      "行业动态": 108
+      "值得关注": 1218,
+      "多源热议": 24,
+      "官方更新": 100,
+      "行业动态": 107
     },
     "by_source_count_bucket": {
-      "1": 1357,
-      "2": 54,
-      "3+": 21
+      "1": 1372,
+      "2": 53,
+      "3+": 24
     }
   },
   "top_stories": [
@@ -57,26 +57,13 @@
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "importance_score": 0.8806,
+      "importance_score": 0.8729,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-25",
       "company_topics": [
         "nvidia",
         "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8c2aab0e28f2",
-      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.8462,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -94,6 +81,32 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_94d1586a7d4f",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "importance_score": 0.8395,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_8c2aab0e28f2",
+      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "importance_score": 0.8385,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -107,17 +120,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_74b6fe230007",
-      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
-      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.8345,
+      "story_id": "story_6d51b80490e1",
+      "title": "Turn artifacts into Mac and Windows apps",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "importance_score": 0.8292,
       "importance_label": "官方更新",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_8746a9d8916b",
@@ -128,6 +141,32 @@
       "source_count": 1,
       "archive_date": "2026-11-23",
       "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_74b6fe230007",
+      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
+      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
+      "importance_score": 0.827,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_8c7ce3fbf64d",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "importance_score": 0.8269,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai"
+      ],
       "lens_topics": []
     },
     {
@@ -253,7 +292,7 @@
       "story_id": "story_4978547fc03f",
       "title": "MCP servers can now ship skills, run tasks, and more with Claude",
       "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-      "importance_score": 0.8182,
+      "importance_score": 0.8122,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -308,6 +347,34 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_fe54bd764bcb",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "importance_score": 0.8042,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_b0f72f7fca51",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "importance_score": 0.8042,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_10f2214e97f1",
       "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
       "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
@@ -328,6 +395,32 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_d7bad622349d",
+      "title": "Claude artifacts 现已支持在 Mac 和 Windows 上安装为桌面应用 / You can now install Claude artifacts as desktop apps on Mac and Windows.",
+      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "importance_score": 0.7909,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_4ffd1bf1d728",
+      "title": "Claude Desktop 应用安装功能进入 Beta，免打包签名和 API key / You don't have to package or sign the app, or set up an API key. Building the app and any calls it makes to Claude count toward your usag...",
+      "url": "https://x.com/ClaudeDevs/status/2125315493771059685",
+      "importance_score": 0.7909,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "anthropic"
       ],
       "lens_topics": []
     },
@@ -393,19 +486,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_a1d7cb5cea52",
-      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day / Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "importance_score": 0.7862,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_b8159a3d45f9",
       "title": "如何使用 AI 制作角色表：周转和参考 / How to Make a Character Sheet with AI: Turnarounds and References",
       "url": "https://lumalabs.ai/news/make-character-sheet-with-ai",
@@ -463,18 +543,17 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c9edd9fae7e0",
-      "title": "Amazon 以约 75 亿美元收购 Decart，押注用软件缩小与 Nvidia 的 AI 芯片差距 / Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race",
-      "importance_score": 0.7804,
+      "story_id": "story_a1d7cb5cea52",
+      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day / Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "importance_score": 0.7789,
       "importance_label": "行业动态",
-      "source_count": 2,
+      "source_count": 1,
       "archive_date": "2026-11-25",
-      "company_topics": [
-        "anthropic",
-        "nvidia"
-      ],
-      "lens_topics": []
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_f4a132de0520",
@@ -486,84 +565,6 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6406d9100e2b",
-      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.7766,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_eec034f4b587",
-      "title": "ChinaTalk 分析 BIS 租赁算力新规可为美国换取约六个月算力领先",
-      "url": "https://www.chinatalk.media/p/the-remote-access-rule-will-slow",
-      "importance_score": 0.7766,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d3edd489e35a",
-      "title": "Anthropic IPO 前三家机构如何重注押注 / How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
-      "importance_score": 0.7765,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0e094de279ca",
-      "title": "一条维保视频，从一个月到一周：徐工用AI为后服务内容生产提效降本",
-      "url": "https://mp.weixin.qq.com/s/7D_YIP9sTCcd9ghw7xkm2A",
-      "importance_score": 0.7757,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "doubao"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_547773407e45",
-      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
-      "url": "https://x.com/thexpin/status/2124866686025400819",
-      "importance_score": 0.7708,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_aac0fa1eb929",
-      "title": "新款深蓝 L07 定档广州车展：800V 平台全系上激光雷达，豆包大模型把语音“喊”出座舱",
-      "url": "https://www.aibase.com/news/32480",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "doubao"
       ],
       "lens_topics": []
     }
