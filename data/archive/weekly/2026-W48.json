@@ -4,51 +4,51 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-24T08:33:11.811154Z",
+  "generated_at": "2026-11-24T11:04:14.439372Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24"
   ],
-  "story_count": 1172,
-  "unique_story_count": 1108,
+  "story_count": 1135,
+  "unique_story_count": 1130,
   "counts": {
     "by_company_topic": {
-      "anthropic": 204,
+      "anthropic": 199,
       "apple": 14,
       "cursor": 7,
-      "deepseek": 15,
-      "doubao": 17,
-      "google-gemini": 123,
-      "huggingface": 10,
-      "hunyuan": 6,
+      "deepseek": 14,
+      "doubao": 15,
+      "google-gemini": 117,
+      "huggingface": 9,
+      "hunyuan": 7,
       "kimi": 6,
       "meta-llama": 11,
       "microsoft": 4,
       "minimax": 6,
-      "nvidia": 49,
-      "openai": 144,
-      "openrouter": 10,
+      "nvidia": 50,
+      "openai": 137,
+      "openrouter": 9,
       "perplexity": 13,
       "qwen": 11,
-      "xai": 17,
-      "zhipu": 15
+      "xai": 16,
+      "zhipu": 11
     },
     "by_lens_topic": {
-      "agent-ecosystem": 214,
-      "monetization": 45,
-      "product-entry": 35,
+      "agent-ecosystem": 211,
+      "monetization": 43,
+      "product-entry": 36,
       "workplace": 25
     },
     "by_importance_label": {
-      "值得关注": 1011,
-      "多源热议": 19,
+      "值得关注": 976,
+      "多源热议": 18,
       "官方更新": 71,
-      "行业动态": 71
+      "行业动态": 70
     },
     "by_source_count_bucket": {
-      "1": 1113,
+      "1": 1077,
       "2": 40,
-      "3+": 19
+      "3+": 18
     }
   },
   "top_stories": [
@@ -56,7 +56,7 @@
       "story_id": "story_50849ba4d70a",
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
-      "importance_score": 0.8501,
+      "importance_score": 0.8446,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-24",
@@ -69,7 +69,7 @@
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8451,
+      "importance_score": 0.8394,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -82,7 +82,7 @@
       "story_id": "story_3a8d59639117",
       "title": "Muse 现已在英国上市：Muse 发挥作用，一切尽在掌握 / Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
-      "importance_score": 0.8375,
+      "importance_score": 0.8313,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -97,39 +97,13 @@
       "story_id": "story_1079f3a3a9f4",
       "title": "英国推出 Muse：由您控制的个人人工智能代理 / Introducing Muse in the UK: A Personal AI Agent You Control",
       "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control",
-      "importance_score": 0.8375,
+      "importance_score": 0.8313,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
         "meta-llama"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b483870af4d7",
-      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "importance_score": 0.8305,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d00e21757888",
-      "title": "企业现在有了人工智能助手。为何上班族仍如此疲惫不堪？ / Enterprises Have AI Assistants Now. Why Are Office Workers Still So Drained?",
-      "url": "https://www.alibabacloud.com/blog/enterprises-have-ai-assistants-now--why-are-office-workers-still-so-drained_603808",
-      "importance_score": 0.8291,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -144,6 +118,43 @@
       "archive_date": "2026-11-23",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_b483870af4d7",
+      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "importance_score": 0.8253,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_d33b24438ea7",
+      "title": "Your AI Application Should Have a Traffic Entry Point: AI Gateway Serverless",
+      "url": "https://www.alibabacloud.com/blog/your-ai-application-should-have-a-traffic-entry-point-ai-gateway-serverless_603810",
+      "importance_score": 0.8234,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_d00e21757888",
+      "title": "企业现在有了人工智能助手。为何上班族仍如此疲惫不堪？ / Enterprises Have AI Assistants Now. Why Are Office Workers Still So Drained?",
+      "url": "https://www.alibabacloud.com/blog/enterprises-have-ai-assistants-now--why-are-office-workers-still-so-drained_603808",
+      "importance_score": 0.8234,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_ce87bd8f2303",
@@ -199,7 +210,7 @@
       "story_id": "story_ba83067ed6e6",
       "title": "Perplexity Monitor API 新增 Agent monitors，可定时运行自然语言任务 / We've added Agent monitors to the Monitor API",
       "url": "https://community.perplexity.ai/t/weve-added-agent-monitors-to-the-monitor-api/6785",
-      "importance_score": 0.819,
+      "importance_score": 0.8135,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -215,31 +226,7 @@
       "story_id": "story_cd7204045cb4",
       "title": "以下是您不知道可以使用 Gemini Canvas 做的 4 件事。 / Here are 4 things you didn’t know you could do with Gemini Canvas.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
-      "importance_score": 0.8179,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_10f2214e97f1",
-      "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
-      "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
-      "importance_score": 0.8105,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f0c49f3f943b",
-      "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-      "importance_score": 0.8078,
+      "importance_score": 0.8127,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -263,27 +250,40 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_10f2214e97f1",
+      "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
+      "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
+      "importance_score": 0.8049,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f0c49f3f943b",
+      "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "importance_score": 0.8027,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_981e876e74e1",
       "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
       "url": "https://www.chinatalk.media/p/jensen-returns",
-      "importance_score": 0.7986,
+      "importance_score": 0.7928,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ee56d0d1afc0",
-      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
-      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
-      "importance_score": 0.7918,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -307,6 +307,17 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ee56d0d1afc0",
+      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
+      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
+      "importance_score": 0.7868,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
     },
@@ -357,19 +368,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_6406d9100e2b",
-      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.7854,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_b508602b217c",
       "title": "Flora AI 评论 2027：基于节点的画布，经过测试 / Flora AI Review 2027: The Node-Based Canvas, Tested",
       "url": "https://lumalabs.ai/news/flora-ai-review",
@@ -394,12 +392,12 @@
       ]
     },
     {
-      "story_id": "story_547773407e45",
-      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
-      "url": "https://x.com/thexpin/status/2124866686025400819",
-      "importance_score": 0.7794,
+      "story_id": "story_6406d9100e2b",
+      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "importance_score": 0.7804,
       "importance_label": "行业动态",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
@@ -433,16 +431,27 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_38518a4a42b0",
-      "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
-      "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
-      "importance_score": 0.7716,
-      "importance_label": "官方更新",
+      "story_id": "story_547773407e45",
+      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
+      "url": "https://x.com/thexpin/status/2124866686025400819",
+      "importance_score": 0.7745,
+      "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "anthropic"
+        "nvidia"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f7ed224224d2",
+      "title": "百度开源文心 5.5 Flash Preview正式开源，用 MoE 架构重塑“大参数、小激活”的性价比标杆",
+      "url": "https://www.aibase.com/news/32502",
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -470,14 +479,16 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_0bb8d1c5a29e",
-      "title": "AI 画错了自己改：商汤开源 U1.6，多模态模型学会“回头看”",
-      "url": "https://www.aibase.com/news/32500",
+      "story_id": "story_95be8f3370d2",
+      "title": "腾讯混元发布并开源Hy MT3",
+      "url": "https://www.aibase.com/news/32503",
       "importance_score": 0.7676,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-24",
-      "company_topics": [],
+      "company_topics": [
+        "hunyuan"
+      ],
       "lens_topics": []
     },
     {
@@ -492,63 +503,52 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_dab527c02acf",
-      "title": "MiniMax H3 开源百日交卷：一个模型裂变成 1472 个，下载量突破 1.48 亿次",
-      "url": "https://www.aibase.com/news/32493",
-      "importance_score": 0.7636,
-      "importance_label": "行业动态",
+      "story_id": "story_38518a4a42b0",
+      "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
+      "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
+      "importance_score": 0.7663,
+      "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
-        "minimax"
+        "anthropic"
       ],
       "lens_topics": []
     },
     {
-      "story_id": "story_c1b25f33d161",
-      "title": "蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%",
-      "url": "https://www.aibase.com/news/32495",
-      "importance_score": 0.7636,
+      "story_id": "story_ef12dbc5c60d",
+      "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+      "url": "https://www.aibase.com/news/32471",
+      "importance_score": 0.7621,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9f5aa52251ff",
-      "title": "告别“抽卡式”AI绘图！商汤开源SenseNova U1.6，首次赋予8B模型“原生图像自修正”能力",
-      "url": "https://www.aibase.com/news/32496",
-      "importance_score": 0.7636,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_85ecf8e274ca",
-      "title": "从“问答”到“办事”：豆包推出AI个人助理“小豆”，用对话式交互终结日常琐事焦虑",
-      "url": "https://www.aibase.com/news/32494",
-      "importance_score": 0.7636,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
+      "archive_date": "2026-11-23",
       "company_topics": [
-        "doubao"
+        "openai"
       ],
-      "lens_topics": [
-        "product-entry"
-      ]
+      "lens_topics": []
     },
     {
-      "story_id": "story_5145bfd9d408",
-      "title": "探索“原创IP+AI漫剧”新业态：书旗中文网2027年再投3亿元强化生态协同",
-      "url": "https://www.aibase.com/news/32499",
-      "importance_score": 0.7636,
+      "story_id": "story_eaadccb9623c",
+      "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+      "url": "https://www.aibase.com/news/32475",
+      "importance_score": 0.7621,
       "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-24",
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_e3b3d999fb3a",
+      "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+      "url": "https://www.aibase.com/news/32477",
+      "importance_score": 0.7621,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
       "company_topics": [],
       "lens_topics": []
     }
