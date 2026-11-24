@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 4,
-  "listed_count": 4,
-  "recent_item_count": 4,
+  "item_count": 5,
+  "listed_count": 5,
+  "recent_item_count": 5,
   "latest_title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
   "latest_published_at": "2026-11-24T08:15:44Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-24T13:03:06.784148Z",
+  "generated_at": "2026-11-24T16:15:49.399709Z",
   "items": [
     {
       "id": "story_60a992bf668c",
@@ -42,6 +42,22 @@
       "published_at": "2026-11-24T03:15:00.507927Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_787849381af6",
+      "story_id": "story_787849381af6",
+      "title": "Announcing vLLM-GR: Efficient Inference for Generative Recommendation",
+      "title_zh": null,
+      "title_en": "Announcing vLLM-GR: Efficient Inference for Generative Recommendation",
+      "url": "https://vllm.ai/blog/2026-11-24-vllm-gr-announcement",
+      "summary": "vLLM-GR extends vLLM to serve generative recommendation models with accelerator-side beam search, catalog constraints, and shared KV caching across candidate paths.",
+      "recommend_reason_zh": null,
+      "source": "vLLM Blog",
+      "source_name": "vLLM Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-24T00:00:00Z",
+      "source_count": 1,
+      "curated": true
     },
     {
       "id": "story_ef756067e020",

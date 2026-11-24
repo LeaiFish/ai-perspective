@@ -4,54 +4,68 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-24T13:03:06.784148Z",
+  "generated_at": "2026-11-24T16:15:49.399709Z",
   "daily_dates": [
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
-  "story_count": 1144,
-  "unique_story_count": 1144,
+  "story_count": 1430,
+  "unique_story_count": 1190,
   "counts": {
     "by_company_topic": {
-      "anthropic": 205,
+      "anthropic": 262,
       "apple": 14,
       "cursor": 7,
       "deepseek": 14,
-      "doubao": 15,
-      "google-gemini": 120,
-      "huggingface": 9,
-      "hunyuan": 7,
+      "doubao": 18,
+      "google-gemini": 150,
+      "huggingface": 12,
+      "hunyuan": 8,
       "kimi": 6,
-      "meta-llama": 11,
+      "meta-llama": 14,
       "microsoft": 4,
-      "minimax": 6,
-      "nvidia": 49,
-      "openai": 140,
-      "openrouter": 9,
-      "perplexity": 13,
-      "qwen": 12,
-      "xai": 15,
-      "zhipu": 10
+      "minimax": 9,
+      "nvidia": 68,
+      "openai": 182,
+      "openrouter": 11,
+      "perplexity": 15,
+      "qwen": 15,
+      "xai": 18,
+      "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 217,
-      "monetization": 43,
-      "product-entry": 36,
-      "workplace": 25
+      "agent-ecosystem": 275,
+      "monetization": 48,
+      "product-entry": 44,
+      "workplace": 31
     },
     "by_importance_label": {
-      "值得关注": 984,
-      "多源热议": 18,
-      "官方更新": 72,
-      "行业动态": 70
+      "值得关注": 1211,
+      "多源热议": 20,
+      "官方更新": 96,
+      "行业动态": 103
     },
     "by_source_count_bucket": {
-      "1": 1086,
-      "2": 40,
-      "3+": 18
+      "1": 1361,
+      "2": 49,
+      "3+": 20
     }
   },
   "top_stories": [
+    {
+      "story_id": "story_8c2aab0e28f2",
+      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "importance_score": 0.8513,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
     {
       "story_id": "story_50849ba4d70a",
       "title": "OpenAI and Cisco introduce Shirudo",
@@ -64,6 +78,19 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_74b6fe230007",
+      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
+      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
+      "importance_score": 0.8395,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_163fbb440649",
@@ -276,6 +303,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_a1d7cb5cea52",
+      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day / Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "importance_score": 0.7911,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_c283e192d280",
       "title": "元宝 2.94.0 官方版本更新",
       "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.94.0",
@@ -394,6 +434,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_eec034f4b587",
+      "title": "ChinaTalk 分析 BIS 租赁算力新规可为美国换取约六个月算力领先",
+      "url": "https://www.chinatalk.media/p/the-remote-access-rule-will-slow",
+      "importance_score": 0.7814,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_f4a132de0520",
       "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
@@ -502,58 +555,6 @@
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_95be8f3370d2",
-      "title": "腾讯混元发布并开源Hy MT3",
-      "url": "https://www.aibase.com/news/32503",
-      "importance_score": 0.7625,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_38518a4a42b0",
-      "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
-      "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
-      "importance_score": 0.7622,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ef12dbc5c60d",
-      "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
-      "url": "https://www.aibase.com/news/32471",
-      "importance_score": 0.7621,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_eaadccb9623c",
-      "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
-      "url": "https://www.aibase.com/news/32475",
-      "importance_score": 0.7621,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "huggingface"
-      ],
       "lens_topics": []
     }
   ]
