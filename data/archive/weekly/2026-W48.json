@@ -4,60 +4,74 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-24T16:15:49.399709Z",
+  "generated_at": "2026-11-24T18:16:45.989195Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
   ],
-  "story_count": 1430,
-  "unique_story_count": 1190,
+  "story_count": 1432,
+  "unique_story_count": 1221,
   "counts": {
     "by_company_topic": {
-      "anthropic": 262,
+      "anthropic": 265,
       "apple": 14,
       "cursor": 7,
       "deepseek": 14,
-      "doubao": 18,
-      "google-gemini": 150,
+      "doubao": 19,
+      "google-gemini": 147,
       "huggingface": 12,
       "hunyuan": 8,
       "kimi": 6,
       "meta-llama": 14,
       "microsoft": 4,
       "minimax": 9,
-      "nvidia": 68,
-      "openai": 182,
-      "openrouter": 11,
+      "nvidia": 67,
+      "openai": 183,
+      "openrouter": 10,
       "perplexity": 15,
       "qwen": 15,
       "xai": 18,
       "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 275,
-      "monetization": 48,
-      "product-entry": 44,
-      "workplace": 31
+      "agent-ecosystem": 277,
+      "monetization": 49,
+      "product-entry": 45,
+      "workplace": 32
     },
     "by_importance_label": {
-      "值得关注": 1211,
-      "多源热议": 20,
+      "值得关注": 1207,
+      "多源热议": 21,
       "官方更新": 96,
-      "行业动态": 103
+      "行业动态": 108
     },
     "by_source_count_bucket": {
-      "1": 1361,
-      "2": 49,
-      "3+": 20
+      "1": 1357,
+      "2": 54,
+      "3+": 21
     }
   },
   "top_stories": [
     {
+      "story_id": "story_c2e19fb7f5b4",
+      "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "importance_score": 0.8806,
+      "importance_label": "官方更新",
+      "source_count": 2,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "nvidia",
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_8c2aab0e28f2",
       "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.8513,
+      "importance_score": 0.8462,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -80,19 +94,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_74b6fe230007",
-      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
-      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.8395,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -104,6 +105,19 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_74b6fe230007",
+      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
+      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
+      "importance_score": 0.8345,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_8746a9d8916b",
@@ -236,6 +250,21 @@
       ]
     },
     {
+      "story_id": "story_4978547fc03f",
+      "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "importance_score": 0.8182,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_ba83067ed6e6",
       "title": "Perplexity Monitor API 新增 Agent monitors，可定时运行自然语言任务 / We've added Agent monitors to the Monitor API",
       "url": "https://community.perplexity.ai/t/weve-added-agent-monitors-to-the-monitor-api/6785",
@@ -303,19 +332,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_a1d7cb5cea52",
-      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day / Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "importance_score": 0.7911,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_c283e192d280",
       "title": "元宝 2.94.0 官方版本更新",
       "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.94.0",
@@ -377,6 +393,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_a1d7cb5cea52",
+      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day / Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "importance_score": 0.7862,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_b8159a3d45f9",
       "title": "如何使用 AI 制作角色表：周转和参考 / How to Make a Character Sheet with AI: Turnarounds and References",
       "url": "https://lumalabs.ai/news/make-character-sheet-with-ai",
@@ -434,14 +463,15 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_eec034f4b587",
-      "title": "ChinaTalk 分析 BIS 租赁算力新规可为美国换取约六个月算力领先",
-      "url": "https://www.chinatalk.media/p/the-remote-access-rule-will-slow",
-      "importance_score": 0.7814,
+      "story_id": "story_c9edd9fae7e0",
+      "title": "Amazon 以约 75 亿美元收购 Decart，押注用软件缩小与 Nvidia 的 AI 芯片差距 / Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race",
+      "importance_score": 0.7804,
       "importance_label": "行业动态",
-      "source_count": 1,
+      "source_count": 2,
       "archive_date": "2026-11-25",
       "company_topics": [
+        "anthropic",
         "nvidia"
       ],
       "lens_topics": []
@@ -467,6 +497,19 @@
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_eec034f4b587",
+      "title": "ChinaTalk 分析 BIS 租赁算力新规可为美国换取约六个月算力领先",
+      "url": "https://www.chinatalk.media/p/the-remote-access-rule-will-slow",
+      "importance_score": 0.7766,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
       "company_topics": [
         "nvidia"
       ],
@@ -522,39 +565,6 @@
       "company_topics": [
         "doubao"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_a6e3843837f9",
-      "title": "阿里云 AgentLoop 三项功能 12 月 7 日起计费",
-      "url": "https://www.aibase.com/news/32478",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_03c1988edf68",
-      "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
-      "url": "https://www.aibase.com/news/32479",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f7ed224224d2",
-      "title": "百度开源文心 5.5 Flash Preview正式开源，用 MoE 架构重塑“大参数、小激活”的性价比标杆",
-      "url": "https://www.aibase.com/news/32502",
-      "importance_score": 0.7625,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
       "lens_topics": []
     }
   ]
