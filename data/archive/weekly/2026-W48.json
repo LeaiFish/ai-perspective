@@ -4,49 +4,49 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-24T11:04:14.439372Z",
+  "generated_at": "2026-11-24T13:03:06.784148Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24"
   ],
-  "story_count": 1135,
-  "unique_story_count": 1130,
+  "story_count": 1144,
+  "unique_story_count": 1144,
   "counts": {
     "by_company_topic": {
-      "anthropic": 199,
+      "anthropic": 205,
       "apple": 14,
       "cursor": 7,
       "deepseek": 14,
       "doubao": 15,
-      "google-gemini": 117,
+      "google-gemini": 120,
       "huggingface": 9,
       "hunyuan": 7,
       "kimi": 6,
       "meta-llama": 11,
       "microsoft": 4,
       "minimax": 6,
-      "nvidia": 50,
-      "openai": 137,
+      "nvidia": 49,
+      "openai": 140,
       "openrouter": 9,
       "perplexity": 13,
-      "qwen": 11,
-      "xai": 16,
-      "zhipu": 11
+      "qwen": 12,
+      "xai": 15,
+      "zhipu": 10
     },
     "by_lens_topic": {
-      "agent-ecosystem": 211,
+      "agent-ecosystem": 217,
       "monetization": 43,
       "product-entry": 36,
       "workplace": 25
     },
     "by_importance_label": {
-      "值得关注": 976,
+      "值得关注": 984,
       "多源热议": 18,
-      "官方更新": 71,
+      "官方更新": 72,
       "行业动态": 70
     },
     "by_source_count_bucket": {
-      "1": 1077,
+      "1": 1086,
       "2": 40,
       "3+": 18
     }
@@ -56,7 +56,7 @@
       "story_id": "story_50849ba4d70a",
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
-      "importance_score": 0.8446,
+      "importance_score": 0.8404,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-24",
@@ -69,7 +69,7 @@
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
-      "importance_score": 0.8394,
+      "importance_score": 0.8351,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -79,10 +79,21 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_8746a9d8916b",
+      "title": "AI 编码环境变得越来越昂贵 - Tair 为此构建了功能，我们希望您对其进行测试 / AI Coding Context Keeps Getting More Expensive — Tair Built a Capability for That, and We Want You to Test It",
+      "url": "https://www.alibabacloud.com/blog/ai-coding-context-keeps-getting-more-expensive-%E2%80%94-tair-built-a-capability-for-that-and-we-want-you-to-test-it_603800",
+      "importance_score": 0.8288,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3a8d59639117",
       "title": "Muse 现已在英国上市：Muse 发挥作用，一切尽在掌握 / Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
-      "importance_score": 0.8313,
+      "importance_score": 0.8266,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -97,61 +108,13 @@
       "story_id": "story_1079f3a3a9f4",
       "title": "英国推出 Muse：由您控制的个人人工智能代理 / Introducing Muse in the UK: A Personal AI Agent You Control",
       "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control",
-      "importance_score": 0.8313,
+      "importance_score": 0.8266,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
         "meta-llama"
       ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_8746a9d8916b",
-      "title": "AI 编码环境变得越来越昂贵 - Tair 为此构建了功能，我们希望您对其进行测试 / AI Coding Context Keeps Getting More Expensive — Tair Built a Capability for That, and We Want You to Test It",
-      "url": "https://www.alibabacloud.com/blog/ai-coding-context-keeps-getting-more-expensive-%E2%80%94-tair-built-a-capability-for-that-and-we-want-you-to-test-it_603800",
-      "importance_score": 0.8288,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b483870af4d7",
-      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "importance_score": 0.8253,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d33b24438ea7",
-      "title": "Your AI Application Should Have a Traffic Entry Point: AI Gateway Serverless",
-      "url": "https://www.alibabacloud.com/blog/your-ai-application-should-have-a-traffic-entry-point-ai-gateway-serverless_603810",
-      "importance_score": 0.8234,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d00e21757888",
-      "title": "企业现在有了人工智能助手。为何上班族仍如此疲惫不堪？ / Enterprises Have AI Assistants Now. Why Are Office Workers Still So Drained?",
-      "url": "https://www.alibabacloud.com/blog/enterprises-have-ai-assistants-now--why-are-office-workers-still-so-drained_603808",
-      "importance_score": 0.8234,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -194,6 +157,19 @@
       ]
     },
     {
+      "story_id": "story_b483870af4d7",
+      "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "importance_score": 0.8214,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_f01a23e8f275",
       "title": "GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜",
       "url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
@@ -207,10 +183,36 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_d33b24438ea7",
+      "title": "你的AI应用应该有一个流量入口点：AI Gateway Serverless / Your AI Application Should Have a Traffic Entry Point: AI Gateway Serverless",
+      "url": "https://www.alibabacloud.com/blog/your-ai-application-should-have-a-traffic-entry-point-ai-gateway-serverless_603810",
+      "importance_score": 0.8191,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": [
+        "product-entry"
+      ]
+    },
+    {
+      "story_id": "story_d00e21757888",
+      "title": "企业现在有了人工智能助手。为何上班族仍如此疲惫不堪？ / Enterprises Have AI Assistants Now. Why Are Office Workers Still So Drained?",
+      "url": "https://www.alibabacloud.com/blog/enterprises-have-ai-assistants-now--why-are-office-workers-still-so-drained_603808",
+      "importance_score": 0.8191,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_ba83067ed6e6",
       "title": "Perplexity Monitor API 新增 Agent monitors，可定时运行自然语言任务 / We've added Agent monitors to the Monitor API",
       "url": "https://community.perplexity.ai/t/weve-added-agent-monitors-to-the-monitor-api/6785",
-      "importance_score": 0.8135,
+      "importance_score": 0.8093,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -226,7 +228,7 @@
       "story_id": "story_cd7204045cb4",
       "title": "以下是您不知道可以使用 Gemini Canvas 做的 4 件事。 / Here are 4 things you didn’t know you could do with Gemini Canvas.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
-      "importance_score": 0.8127,
+      "importance_score": 0.8087,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -253,7 +255,7 @@
       "story_id": "story_10f2214e97f1",
       "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
       "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
-      "importance_score": 0.8049,
+      "importance_score": 0.8007,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -264,25 +266,12 @@
       "story_id": "story_f0c49f3f943b",
       "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-      "importance_score": 0.8027,
+      "importance_score": 0.7987,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
         "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_981e876e74e1",
-      "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
-      "url": "https://www.chinatalk.media/p/jensen-returns",
-      "importance_score": 0.7928,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
       ],
       "lens_topics": []
     },
@@ -300,6 +289,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_981e876e74e1",
+      "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
+      "url": "https://www.chinatalk.media/p/jensen-returns",
+      "importance_score": 0.7884,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_5f800b4bb689",
       "title": "人工智能圣诞广告：可口可乐人工智能假日广告的正确之处以及如何制作广告 / AI Christmas Ads: What Coca-Cola's AI Holiday Spots Got Right, and How to Make One",
       "url": "https://lumalabs.ai/news/ai-christmas-ads",
@@ -307,17 +309,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_ee56d0d1afc0",
-      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
-      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
-      "importance_score": 0.7868,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
     },
@@ -392,16 +383,14 @@
       ]
     },
     {
-      "story_id": "story_6406d9100e2b",
-      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.7804,
-      "importance_label": "行业动态",
-      "source_count": 2,
+      "story_id": "story_ee56d0d1afc0",
+      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
+      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
+      "importance_score": 0.7831,
+      "importance_label": "官方更新",
+      "source_count": 1,
       "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -414,6 +403,19 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_6406d9100e2b",
+      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "importance_score": 0.7766,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -431,27 +433,29 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_0e094de279ca",
+      "title": "一条维保视频，从一个月到一周：徐工用AI为后服务内容生产提效降本",
+      "url": "https://mp.weixin.qq.com/s/7D_YIP9sTCcd9ghw7xkm2A",
+      "importance_score": 0.7757,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_547773407e45",
       "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会 / Jensen Huang is now back!",
       "url": "https://x.com/thexpin/status/2124866686025400819",
-      "importance_score": 0.7745,
+      "importance_score": 0.7708,
       "importance_label": "行业动态",
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f7ed224224d2",
-      "title": "百度开源文心 5.5 Flash Preview正式开源，用 MoE 架构重塑“大参数、小激活”的性价比标杆",
-      "url": "https://www.aibase.com/news/32502",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -479,19 +483,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_95be8f3370d2",
-      "title": "腾讯混元发布并开源Hy MT3",
-      "url": "https://www.aibase.com/news/32503",
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_03c1988edf68",
       "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
       "url": "https://www.aibase.com/news/32479",
@@ -503,10 +494,34 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_f7ed224224d2",
+      "title": "百度开源文心 5.5 Flash Preview正式开源，用 MoE 架构重塑“大参数、小激活”的性价比标杆",
+      "url": "https://www.aibase.com/news/32502",
+      "importance_score": 0.7625,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_95be8f3370d2",
+      "title": "腾讯混元发布并开源Hy MT3",
+      "url": "https://www.aibase.com/news/32503",
+      "importance_score": 0.7625,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-24",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_38518a4a42b0",
       "title": "Claude Code 推出 /ship 命令，自动开 PR 并跟进审查与修复 / Try it on your next PR: update Claude Code and run /ship. It's rolling out in the CLI and desktop app now.",
       "url": "https://x.com/ClaudeDevs/status/2124959438175981965",
-      "importance_score": 0.7663,
+      "importance_score": 0.7622,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-24",
@@ -539,17 +554,6 @@
       "company_topics": [
         "huggingface"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_e3b3d999fb3a",
-      "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
-      "url": "https://www.aibase.com/news/32477",
-      "importance_score": 0.7621,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
       "lens_topics": []
     }
   ]
