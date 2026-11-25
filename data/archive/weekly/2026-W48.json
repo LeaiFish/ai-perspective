@@ -4,52 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-25T05:31:50.944065Z",
+  "generated_at": "2026-11-25T09:54:29.245703Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
   ],
-  "story_count": 1447,
-  "unique_story_count": 1367,
+  "story_count": 1463,
+  "unique_story_count": 1422,
   "counts": {
     "by_company_topic": {
-      "anthropic": 275,
+      "anthropic": 277,
       "apple": 14,
       "cursor": 7,
       "deepseek": 18,
       "doubao": 18,
-      "google-gemini": 145,
+      "google-gemini": 147,
       "huggingface": 11,
-      "hunyuan": 8,
+      "hunyuan": 9,
       "kimi": 7,
-      "meta-llama": 13,
-      "microsoft": 4,
-      "minimax": 8,
-      "nvidia": 66,
+      "meta-llama": 11,
+      "microsoft": 5,
+      "minimax": 6,
+      "nvidia": 69,
       "openai": 185,
-      "openrouter": 11,
+      "openrouter": 10,
       "perplexity": 14,
-      "qwen": 16,
+      "qwen": 18,
       "xai": 18,
-      "zhipu": 10
+      "zhipu": 11
     },
     "by_lens_topic": {
-      "agent-ecosystem": 276,
-      "monetization": 46,
-      "product-entry": 41,
-      "workplace": 29
+      "agent-ecosystem": 273,
+      "monetization": 47,
+      "product-entry": 40,
+      "workplace": 30
     },
     "by_importance_label": {
-      "值得关注": 1228,
-      "多源热议": 24,
+      "值得关注": 1239,
+      "多源热议": 26,
       "官方更新": 89,
-      "行业动态": 106
+      "行业动态": 109
     },
     "by_source_count_bucket": {
-      "1": 1370,
-      "2": 52,
-      "3+": 25
+      "1": 1386,
+      "2": 50,
+      "3+": 27
     }
   },
   "top_stories": [
@@ -57,7 +57,7 @@
       "story_id": "story_94d1586a7d4f",
       "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "importance_score": 0.8718,
+      "importance_score": 0.8631,
       "importance_label": "官方更新",
       "source_count": 3,
       "archive_date": "2026-11-25",
@@ -70,7 +70,7 @@
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "importance_score": 0.8543,
+      "importance_score": 0.8451,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-25",
@@ -107,10 +107,21 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_fbb91635b162",
-      "title": "The Agent Lake",
-      "url": "https://www.langchain.com/blog/the-agent-lake",
-      "importance_score": 0.8339,
+      "story_id": "story_f1efa791e402",
+      "title": "The Three Hidden Bills of an LLM Proxy: Security Incidents, Operational Investment, and Model Selection",
+      "url": "https://www.alibabacloud.com/blog/the-three-hidden-bills-of-an-llm-proxy-security-incidents-operational-investment-and-model-selection_603813",
+      "importance_score": 0.834,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_05d90129c7e6",
+      "title": "Managing Logs with Natural Language: A Practical Guide to Alibaba Cloud SLS Agent Skills",
+      "url": "https://www.alibabacloud.com/blog/managing-logs-with-natural-language-a-practical-guide-to-alibaba-cloud-sls-agent-skills_603812",
+      "importance_score": 0.834,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -118,17 +129,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_5f89abe3093f",
-      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
-      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
-      "importance_score": 0.8328,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": []
     },
     {
       "story_id": "story_8746a9d8916b",
@@ -172,6 +172,19 @@
       ]
     },
     {
+      "story_id": "story_fbb91635b162",
+      "title": "The Agent Lake",
+      "url": "https://www.langchain.com/blog/the-agent-lake",
+      "importance_score": 0.8235,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_ce87bd8f2303",
       "title": "Qwen4-Max at Work: Six Real-World Scenarios for an Always-On AI Teammate",
       "url": "https://www.alibabacloud.com/blog/qwen4-max-at-work-six-real-world-scenarios-for-an-always-on-ai-teammate_603805",
@@ -209,6 +222,17 @@
       ]
     },
     {
+      "story_id": "story_5f89abe3093f",
+      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
+      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+      "importance_score": 0.8224,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_b483870af4d7",
       "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
       "url": "https://huggingface.co/blog/allenai/robotrack",
@@ -231,19 +255,6 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "zhipu"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8c2aab0e28f2",
-      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.8201,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -274,15 +285,15 @@
       ]
     },
     {
-      "story_id": "story_8c7ce3fbf64d",
-      "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "importance_score": 0.8097,
+      "story_id": "story_8c2aab0e28f2",
+      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "importance_score": 0.811,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
       "company_topics": [
-        "openai"
+        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -299,19 +310,6 @@
       ],
       "lens_topics": [
         "product-entry",
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_74b6fe230007",
-      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
-      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.8089,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
         "agent-ecosystem"
       ]
     },
@@ -343,6 +341,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_8c7ce3fbf64d",
+      "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "importance_score": 0.8013,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_10f2214e97f1",
       "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
       "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
@@ -352,6 +363,19 @@
       "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_74b6fe230007",
+      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
+      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
+      "importance_score": 0.8,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_f0c49f3f943b",
@@ -485,19 +509,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_e2ea448b2d5e",
-      "title": "Anthropic 上市不到一周跌破 83 美元发行价",
-      "url": "https://www.ithome.com/1/031/983.htm",
-      "importance_score": 0.7804,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_f4a132de0520",
       "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
@@ -533,21 +544,6 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_736d7e19d548",
-      "title": "Ed Zitron 分析 NVIDIA 董事会恢复黄仁勋 CEO 职位背后的行业流动性风险",
-      "url": "https://www.wheresyoured.at/defective-accelerationism",
-      "importance_score": 0.7763,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "openai",
-        "anthropic",
-        "nvidia"
       ],
       "lens_topics": []
     },
