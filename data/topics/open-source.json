@@ -3,13 +3,13 @@
   "name": "开源生态",
   "description": "开源模型、框架与仓库：权重开放、社区爆火、开源与闭源消长。",
   "group": "tech",
-  "item_count": 13,
-  "listed_count": 13,
-  "recent_item_count": 13,
+  "item_count": 12,
+  "listed_count": 12,
+  "recent_item_count": 12,
   "latest_title": "[分享创造] 开源了一个能打电话、边聊边干的 Personal Agent，手机上能独立跑，求拍砖",
   "latest_published_at": "2026-11-25T15:23:22Z",
   "items_url": "data/topics/open-source.json",
-  "generated_at": "2026-11-25T16:00:38.548285Z",
+  "generated_at": "2026-11-25T17:36:45.632089Z",
   "items": [
     {
       "id": "story_e5ec97b89cdd",
@@ -24,6 +24,22 @@
       "source_name": "Info Flow",
       "site_id": "iris",
       "published_at": "2026-11-25T15:23:22Z",
+      "source_count": 1,
+      "curated": false
+    },
+    {
+      "id": "story_266265954398",
+      "story_id": "story_266265954398",
+      "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "title_zh": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "title_en": null,
+      "url": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "InfoQ CN",
+      "source_name": "OPML RSS",
+      "site_id": "opmlrss",
+      "published_at": "2026-11-25T13:00:00Z",
       "source_count": 1,
       "curated": false
     },
@@ -124,22 +140,6 @@
       "curated": false
     },
     {
-      "id": "story_266265954398",
-      "story_id": "story_266265954398",
-      "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
-      "title_zh": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
-      "title_en": null,
-      "url": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "InfoQ CN",
-      "source_name": "OPML RSS",
-      "site_id": "opmlrss",
-      "published_at": "2026-11-25T05:00:00Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
       "id": "story_c8aa5c683b39",
       "story_id": "story_c8aa5c683b39",
       "title": "[分享创造] 开源了一个手机版本的超级 agent 工具：agent tower",
@@ -154,6 +154,22 @@
       "published_at": "2026-11-25T04:05:04Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_66c207de1851",
+      "story_id": "story_66c207de1851",
+      "title": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_zh": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_en": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "summary": "我们正在通过开源和开放科学推进人工智能并使之民主化。",
+      "recommend_reason_zh": null,
+      "source": "Hugging Face Blog",
+      "source_name": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-25T00:00:00.777000Z",
+      "source_count": 2,
+      "curated": true
     },
     {
       "id": "story_e72cbdf624bf",
@@ -186,38 +202,6 @@
       "published_at": "2026-11-24T18:02:59Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "story_3f88cc2e54f4",
-      "story_id": "story_3f88cc2e54f4",
-      "title": "[宽带症候群] 从 openwrt 到用 AI 搓出 VPP 软路由：我的折腾之路与开源项目",
-      "title_zh": "[宽带症候群] 从 openwrt 到用 AI 搓出 VPP 软路由：我的折腾之路与开源项目",
-      "title_en": null,
-      "url": "https://www.v2ex.com/t/1259585",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "site_id": "iris",
-      "published_at": "2026-11-24T17:07:00Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_07a12a7802ea",
-      "story_id": "story_07a12a7802ea",
-      "title": "阿里开源的AI代码审查工具，GitHub 52.1K+ star，阿里内部用了两年",
-      "title_zh": "阿里开源的AI代码审查工具，GitHub 52.1K+ star，阿里内部用了两年",
-      "title_en": null,
-      "url": "https://juejin.cn/post/7711283330075377698",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "juejin",
-      "source_name": "NewsNow",
-      "site_id": "newsnow",
-      "published_at": "2026-11-24T16:17:23.742000Z",
-      "source_count": 1,
-      "curated": false
     }
   ]
 }

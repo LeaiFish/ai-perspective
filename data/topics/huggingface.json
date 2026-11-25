@@ -3,13 +3,13 @@
   "name": "Hugging Face",
   "description": "Hugging Face 开源社区：热门模型与数据集、排行榜、Spaces 与推理服务。",
   "group": "company",
-  "item_count": 1039,
-  "listed_count": 1039,
-  "recent_item_count": 120,
+  "item_count": 1040,
+  "listed_count": 1040,
+  "recent_item_count": 121,
   "latest_title": "IBM Research 用 CUGA 构建印度语言农业语音智能体并分享实践经验",
   "latest_published_at": "2026-11-25T10:22:09Z",
   "items_url": "data/topics/huggingface.json",
-  "generated_at": "2026-11-25T16:00:38.548285Z",
+  "generated_at": "2026-11-25T17:36:45.632089Z",
   "items": [
     {
       "id": "story_34d415b543f1",
@@ -25,6 +25,22 @@
       "site_id": "official_ai",
       "published_at": "2026-11-25T10:22:09Z",
       "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_66c207de1851",
+      "story_id": "story_66c207de1851",
+      "title": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_zh": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_en": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "summary": "我们正在通过开源和开放科学推进人工智能并使之民主化。",
+      "recommend_reason_zh": null,
+      "source": "Hugging Face Blog",
+      "source_name": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-25T00:00:00.777000Z",
+      "source_count": 2,
       "curated": true
     },
     {
@@ -44,19 +60,19 @@
       "curated": false
     },
     {
-      "id": "story_c2e19fb7f5b4",
-      "story_id": "story_c2e19fb7f5b4",
+      "id": "847162fe57142ac9a6af631b3206e204380c1f7a",
+      "story_id": null,
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程",
-      "title_zh": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程",
-      "title_en": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "title_zh": null,
+      "title_en": null,
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
       "summary": "NVIDIA 发布 Microduck 避障教程，在保持行走策略权重冻结的前提下，用 Newton raycaster 建模 VL53L5CX ToF 传感器（8×8 网格、15Hz、45° 视场角、0.12–4m 量程），在 Isaac Lab 中用 PPO 训练导航控制器调整手柄速度指令。",
       "recommend_reason_zh": null,
-      "source": "Hugging Face Blog",
-      "source_name": "Hugging Face Blog",
-      "site_id": "official_ai",
+      "source": "Hugging Face 社区博客（混合发现）",
+      "source_name": "Hugging Face 社区博客（混合发现）",
+      "site_id": "aihot",
       "published_at": "2026-11-24T16:34:13Z",
-      "source_count": 2,
+      "source_count": 1,
       "curated": true
     },
     {

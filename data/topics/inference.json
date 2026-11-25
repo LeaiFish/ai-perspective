@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 3,
-  "listed_count": 3,
-  "recent_item_count": 3,
+  "item_count": 4,
+  "listed_count": 4,
+  "recent_item_count": 4,
   "latest_title": "人类研究表明，在工作中采用人工智能最困难的部分与学习工具无关",
   "latest_published_at": "2026-11-25T13:14:27Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-25T16:00:38.548285Z",
+  "generated_at": "2026-11-25T17:36:45.632089Z",
   "items": [
     {
       "id": "story_d53985c1d2ea",
@@ -57,6 +57,22 @@
       "site_id": "wechat_bridge",
       "published_at": "2026-11-25T06:42:00Z",
       "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_66c207de1851",
+      "story_id": "story_66c207de1851",
+      "title": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_zh": "Hugging Face 团队在单张 RTX PRO 6000 上调优 Inkling 2 Mini 推理，单用户解码达 190.6 tok/s",
+      "title_en": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "summary": "我们正在通过开源和开放科学推进人工智能并使之民主化。",
+      "recommend_reason_zh": null,
+      "source": "Hugging Face Blog",
+      "source_name": "Hugging Face Blog",
+      "site_id": "official_ai",
+      "published_at": "2026-11-25T00:00:00.777000Z",
+      "source_count": 2,
       "curated": true
     }
   ]
