@@ -4,50 +4,50 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-25T09:54:29.245703Z",
+  "generated_at": "2026-11-25T11:43:02.502617Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
   ],
-  "story_count": 1463,
-  "unique_story_count": 1422,
+  "story_count": 1459,
+  "unique_story_count": 1446,
   "counts": {
     "by_company_topic": {
-      "anthropic": 277,
+      "anthropic": 275,
       "apple": 14,
       "cursor": 7,
       "deepseek": 18,
-      "doubao": 18,
-      "google-gemini": 147,
-      "huggingface": 11,
+      "doubao": 19,
+      "google-gemini": 149,
+      "huggingface": 12,
       "hunyuan": 9,
       "kimi": 7,
       "meta-llama": 11,
       "microsoft": 5,
       "minimax": 6,
-      "nvidia": 69,
-      "openai": 185,
+      "nvidia": 67,
+      "openai": 182,
       "openrouter": 10,
       "perplexity": 14,
-      "qwen": 18,
+      "qwen": 17,
       "xai": 18,
       "zhipu": 11
     },
     "by_lens_topic": {
-      "agent-ecosystem": 273,
-      "monetization": 47,
+      "agent-ecosystem": 271,
+      "monetization": 48,
       "product-entry": 40,
       "workplace": 30
     },
     "by_importance_label": {
-      "值得关注": 1239,
+      "值得关注": 1235,
       "多源热议": 26,
-      "官方更新": 89,
-      "行业动态": 109
+      "官方更新": 91,
+      "行业动态": 107
     },
     "by_source_count_bucket": {
-      "1": 1386,
+      "1": 1382,
       "2": 50,
       "3+": 27
     }
@@ -57,7 +57,7 @@
       "story_id": "story_94d1586a7d4f",
       "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "importance_score": 0.8631,
+      "importance_score": 0.8597,
       "importance_label": "官方更新",
       "source_count": 3,
       "archive_date": "2026-11-25",
@@ -67,10 +67,25 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_34d415b543f1",
+      "title": "IBM Research 用 CUGA 构建印度语言农业语音智能体并分享实践经验 / An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "importance_score": 0.8565,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "importance_score": 0.8451,
+      "importance_score": 0.8415,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-25",
@@ -108,9 +123,9 @@
     },
     {
       "story_id": "story_f1efa791e402",
-      "title": "The Three Hidden Bills of an LLM Proxy: Security Incidents, Operational Investment, and Model Selection",
+      "title": "LLM代理的三大隐性账单：安全事件、运营投资和模型选择 / The Three Hidden Bills of an LLM Proxy: Security Incidents, Operational Investment, and Model Selection",
       "url": "https://www.alibabacloud.com/blog/the-three-hidden-bills-of-an-llm-proxy-security-incidents-operational-investment-and-model-selection_603813",
-      "importance_score": 0.834,
+      "importance_score": 0.83,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -119,9 +134,9 @@
     },
     {
       "story_id": "story_05d90129c7e6",
-      "title": "Managing Logs with Natural Language: A Practical Guide to Alibaba Cloud SLS Agent Skills",
+      "title": "用自然语言管理日志：阿里云SLS Agent技能实用指南 / Managing Logs with Natural Language: A Practical Guide to Alibaba Cloud SLS Agent Skills",
       "url": "https://www.alibabacloud.com/blog/managing-logs-with-natural-language-a-practical-guide-to-alibaba-cloud-sls-agent-skills_603812",
-      "importance_score": 0.834,
+      "importance_score": 0.83,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -172,19 +187,6 @@
       ]
     },
     {
-      "story_id": "story_fbb91635b162",
-      "title": "The Agent Lake",
-      "url": "https://www.langchain.com/blog/the-agent-lake",
-      "importance_score": 0.8235,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_ce87bd8f2303",
       "title": "Qwen4-Max at Work: Six Real-World Scenarios for an Always-On AI Teammate",
       "url": "https://www.alibabacloud.com/blog/qwen4-max-at-work-six-real-world-scenarios-for-an-always-on-ai-teammate_603805",
@@ -222,17 +224,6 @@
       ]
     },
     {
-      "story_id": "story_5f89abe3093f",
-      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
-      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
-      "importance_score": 0.8224,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_b483870af4d7",
       "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
       "url": "https://huggingface.co/blog/allenai/robotrack",
@@ -257,6 +248,19 @@
         "zhipu"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_fbb91635b162",
+      "title": "The Agent Lake",
+      "url": "https://www.langchain.com/blog/the-agent-lake",
+      "importance_score": 0.8194,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_d33b24438ea7",
@@ -285,16 +289,14 @@
       ]
     },
     {
-      "story_id": "story_8c2aab0e28f2",
-      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.811,
+      "story_id": "story_5f89abe3093f",
+      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
+      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+      "importance_score": 0.8183,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
-      "company_topics": [
-        "google-gemini"
-      ],
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -327,6 +329,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_8c2aab0e28f2",
+      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "importance_score": 0.8074,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_91d25aa0bb33",
       "title": "OpenAI 提议以Perplexity度作为行业共享指标并公开内部预训练测量数据 / Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence",
@@ -337,19 +352,6 @@
       "company_topics": [
         "openai",
         "perplexity"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8c7ce3fbf64d",
-      "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "importance_score": 0.8013,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "openai"
       ],
       "lens_topics": []
     },
@@ -365,19 +367,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_74b6fe230007",
-      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
-      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.8,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_f0c49f3f943b",
       "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
@@ -389,6 +378,19 @@
         "google-gemini"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_74b6fe230007",
+      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
+      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
+      "importance_score": 0.7965,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_c283e192d280",
@@ -404,6 +406,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_20c447bece05",
+      "title": "一口气推出10档AI综艺！浙江卫视携手火山引擎解锁综艺新玩法",
+      "url": "https://mp.weixin.qq.com/s/egN3JFUdOm_AD1TH7HiDbA",
+      "importance_score": 0.7896,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "doubao"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_981e876e74e1",
       "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
       "url": "https://www.chinatalk.media/p/jensen-returns",
@@ -413,6 +428,19 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_09017c1b7602",
+      "title": "Hy4 flash 本地部署：让大模型跑在个人设备上",
+      "url": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
+      "importance_score": 0.7874,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "hunyuan"
       ],
       "lens_topics": []
     },
@@ -531,32 +559,6 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_d3edd489e35a",
-      "title": "Anthropic IPO 前三家机构如何重注押注 / How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
-      "importance_score": 0.7765,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_0e094de279ca",
-      "title": "一条维保视频，从一个月到一周：徐工用AI为后服务内容生产提效降本",
-      "url": "https://mp.weixin.qq.com/s/7D_YIP9sTCcd9ghw7xkm2A",
-      "importance_score": 0.7757,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "doubao"
       ],
       "lens_topics": []
     }
