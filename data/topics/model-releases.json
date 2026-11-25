@@ -3,14 +3,30 @@
   "name": "模型发布",
   "description": "新模型的发布、开源与迭代：旗舰更新、权重放出、性能与价格变化。",
   "group": "tech",
-  "item_count": 8,
-  "listed_count": 8,
-  "recent_item_count": 8,
-  "latest_title": "OpenAI、Anthropic 内部讨论\"停训\"：前沿模型强到不敢发，员工担忧安全风险失控",
-  "latest_published_at": "2026-11-25T09:54:29.245703Z",
+  "item_count": 6,
+  "listed_count": 6,
+  "recent_item_count": 6,
+  "latest_title": "AI 代理现在控制 Deepmind Gemini 实验的部分计算，但递归自我改进仍然遥远",
+  "latest_published_at": "2026-11-25T13:23:36Z",
   "items_url": "data/topics/model-releases.json",
-  "generated_at": "2026-11-25T11:43:02.502617Z",
+  "generated_at": "2026-11-25T16:00:38.548285Z",
   "items": [
+    {
+      "id": "story_24f22eeea8b1",
+      "story_id": "story_24f22eeea8b1",
+      "title": "AI 代理现在控制 Deepmind Gemini 实验的部分计算，但递归自我改进仍然遥远",
+      "title_zh": "AI 代理现在控制 Deepmind Gemini 实验的部分计算，但递归自我改进仍然遥远",
+      "title_en": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "summary": "Google Deepmind 使用人工智能代理为即将推出的 Gemini 模型自行运行实验。研究负责人科雷·卡武克措格鲁 (Koray Kavukcuoglu) 表示，实验室距离递归自我完善还很远。为了进行监督，Deepmind 故意让代理的内部思维链未经训练，以便对其进行审查。",
+      "recommend_reason_zh": null,
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "site_id": "curated_media",
+      "published_at": "2026-11-25T13:23:36Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_225c4389abca",
       "story_id": "story_225c4389abca",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-25T09:54:29.245703Z",
       "source_count": 1,
-      "curated": false
+      "curated": true
     },
     {
       "id": "story_e4c3cd97098f",
@@ -60,22 +76,6 @@
       "curated": true
     },
     {
-      "id": "story_94d1586a7d4f",
-      "story_id": "story_94d1586a7d4f",
-      "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力",
-      "title_zh": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力",
-      "title_en": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "summary": "GPT-6 模型使用推理和代码设计蛋白质结构和序列。实验室测试发现了五个目标之间结合的证据。",
-      "recommend_reason_zh": null,
-      "source": "OpenAI News",
-      "source_name": "OpenAI News",
-      "site_id": "official_ai",
-      "published_at": "2026-11-24T23:32:43.781000Z",
-      "source_count": 3,
-      "curated": true
-    },
-    {
       "id": "story_e72cbdf624bf",
       "story_id": "story_e72cbdf624bf",
       "title": "OpenRouter 数据显示开源权重模型支出占比升至 35%",
@@ -106,38 +106,6 @@
       "published_at": "2026-11-24T17:46:41Z",
       "source_count": 1,
       "curated": false
-    },
-    {
-      "id": "story_659e290c3b9a",
-      "story_id": "story_659e290c3b9a",
-      "title": "据报道，人工智能实验室工作人员担心未发布的模型过于强大而无法发布",
-      "title_zh": "据报道，人工智能实验室工作人员担心未发布的模型过于强大而无法发布",
-      "title_en": "AI lab staff reportedly fear unreleased models are too powerful to release",
-      "url": "https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "The Next Web",
-      "source_name": "TechURLs",
-      "site_id": "techurls",
-      "published_at": "2026-11-24T15:02:48Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_aa1951a4330c",
-      "story_id": "story_aa1951a4330c",
-      "title": "数十名内部人士表示 OpenAI 和 Anthropic 未发布的模型已经超出了其安全措施的范围",
-      "title_zh": "数十名内部人士表示 OpenAI 和 Anthropic 未发布的模型已经超出了其安全措施的范围",
-      "title_en": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
-      "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures",
-      "summary": "根据 Axios 的一份报告，OpenAI 和 Anthropic 的许多员工认为，公司自己未发布的前沿模型已无法再得到安全控制。两家公司都在内部争论是否停止发布，甚至完全停止培训，而员工对领导层的信任正在削弱。数十名内部人士表示 OpenAI 和 Anthropic 未发布的模型已经无法满足其安全措施的文章首先出现在 The Decoder 上。",
-      "recommend_reason_zh": null,
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "site_id": "curated_media",
-      "published_at": "2026-11-24T14:02:31Z",
-      "source_count": 1,
-      "curated": true
     }
   ]
 }

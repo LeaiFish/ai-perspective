@@ -4,52 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-25T11:43:02.502617Z",
+  "generated_at": "2026-11-25T16:00:38.548285Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
-  "story_count": 1459,
-  "unique_story_count": 1446,
+  "story_count": 1754,
+  "unique_story_count": 1484,
   "counts": {
     "by_company_topic": {
-      "anthropic": 275,
+      "anthropic": 335,
       "apple": 14,
       "cursor": 7,
-      "deepseek": 18,
-      "doubao": 19,
-      "google-gemini": 149,
-      "huggingface": 12,
-      "hunyuan": 9,
-      "kimi": 7,
+      "deepseek": 22,
+      "doubao": 23,
+      "google-gemini": 176,
+      "huggingface": 15,
+      "hunyuan": 11,
+      "kimi": 8,
       "meta-llama": 11,
-      "microsoft": 5,
+      "microsoft": 6,
       "minimax": 6,
-      "nvidia": 67,
-      "openai": 182,
-      "openrouter": 10,
-      "perplexity": 14,
-      "qwen": 17,
-      "xai": 18,
-      "zhipu": 11
+      "nvidia": 88,
+      "openai": 221,
+      "openrouter": 11,
+      "perplexity": 15,
+      "qwen": 22,
+      "xai": 21,
+      "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 271,
-      "monetization": 48,
-      "product-entry": 40,
-      "workplace": 30
+      "agent-ecosystem": 318,
+      "monetization": 53,
+      "product-entry": 46,
+      "workplace": 36
     },
     "by_importance_label": {
-      "值得关注": 1235,
-      "多源热议": 26,
-      "官方更新": 91,
-      "行业动态": 107
+      "值得关注": 1469,
+      "多源热议": 33,
+      "官方更新": 108,
+      "行业动态": 144
     },
     "by_source_count_bucket": {
-      "1": 1382,
-      "2": 50,
-      "3+": 27
+      "1": 1661,
+      "2": 59,
+      "3+": 34
     }
   },
   "top_stories": [
@@ -77,6 +78,19 @@
       "company_topics": [
         "huggingface"
       ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_c77f89107e85",
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents",
+      "importance_score": 0.8528,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -233,6 +247,19 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "huggingface"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_576a2ae9d304",
+      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片转运调查",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
+      "importance_score": 0.8209,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "nvidia"
       ],
       "lens_topics": []
     },
@@ -534,32 +561,6 @@
       "source_count": 1,
       "archive_date": "2026-11-24",
       "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.7776,
-      "importance_label": "多源热议",
-      "source_count": 6,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6406d9100e2b",
-      "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
-      "importance_score": 0.7766,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
-      ],
       "lens_topics": []
     }
   ]
