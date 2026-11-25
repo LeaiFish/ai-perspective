@@ -4,53 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-25T17:36:45.632089Z",
+  "generated_at": "2026-11-25T20:31:05.397455Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26"
   ],
-  "story_count": 1748,
-  "unique_story_count": 1509,
+  "story_count": 1732,
+  "unique_story_count": 1541,
   "counts": {
     "by_company_topic": {
-      "anthropic": 334,
+      "anthropic": 322,
       "apple": 14,
       "cursor": 7,
-      "deepseek": 22,
+      "deepseek": 21,
       "doubao": 22,
-      "google-gemini": 181,
+      "google-gemini": 180,
       "huggingface": 15,
       "hunyuan": 11,
-      "kimi": 8,
+      "kimi": 7,
       "meta-llama": 11,
-      "microsoft": 6,
+      "microsoft": 7,
       "minimax": 6,
-      "nvidia": 85,
-      "openai": 218,
-      "openrouter": 11,
+      "nvidia": 84,
+      "openai": 209,
+      "openrouter": 10,
       "perplexity": 15,
-      "qwen": 22,
-      "xai": 20,
+      "qwen": 21,
+      "xai": 19,
       "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 323,
+      "agent-ecosystem": 317,
       "monetization": 52,
       "product-entry": 46,
-      "workplace": 35
+      "workplace": 36
     },
     "by_importance_label": {
-      "值得关注": 1467,
-      "多源热议": 30,
-      "官方更新": 107,
+      "值得关注": 1454,
+      "多源热议": 31,
+      "官方更新": 103,
       "行业动态": 144
     },
     "by_source_count_bucket": {
-      "1": 1660,
-      "2": 57,
-      "3+": 31
+      "1": 1644,
+      "2": 56,
+      "3+": 32
     }
   },
   "top_stories": [
@@ -83,10 +83,36 @@
       ]
     },
     {
+      "story_id": "story_9ef31414a556",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "importance_score": 0.8558,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_9aa3d4029e99",
+      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "importance_score": 0.8492,
+      "importance_label": "多源热议",
+      "source_count": 3,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_c77f89107e85",
       "title": "Introducing Search for Agents",
       "url": "https://blog.cloudflare.com/search-for-agents",
-      "importance_score": 0.8489,
+      "importance_score": 0.8418,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
@@ -134,6 +160,22 @@
         "openai"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_99c27e1d7e6a",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "importance_score": 0.8302,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_f1efa791e402",
@@ -314,17 +356,19 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_576a2ae9d304",
-      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片转运调查",
+      "story_id": "story_0337d499dc98",
+      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-      "importance_score": 0.817,
+      "importance_score": 0.8101,
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-26",
       "company_topics": [
         "nvidia"
       ],
-      "lens_topics": []
+      "lens_topics": [
+        "workplace"
+      ]
     },
     {
       "story_id": "story_ba83067ed6e6",
@@ -525,41 +569,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_b508602b217c",
-      "title": "Flora AI 评论 2027：基于节点的画布，经过测试 / Flora AI Review 2027: The Node-Based Canvas, Tested",
-      "url": "https://lumalabs.ai/news/flora-ai-review",
-      "importance_score": 0.7848,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c60c87170c1a",
-      "title": "2027 年中途定价：计划、成本以及是否有免费试用 / Midjourney Pricing 2027: Plans, Costs, and Whether There Is a Free Trial",
-      "url": "https://lumalabs.ai/news/midjourney-pricing",
-      "importance_score": 0.7843,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": [
-        "monetization"
-      ]
-    },
-    {
-      "story_id": "story_ee56d0d1afc0",
-      "title": "周一早上的事件：您的“Lead Routing”工作流程停止了路由 / The Monday morning incident: your “Lead Routing” workflow stopped routing",
-      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing",
-      "importance_score": 0.7831,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
       "company_topics": [],
       "lens_topics": []
     }
