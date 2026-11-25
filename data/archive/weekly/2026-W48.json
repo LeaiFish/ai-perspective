@@ -4,52 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-25T01:29:02.970978Z",
+  "generated_at": "2026-11-25T03:13:11.255517Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
   ],
-  "story_count": 1445,
-  "unique_story_count": 1318,
+  "story_count": 1448,
+  "unique_story_count": 1341,
   "counts": {
     "by_company_topic": {
-      "anthropic": 276,
+      "anthropic": 277,
       "apple": 14,
       "cursor": 7,
-      "deepseek": 15,
-      "doubao": 20,
-      "google-gemini": 146,
+      "deepseek": 17,
+      "doubao": 18,
+      "google-gemini": 144,
       "huggingface": 11,
       "hunyuan": 8,
       "kimi": 7,
       "meta-llama": 13,
       "microsoft": 4,
-      "minimax": 9,
-      "nvidia": 69,
-      "openai": 187,
+      "minimax": 8,
+      "nvidia": 67,
+      "openai": 188,
       "openrouter": 11,
-      "perplexity": 13,
-      "qwen": 14,
+      "perplexity": 14,
+      "qwen": 15,
       "xai": 18,
       "zhipu": 10
     },
     "by_lens_topic": {
-      "agent-ecosystem": 277,
-      "monetization": 48,
-      "product-entry": 42,
-      "workplace": 31
+      "agent-ecosystem": 280,
+      "monetization": 47,
+      "product-entry": 41,
+      "workplace": 29
     },
     "by_importance_label": {
-      "值得关注": 1230,
-      "多源热议": 24,
-      "官方更新": 90,
-      "行业动态": 101
+      "值得关注": 1227,
+      "多源热议": 23,
+      "官方更新": 89,
+      "行业动态": 109
     },
     "by_source_count_bucket": {
-      "1": 1371,
-      "2": 49,
-      "3+": 25
+      "1": 1374,
+      "2": 50,
+      "3+": 24
     }
   },
   "top_stories": [
@@ -57,7 +57,7 @@
       "story_id": "story_94d1586a7d4f",
       "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "importance_score": 0.8803,
+      "importance_score": 0.8766,
       "importance_label": "官方更新",
       "source_count": 3,
       "archive_date": "2026-11-25",
@@ -70,7 +70,7 @@
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "importance_score": 0.8633,
+      "importance_score": 0.8593,
       "importance_label": "官方更新",
       "source_count": 2,
       "archive_date": "2026-11-25",
@@ -78,30 +78,6 @@
         "nvidia",
         "huggingface"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_fbb91635b162",
-      "title": "The Agent Lake",
-      "url": "https://www.langchain.com/blog/the-agent-lake",
-      "importance_score": 0.844,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_5f89abe3093f",
-      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
-      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
-      "importance_score": 0.8429,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -118,6 +94,30 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_fbb91635b162",
+      "title": "The Agent Lake",
+      "url": "https://www.langchain.com/blog/the-agent-lake",
+      "importance_score": 0.8396,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_5f89abe3093f",
+      "title": "我们如何与 LangSmith 一起实现 ISO 42001 / How We Achieved ISO 42001 with LangSmith",
+      "url": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+      "importance_score": 0.8385,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -127,19 +127,6 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "openai"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8c2aab0e28f2",
-      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.829,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "google-gemini"
       ],
       "lens_topics": []
     },
@@ -183,6 +170,19 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_8c2aab0e28f2",
+      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "importance_score": 0.8251,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "google-gemini"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_ce87bd8f2303",
@@ -277,7 +277,7 @@
       "story_id": "story_8c7ce3fbf64d",
       "title": "Searching for distant planets with Astra",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "importance_score": 0.818,
+      "importance_score": 0.8144,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -290,7 +290,7 @@
       "story_id": "story_74b6fe230007",
       "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
       "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.8176,
+      "importance_score": 0.8138,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -450,21 +450,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_736d7e19d548",
-      "title": "Ed Zitron 分析 NVIDIA 董事会恢复黄仁勋 CEO 职位背后的行业流动性风险",
-      "url": "https://www.wheresyoured.at/defective-accelerationism",
-      "importance_score": 0.7855,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "openai",
-        "anthropic",
-        "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_b508602b217c",
       "title": "Flora AI 评论 2027：基于节点的画布，经过测试 / Flora AI Review 2027: The Node-Based Canvas, Tested",
       "url": "https://lumalabs.ai/news/flora-ai-review",
@@ -500,10 +485,38 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_736d7e19d548",
+      "title": "Ed Zitron 分析 NVIDIA 董事会恢复黄仁勋 CEO 职位背后的行业流动性风险",
+      "url": "https://www.wheresyoured.at/defective-accelerationism",
+      "importance_score": 0.7815,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "openai",
+        "anthropic",
+        "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_f4a132de0520",
+      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "importance_score": 0.7776,
+      "importance_label": "多源热议",
+      "source_count": 6,
+      "archive_date": "2026-11-23",
+      "company_topics": [
+        "anthropic"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_d7bad622349d",
       "title": "Claude artifacts 现已支持在 Mac 和 Windows 上安装为桌面应用 / You can now install Claude artifacts as desktop apps on Mac and Windows.",
       "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
-      "importance_score": 0.7808,
+      "importance_score": 0.7767,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
@@ -516,23 +529,10 @@
       "story_id": "story_4ffd1bf1d728",
       "title": "Claude Desktop 应用安装功能进入 Beta，免打包签名和 API key / You don't have to package or sign the app, or set up an API key. Building the app and any calls it makes to Claude count toward your usag...",
       "url": "https://x.com/ClaudeDevs/status/2125315493771059685",
-      "importance_score": 0.7808,
+      "importance_score": 0.7767,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
-      "company_topics": [
-        "anthropic"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_f4a132de0520",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "importance_score": 0.7776,
-      "importance_label": "多源热议",
-      "source_count": 6,
-      "archive_date": "2026-11-23",
       "company_topics": [
         "anthropic"
       ],
