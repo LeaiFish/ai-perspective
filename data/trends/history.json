@@ -1,6 +1,6 @@
 {
   "schema": "radar_trend_history_v1",
-  "latest_report_id": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
+  "latest_report_id": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
   "directions": {
     "ongoing-assistance": "持续任务与主动跟进",
     "shared-deliverables": "成果修改、分享与维护",
@@ -2016,6 +2016,82 @@
           "type": "continued"
         }
       ]
+    },
+    {
+      "report_id": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
+      "kind": "daily",
+      "generated_at": "2026-11-25T03:21:46.157254+00:00",
+      "period_start": "2026-11-24T03:13:11.255517Z",
+      "period_end": "2026-11-25T03:13:11.255517Z",
+      "path": "trends/daily/2026-11-25.json",
+      "companies": {
+        "doubao": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "ongoing-assistance"
+          ]
+        },
+        "qwen": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "ongoing-assistance"
+          ]
+        },
+        "hunyuan": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "openai": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "merchant-operations"
+          ]
+        },
+        "anthropic": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "shared-deliverables"
+          ]
+        },
+        "xai": {
+          "type": "continued",
+          "changed": false,
+          "direction_ids": []
+        },
+        "google-gemini": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "ongoing-assistance"
+          ]
+        },
+        "meta-llama": {
+          "type": "continued",
+          "changed": true,
+          "direction_ids": [
+            "merchant-operations"
+          ]
+        }
+      },
+      "overview": [
+        {
+          "direction_id": "ongoing-assistance",
+          "type": "continued"
+        },
+        {
+          "direction_id": "shared-deliverables",
+          "type": "continued"
+        },
+        {
+          "direction_id": "merchant-operations",
+          "type": "continued"
+        }
+      ]
     }
   ],
   "latest_signals": {
@@ -2023,16 +2099,16 @@
       "openai": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
       "anthropic": "9194d60527f41fb5ac4df3b51430373a9b54cea7fbb4c56ddad88ce00b2907e5",
       "xai": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
-      "doubao": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
-      "qwen": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
-      "google-gemini": "9e9a94cf403da005e871a6ea264520c90c22c5f4670e2661f48163093e4d5a5d",
+      "doubao": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
+      "qwen": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
+      "google-gemini": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
       "meta-llama": "fc7053bd67cbcc4af4b9799ff89263cd9698db4d533848b29b61d6ee62c06dec"
     },
     "shared-deliverables": {
       "doubao": "a4134d730e353e8de52f9ad632c0f75697f9cf0dbe2f40d6115ebc0e2b8161b9",
       "hunyuan": "40b6821788b87b4afd42fd78fa5359261f2b9353aca905e11b26cfa2dd25b219",
       "openai": "fc7053bd67cbcc4af4b9799ff89263cd9698db4d533848b29b61d6ee62c06dec",
-      "anthropic": "a4134d730e353e8de52f9ad632c0f75697f9cf0dbe2f40d6115ebc0e2b8161b9",
+      "anthropic": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
       "xai": "40b6821788b87b4afd42fd78fa5359261f2b9353aca905e11b26cfa2dd25b219",
       "meta-llama": "14c5a6c0aac61000480cb589179ac0bfb42ca02ffbad9de3b7a9743f3a68c95b",
       "google-gemini": "9e9a94cf403da005e871a6ea264520c90c22c5f4670e2661f48163093e4d5a5d",
@@ -2040,8 +2116,8 @@
     },
     "merchant-operations": {
       "qwen": "4198725528cd0658d45022451e9d11386e32d7eb23bb3525f139ce8ad17a9eca",
-      "meta-llama": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
-      "openai": "ff98d2874c02d74573216e2d9b7fbf4842a2ffd0f32ecec730a9e3558d13ca7b",
+      "meta-llama": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
+      "openai": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4",
       "google-gemini": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
       "xai": "9194d60527f41fb5ac4df3b51430373a9b54cea7fbb4c56ddad88ce00b2907e5"
     },

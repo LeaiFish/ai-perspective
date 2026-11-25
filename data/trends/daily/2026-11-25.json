@@ -1,0 +1,1413 @@
+{
+  "kind": "daily",
+  "period_start": "2026-11-24T03:13:11.255517Z",
+  "period_end": "2026-11-25T03:13:11.255517Z",
+  "source_snapshot_at": "2026-11-25T03:13:11.255517Z",
+  "input_id": "e0a93b727e48b758806bdbfa9b4ab974bbfcdaab0831a250bdd12c1a18a26864",
+  "previous_report_id": "c0bb1956483f94f948d39ba291da15cf88651effb3b9da49ea184b051b65114c",
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-25T03:21:46.157254+00:00",
+  "evidence": [
+    {
+      "id": "xiaodou-beta-official",
+      "url": "https://www.sina.cn/news/detail/5368723595591761.html",
+      "title": "豆包官方宣布小豆开启邀请制公测",
+      "source": "豆包官方微博",
+      "published_at": "2026-11-24T10:21:53+08:00",
+      "event_at": "2026-11-24T10:21:53+08:00",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "认证账号宣布邀请码开放，主端承接尚属后续安排。"
+    },
+    {
+      "id": "xiaodou-cn-lookup",
+      "url": "https://itunes.apple.com/lookup?id=6815582077&country=cn",
+      "title": "小豆中国区 iOS 独立应用",
+      "source": "Apple App Store",
+      "published_at": "2026-11-23T16:06:22Z",
+      "event_at": "2026-11-23T08:00:00Z",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "Lookup 返回 15.7.0 的版本时间，并单列首次商店上架；下载与激活分开。"
+    },
+    {
+      "id": "xiaodou-demo-bjd",
+      "url": "https://news.bjd.com.cn/2026/11/24/12041637.shtml",
+      "title": "北京日报报道小豆公测及补货演示",
+      "source": "北京日报",
+      "published_at": "2026-11-24T11:59:00+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "补货只验证为展示流程，未核实际账号的覆盖或成功率。"
+    },
+    {
+      "id": "feishu-work-refresh",
+      "url": "https://www.feishu.cn/content/article/7677519271848610746",
+      "title": "豆包工作在飞书与独立端的入口",
+      "source": "飞书",
+      "published_at": "2026-08-24",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "产品说明列出三种入口、账号差异和组织资料条件。"
+    },
+    {
+      "id": "doubao-record-recheck",
+      "url": "https://www.ithome.com/1/018/860.htm",
+      "title": "豆包工作可把录制步骤保存为技能",
+      "source": "IT之家",
+      "published_at": "2026-10-28",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "doubao"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "复核录制操作后可将流程保存为技能。"
+    },
+    {
+      "id": "qwen-web-rechecked",
+      "url": "https://docs.qwenwork.cn/release-notes/web",
+      "title": "千问办公网页端更新日志",
+      "source": "千问办公",
+      "published_at": "2026-11-22",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "回读撤权后从手机选执行位置、云端回退、应用可见范围与较早任务触发记录。"
+    },
+    {
+      "id": "qwen-desktop-rechecked",
+      "url": "https://docs.qwenwork.cn/release-notes/desktop",
+      "title": "千问办公桌面端更新日志",
+      "source": "千问办公",
+      "published_at": "2026-11-15",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "2.1.0 支持资料空间 HTML 发布并设置访问权限。"
+    },
+    {
+      "id": "qwen-go-phone-ebrun",
+      "url": "https://www.ebrun.com/ebrungo/zb/723035.shtml",
+      "title": "亿邦动力报道千问 Go 开放免费代打电话",
+      "source": "亿邦动力",
+      "published_at": "2026-11-25T10:23:00+08:00",
+      "event_at": "2026-11-25",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "qwen"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "报道给出授权、餐厅和快递示例；未核到官方使用条款或每个账号的可用时点。"
+    },
+    {
+      "id": "yuanbao-294-rechecked",
+      "url": "https://itunes.apple.com/lookup?id=6480446430&country=cn",
+      "title": "中国区 iOS 元宝 2.94.0",
+      "source": "Apple App Store",
+      "published_at": "2026-11-22T11:05:20Z",
+      "event_at": "2026-11-22T11:05:20Z",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "开发者所列录音进度拖拽、录音追问和人像模板已有收录。"
+    },
+    {
+      "id": "chatgpt-chat-rechecked",
+      "url": "https://help-lb.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Chat 标签页 GPT-6.2 发布",
+      "source": "OpenAI",
+      "published_at": "2026-11-23",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "日志重核了向四档用户分批开放及降价提醒示例。"
+    },
+    {
+      "id": "chatgpt-dot-business-rechecked",
+      "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes",
+      "title": "Business Standard 的个人 Dot",
+      "source": "OpenAI",
+      "published_at": "2026-11-19",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国合资格成员每人在工作区最多可创建一个个人 Dot。"
+    },
+    {
+      "id": "chatgpt-space-rechecked",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Space 的 Plus 灰度",
+      "source": "OpenAI",
+      "published_at": "2026-11-20",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "成年 Plus 分批获得 Space，协作由获准用户进行。"
+    },
+    {
+      "id": "chatgpt-business-global-ecommerce",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "title": "Business Agents 开放给符合条件的美国以外企业",
+      "source": "OpenAI",
+      "published_at": "2026-11-19",
+      "event_at": "2026-11-19",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "openai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "11 月 10 日原文的 11 月 19 日更新明确美国以外电商和线上服务商可认领企业并发布 Agent，仍为 beta。"
+    },
+    {
+      "id": "claude-nov24-release",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "title": "Claude 11 月 24 日产品日志",
+      "source": "Anthropic",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "同日条目分别介绍桌面应用、连接器传文件和月度回顾，未给发布时间或时区。"
+    },
+    {
+      "id": "claude-app-install-help",
+      "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app",
+      "title": "把 Claude Artifact 安装为应用",
+      "source": "Anthropic",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "Mac 和 Windows 可使用独立窗口和图标，功能为 beta。"
+    },
+    {
+      "id": "claude-connector-files-help",
+      "url": "https://support.claude.com/en/articles/18534325-send-files-to-connected-apps-and-save-files-from-them",
+      "title": "Claude 连接器文件双向传输",
+      "source": "Anthropic",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "需要支持文件的目录连接器；团队由所有者分别启用上传与下载。"
+    },
+    {
+      "id": "claude-mcp-nov24",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "title": "Claude 发布 MCP Skills 与后台任务",
+      "source": "Anthropic",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "Skills beta 按需加载；Tasks 与 Elicitation 有明确开放档位。MCP File Uploads 属后续计划。"
+    },
+    {
+      "id": "claude-code-2332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "title": "Claude Code 2.1.332 支持连接器随附技能",
+      "source": "Anthropic GitHub",
+      "published_at": "2026-11-25T01:32:14Z",
+      "event_at": "2026-11-25T01:32:14Z",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "GitHub 记录版本发布时间；来自 MCP 的技能可从菜单调用，处于 beta。"
+    },
+    {
+      "id": "claude-install-launch",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "title": "Claude 发布 Install as app 测试版",
+      "source": "Anthropic",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "作品更新可同步到已安装应用；更改版本后需要重新授权。"
+    },
+    {
+      "id": "claude-collab-rechecked",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "title": "Claude 表格和白板协作",
+      "source": "Anthropic",
+      "published_at": "2026-11-10",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "复核多人共编表格及白板。"
+    },
+    {
+      "id": "claude-ship-rechecked",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "title": "Claude Ship GitHub beta",
+      "source": "Anthropic",
+      "published_at": "2026-11-23",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "anthropic"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "在已有 Review 上增加策略控制的修复和审批。"
+    },
+    {
+      "id": "grok-bot-rechecked",
+      "url": "https://x.ai/changelog/bot",
+      "title": "Grok Bot 1.2.3 产品日志",
+      "source": "xAI",
+      "published_at": "2026-11-18",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "日志重核连接器工具权限和恢复卡片；版本仍列 1.2.3。"
+    },
+    {
+      "id": "grok-x-tag-rechecked",
+      "url": "https://x.ai/news/grok-bot-1-0",
+      "title": "Grok Bot 1.0 团队入口",
+      "source": "xAI",
+      "published_at": "2026-11-02",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "xai"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方发布对照共享 Bot 和团队会话入口；单独跟踪 X 交办。"
+    },
+    {
+      "id": "gemini-nov17-logs",
+      "url": "https://gemini.google/release-notes/",
+      "title": "Tasks in Gemini 新入口与支付流程",
+      "source": "Google",
+      "published_at": "2026-11-17",
+      "event_at": "2026-11-17",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "写明免费市场、美国短信与转发邮箱的资格，以及下单前的设备确认。"
+    },
+    {
+      "id": "gemini-mac-rechecked",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "title": "Gemini Mac 后台操作",
+      "source": "Google",
+      "published_at": "2026-11-19",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国合资格付费用户可在独立窗口执行获准的应用操作。"
+    },
+    {
+      "id": "gemini-sites-rechecked",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+      "title": "Gemini Notebook 可分享互动站点",
+      "source": "Google",
+      "published_at": "2026-11-16",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "使用来源可以制作并分享互动站点。"
+    },
+    {
+      "id": "gemini-retail-rechecked",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+      "title": "Google 购物接入合作商家",
+      "source": "Google",
+      "published_at": "2026-11-20",
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "美国购物流程连接参与商家，地区和商家覆盖受限。"
+    },
+    {
+      "id": "muse-uk-newsroom",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "title": "英国上线 Meta Muse",
+      "source": "Meta",
+      "published_at": "2026-11-24T06:00:40Z",
+      "event_at": "2026-11-24T06:00:40Z",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "官方 RSS 明示公告时点，页面显示美国日期；CMA 同日确认当地上线。事件时点取公告，账号分批时间未核。"
+    },
+    {
+      "id": "muse-uk-cma",
+      "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
+      "title": "英国 CMA 确认 Muse 当日上线",
+      "source": "Competition and Markets Authority",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "监管机构确认英国上线日期，未给准确开放时刻。"
+    },
+    {
+      "id": "muse-instagram-techcrunch",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "title": "Muse 开始从 Instagram 私信承接任务",
+      "source": "TechCrunch",
+      "published_at": "2026-11-24T09:00:00-08:00",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "报道引用 Meta，列五个私信灰度市场及美加收藏提示。品牌原帖限流，精确开放时点未核。"
+    },
+    {
+      "id": "muse-chrome-rechecked",
+      "url": "https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd",
+      "title": "Muse Chrome 侧栏与操作记录",
+      "source": "Meta / Chrome Web Store",
+      "published_at": null,
+      "event_at": null,
+      "verified_at": "2026-11-25T03:21:46.157254+00:00",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "level": "official",
+      "date_basis": "undated_document",
+      "note": "发布者说明可在侧栏交办、查看活动及撤回连接。"
+    }
+  ],
+  "companies": {
+    "doubao": {
+      "state": "updated",
+      "reason": "正文补入独立小豆和确认后补货的演示条件，工作端继续保留飞书入口与录制技能。公告早于本期窗口起点，作为补证。",
+      "judgment": {
+        "headline": "豆包以独立小豆试做日常事务，工作继续经个人端和飞书交办",
+        "summary": "小豆凭邀请码体验。补货演示中，助手按此前记录估计余量，询问是否补货，确认后下单并设置下次提醒。豆包工作继续在个人和飞书入口接活，并支持把电脑操作录成技能。",
+        "evidence_ids": [
+          "xiaodou-beta-official",
+          "xiaodou-cn-lookup",
+          "xiaodou-demo-bjd",
+          "feishu-work-refresh",
+          "doubao-record-recheck"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "小豆单独交付主动服务",
+          "summary": "独立 App 邀请制试用，主端后续逐步承接能力。",
+          "evidence_ids": [
+            "xiaodou-beta-official",
+            "xiaodou-cn-lookup",
+            "xiaodou-demo-bjd"
+          ]
+        },
+        {
+          "headline": "工作入口按个人和组织来分",
+          "summary": "飞书工作入口使用组织账号和相应权限，个人工作端可保存录制的电脑流程。",
+          "evidence_ids": [
+            "feishu-work-refresh",
+            "doubao-record-recheck"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "小豆独立 App 开启邀请制公测",
+        "summary": "小豆独立 App 开启邀请制公测。",
+        "evidence_ids": [
+          "xiaodou-beta-official",
+          "xiaodou-cn-lookup",
+          "xiaodou-demo-bjd",
+          "feishu-work-refresh",
+          "doubao-record-recheck"
+        ]
+      },
+      "events": [
+        {
+          "headline": "小豆独立 App 开启邀请制公测",
+          "summary": "需要邀请码激活；官方演示把消耗估计、主动补货建议、确认下单和下次提醒连起来。",
+          "evidence_ids": [
+            "xiaodou-beta-official",
+            "xiaodou-cn-lookup",
+            "xiaodou-demo-bjd"
+          ],
+          "event_id": "doubao-xiaodou-public-beta",
+          "status": "supplement"
+        }
+      ]
+    },
+    "qwen": {
+      "state": "updated",
+      "reason": "办公端撤权与发布权限已在正文；消费端补入有授权的免费代打电话，开放范围按报道表述。",
+      "judgment": {
+        "headline": "千问办公把跨端交办接到权限，千问 Go 扩展生活代办",
+        "summary": "千问办公可按消息、审批或待办发起任务，远控撤权后新任务可回退云端。资料空间可发布 HTML 网页并控制访问。消费端千问 Go 据报道开放需授权的免费代打电话。",
+        "evidence_ids": [
+          "qwen-web-rechecked",
+          "qwen-desktop-rechecked",
+          "qwen-go-phone-ebrun"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "手机交办可选执行位置",
+          "summary": "撤权后已打开任务仍可查看，新任务可回退云端。",
+          "evidence_ids": [
+            "qwen-web-rechecked"
+          ]
+        },
+        {
+          "headline": "资料和应用分别管理访问",
+          "summary": "HTML 网页可设置访问权限，已发布应用可调整组织可见范围。",
+          "evidence_ids": [
+            "qwen-web-rechecked",
+            "qwen-desktop-rechecked"
+          ]
+        },
+        {
+          "headline": "生活事务可以授权代打电话",
+          "summary": "据报道可委托订餐厅或查询快递，并查看沟通结果。",
+          "evidence_ids": [
+            "qwen-go-phone-ebrun"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "千问 Go 据报道开放免费代打电话",
+        "summary": "千问 Go 据报道开放免费代打电话。",
+        "evidence_ids": [
+          "qwen-web-rechecked",
+          "qwen-desktop-rechecked",
+          "qwen-go-phone-ebrun"
+        ]
+      },
+      "events": [
+        {
+          "headline": "千问 Go 据报道开放免费代打电话",
+          "summary": "用户授权后可委托助手联系餐厅或查询配送。",
+          "evidence_ids": [
+            "qwen-go-phone-ebrun"
+          ],
+          "event_id": "qwen-go-free-outbound-calls",
+          "status": "supplement"
+        }
+      ]
+    },
+    "hunyuan": {
+      "state": "unchanged",
+      "reason": "回读中国区 2.94.0，录音定位、随时追问和人像模板已进入正文，保留现行判断。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "openai": {
+      "state": "updated",
+      "reason": "在既有个人跟进与 Space 共编之外，补入商家代理的地区与行业资格，社区讨论时间不作为发布时点。",
+      "judgment": {
+        "headline": "ChatGPT 同时扩展个人跟进、共编和商家问答",
+        "summary": "Chat 可在询价时提议降价提醒，符合条件的美国 Business Standard 成员可创建个人 Dot。Space 分批向成年 Plus 开放。符合条件的美国以外电商和线上服务商也可发布商家 Agent。",
+        "evidence_ids": [
+          "chatgpt-chat-rechecked",
+          "chatgpt-dot-business-rechecked",
+          "chatgpt-space-rechecked",
+          "chatgpt-business-global-ecommerce"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "对话和个人助手提供跟进",
+          "summary": "Chat 可提示降价提醒，工作区合资格成员可配置一个个人 Dot。",
+          "evidence_ids": [
+            "chatgpt-chat-rechecked",
+            "chatgpt-dot-business-rechecked"
+          ]
+        },
+        {
+          "headline": "Space 可供获准用户继续共编",
+          "summary": "成年 Plus 用户分批获准创建和共编。",
+          "evidence_ids": [
+            "chatgpt-space-rechecked"
+          ]
+        },
+        {
+          "headline": "商家可管理对话中的企业资料",
+          "summary": "符合条件的电商和线上服务商可认领企业并发布问答 Agent，仍为 beta。",
+          "evidence_ids": [
+            "chatgpt-business-global-ecommerce"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "ChatGPT 商家 Agent 扩及美国以外合资格企业",
+        "summary": "ChatGPT 商家 Agent 扩及美国以外合资格企业。",
+        "evidence_ids": [
+          "chatgpt-chat-rechecked",
+          "chatgpt-dot-business-rechecked",
+          "chatgpt-space-rechecked",
+          "chatgpt-business-global-ecommerce"
+        ]
+      },
+      "events": [
+        {
+          "headline": "ChatGPT 商家 Agent 扩及美国以外合资格企业",
+          "summary": "11 月 19 日，符合条件的美国以外电商和线上服务商可认领企业并发布 Business Agent。",
+          "evidence_ids": [
+            "chatgpt-business-global-ecommerce"
+          ],
+          "event_id": "chatgpt-business-agents-global-ecommerce",
+          "status": "supplement"
+        }
+      ]
+    },
+    "anthropic": {
+      "state": "updated",
+      "reason": "在共编和 PR 流程之外补入 Artifact 安装、连接器传文件与月度回顾；工具侧补入 Claude Code 2.1.332 实装连接器技能。",
+      "judgment": {
+        "headline": "Claude 的工作成果可安装、可共编，也可交给已连接的应用",
+        "summary": "Artifact 可在 Mac 或 Windows 安装为独立应用，兼容连接器可双向传文件。个人月度回顾现可纳入云端 Cowork 和 Claude Code。团队的表格、白板协作与仓库策略下的 PR 流程继续并行，Claude Code 可以调用兼容服务器发布的技能。",
+        "evidence_ids": [
+          "claude-nov24-release",
+          "claude-app-install-help",
+          "claude-connector-files-help",
+          "claude-collab-rechecked",
+          "claude-ship-rechecked",
+          "claude-mcp-nov24",
+          "claude-code-2332"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "工作成果可以安装，也可以传给连接的应用",
+          "summary": "Artifact 安装是 beta；连接器必须支持文件，团队由所有者单独开启。",
+          "evidence_ids": [
+            "claude-nov24-release",
+            "claude-app-install-help",
+            "claude-connector-files-help"
+          ]
+        },
+        {
+          "headline": "云端任务和会话进入个人月度回顾",
+          "summary": "个人档可查回顾，并在设置中删除已保存的内容。",
+          "evidence_ids": [
+            "claude-nov24-release"
+          ]
+        },
+        {
+          "headline": "团队共编与仓库审批各用对应入口",
+          "summary": "表格和白板可协作，Claude Ship 据仓库策略配置 PR 修复和审批。",
+          "evidence_ids": [
+            "claude-collab-rechecked",
+            "claude-ship-rechecked"
+          ]
+        },
+        {
+          "headline": "连接器可随工具提供技能",
+          "summary": "Claude Code 2.1.332 beta 在菜单列出兼容服务器提供的技能。",
+          "evidence_ids": [
+            "claude-mcp-nov24",
+            "claude-code-2332"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Claude Artifact 可安装为桌面应用",
+        "summary": "Claude Artifact 可安装为桌面应用；Claude Code 2.1.332 支持服务器随附技能；Claude 通过兼容连接器收发文件；Claude 月度回顾结束 beta。",
+        "evidence_ids": [
+          "claude-nov24-release",
+          "claude-app-install-help",
+          "claude-connector-files-help",
+          "claude-collab-rechecked",
+          "claude-ship-rechecked",
+          "claude-mcp-nov24",
+          "claude-code-2332",
+          "claude-install-launch"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Claude Artifact 可安装为桌面应用",
+          "summary": "Mac 和 Windows 上的 beta 提供独立窗口与图标，更新作品后会同步到应用。",
+          "evidence_ids": [
+            "claude-nov24-release",
+            "claude-app-install-help",
+            "claude-install-launch"
+          ],
+          "event_id": "claude-artifact-desktop-install-beta",
+          "status": "supplement"
+        },
+        {
+          "headline": "Claude Code 2.1.332 支持服务器随附技能",
+          "summary": "MCP 服务器可随工具发布按需加载的技能，Claude Code 菜单会列出。公开 beta，套餐与组织设置有条件。",
+          "evidence_ids": [
+            "claude-mcp-nov24",
+            "claude-code-2332"
+          ],
+          "event_id": "claude-code-mcp-skills-2332",
+          "status": "new"
+        },
+        {
+          "headline": "Claude 通过兼容连接器收发文件",
+          "summary": "面向指定付费个人档逐步开放，团队和企业须由所有者启用。",
+          "evidence_ids": [
+            "claude-nov24-release",
+            "claude-connector-files-help"
+          ],
+          "event_id": "claude-connector-file-transfer-beta",
+          "status": "supplement"
+        },
+        {
+          "headline": "Claude 月度回顾结束 beta",
+          "summary": "个人档支持从云端 Cowork 任务与 Claude Code 会话整理回顾，可从设置页删除。",
+          "evidence_ids": [
+            "claude-nov24-release"
+          ],
+          "event_id": "claude-reflect-monthly-recap-ga",
+          "status": "supplement"
+        }
+      ]
+    },
+    "xai": {
+      "state": "unchanged",
+      "reason": "版本记录仍为 1.2.3，许可与恢复机制已经跟踪。团队会话和 X 交办正文继续适用，公开预览未作为正式上线。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "google-gemini": {
+      "state": "updated",
+      "reason": "补进从短信改指令、转发邮件发起任务的条件，并保留免费开放、美国合作零售、Mac 和 Notebook 变化。",
+      "judgment": {
+        "headline": "Gemini 把个人任务接到短信、邮箱和美国合作商家",
+        "summary": "常规任务在六个市场分批免费开放。美国合资格用户可用短信交办并中途调整，也可转发邮件发起任务。美国购物分批连接零售商并在支付前请求确认，Mac 后台操作和 Notebook 互动站点各有入口。",
+        "evidence_ids": [
+          "gemini-nov17-logs",
+          "gemini-mac-rechecked",
+          "gemini-sites-rechecked",
+          "gemini-retail-rechecked"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "美国任务从短信和转发邮件进入",
+          "summary": "短信可回复调整任务，邮件转发后单独返回供复核。",
+          "evidence_ids": [
+            "gemini-nov17-logs"
+          ]
+        },
+        {
+          "headline": "组单与交易需用户确认",
+          "summary": "美国参与商家支持购物衔接，Google Pay 流程要求明确确认。",
+          "evidence_ids": [
+            "gemini-nov17-logs",
+            "gemini-retail-rechecked"
+          ]
+        },
+        {
+          "headline": "桌面执行和互动站点各有入口",
+          "summary": "Mac 在独立窗口使用获准应用，Notebook 可生成和分享互动站点。",
+          "evidence_ids": [
+            "gemini-mac-rechecked",
+            "gemini-sites-rechecked"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "美国合资格用户可用短信和邮件交办 Gemini 任务",
+        "summary": "美国合资格用户可用短信和邮件交办 Gemini 任务。",
+        "evidence_ids": [
+          "gemini-nov17-logs",
+          "gemini-mac-rechecked",
+          "gemini-sites-rechecked",
+          "gemini-retail-rechecked"
+        ]
+      },
+      "events": [
+        {
+          "headline": "美国合资格用户可用短信和邮件交办 Gemini 任务",
+          "summary": "短信须验证手机且满足运营商条件，可在执行中回复改要求；邮件转发后单独回复结果以供确认。",
+          "evidence_ids": [
+            "gemini-nov17-logs"
+          ],
+          "event_id": "gemini-tasks-us-email-text-entry",
+          "status": "supplement"
+        }
+      ]
+    },
+    "meta-llama": {
+      "state": "updated",
+      "reason": "加入英国成年用户的四种入口、本地伙伴的两种接入方式，并吸收 Instagram 私信灰度。",
+      "judgment": {
+        "headline": "Muse 在英国扩展个人交办和本地服务",
+        "summary": "英国成年用户可从应用、网页和 WhatsApp 使用 Muse。部分合作方可连接账户来补货或查预订，其他合作方经网页操作。购买、发邮件等重要动作需先确认。Chrome 侧栏支持交办和查活动记录。Instagram 私信据报道在五个市场分批开放，可基于分享的帖子交办。",
+        "evidence_ids": [
+          "muse-uk-newsroom",
+          "muse-chrome-rechecked",
+          "muse-instagram-techcrunch"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "独立入口扩至英国",
+          "summary": "成年用户可通过移动端、网页和 WhatsApp 使用，免费入门及可选订阅。",
+          "evidence_ids": [
+            "muse-uk-newsroom",
+            "muse-uk-cma"
+          ]
+        },
+        {
+          "headline": "商家按接入方式分流",
+          "summary": "部分伙伴提供账户连接，部分从网站操作；重要动作先确认。",
+          "evidence_ids": [
+            "muse-uk-newsroom"
+          ]
+        },
+        {
+          "headline": "网页任务可从 Chrome 侧栏交办",
+          "summary": "用户可查活动记录及撤回连接。",
+          "evidence_ids": [
+            "muse-chrome-rechecked"
+          ]
+        },
+        {
+          "headline": "Instagram 把分享内容接到私信交办",
+          "summary": "据报道五个市场的移动用户分批开放，讨论可在 Muse 中续接。",
+          "evidence_ids": [
+            "muse-instagram-techcrunch"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "Muse 在英国开放并接入本地服务",
+        "summary": "Muse 在英国开放并接入本地服务；Muse 据报道分批进入 Instagram 私信。",
+        "evidence_ids": [
+          "muse-uk-newsroom",
+          "muse-uk-cma",
+          "muse-chrome-rechecked",
+          "muse-instagram-techcrunch"
+        ]
+      },
+      "events": [
+        {
+          "headline": "Muse 在英国开放并接入本地服务",
+          "summary": "英国 18 岁以上用户可通过 iOS、Android、网页和 WhatsApp 使用；部分合作方允许连接账户，也有从网站操作的方式。",
+          "evidence_ids": [
+            "muse-uk-newsroom",
+            "muse-uk-cma"
+          ],
+          "event_id": "muse-uk-launch",
+          "status": "new"
+        },
+        {
+          "headline": "Muse 据报道分批进入 Instagram 私信",
+          "summary": "美、加、墨、日、新加坡逐步开放移动端私信，用户可把帖子交给 Muse 续办；美国和加拿大另有收藏整理提示。",
+          "evidence_ids": [
+            "muse-instagram-techcrunch"
+          ],
+          "event_id": "muse-instagram-dm-rollout",
+          "status": "supplement"
+        }
+      ]
+    }
+  },
+  "overview": {
+    "reason": "补入小豆邀请制公测、Claude 桌面应用 beta 和 Muse 英国合作伙伴。",
+    "lead": "助手可以从生活线索或工作事件开始处理任务。生成的成果可由他人接着改，也开始能安装到电脑上。",
+    "themes": [
+      {
+        "headline": "助手从工作事件或生活线索接活",
+        "summary": "千问办公可按消息、审批或待办接单，千问 Go 据报道可经授权代打电话。小豆在补货演示里主动询问是否下单，Gemini 可接受合资格用户转发邮件。",
+        "evidence_ids": [
+          "qwen-web-rechecked",
+          "qwen-go-phone-ebrun",
+          "xiaodou-beta-official",
+          "xiaodou-demo-bjd",
+          "gemini-nov17-logs"
+        ],
+        "company_ids": [
+          "qwen",
+          "doubao",
+          "google-gemini"
+        ]
+      },
+      {
+        "headline": "成果可以共编，也可以安装成日常工具",
+        "summary": "千问办公可把资料空间的 HTML 发布成网页，Claude 表格和白板可共编，Artifact 可在桌面安装测试版，ChatGPT Space 分批向成年 Plus 用户开放。",
+        "evidence_ids": [
+          "qwen-desktop-rechecked",
+          "claude-collab-rechecked",
+          "claude-nov24-release",
+          "claude-app-install-help",
+          "chatgpt-space-rechecked"
+        ],
+        "company_ids": [
+          "qwen",
+          "anthropic",
+          "openai"
+        ]
+      },
+      {
+        "headline": "消费助手把建议接到交易确认",
+        "summary": "小豆的补货演示在确认后下单。Gemini 在美国分批接入购物结账，Muse 在英国接入本地商家，重要动作需用户先确认。",
+        "evidence_ids": [
+          "xiaodou-beta-official",
+          "xiaodou-demo-bjd",
+          "gemini-nov17-logs",
+          "gemini-retail-rechecked",
+          "muse-uk-newsroom"
+        ],
+        "company_ids": [
+          "doubao",
+          "google-gemini",
+          "meta-llama"
+        ]
+      }
+    ]
+  },
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "continued",
+        "reason": "正文补入独立小豆和确认后补货的演示条件，工作端继续保留飞书入口与录制技能。公告早于本期窗口起点，作为补证。",
+        "evidence_ids": [
+          "xiaodou-beta-official",
+          "xiaodou-cn-lookup",
+          "xiaodou-demo-bjd",
+          "feishu-work-refresh",
+          "doubao-record-recheck"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "小豆以邀请制试用主动提醒与确认后执行。",
+            "stage": "preview",
+            "evidence_ids": [
+              "xiaodou-beta-official",
+              "xiaodou-demo-bjd"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "正文补入独立小豆和确认后补货的演示条件，工作端继续保留飞书入口与录制技能。公告早于本期窗口起点，作为补证。",
+          "event_ids": [
+            "doubao-xiaodou-public-beta"
+          ]
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "办公端撤权与发布权限已在正文；消费端补入有授权的免费代打电话，开放范围按报道表述。",
+        "evidence_ids": [
+          "qwen-web-rechecked",
+          "qwen-desktop-rechecked",
+          "qwen-go-phone-ebrun"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "千问 Go 据报道面向消费端开放经授权的生活外呼。",
+            "stage": "available",
+            "evidence_ids": [
+              "qwen-go-phone-ebrun"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "办公端撤权与发布权限已在正文；消费端补入有授权的免费代打电话，开放范围按报道表述。",
+          "event_ids": [
+            "qwen-go-free-outbound-calls"
+          ]
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "回读中国区 2.94.0，录音定位、随时追问和人像模板已进入正文，保留现行判断。",
+        "evidence_ids": [
+          "yuanbao-294-rechecked"
+        ],
+        "signals": [],
+        "content_review": {
+          "decision": "retained",
+          "reason": "回读中国区 2.94.0，录音定位、随时追问和人像模板已进入正文，保留现行判断。",
+          "event_ids": []
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "在既有个人跟进与 Space 共编之外，补入商家代理的地区与行业资格，社区讨论时间不作为发布时点。",
+        "evidence_ids": [
+          "chatgpt-chat-rechecked",
+          "chatgpt-dot-business-rechecked",
+          "chatgpt-space-rechecked",
+          "chatgpt-business-global-ecommerce"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "summary": "商家 Agent 的资格扩及美国以外的线上业务。",
+            "stage": "preview",
+            "evidence_ids": [
+              "chatgpt-business-global-ecommerce"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "在既有个人跟进与 Space 共编之外，补入商家代理的地区与行业资格，社区讨论时间不作为发布时点。",
+          "event_ids": [
+            "chatgpt-business-agents-global-ecommerce"
+          ]
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "在共编和 PR 流程之外补入 Artifact 安装、连接器传文件与月度回顾；工具侧补入 Claude Code 2.1.332 实装连接器技能。",
+        "evidence_ids": [
+          "claude-nov24-release",
+          "claude-app-install-help",
+          "claude-connector-files-help",
+          "claude-collab-rechecked",
+          "claude-ship-rechecked",
+          "claude-mcp-nov24",
+          "claude-code-2332",
+          "claude-install-launch"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "生成的 Artifact 可作为独立桌面应用打开，兼容连接器可接收文件。",
+            "stage": "preview",
+            "evidence_ids": [
+              "claude-nov24-release",
+              "claude-app-install-help",
+              "claude-connector-files-help"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "在共编和 PR 流程之外补入 Artifact 安装、连接器传文件与月度回顾；工具侧补入 Claude Code 2.1.332 实装连接器技能。",
+          "event_ids": [
+            "claude-artifact-desktop-install-beta",
+            "claude-code-mcp-skills-2332",
+            "claude-connector-file-transfer-beta",
+            "claude-reflect-monthly-recap-ga"
+          ]
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "版本记录仍为 1.2.3，许可与恢复机制已经跟踪。团队会话和 X 交办正文继续适用，公开预览未作为正式上线。",
+        "evidence_ids": [
+          "grok-bot-rechecked",
+          "grok-x-tag-rechecked"
+        ],
+        "signals": [],
+        "content_review": {
+          "decision": "retained",
+          "reason": "版本记录仍为 1.2.3，许可与恢复机制已经跟踪。团队会话和 X 交办正文继续适用，公开预览未作为正式上线。",
+          "event_ids": []
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "补进从短信改指令、转发邮件发起任务的条件，并保留免费开放、美国合作零售、Mac 和 Notebook 变化。",
+        "evidence_ids": [
+          "gemini-nov17-logs",
+          "gemini-mac-rechecked",
+          "gemini-sites-rechecked",
+          "gemini-retail-rechecked"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "合资格用户可从短信或邮件发起后台任务。",
+            "stage": "available",
+            "evidence_ids": [
+              "gemini-nov17-logs"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "补进从短信改指令、转发邮件发起任务的条件，并保留免费开放、美国合作零售、Mac 和 Notebook 变化。",
+          "event_ids": [
+            "gemini-tasks-us-email-text-entry"
+          ]
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "加入英国成年用户的四种入口、本地伙伴的两种接入方式，并吸收 Instagram 私信灰度。",
+        "evidence_ids": [
+          "muse-uk-newsroom",
+          "muse-uk-cma",
+          "muse-chrome-rechecked",
+          "muse-instagram-techcrunch"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "summary": "英国市场以本地零售和出行伙伴承接账户或网页任务。",
+            "stage": "available",
+            "evidence_ids": [
+              "muse-uk-newsroom"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "加入英国成年用户的四种入口、本地伙伴的两种接入方式，并吸收 Instagram 私信灰度。",
+          "event_ids": [
+            "muse-uk-launch",
+            "muse-instagram-dm-rollout"
+          ]
+        }
+      }
+    },
+    "overview": [
+      {
+        "direction_id": "ongoing-assistance",
+        "type": "continued",
+        "reason": "小豆增加国内独立试用入口，美国 Gemini 提供邮件交办。",
+        "evidence_ids": [
+          "qwen-web-rechecked",
+          "qwen-go-phone-ebrun",
+          "xiaodou-beta-official",
+          "xiaodou-demo-bjd",
+          "gemini-nov17-logs"
+        ]
+      },
+      {
+        "direction_id": "shared-deliverables",
+        "type": "continued",
+        "reason": "Claude 增加桌面成品形态，工作区与协作例子继续成立。",
+        "evidence_ids": [
+          "qwen-desktop-rechecked",
+          "claude-collab-rechecked",
+          "claude-nov24-release",
+          "claude-app-install-help",
+          "chatgpt-space-rechecked"
+        ]
+      },
+      {
+        "direction_id": "merchant-operations",
+        "type": "continued",
+        "reason": "确认后交易延伸至小豆演示和 Muse 英国本地伙伴。",
+        "evidence_ids": [
+          "xiaodou-beta-official",
+          "xiaodou-demo-bjd",
+          "gemini-nov17-logs",
+          "gemini-retail-rechecked",
+          "muse-uk-newsroom"
+        ]
+      }
+    ]
+  },
+  "focus": {
+    "date": "2026-11-25",
+    "leads": [
+      "desktop",
+      "voice",
+      "household"
+    ],
+    "stories": [
+      {
+        "id": "desktop",
+        "track": "product",
+        "title": "Gemini 和 Claude 把桌面操作开放给更多付费用户",
+        "summary": "Gemini 可以在 Mac 后台操作应用，Claude 把同类能力逐步开放给团队。用户能指定哪些应用可以交给助手。",
+        "analysis": "两家的交集是让助手进入用户已经在用的软件。Gemini 用独立窗口把人工操作和后台任务分开，Claude 则把开放范围扩到组织。对涉及跨应用执行的产品，值得参考的是用户能在哪一步限定范围、查看进度和收回控制。",
+        "evidence": [
+          {
+            "date": "2026-11-20",
+            "source": "Anthropic",
+            "title": "Claude 把电脑操作扩展到团队套餐",
+            "detail": "Team 和 Enterprise 开始分批测试。Claude 可查看屏幕并操作用户允许的桌面应用，组织需先启用相关能力。此次新增的是团队开放范围。",
+            "label": "Claude 发布记录",
+            "url": "https://support.claude.com/en/articles/12138966-release-notes",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-19",
+            "source": "Google",
+            "title": "Gemini for Mac 可在独立窗口操作应用",
+            "detail": "用户可以让 Gemini 从本地文件提取信息，再去网页填表。任务在独立窗口运行，用户可以继续使用电脑、查看进度或停止。首批面向美国符合条件的付费用户。",
+            "label": "Google 发布公告",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "voice",
+        "track": "tech",
+        "title": "语音助手处理任务时，也能继续和人说话",
+        "summary": "千问把实时对话和后台执行分开。查资料需要时间时，前台仍能回应用户，拿到结果后再播报。",
+        "analysis": "对旅行规划这类需要一边说、一边查的任务，产品可以先接住下一句话，再决定如何把新条件交给后台。例如用户等路线时补充“还要带孩子”，应用有机会当场更新行程要求。修改已在运行的任务仍需要应用自己处理。",
+        "evidence": [
+          {
+            "date": "2026-11-23",
+            "source": "千问 AI 平台",
+            "title": "Qwen-Audio-3.1-Live 上架",
+            "detail": "更新日志列出实时对话与任务播报能力。应用或后台模型处理任务期间，前台语音模型可持续交谈。",
+            "label": "模型更新记录",
+            "url": "https://platform.qianwenai.com/docs/changelog/models",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-23",
+            "source": "同次发布的模型文档",
+            "title": "应用可以自己执行任务，也可以交给后台模型",
+            "detail": "开发者可选择由应用处理任务，或指定平台上的后台模型。前台负责对话，并可播报进度和结果。以上两份材料来自同一次发布。",
+            "label": "千问模型说明",
+            "url": "https://platform.qianwenai.com/docs/models/qwen-audio-3-1-live",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "household",
+        "track": "people",
+        "title": "有人用 AI 做了保修台账，家人装好就能用",
+        "summary": "为了省去翻邮件找发票的麻烦，一位作者用 Gemini 做了款 Android 应用。家人装好后，能自己录入家电、附上票据。",
+        "analysis": "这个案例把“小应用生成”的价值落到了第二个人身上。作者生成应用，真正试用的人可以直接装好、录入自己的资料。对面向亲友分享的小工具，观察接收者能否独立完成第一次使用，比只看创建者生成了多少页面更贴近实际用途。作者记录了家庭试用，持续使用频率和付费意愿仍未知。",
+        "evidence": [
+          {
+            "date": "2026-11-22",
+            "source": "Parth Shah · 作者实测",
+            "title": "从翻邮件找发票，到给家人做保修台账",
+            "detail": "作者回顾，以前做的多是网站和样例面板，后来往往搁置。这次他在 Antigravity 里让 Gemini 生成 Home Vault 的 Android 安装包，并装到自己的手机上。",
+            "label": "作者全文 · Yahoo Tech 转载 Android Police",
+            "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+            "kind": "firsthand"
+          },
+          {
+            "date": "2026-11-22",
+            "source": "同一作者记录的家庭试用",
+            "title": "家人能自行录入家电、附上发票",
+            "detail": "作者把安装包分享给家人。据他记录，家人能独立添加物品、发票和购买信息。反馈来自作者转述，文章没有给出家人原话或长期使用数据。",
+            "label": "同文的家庭试用经过",
+            "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "track": "tech",
+        "title": "助手接入多种工具后，可以按任务取用参数说明",
+        "summary": "Gemini API 新增工具检索预览。模型先看工具名和用途，选中某个工具后再加载完整参数。",
+        "analysis": "当助手同时连接日历、文档和业务系统，按需加载可以减少每次请求携带的工具说明。对多工具产品，这给扩展连接数量留出了空间。实际能节省多少等待时间，取决于工具数量和调用方式。",
+        "evidence": [
+          {
+            "date": "2026-11-19",
+            "source": "Google",
+            "title": "Gemini API 推出按需加载工具参数",
+            "detail": "Interactions API 的预览功能允许延后加载部分工具的完整参数。模型可以在同一次请求中找到并调用所需工具。",
+            "label": "Google 开发者公告",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "coding",
+        "track": "people",
+        "title": "两位开发者分别用任务耗时和返工次数评价 GPT-6.2",
+        "summary": "一位逐题比较耗时和估算成本，另一位把模型放回原来的项目，看它需要几轮才能发现问题。",
+        "analysis": "两条帖子展示了具体的选用标准。模型在一道题上更快，成本优势仍可能随题目变化；对另一位用户，能否少来回几轮更直观。这是同一开发者社区中的两个样本，适合用来理解评价维度。",
+        "evidence": [
+          {
+            "date": "2026-11-18",
+            "source": "merefield · 用户实测",
+            "title": "两道任务全部完成，更省钱的型号随题目变化",
+            "detail": "在发布者的 Digbench 记录中，Astra 两题都更快。第一题 Sol 的估算 API 成本较低，第二题 Astra 较低。费用是作者折算，不能直接当作账单。",
+            "label": "开发者社区原帖 · #32",
+            "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/32",
+            "kind": "firsthand"
+          },
+          {
+            "date": "2026-11-18",
+            "source": "Mb · 用户反馈",
+            "title": "旧项目少了几轮排查，人物建模仍要反复调整",
+            "detail": "Mb 说，6.2 Sol 较容易一次找出项目里的问题。人物建模比此前更有进展，但自己仍需多轮迭代。",
+            "label": "开发者社区原帖 · #34",
+            "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/34",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "proactive-shopping",
+        "track": "product",
+        "title": "小豆测试主动补货，Muse 把熟悉的商家带入英国助手",
+        "summary": "小豆通过邀请码试用，发布演示从估计剩余量走到确认后下单。Muse 在英国向成年人开放，一部分合作商家可连接个人账户来处理回购或预订。",
+        "analysis": "主动提醒要用到生活线索，执行交易还取决于商家接入与确认。下一步可在同一用户的重复采购中观察提醒是否恰当、确认时能否核对商品和价格。",
+        "evidence": [
+          {
+            "date": "2026-11-24",
+            "source": "豆包官方微博",
+            "title": "小豆正式开启邀请制公测",
+            "detail": "认证账号公布邀请条件，未来逐步将能力接入豆包主端。",
+            "label": "官方公告",
+            "url": "https://www.sina.cn/news/detail/5368723595591761.html",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "北京日报",
+            "title": "小豆展示确认后补货",
+            "detail": "报道介绍官方演示中的余量估计、确认下单和再次提醒。",
+            "label": "发布演示",
+            "url": "https://news.bjd.com.cn/2026/11/24/12041637.shtml",
+            "kind": "reporting"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "Meta",
+            "title": "Muse 在英国开放",
+            "detail": "部分本地伙伴支持连账户处理回购或预订；关键操作须确认。",
+            "label": "官方公告",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "connector-workflows",
+        "track": "tech",
+        "title": "连接器除了提供工具，也开始附带工作流程",
+        "summary": "Claude 支持从兼容服务器按需加载技能，并等待服务器的长任务结果。Google Workspace 正式提供托管 MCP 服务和 CLI。",
+        "analysis": "平台分别补上任务交接与工具入口。具体能否完成工作，还取决于连接器实现、组织授权和中途确认。",
+        "evidence": [
+          {
+            "date": "2026-11-24",
+            "source": "Anthropic",
+            "title": "Claude 的服务器技能与任务",
+            "detail": "Skills 公开 beta，Tasks 和 Elicitation 按档位开放。",
+            "label": "官方发布",
+            "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "Google Workspace",
+            "title": "Workspace 托管 MCP 与 CLI 正式可用",
+            "detail": "托管入口覆盖 Gmail、Drive、Docs、Sheets 等产品，并受组织策略约束。",
+            "label": "官方发布",
+            "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+            "kind": "official"
+          }
+        ]
+      }
+    ]
+  },
+  "report_id": "54f2701c34d7e4e14e8f6c938514f2c791737278573bfd41e4da3d236c5a36f4"
+}
