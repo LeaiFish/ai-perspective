@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 5,
-  "listed_count": 5,
-  "recent_item_count": 5,
+  "item_count": 2,
+  "listed_count": 2,
+  "recent_item_count": 2,
   "latest_title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
   "latest_published_at": "2026-11-24T08:15:44Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-24T21:23:30.970182Z",
+  "generated_at": "2026-11-25T01:29:02.970978Z",
   "items": [
     {
       "id": "story_60a992bf668c",
@@ -42,54 +42,6 @@
       "published_at": "2026-11-24T03:15:00.507927Z",
       "source_count": 1,
       "curated": false
-    },
-    {
-      "id": "story_787849381af6",
-      "story_id": "story_787849381af6",
-      "title": "Announcing vLLM-GR: Efficient Inference for Generative Recommendation",
-      "title_zh": null,
-      "title_en": "Announcing vLLM-GR: Efficient Inference for Generative Recommendation",
-      "url": "https://vllm.ai/blog/2026-11-24-vllm-gr-announcement",
-      "summary": "vLLM-GR extends vLLM to serve generative recommendation models with accelerator-side beam search, catalog constraints, and shared KV caching across candidate paths.",
-      "recommend_reason_zh": null,
-      "source": "vLLM Blog",
-      "source_name": "vLLM Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-24T00:00:00Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_ef756067e020",
-      "story_id": "story_ef756067e020",
-      "title": "vLLM Day-0 支持 ERNIE 5.5 Flash 预览版：插件部署和 E2E 推理加速",
-      "title_zh": "vLLM Day-0 支持 ERNIE 5.5 Flash 预览版：插件部署和 E2E 推理加速",
-      "title_en": "vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration",
-      "url": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
-      "summary": "vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel, with structure-aware kernel fusion, FlashIndexer, W4A8 QAT and DSpark speculative decoding.",
-      "recommend_reason_zh": null,
-      "source": "vLLM Blog",
-      "source_name": "vLLM Blog",
-      "site_id": "official_ai",
-      "published_at": "2026-11-24T00:00:00Z",
-      "source_count": 1,
-      "curated": true
-    },
-    {
-      "id": "story_c2635c19c1ff",
-      "story_id": "story_c2635c19c1ff",
-      "title": "OpenAI 与 Cisco 联合推出开源 Linux 运行时 Shirudo",
-      "title_zh": "OpenAI 与 Cisco 联合推出开源 Linux 运行时 Shirudo",
-      "title_en": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic ...",
-      "url": "https://x.com/OpenAI/status/2124980590717911527",
-      "summary": "OpenAI 与 Cisco 联合推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来防护系统漏洞，无需停机，为防御方争取测试和部署补丁的时间。 双方称这是迈向自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试共享 shield 并在不干扰工作负载的情况下部署。",
-      "recommend_reason_zh": null,
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "site_id": "aihot",
-      "published_at": "2026-11-23T21:37:07Z",
-      "source_count": 1,
-      "curated": true
     }
   ]
 }
