@@ -312,3 +312,30 @@ def test_focus_daily_roundtrip_and_evidence_guards(tmp_path, report):
     del report["focus"]
     with pytest.raises(ValueError, match="daily_focus_review_required"):
         bind_input(report, bundle)
+
+
+def test_prepared_leads_require_comparing_new_and_displaced_stories(report):
+    board = load(Path(__file__).resolve().parents[1] / "data/trends/focus-seed.json")
+    when = "2026-11-25T04:00:00Z"
+    report.update(period_start="2026-11-24T04:00:00Z", period_end=when, source_snapshot_at=when,
+                  generated_at=when, focus=deepcopy(board))
+    bundle = {k: report[k] for k in ("kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id")}
+    bundle.update(schema="radar_trend_input_v1", focus_review={"previous": board, "lead_comparison_required": True})
+    bundle["input_id"] = report["input_id"] = digest(bundle)
+    with pytest.raises(ValueError, match="focus_lead_review_required"):
+        bind_input(report, bundle)
+    reasons = {s["id"]: "比较本期具体依据与候选 " + s["title"] for s in board["stories"]}
+    report["focus_lead_reasons"] = reasons
+    bind_input(report, bundle)  # retaining the whole lineup is valid
+    current = report["focus"]
+    current["stories"] = [s for s in current["stories"] if s["id"] != "desktop"]
+    new = dict(current["stories"][0], id="new-voice")
+    current["stories"].append(new)
+    current.update(leads=["new-voice", "voice"], date="2026-11-25")
+    with pytest.raises(ValueError, match="focus_lead_comparison_incomplete"):
+        bind_input(report, bundle)
+    reasons["new-voice"] = "更充分的技术证据支持换入"
+    bind_input(report, bundle)
+    del reasons["desktop"]
+    with pytest.raises(ValueError, match="focus_lead_comparison_incomplete"):
+        bind_input(report, bundle)

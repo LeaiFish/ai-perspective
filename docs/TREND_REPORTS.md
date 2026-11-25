@@ -12,6 +12,10 @@ Codex 自己完成研判；Python 只准备候选、校验结构并发布。没�
 
 在同一份日报 report.json 增加完整 focus 对象。沿用 prepare 给出的 previous 结构和仍有效的条目。date 是内容最近变更的北京时间日。leads 是一到三个首页判断 ID，stories 中每条含稳定 id、track（tech/product/people）、title、summary、analysis 和非空 evidence。每条依据含原文日期 date（YYYY-MM-DD）、source、title、detail、label、公开原文 url 和 kind（official/firsthand/usage/reporting）。没有可核的原文日期就继续找可定期的证据。用户判断须有 firsthand 或 usage；同一作者转述和同一次发布的多份材料都要写明。确认维持或材料不足时保留原判断、原依据及原日期；出现新材料修改具体条目，本期内容日期才更新。保留时仍提交完整 focus。
 
+每天写完三条线，再把本期全部判断和上一期实际首屏放在一起选 1 至 3 条，按重要性排序。逐条看今天的证据改变了什么、影响哪些用户或产品决策、开放范围或实际行为能否核实，与已选判断是否重复。单条重要突破或第一手用户观察也可居首。新旧、报道数量、栏目归属都不直接决定名额。新增或补证项更重要就换入；旧判断仍更重要就保留，可以只换一条，也可以全部保留。
+
+在日报顶层提交 focus_lead_reasons，键为本期所有判断 ID 和已移出本期的上期首屏 ID，值为针对该判断的简短取舍理由。入选项交代相对优先级；落选的新判断说明与最接近的首屏候选相比还差什么，移出项说明由什么变化取代。即便 leads 全部保留也要重比。理由随报告归档，不在首页堆叠评审说明。仅复核理由变化沿用原内容日期。旧版日报继续可读；接入该流程前的首屏补评单独保存于 focus-lead-reviews.json，原刊固定链接继续展示当时的排序。
+
 原有 apply/check/publish 同时校验并归档，首页从已发布的 latest.daily.focus 读取。本期固定链接分别指向 daily 日期或修订 report_id，历史归档不随下一次更新替换。接入前的 11 月 24 日首版固定在 focus-seed.json。仅采集刷新不会修改判断时间。周报流程沿用既有约定。
 
 ## 每轮步骤（本机 Codex 自动任务执行）

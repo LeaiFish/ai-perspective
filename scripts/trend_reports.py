@@ -192,10 +192,17 @@ def prepare(data_dir, kind, now=None, *, revision=False):
                 path = Path("news-library") / str(day.year) / f"{day}.jsonl"
                 if (data_dir / path).is_file():
                     day_files.append(str(path))
+            daily = previous.get("daily") or {}
+            prior_board = deepcopy(daily.get("focus") or seed)
+            if daily.get("focus") and "focus_lead_reasons" not in daily:
+                for amendment in load(data_dir / "trends/focus-lead-reviews.json", {}).values():
+                    if amendment["report_id"] == daily["report_id"]:
+                        prior_board["leads"] = amendment["leads"]
             bundle["focus_review"] = {
-                "previous": (previous.get("daily") or {}).get("focus") or seed,
+                "previous": prior_board,
+                "lead_comparison_required": True,
                 "news_library_files": day_files,
-                "rule": "按日报窗口在这些北京时间首次收录档案中检索三条线，原文日期和反馈另核。按 docs/TREND_REPORTS.md 提交完整 focus；证据不足时逐字保留对应判断。"
+                "rule": "按日报窗口在这些北京时间首次收录档案中检索三条线，原文日期和反馈另核。对照上一期实际首屏，比较所有本期判断，特别是新增、补证与移出的旧首屏。按 docs/TREND_REPORTS.md 排列 leads，提交完整 focus 和逐项 focus_lead_reasons。"
             }
     if revision:
         original = load(data_dir / issue_path({"kind": kind, "period_end": iso(end)}))
@@ -264,10 +271,36 @@ def validate_focus(board, snapshot):
             and set(leads) <= ids, "invalid_focus_leads")
 
 
+def validate_lead_reasons(reasons, board, previous_leads=None):
+    ids = {story["id"] for story in board["stories"]}
+    require(isinstance(reasons, dict) and ids <= reasons.keys() and len(reasons) <= 15,
+            "focus_lead_comparison_incomplete")
+    if previous_leads is not None:
+        require(reasons.keys() == ids.union(previous_leads), "focus_lead_comparison_incomplete")
+    for key, reason in reasons.items():
+        require(re.fullmatch(r"[a-z][a-z0-9-]*", key), "invalid_focus_id")
+        clean(reason, 600)
+    require(len(set(reasons.values())) == len(reasons), "focus_lead_reasons_must_be_specific")
+
+
+def check_focus_amendments(data_dir):
+    # Retrospective selection for issues published before daily comparison was recorded.
+    for key, review in load(data_dir / "trends/focus-lead-reviews.json", {}).items():
+        keys(review, "issue report_id leads reasons", "invalid_focus_amendment")
+        require(re.fullmatch(r"\d{4}-\d{2}-\d{2}", review["issue"])
+                and re.fullmatch(re.escape(review["issue"]) + r"-r[1-9]\d*", key), "invalid_focus_amendment_key")
+        report = load(data_dir / "trends/daily" / (review["issue"] + ".json"))
+        require(report and report["report_id"] == review["report_id"] and "focus_lead_reasons" not in report,
+                "focus_amendment_source_mismatch")
+        board = {**report["focus"], "leads": review["leads"]}
+        validate_focus(board, stamp(report["source_snapshot_at"]))
+        validate_lead_reasons(review["reasons"], board, report["focus"]["leads"])
+
+
 def validate_report(raw, *, now=None):
     now = now or datetime.now(UTC)
     fields = "schema kind period_start period_end source_snapshot_at generated_at input_id previous_report_id companies evidence overview"
-    for optional in ("evolution", "revision_of", "overview_review", "focus"):
+    for optional in ("evolution", "revision_of", "overview_review", "focus", "focus_lead_reasons"):
         if optional in raw:
             fields += " " + optional
     keys(raw, fields, "invalid_report_fields")
@@ -283,6 +316,9 @@ def validate_report(raw, *, now=None):
     if "focus" in raw:
         require(raw["kind"] == "daily", "focus_requires_daily")
         validate_focus(raw["focus"], source)
+    if "focus_lead_reasons" in raw:
+        require("focus" in raw, "focus_leads_need_board")
+        validate_lead_reasons(raw["focus_lead_reasons"], raw["focus"])
     evidence = {}
     require(isinstance(raw["evidence"], list) and len(raw["evidence"]) <= 100, "invalid_evidence")
     for item in raw["evidence"]:
@@ -487,6 +523,9 @@ def bind_input(raw, bundle):
         previous = bundle["focus_review"]["previous"]
         board = raw["focus"]
         validate_focus(board, stamp(bundle["source_snapshot_at"]))
+        if bundle["focus_review"].get("lead_comparison_required"):
+            require("focus_lead_reasons" in raw, "focus_lead_review_required")
+            validate_lead_reasons(raw["focus_lead_reasons"], board, previous["leads"])
         if board["stories"] == previous["stories"] and board["leads"] == previous["leads"]:
             require(board["date"] == previous["date"], "unchanged_focus_date")
         else:
@@ -549,6 +588,7 @@ def main():
         args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
         print(json.dumps({k: result[k] for k in ("input_id", "kind", "source_snapshot_at", "previous_report_id")}, ensure_ascii=False))
     elif args.command == "check":
+        check_focus_amendments(args.data_dir)
         validate_latest(load(args.data_dir / LATEST))
         print("Public trend snapshot validated")
     else:

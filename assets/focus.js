@@ -3,6 +3,7 @@
   const host = document.getElementById("focus");
   const tracks = {tech: "技术", product: "产品", people: "用户"};
   const requested = new URLSearchParams(location.search).get("issue");
+  const requestedReview = new URLSearchParams(location.search).get("review");
   const base = "./data/trends/";
   function el(tag, text, cls) {
     const node = document.createElement(tag);
@@ -25,6 +26,18 @@
       timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit"
     }).format(new Date(report.period_end));
   }
+  async function edition(report) {
+    const issue = reportIssue(report);
+    const board = report.focus;
+    if ((!requested && !report.focus_lead_reasons) || requestedReview) {
+      const reviews = await json("focus-lead-reviews.json");
+      const match = Object.entries(reviews).reverse().find(([key, r]) =>
+        r.report_id === report.report_id && r.issue === issue && (!requestedReview || key === requestedReview));
+      if (match) return {board: {...board, leads: match[1].leads}, issue, review: match[0]};
+      if (requestedReview) throw Error("unknown_review");
+    }
+    return {board, issue};
+  }
   async function load() {
     if (requested === "seed") return {board: await json("focus-seed.json"), issue: "seed"};
     if (requested) {
@@ -34,16 +47,16 @@
       else throw Error("invalid_issue");
       const report = await json(path + requested + ".json");
       if (!report.focus || reportIssue(report) !== requested) throw Error("no_focus");
-      return {board: report.focus, issue: requested};
+      return edition(report);
     }
     const latest = await json("latest.json");
-    if (latest.daily?.focus) return {board: latest.daily.focus, issue: reportIssue(latest.daily)};
+    if (latest.daily?.focus) return edition(latest.daily);
     return {board: await json("focus-seed.json"), issue: "seed"};
   }
   try {
-    const {board, issue} = await load();
+    const {board, issue, review} = await load();
     const stories = new Map(board.stories.map(story => [story.id, story]));
-    const issueUrl = "?issue=" + issue;
+    const issueUrl = "?issue=" + issue + (review ? "&review=" + encodeURIComponent(review) : "");
     const localHome = requested ? issueUrl + "#home" : "./focus.html#home";
     const date = document.getElementById("edition-date");
     date.dateTime = board.date;
