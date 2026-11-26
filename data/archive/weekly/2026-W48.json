@@ -4,53 +4,54 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T15:41:23.853996Z",
+  "generated_at": "2026-11-26T17:18:08.984461Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
-  "story_count": 1700,
-  "unique_story_count": 1682,
+  "story_count": 1923,
+  "unique_story_count": 1694,
   "counts": {
     "by_company_topic": {
-      "anthropic": 321,
-      "apple": 16,
+      "anthropic": 360,
+      "apple": 18,
       "cursor": 8,
-      "deepseek": 21,
+      "deepseek": 24,
       "doubao": 19,
-      "google-gemini": 170,
-      "huggingface": 16,
-      "hunyuan": 11,
-      "kimi": 8,
-      "meta-llama": 12,
-      "microsoft": 6,
-      "minimax": 10,
-      "nvidia": 80,
-      "openai": 217,
-      "openrouter": 11,
-      "perplexity": 15,
-      "qwen": 18,
-      "xai": 21,
-      "zhipu": 12
+      "google-gemini": 187,
+      "huggingface": 20,
+      "hunyuan": 13,
+      "kimi": 10,
+      "meta-llama": 13,
+      "microsoft": 7,
+      "minimax": 14,
+      "nvidia": 92,
+      "openai": 251,
+      "openrouter": 13,
+      "perplexity": 16,
+      "qwen": 19,
+      "xai": 24,
+      "zhipu": 13
     },
     "by_lens_topic": {
-      "agent-ecosystem": 299,
-      "monetization": 55,
-      "product-entry": 44,
-      "workplace": 33
+      "agent-ecosystem": 321,
+      "monetization": 62,
+      "product-entry": 48,
+      "workplace": 36
     },
     "by_importance_label": {
-      "值得关注": 1427,
-      "多源热议": 29,
-      "官方更新": 105,
-      "行业动态": 139
+      "值得关注": 1598,
+      "多源热议": 32,
+      "官方更新": 120,
+      "行业动态": 173
     },
     "by_source_count_bucket": {
-      "1": 1617,
-      "2": 53,
-      "3+": 30
+      "1": 1834,
+      "2": 56,
+      "3+": 33
     }
   },
   "top_stories": [
@@ -476,6 +477,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_1f2fcc291011",
+      "title": "Is Jevons Paradox holding?",
+      "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding",
+      "importance_score": 0.8042,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [
+        "openrouter"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_10f2214e97f1",
       "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
       "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
@@ -559,19 +573,6 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_09017c1b7602",
-      "title": "Hy4 flash 本地部署：让大模型跑在个人设备上",
-      "url": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
-      "importance_score": 0.7874,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "hunyuan"
       ],
       "lens_topics": []
     }
