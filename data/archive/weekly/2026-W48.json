@@ -4,52 +4,52 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T11:29:18.117323Z",
+  "generated_at": "2026-11-26T15:41:23.853996Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26"
   ],
-  "story_count": 1711,
-  "unique_story_count": 1694,
+  "story_count": 1700,
+  "unique_story_count": 1682,
   "counts": {
     "by_company_topic": {
-      "anthropic": 325,
+      "anthropic": 321,
       "apple": 16,
       "cursor": 8,
       "deepseek": 21,
       "doubao": 19,
-      "google-gemini": 174,
-      "huggingface": 14,
+      "google-gemini": 170,
+      "huggingface": 16,
       "hunyuan": 11,
       "kimi": 8,
-      "meta-llama": 11,
-      "microsoft": 7,
-      "minimax": 9,
-      "nvidia": 83,
-      "openai": 216,
+      "meta-llama": 12,
+      "microsoft": 6,
+      "minimax": 10,
+      "nvidia": 80,
+      "openai": 217,
       "openrouter": 11,
       "perplexity": 15,
-      "qwen": 17,
+      "qwen": 18,
       "xai": 21,
       "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 303,
-      "monetization": 54,
-      "product-entry": 48,
-      "workplace": 35
+      "agent-ecosystem": 299,
+      "monetization": 55,
+      "product-entry": 44,
+      "workplace": 33
     },
     "by_importance_label": {
-      "值得关注": 1438,
+      "值得关注": 1427,
       "多源热议": 29,
       "官方更新": 105,
       "行业动态": 139
     },
     "by_source_count_bucket": {
-      "1": 1627,
-      "2": 54,
+      "1": 1617,
+      "2": 53,
       "3+": 30
     }
   },
@@ -81,6 +81,20 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_70e53371dbeb",
+      "title": "推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准仪表板 / Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "importance_score": 0.8557,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "meta-llama",
+        "huggingface"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_c2e19fb7f5b4",
@@ -142,6 +156,22 @@
       "source_count": 1,
       "archive_date": "2026-11-25",
       "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_22833905baff",
+      "title": "Hugging Face 教程：用 Qwen3-0.6B 训练四智能体集群学会通信 / Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "importance_score": 0.8295,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "qwen",
+        "huggingface"
+      ],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -225,69 +255,6 @@
       ]
     },
     {
-      "story_id": "story_d2f94bf25ce5",
-      "title": "阿里云七大展示：探索AI原生研发组织的实践 / Seven Showcases at Alibaba Cloud: Exploring AI-Native R&D Organization in Practice",
-      "url": "https://www.alibabacloud.com/blog/seven-showcases-at-alibaba-cloud-exploring-ai-native-r%26d-organization-in-practice_603815",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b6bdf1f97c5a",
-      "title": "Steering AI Toward Social Value: Inside Alibaba's 2026 AI for Good Action Report",
-      "url": "https://www.alibabacloud.com/blog/steering-ai-toward-social-value-inside-alibabas-2026-ai-for-good-action-report_603823",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_a46d96ddb98a",
-      "title": "RocketMQ for AI: LiteTopic-Based Agent Asynchronous Communication Architecture and Production Practice",
-      "url": "https://www.alibabacloud.com/blog/rocketmq-for-ai-litetopic-based-agent-asynchronous-communication-architecture-and-production-practice_603821",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_2c14be42d459",
-      "title": "Alibaba Joins Antalya AI Pledge at COP31 to Support Sustainable AI",
-      "url": "https://www.alibabacloud.com/blog/alibaba-joins-antalya-ai-pledge-at-cop31-to-support-sustainable-ai_603822",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9ef31414a556",
-      "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "importance_score": 0.8216,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_b483870af4d7",
       "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
       "url": "https://huggingface.co/blog/allenai/robotrack",
@@ -299,21 +266,6 @@
         "huggingface"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_5d02dfd2e5bb",
-      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
-      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-      "importance_score": 0.8208,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
     },
     {
       "story_id": "story_f01a23e8f275",
@@ -379,27 +331,81 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_9aa3d4029e99",
-      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "importance_score": 0.8156,
-      "importance_label": "多源热议",
-      "source_count": 3,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_c77f89107e85",
-      "title": "Introducing Search for Agents",
-      "url": "https://blog.cloudflare.com/search-for-agents",
-      "importance_score": 0.81,
+      "story_id": "story_d2f94bf25ce5",
+      "title": "阿里云七大展示：探索AI原生研发组织的实践 / Seven Showcases at Alibaba Cloud: Exploring AI-Native R&D Organization in Practice",
+      "url": "https://www.alibabacloud.com/blog/seven-showcases-at-alibaba-cloud-exploring-ai-native-r%26d-organization-in-practice_603815",
+      "importance_score": 0.8135,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_b6bdf1f97c5a",
+      "title": "引导人工智能走向社会价值：阿里巴巴2026年人工智能行善报告内幕 / Steering AI Toward Social Value: Inside Alibaba's 2026 AI for Good Action Report",
+      "url": "https://www.alibabacloud.com/blog/steering-ai-toward-social-value-inside-alibabas-2026-ai-for-good-action-report_603823",
+      "importance_score": 0.8135,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_a46d96ddb98a",
+      "title": "RocketMQ for AI：基于LiteTopic的Agent异步通信架构及生产实践 / RocketMQ for AI: LiteTopic-Based Agent Asynchronous Communication Architecture and Production Practice",
+      "url": "https://www.alibabacloud.com/blog/rocketmq-for-ai-litetopic-based-agent-asynchronous-communication-architecture-and-production-practice_603821",
+      "importance_score": 0.8135,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_2c14be42d459",
+      "title": "阿里巴巴在 COP31 上加入安塔利亚人工智能承诺，支持可持续人工智能 / Alibaba Joins Antalya AI Pledge at COP31 to Support Sustainable AI",
+      "url": "https://www.alibabacloud.com/blog/alibaba-joins-antalya-ai-pledge-at-cop31-to-support-sustainable-ai_603822",
+      "importance_score": 0.8135,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9ef31414a556",
+      "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "importance_score": 0.8133,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_5d02dfd2e5bb",
+      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "importance_score": 0.812,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
       ]
     },
     {
@@ -432,6 +438,17 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_9aa3d4029e99",
+      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "importance_score": 0.8074,
+      "importance_label": "多源热议",
+      "source_count": 3,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_8c2aab0e28f2",
       "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
@@ -442,17 +459,6 @@
       "company_topics": [
         "google-gemini"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_6ec00367c2a0",
-      "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
-      "url": "https://lumalabs.ai/news/brand-kit-character-library",
-      "importance_score": 0.8073,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -481,6 +487,17 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_6ec00367c2a0",
+      "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
+      "url": "https://lumalabs.ai/news/brand-kit-character-library",
+      "importance_score": 0.7988,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_f0c49f3f943b",
       "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
@@ -492,22 +509,6 @@
         "google-gemini"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_99c27e1d7e6a",
-      "title": "如何选择应用程序现代化的下一个安全步骤 / How to choose the next safe step in application modernization",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
-      "importance_score": 0.7979,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
     },
     {
       "story_id": "story_74b6fe230007",
