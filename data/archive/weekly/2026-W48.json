@@ -4,53 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T01:02:49.444028Z",
+  "generated_at": "2026-11-26T03:09:54.583529Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26"
   ],
-  "story_count": 1714,
-  "unique_story_count": 1573,
+  "story_count": 1716,
+  "unique_story_count": 1598,
   "counts": {
     "by_company_topic": {
-      "anthropic": 315,
-      "apple": 14,
+      "anthropic": 317,
+      "apple": 15,
       "cursor": 7,
-      "deepseek": 23,
+      "deepseek": 22,
       "doubao": 21,
-      "google-gemini": 176,
+      "google-gemini": 178,
       "huggingface": 14,
       "hunyuan": 11,
       "kimi": 8,
       "meta-llama": 11,
       "microsoft": 8,
-      "minimax": 6,
-      "nvidia": 81,
+      "minimax": 7,
+      "nvidia": 83,
       "openai": 205,
       "openrouter": 10,
-      "perplexity": 16,
+      "perplexity": 15,
       "qwen": 21,
-      "xai": 19,
+      "xai": 20,
       "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 308,
-      "monetization": 53,
-      "product-entry": 45,
-      "workplace": 37
+      "agent-ecosystem": 304,
+      "monetization": 54,
+      "product-entry": 46,
+      "workplace": 38
     },
     "by_importance_label": {
-      "值得关注": 1453,
-      "多源热议": 31,
-      "官方更新": 101,
-      "行业动态": 129
+      "值得关注": 1450,
+      "多源热议": 30,
+      "官方更新": 99,
+      "行业动态": 137
     },
     "by_source_count_bucket": {
-      "1": 1629,
+      "1": 1632,
       "2": 53,
-      "3+": 32
+      "3+": 31
     }
   },
   "top_stories": [
@@ -75,36 +75,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_5d02dfd2e5bb",
-      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
-      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-      "importance_score": 0.845,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
-      "story_id": "story_9ef31414a556",
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "importance_score": 0.8447,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
       "company_topics": [
         "huggingface"
       ],
@@ -140,15 +110,34 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_9aa3d4029e99",
-      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "importance_score": 0.8382,
-      "importance_label": "多源热议",
-      "source_count": 3,
+      "story_id": "story_5d02dfd2e5bb",
+      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "importance_score": 0.8398,
+      "importance_label": "官方更新",
+      "source_count": 1,
       "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
+      ]
+    },
+    {
+      "story_id": "story_9ef31414a556",
+      "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "importance_score": 0.8397,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_163fbb440649",
@@ -164,25 +153,12 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_c77f89107e85",
-      "title": "Introducing Search for Agents",
-      "url": "https://blog.cloudflare.com/search-for-agents",
-      "importance_score": 0.8315,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_6ec00367c2a0",
-      "title": "Introducing Brand Kit and Character Library",
-      "url": "https://lumalabs.ai/news/brand-kit-character-library",
-      "importance_score": 0.8306,
-      "importance_label": "官方更新",
-      "source_count": 1,
+      "story_id": "story_9aa3d4029e99",
+      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "importance_score": 0.8334,
+      "importance_label": "多源热议",
+      "source_count": 3,
       "archive_date": "2026-11-26",
       "company_topics": [],
       "lens_topics": []
@@ -223,6 +199,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_c77f89107e85",
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents",
+      "importance_score": 0.8268,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
       "story_id": "story_3a8d59639117",
       "title": "Muse 现已在英国上市：Muse 发挥作用，一切尽在掌握 / Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
@@ -251,6 +240,17 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_6ec00367c2a0",
+      "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
+      "url": "https://lumalabs.ai/news/brand-kit-character-library",
+      "importance_score": 0.8256,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_ce87bd8f2303",
@@ -316,22 +316,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_99c27e1d7e6a",
-      "title": "How to choose the next safe step in application modernization",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
-      "importance_score": 0.8197,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_fbb91635b162",
       "title": "The Agent Lake",
       "url": "https://www.langchain.com/blog/the-agent-lake",
@@ -380,6 +364,22 @@
       "archive_date": "2026-11-25",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_99c27e1d7e6a",
+      "title": "如何选择应用程序现代化的下一个安全步骤 / How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "importance_score": 0.815,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
     },
     {
       "story_id": "story_ba83067ed6e6",
@@ -449,21 +449,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_0337d499dc98",
-      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-      "importance_score": 0.7999,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_f0c49f3f943b",
       "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用 / A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
@@ -487,6 +472,21 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_0337d499dc98",
+      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
+      "importance_score": 0.7953,
+      "importance_label": "行业动态",
+      "source_count": 2,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "nvidia"
+      ],
+      "lens_topics": [
+        "workplace"
       ]
     },
     {
