@@ -3,13 +3,13 @@
   "name": "混元 / 元宝",
   "description": "腾讯混元模型与元宝产品：Hunyuan 发布、腾讯元宝客户端与相关能力。",
   "group": "company",
-  "item_count": 81,
-  "listed_count": 81,
-  "recent_item_count": 64,
+  "item_count": 82,
+  "listed_count": 82,
+  "recent_item_count": 65,
   "latest_title": "不换模型也能吐字快 4.2 倍：腾讯混元开源草稿模型 DFly2，专给 Hy4 flash 提速",
   "latest_published_at": "2026-11-26T09:39:09.135543Z",
   "items_url": "data/topics/hunyuan.json",
-  "generated_at": "2026-11-26T09:39:09.135543Z",
+  "generated_at": "2026-11-26T11:29:18.117323Z",
   "items": [
     {
       "id": "story_8467615e6b8b",
@@ -28,6 +28,22 @@
       "curated": false
     },
     {
+      "id": "334fc9ddf6e0568c1fab056c8877cde223176afc",
+      "story_id": null,
+      "title": "让 Hy4 flash 吐字提速 4.2 倍，混元 DFly2 开源",
+      "title_zh": null,
+      "title_en": null,
+      "url": "https://mp.weixin.qq.com/s/d1HMHrSEChCJiBRZ0tNOyg",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "公众号：腾讯混元",
+      "source_name": "公众号：腾讯混元",
+      "site_id": "wechat_bridge",
+      "published_at": "2026-11-26T06:33:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
       "id": "story_bf4b3fa1160e",
       "story_id": "story_bf4b3fa1160e",
       "title": "腾讯 Hy4 Flash 登陆 Fireworks：专业活儿干得和 Claude 一样好，账单便宜两百倍",
@@ -44,10 +60,10 @@
       "curated": false
     },
     {
-      "id": "story_f5ca495d8da2",
-      "story_id": "story_f5ca495d8da2",
+      "id": "7f0067bb2b612d7023ac445b428c6a3c68296fb3",
+      "story_id": null,
       "title": "腾讯混元开源 Hy4 flash GGUF 量化权重：224B 大模型塞进 64GB Mac mini，分数几乎没掉",
-      "title_zh": "腾讯混元开源 Hy4 flash GGUF 量化权重：224B 大模型塞进 64GB Mac mini，分数几乎没掉",
+      "title_zh": null,
       "title_en": null,
       "url": "https://www.aibase.com/news/32527",
       "summary": "224B大型模型通常必须托管在数据中心；腾讯混元将其挤进了64GB Mac mini。 11 月 25 日，腾讯混元通过 AngelSlim 工具箱开源了 Hy4 flash 的 GGUF 量化权重和推理代码——原始权重约为 410.27 GiB，最小量化版本仅保留 30% 左右。四个量化层，每个层都有自己的用途量化版本分为四个层：通用 Q4_K_M、在 M5 Max 上测试的 Q3_K、较小的……",
