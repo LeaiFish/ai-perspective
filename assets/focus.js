@@ -1,6 +1,12 @@
 /* The report archive is the permalink target, including for same-day revisions. */
 (async function () {
   const host = document.getElementById("focus");
+  const main = document.getElementById("main");
+  document.querySelector(".skip-link").addEventListener("click", event => {
+    event.preventDefault();
+    main.focus();
+    main.scrollTop = 0;
+  });
   const tracks = {tech: "技术", product: "产品", people: "用户"};
   const requested = new URLSearchParams(location.search).get("issue");
   const requestedReview = new URLSearchParams(location.search).get("review");
@@ -58,7 +64,8 @@
     const stories = new Map(board.stories.map(story => [story.id, story]));
     const issueUrl = "?issue=" + issue + (review ? "&review=" + encodeURIComponent(review) : "");
     const localHome = requested ? issueUrl + "#home" : "./focus.html#home";
-    const date = document.getElementById("edition-date");
+    const date = el("time", "", "window-note");
+
     date.dateTime = board.date;
     date.textContent = "判断更新于 " + board.date.replaceAll("-", ".");
     const days = board.stories.flatMap(s => s.evidence.map(e => e.date)).sort();
@@ -67,13 +74,15 @@
     if (selection) footer.append(link("首屏复核记录", issueUrl + "#@selection", "issue-link home-link"));
     if (requested) footer.append(link("查看最新一期", "./focus.html", "issue-link home-link"));
     const home = el("div", "", "home");
-    const mast = el("div", "", "mast");
-    mast.append(el("h1", "我关注的"), el("p", "近期方向判断"));
-    const leads = el("div", "", "leads");
+    const mast = el("header", "", "page-head");
+    const heading = el("div");
+    heading.append(el("h1", "我关注的"), date);
+    mast.append(heading);
+    const leads = el("div", "", "leads judgment-grid");
     for (const id of board.leads) {
       const s = stories.get(id);
-      const card = link("", issueUrl + "#" + id, "lead");
-      card.append(el("span", tracks[s.track], "kicker"), el("h2", s.title), el("p", s.summary), el("span", "查看依据", "more"));
+      const card = link("", issueUrl + "#" + id, "lead judgment-card");
+      card.append(el("span", tracks[s.track], "kicker"), el("h2", s.title), el("p", s.summary), el("span", "查看依据", "more source-link"));
       leads.append(card);
     }
     const channels = el("div", "", "channels");
@@ -91,15 +100,19 @@
       }
       channels.append(column);
     }
-    home.append(mast, leads, el("h2", "三条线索", "explore"), channels);
+    home.append(mast, el("h2", "近期方向判断", "section-title"), leads, el("h2", "三条线索", "explore"), channels);
     async function render() {
       const [id, number] = location.hash.slice(1).split("/");
-      if (!id || id === "home") { host.replaceChildren(home); return; }
+      if (!id || id === "home") {
+        host.replaceChildren(home);
+        if (id === "home") main.scrollTop = 0;
+        return;
+      }
       if (id === "@selection" && selection) {
         const article = el("article", "", "detail current");
-        article.append(link("返回本期首页", localHome, "back"), el("h1", "首屏复核记录"));
+        article.append(link("返回本期首页", localHome, "back"), el("h1", "首屏复核记录"), date.cloneNode(true));
         host.replaceChildren(article);
-        window.scrollTo(0, 0);
+        main.scrollTop = 0;
         try {
           const path = "focus-selections/" + selection + ".json";
           const receipt = await json(path);
@@ -124,7 +137,7 @@
       const back = link("返回本期首页", localHome, "back");
       const note = el("div", "", "note");
       note.append(el("h2", "为什么这样判断"), el("p", s.analysis));
-      article.append(back, el("div", tracks[s.track] + " · 方向判断", "kicker"), el("h1", s.title), note, el("h2", "具体依据"));
+      article.append(back, el("div", tracks[s.track] + " · 方向判断", "kicker"), el("h1", s.title), date.cloneNode(true), note, el("h2", "具体依据"));
       let selected;
       s.evidence.forEach((e, i) => {
         const item = el("section", "", "piece");
@@ -137,7 +150,7 @@
         if (String(i + 1) === number) { selected = item; item.classList.add("selected"); }
       });
       host.replaceChildren(article);
-      if (selected) selected.scrollIntoView({block:"center"}); else window.scrollTo(0,0);
+      if (selected) selected.scrollIntoView({block:"center"}); else main.scrollTop = 0;
     }
     render();
     window.addEventListener("hashchange", render);

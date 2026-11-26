@@ -311,6 +311,10 @@
   function preserveNavLinks() {
     const params = new URLSearchParams(window.location.search);
     ["space", "month", "tab", "kind", "id"].forEach((key) => params.delete(key));
+    if (state.space === "focus") {
+      params.delete("issue");
+      params.delete("review");
+    }
     document.querySelectorAll("[data-space-link]").forEach((link) => {
       const next = new URLSearchParams(params);
       const space = link.dataset.spaceLink;
@@ -1296,13 +1300,6 @@
     navToggle.setAttribute("aria-expanded", open ? "true" : "false");
   }
 
-  monthSelect.addEventListener("change", () => {
-    state.month = monthSelect.value;
-    replaceParams({ month: state.month === state.currentMonth ? "" : state.month });
-    applyMonth();
-    if (state.month === state.currentMonth) renderOverview();
-  });
-
   document.querySelectorAll("[data-lens]").forEach((button) => {
     button.addEventListener("click", () => {
       applyLens(button.dataset.lens || "product");
@@ -1318,6 +1315,20 @@
   sidebar.addEventListener("click", (event) => {
     if (event.target.closest("[data-radar-theme]")) return;
     if (event.target.closest("a, button")) setMenu(false);
+  });
+
+  // The focus reader uses this navigation shell and renders its own issue.
+  if (state.space === "focus") {
+    applyLens(readParam("lens") || "product");
+    preserveNavLinks();
+    return;
+  }
+
+  monthSelect.addEventListener("change", () => {
+    state.month = monthSelect.value;
+    replaceParams({ month: state.month === state.currentMonth ? "" : state.month });
+    applyMonth();
+    if (state.month === state.currentMonth) renderOverview();
   });
 
   document.querySelectorAll(".catalog-tab").forEach((button) => {
