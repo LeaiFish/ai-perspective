@@ -4,53 +4,53 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T05:12:32.947362Z",
+  "generated_at": "2026-11-26T09:39:09.135543Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26"
   ],
-  "story_count": 1710,
-  "unique_story_count": 1624,
+  "story_count": 1724,
+  "unique_story_count": 1670,
   "counts": {
     "by_company_topic": {
-      "anthropic": 320,
+      "anthropic": 327,
       "apple": 16,
-      "cursor": 7,
+      "cursor": 8,
       "deepseek": 21,
-      "doubao": 21,
-      "google-gemini": 180,
+      "doubao": 19,
+      "google-gemini": 179,
       "huggingface": 15,
       "hunyuan": 12,
       "kimi": 8,
       "meta-llama": 11,
-      "microsoft": 8,
-      "minimax": 7,
-      "nvidia": 83,
-      "openai": 208,
-      "openrouter": 10,
+      "microsoft": 7,
+      "minimax": 9,
+      "nvidia": 84,
+      "openai": 216,
+      "openrouter": 11,
       "perplexity": 15,
-      "qwen": 19,
+      "qwen": 17,
       "xai": 21,
-      "zhipu": 12
+      "zhipu": 11
     },
     "by_lens_topic": {
-      "agent-ecosystem": 300,
+      "agent-ecosystem": 304,
       "monetization": 55,
       "product-entry": 47,
-      "workplace": 37
+      "workplace": 36
     },
     "by_importance_label": {
-      "值得关注": 1441,
-      "多源热议": 28,
-      "官方更新": 101,
-      "行业动态": 140
+      "值得关注": 1453,
+      "多源热议": 29,
+      "官方更新": 103,
+      "行业动态": 139
     },
     "by_source_count_bucket": {
-      "1": 1627,
-      "2": 54,
-      "3+": 29
+      "1": 1641,
+      "2": 53,
+      "3+": 30
     }
   },
   "top_stories": [
@@ -110,34 +110,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d2f94bf25ce5",
-      "title": "Seven Showcases at Alibaba Cloud: Exploring AI-Native R&D Organization in Practice",
-      "url": "https://www.alibabacloud.com/blog/seven-showcases-at-alibaba-cloud-exploring-ai-native-r%26d-organization-in-practice_603815",
-      "importance_score": 0.837,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_9ef31414a556",
-      "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "importance_score": 0.8351,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "huggingface"
-      ],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -149,21 +121,6 @@
         "openai"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_5d02dfd2e5bb",
-      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
-      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-      "importance_score": 0.8349,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
     },
     {
       "story_id": "story_f1efa791e402",
@@ -190,17 +147,6 @@
       ]
     },
     {
-      "story_id": "story_9aa3d4029e99",
-      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "importance_score": 0.8288,
-      "importance_label": "多源热议",
-      "source_count": 3,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_8746a9d8916b",
       "title": "AI 编码环境变得越来越昂贵 - Tair 为此构建了功能，我们希望您对其进行测试 / AI Coding Context Keeps Getting More Expensive — Tair Built a Capability for That, and We Want You to Test It",
       "url": "https://www.alibabacloud.com/blog/ai-coding-context-keeps-getting-more-expensive-%E2%80%94-tair-built-a-capability-for-that-and-we-want-you-to-test-it_603800",
@@ -210,6 +156,19 @@
       "archive_date": "2026-11-23",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_d2f94bf25ce5",
+      "title": "Seven Showcases at Alibaba Cloud: Exploring AI-Native R&D Organization in Practice",
+      "url": "https://www.alibabacloud.com/blog/seven-showcases-at-alibaba-cloud-exploring-ai-native-r%26d-organization-in-practice_603815",
+      "importance_score": 0.8266,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_3a8d59639117",
@@ -239,6 +198,36 @@
       ],
       "lens_topics": [
         "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_9ef31414a556",
+      "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "importance_score": 0.8254,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "huggingface"
+      ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_5d02dfd2e5bb",
+      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "importance_score": 0.8248,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
       ]
     },
     {
@@ -279,19 +268,6 @@
       ]
     },
     {
-      "story_id": "story_c77f89107e85",
-      "title": "Introducing Search for Agents",
-      "url": "https://blog.cloudflare.com/search-for-agents",
-      "importance_score": 0.8225,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
       "story_id": "story_b483870af4d7",
       "title": "Ai2 发布 RoboTrack 点跟踪基准、RoboTrack-15M 数据集与 RoboTracker 系列模型 / RoboTrack: Point tracking for real-world robotic manipulation",
       "url": "https://huggingface.co/blog/allenai/robotrack",
@@ -305,17 +281,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_6ec00367c2a0",
-      "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
-      "url": "https://lumalabs.ai/news/brand-kit-character-library",
-      "importance_score": 0.8209,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_f01a23e8f275",
       "title": "GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜",
       "url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
@@ -326,6 +291,17 @@
       "company_topics": [
         "zhipu"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9aa3d4029e99",
+      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "importance_score": 0.8194,
+      "importance_label": "多源热议",
+      "source_count": 3,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -379,20 +355,28 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_99c27e1d7e6a",
-      "title": "如何选择应用程序现代化的下一个安全步骤 / How to choose the next safe step in application modernization",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
-      "importance_score": 0.8106,
+      "story_id": "story_c77f89107e85",
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents",
+      "importance_score": 0.8135,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
+      "company_topics": [],
       "lens_topics": [
-        "agent-ecosystem",
-        "workplace"
+        "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_6ec00367c2a0",
+      "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
+      "url": "https://lumalabs.ai/news/brand-kit-character-library",
+      "importance_score": 0.8111,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_ba83067ed6e6",
@@ -451,6 +435,22 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_99c27e1d7e6a",
+      "title": "如何选择应用程序现代化的下一个安全步骤 / How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "importance_score": 0.8015,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "agent-ecosystem",
+        "workplace"
+      ]
+    },
+    {
       "story_id": "story_10f2214e97f1",
       "title": "Comfy Desktop 1.2 新增应用入口，免开节点图运行工作流 / Comfy Desktop becomes your front door to everything ComfyUI",
       "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
@@ -488,21 +488,6 @@
       ]
     },
     {
-      "story_id": "story_0337d499dc98",
-      "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-      "importance_score": 0.791,
-      "importance_label": "行业动态",
-      "source_count": 2,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "nvidia"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_c283e192d280",
       "title": "元宝 2.94.0 官方版本更新",
       "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.94.0",
@@ -514,6 +499,45 @@
         "hunyuan"
       ],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_cb38c973999b",
+      "title": "AgentTeams 1.2.8: A Brand-New Workbench and Website—Start Team Collaboration with One Click",
+      "url": "https://www.alibabacloud.com/blog/agentteams-1-2-8-a-brand-new-workbench-and-website%E2%80%94start-team-collaboration-with-one-click_603818",
+      "importance_score": 0.7906,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_add97d7c8b63",
+      "title": "AgentScope Durable: Running Enterprise Agents Continuously and Reliably",
+      "url": "https://www.alibabacloud.com/blog/agentscope-durable-running-enterprise-agents-continuously-and-reliably_603816",
+      "importance_score": 0.7906,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_66f2c0146f2f",
+      "title": "The Data Foundation for Agent Self-Improvement: Alibaba Cloud SLS Session Store",
+      "url": "https://www.alibabacloud.com/blog/the-data-foundation-for-agent-self-improvement-alibaba-cloud-sls-session-store_603820",
+      "importance_score": 0.7906,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
     },
     {
       "story_id": "story_20c447bece05",
@@ -553,30 +577,6 @@
         "hunyuan"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_5f800b4bb689",
-      "title": "人工智能圣诞广告：可口可乐人工智能假日广告的正确之处以及如何制作广告 / AI Christmas Ads: What Coca-Cola's AI Holiday Spots Got Right, and How to Make One",
-      "url": "https://lumalabs.ai/news/ai-christmas-ads",
-      "importance_score": 0.787,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9cb645b9e1d7",
-      "title": "适用于您的数据库的 Git：PolarDB 让代理安全地进行实验 / Git for Your Database: PolarDB Lets Agents Experiment Safely",
-      "url": "https://www.alibabacloud.com/blog/git-for-your-database-polardb-lets-agents-experiment-safely_603801",
-      "importance_score": 0.7868,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-23",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }
