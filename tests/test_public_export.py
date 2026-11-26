@@ -40,7 +40,8 @@ def test_curated_history_survives_latest_window_with_public_safety(monkeypatch, 
     import json
     (tmp_path/'topics').mkdir()
     (tmp_path/'archive.json').write_text(json.dumps({'items':[
-        {'id':'kept','title':'Verified product guide','url':'https://example.com/guide','published_at':'2026-11-06T03:00:00Z','curated':True},
+        {'id':'kept','title':'Verified product guide','url':'https://example.com/guide','published_at':'2026-11-06T03:00:00Z','curated':True,
+         'same_event_urls':['https://example.com/coverage']},
         {'id':'noise','title':'Uncurated history','url':'https://example.com/noise','published_at':'2026-11-06T03:00:00Z'},
         {'id':'old','title':'Old guide','url':'https://example.com/old','published_at':'2026-09-01T00:00:00Z','curated':True},
         {'id':'unsafe','title':'Unsafe history','url':'https://example.com/unsafe','published_at':'2026-11-06T03:00:00Z','curated':True,'private':True},
@@ -50,7 +51,10 @@ def test_curated_history_survives_latest_window_with_public_safety(monkeypatch, 
     payloads={'config/topics.json':{'topics':[],'groups':[]},
               'data/topics.json':{'generated_at':'2026-11-10T03:00:00Z'},
               'data/news-summary-cache.json':{},'data/title-zh-cache.json':{},
-              'data/latest-24h-all.json':{'items_all':[]},
+              'data/latest-24h-all.json':{'items_all':[
+                  {'id':'coverage','title':'Same event in media','url':'https://www.example.com/coverage?utm_source=rss',
+                   'published_at':'2026-11-06T04:00:00Z'},
+              ]},
               'data/stories-merged.json':{'stories':[]},'data/daily-brief.json':{'items':[]},
               'data/archive.json':json.loads((tmp_path/'archive.json').read_text())}
     monkeypatch.setattr(module,'NEWS',tmp_path)

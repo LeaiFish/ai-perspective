@@ -203,6 +203,22 @@ def canonicalize_url(url: str) -> str:
     return urlunparse((parsed.scheme.lower(), host, path, parsed.params, query, update_fragment(parsed)))
 
 
+def curated_event_aliases(archive: list[dict[str, Any]]) -> set[str]:
+    """Return verified alternate URLs whose event has a curated original."""
+    originals = {
+        canonicalize_url(str(row.get("url") or ""))
+        for row in archive
+        if row.get("curated") is True
+    }
+    aliases = set()
+    for row in archive:
+        alternate_urls = row.get("same_event_urls")
+        if row.get("curated") is not True or not row.get("url") or not isinstance(alternate_urls, list):
+            continue
+        aliases.update(canonicalize_url(url) for url in alternate_urls if isinstance(url, str) and url.strip())
+    return aliases - originals
+
+
 def record_identity(record: dict[str, Any]) -> str:
     url = canonicalize_url(str(record.get("url") or record.get("primary_url") or ""))
     if not url:
@@ -395,12 +411,15 @@ def match_topic_items(
     if "archive" not in wanted_pools and curated_history:
         topic_pools = {**pools, "curated_history": curated_history}
         wanted_pools.append("curated_history")
+    aliases = curated_event_aliases(curated_history)
     merged: dict[str, dict[str, Any]] = {}
     for pool_name in wanted_pools:
         for record in topic_pools.get(pool_name, []):
             if not record_matches_topic(record, topic):
                 continue
             slim = slim_item(record, curated_ids)
+            if aliases and canonicalize_url(slim["url"]) in aliases:
+                continue
             if not slim.get("title"):
                 continue
             identity = record_identity(record) or record_identity(slim)

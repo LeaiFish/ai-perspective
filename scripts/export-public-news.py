@@ -4,6 +4,11 @@ import argparse, hashlib, ipaddress, json, re, os, uuid
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit
+try:
+    from scripts.build_topics import canonicalize_url, curated_event_aliases
+except ModuleNotFoundError:
+    from build_topics import canonicalize_url, curated_event_aliases
+
 ROOT = Path(__file__).resolve().parent.parent
 NEWS = Path(os.environ.get('RADAR_NEWS_DATA_DIR', str(ROOT/'data')))
 FORBIDDEN = {'dau','mau','wau','internal','private','credentials','password','cookies','token','secret'}
@@ -58,12 +63,13 @@ def export():
     archive=load('data/archive.json')
     archived=archive.get('items',[])
     if isinstance(archived,dict): archived=archived.values()
-    for row in archived:
-        if isinstance(row,dict) and row.get('curated') is True and safe_row(row):
-            rows.setdefault(row.get('url'),row)
+    curated = [row for row in archived if safe_row(row) and public_url(row.get('url')) and row.get('curated') is True]
+    aliases = curated_event_aliases(curated)
+    for row in curated:
+        rows.setdefault(row['url'],row)
     items=[]; ids={}
     for url,row in rows.items():
-        if not public_url(url): continue
+        if not public_url(url) or canonicalize_url(url) in aliases: continue
         at=row.get('published_at') or row.get('first_seen_at')
         try:
             date=datetime.fromisoformat(at.replace('Z','+00:00'))
