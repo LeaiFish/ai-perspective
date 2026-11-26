@@ -3,14 +3,30 @@
   "name": "OpenAI / ChatGPT",
   "description": "OpenAI 的模型、产品与公司动态：GPT 系列、ChatGPT、Sora、Codex 与 API。",
   "group": "company",
-  "item_count": 2623,
-  "listed_count": 2623,
-  "recent_item_count": 1041,
-  "latest_title": "Claude 和 ChatGPT 进军蛋白质结构预测，通用大模型挑战 AlphaFold 专业地位",
-  "latest_published_at": "2026-11-26T03:09:54.583529Z",
+  "item_count": 2625,
+  "listed_count": 2625,
+  "recent_item_count": 1044,
+  "latest_title": "[OpenAI] 现在想找个 1 毛左右支持 high 质量 2K 4K 的 gpt 生图渠道太难了，全是 1K 超分的低质生图",
+  "latest_published_at": "2026-11-26T03:51:00Z",
   "items_url": "data/topics/openai.json",
-  "generated_at": "2026-11-26T03:25:27.733655Z",
+  "generated_at": "2026-11-26T04:05:23.308605Z",
   "items": [
+    {
+      "id": "story_e9a7ef2307df",
+      "story_id": "story_e9a7ef2307df",
+      "title": "[OpenAI] 现在想找个 1 毛左右支持 high 质量 2K 4K 的 gpt 生图渠道太难了，全是 1K 超分的低质生图",
+      "title_zh": "[OpenAI] 现在想找个 1 毛左右支持 high 质量 2K 4K 的 gpt 生图渠道太难了，全是 1K 超分的低质生图",
+      "title_en": null,
+      "url": "https://www.v2ex.com/t/1259961",
+      "summary": "",
+      "recommend_reason_zh": null,
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "site_id": "iris",
+      "published_at": "2026-11-26T03:51:00Z",
+      "source_count": 1,
+      "curated": false
+    },
     {
       "id": "story_a5d873d4282d",
       "story_id": "story_a5d873d4282d",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-26T03:09:54.583529Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_33f87fded952",
@@ -154,6 +170,22 @@
       "published_at": "2026-11-26T00:34:26Z",
       "source_count": 1,
       "curated": false
+    },
+    {
+      "id": "story_67a7d1104234",
+      "story_id": "story_67a7d1104234",
+      "title": "Calif 披露 Tor Browser 15.0.22 UAF 漏洞链可致真实 IP 泄露",
+      "title_zh": "Calif 披露 Tor Browser 15.0.22 UAF 漏洞链可致真实 IP 泄露",
+      "title_en": null,
+      "url": "https://calif.io/research/tortilla-with-onion",
+      "summary": "Calif 在 OpenAI Patch the Planet 项目下发布研究，展示恶意网站可通过 UAF 漏洞链绕过 Tor Browser 15.0.22 默认防御，泄露用户真实 IP。",
+      "recommend_reason_zh": null,
+      "source": "Calif：Research（AI 漏洞研究）",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-26T00:00:00Z",
+      "source_count": 1,
+      "curated": true
     },
     {
       "id": "story_0fb40d01c17d",
@@ -364,10 +396,10 @@
       "curated": false
     },
     {
-      "id": "story_17244dfb862a",
-      "story_id": "story_17244dfb862a",
+      "id": "0550c17dcd3aa1c8a0743dbfaf918492ab4e35ed",
+      "story_id": null,
       "title": "OpenAI 窃听案嫌犯获准保释：100 万美元担保 + 电子脚镣，法官称证据不足以继续关押",
-      "title_zh": "OpenAI 窃听案嫌犯获准保释：100 万美元担保 + 电子脚镣，法官称证据不足以继续关押",
+      "title_zh": null,
       "title_en": null,
       "url": "https://www.aibase.com/news/32519",
       "summary": "行政会议室中“用卫生纸包裹的窃听器”引发的案件出现了转机。当地时间11月24日，美国旧金山联邦法院裁定，涉嫌在OpenAI植入窃听装置的前工程师Al-Fozan可能以100万美元保释，条件是佩戴电子脚踝监视器并继续在家拘留。",
@@ -1351,6 +1383,22 @@
       "source": "OpenAI News",
       "source_name": "OpenAI News",
       "site_id": "official_ai",
+      "published_at": "2026-11-24T00:00:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "a285414248d17b0c6822dba4db3f48ceab02add7",
+      "story_id": null,
+      "title": "Codex 使用指南：用告警、遥测和部署记录排查生产故障",
+      "title_zh": null,
+      "title_en": "Production monitoring with Codex",
+      "url": "https://developers.openai.com/blog/production-monitoring-with-codex",
+      "summary": "OpenAI 开发者博客介绍如何将 Codex 接入已有监控流程：告警触发后结合日志、指标、部署历史和代码排查原因，并由负责人审批修复。11 月 24 日为指南发表日。",
+      "recommend_reason_zh": null,
+      "source": "OpenAI Developer Blog",
+      "source_name": "OpenAI Developer Blog",
+      "site_id": "verified_public_backfill",
       "published_at": "2026-11-24T00:00:00Z",
       "source_count": 1,
       "curated": true
@@ -19498,22 +19546,6 @@
       "published_at": "2026-10-21T19:45:01Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "aa81a7bfb73b011c33b04c1f6f9ef2ecdb330e02",
-      "story_id": null,
-      "title": "OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32 minutes, a job that takes humans months (OpenAI)",
-      "title_zh": null,
-      "title_en": null,
-      "url": "https://www.techmeme.com/261021/p45",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "Techmeme",
-      "source_name": "Techmeme",
-      "site_id": "techurls",
-      "published_at": "2026-10-21T19:45:01Z",
-      "source_count": 1,
-      "curated": false
     },
     {
       "id": "70a1d028e117453f48a2d555cca3a3bf82f2330a",

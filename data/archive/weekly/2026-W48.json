@@ -4,31 +4,31 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T03:25:27.733655Z",
+  "generated_at": "2026-11-26T04:05:23.308605Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26"
   ],
-  "story_count": 1711,
-  "unique_story_count": 1606,
+  "story_count": 1707,
+  "unique_story_count": 1615,
   "counts": {
     "by_company_topic": {
       "anthropic": 319,
       "apple": 15,
       "cursor": 7,
-      "deepseek": 22,
+      "deepseek": 21,
       "doubao": 21,
       "google-gemini": 179,
       "huggingface": 14,
-      "hunyuan": 11,
+      "hunyuan": 12,
       "kimi": 8,
       "meta-llama": 11,
       "microsoft": 8,
       "minimax": 7,
       "nvidia": 83,
-      "openai": 205,
+      "openai": 206,
       "openrouter": 10,
       "perplexity": 15,
       "qwen": 20,
@@ -36,21 +36,21 @@
       "zhipu": 12
     },
     "by_lens_topic": {
-      "agent-ecosystem": 303,
+      "agent-ecosystem": 300,
       "monetization": 55,
       "product-entry": 46,
       "workplace": 38
     },
     "by_importance_label": {
-      "值得关注": 1444,
-      "多源热议": 30,
+      "值得关注": 1441,
+      "多源热议": 28,
       "官方更新": 99,
-      "行业动态": 138
+      "行业动态": 139
     },
     "by_source_count_bucket": {
-      "1": 1627,
+      "1": 1625,
       "2": 53,
-      "3+": 31
+      "3+": 29
     }
   },
   "top_stories": [
@@ -110,25 +110,10 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_5d02dfd2e5bb",
-      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
-      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-      "importance_score": 0.8392,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-26",
-      "company_topics": [
-        "microsoft"
-      ],
-      "lens_topics": [
-        "workplace"
-      ]
-    },
-    {
       "story_id": "story_9ef31414a556",
       "title": "科学家为人工智能代理划定界限 / Where scientists draw the line on AI agents",
       "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "importance_score": 0.8391,
+      "importance_score": 0.8376,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
@@ -137,6 +122,21 @@
       ],
       "lens_topics": [
         "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_5d02dfd2e5bb",
+      "title": "Copilot 代码审查计费将默认由组织承担 / Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "importance_score": 0.8376,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-26",
+      "company_topics": [
+        "microsoft"
+      ],
+      "lens_topics": [
+        "workplace"
       ]
     },
     {
@@ -156,7 +156,7 @@
       "story_id": "story_9aa3d4029e99",
       "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
       "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "importance_score": 0.8328,
+      "importance_score": 0.8313,
       "importance_label": "多源热议",
       "source_count": 3,
       "archive_date": "2026-11-26",
@@ -232,7 +232,7 @@
       "story_id": "story_c77f89107e85",
       "title": "Introducing Search for Agents",
       "url": "https://blog.cloudflare.com/search-for-agents",
-      "importance_score": 0.8263,
+      "importance_score": 0.8249,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
@@ -245,7 +245,7 @@
       "story_id": "story_6ec00367c2a0",
       "title": "推出品牌套件和角色库 / Introducing Brand Kit and Character Library",
       "url": "https://lumalabs.ai/news/brand-kit-character-library",
-      "importance_score": 0.825,
+      "importance_score": 0.8234,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
@@ -369,7 +369,7 @@
       "story_id": "story_99c27e1d7e6a",
       "title": "如何选择应用程序现代化的下一个安全步骤 / How to choose the next safe step in application modernization",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
-      "importance_score": 0.8144,
+      "importance_score": 0.813,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-26",
@@ -478,7 +478,7 @@
       "story_id": "story_0337d499dc98",
       "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-      "importance_score": 0.7948,
+      "importance_score": 0.7934,
       "importance_label": "行业动态",
       "source_count": 2,
       "archive_date": "2026-11-26",

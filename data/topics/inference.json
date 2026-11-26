@@ -3,13 +3,13 @@
   "name": "部署工程",
   "description": "把模型跑起来：推理优化、显存与成本、Serving 与基础设施。",
   "group": "tech",
-  "item_count": 9,
-  "listed_count": 9,
-  "recent_item_count": 9,
+  "item_count": 10,
+  "listed_count": 10,
+  "recent_item_count": 10,
   "latest_title": "OpenAI 开测“私有推理”：模型运行时隔离企业数据，内部员工也无法查看",
   "latest_published_at": "2026-11-26T03:09:54.583529Z",
   "items_url": "data/topics/inference.json",
-  "generated_at": "2026-11-26T03:25:27.733655Z",
+  "generated_at": "2026-11-26T04:05:23.308605Z",
   "items": [
     {
       "id": "story_33f87fded952",
@@ -152,6 +152,22 @@
       "source_name": "官方公众号",
       "site_id": "wechat_bridge",
       "published_at": "2026-11-25T06:42:00Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "a285414248d17b0c6822dba4db3f48ceab02add7",
+      "story_id": null,
+      "title": "Codex 使用指南：用告警、遥测和部署记录排查生产故障",
+      "title_zh": null,
+      "title_en": "Production monitoring with Codex",
+      "url": "https://developers.openai.com/blog/production-monitoring-with-codex",
+      "summary": "OpenAI 开发者博客介绍如何将 Codex 接入已有监控流程：告警触发后结合日志、指标、部署历史和代码排查原因，并由负责人审批修复。11 月 24 日为指南发表日。",
+      "recommend_reason_zh": null,
+      "source": "OpenAI Developer Blog",
+      "source_name": "OpenAI Developer Blog",
+      "site_id": "verified_public_backfill",
+      "published_at": "2026-11-24T00:00:00Z",
       "source_count": 1,
       "curated": true
     }
