@@ -7,7 +7,7 @@ import subprocess
 import pytest
 
 from scripts.trend_reports import (IDS, LATEST, REPORT_SCHEMA, archive_path, bind_input,
-                                  digest, event_fits, iso, load, periods, prepare, public_url,
+                                  digest, event_fits, focus_selection, iso, load, periods, prepare, previous_focus, public_url, selection_path,
                                   validate_latest, validate_report, write_report)
 from scripts.publish_trend_report import publish
 
@@ -314,7 +314,7 @@ def test_focus_daily_roundtrip_and_evidence_guards(tmp_path, report):
         bind_input(report, bundle)
 
 
-def test_prepared_leads_require_comparing_new_and_displaced_stories(report):
+def test_prepared_leads_require_comparing_new_and_displaced_stories(tmp_path, report):
     board = load(Path(__file__).resolve().parents[1] / "data/trends/focus-seed.json")
     when = "2026-11-25T04:00:00Z"
     report.update(period_start="2026-11-24T04:00:00Z", period_end=when, source_snapshot_at=when,
@@ -336,6 +336,39 @@ def test_prepared_leads_require_comparing_new_and_displaced_stories(report):
         bind_input(report, bundle)
     reasons["new-voice"] = "更充分的技术证据支持换入"
     bind_input(report, bundle)
+    (tmp_path / "trends").mkdir()
+    (tmp_path / "trends/focus-seed.json").write_text(json.dumps(board))
+    reasons["voice"] = "换入。新版标题仍然讨论同一项语音能力"
+    bound = bind_input(report, bundle)
+    assert bound["focus_lead_reasons"]["voice"].startswith("保留。新版标题")
+    result = write_report(tmp_path, bound, now=datetime.fromisoformat(when))
+    saved = load(tmp_path / LATEST)["daily"]
+    receipt = load(tmp_path / selection_path(saved))
+    assert receipt["report_id"] == result["report_id"]
+    assert saved["focus_lead_reasons"] == {r["id"]: r["status"] + "。" + r["reason"] for r in receipt["judgments"]}
+    assert write_report(tmp_path, bound, now=datetime.fromisoformat(when))["status"] == "unchanged"
     del reasons["desktop"]
     with pytest.raises(ValueError, match="focus_lead_comparison_incomplete"):
         bind_input(report, bundle)
+
+
+def test_focus_archive_uses_actual_previous_selection_and_stable_ids():
+    data_dir = Path(__file__).resolve().parents[1] / "data"
+    before = load(data_dir / "trends/daily/2026-11-25.json")
+    after = load(data_dir / "trends/daily/2026-11-26.json")
+    prior = previous_focus(data_dir, before, None)
+    receipt = load(data_dir / selection_path(after))
+    rows = focus_selection(after["focus"], prior, after["focus_lead_reasons"])
+    assert receipt["report_id"] == after["report_id"] and receipt["judgments"] == rows
+    positions = {r["id"]: (r["status"], r["previous_rank"], r["current_rank"]) for r in rows}
+    assert positions["proactive-shopping"] == ("保留", 1, 2)
+    assert positions["desktop"] == ("保留", 2, 3)
+    assert positions["voice"] == ("移出", 3, None)
+    assert positions["assistant-phone-tests"] == ("换入", None, 1)
+    assert positions["household"] == ("未入选", None, None)
+    board = deepcopy(after["focus"])
+    for story in board["stories"]:
+        story["title"] = "同名新标题"
+    board["stories"] = [s for s in board["stories"] if s["id"] != "voice"]
+    renamed = focus_selection(board, prior, after["focus_lead_reasons"])
+    assert positions == {r["id"]: (r["status"], r["previous_rank"], r["current_rank"]) for r in renamed}

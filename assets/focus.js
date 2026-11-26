@@ -36,7 +36,7 @@
       if (match) return {board: {...board, leads: match[1].leads}, issue, review: match[0]};
       if (requestedReview) throw Error("unknown_review");
     }
-    return {board, issue};
+    return {board, issue, selection: report.focus_lead_reasons && report.report_id};
   }
   async function load() {
     if (requested === "seed") return {board: await json("focus-seed.json"), issue: "seed"};
@@ -54,7 +54,7 @@
     return {board: await json("focus-seed.json"), issue: "seed"};
   }
   try {
-    const {board, issue, review} = await load();
+    const {board, issue, review, selection} = await load();
     const stories = new Map(board.stories.map(story => [story.id, story]));
     const issueUrl = "?issue=" + issue + (review ? "&review=" + encodeURIComponent(review) : "");
     const localHome = requested ? issueUrl + "#home" : "./focus.html#home";
@@ -64,6 +64,7 @@
     const days = board.stories.flatMap(s => s.evidence.map(e => e.date)).sort();
     const footer = document.getElementById("period");
     footer.append("本期材料 · " + days[0] + " 至 " + days.at(-1), link("本期固定链接", issueUrl, "issue-link home-link"));
+    if (selection) footer.append(link("首屏复核记录", issueUrl + "#@selection", "issue-link home-link"));
     if (requested) footer.append(link("查看最新一期", "./focus.html", "issue-link home-link"));
     const home = el("div", "", "home");
     const mast = el("div", "", "mast");
@@ -91,9 +92,32 @@
       channels.append(column);
     }
     home.append(mast, leads, el("h2", "三条线索", "explore"), channels);
-    function render() {
+    async function render() {
       const [id, number] = location.hash.slice(1).split("/");
       if (!id || id === "home") { host.replaceChildren(home); return; }
+      if (id === "@selection" && selection) {
+        const article = el("article", "", "detail current");
+        article.append(link("返回本期首页", localHome, "back"), el("h1", "首屏复核记录"));
+        host.replaceChildren(article);
+        window.scrollTo(0, 0);
+        try {
+          const path = "focus-selections/" + selection + ".json";
+          const receipt = await json(path);
+          if (receipt.report_id !== selection) throw Error("wrong_report");
+          for (const row of receipt.judgments) {
+            const item = el("section", "", "piece");
+            const rank = n => n ? "第 " + n + " 位" : "未入选";
+            item.append(el("span", row.status + " · 上期" + rank(row.previous_rank) + " / 本期" + rank(row.current_rank), "meta"),
+              el("h3", row.title), el("p", row.reason));
+            if (stories.has(row.id)) item.append(link("查看判断依据", issueUrl + "#" + row.id, "source"));
+            article.append(item);
+          }
+          article.append(link("查看归档数据", base + path, "source"));
+        } catch {
+          article.append(el("p", "本期复核记录暂时无法读取。"));
+        }
+        return;
+      }
       const s = stories.get(id);
       if (!s) { host.replaceChildren(el("p", "本期没有这条判断。"), link("返回本期首页", localHome, "back")); return; }
       const article = el("article", "", "detail current");

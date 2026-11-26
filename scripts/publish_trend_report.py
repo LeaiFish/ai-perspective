@@ -12,9 +12,9 @@ import time
 import urllib.request
 
 try:
-    from scripts.trend_reports import LATEST, archive_path, bind_input, load, require, validate_report, write_report
+    from scripts.trend_reports import LATEST, archive_path, bind_input, load, require, selection_path, validate_report, write_report
 except ModuleNotFoundError:
-    from trend_reports import LATEST, archive_path, bind_input, load, require, validate_report, write_report
+    from trend_reports import LATEST, archive_path, bind_input, load, require, selection_path, validate_report, write_report
 
 REPOSITORY = "git@github.com:LeaiFish/ai-perspective.git"
 PUBLIC = "https://leaifish.github.io/ai-perspective/data/trends/latest.json"
@@ -28,9 +28,11 @@ def git(*args, cwd=None, check=True):
 
 
 def publish(raw, bundle, *, repository=REPOSITORY):
-    bind_input(raw, bundle)
+    raw = bind_input(raw, bundle)
     report = validate_report(raw)
     allowed = {str(Path("data") / LATEST), str(Path("data") / archive_path(report)), "data/trends/history.json", f"data/trends/history/{report["report_id"]}.json"}
+    if "focus_lead_reasons" in report:
+        allowed.add(str(Path("data") / selection_path(report)))
     with tempfile.TemporaryDirectory(prefix="radar-trend-publish-") as folder:
         checkout = Path(folder) / "repo"
         git("clone", "--quiet", "--depth", "1", "--branch", "master", repository, str(checkout))

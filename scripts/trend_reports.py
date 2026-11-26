@@ -193,11 +193,7 @@ def prepare(data_dir, kind, now=None, *, revision=False):
                 if (data_dir / path).is_file():
                     day_files.append(str(path))
             daily = previous.get("daily") or {}
-            prior_board = deepcopy(daily.get("focus") or seed)
-            if daily.get("focus") and "focus_lead_reasons" not in daily:
-                for amendment in load(data_dir / "trends/focus-lead-reviews.json", {}).values():
-                    if amendment["report_id"] == daily["report_id"]:
-                        prior_board["leads"] = amendment["leads"]
+            prior_board = previous_focus(data_dir, daily, seed)
             bundle["focus_review"] = {
                 "previous": prior_board,
                 "lead_comparison_required": True,
@@ -269,6 +265,36 @@ def validate_focus(board, snapshot):
     leads = board["leads"]
     require(isinstance(leads, list) and 1 <= len(leads) <= 3 and len(set(leads)) == len(leads)
             and set(leads) <= ids, "invalid_focus_leads")
+
+
+def previous_focus(data_dir, daily, seed):
+    board = deepcopy(daily.get("focus") or seed)
+    if daily.get("focus") and "focus_lead_reasons" not in daily:
+        for amendment in load(data_dir / "trends/focus-lead-reviews.json", {}).values():
+            if amendment["report_id"] == daily["report_id"]:
+                board["leads"] = amendment["leads"]
+    return board
+
+
+def focus_selection(board, previous, reasons):
+    before, after = previous["leads"], board["leads"]
+    validate_lead_reasons(reasons, board, before)
+    titles = {s["id"]: s["title"] for b in (previous, board) for s in b["stories"]}
+    rows = []
+    for key in dict.fromkeys([*after, *before, *titles]):
+        if key not in reasons:
+            continue
+        old = before.index(key) + 1 if key in before else None
+        new = after.index(key) + 1 if key in after else None
+        status = ("保留" if old else "换入") if new else ("移出" if old else "未入选")
+        reason = re.sub(r"^(?:(?:保留|换入|移出)(?:首屏)?|未入选|留在后续)[。．：:]\s*", "", reasons[key].strip())
+        rows.append({"id": key, "title": titles[key], "status": status, "previous_rank": old,
+                     "current_rank": new, "reason": clean(reason, 600)})
+    return rows
+
+
+def selection_path(report):
+    return Path("trends/focus-selections") / (report["report_id"] + ".json")
 
 
 def validate_lead_reasons(reasons, board, previous_leads=None):
@@ -525,7 +551,8 @@ def bind_input(raw, bundle):
         validate_focus(board, stamp(bundle["source_snapshot_at"]))
         if bundle["focus_review"].get("lead_comparison_required"):
             require("focus_lead_reasons" in raw, "focus_lead_review_required")
-            validate_lead_reasons(raw["focus_lead_reasons"], board, previous["leads"])
+            rows = focus_selection(board, previous, raw["focus_lead_reasons"])
+            raw = {**raw, "focus_lead_reasons": {r["id"]: r["status"] + "。" + r["reason"] for r in rows}}
         if board["stories"] == previous["stories"] and board["leads"] == previous["leads"]:
             require(board["date"] == previous["date"], "unchanged_focus_date")
         else:
@@ -534,6 +561,7 @@ def bind_input(raw, bundle):
     require(raw.get("revision_of") == bundle.get("revision_of"), "report_revision_mismatch")
     for key in ("input_id", "kind", "period_start", "period_end", "source_snapshot_at", "previous_report_id"):
         require(raw.get(key) == bundle.get(key), "report_input_mismatch")
+    return raw
 
 
 def write_report(data_dir, raw, *, now=None):
@@ -559,12 +587,23 @@ def write_report(data_dir, raw, *, now=None):
                 current_refs = {(canonical(evidence[k]["url"]), evidence[k]["event_at"]) for k in event["evidence_ids"]
                                 if evidence[k]["event_at"] and event_fits(evidence[k]["event_at"], start, end)}
                 require(event["event_id"] not in known[slug] and not current_refs <= dated_refs, "already_reported_event_cannot_be_new")
+    selection = None
+    if "focus_lead_reasons" in report:
+        prior = previous_focus(data_dir, (previous or {}).get("daily") or {}, load(data_dir / "trends/focus-seed.json"))
+        rows = focus_selection(report["focus"], prior, report["focus_lead_reasons"])
+        require(all(report["focus_lead_reasons"][r["id"]] == r["status"] + "。" + r["reason"] for r in rows),
+                "focus_selection_baseline_changed")
+        selection = {"report_id": report["report_id"], "period_end": report["period_end"], "judgments": rows}
     merged = merge_report(previous, report)
     validate_latest(merged)
     history = history_module().build_history(data_dir, extra_report=report)
     # Validate everything before mutation; latest is the commit point.
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+    if selection:
+        receipt = data_dir / selection_path(report)
+        receipt.parent.mkdir(parents=True, exist_ok=True)
+        receipt.write_text(json.dumps(selection, ensure_ascii=False, indent=2) + "\n")
     temporary = (data_dir / LATEST).with_suffix(".tmp")
     temporary.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n")
     history_module().write_history(data_dir, history)
@@ -594,7 +633,7 @@ def main():
     else:
         require(args.report is not None and args.input is not None, "report_and_input_required")
         raw = load(args.report)
-        bind_input(raw, load(args.input))
+        raw = bind_input(raw, load(args.input))
         print(json.dumps(write_report(args.data_dir, raw), ensure_ascii=False))
 
 

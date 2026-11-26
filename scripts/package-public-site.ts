@@ -20,7 +20,7 @@ if (await access('data/trends/latest.json').then(()=>true,()=>false)) {
   for (const name of ['latest.json','history.json','corrections.json','focus-seed.json','focus-lead-reviews.json']) {
     if (await access(`data/trends/${name}`).then(()=>true,()=>false)) await copyFile(`data/trends/${name}`, `${out}/data/trends/${name}`);
   }
-  for (const [folder, pattern] of [['daily',/^\d{4}-\d{2}-\d{2}\.json$/],['weekly',/^\d{4}-W\d{2}\.json$/],['revisions',/^[a-f0-9]{64}\.json$/],['history',/^[a-f0-9]{64}\.json$/]]) {
+  for (const [folder, pattern] of [['daily',/^\d{4}-\d{2}-\d{2}\.json$/],['weekly',/^\d{4}-W\d{2}\.json$/],['revisions',/^[a-f0-9]{64}\.json$/],['focus-selections',/^[a-f0-9]{64}\.json$/],['history',/^[a-f0-9]{64}\.json$/]]) {
     await mkdir(`${out}/data/trends/${folder}`, {recursive:true});
     for (const name of await readdir(`data/trends/${folder}`).catch(()=>[])) if(pattern.test(name)) await copyFile(`data/trends/${folder}/${name}`, `${out}/data/trends/${folder}/${name}`);
   }
