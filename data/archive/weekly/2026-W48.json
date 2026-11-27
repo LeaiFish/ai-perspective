@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T09:44:21.970922Z",
+  "generated_at": "2026-11-27T11:23:52.950946Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -12,44 +12,44 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "story_count": 1865,
-  "unique_story_count": 1805,
+  "story_count": 1859,
+  "unique_story_count": 1817,
   "counts": {
     "by_company_topic": {
-      "anthropic": 344,
+      "anthropic": 343,
       "apple": 17,
       "cursor": 9,
       "deepseek": 24,
       "doubao": 22,
-      "google-gemini": 181,
+      "google-gemini": 182,
       "huggingface": 17,
       "hunyuan": 13,
       "kimi": 12,
       "meta-llama": 13,
       "microsoft": 7,
       "minimax": 12,
-      "nvidia": 87,
-      "openai": 234,
+      "nvidia": 86,
+      "openai": 233,
       "openrouter": 13,
       "perplexity": 15,
       "qwen": 18,
       "xai": 21,
-      "zhipu": 16
+      "zhipu": 15
     },
     "by_lens_topic": {
-      "agent-ecosystem": 323,
-      "monetization": 60,
-      "product-entry": 45,
+      "agent-ecosystem": 322,
+      "monetization": 61,
+      "product-entry": 44,
       "workplace": 39
     },
     "by_importance_label": {
-      "值得关注": 1558,
+      "值得关注": 1550,
       "多源热议": 32,
-      "官方更新": 108,
+      "官方更新": 110,
       "行业动态": 167
     },
     "by_source_count_bucket": {
-      "1": 1772,
+      "1": 1766,
       "2": 60,
       "3+": 33
     }
@@ -189,19 +189,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ebb4e97c2c1b",
-      "title": "元宝 2.95.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
-      "importance_score": 0.828,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_3a8d59639117",
       "title": "Muse 现已在英国上市：Muse 发挥作用，一切尽在掌握 / Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
@@ -232,17 +219,17 @@
       ]
     },
     {
-      "story_id": "story_b1b49b50207d",
-      "title": "您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents",
-      "url": "https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824",
-      "importance_score": 0.8264,
+      "story_id": "story_ebb4e97c2c1b",
+      "title": "元宝 2.95.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
+      "importance_score": 0.8241,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-27",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
     },
     {
       "story_id": "story_ce87bd8f2303",
@@ -279,6 +266,32 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_b1b49b50207d",
+      "title": "您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents",
+      "url": "https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824",
+      "importance_score": 0.8227,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_96925d7f6d2d",
+      "title": "随着采用的加深，阿里巴巴的全栈人工智能推动云计算持续加速增长 / Alibaba's Full-Stack AI Drives Continued Cloud Growth Acceleration as Adoption Deepens",
+      "url": "https://www.alibabacloud.com/blog/alibabas-full-stack-ai-drives-continued-cloud-growth-acceleration-as-adoption-deepens_603826",
+      "importance_score": 0.8227,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
       ]
     },
     {
@@ -538,19 +551,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_f807b57aa71f",
-      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接 / According to US security firm Dragos, MiniMax collected private links from user prompts and opened them, even under no-storage requests.",
-      "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
-      "importance_score": 0.7975,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [
-        "minimax"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_74b6fe230007",
       "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
       "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
@@ -564,15 +564,15 @@
       ]
     },
     {
-      "story_id": "story_c283e192d280",
-      "title": "元宝 2.94.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.94.0",
-      "importance_score": 0.7908,
-      "importance_label": "官方更新",
+      "story_id": "story_f807b57aa71f",
+      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接 / According to US security firm Dragos, MiniMax collected private links from user prompts and opened them, even under no-storage requests.",
+      "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
+      "importance_score": 0.7934,
+      "importance_label": "行业动态",
       "source_count": 1,
-      "archive_date": "2026-11-23",
+      "archive_date": "2026-11-27",
       "company_topics": [
-        "hunyuan"
+        "minimax"
       ],
       "lens_topics": []
     }
