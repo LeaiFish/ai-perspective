@@ -6,11 +6,43 @@
   "item_count": 12,
   "listed_count": 12,
   "recent_item_count": 12,
-  "latest_title": "最强开源视频模型Magi-2 做出海营销带货视频，效果很夯！",
-  "latest_published_at": "2026-11-26T20:18:28.113011Z",
+  "latest_title": "路透社母公司年底推出 Thomson 1.1：基座选智谱 GLM 和 Google Gemma，看中计算机操作能力",
+  "latest_published_at": "2026-11-27T03:14:27.008681Z",
   "items_url": "data/topics/open-source.json",
-  "generated_at": "2026-11-27T01:04:16.211320Z",
+  "generated_at": "2026-11-27T03:14:27.008681Z",
   "items": [
+    {
+      "id": "story_5c0c8dfddfb6",
+      "story_id": "story_5c0c8dfddfb6",
+      "title": "路透社母公司年底推出 Thomson 1.1：基座选智谱 GLM 和 Google Gemma，看中计算机操作能力",
+      "title_zh": "路透社母公司年底推出 Thomson 1.1：基座选智谱 GLM 和 Google Gemma，看中计算机操作能力",
+      "title_en": null,
+      "url": "https://www.aibase.com/news/32563",
+      "summary": "汤森路透计划继续使用开源来降低人工智能成本。据 Business Insider 报道，路透社母公司将在今年年底推出新车型 Thomson 1.1。它的基础模型是开源模型，任何人都可以自行下载和部署——中国智普人工智能的GLM和谷歌的Gemma。",
+      "recommend_reason_zh": null,
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "site_id": "aibase",
+      "published_at": "2026-11-27T03:14:27.008681Z",
+      "source_count": 1,
+      "curated": true
+    },
+    {
+      "id": "story_87b3a7da2fe5",
+      "story_id": "story_87b3a7da2fe5",
+      "title": "NVIDIA 论文：让模型自主管理上下文使 GPT-6.1 Sol 在 32K 预算下得分从 21% 升至 56%",
+      "title_zh": "NVIDIA 论文：让模型自主管理上下文使 GPT-6.1 Sol 在 32K 预算下得分从 21% 升至 56%",
+      "title_en": "New NVIDIA paper finds that letting models compact their own context nearly tripled GPT-6.1 Sol's score at a 32K budget, but models diffe...",
+      "url": "https://x.com/rohanpaul_ai/status/2126118827264294915",
+      "summary": "Rohan Paul 转述 NVIDIA 技术报告，其开源 Agent 框架 NOOA 让模型通过 API 自主总结并检索历史，与框架自动压缩对比。",
+      "recommend_reason_zh": null,
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-27T01:00:04Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_4285fd0de449",
       "story_id": "story_4285fd0de449",
@@ -105,7 +137,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-26T09:39:09.135543Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_8467615e6b8b",
@@ -121,7 +153,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-26T09:39:09.135543Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_f056c8e011c8",
@@ -168,38 +200,6 @@
       "source_name": "AIbase",
       "site_id": "aibase",
       "published_at": "2026-11-26T04:05:23.308605Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_a2d57282c87e",
-      "story_id": "story_a2d57282c87e",
-      "title": "英伟达开源 Nemotron-Labs-Image-30B-A3B 生图模型:300亿参数 MoE 架构，多项跑分超 GPT Image2",
-      "title_zh": "英伟达开源 Nemotron-Labs-Image-30B-A3B 生图模型:300亿参数 MoE 架构，多项跑分超 GPT Image2",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32540",
-      "summary": "NVIDIA 最近悄悄发布了 Hugging Face 平台上 Nemotron-Labs-Image-30B-A3B 模型的权重。该模型采用混合专家（MoE）架构，总参数为300亿个，但在使用过程中仅激活30亿个参数，使其更适合本地硬件。 Nemotron-Labs-Image-30B-A3B 是一个自回归图像生成模型，也是 NVIDIA 新框架 Nemotron-Labs-VisualCreation 的核心光栅渲染引擎。",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-26T03:09:54.583529Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_1f53f61c79a4",
-      "story_id": "story_1f53f61c79a4",
-      "title": "[分享创造] [开源] 青幕 AI 写作 CE：专为长篇连载设计的本地写作工具，支持接入 Claude Code / Codex / Antigravity / Ollama",
-      "title_zh": "[分享创造] [开源] 青幕 AI 写作 CE：专为长篇连载设计的本地写作工具，支持接入 Claude Code / Codex / Antigravity / Ollama",
-      "title_en": null,
-      "url": "https://www.v2ex.com/t/1259925",
-      "summary": "",
-      "recommend_reason_zh": null,
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "site_id": "iris",
-      "published_at": "2026-11-26T02:39:23Z",
       "source_count": 1,
       "curated": false
     }
