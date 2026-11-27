@@ -5,7 +5,7 @@
 <link>https://leaifish.github.io/ai-perspective/</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Fri, 27 Nov 2026 05:10:36 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 09:44:21 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://leaifish.github.io/ai-perspective//data/feed.xml"/>
 <item>
 <title>元宝 2.95.0 官方版本更新</title>
@@ -16,6 +16,14 @@
 <pubDate>Fri, 27 Nov 2026 03:16:47 +0000</pubDate>
 </item>
 <item>
+<title>您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents</title>
+<link>https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824</link>
+<guid isPermaLink="true">https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824</guid>
+<description>Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents This blog post introduces Alibaba Cloud Agentic WAF, which uses AI to detect mutating Agent attacks, rebuild attack chains, and stop credential leaks. CloudSecurity November 27, 2026 101（Alibaba Cloud Blog）</description>
+<category>官方更新</category>
+<pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
 <title>推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准仪表板 / Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
 <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
 <guid isPermaLink="true">https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</guid>
@@ -24,12 +32,20 @@
 <pubDate>Thu, 26 Nov 2026 11:37:17 +0000</pubDate>
 </item>
 <item>
-<title>OpenAI 紧急修复 GPT-6.2 计费漏洞，一纸“重置卡”能否平息用户的算力焦虑？</title>
-<link>https://www.aibase.com/news/32567</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32567</guid>
+<title>Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接 / According to US security firm Dragos, MiniMax collected private links from user prompts and opened them, even under no-storage requests.</title>
+<link>https://x.com/rohanpaul_ai/status/2126214860421914884</link>
+<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126214860421914884</guid>
+<description>据美国安全公司 Dragos，MiniMax 收集并打开了用户提示词中的私有链接，即便用户要求不存储数据。（X：Rohan Paul (@rohanpaul_ai)）</description>
+<category>行业动态</category>
+<pubDate>Fri, 27 Nov 2026 07:21:40 +0000</pubDate>
+</item>
+<item>
+<title>30B 击败 120B！Sakana AI 发布 Namazu Small：以 3B 激活参数终结企业级 AI 的“算力焦虑”</title>
+<link>https://www.aibase.com/news/32579</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32579</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 05:10:36 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
 <title>OpenAI 承认 GPT-6.2 计费出错并修复，Astra 额度消耗加快 40%、Sol 加快 25%</title>
@@ -48,12 +64,20 @@
 <pubDate>Thu, 26 Nov 2026 23:56:00 +0000</pubDate>
 </item>
 <item>
-<title>通用大模型能“击穿”物理AI？何小鹏给出清醒答案：物理世界的约束，不是靠参数能填平的</title>
-<link>https://www.aibase.com/news/32568</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32568</guid>
+<title>90天从空地到算力巨兽！SpaceX 狂砸240亿美元自建“能源孤岛”</title>
+<link>https://www.aibase.com/news/32574</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32574</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 05:10:36 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
+</item>
+<item>
+<title>OpenBMB 转评 InternLM 开源的 Sage-Interaction 9B 全双工语音视频模型 / Exciting to see Sage-Interaction built on MiniCPM-o 4.5! 💙 Listening while speaking and delegating complex tasks without interrupting th...</title>
+<link>https://x.com/OpenBMB/status/2126211219329826839</link>
+<guid isPermaLink="true">https://x.com/OpenBMB/status/2126211219329826839</guid>
+<description>OpenBMB 转发并点评 InternLM（上海人工智能实验室）11月23日发布的开源 Sage-Interaction，称其基于 MiniCPM-o 4.5 构建可实现边说边听、在不打断对话的情况下把复杂任务委派给后端模型。引用内容介绍该 9B 全双工语音视频模型支持随时打断、区分背景人声，FD-Bench v1.5 平均 80.73 分居八款模型之首，轮次延迟 1.29 秒，任务委派 F1 为 80.47。（X：面壁智能 OpenBMB (@OpenBMB)）</description>
+<category>行业动态</category>
+<pubDate>Fri, 27 Nov 2026 07:07:12 +0000</pubDate>
 </item>
 <item>
 <title>42 州总检察长试图阻止破产中的 Character.AI 出售用户聊天记录 / 42 state AGs are trying to stop Character.AI from selling users’ chats</title>
@@ -64,30 +88,6 @@
 <pubDate>Thu, 26 Nov 2026 09:54:40 +0000</pubDate>
 </item>
 <item>
-<title>FT 报道 Nvidia 暂停向东南亚四国发运服务器 / FT just reported Nvidia froze south-east Asian server shipments days after Washington targeted Chinese labs renting cloud compute.</title>
-<link>https://x.com/rohanpaul_ai/status/2125847124600656142</link>
-<guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125847124600656142</guid>
-<description>据 FT 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器，原因是美国要求这些国家及巴西的先进 AI 芯片需申请许可。此前中国 AI 实验室通过当地云厂商租用 Nvidia 算力绕开直接出口禁令，云厂商现有 90 天证明无受限用户但缺乏申请指引；Nvidia 2025 年经新加坡部门入账 $104B，同比增长 72%。（X：Rohan Paul (@rohanpaul_ai)）</description>
-<category>行业动态</category>
-<pubDate>Thu, 26 Nov 2026 07:00:25 +0000</pubDate>
-</item>
-<item>
-<title>MiniMax 推出 H3 Family：旗舰与扩展视频图像模型</title>
-<link>https://www.minimax.io/blog/minimax-h3-family</link>
-<guid isPermaLink="true">https://www.minimax.io/blog/minimax-h3-family</guid>
-<description>MiniMax 发布 H3 Family，包含旗舰 H3、H3-Highspeed、H3-Lite、H3-Image 系列及 fal、Suno、HeyGen、Pika 等第三方的扩展模型。H3 开源 100 天已衍生 1,472 个模型、累计下载超 1.48 亿次，旗舰 H3 支持 2K 输出、起价 $0.08/秒，H3-Image Highspeed 最快 10 秒内生成 4K 图像。（MiniMax：Blog（网页））</description>
-<category>行业动态</category>
-<pubDate>Thu, 26 Nov 2026 12:00:09 +0000</pubDate>
-</item>
-<item>
-<title>Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图</title>
-<link>https://x.com/adocomplete/status/2125994186252161315</link>
-<guid isPermaLink="true">https://x.com/adocomplete/status/2125994186252161315</guid>
-<description>Karpathy 分享用 Claude Code 桌面版加 Opus 5.5（开启 ultracode）构建的美国文明风格游戏地图，7 小时生成 45K 行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 km 六边形网格。GDP 映射为金产量、城市按真实产业分化，含 19 个视图、524 个都市的 City View 和覆盖 3,100+ 县的 Explorer，已部署在 https://karpathy.ai/usaciv/。作者 Ado 转发并感叹。（X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)）</description>
-<category>行业动态</category>
-<pubDate>Thu, 26 Nov 2026 16:44:47 +0000</pubDate>
-</item>
-<item>
 <title>豆包工作独家接入剪映官方插件，一句话即可剪辑视频</title>
 <link>https://www.ithome.com/1/033/208.htm</link>
 <guid isPermaLink="true">https://www.ithome.com/1/033/208.htm</guid>
@@ -96,52 +96,60 @@
 <pubDate>Fri, 27 Nov 2026 02:33:51 +0000</pubDate>
 </item>
 <item>
-<title>AI 智能体下场搞破坏：瑞士五起攻击入侵电力、供水、通信系统，四起得手</title>
-<link>https://www.aibase.com/news/32560</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32560</guid>
+<title>JetBrains 调查近 3 万开发者：96% 已在用 AI 工具，但 46% 感到对代码的归属感下降</title>
+<link>https://www.aibase.com/news/32577</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32577</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
-<title>OpenAI 宣称证明矩阵乘法“最快极限”：最优算法指数恰为 9/4</title>
-<link>https://www.aibase.com/news/32564</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32564</guid>
+<title>SAP 被曝拟裁至少 1 万人押注“AI 优先”：波及全球 9% 员工，重点砍产品与工程和销售</title>
+<link>https://www.aibase.com/news/32571</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32571</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
-<title>Siri 迟到 18 个月，苹果在韩国撞上监管枪口：iPhone 16 广告误导消费者</title>
-<link>https://www.aibase.com/news/32561</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32561</guid>
+<title>告别“拓扑地狱”与“贴图废片”！腾讯混元发布 Hy3D 3.6，原生 3D 生成直击专业管线痛点</title>
+<link>https://www.aibase.com/news/32569</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32569</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
-<title>德国勃兰登堡消费者保护中心起诉 OpenAI，称 ChatGPT 订阅取消流程繁琐且不合规</title>
-<link>https://www.ithome.com/1/032/888.htm</link>
-<guid isPermaLink="true">https://www.ithome.com/1/032/888.htm</guid>
-<description>据 ComputerBase 报道，德国勃兰登堡消费者保护中心对 OpenAI 提起诉讼，指 ChatGPT 订阅取消流程过于繁琐，必须通过最初开通订阅的平台管理，不符合德国法律的透明度要求。该机构还质疑用户合同中单方面调整订阅价格的条款，认为 OpenAI 未说明调价的合理依据，条款不具备法律效力。（IT之家·人工智能）</description>
-<category>值得关注</category>
-<pubDate>Thu, 26 Nov 2026 07:56:41 +0000</pubDate>
-</item>
-<item>
-<title>微软 AI 负责人苏莱曼警告：AI 正跨越危险门槛，“对齐”之前先要能“遏制”</title>
-<link>https://www.aibase.com/news/32565</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32565</guid>
+<title>日本最大电力公司JERA联手五大科技巨头，欲在发电厂旁“就地”共建AI数据中心</title>
+<link>https://www.aibase.com/news/32572</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32572</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
-<title>月之暗面赋能科研、DeepSeek牵手知乎，中国AI大模型正式打响“高质量数据与专业场景”保卫战</title>
-<link>https://www.aibase.com/news/32566</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32566</guid>
+<title>月之暗面开放 Kimi 科研支持计划：面向自然科学与工程学科，送 API 额度和技术支持</title>
+<link>https://www.aibase.com/news/32570</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32570</guid>
 <description>AIbase</description>
 <category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
+</item>
+<item>
+<title>那个你的AI在背后议论你的群聊</title>
+<link>https://construct22.com</link>
+<guid isPermaLink="true">https://construct22.com</guid>
+<description>construct22.com</description>
+<category>多源热议</category>
+<pubDate>Fri, 27 Nov 2026 08:32:09 +0000</pubDate>
+</item>
+<item>
+<title>谷歌修复 Chrome Gemini 内存问题：单个标签页曾吃掉 8.4GB，未登录会话也能涨到 1.3GB</title>
+<link>https://www.aibase.com/news/32575</link>
+<guid isPermaLink="true">https://www.aibase.com/news/32575</guid>
+<description>AIbase</description>
+<category>行业动态</category>
+<pubDate>Fri, 27 Nov 2026 09:44:21 +0000</pubDate>
 </item>
 <item>
 <title>AI 让自主托管重新变得有趣</title>
@@ -152,20 +160,12 @@
 <pubDate>Thu, 26 Nov 2026 23:27:36 +0000</pubDate>
 </item>
 <item>
-<title>消息称育碧正推动生成式 AI 深度融入游戏开发流程：项目未引入 AI 需申报原因</title>
-<link>https://www.aibase.com/news/32562</link>
-<guid isPermaLink="true">https://www.aibase.com/news/32562</guid>
-<description>AIbase</description>
-<category>行业动态</category>
-<pubDate>Fri, 27 Nov 2026 03:14:27 +0000</pubDate>
-</item>
-<item>
-<title>OpenAI 可能已进入成本控制模式</title>
-<link>https://micjm.com/blog/openai-is-in-cost-control-mode</link>
-<guid isPermaLink="true">https://micjm.com/blog/openai-is-in-cost-control-mode</guid>
-<description>micjm.com</description>
-<category>多源热议</category>
-<pubDate>Thu, 26 Nov 2026 21:19:40 +0000</pubDate>
+<title>Claude 破坏 SOTA ML 研究任务 / Claude sabotaging SOTA ML research tasks</title>
+<link>https://twitter.com/RealAstropulse/status/2126119408997466389</link>
+<guid isPermaLink="true">https://twitter.com/RealAstropulse/status/2126119408997466389</guid>
+<description>Hacker News · 24h最热</description>
+<category>值得关注</category>
+<pubDate>Fri, 27 Nov 2026 08:28:08 +0000</pubDate>
 </item>
 </channel>
 </rss>

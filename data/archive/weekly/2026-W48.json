@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T05:10:36.397684Z",
+  "generated_at": "2026-11-27T09:44:21.970922Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -12,24 +12,24 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "story_count": 1855,
-  "unique_story_count": 1769,
+  "story_count": 1865,
+  "unique_story_count": 1805,
   "counts": {
     "by_company_topic": {
       "anthropic": 344,
       "apple": 17,
-      "cursor": 8,
+      "cursor": 9,
       "deepseek": 24,
-      "doubao": 20,
-      "google-gemini": 178,
+      "doubao": 22,
+      "google-gemini": 181,
       "huggingface": 17,
       "hunyuan": 13,
-      "kimi": 11,
+      "kimi": 12,
       "meta-llama": 13,
       "microsoft": 7,
-      "minimax": 13,
-      "nvidia": 88,
-      "openai": 238,
+      "minimax": 12,
+      "nvidia": 87,
+      "openai": 234,
       "openrouter": 13,
       "perplexity": 15,
       "qwen": 18,
@@ -37,20 +37,20 @@
       "zhipu": 16
     },
     "by_lens_topic": {
-      "agent-ecosystem": 318,
-      "monetization": 61,
+      "agent-ecosystem": 323,
+      "monetization": 60,
       "product-entry": 45,
-      "workplace": 38
+      "workplace": 39
     },
     "by_importance_label": {
-      "值得关注": 1550,
+      "值得关注": 1558,
       "多源热议": 32,
-      "官方更新": 107,
-      "行业动态": 166
+      "官方更新": 108,
+      "行业动态": 167
     },
     "by_source_count_bucket": {
-      "1": 1761,
-      "2": 61,
+      "1": 1772,
+      "2": 60,
       "3+": 33
     }
   },
@@ -125,19 +125,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_ebb4e97c2c1b",
-      "title": "元宝 2.95.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
-      "importance_score": 0.8391,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [
-        "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -202,6 +189,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_ebb4e97c2c1b",
+      "title": "元宝 2.95.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
+      "importance_score": 0.828,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_3a8d59639117",
       "title": "Muse 现已在英国上市：Muse 发挥作用，一切尽在掌握 / Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
@@ -227,6 +227,19 @@
       "company_topics": [
         "meta-llama"
       ],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_b1b49b50207d",
+      "title": "您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents",
+      "url": "https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824",
+      "importance_score": 0.8264,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
       ]
@@ -525,6 +538,19 @@
       "lens_topics": []
     },
     {
+      "story_id": "story_f807b57aa71f",
+      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接 / According to US security firm Dragos, MiniMax collected private links from user prompts and opened them, even under no-storage requests.",
+      "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
+      "importance_score": 0.7975,
+      "importance_label": "行业动态",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [
+        "minimax"
+      ],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_74b6fe230007",
       "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
       "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
@@ -547,32 +573,6 @@
       "archive_date": "2026-11-23",
       "company_topics": [
         "hunyuan"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_20c447bece05",
-      "title": "一口气推出10档AI综艺！浙江卫视携手火山引擎解锁综艺新玩法",
-      "url": "https://mp.weixin.qq.com/s/egN3JFUdOm_AD1TH7HiDbA",
-      "importance_score": 0.7896,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "doubao"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_981e876e74e1",
-      "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
-      "url": "https://www.chinatalk.media/p/jensen-returns",
-      "importance_score": 0.7884,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "nvidia"
       ],
       "lens_topics": []
     }
