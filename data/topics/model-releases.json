@@ -3,14 +3,30 @@
   "name": "模型发布",
   "description": "新模型的发布、开源与迭代：旗舰更新、权重放出、性能与价格变化。",
   "group": "tech",
-  "item_count": 10,
-  "listed_count": 10,
-  "recent_item_count": 10,
-  "latest_title": "路透社母公司年底推出 Thomson 1.1：基座选智谱 GLM 和 Google Gemma，看中计算机操作能力",
-  "latest_published_at": "2026-11-27T03:14:27.008681Z",
+  "item_count": 9,
+  "listed_count": 9,
+  "recent_item_count": 9,
+  "latest_title": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+  "latest_published_at": "2026-11-27T03:31:30Z",
   "items_url": "data/topics/model-releases.json",
-  "generated_at": "2026-11-27T03:23:58.969200Z",
+  "generated_at": "2026-11-27T05:10:36.397684Z",
   "items": [
+    {
+      "id": "story_966387511193",
+      "story_id": "story_966387511193",
+      "title": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+      "title_zh": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+      "title_en": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models",
+      "summary": "腾讯开源了 DFly2，这是一个针对稀疏注意力 LLM 的推测性解码起草器。每个草稿层都重用目标的 KV 缓存和 top-k 索引器选择，无需添加草稿 KV 内存，并将 64K 服务吞吐量提升高达 81%。腾讯开源 DFly2：重用目标稀疏 KV 缓存的推测性解码一文首先出现在 MarkTechPost 上。",
+      "recommend_reason_zh": null,
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-27T03:31:30Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_5c0c8dfddfb6",
       "story_id": "story_5c0c8dfddfb6",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-27T03:14:27.008681Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_1a0ab21c58d3",
@@ -138,38 +154,6 @@
       "published_at": "2026-11-26T07:54:28Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "story_bf4b3fa1160e",
-      "story_id": "story_bf4b3fa1160e",
-      "title": "腾讯 Hy4 Flash 登陆 Fireworks：专业活儿干得和 Claude 一样好，账单便宜两百倍",
-      "title_zh": "腾讯 Hy4 Flash 登陆 Fireworks：专业活儿干得和 Claude 一样好，账单便宜两百倍",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32546",
-      "summary": "腾讯开源模型Hy4Flash在国际云推理平台上找到了新的立足点。这种专家混合模型现已在 Fireworks 无服务器平台上正式推出，它拥有约 2200 亿个总参数，每个令牌仅激活约 120 亿个参数，支持最多 100 万个令牌（发布时为 512K）的上下文窗口，并且可以摄取文本和图像。它的定位相当明确：专为文档处理、……等专业场景而打造。",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-26T04:05:23.308605Z",
-      "source_count": 1,
-      "curated": false
-    },
-    {
-      "id": "story_0d7c19b4ef7d",
-      "story_id": "story_0d7c19b4ef7d",
-      "title": "Opus5.6疑似现身Claude接口，用户测试发现训练数据更新至2026年5月",
-      "title_zh": "Opus5.6疑似现身Claude接口，用户测试发现训练数据更新至2026年5月",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32545",
-      "summary": "据 MindStudio 报道，最近有用户在社交平台 X 上声称，他们通过正常的 Claude 界面获得了一个新的、未发布的 Anthropic 模型的回复。这些模型被非正式地称为 Opus 5.6 和 Sonnet 5.6。不过，Anthropic 尚未公开证实这一点，模型是否真实存在还有待验证。",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-26T03:25:27.733655Z",
-      "source_count": 1,
-      "curated": false
     }
   ]
 }

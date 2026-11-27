@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T03:23:58.969200Z",
+  "generated_at": "2026-11-27T05:10:36.397684Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -12,24 +12,24 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "story_count": 1861,
-  "unique_story_count": 1759,
+  "story_count": 1855,
+  "unique_story_count": 1769,
   "counts": {
     "by_company_topic": {
-      "anthropic": 348,
-      "apple": 18,
+      "anthropic": 344,
+      "apple": 17,
       "cursor": 8,
       "deepseek": 24,
       "doubao": 20,
-      "google-gemini": 180,
-      "huggingface": 18,
+      "google-gemini": 178,
+      "huggingface": 17,
       "hunyuan": 13,
       "kimi": 11,
       "meta-llama": 13,
       "microsoft": 7,
       "minimax": 13,
       "nvidia": 88,
-      "openai": 239,
+      "openai": 238,
       "openrouter": 13,
       "perplexity": 15,
       "qwen": 18,
@@ -37,21 +37,21 @@
       "zhipu": 16
     },
     "by_lens_topic": {
-      "agent-ecosystem": 315,
+      "agent-ecosystem": 318,
       "monetization": 61,
-      "product-entry": 46,
-      "workplace": 37
+      "product-entry": 45,
+      "workplace": 38
     },
     "by_importance_label": {
-      "值得关注": 1556,
-      "多源热议": 33,
+      "值得关注": 1550,
+      "多源热议": 32,
       "官方更新": 107,
-      "行业动态": 165
+      "行业动态": 166
     },
     "by_source_count_bucket": {
-      "1": 1766,
+      "1": 1761,
       "2": 61,
-      "3+": 34
+      "3+": 33
     }
   },
   "top_stories": [
@@ -121,6 +121,19 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "openai"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_ebb4e97c2c1b",
+      "title": "元宝 2.95.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
+      "importance_score": 0.8391,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [
+        "hunyuan"
       ],
       "lens_topics": []
     },
@@ -560,19 +573,6 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_09017c1b7602",
-      "title": "Hy4 flash 本地部署：让大模型跑在个人设备上",
-      "url": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
-      "importance_score": 0.7874,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "hunyuan"
       ],
       "lens_topics": []
     }

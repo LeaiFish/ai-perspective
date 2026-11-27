@@ -6,11 +6,27 @@
   "item_count": 12,
   "listed_count": 12,
   "recent_item_count": 12,
-  "latest_title": "路透社母公司年底推出 Thomson 1.1：基座选智谱 GLM 和 Google Gemma，看中计算机操作能力",
-  "latest_published_at": "2026-11-27T03:14:27.008681Z",
+  "latest_title": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+  "latest_published_at": "2026-11-27T03:31:30Z",
   "items_url": "data/topics/open-source.json",
-  "generated_at": "2026-11-27T03:23:58.969200Z",
+  "generated_at": "2026-11-27T05:10:36.397684Z",
   "items": [
+    {
+      "id": "story_966387511193",
+      "story_id": "story_966387511193",
+      "title": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+      "title_zh": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+      "title_en": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models",
+      "summary": "腾讯开源了 DFly2，这是一个针对稀疏注意力 LLM 的推测性解码起草器。每个草稿层都重用目标的 KV 缓存和 top-k 索引器选择，无需添加草稿 KV 内存，并将 64K 服务吞吐量提升高达 81%。腾讯开源 DFly2：重用目标稀疏 KV 缓存的推测性解码一文首先出现在 MarkTechPost 上。",
+      "recommend_reason_zh": null,
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "site_id": "aihot",
+      "published_at": "2026-11-27T03:31:30Z",
+      "source_count": 1,
+      "curated": true
+    },
     {
       "id": "story_5c0c8dfddfb6",
       "story_id": "story_5c0c8dfddfb6",
@@ -25,7 +41,7 @@
       "site_id": "aibase",
       "published_at": "2026-11-27T03:14:27.008681Z",
       "source_count": 1,
-      "curated": true
+      "curated": false
     },
     {
       "id": "story_87b3a7da2fe5",
@@ -186,22 +202,6 @@
       "published_at": "2026-11-26T07:54:28Z",
       "source_count": 1,
       "curated": true
-    },
-    {
-      "id": "story_bf4b3fa1160e",
-      "story_id": "story_bf4b3fa1160e",
-      "title": "腾讯 Hy4 Flash 登陆 Fireworks：专业活儿干得和 Claude 一样好，账单便宜两百倍",
-      "title_zh": "腾讯 Hy4 Flash 登陆 Fireworks：专业活儿干得和 Claude 一样好，账单便宜两百倍",
-      "title_en": null,
-      "url": "https://www.aibase.com/news/32546",
-      "summary": "腾讯开源模型Hy4Flash在国际云推理平台上找到了新的立足点。这种专家混合模型现已在 Fireworks 无服务器平台上正式推出，它拥有约 2200 亿个总参数，每个令牌仅激活约 120 亿个参数，支持最多 100 万个令牌（发布时为 512K）的上下文窗口，并且可以摄取文本和图像。它的定位相当明确：专为文档处理、……等专业场景而打造。",
-      "recommend_reason_zh": null,
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "site_id": "aibase",
-      "published_at": "2026-11-26T04:05:23.308605Z",
-      "source_count": 1,
-      "curated": false
     }
   ]
 }
