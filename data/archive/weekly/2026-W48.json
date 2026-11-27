@@ -4,54 +4,55 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T15:30:03.259587Z",
+  "generated_at": "2026-11-27T16:58:07.988776Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
     "2026-11-26",
-    "2026-11-27"
+    "2026-11-27",
+    "2026-11-28"
   ],
-  "story_count": 1855,
-  "unique_story_count": 1837,
+  "story_count": 2002,
+  "unique_story_count": 1846,
   "counts": {
     "by_company_topic": {
-      "anthropic": 341,
-      "apple": 17,
-      "cursor": 9,
-      "deepseek": 24,
-      "doubao": 22,
-      "google-gemini": 180,
-      "huggingface": 17,
-      "hunyuan": 13,
-      "kimi": 13,
+      "anthropic": 356,
+      "apple": 18,
+      "cursor": 10,
+      "deepseek": 27,
+      "doubao": 25,
+      "google-gemini": 190,
+      "huggingface": 18,
+      "hunyuan": 15,
+      "kimi": 17,
       "meta-llama": 12,
-      "microsoft": 8,
-      "minimax": 11,
-      "nvidia": 86,
-      "openai": 230,
-      "openrouter": 12,
+      "microsoft": 10,
+      "minimax": 12,
+      "nvidia": 92,
+      "openai": 243,
+      "openrouter": 13,
       "perplexity": 15,
       "qwen": 18,
       "xai": 21,
-      "zhipu": 15
+      "zhipu": 18
     },
     "by_lens_topic": {
-      "agent-ecosystem": 326,
-      "monetization": 60,
+      "agent-ecosystem": 356,
+      "monetization": 65,
       "product-entry": 44,
-      "workplace": 40
+      "workplace": 47
     },
     "by_importance_label": {
-      "值得关注": 1543,
-      "多源热议": 33,
-      "官方更新": 110,
-      "行业动态": 169
+      "值得关注": 1650,
+      "多源热议": 38,
+      "官方更新": 116,
+      "行业动态": 198
     },
     "by_source_count_bucket": {
-      "1": 1762,
-      "2": 59,
-      "3+": 34
+      "1": 1896,
+      "2": 67,
+      "3+": 39
     }
   },
   "top_stories": [
@@ -95,6 +96,17 @@
         "meta-llama",
         "huggingface"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_31de18f433fb",
+      "title": "How Fault Tolerance Supports Reliable AI Workflows",
+      "url": "https://blog.n8n.io/fault-tolerance",
+      "importance_score": 0.8432,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -562,19 +574,6 @@
         "google-gemini"
       ],
       "lens_topics": []
-    },
-    {
-      "story_id": "story_74b6fe230007",
-      "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
-      "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
-      "importance_score": 0.7965,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
     }
   ]
 }
