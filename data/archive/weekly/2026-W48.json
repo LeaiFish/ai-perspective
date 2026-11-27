@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T16:58:07.988776Z",
+  "generated_at": "2026-11-27T20:04:16.980762Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -13,45 +13,45 @@
     "2026-11-27",
     "2026-11-28"
   ],
-  "story_count": 2002,
-  "unique_story_count": 1846,
+  "story_count": 1990,
+  "unique_story_count": 1860,
   "counts": {
     "by_company_topic": {
-      "anthropic": 356,
+      "anthropic": 352,
       "apple": 18,
       "cursor": 10,
-      "deepseek": 27,
+      "deepseek": 26,
       "doubao": 25,
-      "google-gemini": 190,
+      "google-gemini": 188,
       "huggingface": 18,
       "hunyuan": 15,
-      "kimi": 17,
+      "kimi": 16,
       "meta-llama": 12,
       "microsoft": 10,
       "minimax": 12,
-      "nvidia": 92,
-      "openai": 243,
-      "openrouter": 13,
+      "nvidia": 91,
+      "openai": 244,
+      "openrouter": 12,
       "perplexity": 15,
       "qwen": 18,
       "xai": 21,
-      "zhipu": 18
+      "zhipu": 16
     },
     "by_lens_topic": {
-      "agent-ecosystem": 356,
-      "monetization": 65,
+      "agent-ecosystem": 354,
+      "monetization": 64,
       "product-entry": 44,
-      "workplace": 47
+      "workplace": 45
     },
     "by_importance_label": {
-      "值得关注": 1650,
+      "值得关注": 1639,
       "多源热议": 38,
-      "官方更新": 116,
-      "行业动态": 198
+      "官方更新": 117,
+      "行业动态": 196
     },
     "by_source_count_bucket": {
-      "1": 1896,
-      "2": 67,
+      "1": 1885,
+      "2": 66,
       "3+": 39
     }
   },
@@ -99,17 +99,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_31de18f433fb",
-      "title": "How Fault Tolerance Supports Reliable AI Workflows",
-      "url": "https://blog.n8n.io/fault-tolerance",
-      "importance_score": 0.8432,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-28",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
@@ -134,6 +123,17 @@
       "company_topics": [
         "openai"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_31de18f433fb",
+      "title": "容错如何支持可靠的人工智能工作流程 / How Fault Tolerance Supports Reliable AI Workflows",
+      "url": "https://blog.n8n.io/fault-tolerance",
+      "importance_score": 0.8354,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
       "lens_topics": []
     },
     {
