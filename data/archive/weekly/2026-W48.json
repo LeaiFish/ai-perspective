@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-27T11:23:52.950946Z",
+  "generated_at": "2026-11-27T15:30:03.259587Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -12,46 +12,46 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "story_count": 1859,
-  "unique_story_count": 1817,
+  "story_count": 1855,
+  "unique_story_count": 1837,
   "counts": {
     "by_company_topic": {
-      "anthropic": 343,
+      "anthropic": 341,
       "apple": 17,
       "cursor": 9,
       "deepseek": 24,
       "doubao": 22,
-      "google-gemini": 182,
+      "google-gemini": 180,
       "huggingface": 17,
       "hunyuan": 13,
-      "kimi": 12,
-      "meta-llama": 13,
-      "microsoft": 7,
-      "minimax": 12,
+      "kimi": 13,
+      "meta-llama": 12,
+      "microsoft": 8,
+      "minimax": 11,
       "nvidia": 86,
-      "openai": 233,
-      "openrouter": 13,
+      "openai": 230,
+      "openrouter": 12,
       "perplexity": 15,
       "qwen": 18,
       "xai": 21,
       "zhipu": 15
     },
     "by_lens_topic": {
-      "agent-ecosystem": 322,
-      "monetization": 61,
+      "agent-ecosystem": 326,
+      "monetization": 60,
       "product-entry": 44,
-      "workplace": 39
+      "workplace": 40
     },
     "by_importance_label": {
-      "值得关注": 1550,
-      "多源热议": 32,
+      "值得关注": 1543,
+      "多源热议": 33,
       "官方更新": 110,
-      "行业动态": 167
+      "行业动态": 169
     },
     "by_source_count_bucket": {
-      "1": 1766,
-      "2": 60,
-      "3+": 33
+      "1": 1762,
+      "2": 59,
+      "3+": 34
     }
   },
   "top_stories": [
@@ -219,15 +219,15 @@
       ]
     },
     {
-      "story_id": "story_ebb4e97c2c1b",
-      "title": "元宝 2.95.0 官方版本更新",
-      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
-      "importance_score": 0.8241,
+      "story_id": "story_ea3f87ca002e",
+      "title": "Hugging Face 实测在 Trainium3 上用 LTX-2.5 生成视频短片 / Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "importance_score": 0.8239,
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-27",
       "company_topics": [
-        "hunyuan"
+        "huggingface"
       ],
       "lens_topics": []
     },
@@ -266,32 +266,6 @@
       "company_topics": [],
       "lens_topics": [
         "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_b1b49b50207d",
-      "title": "您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents",
-      "url": "https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824",
-      "importance_score": 0.8227,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [],
-      "lens_topics": [
-        "agent-ecosystem"
-      ]
-    },
-    {
-      "story_id": "story_96925d7f6d2d",
-      "title": "随着采用的加深，阿里巴巴的全栈人工智能推动云计算持续加速增长 / Alibaba's Full-Stack AI Drives Continued Cloud Growth Acceleration as Adoption Deepens",
-      "url": "https://www.alibabacloud.com/blog/alibabas-full-stack-ai-drives-continued-cloud-growth-acceleration-as-adoption-deepens_603826",
-      "importance_score": 0.8227,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [],
-      "lens_topics": [
-        "monetization"
       ]
     },
     {
@@ -369,6 +343,45 @@
       "archive_date": "2026-11-25",
       "company_topics": [],
       "lens_topics": []
+    },
+    {
+      "story_id": "story_ebb4e97c2c1b",
+      "title": "元宝 2.95.0 官方版本更新",
+      "url": "https://apps.apple.com/cn/app/id6480446430#:~:text=2.95.0",
+      "importance_score": 0.8149,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [
+        "hunyuan"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_b1b49b50207d",
+      "title": "您的 WAF 被绕过！如何应对AI代理的持续变异攻击 / Your WAF is being bypassed! How to handle continuous mutated attacks from AI agents",
+      "url": "https://www.alibabacloud.com/blog/your-waf-is-being-bypassed-how-to-handle-continuous-mutated-attacks-from-ai-agents_603824",
+      "importance_score": 0.8139,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_96925d7f6d2d",
+      "title": "随着采用的加深，阿里巴巴的全栈人工智能推动云计算持续加速增长 / Alibaba's Full-Stack AI Drives Continued Cloud Growth Acceleration as Adoption Deepens",
+      "url": "https://www.alibabacloud.com/blog/alibabas-full-stack-ai-drives-continued-cloud-growth-acceleration-as-adoption-deepens_603826",
+      "importance_score": 0.8139,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-27",
+      "company_topics": [],
+      "lens_topics": [
+        "monetization"
+      ]
     },
     {
       "story_id": "story_d2f94bf25ce5",
@@ -562,19 +575,6 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_f807b57aa71f",
-      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接 / According to US security firm Dragos, MiniMax collected private links from user prompts and opened them, even under no-storage requests.",
-      "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
-      "importance_score": 0.7934,
-      "importance_label": "行业动态",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [
-        "minimax"
-      ],
-      "lens_topics": []
     }
   ]
 }
