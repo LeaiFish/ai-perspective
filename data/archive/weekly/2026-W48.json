@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-26T20:18:28.113011Z",
+  "generated_at": "2026-11-27T01:04:16.211320Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -12,46 +12,46 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "story_count": 1906,
-  "unique_story_count": 1723,
+  "story_count": 1875,
+  "unique_story_count": 1740,
   "counts": {
     "by_company_topic": {
-      "anthropic": 362,
+      "anthropic": 357,
       "apple": 18,
       "cursor": 8,
-      "deepseek": 25,
+      "deepseek": 24,
       "doubao": 19,
-      "google-gemini": 184,
-      "huggingface": 19,
+      "google-gemini": 183,
+      "huggingface": 18,
       "hunyuan": 13,
-      "kimi": 11,
+      "kimi": 10,
       "meta-llama": 13,
-      "microsoft": 7,
+      "microsoft": 6,
       "minimax": 14,
-      "nvidia": 90,
-      "openai": 250,
-      "openrouter": 14,
-      "perplexity": 16,
-      "qwen": 19,
+      "nvidia": 89,
+      "openai": 244,
+      "openrouter": 13,
+      "perplexity": 15,
+      "qwen": 18,
       "xai": 22,
-      "zhipu": 14
+      "zhipu": 15
     },
     "by_lens_topic": {
-      "agent-ecosystem": 318,
-      "monetization": 61,
+      "agent-ecosystem": 309,
+      "monetization": 62,
       "product-entry": 47,
-      "workplace": 39
+      "workplace": 38
     },
     "by_importance_label": {
-      "值得关注": 1587,
-      "多源热议": 31,
-      "官方更新": 118,
-      "行业动态": 170
+      "值得关注": 1578,
+      "多源热议": 33,
+      "官方更新": 107,
+      "行业动态": 157
     },
     "by_source_count_bucket": {
-      "1": 1815,
-      "2": 59,
-      "3+": 32
+      "1": 1784,
+      "2": 57,
+      "3+": 34
     }
   },
   "top_stories": [
@@ -512,19 +512,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_1f2fcc291011",
-      "title": "OpenRouter 数据显示 Jevons 悖论正在减弱 / Is Jevons Paradox holding?",
-      "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding",
-      "importance_score": 0.7982,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-27",
-      "company_topics": [
-        "openrouter"
-      ],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_74b6fe230007",
       "title": "生产 AI 手册：AI 代理的审核和跟踪 / Production AI Playbook: Audit & trace for AI agents",
       "url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents",
@@ -573,6 +560,19 @@
       "archive_date": "2026-11-24",
       "company_topics": [
         "nvidia"
+      ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_09017c1b7602",
+      "title": "Hy4 flash 本地部署：让大模型跑在个人设备上",
+      "url": "https://mp.weixin.qq.com/s/o0xxShVQX6g2UllrrEv1WQ",
+      "importance_score": 0.7874,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-25",
+      "company_topics": [
+        "hunyuan"
       ],
       "lens_topics": []
     }
