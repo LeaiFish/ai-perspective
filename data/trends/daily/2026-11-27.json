@@ -1,0 +1,1206 @@
+{
+  "kind": "daily",
+  "period_start": "2026-11-26T03:14:27.008681Z",
+  "period_end": "2026-11-27T03:14:27.008681Z",
+  "source_snapshot_at": "2026-11-27T03:14:27.008681Z",
+  "input_id": "562fd81b0cb26bf310dceb51b9864efadcfa56af40fe047a3c6677c44710aed6",
+  "previous_report_id": "0a953f4569a4dcb2509584d16ab77a782821f986380f9d9d161cc6c5780f0017",
+  "schema": "radar_trend_report_v1",
+  "generated_at": "2026-11-27T03:25:59.659630+00:00",
+  "companies": {
+    "doubao": {
+      "state": "updated",
+      "reason": "正文补入剪映官方插件和可细调的多轨草稿，并吸收豆包购物侧栏灰测。线下点餐按服务商实例记录。此前已有社区剪辑技能，小豆仍为邀测。",
+      "judgment": {
+        "headline": "豆包工作接入剪映官方插件，消费端灰测独立购物入口",
+        "summary": "电脑端可调用剪映粗剪，在对话里改结果或到多轨草稿细调。此前已有社区技能可连接剪映。豆包 App 的购物侧栏灰测加载抖音商城，完整价格、库存及下单需关联账号。小豆继续通过邀请承接生活代办。",
+        "evidence_ids": [
+          "doubao-edit",
+          "doubao-edit-old",
+          "doubao-mall",
+          "xiaodou-beta"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "豆包购物可以直接浏览",
+          "summary": "侧栏灰测独立入口，完整价格、库存及下单需关联抖音账号。",
+          "evidence_ids": [
+            "doubao-mall"
+          ]
+        },
+        {
+          "headline": "小豆邀请试办生活事务",
+          "summary": "小豆公测需邀请码，官方演示涉及主动跟进和代办。",
+          "evidence_ids": [
+            "xiaodou-beta"
+          ]
+        },
+        {
+          "headline": "豆包工作接上专业编辑与商家工具",
+          "summary": "剪映官方插件支持对话粗剪和打开多轨草稿，需装最新版剪映。豆包工作也可通过抖音生活服务经营等插件查门店数据并生成复盘。",
+          "evidence_ids": [
+            "doubao-edit",
+            "doubao-mall"
+          ]
+        },
+        {
+          "headline": "抖音扫码点餐出现服务商接入案例",
+          "summary": "点餐页可按人数、预算和口味推荐菜品并加购，部署范围待核。",
+          "evidence_ids": [
+            "doubao-table"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "豆包工作接入剪映官方插件",
+        "summary": "桌面端从插件栏发起，结果可继续对话改，也可打开多轨草稿细调。以往已有社区技能，现有材料未比较两套方式的效率。",
+        "evidence_ids": [
+          "doubao-edit",
+          "doubao-edit-old"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "doubao-work-jianying-official-plugin",
+          "status": "supplement",
+          "headline": "豆包工作公布剪映官方插件",
+          "summary": "桌面端可在插件栏调用，粗剪后可继续对话修改或打开剪映多轨草稿。此前已有社区技能能连接剪映。",
+          "evidence_ids": [
+            "doubao-edit",
+            "doubao-edit-old"
+          ]
+        },
+        {
+          "event_id": "doubao-mall-standalone-feed",
+          "status": "supplement",
+          "headline": "豆包 App 灰测独立购物入口",
+          "summary": "新入口可直接浏览抖音商城商品流。",
+          "evidence_ids": [
+            "doubao-mall"
+          ]
+        },
+        {
+          "event_id": "doubao-douyin-table-provider-demo",
+          "status": "supplement",
+          "headline": "抖音点餐服务商演示豆包配菜",
+          "summary": "一家服务商演示扫码后按人数预算配菜并加购。实际门店覆盖与首次上线日期未知。",
+          "evidence_ids": [
+            "doubao-table"
+          ]
+        }
+      ]
+    },
+    "qwen": {
+      "state": "updated",
+      "reason": "在远控与资料发布之外，加入 2.2.0 的跨运行位置查找、主子会话和协作空间导入。千问 Go 沿用同一外呼事件，补入定时拨打与授权条件。",
+      "judgment": {
+        "headline": "千问办公把跨设备任务放进同一目录",
+        "summary": "桌面端能搜索和整理本机、云端和其他电脑的任务与项目，IM 会话分主子层级。协作空间可引入飞书文档、个人钉钉及资料空间文件，HTML 可按权限发布。千问 Go 的外呼需先获授权，报道确认可设置拨打时间。",
+        "evidence_ids": [
+          "qwen-desktop",
+          "qwen-remote",
+          "qwen-calls"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "任务和会话跨端整理",
+          "summary": "客户端用统一目录管理不同运行位置的任务与项目，IM 主子会话支持改名和归档；远控撤权后新任务可回退云端。",
+          "evidence_ids": [
+            "qwen-desktop",
+            "qwen-remote"
+          ]
+        },
+        {
+          "headline": "资料进入协作空间并可发布",
+          "summary": "可直接引入已有文档，资料空间支持受控发布 HTML。",
+          "evidence_ids": [
+            "qwen-desktop"
+          ]
+        },
+        {
+          "headline": "千问 Go 支持定时外呼",
+          "summary": "用户可指定时间和事项，拨打需经授权，通话中会表明 AI 身份。",
+          "evidence_ids": [
+            "qwen-calls"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "统一查找跨设备任务，协作空间直接引入文件",
+        "summary": "客户端 2.2.0 支持按同一目录查找，协作空间少了一次手动下载和上传。",
+        "evidence_ids": [
+          "qwen-desktop"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "qwenwork-desktop-220-unified-tasks",
+          "status": "supplement",
+          "headline": "千问办公 2.2.0 统一目录和主子会话",
+          "summary": "跨设备项目支持搜索及批量整理，IM 工作可按会话层级查找。",
+          "evidence_ids": [
+            "qwen-desktop"
+          ]
+        },
+        {
+          "event_id": "qwen-go-free-outbound-calls",
+          "status": "supplement",
+          "headline": "千问 Go 外呼可设定拨打时间",
+          "summary": "原报道补明定时、授权与身份披露。",
+          "evidence_ids": [
+            "qwen-calls"
+          ]
+        }
+      ]
+    },
+    "openai": {
+      "state": "updated",
+      "reason": "共享额度仍为部分 Pro 试行。新增报道补充两款 GPT-6.2 的用量计量修复，机制与入口合并分开核验。Space 成人 Plus 开放条件维持。",
+      "judgment": {
+        "headline": "ChatGPT 试行统一工作入口，两款 GPT-6.2 修正用量计量",
+        "summary": "少数 Pro 先体验统一 Chat 与 Work，并试行共享额度，Instant 不占这份额度。另据报道，两款 GPT-6.2 修复了过低的用量扣减，同一任务会消耗更多额度。Space 仍向成年 Plus 分批开放。 符合条件的美国以外商家仍可发布 Business Agent。",
+        "evidence_ids": [
+          "chat-work",
+          "chat-meter",
+          "chat-space",
+          "business-agent"
+        ]
+      },
+      "changes": [
+        {
+          "headline": "统一入口与共享计量先在小范围试行",
+          "summary": "首批为部分 Pro，Instant 对话保持可用。",
+          "evidence_ids": [
+            "chat-work"
+          ]
+        },
+        {
+          "headline": "GPT-6.2 Astra 与 Sol 的用量扣减调回",
+          "summary": "报道引述产品负责人说明，两款模型此前少扣用量，修复提高同等任务的额度消耗。",
+          "evidence_ids": [
+            "chat-meter"
+          ]
+        },
+        {
+          "headline": "Space 可继续协作",
+          "summary": "成年 Plus 分批获得访问，可邀请已有访问权限的人共建。",
+          "evidence_ids": [
+            "chat-space"
+          ]
+        },
+        {
+          "headline": "商家 Agent 开放至符合条件的海外经营者",
+          "summary": "合资格电商和线上服务商可认领商家并发布 Agent。",
+          "evidence_ids": [
+            "business-agent"
+          ]
+        }
+      ],
+      "digest": {
+        "headline": "统一 Chat 与 Work 之外，GPT-6.2 另有计量修正",
+        "summary": "关于模型的修复适用于 Astra 与 Sol，直接社交原帖及生效时刻仍有核验限制。",
+        "evidence_ids": [
+          "chat-work",
+          "chat-meter"
+        ]
+      },
+      "events": [
+        {
+          "event_id": "chatgpt-gpt62-usage-metering-fix",
+          "status": "supplement",
+          "headline": "GPT-6.2 Astra 与 Sol 用量计量修复见报道",
+          "summary": "同等任务会扣除更多额度，确切生效时刻未知。",
+          "evidence_ids": [
+            "chat-meter"
+          ]
+        }
+      ]
+    },
+    "anthropic": {
+      "state": "unchanged",
+      "reason": "官方日志最近实质条目仍是 11 月 24 日。本轮重核 Artifact 安装与连接器双向传文件，均已进入正文。Drive 文件浏览器暂缺官方开放证据。Reflect 已刊，暂无推高成果交付或 Duet 地区判断的新证据。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "xai": {
+      "state": "unchanged",
+      "reason": "官方日志仍为 1.3.0，Slack 转派和缺货提醒已覆盖。节日购物访谈补的是已有邮件和跟踪能力的一人用法，无法据此调整产品机制。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": [
+        {
+          "event_id": "grok-bot-holiday-email-tracker-case",
+          "status": "supplement",
+          "headline": "受访者用 Grok Bot 跟进节日购物",
+          "summary": "一人设置日常扫描邮件，归档送礼对象、物流与支出。实际配置日期未知。",
+          "evidence_ids": [
+            "gift-workflow"
+          ]
+        }
+      ]
+    },
+    "google-gemini": {
+      "state": "unchanged",
+      "reason": "复核 Tasks 购物确认、Mac 应用控制和地区声音。66 种地区声音在 11 月 16 日已发布并归档，本轮品牌传播未核到新的覆盖。昨天吸收的 iOS Live 引导不再重复计入。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "meta-llama": {
+      "state": "unchanged",
+      "reason": "英国的连接器分类、授权和交易确认仍吻合正文；找酒店的报道补充个人收藏参与推荐的个案，未显示新增商家或推出范围变化。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    },
+    "hunyuan": {
+      "state": "unchanged",
+      "reason": "中国区 iOS 仍为 2.94.0，录音定位、追问及人像编辑均已覆盖。独立搜索的网页和 QQ 浏览器入口仍吻合发布说明。本轮候选主要是混元模型和部署消息，未验证元宝端变化。",
+      "judgment": null,
+      "changes": null,
+      "digest": null,
+      "events": []
+    }
+  },
+  "evidence": [
+    {
+      "id": "doubao-mall",
+      "company_ids": [
+        "doubao"
+      ],
+      "url": "https://www.jiemian.com/article/15366926.html",
+      "title": "豆包购物灰测一级入口",
+      "source": "界面新闻",
+      "published_at": "2026-11-24T12:04:00+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "记者展示灰测界面。商品流来自抖音商城，完整价格、库存及下单需要关联抖音账号。灰测起始时间未知。"
+    },
+    {
+      "id": "doubao-table",
+      "company_ids": [
+        "doubao"
+      ],
+      "url": "https://www.36kr.com/p/4085260792375943",
+      "title": "抖音点餐服务商演示豆包配菜",
+      "source": "最话FunTalk（36氪刊载）",
+      "published_at": "2026-11-26T09:46:00+08:00",
+      "event_at": null,
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "报道展示一家服务商使用豆包接入点餐的流程。覆盖门店、上线日期和消费成效未核。"
+    },
+    {
+      "id": "xiaodou-beta",
+      "company_ids": [
+        "doubao"
+      ],
+      "url": "https://www.sina.cn/news/detail/5368723595591761.html",
+      "title": "小豆邀请制公测说明",
+      "source": "豆包官方微博",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "产品通过邀请码公测，公开演示涉及主动代办。"
+    },
+    {
+      "id": "qwen-desktop",
+      "company_ids": [
+        "qwen"
+      ],
+      "url": "https://docs.qwenwork.cn/release-notes/desktop",
+      "title": "千问办公 2.2.0 客户端日志",
+      "source": "千问办公",
+      "published_at": "2026-11-26",
+      "event_at": "2026-11-26",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "客户端日志列出统一目录、IM 主子会话及协作空间资料来源。较早的 2.1.0 条目可核对 HTML 发布。"
+    },
+    {
+      "id": "qwen-remote",
+      "company_ids": [
+        "qwen"
+      ],
+      "url": "https://docs.qwenwork.cn/release-notes/web",
+      "title": "千问办公网页端日志",
+      "source": "千问办公",
+      "published_at": "2026-11-22",
+      "event_at": "2026-11-22",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "该日条目确认撤销远控权限后新任务可回退云端。"
+    },
+    {
+      "id": "qwen-calls",
+      "company_ids": [
+        "qwen"
+      ],
+      "url": "https://www.bjnews.com.cn/detail-1795583213129768.html",
+      "title": "千问 Go 免费外呼与定时拨打",
+      "source": "新京报贝壳财经",
+      "published_at": "2026-11-25T13:58:00+08:00",
+      "event_at": "2026-11-25",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "同一外呼更新的原始报道交代了定时拨打、授权和主动表明 AI 身份。账号与版本覆盖未独立逐一验证。"
+    },
+    {
+      "id": "chat-work",
+      "company_ids": [
+        "openai"
+      ],
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "title": "Chat 与 Work 开始试行共享计量",
+      "source": "TechCrunch",
+      "published_at": "2026-11-25T20:03:27Z",
+      "event_at": "2026-11-25",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "OpenAI 发言人解释统一计量和 Instant 例外，首批为部分 Pro。"
+    },
+    {
+      "id": "chat-space",
+      "company_ids": [
+        "openai"
+      ],
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT Space 向成人 Plus 分批开放",
+      "source": "OpenAI",
+      "published_at": "2026-11-20",
+      "event_at": "2026-11-20",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "发布记录说明年龄、套餐和共编条件。"
+    },
+    {
+      "id": "chat-meter",
+      "company_ids": [
+        "openai"
+      ],
+      "url": "https://directaisolutions.com/insights/ai-briefing-2026-11-26",
+      "title": "OpenAI 员工披露 GPT-6.2 用量计量修复",
+      "source": "Direct AI Solutions",
+      "published_at": "2026-11-26",
+      "event_at": null,
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "报道引述 OpenAI 产品负责人说明 Astra 与 Sol 的计量修正。直接原帖受限，修正的准确生效时刻未知。"
+    },
+    {
+      "id": "claude-nov",
+      "company_ids": [
+        "anthropic"
+      ],
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "title": "Claude Artifact 安装和连接器传文件",
+      "source": "Anthropic",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "当日条目包含安装 Artifact、文件传输和 Reflect，此前日报已核。"
+    },
+    {
+      "id": "grok-130",
+      "company_ids": [
+        "xai"
+      ],
+      "url": "https://x.ai/changelog/bot",
+      "title": "Grok Bot 1.3.0",
+      "source": "xAI",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "版本日志列出 Slack 转派回执、缺货提醒及组织账号限制。"
+    },
+    {
+      "id": "gift-workflow",
+      "company_ids": [
+        "xai",
+        "meta-llama"
+      ],
+      "url": "https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/",
+      "title": "受访者用 Grok Bot 跟进节日订单",
+      "source": "The Atlantic",
+      "published_at": "2026-11-25T13:17:00-05:00",
+      "event_at": null,
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "原始访谈中，一人配置助手扫描邮件和记账；另一名受访者用 Muse 按收藏偏好找酒店。任务日期和代表性未知。"
+    },
+    {
+      "id": "gemini-notes",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "url": "https://gemini.google/release-notes/",
+      "title": "Gemini Tasks 与 Mac 电脑操作",
+      "source": "Google",
+      "published_at": "2026-11-19",
+      "event_at": "2026-11-19",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "11 月 19 日条目说明独立窗口和应用范围，11 月 17 日条目确认任务免费分批及结账确认。"
+    },
+    {
+      "id": "gemini-voices",
+      "company_ids": [
+        "google-gemini"
+      ],
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "title": "Gemini 地区语音开始分批开放",
+      "source": "Google",
+      "published_at": "2026-11-16",
+      "event_at": "2026-11-16",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "66 种声音早在 11 月 16 日发布，应用到 Live 与朗读，近日品牌帖未证实新一轮开放。"
+    },
+    {
+      "id": "muse-uk",
+      "company_ids": [
+        "meta-llama"
+      ],
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "title": "Muse 英国发布与商家连接",
+      "source": "Meta",
+      "published_at": "2026-11-24",
+      "event_at": "2026-11-24",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "已记录的英国开放。官网区分网站操作与连接商家账户，购买和发信等重要动作须确认。"
+    },
+    {
+      "id": "yuanbao-ios",
+      "company_ids": [
+        "hunyuan"
+      ],
+      "url": "https://itunes.apple.com/lookup?id=6480446430&country=cn",
+      "title": "元宝中国区 iOS 2.94.0",
+      "source": "腾讯 App Store 版本说明",
+      "published_at": "2026-11-22T11:05:20Z",
+      "event_at": "2026-11-22T11:05:20Z",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "当前版本仍为 2.94.0，说明包含录音进度定位和随时提问。"
+    },
+    {
+      "id": "doubao-edit",
+      "company_ids": [
+        "doubao"
+      ],
+      "url": "https://www.ithome.com/1/033/208.htm",
+      "title": "豆包工作接入剪映官方插件",
+      "source": "IT之家",
+      "published_at": "2026-11-27T10:33:51+08:00",
+      "event_at": "2026-11-27",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "媒体转述当天上午官宣并展示功能说明。电脑端插件需要最新版剪映，正式接入前已有社区技能完成部分剪辑任务。"
+    },
+    {
+      "id": "doubao-edit-old",
+      "company_ids": [
+        "doubao"
+      ],
+      "url": "https://www.woshipm.com/ai/6469825.html",
+      "title": "作者用社区技能在豆包工作调用剪映",
+      "source": "叶小钗 · 人人都是产品经理",
+      "published_at": "2026-09-24",
+      "event_at": null,
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "media",
+      "date_basis": "original_page",
+      "note": "作者展示通过社区技能制作配音与字幕，并在剪映检查细节。用于核对历史能力，不作本期插件实测。"
+    },
+    {
+      "id": "business-agent",
+      "company_ids": [
+        "openai"
+      ],
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "title": "符合条件的海外商家可发布 Agent",
+      "source": "OpenAI",
+      "published_at": "2026-11-19",
+      "event_at": "2026-11-19",
+      "verified_at": "2026-11-27T03:25:59.659630+00:00",
+      "level": "official",
+      "date_basis": "original_page",
+      "note": "原公告 11 月 19 日增补条目扩展至符合条件的美国以外电商和线上服务商。"
+    }
+  ],
+  "evolution": {
+    "companies": {
+      "doubao": {
+        "type": "continued",
+        "reason": "正文补入剪映官方插件和可细调的多轨草稿，并吸收豆包购物侧栏灰测。线下点餐按服务商实例记录。此前已有社区剪辑技能，小豆仍为邀测。",
+        "evidence_ids": [
+          "doubao-mall",
+          "doubao-table",
+          "xiaodou-beta",
+          "doubao-edit",
+          "doubao-edit-old"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "summary": "豆包购物入口接入抖音商城商品流，完整交易信息需关联账号。",
+            "stage": "preview",
+            "evidence_ids": [
+              "doubao-mall"
+            ]
+          },
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "小豆以邀请方式承接个人事务。",
+            "stage": "preview",
+            "evidence_ids": [
+              "xiaodou-beta"
+            ]
+          },
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "官方剪映插件将对话剪辑接到可手动精调的工程草稿。",
+            "stage": "announced",
+            "evidence_ids": [
+              "doubao-edit"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "正文补入剪映官方插件和可细调的多轨草稿，并吸收豆包购物侧栏灰测。线下点餐按服务商实例记录。此前已有社区剪辑技能，小豆仍为邀测。",
+          "event_ids": [
+            "doubao-work-jianying-official-plugin",
+            "doubao-mall-standalone-feed",
+            "doubao-douyin-table-provider-demo"
+          ]
+        }
+      },
+      "qwen": {
+        "type": "continued",
+        "reason": "在远控与资料发布之外，加入 2.2.0 的跨运行位置查找、主子会话和协作空间导入。千问 Go 沿用同一外呼事件，补入定时拨打与授权条件。",
+        "evidence_ids": [
+          "qwen-desktop",
+          "qwen-remote",
+          "qwen-calls"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "桌面客户端统一查看本机、云端和其他电脑的任务。",
+            "stage": "available",
+            "evidence_ids": [
+              "qwen-desktop"
+            ]
+          },
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "协作空间可引入飞书、个人钉钉与资料空间文件。",
+            "stage": "available",
+            "evidence_ids": [
+              "qwen-desktop"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "在远控与资料发布之外，加入 2.2.0 的跨运行位置查找、主子会话和协作空间导入。千问 Go 沿用同一外呼事件，补入定时拨打与授权条件。",
+          "event_ids": [
+            "qwenwork-desktop-220-unified-tasks",
+            "qwen-go-free-outbound-calls"
+          ]
+        }
+      },
+      "openai": {
+        "type": "continued",
+        "reason": "共享额度仍为部分 Pro 试行。新增报道补充两款 GPT-6.2 的用量计量修复，机制与入口合并分开核验。Space 成人 Plus 开放条件维持。",
+        "evidence_ids": [
+          "chat-work",
+          "chat-space",
+          "chat-meter"
+        ],
+        "signals": [
+          {
+            "direction_id": "commercialization",
+            "type": "continued",
+            "summary": "Chat 与 Work 一小批 Pro 试行共享计量，Instant 仍单列；两款 GPT-6.2 另有用量计量修正报道。",
+            "stage": "preview",
+            "evidence_ids": [
+              "chat-work",
+              "chat-meter"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "revised",
+          "reason": "共享额度仍为部分 Pro 试行。新增报道补充两款 GPT-6.2 的用量计量修复，机制与入口合并分开核验。Space 成人 Plus 开放条件维持。",
+          "event_ids": [
+            "chatgpt-gpt62-usage-metering-fix"
+          ]
+        }
+      },
+      "anthropic": {
+        "type": "continued",
+        "reason": "官方日志最近实质条目仍是 11 月 24 日。本轮重核 Artifact 安装与连接器双向传文件，均已进入正文。Drive 文件浏览器暂缺官方开放证据。Reflect 已刊，暂无推高成果交付或 Duet 地区判断的新证据。",
+        "evidence_ids": [
+          "claude-nov"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "Artifact 可尝试安装到 Mac 或 Windows；兼容连接器可双向传文件。",
+            "stage": "preview",
+            "evidence_ids": [
+              "claude-nov"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "官方日志最近实质条目仍是 11 月 24 日。本轮重核 Artifact 安装与连接器双向传文件，均已进入正文。Drive 文件浏览器暂缺官方开放证据。Reflect 已刊，暂无推高成果交付或 Duet 地区判断的新证据。",
+          "event_ids": []
+        }
+      },
+      "xai": {
+        "type": "continued",
+        "reason": "官方日志仍为 1.3.0，Slack 转派和缺货提醒已覆盖。节日购物访谈补的是已有邮件和跟踪能力的一人用法，无法据此调整产品机制。",
+        "evidence_ids": [
+          "grok-130",
+          "gift-workflow"
+        ],
+        "signals": [
+          {
+            "direction_id": "ongoing-assistance",
+            "type": "continued",
+            "summary": "受访者设定助手扫描邮件，登记到货与支出。",
+            "stage": "observed",
+            "evidence_ids": [
+              "gift-workflow"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "官方日志仍为 1.3.0，Slack 转派和缺货提醒已覆盖。节日购物访谈补的是已有邮件和跟踪能力的一人用法，无法据此调整产品机制。",
+          "event_ids": [
+            "grok-bot-holiday-email-tracker-case"
+          ]
+        }
+      },
+      "google-gemini": {
+        "type": "continued",
+        "reason": "复核 Tasks 购物确认、Mac 应用控制和地区声音。66 种地区声音在 11 月 16 日已发布并归档，本轮品牌传播未核到新的覆盖。昨天吸收的 iOS Live 引导不再重复计入。",
+        "evidence_ids": [
+          "gemini-notes",
+          "gemini-voices"
+        ],
+        "signals": [
+          {
+            "direction_id": "mobile-entry",
+            "type": "continued",
+            "summary": "地区语音分批进入 Android 与 iOS，设置通用于 Live 和朗读。",
+            "stage": "available",
+            "evidence_ids": [
+              "gemini-voices"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "复核 Tasks 购物确认、Mac 应用控制和地区声音。66 种地区声音在 11 月 16 日已发布并归档，本轮品牌传播未核到新的覆盖。昨天吸收的 iOS Live 引导不再重复计入。",
+          "event_ids": []
+        }
+      },
+      "meta-llama": {
+        "type": "continued",
+        "reason": "英国的连接器分类、授权和交易确认仍吻合正文；找酒店的报道补充个人收藏参与推荐的个案，未显示新增商家或推出范围变化。",
+        "evidence_ids": [
+          "muse-uk",
+          "gift-workflow"
+        ],
+        "signals": [
+          {
+            "direction_id": "merchant-operations",
+            "type": "continued",
+            "summary": "英国部分伙伴可连接账户来补货和查预订。",
+            "stage": "available",
+            "evidence_ids": [
+              "muse-uk"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "英国的连接器分类、授权和交易确认仍吻合正文；找酒店的报道补充个人收藏参与推荐的个案，未显示新增商家或推出范围变化。",
+          "event_ids": []
+        }
+      },
+      "hunyuan": {
+        "type": "continued",
+        "reason": "中国区 iOS 仍为 2.94.0，录音定位、追问及人像编辑均已覆盖。独立搜索的网页和 QQ 浏览器入口仍吻合发布说明。本轮候选主要是混元模型和部署消息，未验证元宝端变化。",
+        "evidence_ids": [
+          "yuanbao-ios"
+        ],
+        "signals": [
+          {
+            "direction_id": "shared-deliverables",
+            "type": "continued",
+            "summary": "录音可细拖进度并对内容提问。",
+            "stage": "available",
+            "evidence_ids": [
+              "yuanbao-ios"
+            ]
+          }
+        ],
+        "content_review": {
+          "decision": "retained",
+          "reason": "中国区 iOS 仍为 2.94.0，录音定位、追问及人像编辑均已覆盖。独立搜索的网页和 QQ 浏览器入口仍吻合发布说明。本轮候选主要是混元模型和部署消息，未验证元宝端变化。",
+          "event_ids": []
+        }
+      }
+    },
+    "overview": [
+      {
+        "direction_id": "ongoing-assistance",
+        "type": "continued",
+        "reason": "补入跨端查看任务项目，承接上一期的 Slack 回执。",
+        "evidence_ids": [
+          "qwen-desktop",
+          "grok-130"
+        ]
+      },
+      {
+        "direction_id": "shared-deliverables",
+        "type": "continued",
+        "reason": "官方剪映插件补上可打开的编辑工程。Claude 安装与 Space 共编支持原有成果交付方向。",
+        "evidence_ids": [
+          "doubao-edit",
+          "claude-nov",
+          "chat-space"
+        ]
+      },
+      {
+        "direction_id": "merchant-operations",
+        "type": "continued",
+        "reason": "补入豆包灰度购物入口及关联账号要求，Gemini 与 Muse 保留确认环节。",
+        "evidence_ids": [
+          "doubao-mall",
+          "gemini-notes",
+          "muse-uk"
+        ]
+      }
+    ]
+  },
+  "overview": {
+    "reason": "持续交办加入千问跨端任务目录和 Slack 回执。成果交付加入剪映可继续编辑的工程草稿。消费主题加入豆包购物入口及账号限制。",
+    "lead": "助手交付的结果可以接着改。豆包工作可把粗剪交给剪映多轨草稿，Claude 把生成的工具装到桌面。跨端交办则开始集中查看任务和回执。",
+    "themes": [
+      {
+        "headline": "跨端交办开始集中任务和回执",
+        "summary": "千问办公把本机、云端和其他电脑的任务放进同一个目录。Grok Bot 可以将跨 Bot 的答案送回 Slack 私聊。",
+        "evidence_ids": [
+          "qwen-desktop",
+          "grok-130"
+        ],
+        "company_ids": [
+          "qwen",
+          "xai"
+        ]
+      },
+      {
+        "headline": "成果能交给专业编辑器，也能分享或安装",
+        "summary": "豆包工作通过剪映官方插件交付可再编辑的多轨草稿。Claude Artifact 可安装到桌面，ChatGPT Space 可邀请有访问权限的人共编。",
+        "evidence_ids": [
+          "doubao-edit",
+          "claude-nov",
+          "chat-space"
+        ],
+        "company_ids": [
+          "doubao",
+          "anthropic",
+          "openai"
+        ]
+      },
+      {
+        "headline": "消费助手接入商品和商家，关键操作仍需确认",
+        "summary": "豆包 App 灰测抖音商城商品流，查完整价格及下单需关联账号。Gemini Tasks 可准备结账单，Muse 英国部分伙伴可连接账户以补货或查预订。",
+        "evidence_ids": [
+          "doubao-mall",
+          "gemini-notes",
+          "muse-uk"
+        ],
+        "company_ids": [
+          "doubao",
+          "google-gemini",
+          "meta-llama"
+        ]
+      }
+    ]
+  },
+  "focus": {
+    "date": "2026-11-27",
+    "leads": [
+      "editable-video-draft",
+      "assistant-phone-tests",
+      "proactive-shopping"
+    ],
+    "stories": [
+      {
+        "id": "desktop",
+        "track": "product",
+        "title": "Gemini 和 Claude 把桌面操作开放给更多付费用户",
+        "summary": "Gemini 可以在 Mac 后台操作应用，Claude 把同类能力逐步开放给团队。用户能指定哪些应用可以交给助手。",
+        "analysis": "两家的交集是让助手进入用户已经在用的软件。Gemini 用独立窗口把人工操作和后台任务分开，Claude 则把开放范围扩到组织。对涉及跨应用执行的产品，值得参考的是用户能在哪一步限定范围、查看进度和收回控制。",
+        "evidence": [
+          {
+            "date": "2026-11-20",
+            "source": "Anthropic",
+            "title": "Claude 把电脑操作扩展到团队套餐",
+            "detail": "Team 和 Enterprise 开始分批测试。Claude 可查看屏幕并操作用户允许的桌面应用，组织需先启用相关能力。此次新增的是团队开放范围。",
+            "label": "Claude 发布记录",
+            "url": "https://support.claude.com/en/articles/12138966-release-notes",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-19",
+            "source": "Google",
+            "title": "Gemini for Mac 可在独立窗口操作应用",
+            "detail": "用户可以让 Gemini 从本地文件提取信息，再去网页填表。任务在独立窗口运行，用户可以继续使用电脑、查看进度或停止。首批面向美国符合条件的付费用户。",
+            "label": "Google 发布公告",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "voice",
+        "track": "tech",
+        "title": "语音助手处理任务时，也能继续和人说话",
+        "summary": "千问把实时对话和后台执行分开。查资料需要时间时，前台仍能回应用户，拿到结果后再播报。",
+        "analysis": "对旅行规划这类需要一边说、一边查的任务，产品可以先接住下一句话，再决定如何把新条件交给后台。例如用户等路线时补充“还要带孩子”，应用有机会当场更新行程要求。修改已在运行的任务仍需要应用自己处理。",
+        "evidence": [
+          {
+            "date": "2026-11-23",
+            "source": "千问 AI 平台",
+            "title": "Qwen-Audio-3.1-Live 上架",
+            "detail": "更新日志列出实时对话与任务播报能力。应用或后台模型处理任务期间，前台语音模型可持续交谈。",
+            "label": "模型更新记录",
+            "url": "https://platform.qianwenai.com/docs/changelog/models",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-23",
+            "source": "同次发布的模型文档",
+            "title": "应用可以自己执行任务，也可以交给后台模型",
+            "detail": "开发者可选择由应用处理任务，或指定平台上的后台模型。前台负责对话，并可播报进度和结果。以上两份材料来自同一次发布。",
+            "label": "千问模型说明",
+            "url": "https://platform.qianwenai.com/docs/models/qwen-audio-3-1-live",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "household",
+        "track": "people",
+        "title": "有人用 AI 做了保修台账，家人装好就能用",
+        "summary": "为了省去翻邮件找发票的麻烦，一位作者用 Gemini 做了款 Android 应用。家人装好后，能自己录入家电、附上票据。",
+        "analysis": "这个案例把“小应用生成”的价值落到了第二个人身上。作者生成应用，真正试用的人可以直接装好、录入自己的资料。对面向亲友分享的小工具，观察接收者能否独立完成第一次使用，比只看创建者生成了多少页面更贴近实际用途。作者记录了家庭试用，持续使用频率和付费意愿仍未知。",
+        "evidence": [
+          {
+            "date": "2026-11-22",
+            "source": "Parth Shah · 作者实测",
+            "title": "从翻邮件找发票，到给家人做保修台账",
+            "detail": "作者回顾，以前做的多是网站和样例面板，后来往往搁置。这次他在 Antigravity 里让 Gemini 生成 Home Vault 的 Android 安装包，并装到自己的手机上。",
+            "label": "作者全文 · Yahoo Tech 转载 Android Police",
+            "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+            "kind": "firsthand"
+          },
+          {
+            "date": "2026-11-22",
+            "source": "同一作者记录的家庭试用",
+            "title": "家人能自行录入家电、附上发票",
+            "detail": "作者把安装包分享给家人。据他记录，家人能独立添加物品、发票和购买信息。反馈来自作者转述，文章没有给出家人原话或长期使用数据。",
+            "label": "同文的家庭试用经过",
+            "url": "https://tech.yahoo.com/ai/gemini/articles/used-gemini-create-android-app-220010847.html",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "track": "tech",
+        "title": "助手接入多种工具后，可以按任务取用参数说明",
+        "summary": "Gemini API 新增工具检索预览。模型先看工具名和用途，选中某个工具后再加载完整参数。",
+        "analysis": "当助手同时连接日历、文档和业务系统，按需加载可以减少每次请求携带的工具说明。对多工具产品，这给扩展连接数量留出了空间。实际能节省多少等待时间，取决于工具数量和调用方式。",
+        "evidence": [
+          {
+            "date": "2026-11-19",
+            "source": "Google",
+            "title": "Gemini API 推出按需加载工具参数",
+            "detail": "Interactions API 的预览功能允许延后加载部分工具的完整参数。模型可以在同一次请求中找到并调用所需工具。",
+            "label": "Google 开发者公告",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "coding",
+        "track": "people",
+        "title": "两位开发者分别用任务耗时和返工次数评价 GPT-6.2",
+        "summary": "一位逐题比较耗时和估算成本，另一位把模型放回原来的项目，看它需要几轮才能发现问题。",
+        "analysis": "两条帖子展示了具体的选用标准。模型在一道题上更快，成本优势仍可能随题目变化；对另一位用户，能否少来回几轮更直观。这是同一开发者社区中的两个样本，适合用来理解评价维度。",
+        "evidence": [
+          {
+            "date": "2026-11-18",
+            "source": "merefield · 用户实测",
+            "title": "两道任务全部完成，更省钱的型号随题目变化",
+            "detail": "在发布者的 Digbench 记录中，Astra 两题都更快。第一题 Sol 的估算 API 成本较低，第二题 Astra 较低。费用是作者折算，不能直接当作账单。",
+            "label": "开发者社区原帖 · #32",
+            "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/32",
+            "kind": "firsthand"
+          },
+          {
+            "date": "2026-11-18",
+            "source": "Mb · 用户反馈",
+            "title": "旧项目少了几轮排查，人物建模仍要反复调整",
+            "detail": "Mb 说，6.2 Sol 较容易一次找出项目里的问题。人物建模比此前更有进展，但自己仍需多轮迭代。",
+            "label": "开发者社区原帖 · #34",
+            "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531/34",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "proactive-shopping",
+        "track": "product",
+        "title": "小豆可反馈主动消息，Grok Bot 可跟踪补货",
+        "summary": "小豆仍通过邀请试用，新版支持反馈主动消息。Grok Bot 的缺货卡可订阅对应卖家的补货通知。Muse 在英国连接部分商家账户处理回购或预订。",
+        "analysis": "两条产品路径都给用户一个控制点，可以反馈系统推来的消息，也能主动选择需要继续盯的商品。是否能顺利买到仍取决于卖家库存和交易确认。",
+        "evidence": [
+          {
+            "date": "2026-11-24",
+            "source": "豆包官方微博",
+            "title": "小豆正式开启邀请制公测",
+            "detail": "认证账号公布邀请条件，未来逐步将能力接入豆包主端。",
+            "label": "官方公告",
+            "url": "https://www.sina.cn/news/detail/5368723595591761.html",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "北京日报",
+            "title": "小豆展示确认后补货",
+            "detail": "报道介绍官方演示中的余量估计、确认下单和再次提醒。",
+            "label": "发布演示",
+            "url": "https://news.bjd.com.cn/2026/11/24/12041637.shtml",
+            "kind": "reporting"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "Meta",
+            "title": "Muse 在英国开放",
+            "detail": "部分本地伙伴支持连账户处理回购或预订；关键操作须确认。",
+            "label": "官方公告",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "小豆 / App Store",
+            "title": "小豆 15.9.0 更新",
+            "detail": "开发者版本说明增加主动消息反馈。",
+            "label": "中国区 iOS 版本说明",
+            "url": "https://itunes.apple.com/lookup?id=6815582077&country=cn",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "SpaceXSI",
+            "title": "Grok Bot 1.3.0 缺货卡",
+            "detail": "用户可以选择跟踪该卖家恢复供应。",
+            "label": "官方版本日志",
+            "url": "https://x.ai/changelog/bot#v1.3.0",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "connector-workflows",
+        "track": "tech",
+        "title": "连接器除了提供工具，也开始附带工作流程",
+        "summary": "Claude 支持从兼容服务器按需加载技能，并等待服务器的长任务结果。Google Workspace 正式提供托管 MCP 服务和 CLI。",
+        "analysis": "平台分别补上任务交接与工具入口。具体能否完成工作，还取决于连接器实现、组织授权和中途确认。",
+        "evidence": [
+          {
+            "date": "2026-11-24",
+            "source": "Anthropic",
+            "title": "Claude 的服务器技能与任务",
+            "detail": "Skills 公开 beta，Tasks 和 Elicitation 按档位开放。",
+            "label": "官方发布",
+            "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+            "kind": "official"
+          },
+          {
+            "date": "2026-11-24",
+            "source": "Google Workspace",
+            "title": "Workspace 托管 MCP 与 CLI 正式可用",
+            "detail": "托管入口覆盖 Gmail、Drive、Docs、Sheets 等产品，并受组织策略约束。",
+            "label": "官方发布",
+            "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+            "kind": "official"
+          }
+        ]
+      },
+      {
+        "id": "assistant-phone-tests",
+        "track": "people",
+        "title": "两款助手都能代问餐厅排队，并留下回执",
+        "summary": "每经记者让小豆和千问 Go 咨询餐厅排队，两款助手都确认门店，通话后返回录音和文字摘要。",
+        "analysis": "在这次测试中，整体耗时与自己查号拨打相近。已观察到的价值是用户可以交办，稍后核对录音和摘要。测试只覆盖餐厅咨询，预约和售后还需要另测。",
+        "evidence": [
+          {
+            "date": "2026-11-26",
+            "source": "每日经济新闻记者",
+            "title": "餐厅排队咨询对照实测",
+            "detail": "同一报道记录两款助手的门店确认、录音摘要和提示时机，也描述测试耗时边界。",
+            "label": "记者现场试用",
+            "url": "https://www.nbd.com.cn/articles/2026-11-26/4659127.html",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "artifact-desktop-use",
+        "track": "people",
+        "title": "Claude 生成的 Mac 工具装好后可从 Dock 打开",
+        "summary": "MacStories 作者把磁盘空间分析工具做成 Artifact 并安装，能从 Dock 启动，实际由 Claude 主应用承载。",
+        "analysis": "对创作者而言有可重复打开的入口。接收者仍需 Claude 环境，也要处理所需权限，能否把工具交给同事要单独验证。",
+        "evidence": [
+          {
+            "date": "2026-11-25",
+            "source": "Federico Viticci / MacStories",
+            "title": "安装 Artifact 并测试磁盘空间工具",
+            "detail": "作者查看实际安装位置和运行方式，记录主应用与权限的依赖。",
+            "label": "作者实测",
+            "url": "https://www.macstories.net/stories/a-closer-look-at-claudes-mac-apps/",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "shopping-checkout-tests",
+        "track": "people",
+        "title": "代购能否走到结账，还要看商家是否要求登录",
+        "summary": "a16z 联合测试者比较四款助手。在支持游客结账的商家测试中，81% 的运行可走到表单末尾；要求登录的商家测试均提前停下。",
+        "analysis": "这组受控任务说明登录可能改变助手实际能走到的步骤。表单到达率和消费者下单率应分别看。测试总计覆盖 1,270 个提示、11,307 次完成的运行，结账子集样本数未在该段披露。",
+        "evidence": [
+          {
+            "date": "2026-11-23",
+            "source": "a16z 与 The Prompting Company",
+            "title": "四款助手的购物与软件选型测试",
+            "detail": "研究正文区分受控运行、购物流程演练与支付数据。81% 仅对应支持游客结账的试验子集。",
+            "label": "研究合作者原文",
+            "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "editable-video-draft",
+        "track": "product",
+        "title": "豆包工作可把粗剪交给剪映多轨草稿",
+        "summary": "桌面端接入剪映官方插件。用户可以先用对话改片，再打开剪映工程修改字幕和时间线。",
+        "analysis": "创作者可以委托口播删减、上字幕等重复步骤，逐轨检查或调整结果。此前已有社区技能可处理部分剪辑任务，此次报道确认了官方入口和可手动接续的多轨草稿。官方插件的实际成功率和返工量还有待实测。",
+        "evidence": [
+          {
+            "date": "2026-11-27",
+            "source": "IT之家",
+            "title": "电脑端接入剪映官方插件",
+            "detail": "转述豆包公告。插件可从桌面侧栏查找，需最新版剪映，可继续对话或打开多轨草稿。",
+            "label": "发布报道",
+            "url": "https://www.ithome.com/1/033/208.htm",
+            "kind": "reporting"
+          },
+          {
+            "date": "2026-09-24",
+            "source": "叶小钗",
+            "title": "社区技能已经能在剪映处理部分剪辑",
+            "detail": "作者试用配音与字幕，并在剪映调整结果。旧实测只用于对照原有能力。",
+            "label": "社区技能实测",
+            "url": "https://www.woshipm.com/ai/6469825.html",
+            "kind": "firsthand"
+          }
+        ]
+      },
+      {
+        "id": "holiday-email-tracker",
+        "track": "people",
+        "title": "有人让助手每天从邮件整理节日订单",
+        "summary": "一位受访者设置 Grok Bot 扫描邮件，记录礼物给谁、何时到货和累计花费，也让它从订阅的邮件里找折扣。",
+        "analysis": "这种用法把工作拆成持续读取已有材料、整理状态和返回提醒。单人访谈说明了任务形态，准确性、覆盖率和普遍使用情况仍未知。",
+        "evidence": [
+          {
+            "date": "2026-11-25",
+            "source": "The Atlantic",
+            "title": "购物者定制邮件跟进助手",
+            "detail": "记者访谈中，用户描述了自动登记到货、礼物对象、预算与折扣的做法。",
+            "label": "原始用户访谈",
+            "url": "https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/",
+            "kind": "firsthand"
+          }
+        ]
+      }
+    ]
+  },
+  "focus_lead_reasons": {
+    "editable-video-draft": "换入。官方插件和可继续编辑的工程草稿改变了交付形式，且可以与已发表的社区技能实测明确比较，优先于旧首屏的通用桌面操作。",
+    "assistant-phone-tests": "保留。双产品、同任务的记者实测有可见录音和摘要，继续优先于单人邮件访谈。",
+    "proactive-shopping": "保留。跨三款产品可比较反馈、补货条件和账户连接，比单一礼物跟踪配置更适合首屏。",
+    "desktop": "移出。保留桌面开放与授权判断，首屏让位给能说明具体产物如何交接的剪映插件。",
+    "voice": "未入选。实时对话与后台执行仍有技术价值，本轮缺少相比电话实测更直接的用户变化。",
+    "household": "未入选。家庭接收者能独立录入仍是有效案例，较剪映官方接入缺少本轮新的交接证据。",
+    "tools": "未入选。按需加载机制继续成立，首屏先放有可编辑产物的实际产品动作。",
+    "coding": "未入选。开发者的耗时和返工观察仍有参考价值，当前两份样本比不上两款助手同任务的可比性。",
+    "connector-workflows": "未入选。保留技能与长任务机制，本轮剪映交接比通用连接器协议更容易解释具体用户动作。",
+    "artifact-desktop-use": "未入选。Dock 验证仍有效，与剪映同属成果交付，本轮选有官方入口变化和历史对照的插件。",
+    "shopping-checkout-tests": "未入选。保留登录与结账限制，和第三条消费主题有交集，本轮首屏用跨产品的持续跟进。",
+    "holiday-email-tracker": "未入选。原始访谈补足持续使用的一个任务形态，但只有一位受访者，首屏保留跨产品实测与几个明确的购物动作。"
+  },
+  "report_id": "8259152fafebebf0cd33c598ccc4a308ac7264118e953a93b34a28978e3f653d"
+}

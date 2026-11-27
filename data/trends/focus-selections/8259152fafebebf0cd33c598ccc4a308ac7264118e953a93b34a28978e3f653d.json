@@ -1,0 +1,102 @@
+{
+  "report_id": "8259152fafebebf0cd33c598ccc4a308ac7264118e953a93b34a28978e3f653d",
+  "period_end": "2026-11-27T03:14:27.008681Z",
+  "judgments": [
+    {
+      "id": "editable-video-draft",
+      "title": "豆包工作可把粗剪交给剪映多轨草稿",
+      "status": "换入",
+      "previous_rank": null,
+      "current_rank": 1,
+      "reason": "官方插件和可继续编辑的工程草稿改变了交付形式，且可以与已发表的社区技能实测明确比较，优先于旧首屏的通用桌面操作。"
+    },
+    {
+      "id": "assistant-phone-tests",
+      "title": "两款助手都能代问餐厅排队，并留下回执",
+      "status": "保留",
+      "previous_rank": 1,
+      "current_rank": 2,
+      "reason": "双产品、同任务的记者实测有可见录音和摘要，继续优先于单人邮件访谈。"
+    },
+    {
+      "id": "proactive-shopping",
+      "title": "小豆可反馈主动消息，Grok Bot 可跟踪补货",
+      "status": "保留",
+      "previous_rank": 2,
+      "current_rank": 3,
+      "reason": "跨三款产品可比较反馈、补货条件和账户连接，比单一礼物跟踪配置更适合首屏。"
+    },
+    {
+      "id": "desktop",
+      "title": "Gemini 和 Claude 把桌面操作开放给更多付费用户",
+      "status": "移出",
+      "previous_rank": 3,
+      "current_rank": null,
+      "reason": "保留桌面开放与授权判断，首屏让位给能说明具体产物如何交接的剪映插件。"
+    },
+    {
+      "id": "voice",
+      "title": "语音助手处理任务时，也能继续和人说话",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "实时对话与后台执行仍有技术价值，本轮缺少相比电话实测更直接的用户变化。"
+    },
+    {
+      "id": "household",
+      "title": "有人用 AI 做了保修台账，家人装好就能用",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "家庭接收者能独立录入仍是有效案例，较剪映官方接入缺少本轮新的交接证据。"
+    },
+    {
+      "id": "tools",
+      "title": "助手接入多种工具后，可以按任务取用参数说明",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "按需加载机制继续成立，首屏先放有可编辑产物的实际产品动作。"
+    },
+    {
+      "id": "coding",
+      "title": "两位开发者分别用任务耗时和返工次数评价 GPT-6.2",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "开发者的耗时和返工观察仍有参考价值，当前两份样本比不上两款助手同任务的可比性。"
+    },
+    {
+      "id": "connector-workflows",
+      "title": "连接器除了提供工具，也开始附带工作流程",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "保留技能与长任务机制，本轮剪映交接比通用连接器协议更容易解释具体用户动作。"
+    },
+    {
+      "id": "artifact-desktop-use",
+      "title": "Claude 生成的 Mac 工具装好后可从 Dock 打开",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "Dock 验证仍有效，与剪映同属成果交付，本轮选有官方入口变化和历史对照的插件。"
+    },
+    {
+      "id": "shopping-checkout-tests",
+      "title": "代购能否走到结账，还要看商家是否要求登录",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "保留登录与结账限制，和第三条消费主题有交集，本轮首屏用跨产品的持续跟进。"
+    },
+    {
+      "id": "holiday-email-tracker",
+      "title": "有人让助手每天从邮件整理节日订单",
+      "status": "未入选",
+      "previous_rank": null,
+      "current_rank": null,
+      "reason": "原始访谈补足持续使用的一个任务形态，但只有一位受访者，首屏保留跨产品实测与几个明确的购物动作。"
+    }
+  ]
+}
