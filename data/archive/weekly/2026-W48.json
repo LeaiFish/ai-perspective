@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
-  "generated_at": "2026-11-28T04:47:46.223818Z",
+  "generated_at": "2026-11-28T10:39:34.976574Z",
   "daily_dates": [
     "2026-11-23",
     "2026-11-24",
@@ -13,24 +13,24 @@
     "2026-11-27",
     "2026-11-28"
   ],
-  "story_count": 1979,
-  "unique_story_count": 1896,
+  "story_count": 1964,
+  "unique_story_count": 1917,
   "counts": {
     "by_company_topic": {
-      "anthropic": 355,
+      "anthropic": 353,
       "apple": 17,
-      "cursor": 10,
-      "deepseek": 24,
-      "doubao": 24,
-      "google-gemini": 188,
+      "cursor": 9,
+      "deepseek": 26,
+      "doubao": 22,
+      "google-gemini": 185,
       "huggingface": 17,
-      "hunyuan": 14,
-      "kimi": 15,
+      "hunyuan": 13,
+      "kimi": 14,
       "meta-llama": 12,
       "microsoft": 10,
-      "minimax": 12,
-      "nvidia": 89,
-      "openai": 243,
+      "minimax": 11,
+      "nvidia": 88,
+      "openai": 241,
       "openrouter": 13,
       "perplexity": 15,
       "qwen": 18,
@@ -39,20 +39,20 @@
     },
     "by_lens_topic": {
       "agent-ecosystem": 349,
-      "monetization": 61,
+      "monetization": 62,
       "product-entry": 44,
-      "workplace": 46
+      "workplace": 45
     },
     "by_importance_label": {
-      "值得关注": 1643,
-      "多源热议": 39,
-      "官方更新": 115,
-      "行业动态": 182
+      "值得关注": 1637,
+      "多源热议": 37,
+      "官方更新": 120,
+      "行业动态": 170
     },
     "by_source_count_bucket": {
-      "1": 1874,
-      "2": 65,
-      "3+": 40
+      "1": 1862,
+      "2": 64,
+      "3+": 38
     }
   },
   "top_stories": [
@@ -99,17 +99,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_9d4fa64e3194",
-      "title": "人工智能的品牌一致性：如何保持每个图像和视频的品牌一致性 / Brand Consistency With AI: How to Keep Every Image and Video on Brand",
-      "url": "https://lumalabs.ai/news/brand-consistency-with-ai",
-      "importance_score": 0.8422,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-28",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_c2e19fb7f5b4",
       "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
@@ -121,17 +110,6 @@
         "nvidia",
         "huggingface"
       ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_eebad56d499e",
-      "title": "如何使用人工智能创建品牌套件：字体、颜色、徽标和规则集中在一个地方 / How to Create a Brand Kit With AI: Fonts, Colors, Logos and Rules in One Place",
-      "url": "https://lumalabs.ai/news/create-brand-kit-with-ai",
-      "importance_score": 0.8408,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-28",
-      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -148,17 +126,6 @@
       "lens_topics": []
     },
     {
-      "story_id": "story_d805a0dedfb6",
-      "title": "什么是品牌套件？合二为一，并举例说明 / What Is a Brand Kit? What Goes in One, With Examples",
-      "url": "https://lumalabs.ai/news/what-is-brand-kit",
-      "importance_score": 0.8391,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-28",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
       "story_id": "story_163fbb440649",
       "title": "Codex CLI 0.172.0",
       "url": "https://developers.openai.com/codex/changelog",
@@ -169,6 +136,41 @@
       "company_topics": [
         "openai"
       ],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_c60529f73c56",
+      "title": "最佳 Canva AI 视频生成器替代方案 / Best Canva AI Video Generator Alternatives",
+      "url": "https://lumalabs.ai/news/canva-ai-video-generator-alternatives",
+      "importance_score": 0.8322,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_66ca80d51264",
+      "title": "什么是AI代理编排？主代理如何与分代理工作 / What Is AI Agent Orchestration? How a Main Agent Hands Work to Sub-Agents",
+      "url": "https://lumalabs.ai/news/agent-orchestration",
+      "importance_score": 0.8315,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": [
+        "agent-ecosystem"
+      ]
+    },
+    {
+      "story_id": "story_a6e0acc00455",
+      "title": "创意工作流程管理：如何有序地运行人工智能创意工作 / Creative Workflow Management: How to Run AI Creative Work Without the Mess",
+      "url": "https://lumalabs.ai/news/creative-workflow-management",
+      "importance_score": 0.8305,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
       "lens_topics": []
     },
     {
@@ -196,6 +198,17 @@
       ]
     },
     {
+      "story_id": "story_e9767a317971",
+      "title": "适合使用人工智能的创意团队的最佳数字资产管理软件 / Best Digital Asset Management Software for Creative Teams Using AI",
+      "url": "https://lumalabs.ai/news/digital-asset-management-software-creative-teams",
+      "importance_score": 0.8298,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
       "story_id": "story_22833905baff",
       "title": "Hugging Face 教程：用 Qwen3-0.6B 训练四智能体集群学会通信 / Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
       "url": "https://huggingface.co/blog/training-swarms",
@@ -219,6 +232,28 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-23",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9bbc4281f819",
+      "title": "创意资产管理：团队如何组织数千个人工智能生成的资产 / Creative Asset Management: How Teams Organize Thousands of AI-Generated Assets",
+      "url": "https://lumalabs.ai/news/creative-asset-management",
+      "importance_score": 0.8286,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_9d4fa64e3194",
+      "title": "人工智能的品牌一致性：如何保持每个图像和视频的品牌一致性 / Brand Consistency With AI: How to Keep Every Image and Video on Brand",
+      "url": "https://lumalabs.ai/news/brand-consistency-with-ai",
+      "importance_score": 0.8277,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
       "company_topics": [],
       "lens_topics": []
     },
@@ -251,6 +286,28 @@
       "lens_topics": [
         "agent-ecosystem"
       ]
+    },
+    {
+      "story_id": "story_eebad56d499e",
+      "title": "如何使用人工智能创建品牌套件：字体、颜色、徽标和规则集中在一个地方 / How to Create a Brand Kit With AI: Fonts, Colors, Logos and Rules in One Place",
+      "url": "https://lumalabs.ai/news/create-brand-kit-with-ai",
+      "importance_score": 0.8264,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": []
+    },
+    {
+      "story_id": "story_d805a0dedfb6",
+      "title": "什么是品牌套件？合二为一，并举例说明 / What Is a Brand Kit? What Goes in One, With Examples",
+      "url": "https://lumalabs.ai/news/what-is-brand-kit",
+      "importance_score": 0.8248,
+      "importance_label": "官方更新",
+      "source_count": 1,
+      "archive_date": "2026-11-28",
+      "company_topics": [],
+      "lens_topics": []
     },
     {
       "story_id": "story_ea3f87ca002e",
@@ -375,17 +432,6 @@
       "importance_label": "官方更新",
       "source_count": 1,
       "archive_date": "2026-11-25",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_31de18f433fb",
-      "title": "容错如何支持可靠的人工智能工作流程 / How Fault Tolerance Supports Reliable AI Workflows",
-      "url": "https://blog.n8n.io/fault-tolerance",
-      "importance_score": 0.8151,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-28",
       "company_topics": [],
       "lens_topics": []
     },
@@ -521,57 +567,6 @@
         "product-entry",
         "agent-ecosystem"
       ]
-    },
-    {
-      "story_id": "story_cd7204045cb4",
-      "title": "以下是您不知道可以使用 Gemini Canvas 做的 4 件事。 / Here are 4 things you didn’t know you could do with Gemini Canvas.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
-      "importance_score": 0.8087,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-24",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_9aa3d4029e99",
-      "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录 / Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "importance_score": 0.8074,
-      "importance_label": "多源热议",
-      "source_count": 3,
-      "archive_date": "2026-11-26",
-      "company_topics": [],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_8c2aab0e28f2",
-      "title": "Gemini如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "importance_score": 0.8074,
-      "importance_label": "官方更新",
-      "source_count": 1,
-      "archive_date": "2026-11-25",
-      "company_topics": [
-        "google-gemini"
-      ],
-      "lens_topics": []
-    },
-    {
-      "story_id": "story_91d25aa0bb33",
-      "title": "OpenAI 提议以Perplexity度作为行业共享指标并公开内部预训练测量数据 / Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "importance_score": 0.805,
-      "importance_label": "官方更新",
-      "source_count": 2,
-      "archive_date": "2026-11-23",
-      "company_topics": [
-        "openai",
-        "perplexity"
-      ],
-      "lens_topics": []
     }
   ]
 }
